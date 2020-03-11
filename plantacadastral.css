@@ -1,0 +1,162 @@
+:root {
+    --base: #00bcd4;
+    --escuro: #333;
+    --claro: #e9e9e9;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.conteiner1 {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    min-height: 100%;
+}
+
+.mapa {
+    background-color: gray;
+    flex: 11;
+}
+
+.tabela {
+    background-color: yellowgreen;
+    flex: 3;
+}
+
+.conteiner0 {
+    display: flex;
+    flex: 1;
+}
+
+.logo {
+    background: var(--base);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+#brastitulo {
+    color: var(--claro);
+    text-shadow: 1px 1px 2px black;
+}
+
+.pesquisa {
+    background: var(--claro);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.botaopadrao {
+    background: var(--base);
+    align-items: center;
+    justify-content: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    height: 30px;
+    color: var(--claro);
+    text-shadow: 1px 1px 2px black;
+}
+
+.barraLateral {
+    height: 100%;
+    font-weight: bold;
+    width: 200px;
+    background-color: var(--claro);
+    position: relative;
+    z-index: 402;
+    display: flex;
+    top: 0;
+    left: 0;
+}
+
+.barraLateralEsconder {
+    display: flex;
+    font-weight: bold;
+    background-color: var(--claro);
+    position: absolute;
+    z-index: 402;
+    border: none;
+}
+
+@media (max-width: 550px) {
+    .logo {
+        display: none;
+    }
+    .mapa {
+        flex: 14;
+    }
+    .barraLateral.barraLateralColap {
+        display: none;
+    }
+}
+
+/* lista autocompletar */
+
+.ui-autocomplete {
+    height: 300px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+ul.ui-autocomplete {
+    z-index: 402;
+}
+
+.ui-accordion {
+    padding-top: 20px;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, .ui-button:active, .ui-state-active.ui-button:hover, .ui-state-active, .ui-state-hover, .ui-state-visited, .ui-state-focus {
+    border: none;
+}
+
+.tabulator {
+    font-size: 12px;
+    background: var(--claro);
+}
+
+.tabulator .tabulator-header .tabulator-col {
+    background: var(--base);
+    color: var(--claro);
+    text-shadow: 1px 1px 2px black;
+}
+
+.tabulator .tabulator-header {
+    border-bottom: 0px;
+}
+
+.tabulator .tabulator-header, .tabulator .tabulator-header .tabulator-col {
+    background-color: var(--base);
+}
+
+.leaflet-container {
+    background: #E6E6E6;
+}
+
+.leaflet-default-icon-path {
+    background-image: url(../images/marker-icon.png);
+}
+
+.leaflet-control-layers-toggle {
+    background-image: url(../images/layers.png);
+}
+
+.leaflet-retina .leaflet-control-layers-toggle {
+    background-image: url(../images/layers-2x.png);
+}
+
+.leaflet-control-draw-measure {
+    background-image: url(images/measure-control.png);
+}

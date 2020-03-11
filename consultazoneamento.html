@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Consulta Prévia - Secretaria de Desenvolvimento Urbano e Habitação - Itajaí-SC</title>
+    <link rel="icon" type="image/png" href="images/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link rel="stylesheet" href="lib/leaflet.css" />
+    <link rel="stylesheet" href="consultazoneamento.css" />
+    <script src="lib/leaflet.js"></script>
+    <script src="lib/jquery-3.4.1.min.js"></script>
+    <script src="lib/Control.Coordinates.js"></script>
+</head>
+<style>
+    @media print {
+        .no-print {
+            visibility: hidden;
+        }
+    }
+
+    #botaoimprimir {
+        position: absolute;
+        background-color: none;
+        font-size: 4mm;
+        font-weight: bold;
+    }
+</style>
+
+<body>
+    <button type="button" class="no-print" id="botaoimprimir">
+        <b>IMPRESSÃO/SALVAR PDF</b>
+    </button>
+    <img id="imgsvg" src="images/consultapreviaweb.png" alt="form">
+    <div class="obs" id='pautavias'></div>
+    <div class="mapa" id='mapa'></div>
+    <div class="obs" id='inscrimob'></div>
+    <div class="obs" id='endereco'></div>
+    <div class="obs" id='data'></div>
+    <div class="obs" id='reaeroporto'></div>
+    <div class="obs" id='redeptransito'></div>
+    <div class="obs" id='reambiental'></div>
+    <div class="obs" id='rerodovias'></div>
+
+    <script>
+        let mapa = new L.Map('mapa', {
+            zoom: 14,
+            minZoom: 12,
+            maxZoom: 19,
+            maxBounds: [
+                //south west
+                [-27.3000, -49.2300],
+                //north east
+                [-26.3285, -48.3200]
+            ],
+            center: new L.latLng([-26.9046, -48.6874]),
+            //zoomControl: false,
+            preferCanvas: true,
+            attributionControl: false,
+            scrollWheelZoom: false,
+            dragging: false
+        });
+
+        //Mapa base, SMU
+        let tilesmu = new L.TileLayer('tiles/basemap/{z}/{x}/{y}.png', {
+            minZoom: 12,
+            maxZoom: 19,
+            attribution: 'Município de Itajaí/SC, <a href="mailto:jaceguay@itajai.sc.gov.br?Subject=WebGIS" target="_top">SIE</a>'
+        }).addTo(mapa);
+
+        //Manchas zoneamento
+        $.getJSON("camadas/data/zon2012webtabela.geojson", (data) => {
+            L.geoJson(data, {
+                style: (feature) => {
+                    var corzona;
+                    cormz = feature.properties.abrevia;
+                    if (cormz === 'ZAP') corzona = "#ffc821";
+                    else if (cormz === 'ZAP (CCS1)') corzona = "#ffc821";
+                    else if (cormz === 'ZAP (CCS2)') corzona = "#ffc821";
+                    else if (cormz === 'ZC 1') corzona = "#917951";
+                    else if (cormz === 'ZC 1 (CCS2)') corzona = "#917951";
+                    else if (cormz === 'ZC 2') corzona = "#ff5765";
+                    else if (cormz === 'ZC 2 (CCS1)') corzona = "#ff5765";
+                    else if (cormz === 'ZC 2 (CCS2)') corzona = "#ff5765";
+                    else if (cormz === 'ZEA') corzona = "#7cc5ab";
+                    else if (cormz === 'ZEA (CCS1)') corzona = "#7cc5ab";
+                    else if (cormz === 'ZEA (CCS3)') corzona = "#7cc5ab";
+                    else if (cormz === 'ZEU') corzona = "#d4d4bc";
+                    else if (cormz === 'ZEU (CCS1)') corzona = "#d4d4bc";
+                    else if (cormz === 'ZEU (CCS2)') corzona = "#d4d4bc";
+                    else if (cormz === 'ZIP') corzona = "#c82d2d";
+                    else if (cormz === 'ZIP (CCS1)') corzona = "#c82d2d";
+                    else if (cormz === 'ZIP (CCS2)') corzona = "#c82d2d";
+                    else if (cormz === 'ZIT') corzona = "#caf5f5";
+                    else if (cormz === 'ZIT (CCS2)') corzona = "#caf5f5";
+                    else if (cormz === 'ZPA 1') corzona = "#468e57";
+                    else if (cormz === 'ZPA 1 (CCS1)') corzona = "#468e57";
+                    else if (cormz === 'ZPA 1 (CCS3)') corzona = "#468e57";
+                    else if (cormz === 'ZPA 2') corzona = "#11cd00";
+                    else if (cormz === 'ZPA 2 (CCS2)') corzona = "#11cd00";
+                    else if (cormz === 'ZPA 3') corzona = "#71b580";
+                    else if (cormz === 'ZPA 3 (CCS1)') corzona = "#71b580";
+                    else if (cormz === 'ZPA 3 (CCS2)') corzona = "#71b580";
+                    else if (cormz === 'ZPA 3 (CCS3)') corzona = "#71b580";
+                    else if (cormz === 'ZPN') corzona = "#83cada";
+                    else if (cormz === 'ZPN (CCS1)') corzona = "#83cada";
+                    else if (cormz === 'ZPN (CCS2)') corzona = "#83cada";
+                    else if (cormz === 'ZR') corzona = "#96b7ab";
+                    else if (cormz === 'ZR 1') corzona = "#7090d0";
+                    else if (cormz === 'ZR 1 (Q1)') corzona = "#7090d0";
+                    else if (cormz === 'ZR 1 (Q1)(CCS3)') corzona = "#7090d0";
+                    else if (cormz === 'ZR 1 (Q2)') corzona = "#7090d0";
+                    else if (cormz === 'ZR 1 (Q2)(CCS3)') corzona = "#7090d0";
+                    else if (cormz === 'ZR 1 (Q3)') corzona = "#7090d0";
+                    else if (cormz === 'ZR 1 (Q3)(CCS3)') corzona = "#7090d0";
+                    else if (cormz === 'ZR 2') corzona = "#b599da";
+                    else if (cormz === 'ZR 2 (Q1)') corzona = "#b599da";
+                    else if (cormz === 'ZR 2 (Q1)(CCS3)') corzona = "#b599da";
+                    else if (cormz === 'ZR 2 (Q2)') corzona = "#b599da";
+                    else if (cormz === 'ZR 2 (Q3)') corzona = "#b599da";
+                    else if (cormz === 'ZR 2 (Q3)(CCS3)') corzona = "#b599da";
+                    else if (cormz === 'ZR 3') corzona = "#da89bc";
+                    else if (cormz === 'ZR 3 (CCS1)') corzona = "#da89bc";
+                    else if (cormz === 'ZR 3 (CCS3)') corzona = "#da89bc";
+                    else if (cormz === 'ZSI') corzona = "#ff721b";
+                    else if (cormz === 'ZSI (CCS1)') corzona = "#ff721b";
+                    else if (cormz === 'ZSI (CCS2)') corzona = "#ff721b";
+                    else if (cormz === 'ZTRA') corzona = "#fdf5b0";
+                    else if (cormz === 'ZTRA (CCS1)') corzona = "#fdf5b0";
+                    else if (cormz === 'ZTRU') corzona = "#bfdb99";
+                    else if (cormz === 'ZTRU (CCS2)') corzona = "#bfdb99";
+                    else if (cormz === 'ZU 1') corzona = "#ef8242";
+                    else if (cormz === 'ZU 1 (CCS1)') corzona = "#ef8242";
+                    else if (cormz === 'ZU 1 (CCS2)') corzona = "#ef8242";
+                    else if (cormz === 'ZU 2') corzona = "#e9e9a8";
+                    else if (cormz === 'ZU 2 (CCS1)') corzona = "#e9e9a8";
+                    else if (cormz === 'ZU 2 (CCS2)') corzona = "#e9e9a8";
+                    else if (cormz === 'ZU 2 (CCS3)') corzona = "#e9e9a8";
+                    else if (cormz === 'ZU 2 (Artigo 80º)') corzona = "#e9e9a8";
+                    else if (cormz === 'ZU 3') corzona = "#ffff00";
+                    else if (cormz === 'ZU 3 (CCS1)') corzona = "#ffff00";
+                    else if (cormz === 'ZU 3 (CCS2)') corzona = "#ffff00";
+                    else if (cormz === 'ZU 4') corzona = "#deb239";
+                    else if (cormz === 'ZU 4 (CCS1)') corzona = "#deb239";
+                    else if (cormz === 'ZU 4 (CCS2)') corzona = "#deb239";
+                    else if (cormz === 'ZU 5') corzona = "#8c8a23";
+                    else if (cormz === 'ZU 5 (CCS1)') corzona = "#8c8a23";
+                    else if (cormz === 'ZU 5 (CCS2)') corzona = "#8c8a23";
+                    else corzona = "#fff";
+                    return { stroke: false, fillColor: corzona, fillOpacity: 0.4/* , interactive: false */ };
+                },
+                onEachFeature: (feature, layer) => {
+                    layer.bindTooltip('<strong>' + 'Zona: ' + feature.properties.abrevia + '</strong>' + '<br/>', { direction: "center", sticky: true })
+                }
+            }).addTo(mapa).bringToBack();
+        });
+
+        //sistema viário
+        //popup
+        let pesquisaQvias = L.featureGroup().addTo(mapa);
+        function pCestiloDestaqVia(e) {
+            pesquisaQvias.clearLayers();
+            L.geoJson(e.sourceTarget.feature, {
+                style: (feature) => {
+                    return {
+                        weight: 5,
+                        color: "#ffff00",
+                        dashArray: "30 10",
+                        opacity: 0.6,
+                        interactive: false
+                    };
+                }
+            }).addTo(pesquisaQvias).bringToFront();
+            $.getJSON(`data/sviario/exportTabela/${String(e.sourceTarget.feature.properties.cod)}.${String(e.sourceTarget.feature.properties.secao)}.geojson`, (data) => {
+                console.log(data);
+                L.popup()
+                    .setLatLng(e.latlng)
+                    .setContent(
+                        '<strong>' + data.properties.nome + '</strong></br>' +
+                        'Lei/data: ' + data.properties.leidata + '</br>' +
+                        'Cx.da via: ' + data.properties.ptotalvia + 'm' + ' - Passeios:' + data.properties.ppasseio1 + '/' + data.properties.ppasseio2 + 'm' + '</br>' +
+                        'Código: ' + data.properties.cod
+                    )
+                    .openOn(mapa);
+            });
+        };
+        //padrão
+        function inteVia(feature, layer) {
+            layer.on({
+                click: pCestiloDestaqVia
+            });
+        };
+
+        //vias
+        let plantaVias = L.featureGroup();
+        $.getJSON("data/sviarioGeom.geojson", (data) => {
+            L.geoJson(data, {
+                style: (feature) => {
+                    return {
+                        color: '#ffffff00',
+                        weight: 15
+                    };
+                },
+                onEachFeature: inteVia
+            }).addTo(mapa);
+        });
+
+        criarTabela = (dadosTabela, largura, textoTamanho) => {
+            let table = document.createElement('table');
+            //id da tabela
+            table.id = 'tabela';
+            //tamanho texto
+            table.style.fontSize = textoTamanho;
+            let tableBody = document.createElement('tbody');
+            dadosTabela.forEach((rowData) => {
+                let row = document.createElement('tr');
+                //largura coluna
+                row.style.width = largura;
+                rowData.forEach((cellData) => {
+                    let cell = document.createElement('td');
+                    //estiloborda
+                    cell.style.border = '0.1mm solid gray';
+                    //altura célula
+                    if (navigator.userAgent.toLowerCase().indexOf('firefox') > -1) {
+                        cell.style.height = '3.67mm';
+                    } else {
+                        cell.style.height = '4mm';
+                    };
+                    cell.appendChild(document.createTextNode(cellData));
+                    row.appendChild(cell);
+                });
+                tableBody.appendChild(row);
+            });
+            table.appendChild(tableBody);
+            document.body.appendChild(table);
+        };
+
+        /*
+        criarTabela(
+            dadosTabela = [
+                ["cell 1A", "cell 2A", "cell 3A", "cell 4A", "cell 5A", "cell 6A", "cell 7A", "cell 8A", "cell 9A", "cell 10A", "cell 11A", "cell 12A", "cell 13A", "cell 14A", "cell 15A", "cell 16A", "cell 17A", "cell 18A", "cell 19A", "cell 20A", "cell 21A", "cell 22A", "cell 23A", "cell 24A"],
+                ["cell 1A", "cell 2A", "cell 3A", "cell 4A", "cell 5A", "cell 6A", "cell 7A", "cell 8A", "cell 9A", "cell 10A", "cell 11A", "cell 12A", "cell 13A", "cell 14A", "cell 15A", "cell 16A", "cell 17A", "cell 18A", "cell 19A", "cell 20A", "cell 21A", "cell 22A", "cell 23A", "cell 24A"]
+            ],
+            largura = '50%',
+            textoTamanho = '3mm'
+        );
+        */
+
+        // Dados Hash
+        hashendereco = (dados) => {
+            $.getJSON(`data/divisaolotes/exportTabela/${String(dados[1].substring(0, 3))}/${dados[1]}.geojson`, (datalote) => {
+                if (datalote[0].properties.reaeroporto !== null && datalote[0].properties.reaeroporto.includes('s')) {
+                    document.getElementById("reaeroporto").innerHTML = 'X'
+                };
+                if (datalote[0].properties.redeptransito !== null && datalote[0].properties.redeptransito.includes('s')) {
+                    document.getElementById("redeptransito").innerHTML = 'X'
+                };
+                if (datalote[0].properties.zon2012.toString().search(/ZPA/) !== -1) {
+                    document.getElementById("reambiental").innerHTML = 'X'
+                };
+                if (datalote[0].properties.rerodovias !== null && datalote[0].properties.rerodovias.includes('s')) {
+                    document.getElementById("rerodovias").innerHTML = 'X'
+                };
+                if (datalote[0].properties.nomevcd !== null) {
+                    $.getJSON(`data/sviario/exportTabela/${String(datalote[0].properties.via1)}.${String(datalote[0].properties.viasecao)}.geojson`, (data) => {
+                        if (data.properties.ptotalvia == 0) {
+                            document.getElementById("pautavias").innerHTML = 'consultar Secretaria Municipal de Desenvolvimento Urbano e Habitação';
+                        } else {
+                            document.getElementById("pautavias").innerHTML = `${data.properties.nome} - Cx.da via: ${data.properties.ptotalvia}m - Passeios: ${data.properties.ppasseio1}/ ${data.properties.ppasseio2}m`;
+                        }
+                    });
+                };
+                document.getElementById("reambiental").innerHTML = 'X';
+                //MontarMapa
+                let plantaCadastralDestaque = L.featureGroup().addTo(mapa);
+                L.geoJson(datalote[0], {
+                    style: {
+                        weight: 5,
+                        color: '#666',
+                        dashArray: '',
+                        fillOpacity: 0.7,
+                        interactive: false
+                    }
+                }).addTo(plantaCadastralDestaque);
+                mapa.flyToBounds(plantaCadastralDestaque.getBounds(), {
+                    maxZoom: 19
+                });
+
+                //DadosGerais
+                document.getElementById("inscrimob").innerHTML = datalote[0].properties.ninscrao.toString().substring(0, 15);
+                document.getElementById("endereco").innerHTML = datalote[0].properties.nlogrado.toString() + ', ' + datalote[0].properties.nnumimov.toString() + ', ' + datalote[0].properties.nnomebai.toString();
+                let datahj = new Date();
+                var datahjFormatada = ("0" + datahj.getDate()).substr(-2) + "/"
+                    + ("0" + (datahj.getMonth() + 1)).substr(-2) + "/" + datahj.getFullYear();
+                document.getElementById("data").innerHTML = datahjFormatada.toString();
+
+                //MontarTabela
+                const zoneamento = [datalote[0].properties.zon2012.slice(1, -1).split(',')];
+                dadosTabelaB = [];
+
+                //Cálculo altura ZC 2|ZU 1,2 e 3
+                function alturaCalc(zonalt, zonasec) {
+                    //const calcalt = datalote[0].properties.zon2012;
+                    if (zonasec !== null && zonasec.toString().search(/ZC 2|ZU 1|ZU 2|ZU 3/) !== -1) {
+                        if (datalote[0].properties.zon2012alt === null) {
+                            return '45m'
+                        }
+                        else {
+                            return datalote[0].properties.zon2012alt
+                        }
+                    }
+                    else {
+                        return zonalt
+                    }
+                };
+
+                //zoneamento[0].forEach(addtabela);
+                if (zoneamento[0][0] !== undefined) {
+                    //zoneamento,Campo1
+                    $.getJSON("data/zoneamento/exportTabela/" + zoneamento[0][0].slice(1, -1) + ".geojson", (data) => {
+                        //restr.ambiental
+                        let tabdata1 = data.map((feicoes1) => {
+                            let zalturaCalc = alturaCalc(feicoes1.properties.alturamax, feicoes1.properties.abrevia);
+                            return [feicoes1.properties.abrevia, feicoes1.properties.h1, feicoes1.properties.h2, feicoes1.properties.cs1, feicoes1.properties.cs2, feicoes1.properties.cs3, feicoes1.properties.co, feicoes1.properties.i1, feicoes1.properties.i2, feicoes1.properties.i3, feicoes1.properties.i4, feicoes1.properties.cse, feicoes1.properties.lotemaxare, feicoes1.properties.lotemaxtes, feicoes1.properties.lotemaxpro, zalturaCalc, feicoes1.properties.alturaemb, feicoes1.properties.coefaprov, feicoes1.properties.toemb, feicoes1.properties.totorre, feicoes1.properties.permeab, feicoes1.properties.embrecfron, feicoes1.properties.embreclat, feicoes1.properties.embreclatc]
+                        });
+                        dadosTabelaB.push(tabdata1[0]);
+                        if (zoneamento[0][1] !== undefined) {
+                            //zoneamento,Campo2
+                            $.getJSON("data/zoneamento/exportTabela/" + zoneamento[0][1].slice(1, -1) + ".geojson", (data) => {
+                                let tabdata2 = data.map((feicoes2) => {
+                                    let zalturaCalc = alturaCalc(feicoes2.properties.alturamax, feicoes2.properties.abrevia);
+                                    return [feicoes2.properties.abrevia, feicoes2.properties.h1, feicoes2.properties.h2, feicoes2.properties.cs1, feicoes2.properties.cs2, feicoes2.properties.cs3, feicoes2.properties.co, feicoes2.properties.i1, feicoes2.properties.i2, feicoes2.properties.i3, feicoes2.properties.i4, feicoes2.properties.cse, feicoes2.properties.lotemaxare, feicoes2.properties.lotemaxtes, feicoes2.properties.lotemaxpro, zalturaCalc, feicoes2.properties.alturaemb, feicoes2.properties.coefaprov, feicoes2.properties.toemb, feicoes2.properties.totorre, feicoes2.properties.permeab, feicoes2.properties.embrecfron, feicoes2.properties.embreclat, feicoes2.properties.embreclatc]
+                                });
+                                dadosTabelaB.push(tabdata2[0]);
+                                if (zoneamento[0][2] !== undefined) {
+                                    //zoneamento,Campo3
+                                    $.getJSON("data/zoneamento/exportTabela/" + zoneamento[0][2].slice(1, -1) + ".geojson", (data) => {
+                                        let tabdata3 = data.map((feicoes3) => {
+                                            let zalturaCalc = alturaCalc(feicoes3.properties.alturamax, feicoes3.properties.abrevia);
+                                            return [feicoes3.properties.abrevia, feicoes3.properties.h1, feicoes3.properties.h2, feicoes3.properties.cs1, feicoes3.properties.cs2, feicoes3.properties.cs3, feicoes3.properties.co, feicoes3.properties.i1, feicoes3.properties.i2, feicoes3.properties.i3, feicoes3.properties.i4, feicoes3.properties.cse, feicoes3.properties.lotemaxare, feicoes3.properties.lotemaxtes, feicoes3.properties.lotemaxpro, zalturaCalc, feicoes3.properties.alturaemb, feicoes3.properties.coefaprov, feicoes3.properties.toemb, feicoes3.properties.totorre, feicoes3.properties.permeab, feicoes3.properties.embrecfron, feicoes3.properties.embreclat, feicoes3.properties.embreclatc]
+                                        });
+                                        dadosTabelaB.push(tabdata3[0]);
+                                        if (zoneamento[0][3] !== undefined) {
+                                            //zoneamento,Campo4
+                                            $.getJSON("data/zoneamento/exportTabela/" + zoneamento[0][3].slice(1, -1) + ".geojson", (data) => {
+                                                let tabdata4 = data.map((feicoes4) => {
+                                                    let zalturaCalc = alturaCalc(feicoes4.properties.alturamax, feicoes4.properties.abrevia);
+                                                    return [feicoes4.properties.abrevia, feicoes4.properties.h1, feicoes4.properties.h2, feicoes4.properties.cs1, feicoes4.properties.cs2, feicoes4.properties.cs3, feicoes4.properties.co, feicoes4.properties.i1, feicoes4.properties.i2, feicoes4.properties.i3, feicoes4.properties.i4, feicoes4.properties.cse, feicoes4.properties.lotemaxare, feicoes4.properties.lotemaxtes, feicoes4.properties.lotemaxpro, zalturaCalc, feicoes4.properties.alturaemb, feicoes4.properties.coefaprov, feicoes4.properties.toemb, feicoes4.properties.totorre, feicoes4.properties.permeab, feicoes4.properties.embrecfron, feicoes4.properties.embreclat, feicoes4.properties.embreclatc]
+                                                });
+                                                dadosTabelaB.push(tabdata4[0]);
+                                                if (zoneamento[0][4] !== undefined) {
+                                                    //zoneamento,Campo5
+                                                    $.getJSON("data/zoneamento/exportTabela/" + zoneamento[0][4].slice(1, -1) + ".geojson", (data) => {
+                                                        let tabdata5 = data.map((feicoes5) => {
+                                                            let zalturaCalc = alturaCalc(feicoes5.properties.alturamax, feicoes5.properties.abrevia);
+                                                            return [feicoes5.properties.abrevia, feicoes5.properties.h1, feicoes5.properties.h2, feicoes5.properties.cs1, feicoes5.properties.cs2, feicoes5.properties.cs3, feicoes5.properties.co, feicoes5.properties.i1, feicoes5.properties.i2, feicoes5.properties.i3, feicoes5.properties.i4, feicoes5.properties.cse, feicoes5.properties.lotemaxare, feicoes5.properties.lotemaxtes, feicoes5.properties.lotemaxpro, zalturaCalc, feicoes5.properties.alturaemb, feicoes5.properties.coefaprov, feicoes5.properties.toemb, feicoes5.properties.totorre, feicoes5.properties.permeab, feicoes5.properties.embrecfron, feicoes5.properties.embreclat, feicoes5.properties.embreclatc]
+                                                        });
+                                                        dadosTabelaB.push(tabdata5[0]);
+                                                    });
+                                                } else { criarTabela(dadosTabelaB, '25%', '2.3mm') };// campo5
+                                            });
+                                        } else { criarTabela(dadosTabelaB, '33.3333%', '2.3mm') };// campo4
+                                    });
+                                } else { criarTabela(dadosTabelaB, '50%', '2.3mm') };// campo3
+                            });
+                        } else { criarTabela(dadosTabelaB, '100%', '2.3mm') };// campo2
+                    });
+                } else { console.log('erro') };// campo1
+            });
+        };
+        if (window.location.hash.length > 1) {
+            hashendereco(window.location.hash.split('#'));
+        } else {
+            alert('http://plantacadastral.itajai.sc.gov.br/')
+        };
+
+        $('#botaoimprimir').click(function () {
+            window.print();
+        });
+    </script>
+</body>
+
+</html>
