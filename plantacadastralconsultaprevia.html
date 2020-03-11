@@ -485,7 +485,7 @@
         let plantaindice = [];
         $.getJSON("data/artic.json", (data) => {
             mapa.on('moveend', () => {
-                if (mapa.getZoom() >= 18) {
+                if (mapa.getZoom() >= 17) {
                     let filtradoobj = data
                         .filter((e) => {
                             return mapa.getBounds().intersects(L.latLngBounds(e.sw, e.ne)) === true
@@ -556,7 +556,7 @@
 
         //visibilidade da planta cadastral e sistema viário
         mapa.on('zoomend', () => {
-            if (mapa.getZoom() < 18) {
+            if (mapa.getZoom() < 17) {
                 mapa.removeLayer(plantaCadastral);
                 mapa.removeLayer(plantaVias);
             } else {
