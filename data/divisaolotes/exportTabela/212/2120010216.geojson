@@ -51,20 +51,20 @@
       ]
     },
     "properties": {
-      "ninscrao": "212.001.03.0216.0002.000",
-      "ncodimov": "14137",
+      "ninscrao": "212.001.03.0216.0005.000",
+      "ncodimov": "14140",
       "nrazaoso": "PEDRO BENUR BOHRER",
       "nlogrado": "STRINGARI",
       "nnumimov": "736",
-      "ncomplem": "SALA 3",
+      "ncomplem": null,
       "nnomebai": "SAO JOAO",
-      "ntestapr": "23.2",
-      "nmfundos": "22",
+      "ntestapr": null,
+      "nmfundos": null,
       "nareater": "510.4",
       "nmatricu": null,
       "ncodcont": "12232",
       "nfracaoi": "25",
-      "ntipopes": "Física",
+      "ntipopes": null,
       "inscrlig": "2120010216",
       "zon2012": "{\"ZU 2 (CCS2)\"}",
       "zon2012alt": null,
@@ -78,19 +78,9 @@
   },
   {
     "properties": {
-      "ncodimov": "14138",
-      "nrazaoso": "PEDRO BENUR BOHRER",
-      "ntipopes": "Física",
-      "ncodcont": "12232",
-      "ncomplem": "SALA 2",
-      "nfracaoi": "25"
-    }
-  },
-  {
-    "properties": {
       "ncodimov": "14139",
       "nrazaoso": "PEDRO BENUR BOHRER",
-      "ntipopes": "Física",
+      "ntipopes": null,
       "ncodcont": "12232",
       "ncomplem": "SALA 1",
       "nfracaoi": "25"
@@ -98,22 +88,32 @@
   },
   {
     "properties": {
-      "ncodimov": "14136",
+      "ncodimov": "14138",
       "nrazaoso": "PEDRO BENUR BOHRER",
-      "ntipopes": "Física",
+      "ntipopes": null,
       "ncodcont": "12232",
-      "ncomplem": "SALA 4",
-      "nfracaoi": "100"
+      "ncomplem": "SALA 2",
+      "nfracaoi": "25"
     }
   },
   {
     "properties": {
-      "ncodimov": "14140",
+      "ncodimov": "14137",
       "nrazaoso": "PEDRO BENUR BOHRER",
-      "ntipopes": "Física",
+      "ntipopes": null,
       "ncodcont": "12232",
-      "ncomplem": null,
+      "ncomplem": "SALA 3",
       "nfracaoi": "25"
+    }
+  },
+  {
+    "properties": {
+      "ncodimov": "14136",
+      "nrazaoso": "PEDRO BENUR BOHRER",
+      "ntipopes": null,
+      "ncodcont": "12232",
+      "ncomplem": "SALA 4",
+      "nfracaoi": "100"
     }
   }
 ]

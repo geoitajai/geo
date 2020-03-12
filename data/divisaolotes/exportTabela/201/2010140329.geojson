@@ -47,20 +47,20 @@
       ]
     },
     "properties": {
-      "ninscrao": "201.014.04.0329.0004.000",
-      "ncodimov": "302",
+      "ninscrao": "201.014.04.0329.0001.000",
+      "ncodimov": "299",
       "nrazaoso": "ADUCCI CORREIA",
       "nlogrado": "LAURO MULLER",
-      "nnumimov": "26",
-      "ncomplem": "APTO 00026",
+      "nnumimov": "30",
+      "ncomplem": null,
       "nnomebai": "CENTRO",
-      "ntestapr": "12.7",
-      "nmfundos": "42",
+      "ntestapr": null,
+      "nmfundos": null,
       "nareater": "533.4",
       "nmatricu": null,
       "ncodcont": "255",
       "nfracaoi": "20",
-      "ntipopes": "Física",
+      "ntipopes": null,
       "inscrlig": "2010140329",
       "zon2012": "{\"ZC 2 (CCS2)\"}",
       "zon2012alt": "79,2m                                                                           ",
@@ -74,29 +74,9 @@
   },
   {
     "properties": {
-      "ncodimov": "300",
-      "nrazaoso": "ADUCCI CORREIA",
-      "ntipopes": "Física",
-      "ncodcont": "255",
-      "ncomplem": "APTO 00034",
-      "nfracaoi": "20"
-    }
-  },
-  {
-    "properties": {
-      "ncodimov": "303",
-      "nrazaoso": "ADUCCI CORREIA",
-      "ntipopes": "Física",
-      "ncodcont": "255",
-      "ncomplem": "APTO 00026",
-      "nfracaoi": "20"
-    }
-  },
-  {
-    "properties": {
       "ncodimov": "301",
       "nrazaoso": "ADUCCI CORREIA",
-      "ntipopes": "Física",
+      "ntipopes": null,
       "ncodcont": "255",
       "ncomplem": "APTO 00030",
       "nfracaoi": "20"
@@ -104,11 +84,31 @@
   },
   {
     "properties": {
-      "ncodimov": "299",
+      "ncodimov": "302",
       "nrazaoso": "ADUCCI CORREIA",
-      "ntipopes": "Física",
+      "ntipopes": null,
       "ncodcont": "255",
-      "ncomplem": null,
+      "ncomplem": "APTO 00026",
+      "nfracaoi": "20"
+    }
+  },
+  {
+    "properties": {
+      "ncodimov": "303",
+      "nrazaoso": "ADUCCI CORREIA",
+      "ntipopes": null,
+      "ncodcont": "255",
+      "ncomplem": "APTO 00026",
+      "nfracaoi": "20"
+    }
+  },
+  {
+    "properties": {
+      "ncodimov": "300",
+      "nrazaoso": "ADUCCI CORREIA",
+      "ntipopes": null,
+      "ncodcont": "255",
+      "ncomplem": "APTO 00034",
       "nfracaoi": "20"
     }
   }

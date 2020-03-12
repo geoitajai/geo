@@ -39,20 +39,20 @@
       ]
     },
     "properties": {
-      "ninscrao": "201.058.04.0949.0001.000",
-      "ncodimov": "2191",
-      "nrazaoso": "BRASILICIA DELURDES SOUSA",
+      "ninscrao": "201.058.04.0949.0003.000",
+      "ncodimov": "45504",
+      "nrazaoso": "ALDO ANDRE BATISTA E OUTRO",
       "nlogrado": "R.HEITOR LIBERATO",
       "nnumimov": "735",
-      "ncomplem": "SALA 1",
+      "ncomplem": "APTO 02",
       "nnomebai": "CENTRO",
-      "ntestapr": "30",
-      "nmfundos": "9.6",
+      "ntestapr": null,
+      "nmfundos": null,
       "nareater": "288",
       "nmatricu": null,
-      "ncodcont": "29885",
+      "ncodcont": "29886",
       "nfracaoi": "25",
-      "ntipopes": "Física",
+      "ntipopes": null,
       "inscrlig": "2010580949",
       "zon2012": "{\"ZC 2 (CCS1)\"}",
       "zon2012alt": "105m                                                                            ",
@@ -66,11 +66,21 @@
   },
   {
     "properties": {
-      "ncodimov": "45504",
+      "ncodimov": "45505",
       "nrazaoso": "ALDO ANDRE BATISTA E OUTRO",
-      "ntipopes": "Física",
-      "ncodcont": "29886",
-      "ncomplem": "APTO 02",
+      "ntipopes": null,
+      "ncodcont": "29887",
+      "ncomplem": "SALA 2",
+      "nfracaoi": "25"
+    }
+  },
+  {
+    "properties": {
+      "ncodimov": "2191",
+      "nrazaoso": "BRASILICIA DELURDES SOUSA",
+      "ntipopes": null,
+      "ncodcont": "29885",
+      "ncomplem": "SALA 1",
       "nfracaoi": "25"
     }
   },
@@ -78,19 +88,9 @@
     "properties": {
       "ncodimov": "45503",
       "nrazaoso": "BRASILICIA DELURDES SOUSA",
-      "ntipopes": "Física",
+      "ntipopes": null,
       "ncodcont": "29885",
       "ncomplem": "APTO 1",
-      "nfracaoi": "25"
-    }
-  },
-  {
-    "properties": {
-      "ncodimov": "45505",
-      "nrazaoso": "ALDO ANDRE BATISTA E OUTRO",
-      "ntipopes": "Física",
-      "ncodcont": "29887",
-      "ncomplem": "SALA 2",
       "nfracaoi": "25"
     }
   }

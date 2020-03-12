@@ -70,13 +70,13 @@
       "nnumimov": "23",
       "ncomplem": "APTO 01",
       "nnomebai": "SAO VICENTE",
-      "ntestapr": "23.8",
-      "nmfundos": "11.88",
+      "ntestapr": null,
+      "nmfundos": null,
       "nareater": "282.74",
-      "nmatricu": "53.408",
+      "nmatricu": null,
       "ncodcont": "188705",
       "nfracaoi": "25",
-      "ntipopes": "Física",
+      "ntipopes": null,
       "inscrlig": "0050231355",
       "zon2012": "{\"ZU 3 (CCS1)\"}",
       "zon2012alt": "55m                                                                             ",
@@ -90,9 +90,19 @@
   },
   {
     "properties": {
+      "ncodimov": "768339",
+      "nrazaoso": "CLAUDIO JOSE DE SENNA",
+      "ntipopes": null,
+      "ncodcont": "188705",
+      "ncomplem": "SALA 05",
+      "nfracaoi": "25"
+    }
+  },
+  {
+    "properties": {
       "ncodimov": "768336",
       "nrazaoso": "CLAUDIO JOSE DE SENNA",
-      "ntipopes": "Física",
+      "ntipopes": null,
       "ncodcont": "188705",
       "ncomplem": "APTO 02",
       "nfracaoi": "25"
@@ -102,7 +112,7 @@
     "properties": {
       "ncodimov": "768341",
       "nrazaoso": "CLAUDIO JOSE DE SENNA",
-      "ntipopes": "Física",
+      "ntipopes": null,
       "ncodcont": "188705",
       "ncomplem": "SALA 02",
       "nfracaoi": "25"
@@ -110,39 +120,9 @@
   },
   {
     "properties": {
-      "ncodimov": "768339",
-      "nrazaoso": "CLAUDIO JOSE DE SENNA",
-      "ntipopes": "Física",
-      "ncodcont": "188705",
-      "ncomplem": "SALA 05",
-      "nfracaoi": "25"
-    }
-  },
-  {
-    "properties": {
-      "ncodimov": "38027",
-      "nrazaoso": "CLAUDIO JOSE DE SENNA",
-      "ntipopes": "Física",
-      "ncodcont": "188705",
-      "ncomplem": "SALA 04",
-      "nfracaoi": "25"
-    }
-  },
-  {
-    "properties": {
-      "ncodimov": "768342",
-      "nrazaoso": "CLAUDIO JOSE DE SENNA",
-      "ntipopes": "Física",
-      "ncodcont": "188705",
-      "ncomplem": "SALA 01",
-      "nfracaoi": "25"
-    }
-  },
-  {
-    "properties": {
       "ncodimov": "768340",
       "nrazaoso": "CLAUDIO JOSE DE SENNA",
-      "ntipopes": "Física",
+      "ntipopes": null,
       "ncodcont": "188705",
       "ncomplem": "SALA 03",
       "nfracaoi": "25"
@@ -152,9 +132,29 @@
     "properties": {
       "ncodimov": "768338",
       "nrazaoso": "CLAUDIO JOSE DE SENNA",
-      "ntipopes": "Física",
+      "ntipopes": null,
       "ncodcont": "188705",
       "ncomplem": "SALA 06",
+      "nfracaoi": "25"
+    }
+  },
+  {
+    "properties": {
+      "ncodimov": "38027",
+      "nrazaoso": "CLAUDIO JOSE DE SENNA",
+      "ntipopes": null,
+      "ncodcont": "188705",
+      "ncomplem": "SALA 04",
+      "nfracaoi": "25"
+    }
+  },
+  {
+    "properties": {
+      "ncodimov": "768342",
+      "nrazaoso": "CLAUDIO JOSE DE SENNA",
+      "ntipopes": null,
+      "ncodcont": "188705",
+      "ncomplem": "SALA 01",
       "nfracaoi": "25"
     }
   }

@@ -35,20 +35,20 @@
       ]
     },
     "properties": {
-      "ninscrao": "201.076.01.0200.0002.000",
-      "ncodimov": "753057",
+      "ninscrao": "201.076.01.0200.0001.000",
+      "ncodimov": "753056",
       "nrazaoso": "LUIZ CARLOS CORREA",
       "nlogrado": "AV.VEREADOR ABRAHAO JOAO FRANCISCO",
       "nnumimov": "1000",
-      "ncomplem": "APTO 00101",
+      "ncomplem": null,
       "nnomebai": "CENTRO",
-      "ntestapr": "21.62",
-      "nmfundos": "13",
+      "ntestapr": null,
+      "nmfundos": null,
       "nareater": "281.06",
       "nmatricu": null,
       "ncodcont": "34040",
       "nfracaoi": "20",
-      "ntipopes": "Física",
+      "ntipopes": null,
       "inscrlig": "2010760200",
       "zon2012": "{\"ZC 2 (CCS1)\"}",
       "zon2012alt": "105m                                                                            ",
@@ -62,29 +62,9 @@
   },
   {
     "properties": {
-      "ncodimov": "753060",
-      "nrazaoso": "LUIZ CARLOS CORREA",
-      "ntipopes": "Física",
-      "ncodcont": "34040",
-      "ncomplem": "APTO 00202",
-      "nfracaoi": "20"
-    }
-  },
-  {
-    "properties": {
-      "ncodimov": "753058",
-      "nrazaoso": "LUIZ CARLOS CORREA",
-      "ntipopes": "Física",
-      "ncodcont": "34040",
-      "ncomplem": "APTO 00102",
-      "nfracaoi": "20"
-    }
-  },
-  {
-    "properties": {
       "ncodimov": "753059",
       "nrazaoso": "LUIZ CARLOS CORREA",
-      "ntipopes": "Física",
+      "ntipopes": null,
       "ncodcont": "34040",
       "ncomplem": "APTO 00201",
       "nfracaoi": "20"
@@ -92,11 +72,31 @@
   },
   {
     "properties": {
-      "ncodimov": "753056",
+      "ncodimov": "753057",
       "nrazaoso": "LUIZ CARLOS CORREA",
-      "ntipopes": "Física",
+      "ntipopes": null,
       "ncodcont": "34040",
-      "ncomplem": null,
+      "ncomplem": "APTO 00101",
+      "nfracaoi": "20"
+    }
+  },
+  {
+    "properties": {
+      "ncodimov": "753058",
+      "nrazaoso": "LUIZ CARLOS CORREA",
+      "ntipopes": null,
+      "ncodcont": "34040",
+      "ncomplem": "APTO 00102",
+      "nfracaoi": "20"
+    }
+  },
+  {
+    "properties": {
+      "ncodimov": "753060",
+      "nrazaoso": "LUIZ CARLOS CORREA",
+      "ntipopes": null,
+      "ncodcont": "34040",
+      "ncomplem": "APTO 00202",
       "nfracaoi": "20"
     }
   }

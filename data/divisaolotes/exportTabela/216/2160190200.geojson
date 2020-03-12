@@ -98,13 +98,13 @@
       "nnumimov": "1732",
       "ncomplem": "CASA",
       "nnomebai": "ITAIPAVA",
-      "ntestapr": "180",
-      "nmfundos": "200",
+      "ntestapr": null,
+      "nmfundos": null,
       "nareater": "36000",
       "nmatricu": null,
       "ncodcont": "204774",
       "nfracaoi": "3.3333",
-      "ntipopes": "Física",
+      "ntipopes": null,
       "inscrlig": "2160190200",
       "zon2012": "{\"ZPA 3\",\"ZU 4 (CCS2)\"}",
       "zon2012alt": null,
@@ -120,7 +120,7 @@
     "properties": {
       "ncodimov": "758058",
       "nrazaoso": "EUCLIDES LEGAL",
-      "ntipopes": "Física",
+      "ntipopes": null,
       "ncodcont": "204774",
       "ncomplem": "SL GRANDE",
       "nfracaoi": "3.3333"
@@ -130,9 +130,19 @@
     "properties": {
       "ncodimov": "758055",
       "nrazaoso": "EUCLIDES LEGAL",
-      "ntipopes": "Física",
+      "ntipopes": null,
       "ncodcont": "204774",
       "ncomplem": null,
+      "nfracaoi": "0.8333"
+    }
+  },
+  {
+    "properties": {
+      "ncodimov": "758056",
+      "nrazaoso": "EUCLIDES LEGAL",
+      "ntipopes": null,
+      "ncodcont": "204774",
+      "ncomplem": "SL PEQUENA",
       "nfracaoi": "0.8333"
     }
   },
@@ -140,20 +150,10 @@
     "properties": {
       "ncodimov": "762213",
       "nrazaoso": "EUCLIDES LEGAL",
-      "ntipopes": "Física",
+      "ntipopes": null,
       "ncodcont": "204774",
       "ncomplem": null,
       "nfracaoi": "88"
-    }
-  },
-  {
-    "properties": {
-      "ncodimov": "758056",
-      "nrazaoso": "EUCLIDES LEGAL",
-      "ntipopes": "Física",
-      "ncodcont": "204774",
-      "ncomplem": "SL PEQUENA",
-      "nfracaoi": "0.8333"
     }
   }
 ]

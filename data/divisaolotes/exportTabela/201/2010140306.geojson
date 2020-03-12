@@ -67,20 +67,20 @@
       ]
     },
     "properties": {
-      "ninscrao": "201.014.01.0306.0009.000",
-      "ncodimov": "294",
+      "ninscrao": "201.014.01.0306.0001.000",
+      "ncodimov": "286",
       "nrazaoso": "SILVIA MARIA DE MIRANDA PEREIRA",
       "nlogrado": "HERCILIO LUZ",
-      "nnumimov": "147",
-      "ncomplem": null,
+      "nnumimov": "125",
+      "ncomplem": "FARMACIA",
       "nnomebai": "CENTRO",
-      "ntestapr": "42.9",
-      "nmfundos": "11",
+      "ntestapr": null,
+      "nmfundos": null,
       "nareater": "471.9",
       "nmatricu": null,
       "ncodcont": "248",
       "nfracaoi": "9.1",
-      "ntipopes": "Física",
+      "ntipopes": null,
       "inscrlig": "2010140306",
       "zon2012": "{\"ZC 2 (CCS2)\"}",
       "zon2012alt": "79,2m                                                                           ",
@@ -94,49 +94,9 @@
   },
   {
     "properties": {
-      "ncodimov": "289",
-      "nrazaoso": "SILVIA MARIA DE MIRANDA PEREIRA",
-      "ntipopes": "Física",
-      "ncodcont": "248",
-      "ncomplem": "AGASSI",
-      "nfracaoi": "9.1"
-    }
-  },
-  {
-    "properties": {
-      "ncodimov": "296",
-      "nrazaoso": "SILVIA MARIA DE MIRANDA PEREIRA",
-      "ntipopes": "Física",
-      "ncodcont": "248",
-      "ncomplem": "APTO 4",
-      "nfracaoi": "9.1"
-    }
-  },
-  {
-    "properties": {
-      "ncodimov": "288",
-      "nrazaoso": "SILVIA MARIA DE MIRANDA PEREIRA",
-      "ntipopes": "Física",
-      "ncodcont": "248",
-      "ncomplem": null,
-      "nfracaoi": "9.1"
-    }
-  },
-  {
-    "properties": {
-      "ncodimov": "286",
-      "nrazaoso": "SILVIA MARIA DE MIRANDA PEREIRA",
-      "ntipopes": "Física",
-      "ncodcont": "248",
-      "ncomplem": "FARMACIA",
-      "nfracaoi": "9.1"
-    }
-  },
-  {
-    "properties": {
       "ncodimov": "287",
       "nrazaoso": "SILVIA MARIA DE MIRANDA PEREIRA",
-      "ntipopes": "Física",
+      "ntipopes": null,
       "ncodcont": "248",
       "ncomplem": "ARMAZEM",
       "nfracaoi": "9.1"
@@ -144,29 +104,9 @@
   },
   {
     "properties": {
-      "ncodimov": "290",
+      "ncodimov": "288",
       "nrazaoso": "SILVIA MARIA DE MIRANDA PEREIRA",
-      "ntipopes": "Física",
-      "ncodcont": "248",
-      "ncomplem": "1/2 LIMA",
-      "nfracaoi": "9.1"
-    }
-  },
-  {
-    "properties": {
-      "ncodimov": "295",
-      "nrazaoso": "SILVIA MARIA DE MIRANDA PEREIRA",
-      "ntipopes": "Física",
-      "ncodcont": "248",
-      "ncomplem": "APTO 3",
-      "nfracaoi": "9.1"
-    }
-  },
-  {
-    "properties": {
-      "ncodimov": "292",
-      "nrazaoso": "SILVIA MARIA DE MIRANDA PEREIRA",
-      "ntipopes": "Física",
+      "ntipopes": null,
       "ncodcont": "248",
       "ncomplem": null,
       "nfracaoi": "9.1"
@@ -174,9 +114,29 @@
   },
   {
     "properties": {
+      "ncodimov": "289",
+      "nrazaoso": "SILVIA MARIA DE MIRANDA PEREIRA",
+      "ntipopes": null,
+      "ncodcont": "248",
+      "ncomplem": "AGASSI",
+      "nfracaoi": "9.1"
+    }
+  },
+  {
+    "properties": {
       "ncodimov": "293",
       "nrazaoso": "SILVIA MARIA DE MIRANDA PEREIRA",
-      "ntipopes": "Física",
+      "ntipopes": null,
+      "ncodcont": "248",
+      "ncomplem": null,
+      "nfracaoi": "9.1"
+    }
+  },
+  {
+    "properties": {
+      "ncodimov": "294",
+      "nrazaoso": "SILVIA MARIA DE MIRANDA PEREIRA",
+      "ntipopes": null,
       "ncodcont": "248",
       "ncomplem": null,
       "nfracaoi": "9.1"
@@ -186,9 +146,49 @@
     "properties": {
       "ncodimov": "291",
       "nrazaoso": "SILVIA MARIA DE MIRANDA PEREIRA",
-      "ntipopes": "Física",
+      "ntipopes": null,
       "ncodcont": "248",
       "ncomplem": "SAPATARIA",
+      "nfracaoi": "9.1"
+    }
+  },
+  {
+    "properties": {
+      "ncodimov": "296",
+      "nrazaoso": "SILVIA MARIA DE MIRANDA PEREIRA",
+      "ntipopes": null,
+      "ncodcont": "248",
+      "ncomplem": "APTO 4",
+      "nfracaoi": "9.1"
+    }
+  },
+  {
+    "properties": {
+      "ncodimov": "292",
+      "nrazaoso": "SILVIA MARIA DE MIRANDA PEREIRA",
+      "ntipopes": null,
+      "ncodcont": "248",
+      "ncomplem": null,
+      "nfracaoi": "9.1"
+    }
+  },
+  {
+    "properties": {
+      "ncodimov": "295",
+      "nrazaoso": "SILVIA MARIA DE MIRANDA PEREIRA",
+      "ntipopes": null,
+      "ncodcont": "248",
+      "ncomplem": "APTO 3",
+      "nfracaoi": "9.1"
+    }
+  },
+  {
+    "properties": {
+      "ncodimov": "290",
+      "nrazaoso": "SILVIA MARIA DE MIRANDA PEREIRA",
+      "ntipopes": null,
+      "ncodcont": "248",
+      "ncomplem": "1/2 LIMA",
       "nfracaoi": "9.1"
     }
   }
