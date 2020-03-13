@@ -1,15 +1,13 @@
 [
   {
     "type": "Feature",
-    "id": "zoneamento2012ccstabela.115",
-    "geometry": null,
     "properties": {
       "id": 115,
       "abrevia": "ZPA 2 (CCS2)",
-      "permitidos": "(H 1), (CO), (CS 1-2), (I 1-2-3)",
-      "permissiv": "(CS 3-E-CSM), (I 2-3)",
+      "permitidos": "(H 1), (CO), (CS 1), (I 1)",
+      "permissiv": "(CS E-CSM), (I 2)",
       "alturamax": "2 pavimentos",
-      "alturaemb": "16,40m",
+      "alturaemb": "2 pavimentos",
       "coefaprov": "0,5",
       "toemb": "20%",
       "totorre": "-",
@@ -21,17 +19,18 @@
       "lotemaxtes": "20m",
       "lotemaxpro": "50m",
       "recuoftorr": "TORRE: RECUO FRONTAL<br/>-<br/><br/>TORRE: RECUO LATERAL E FUNDOS<br/>-",
-      "h1": "permitido           ",
-      "h2": "proibido            ",
-      "cs1": "permitido           ",
-      "cs2": "permitido           ",
-      "cs3": "permissível         ",
-      "co": "permitido           ",
-      "i1": "permitido           ",
-      "i2": "permitido           ",
-      "i3": "permitido           ",
-      "i4": "proibido            ",
-      "cse": "permissível         "
-    }
+      "h1": "permitido",
+      "h2": "proibido",
+      "cs1": "permitido",
+      "cs2": "proibido",
+      "cs3": "proibido",
+      "co": "permitido",
+      "i1": "permitido",
+      "i2": "permissível",
+      "i3": "proibido",
+      "i4": "proibido",
+      "cse": "permissível"
+    },
+    "geometry": null
   }
 ]
