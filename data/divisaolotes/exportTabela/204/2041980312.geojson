@@ -238,52 +238,22 @@
       "nfracaoi": "5.88235",
       "ntipopes": null,
       "inscrlig": "2041980312",
-      "zon2012": "{\"ZPA 1\",\"ZU 2\"}",
-      "zon2012alt": null,
-      "reaeroporto": "s",
-      "redeptransito": null,
-      "reambiental": null,
-      "rerodovias": null,
+      "zon2012": "conflito",
+      "zon2012alt": "conflito",
+      "reaeroporto": "conflito",
+      "redeptransito": "conflito",
+      "reambiental": "conflito",
+      "rerodovias": "conflito",
       "via1": 269,
       "viasecao": 1
     }
   },
   {
     "properties": {
-      "ncodimov": "10811",
-      "nrazaoso": "BERTOLINO BISPO DA SILVA",
+      "ncodimov": "10796",
+      "nrazaoso": "ALAIDE OLINDA NUNES",
       "ntipopes": null,
-      "ncodcont": "9290",
-      "ncomplem": null,
-      "nfracaoi": "5.88235"
-    }
-  },
-  {
-    "properties": {
-      "ncodimov": "10809",
-      "nrazaoso": "JOAO ROSELINO SAGAZ",
-      "ntipopes": null,
-      "ncodcont": "9288",
-      "ncomplem": null,
-      "nfracaoi": "5.88235"
-    }
-  },
-  {
-    "properties": {
-      "ncodimov": "10805",
-      "nrazaoso": "ANTONIO GOMES",
-      "ntipopes": null,
-      "ncodcont": "9284",
-      "ncomplem": null,
-      "nfracaoi": "5.88235"
-    }
-  },
-  {
-    "properties": {
-      "ncodimov": "10808",
-      "nrazaoso": "JURANDIR GREGORIO DA SILVEIRA",
-      "ntipopes": null,
-      "ncodcont": "9287",
+      "ncodcont": "9276",
       "ncomplem": null,
       "nfracaoi": "5.88235"
     }
@@ -300,50 +270,10 @@
   },
   {
     "properties": {
-      "ncodimov": "10810",
-      "nrazaoso": "CARLOS ALBERTO RIBEIRO",
+      "ncodimov": "10800",
+      "nrazaoso": "FRANCISCO SOARES",
       "ntipopes": null,
-      "ncodcont": "9289",
-      "ncomplem": null,
-      "nfracaoi": "5.88235"
-    }
-  },
-  {
-    "properties": {
-      "ncodimov": "10804",
-      "nrazaoso": "MARIA DA GRACA",
-      "ntipopes": null,
-      "ncodcont": "9283",
-      "ncomplem": null,
-      "nfracaoi": "5.88235"
-    }
-  },
-  {
-    "properties": {
-      "ncodimov": "10802",
-      "nrazaoso": "AUGUSTA CUNHA",
-      "ntipopes": null,
-      "ncodcont": "9281",
-      "ncomplem": null,
-      "nfracaoi": "5.88235"
-    }
-  },
-  {
-    "properties": {
-      "ncodimov": "10796",
-      "nrazaoso": "ALAIDE OLINDA NUNES",
-      "ntipopes": null,
-      "ncodcont": "9276",
-      "ncomplem": null,
-      "nfracaoi": "5.88235"
-    }
-  },
-  {
-    "properties": {
-      "ncodimov": "10806",
-      "nrazaoso": "NATANAEL BATISTA",
-      "ntipopes": null,
-      "ncodcont": "9285",
+      "ncodcont": "9279",
       "ncomplem": null,
       "nfracaoi": "5.88235"
     }
@@ -360,10 +290,10 @@
   },
   {
     "properties": {
-      "ncodimov": "10800",
-      "nrazaoso": "FRANCISCO SOARES",
+      "ncodimov": "10802",
+      "nrazaoso": "AUGUSTA CUNHA",
       "ntipopes": null,
-      "ncodcont": "9279",
+      "ncodcont": "9281",
       "ncomplem": null,
       "nfracaoi": "5.88235"
     }
@@ -380,10 +310,240 @@
   },
   {
     "properties": {
+      "ncodimov": "10804",
+      "nrazaoso": "MARIA DA GRACA",
+      "ntipopes": null,
+      "ncodcont": "9283",
+      "ncomplem": null,
+      "nfracaoi": "5.88235"
+    }
+  },
+  {
+    "properties": {
+      "ncodimov": "10805",
+      "nrazaoso": "ANTONIO GOMES",
+      "ntipopes": null,
+      "ncodcont": "9284",
+      "ncomplem": null,
+      "nfracaoi": "5.88235"
+    }
+  },
+  {
+    "properties": {
+      "ncodimov": "10806",
+      "nrazaoso": "NATANAEL BATISTA",
+      "ntipopes": null,
+      "ncodcont": "9285",
+      "ncomplem": null,
+      "nfracaoi": "5.88235"
+    }
+  },
+  {
+    "properties": {
       "ncodimov": "10807",
       "nrazaoso": "CAMELIA WENCESLAU",
       "ntipopes": null,
       "ncodcont": "9286",
+      "ncomplem": null,
+      "nfracaoi": "5.88235"
+    }
+  },
+  {
+    "properties": {
+      "ncodimov": "10808",
+      "nrazaoso": "JURANDIR GREGORIO DA SILVEIRA",
+      "ntipopes": null,
+      "ncodcont": "9287",
+      "ncomplem": null,
+      "nfracaoi": "5.88235"
+    }
+  },
+  {
+    "properties": {
+      "ncodimov": "10809",
+      "nrazaoso": "JOAO ROSELINO SAGAZ",
+      "ntipopes": null,
+      "ncodcont": "9288",
+      "ncomplem": null,
+      "nfracaoi": "5.88235"
+    }
+  },
+  {
+    "properties": {
+      "ncodimov": "10810",
+      "nrazaoso": "CARLOS ALBERTO RIBEIRO",
+      "ntipopes": null,
+      "ncodcont": "9289",
+      "ncomplem": null,
+      "nfracaoi": "5.88235"
+    }
+  },
+  {
+    "properties": {
+      "ncodimov": "10811",
+      "nrazaoso": "BERTOLINO BISPO DA SILVA",
+      "ntipopes": null,
+      "ncodcont": "9290",
+      "ncomplem": null,
+      "nfracaoi": "5.88235"
+    }
+  },
+  {
+    "properties": {
+      "ncodimov": "10812",
+      "nrazaoso": "JOSE POMPILIO COELHO",
+      "ntipopes": null,
+      "ncodcont": "9291",
+      "ncomplem": null,
+      "nfracaoi": "5.88235"
+    }
+  },
+  {
+    "properties": {
+      "ncodimov": "10795",
+      "nrazaoso": "JOSE GOMES JUNIOR",
+      "ntipopes": null,
+      "ncodcont": "9275",
+      "ncomplem": null,
+      "nfracaoi": "5.88235"
+    }
+  },
+  {
+    "properties": {
+      "ncodimov": "10796",
+      "nrazaoso": "ALAIDE OLINDA NUNES",
+      "ntipopes": null,
+      "ncodcont": "9276",
+      "ncomplem": null,
+      "nfracaoi": "5.88235"
+    }
+  },
+  {
+    "properties": {
+      "ncodimov": "10799",
+      "nrazaoso": "JOAQUIM GOMES",
+      "ntipopes": null,
+      "ncodcont": "9278",
+      "ncomplem": null,
+      "nfracaoi": "5.88235"
+    }
+  },
+  {
+    "properties": {
+      "ncodimov": "10800",
+      "nrazaoso": "FRANCISCO SOARES",
+      "ntipopes": null,
+      "ncodcont": "9279",
+      "ncomplem": null,
+      "nfracaoi": "5.88235"
+    }
+  },
+  {
+    "properties": {
+      "ncodimov": "10801",
+      "nrazaoso": "JOAO MANOEL CORDEIRO",
+      "ntipopes": null,
+      "ncodcont": "388132",
+      "ncomplem": null,
+      "nfracaoi": "5.88235"
+    }
+  },
+  {
+    "properties": {
+      "ncodimov": "10802",
+      "nrazaoso": "AUGUSTA CUNHA",
+      "ntipopes": null,
+      "ncodcont": "9281",
+      "ncomplem": null,
+      "nfracaoi": "5.88235"
+    }
+  },
+  {
+    "properties": {
+      "ncodimov": "10803",
+      "nrazaoso": "JUVENAL AMORIN",
+      "ntipopes": null,
+      "ncodcont": "9282",
+      "ncomplem": null,
+      "nfracaoi": "5.88235"
+    }
+  },
+  {
+    "properties": {
+      "ncodimov": "10804",
+      "nrazaoso": "MARIA DA GRACA",
+      "ntipopes": null,
+      "ncodcont": "9283",
+      "ncomplem": null,
+      "nfracaoi": "5.88235"
+    }
+  },
+  {
+    "properties": {
+      "ncodimov": "10805",
+      "nrazaoso": "ANTONIO GOMES",
+      "ntipopes": null,
+      "ncodcont": "9284",
+      "ncomplem": null,
+      "nfracaoi": "5.88235"
+    }
+  },
+  {
+    "properties": {
+      "ncodimov": "10806",
+      "nrazaoso": "NATANAEL BATISTA",
+      "ntipopes": null,
+      "ncodcont": "9285",
+      "ncomplem": null,
+      "nfracaoi": "5.88235"
+    }
+  },
+  {
+    "properties": {
+      "ncodimov": "10807",
+      "nrazaoso": "CAMELIA WENCESLAU",
+      "ntipopes": null,
+      "ncodcont": "9286",
+      "ncomplem": null,
+      "nfracaoi": "5.88235"
+    }
+  },
+  {
+    "properties": {
+      "ncodimov": "10808",
+      "nrazaoso": "JURANDIR GREGORIO DA SILVEIRA",
+      "ntipopes": null,
+      "ncodcont": "9287",
+      "ncomplem": null,
+      "nfracaoi": "5.88235"
+    }
+  },
+  {
+    "properties": {
+      "ncodimov": "10809",
+      "nrazaoso": "JOAO ROSELINO SAGAZ",
+      "ntipopes": null,
+      "ncodcont": "9288",
+      "ncomplem": null,
+      "nfracaoi": "5.88235"
+    }
+  },
+  {
+    "properties": {
+      "ncodimov": "10810",
+      "nrazaoso": "CARLOS ALBERTO RIBEIRO",
+      "ntipopes": null,
+      "ncodcont": "9289",
+      "ncomplem": null,
+      "nfracaoi": "5.88235"
+    }
+  },
+  {
+    "properties": {
+      "ncodimov": "10811",
+      "nrazaoso": "BERTOLINO BISPO DA SILVA",
+      "ntipopes": null,
+      "ncodcont": "9290",
       "ncomplem": null,
       "nfracaoi": "5.88235"
     }

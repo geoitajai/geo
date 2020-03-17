@@ -18,7 +18,8 @@ malha.features.forEach((articula) => {
                 "coordinates": [articula.geometry.coordinates[0]]
             },
             "properties": {
-                "inscrlig": String(articula.properties.inscrlig)
+                "inscrlig": String(articula.properties.inscrlig),
+                "c": String(articula.properties.c)
             }
         }];
     } else {
@@ -30,7 +31,8 @@ malha.features.forEach((articula) => {
                     "coordinates": [articula.geometry.coordinates[0]]
                 },
                 "properties": {
-                    "inscrlig": String(articula.properties.inscrlig)
+                    "inscrlig": String(articula.properties.inscrlig),
+                    "c": String(articula.properties.c)
                 }
             }
         );

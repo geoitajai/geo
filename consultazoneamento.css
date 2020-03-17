@@ -64,6 +64,24 @@ html, body {
     font-size: 3mm;
 }
 
+#aviso {
+    position: absolute;
+    left: 42.7mm;
+    top: 191.45mm;
+    background-color: #000000;
+    font-size: 8.5mm;
+    font-style: italic;
+    color: #FFFFFF;
+    z-index: 900;
+}
+
+.aviso {
+    position: absolute;
+    background-color: none;
+    font-size: 4mm;
+    font-weight: bold;
+}
+
 .obs {
     position: absolute;
     background-color: none;

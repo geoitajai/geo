@@ -296,7 +296,6 @@
                 $.getJSON(`data/divisaolotes/exportTabela/${String(e.target.feature.properties.inscrlig.substring(0, 3))}/${String(e.target.feature.properties.inscrlig)}.geojson`, (data) => {
                     let objtabela = data.map((feicoes) => {
                         return {
-                            'id': feicoes.properties.id,
                             'inscrlig': feicoes.properties.inscrlig,
                             'ninscrao': feicoes.properties.ninscrao,
                             'ncodimov': feicoes.properties.ncodimov,
@@ -310,7 +309,8 @@
                             'nareater': feicoes.properties.nareater,
                             'ncodcont': feicoes.properties.ncodcont,
                             'nfracaoi': feicoes.properties.nfracaoi,
-                            'ntipopes': feicoes.properties.ntipopes
+                            'ntipopes': feicoes.properties.ntipopes,
+                            'zon2012': feicoes.properties.zon2012
                         }
                     });
                     table.setData(objtabela);
@@ -328,7 +328,6 @@
 
                     let objtabela2 = data.map((feicoes) => {
                         return {
-                            'id': feicoes.properties.id,
                             'ninscrao': feicoes.properties.ninscrao,
                             'ncodimov': feicoes.properties.ncodimov,
                             'nmatricu': feicoes.properties.nmatricu,
@@ -342,7 +341,8 @@
                             'ncodcont': feicoes.properties.ncodcont,
                             'nfracaoi': feicoes.properties.nfracaoi,
                             'ntipopes': feicoes.properties.ntipopes,
-                            'inscrlig': feicoes.properties.inscrlig
+                            'inscrlig': feicoes.properties.inscrlig,
+                            'zon2012': feicoes.properties.zon2012
                         }
                     });
                     L.geoJson(data[0], {
@@ -585,7 +585,11 @@
             if (table.rowManager.activeRows["0"] === undefined) {
                 alert("Aproxime o mapa para a área de interesse para visualizar os lotes, clique sobre o lote para seleciona-lo");
             } else {
-                window.open('https://geoitajai.github.io/geo/consultazoneamento.html#' + table.rowManager.activeRows["0"].data.inscrlig.toString(), 'ConsultaPrévia', 0, true);
+                if (table.rowManager.activeRows["0"].data.zon2012 === 'conflito') {
+                    window.open('https://geoitajai.github.io/geo/consultazoneamentoerro.html#' + table.rowManager.activeRows["0"].data.inscrlig.toString(), 'ConsultaPrévia', 0, true);
+                } else {
+                    window.open('https://geoitajai.github.io/geo/consultazoneamento.html#' + table.rowManager.activeRows["0"].data.inscrlig.toString(), 'ConsultaPrévia', 0, true);
+                }
             }
         });
 

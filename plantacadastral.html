@@ -400,7 +400,7 @@
                     formatter: 'link',
                     width: 125,
                     formatterParams: {
-                        label: 'clique para abrir',
+                        labelField: 'linkinfo',
                         urlField: 'consultaprevia',
                         target: '_blank'
                     }
@@ -500,10 +500,18 @@
                     });
                 };
                 $.getJSON(`data/divisaolotes/exportTabela/${String(e.target.feature.properties.inscrlig.substring(0, 3))}/${String(e.target.feature.properties.inscrlig)}.geojson`, (data) => {
+                    let consultapreviap;
+                    let linkinfo;
+                    if (data[0].properties.zon2012 === 'conflito') {
+                        consultapreviap = `https://geoitajai.github.io/geo/consultazoneamentoerro.html#${data[0].properties.inscrlig}`;
+                        linkinfo = 'regularizar situação cadastral';
+                    } else {
+                        linkinfo = 'clique para abrir';
+                        consultapreviap = `https://geoitajai.github.io/geo/consultazoneamento.html#${data[0].properties.inscrlig}`;
+                    };
                     let objtabela = data.map((feicoes) => {
                         return {
-                            'consultaprevia': 'https://geoitajai.github.io/geo/consultazoneamento.html#' + feicoes.properties.inscrlig,
-                            'id': feicoes.properties.id,
+                            'consultaprevia': consultapreviap,
                             'inscrlig': feicoes.properties.inscrlig,
                             'ninscrao': feicoes.properties.ninscrao,
                             'ncodimov': feicoes.properties.ncodimov,
@@ -517,7 +525,8 @@
                             'nareater': feicoes.properties.nareater,
                             'ncodcont': feicoes.properties.ncodcont,
                             'nfracaoi': feicoes.properties.nfracaoi,
-                            'ntipopes': feicoes.properties.ntipopes
+                            'ntipopes': feicoes.properties.ntipopes,
+                            'linkinfo': linkinfo
                         }
                     });
                     table.setData(objtabela);
@@ -534,10 +543,18 @@
                 console.log(response.rows[0].cellsArray[2])
                 $.getJSON(`data/divisaolotes/exportTabela/${String(response.rows[0].cellsArray[2].substring(0, 3))}/${String(response.rows[0].cellsArray[2])}.geojson`, (
                     data) => {
+                    let consultapreviap;
+                    let linkinfo;
+                    if (data[0].properties.zon2012 === 'conflito') {
+                        consultapreviap = `https://geoitajai.github.io/geo/consultazoneamentoerro.html#${data[0].properties.inscrlig}`;
+                        linkinfo = 'regularizar situação cadastral';
+                    } else {
+                        linkinfo = 'clique para abrir';
+                        consultapreviap = `https://geoitajai.github.io/geo/consultazoneamento.html#${data[0].properties.inscrlig}`;
+                    };
                     let objtabela2 = data.map((feicoes) => {
                         return {
-                            'consultaprevia': 'https://geoitajai.github.io/geo/consultazoneamento.html#' + feicoes.properties.inscrlig,
-                            'id': feicoes.properties.id,
+                            'consultaprevia': consultapreviap,
                             'ninscrao': feicoes.properties.ninscrao,
                             'ncodimov': feicoes.properties.ncodimov,
                             'nmatricu': feicoes.properties.nmatricu,
@@ -551,7 +568,8 @@
                             'ncodcont': feicoes.properties.ncodcont,
                             'nfracaoi': feicoes.properties.nfracaoi,
                             'ntipopes': feicoes.properties.ntipopes,
-                            'inscrlig': feicoes.properties.inscrlig
+                            'inscrlig': feicoes.properties.inscrlig,
+                            'linkinfo': linkinfo
                         }
                     });
                     L.geoJson(data[0], {
@@ -677,10 +695,21 @@
         let plantaCadastral = L.featureGroup();
 
         //estilo padrão
-        let pCestilo = {
-            'color': '#000000',
-            'weight': 0.5,
-            'fill': false
+        function estilolote(feature, layer) {
+            if (feature.properties.c === 'n') {
+                return {
+                    'color': '#000000',
+                    'weight': 0.5,
+                    'fill': false
+                }
+            } else {
+                return {
+                    'fillColor': '#ffffe6',
+                    'color': '#bfbfbf',
+                    'weight': 0.5,
+                    'fillOpacity': 0.3
+                }
+            }
         };
 
         //Atrelado a cada lote
@@ -704,7 +733,7 @@
                                 $.getJSON("data/divisaolotes/exportMalha/" + x.nome + ".geojson", (
                                     data) => {
                                     L.geoJson(data, {
-                                        style: pCestilo,
+                                        style: estilolote,
                                         onEachFeature: inteLote,
                                         pane: 'camadaA'
                                     }).addTo(plantaCadastral);
