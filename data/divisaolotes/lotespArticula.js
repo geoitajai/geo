@@ -39,7 +39,7 @@ malha.features.forEach((articula) => {
     };
     if (contador === 0) {
         for (const property in totalitens) {
-            fs.writeFile(`exportMalha/${String(property)}.geojson`, JSON.stringify(totalitens[property], null, 2), (err) => {
+            fs.writeFile(`exportMalha/${String(property)}.geojson`, JSON.stringify(totalitens[property]), (err) => {
                 if (err) throw err;
             });
         };

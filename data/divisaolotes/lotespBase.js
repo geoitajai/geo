@@ -68,7 +68,7 @@ plantaLotes.features.forEach((lote) => {
     if (contador === 0) {
         for (const property in totalitens) {
             //console.log(totalitens[property][0].properties.inscrlig);
-            fs.writeFile(`./exportTabela/${String(totalitens[property][0].properties.inscrlig.substring(0, 3))}/${String(totalitens[property][0].properties.inscrlig)}.geojson`, JSON.stringify(totalitens[property], null, 2), (err) => {
+            fs.writeFile(`./exportTabela/${String(totalitens[property][0].properties.inscrlig.substring(0, 3))}/${String(totalitens[property][0].properties.inscrlig)}.geojson`, JSON.stringify(totalitens[property]), (err) => {
                 if (err) throw err;
             });
         };
