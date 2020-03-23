@@ -36,7 +36,7 @@ sviario.features.forEach((via) => {
     if (contador === 0) {
         for (const property in totalitens) {
             //console.log(totalitens[property]);
-            fs.writeFile(`exportTabela/${String(totalitens[property].properties.cod)}.${String(totalitens[property].properties.secao)}.geojson`, JSON.stringify(totalitens[property], null, 2), (err) => {
+            fs.writeFile(`exportTabela/${String(totalitens[property].properties.cod)}.${String(totalitens[property].properties.secao)}.geojson`, JSON.stringify(totalitens[property]), (err) => {
                 if (err) throw err;
             });
         };
