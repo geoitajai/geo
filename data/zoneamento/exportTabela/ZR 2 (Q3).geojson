@@ -2,7 +2,6 @@
   {
     "type": "Feature",
     "properties": {
-      "id": 101,
       "abrevia": "ZR 2 (Q3)",
       "permitidos": "(H 1-2), (CO), (CS 1-2), (I 1)",
       "permissiv": "(CS 3-E)",
@@ -21,11 +20,11 @@
       "recuoftorr": "TORRE: RECUO FRONTAL<br/>5m<br/><br/>TORRE: RECUO LATERAL E FUNDOS<br/>3,00m",
       "h1": "permitido",
       "h2": "permitido",
-      "cs1": "permitido",
-      "cs2": "permitido",
+      "cs1": "permitido(até 100m²)",
+      "cs2": "permitido(até 400m²)",
       "cs3": "permissível",
       "co": "permitido",
-      "i1": "permitido",
+      "i1": "permitido(até 100m²)",
       "i2": "proibido",
       "i3": "proibido",
       "i4": "proibido",

@@ -2,7 +2,6 @@
   {
     "type": "Feature",
     "properties": {
-      "id": 115,
       "abrevia": "ZPA 2 (CCS2)",
       "permitidos": "(H 1), (CO), (CS 1), (I 1)",
       "permissiv": "(CS E-CSM), (I 2)",
@@ -21,11 +20,11 @@
       "recuoftorr": "TORRE: RECUO FRONTAL<br/>-<br/><br/>TORRE: RECUO LATERAL E FUNDOS<br/>-",
       "h1": "permitido",
       "h2": "proibido",
-      "cs1": "permitido",
+      "cs1": "permitido(até 100m²)",
       "cs2": "proibido",
       "cs3": "proibido",
       "co": "permitido",
-      "i1": "permitido",
+      "i1": "permitido(até 100m²)",
       "i2": "permissível",
       "i3": "proibido",
       "i4": "proibido",

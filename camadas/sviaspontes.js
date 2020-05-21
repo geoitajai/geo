@@ -36,7 +36,8 @@ $.getJSON("camadas/data/sviaspontes.geojson", (data) => {
                 'Tipo: ' + feature.properties.tipo + '</br>' +
                 'Material: ' + feature.properties.material + '</p>'
             );
-        }
+        },
+        pane: 'camadaA'
     }).addTo(infra);
 });
 

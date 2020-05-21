@@ -2,7 +2,6 @@
   {
     "type": "Feature",
     "properties": {
-      "id": 123,
       "abrevia": "ZR",
       "permitidos": "(H 1-2), (CO), (CS 1-2-3), (I 1-2)",
       "permissiv": "(CS CSA-CSMV), (I 3-4)",
@@ -21,12 +20,12 @@
       "recuoftorr": "TORRE: RECUO FRONTAL<br/>-<br/><br/>TORRE: RECUO LATERAL E FUNDOS<br/>-",
       "h1": "permitido",
       "h2": "permitido",
-      "cs1": "permitido",
-      "cs2": "permitido",
-      "cs3": "permitido",
+      "cs1": "permitido(até 100m²)",
+      "cs2": "permitido(até 400m²)",
+      "cs3": "permitido(+de 400m²)",
       "co": "permitido",
-      "i1": "permitido",
-      "i2": "permitido",
+      "i1": "permitido(até 100m²)",
+      "i2": "permitido(até 400m²)",
       "i3": "permissível",
       "i4": "permissível",
       "cse": "proibido"
