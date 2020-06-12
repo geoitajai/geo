@@ -51,7 +51,7 @@ plantaLotes.features.forEach((lote) => {
                 "viasecao": lote.properties.viasecao
             }
         }];
-    } else {
+    } else if (contador !== 0) {
         totalitens[lote.properties.inscrlig].push(
             {
                 "properties": {
