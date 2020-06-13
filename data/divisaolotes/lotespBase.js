@@ -20,7 +20,6 @@ const plantaLotes = JSON.parse(fs.readFileSync('/mnt/c/Users/jaceguay/temp/plant
 let contador = Object.keys(plantaLotes.features).length;
 let totalitens = [];
 plantaLotes.features.forEach((lote) => {
-    contador -= 1;
     if (totalitens[lote.properties.inscrlig] === undefined) {
         totalitens[lote.properties.inscrlig] = [{
             "type": "Feature",
@@ -65,6 +64,7 @@ plantaLotes.features.forEach((lote) => {
             }
         );
     };
+    contador -= 1;
     if (contador === 0) {
         for (const property in totalitens) {
             //console.log(totalitens[property][0].properties.inscrlig);
