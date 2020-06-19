@@ -18,10 +18,13 @@ console.log('## removidos arquivos antigos da pasta');
 const plantaLotes = JSON.parse(fs.readFileSync('/mnt/c/Users/jaceguay/temp/plantacadastralDv.geojson', 'utf8'));
 
 let contador = Object.keys(plantaLotes.features).length;
-let totalitens = [];
-plantaLotes.features.forEach((lote) => {
-    if (totalitens[lote.properties.inscrlig] === undefined) {
-        totalitens[lote.properties.inscrlig] = [{
+let promessa = new Promise((resolve, reject) => {
+    let contador = Object.keys(plantaLotes.features).length;
+    //reduce
+    let saida = plantaLotes.features.reduce((a, lote) => {
+        nomeobj = lote.properties.inscrlig;
+        a[nomeobj] = a[nomeobj] || [];
+        a[nomeobj].push({
             "type": "Feature",
             "geometry": lote.geometry,
             "properties": {
@@ -49,28 +52,20 @@ plantaLotes.features.forEach((lote) => {
                 "via1": lote.properties.via1,
                 "viasecao": lote.properties.viasecao
             }
-        }];
-    } else if (contador !== 0) {
-        totalitens[lote.properties.inscrlig].push(
-            {
-                "properties": {
-                    "ncodimov": lote.properties.ncodimov,
-                    "nrazaoso": lote.properties.nrazaoso,
-                    "ntipopes": lote.properties.ntipopes,
-                    "ncodcont": lote.properties.ncodcont,
-                    "ncomplem": lote.properties.ncomplem,
-                    "nfracaoi": lote.properties.nfracaoi
-                }
-            }
-        );
-    };
-    contador -= 1;
+        });
+        contador--
+        return a
+    }, []);
+    //promisse resolve/reject
     if (contador === 0) {
-        for (const property in totalitens) {
-            //console.log(totalitens[property][0].properties.inscrlig);
-            fs.writeFile(`./exportTabela/${String(totalitens[property][0].properties.inscrlig.substring(0, 3))}/${String(totalitens[property][0].properties.inscrlig)}.geojson`, JSON.stringify(totalitens[property]), (err) => {
-                if (err) throw err;
-            });
-        };
+        resolve(saida)
+    } else { reject('error') };
+}).then(resolve => {
+    for (const property in resolve) {
+        fs.writeFile(`./exportTabela/${String(resolve[property][0].properties.inscrlig.substring(0, 3))}/${String(resolve[property][0].properties.inscrlig)}.geojson`, JSON.stringify(resolve[property]), (err) => {
+            if (err) throw err;
+        });
     };
+}).catch(err => {
+    console.log(err);
 });
