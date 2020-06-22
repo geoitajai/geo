@@ -346,6 +346,36 @@
             attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
         });
 
+        //1946
+        let tiles1946 = L.tileLayer.fallback('tiles/1946/{z}/{x}/{y}.png', {
+            minZoom: 12,
+            maxZoom: 19,
+            attribution: 'Município de Itajaí/SC, <a href="mailto:jaceguay@itajai.sc.gov.br?Subject=WebGIS" target="_top">SIE</a>'
+        });
+
+        //1984
+        let tiles1984 = L.tileLayer.fallback('tiles/1984/{z}/{x}/{y}.png', {
+            minZoom: 12,
+            maxZoom: 19,
+            attribution: 'Município de Itajaí/SC, <a href="mailto:jaceguay@itajai.sc.gov.br?Subject=WebGIS" target="_top">SIE</a>'
+        });
+
+        //2006
+        let tiles2006 = L.tileLayer.fallback('tiles/2006/{z}/{x}/{y}.jpg', {
+            minZoom: 12,
+            maxZoom: 19,
+            opacity: 0.6,
+            attribution: 'Município de Itajaí/SC, <a href="mailto:jaceguay@itajai.sc.gov.br?Subject=WebGIS" target="_top">SIE</a>'
+        });
+
+        //2013
+        let tiles2013 = L.tileLayer.fallback('tiles/2013/{z}/{x}/{y}.jpg', {
+            minZoom: 12,
+            maxZoom: 19,
+            opacity: 0.6,
+            attribution: 'Município de Itajaí/SC, <a href="mailto:jaceguay@itajai.sc.gov.br?Subject=WebGIS" target="_top">SIE</a>'
+        });
+
         //Mapa base, ESRI
         let tileesri = new L.TileLayer(
             'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
@@ -364,6 +394,18 @@
         };
         L.control.layers(baseMaps, null, {
             collapsed: false,
+            position: 'bottomright'
+        }).addTo(mapa);
+
+        //Controle de camadas imgs históricas
+        let baseMapsB = {
+            "1946": tiles1946,
+            "1984": tiles1984,
+            "2006": tiles2006,
+            "2013": tiles2013
+        };
+        L.control.layers(null, baseMapsB, {
+            collapsed: true,
             position: 'bottomright'
         }).addTo(mapa);
 
