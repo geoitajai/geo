@@ -14,7 +14,7 @@ malha.features.forEach((articula) => {
         totalitens[articula.properties.nome] = [{
             "type": "Feature",
             "geometry": {
-                "type": "MultiPolygon",
+                "type": "Polygon",
                 "coordinates": [articula.geometry.coordinates[0]]
             },
             "properties": {
@@ -27,7 +27,7 @@ malha.features.forEach((articula) => {
             {
                 "type": "Feature",
                 "geometry": {
-                    "type": "MultiPolygon",
+                    "type": "Polygon",
                     "coordinates": [articula.geometry.coordinates[0]]
                 },
                 "properties": {

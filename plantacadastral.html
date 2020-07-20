@@ -38,10 +38,10 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-172813797-1"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'UA-172813797-1');
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-172813797-1');
     </script>
 </head>
 
@@ -86,7 +86,8 @@
                             </center>
                         </a>
                         <hr>
-                        <a href="https://drive.google.com/file/d/1hr2LDAGQ7D8cP1Fln45GRfweHYdsUPJI/view?usp=sharing" target="_blank">
+                        <a href="https://drive.google.com/file/d/1hr2LDAGQ7D8cP1Fln45GRfweHYdsUPJI/view?usp=sharing"
+                            target="_blank">
                             <center>
                                 <font size="2">
                                     - Shapefile (Lotes)
@@ -94,7 +95,8 @@
                             </center>
                         </a>
                         <hr>
-                        <a href="https://drive.google.com/file/d/1x1lit_tQhgsJZlwfvhyW9b5pqF0Y9q2r/view?usp=sharing" target="_blank">
+                        <a href="https://drive.google.com/file/d/1x1lit_tQhgsJZlwfvhyW9b5pqF0Y9q2r/view?usp=sharing"
+                            target="_blank">
                             <center>
                                 <font size="2">
                                     - dwg (2007)
@@ -102,7 +104,8 @@
                             </center>
                         </a>
                         <hr>
-                        <a href="https://drive.google.com/file/d/1hD1R7qkC33jSe6ie38DmjmPUFjTWEVPx/view?usp=sharing" target="_blank">
+                        <a href="https://drive.google.com/file/d/1hD1R7qkC33jSe6ie38DmjmPUFjTWEVPx/view?usp=sharing"
+                            target="_blank">
                             <center>
                                 <font size="2">
                                     - Shapefile (Sistema Viário)
@@ -596,7 +599,7 @@
         let gsResultadoP = (error, options, response) => {
             if (!error) {
                 plantaCadastralDestaque.clearLayers();
-                console.log(response.rows[0].cellsArray[2])
+                //console.log(response.rows[0].cellsArray[2])
                 $.getJSON(`data/divisaolotes/exportTabela/${String(response.rows[0].cellsArray[2].substring(0, 3))}/${String(response.rows[0].cellsArray[2])}.geojson`, (
                     data) => {
                     let consultapreviap;
@@ -784,8 +787,7 @@
                         })
                         .forEach(x => {
                             if (plantaindice.includes(x.nome) === false) {
-                                $.getJSON("data/divisaolotes/exportMalha/" + x.nome + ".geojson", (
-                                    data) => {
+                                $.getJSON(`data/divisaolotes/exportMalha/${x.nome}.geojson`, (data) => {
                                     L.geoJson(data, {
                                         style: estilolote,
                                         onEachFeature: inteLote,
