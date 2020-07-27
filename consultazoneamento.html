@@ -308,8 +308,14 @@
                 });
 
                 //DadosGerais
-                document.getElementById("inscrimob").innerHTML = datalote[0].properties.ninscrao.toString().substring(0, 15);
-                document.getElementById("endereco").innerHTML = datalote[0].properties.nlogrado.toString() + ', ' + datalote[0].properties.nnumimov.toString() + ', ' + datalote[0].properties.nnomebai.toString();
+                ninscricao_check = datalote[0].properties.ninscrao == null ? 'verificar endereço cadastro' : datalote[0].properties.ninscrao.toString().substring(0, 15);
+                nlogrado_check = datalote[0].properties.nlogrado == null ? ' ' : datalote[0].properties.nlogrado.toString();
+                nnumimov_check = datalote[0].properties.nnumimov == null ? ' ' : datalote[0].properties.nnumimov.toString();
+                nnomebai_check = datalote[0].properties.nnomebai == null ? ' ' : datalote[0].properties.nnomebai.toString();
+
+                document.getElementById("inscrimob").innerHTML = ninscricao_check
+                document.getElementById("endereco").innerHTML = nlogrado_check + ', ' + nnumimov_check + ', ' + nnomebai_check;
+
                 let datahj = new Date();
                 var datahjFormatada = ("0" + datahj.getDate()).substr(-2) + "/"
                     + ("0" + (datahj.getMonth() + 1)).substr(-2) + "/" + datahj.getFullYear();
