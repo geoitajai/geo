@@ -78,6 +78,25 @@
             attribution: 'Município de Itajaí/SC, <a href="mailto:jaceguay@itajai.sc.gov.br?Subject=WebGIS" target="_top">SIE</a>'
         }).addTo(mapa);
 
+        //barra escala
+        L.control.scale({
+            position: "topright",
+            imperial: false
+        }).addTo(mapa);
+
+        //Norte
+        let nortemapa = L.control({
+            position: 'topright'
+        });
+        nortemapa.onAdd = function (map) {
+            let div = L.DomUtil.create('div', 'info2 legend');
+            div.innerHTML +=
+                '<center><sub><font size="4">▲</font></sub><br/>' +
+                '<sup><font size="2">N</font></sup></center>'
+            return div;
+        };
+        nortemapa.addTo(mapa);
+
         //Manchas zoneamento
         $.getJSON("camadas/data/zon2012webtabela.geojson", (data) => {
             L.geoJson(data, {
