@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Grau de risco - Decreto nº 11.985 2020</title>
+    <link rel="icon" type="image/png" href="https://geoitajai.github.io/geo/images/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="https://geoitajai.github.io/geo/images/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="https://geoitajai.github.io/geo/images/favicon-32x32.png" sizes="32x32">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <!-- tabulator -->
+    <link href="https://unpkg.com/tabulator-tables@4.7.2/dist/css/tabulator.min.css" rel="stylesheet">
+    <script type="text/javascript" src="https://unpkg.com/tabulator-tables@4.7.2/dist/js/tabulator.min.js"></script>
+    <!-- tabela -->
+    <script type="text/javascript" src="data/tabela_risco.json"></script>
+</head>
+<style>
+    :root {
+        --base: #00bcd4;
+        --escuro: #333;
+        --claro: #e9e9e9;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+    }
+
+    .conteiner {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        min-height: 100%;
+    }
+
+    #brastitulo {
+        display: flex;
+        color: var(--claro);
+        background: var(--base);
+        text-shadow: 1px 1px 2px black;
+    }
+
+    #pesquisa {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #navegacao {
+        display: flex;
+    }
+
+    .tabulator {
+        font-size: 12px;
+        background: white;
+    }
+
+    .tabulator .tabulator-header .tabulator-col {
+        background: var(--base);
+        color: var(--claro);
+        text-shadow: 1px 1px 2px black;
+    }
+
+    .tabulator .tabulator-header {
+        border-bottom: 0px;
+    }
+
+    .tabulator .tabulator-header,
+    .tabulator .tabulator-header .tabulator-col {
+        background-color: var(--base);
+    }
+</style>
+
+<body>
+    <div id='conteiner'>
+        <div id='brastitulo'>
+            <div>
+                <img src='https://geoitajai.github.io/geo/images/favicon-96x96.png'
+                    style='height:45px; width:auto; padding:3px;'>
+            </div>
+            <div style='font-size:120%; padding:3px;'>
+                <b>Município de Itajaí <br> Secretaria Municipal de Desenvolvimento Urbano e Habitação</b>
+            </div>
+        </div>
+
+        <div id='pesquisa'>
+            <a href='http://leismunicipa.is/hyrip'><b>
+                    Tabela de grau de risco das atividades econômicas<br>
+                    Decreto Nº 11.985, de 24 de Agosto de 2020.</b></a><br>
+            <div>
+                <input id='filter-value' type='text' size='38'
+                    placeholder='digite os códigos separados por espaço, ex: 0111-3/01 0119-9 0122'>
+                <button id='filter-clear' type='button'>limpar</button><br>
+                <input id='filter-area' type='text' size='38'
+                    placeholder='digite a área total construída (apenas números)'>
+            </div>
+
+            <div id='resultado'>
+                <h4>...<br>...</h4>
+            </div>
+        </div>
+        <div id='navegacao'>
+            <div id='tabela'></div>
+        </div>
+    </div>
+</body>
+
+<script>
+    updateFilter = () => {
+        table.setHeaderFilterValue('denominacao', null);
+        let valores_filtro = document.getElementById('filter-value');
+        table.setFilter('codigo', 'regex', valores_filtro.value.replace(' ', '|'));
+        desagrupar();
+    };
+
+    document.getElementById('filter-value').addEventListener("keyup", function (event) {
+        if (event.keyCode === 13) {
+            event.preventDefault();
+            updateFilter();
+        }
+    });
+
+    document.getElementById('filter-area').addEventListener("keyup", function (event) {
+        if (event.keyCode === 13) {
+            event.preventDefault();
+            updateFilter();
+        }
+    });
+
+    document.getElementById('filter-clear').addEventListener('click', function () {
+        document.getElementById('filter-value').value = '';
+        table.clearFilter();
+        document.getElementById('resultado').style.backgroundColor = 'white';
+        document.getElementById('resultado').innerHTML = '<h4>...<br>...</h4>';
+    });
+
+    desagrupar = () => {
+        table.getGroups().forEach(function (group) {
+            group.show();
+        });
+    }
+
+    let table = new Tabulator('#tabela', {
+        locale: 'pt-br',
+        langs: {
+            "pt-br": {
+                "columns": {
+                    "name": "Nome",
+                },
+                "ajax": {
+                    "loading": "Carregando",
+                    "error": "Erro",
+                },
+                "groups": {
+                    "item": "item",
+                    "items": "itens",
+                },
+                "pagination": {
+                    "page_size": "Tamanho da página",
+                    "first": "Primeira",
+                    "first_title": "Próxima página",
+                    "last": "Última",
+                    "last_title": "Última página",
+                    "prev": "Anterior",
+                    "prev_title": "Página anterior",
+                    "next": "Próxima",
+                    "next_title": "Próxima página",
+                },
+                "headerFilters": {
+                    "default": "pesquisa...",
+                    "columns": {
+                        "name": "pesquisa...",
+                    }
+                }
+            }
+        },
+        height: '340px',
+        layout: 'fitColumns',
+        groupBy: ['divisao'],
+        groupStartOpen: false,
+        data: tabrisco,
+        dataFiltered: (filters, rows) => {
+            if (filters.length > 0) {
+                let area_filtro = document.getElementById('filter-area');
+                //console.log(filters)
+                /* rows.forEach(e => {
+                    console.log(e._row.data["200a400"])
+                }) */
+                let compr = rows.length;
+                let ate200 = [];
+                let d200a400 = [];
+                let acima400 = [];
+                for (let e of rows) {
+                    //console.log(compr);
+                    //console.log(e._row.data)
+                    ate200.push(e._row.data['ate200'])
+                    d200a400.push(e._row.data['200a400'])
+                    acima400.push(e._row.data['acima400'])
+                    compr--;
+                    if (compr === 0) {
+                        if (parseInt(area_filtro) === NaN) {
+                            alert('área digitada não é um número válido')
+                        } else if (parseInt(area_filtro.value) <= 200) {
+                            if (ate200.includes('Alto')) {
+                                document.getElementById('resultado').style.backgroundColor = 'rgb(255, 0, 0, 0.3)';
+                                document.getElementById('resultado').innerHTML = `<h4>Dentre os valores, grau de risco para a área: ${area_filtro.value}m2,<br><b>ALTO</b></h4>`;
+                            } else if (ate200.includes('Médio')) {
+                                document.getElementById('resultado').style.backgroundColor = 'rgb(255, 204, 102, 0.3)';
+                                document.getElementById('resultado').innerHTML = `<h4>Dentre os valores, grau de risco para a área: ${area_filtro.value}m2,<br><b>MÉDIO</b></h4>`;
+                            } else if (ate200.includes('Baixo')) {
+                                document.getElementById('resultado').style.backgroundColor = 'rgb(153, 255, 102, 0.3)';
+                                document.getElementById('resultado').innerHTML = `<h4>Dentre os valores, grau de risco para a área: ${area_filtro.value}m2,<br><b>BAIXO</b></h4>`;
+                            };
+                        } else if (parseInt(area_filtro.value) > 200 && parseInt(area_filtro.value) <= 400) {
+                            if (d200a400.includes('Alto')) {
+                                document.getElementById('resultado').style.backgroundColor = 'rgb(255, 0, 0, 0.3)';
+                                document.getElementById('resultado').innerHTML = `<h4>Dentre os valores, grau de risco para a área: ${area_filtro.value}m2,<br><b>ALTO</b></h4>`;
+                            } else if (d200a400.includes('Médio')) {
+                                document.getElementById('resultado').style.backgroundColor = 'rgb(255, 204, 102, 0.3)';
+                                document.getElementById('resultado').innerHTML = `<h4>Dentre os valores, grau de risco para a área: ${area_filtro.value}m2,<br><b>MÉDIO</b></h4>`;
+                            } else if (d200a400.includes('Baixo')) {
+                                document.getElementById('resultado').style.backgroundColor = 'rgb(153, 255, 102, 0.3)';
+                                document.getElementById('resultado').innerHTML = `<h4>Dentre os valores, grau de risco para a área: ${area_filtro.value}m2,<br><b>BAIXO</b></h4>`;
+                            };
+                        } else if (parseInt(area_filtro.value) > 400) {
+                            if (acima400.includes('Alto')) {
+                                document.getElementById('resultado').style.backgroundColor = 'rgb(255, 0, 0, 0.3)';
+                                document.getElementById('resultado').innerHTML = `<h4>Dentre os valores, grau de risco para a área: ${area_filtro.value}m2,<br><b>ALTO</b></h4>`;
+                            } else if (acima400.includes('Médio')) {
+                                document.getElementById('resultado').style.backgroundColor = 'rgb(255, 204, 102, 0.3)';
+                                document.getElementById('resultado').innerHTML = `<h4>Dentre os valores, grau de risco para a área: ${area_filtro.value}m2,<br><b>MÉDIO</b></h4>`;
+                            } else if (acima400.includes('Baixo')) {
+                                document.getElementById('resultado').style.backgroundColor = 'rgb(153, 255, 102, 0.3)';
+                                document.getElementById('resultado').innerHTML = `<h4>Dentre os valores, grau de risco para a área: ${area_filtro.value}m2,<br><b>BAIXO</b></h4>`;
+                            };
+                        }
+                    };
+                };
+            };
+        },
+        columns: [
+            {
+                title: 'Código', field: 'codigo', width: 80
+            },
+            {
+                title: 'Denominação', field: 'denominacao', width: 580,
+                headerFilter: "input"
+            },
+            {
+                title: 'Até 200 m2', field: 'ate200', width: 110,
+                formatter: (cell) => {
+                    let value = cell.getValue();
+                    if (value == 'Alto') {
+                        cell._cell.element.style.backgroundColor = 'rgb(255, 0, 0, 0.3)';
+                        return "<span style='font-weight:bold;'>" + value + "</span>";
+                    } else if (value == 'Médio') {
+                        cell._cell.element.style.backgroundColor = 'rgb(255, 204, 102, 0.3)';
+                        return "<span style='font-weight:bold;'>" + value + "</span>";
+                    } else if (value == 'Baixo') {
+                        cell._cell.element.style.backgroundColor = 'rgb(153, 255, 102, 0.3)';
+                        return "<span style='font-weight:bold;'>" + value + "</span>";
+                    } else {
+                        return value;
+                    }
+                }
+            },
+            {
+                title: '200 a 400 m2', field: '200a400', width: 110,
+                formatter: (cell) => {
+                    let value = cell.getValue();
+                    if (value == 'Alto') {
+                        cell._cell.element.style.backgroundColor = 'rgb(255, 0, 0, 0.3)'
+                        return "<span style='font-weight:bold;'>" + value + "</span>";
+                    } else if (value == 'Médio') {
+                        cell._cell.element.style.backgroundColor = 'rgb(255, 204, 102, 0.3)'
+                        return "<span style='font-weight:bold;'>" + value + "</span>";
+                    } else if (value == 'Baixo') {
+                        cell._cell.element.style.backgroundColor = 'rgb(153, 255, 102, 0.3)'
+                        return "<span style='font-weight:bold;'>" + value + "</span>";
+                    } else {
+                        return value;
+                    }
+                }
+            },
+            {
+                title: 'Acima 400 m2', field: 'acima400', width: 110,
+                formatter: (cell) => {
+                    let value = cell.getValue();
+                    if (value == 'Alto') {
+                        cell._cell.element.style.backgroundColor = 'rgb(255, 0, 0, 0.3)'
+                        return "<span style='font-weight:bold;'>" + value + "</span>";
+                    } else if (value == 'Médio') {
+                        cell._cell.element.style.backgroundColor = 'rgb(255, 204, 102, 0.3)'
+                        return "<span style='font-weight:bold;'>" + value + "</span>";
+                    } else if (value == 'Baixo') {
+                        cell._cell.element.style.backgroundColor = 'rgb(153, 255, 102, 0.3)'
+                        return "<span style='font-weight:bold;'>" + value + "</span>";
+                    } else {
+                        return value;
+                    }
+                }
+            }
+        ]
+    });
+</script>
+
+</html>
