@@ -47,6 +47,21 @@
         flex-direction: column;
     }
 
+    .vl {
+        border-left: 20px solid white;
+    }
+
+    .hline {
+        width: 100%;
+        height: 15px;
+        background: #fff
+    }
+
+    #leis {
+        display: flex;
+        font-size: 14px;
+    }
+
     #navegacao {
         display: flex;
     }
@@ -79,21 +94,30 @@
                 <img src='https://geoitajai.github.io/geo/images/favicon-96x96.png'
                     style='height:45px; width:auto; padding:3px;'>
             </div>
-            <div style='font-size:120%; padding:3px;'>
-                <b>Município de Itajaí <br> Secretaria Municipal de Desenvolvimento Urbano e Habitação</b>
+            <div style='font-size:85%; padding:3px;'>
+                <b>Município de Itajaí <br> Secretaria Municipal de Desenvolvimento Urbano e Habitação</b><br>TABELA DE GRAU DE RISCO
             </div>
         </div>
-
+        <div class="hline"></div>
         <div id='pesquisa'>
-            <a href='http://leismunicipa.is/hyrip'><b>
-                    Tabela de grau de risco das atividades econômicas<br>
-                    Decreto Nº 11.985, de 24 de Agosto de 2020.</b></a><br>
+            <div id='leis'>
+                <div>
+                    <a href='http://leismunicipa.is/hyrip'><b>
+                            Decreto Nº 11.985,<br>24 de Agosto de 2020.</b></a><br>
+                </div>
+                <div class="vl"></div>
+                <div>
+                    <a href='http://leismunicipa.is/pqbya'><b>
+                            Decreto Nº 11.956,<br>24 de Agosto de 2020.</b></a><br>
+                </div>
+            </div>
+            <div class="hline"></div>
             <div>
                 <input id='filter-value' type='text' size='38'
-                    placeholder='digite os códigos separados por espaço, ex: 0111-3/01 0119-9 0122'>
+                    placeholder='códigos separados por espaço, ex: 0111-3/01 0119-9 0122'>
                 <button id='filter-clear' type='button'>limpar</button><br>
                 <input id='filter-area' type='text' size='38'
-                    placeholder='digite a área total construída (apenas números)'>
+                    placeholder='área total ocupada(apenas números)'>
             </div>
 
             <div id='resultado'>
@@ -179,7 +203,7 @@
         layout: 'fitColumns',
         groupBy: ['divisao'],
         groupStartOpen: false,
-        groupToggleElement:"header",
+        groupToggleElement: "header",
         data: tabrisco,
         dataFiltered: (filters, rows) => {
             if (filters.length > 0) {
@@ -242,10 +266,10 @@
         },
         columns: [
             {
-                title: 'Código', field: 'codigo', width: 80
+                title: 'Código', field: 'codigo', width: 75
             },
             {
-                title: 'Denominação', field: 'denominacao', width: 580,
+                title: 'Denominação', field: 'denominacao', width: 585,
                 headerFilter: "input"
             },
             {
