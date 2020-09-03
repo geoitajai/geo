@@ -95,7 +95,8 @@
                     style='height:45px; width:auto; padding:3px;'>
             </div>
             <div style='font-size:85%; padding:3px;'>
-                <b>Município de Itajaí <br> Secretaria Municipal de Desenvolvimento Urbano e Habitação</b><br>TABELA DE GRAU DE RISCO
+                <b>Município de Itajaí <br> Secretaria Municipal de Desenvolvimento Urbano e Habitação</b><br>TABELA DE
+                GRAU DE RISCO
             </div>
         </div>
         <div class="hline"></div>
@@ -113,11 +114,11 @@
             </div>
             <div class="hline"></div>
             <div>
-                <input id='filter-value' type='text' size='38'
+                <input id='filter-value' type='text' size='48'
                     placeholder='códigos separados por espaço, ex: 0111-3/01 0119-9 0122'>
-                <button id='filter-clear' type='button'>limpar</button><br>
-                <input id='filter-area' type='text' size='38'
-                    placeholder='área total ocupada(apenas números)'>
+                <button id='filter-clear' class='botao' type='button'>limpar</button><br>
+                <input id='filter-area' type='text' size='48' placeholder='área total ocupada(apenas números)'>
+                <button id='filter-enter' class='botao' type='button'>consultar</button><br>
             </div>
 
             <div id='resultado'>
@@ -134,8 +135,20 @@
     updateFilter = () => {
         table.setHeaderFilterValue('denominacao', null);
         let valores_filtro = document.getElementById('filter-value');
-        table.setFilter('codigo', 'regex', valores_filtro.value.replace(' ', '|'));
-        desagrupar();
+        if (valores_filtro.value != '') {
+            table.setFilter('codigo', 'in', valores_filtro.value.split(' '));
+            let filtros_num = table.getFilters()[0].value.length;
+            let resultados_num = table.rowManager.activeRows.length;
+            desagrupar();
+            if (resultados_num < filtros_num) {
+                console.log();
+                alert(`não encontrado(s): ${valores_filtro.value
+                    .split(' ')
+                    .filter(x => !table.rowManager.activeRows
+                        .map(e => { return e.data.codigo })
+                        .includes(x))}`)
+            };
+        };
     };
 
     document.getElementById('filter-value').addEventListener("keyup", function (event) {
@@ -150,6 +163,10 @@
             event.preventDefault();
             updateFilter();
         }
+    });
+
+    document.getElementById('filter-enter').addEventListener('click', function () {
+        updateFilter();
     });
 
     document.getElementById('filter-clear').addEventListener('click', function () {
@@ -208,24 +225,18 @@
         dataFiltered: (filters, rows) => {
             if (filters.length > 0) {
                 let area_filtro = document.getElementById('filter-area');
-                //console.log(filters)
-                /* rows.forEach(e => {
-                    console.log(e._row.data["200a400"])
-                }) */
                 let compr = rows.length;
                 let ate200 = [];
                 let d200a400 = [];
                 let acima400 = [];
                 for (let e of rows) {
-                    //console.log(compr);
-                    //console.log(e._row.data)
                     ate200.push(e._row.data['ate200'])
                     d200a400.push(e._row.data['200a400'])
                     acima400.push(e._row.data['acima400'])
                     compr--;
                     if (compr === 0) {
-                        if (parseInt(area_filtro) === NaN) {
-                            alert('área digitada não é um número válido')
+                        if (isNaN(parseInt(area_filtro.value)) === true) {
+                            alert('área digitada não é um número válido');
                         } else if (parseInt(area_filtro.value) <= 200) {
                             if (ate200.includes('Alto')) {
                                 document.getElementById('resultado').style.backgroundColor = 'rgb(255, 0, 0, 0.3)';
