@@ -565,6 +565,9 @@
                     if (data[0].properties.zon2012 === 'conflito') {
                         consultapreviap = `https://geoitajai.github.io/geo/consultazoneamentoerro.html#${data[0].properties.inscrlig}`;
                         linkinfo = 'regularizar situação cadastral';
+                    } else if (data[0].properties.zon2012 === 'dc0913463') {
+                        consultapreviap = `https://geoitajai.github.io/geo/consultazoneamentodc0913463.html#${data[0].properties.inscrlig}`;
+                        linkinfo = 'Suspensão mediante decisão judicial nº 0913463-80.2016.8.24.0033.';
                     } else {
                         linkinfo = 'clique para abrir';
                         consultapreviap = `https://geoitajai.github.io/geo/consultazoneamento.html#${data[0].properties.inscrlig}`;
@@ -606,6 +609,9 @@
                     if (data[0].properties.zon2012 === 'conflito') {
                         consultapreviap = `https://geoitajai.github.io/geo/consultazoneamentoerro.html#${data[0].properties.inscrlig}`;
                         linkinfo = 'regularizar situação cadastral';
+                    } else if (data[0].properties.zon2012 === 'dc0913463') {
+                        linkinfo = 'Suspensão mediante decisão judicial nº 0913463-80.2016.8.24.0033';
+                        consultapreviap = `https://geoitajai.github.io/geo/consultazoneamentodc0913463.html#${data[0].properties.inscrlig}`;
                     } else {
                         linkinfo = 'clique para abrir';
                         consultapreviap = `https://geoitajai.github.io/geo/consultazoneamento.html#${data[0].properties.inscrlig}`;
