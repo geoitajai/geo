@@ -46,6 +46,9 @@ dados[['classe', 'grupo', 'divisao', 'secao']] = dados[[
     'classe', 'grupo', 'divisao', 'secao']].fillna(method='ffill')
 
 # %%
+dados['codigo'] =  dados['codigo'].str.slice(0, 2) + '.' + dados['codigo'].str.slice(2).str.replace('/', '-')
+
+# %%
 df = dados.loc[dados['codigo'].notnull()]
 
 df = df[['codigo', 'denominacao', 'ate200', '200a400',
