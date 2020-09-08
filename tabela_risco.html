@@ -151,25 +151,40 @@
         };
     };
 
-    document.getElementById('filter-value').addEventListener("keyup", function (event) {
-        if (event.keyCode === 13) {
-            event.preventDefault();
+    document.getElementById('filter-value').addEventListener("keyup", e => {
+        if (e.keyCode === 13) {
+            e.preventDefault();
             updateFilter();
         }
     });
 
-    document.getElementById('filter-area').addEventListener("keyup", function (event) {
-        if (event.keyCode === 13) {
-            event.preventDefault();
+    const reg_test = new RegExp(/^[0-9]{2}.[0-9]{2}-[0-9]{1}-[0-9]{2}$/);
+    document.getElementById('filter-value').addEventListener("paste", e => {
+        e.preventDefault();
+        let text = (e.originalEvent || e).clipboardData.getData('text/plain');
+        let consulta_colada = text.replace(/[a-zA-Z‘’!“”"#$%&'()*+,\/:;<=>?@[\]^_`{|}~çõáíàÇÃÁÔÍÓ\r\n]/g, '')
+            .split(' ')
+            .reduce((a, e) => {
+                if (reg_test.test(e)) {
+                    a = a + ' ' + e;
+                };
+                return a
+            });
+        document.getElementById('filter-value').value = consulta_colada.trim();
+    });
+
+    document.getElementById('filter-area').addEventListener("keyup", e => {
+        if (e.keyCode === 13) {
+            e.preventDefault();
             updateFilter();
         }
     });
 
-    document.getElementById('filter-enter').addEventListener('click', function () {
+    document.getElementById('filter-enter').addEventListener('click', () => {
         updateFilter();
     });
 
-    document.getElementById('filter-clear').addEventListener('click', function () {
+    document.getElementById('filter-clear').addEventListener('click', () => {
         document.getElementById('filter-value').value = '';
         table.clearFilter();
         document.getElementById('resultado').style.backgroundColor = 'white';
@@ -177,7 +192,7 @@
     });
 
     desagrupar = () => {
-        table.getGroups().forEach(function (group) {
+        table.getGroups().forEach((group) => {
             group.show();
         });
     }
