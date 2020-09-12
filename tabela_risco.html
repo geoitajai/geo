@@ -66,6 +66,19 @@
         display: flex;
     }
 
+    @media print {
+        .no-print {
+            visibility: hidden;
+        }
+    }
+
+    #botaoimprimir {
+        position: absolute;
+        background-color: none;
+        font-size: 4mm;
+        font-weight: bold;
+    }
+
     .tabulator {
         font-size: 12px;
         background: white;
@@ -122,8 +135,11 @@
                 <button id='filter-clear' class='botao' type='button'>limpar</button><br>
                 <input id='filter-area' type='text' size='48' placeholder='área total ocupada(apenas números)'>
                 <button id='filter-enter' class='botao' type='button'>consultar</button><br>
+                <div class="hline"></div>
+                <button type="button" class="no-print" id="botaoimprimir">
+                    IMPRESSÃO/SALVAR PDF
+                </button>
             </div>
-
             <div id='resultado'>
                 <h4>...<br>...</h4>
             </div>
@@ -234,7 +250,7 @@
                 }
             }
         },
-        height: '340px',
+        height: '100%',
         layout: 'fitColumns',
         groupBy: ['divisao'],
         groupStartOpen: false,
@@ -298,11 +314,11 @@
                 title: 'Código', field: 'codigo', width: 75
             },
             {
-                title: 'Denominação', field: 'denominacao', width: 585,
+                title: 'Denominação', field: 'denominacao', width: 340,
                 headerFilter: "input"
             },
             {
-                title: 'Até 200 m2', field: 'ate200', width: 110,
+                title: 'Até 200m2', field: 'ate200', width: 100,
                 formatter: (cell) => {
                     let value = cell.getValue();
                     if (value == 'Alto') {
@@ -320,7 +336,7 @@
                 }
             },
             {
-                title: '200 a 400 m2', field: '200a400', width: 110,
+                title: '200 a 400m2', field: '200a400', width: 100,
                 formatter: (cell) => {
                     let value = cell.getValue();
                     if (value == 'Alto') {
@@ -338,7 +354,7 @@
                 }
             },
             {
-                title: 'Acima 400 m2', field: 'acima400', width: 110,
+                title: 'Acima 400m2', field: 'acima400', width: 100,
                 formatter: (cell) => {
                     let value = cell.getValue();
                     if (value == 'Alto') {
@@ -356,6 +372,10 @@
                 }
             }
         ]
+    });
+
+    document.getElementById('botaoimprimir').addEventListener('click', e => {
+        window.print();
     });
 </script>
 
