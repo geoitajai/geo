@@ -46,7 +46,8 @@ dados[['classe', 'grupo', 'divisao', 'secao']] = dados[[
     'classe', 'grupo', 'divisao', 'secao']].fillna(method='ffill')
 
 # %%
-dados['codigo'] =  dados['codigo'].str.slice(0, 2) + '.' + dados['codigo'].str.slice(2).str.replace('/', '-')
+dados['codigo'] = dados['codigo'].str.slice(
+    0, 2) + '.' + dados['codigo'].str.slice(2).str.replace('/', '-')
 
 # %%
 df = dados.loc[dados['codigo'].notnull()]
@@ -55,6 +56,23 @@ df = df[['codigo', 'denominacao', 'ate200', '200a400',
          'acima400', 'divisao']]
 
 # %%
-df.to_json('tabela_risco.json', orient='records')
+# exportar para base do app
+# df.to_json('tabela_risco.json', orient='records')
+
+# %%
+# chave export categorias classificadas para csv
+df['codcat'] = dados['codigo'].str.slice(0, 2) +\
+    dados['ate200'] +\
+    dados['200a400'] +\
+    dados['acima400']
+
+# %%
+dfcat = df[['codcat',
+            'divisao',
+            'ate200',
+            '200a400',
+            'acima400']].value_counts().reset_index()
+# %%
+dfcat.to_csv('caturb.csv', index=False)
 
 # %%
