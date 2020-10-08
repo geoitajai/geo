@@ -181,7 +181,7 @@
     document.getElementById('filter-value').addEventListener("paste", e => {
         e.preventDefault();
         let text = (e.originalEvent || e).clipboardData.getData('text/plain');
-        let consulta_colada = text.replace(/[a-zA-Z‘’!“”"#$%&'()*+,\/:;<=>?@[\]^_`{|}~çõáíàÇÃÁÔÍÓ\r\n]/g, '')
+        let consulta_colada = text.replace(/[a-zA-Z‘’!“”"#$%&'()*+,\/:;<=>?@[\]^_`{|}~ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõöøùúûüýþÿŒœŠšŸƒ\r\n]/g, '')
             .split(' ')
             .reduce((a, e) => {
                 if (reg_test.test(e)) {
