@@ -57,6 +57,10 @@
         background: #fff
     }
 
+    .camposcopy {
+        background: #fff
+    }
+
     #leis {
         display: flex;
         font-size: 14px;
@@ -143,10 +147,21 @@
             <div id='resultado'>
                 <h4>...<br>...</h4>
             </div>
+            <div class="hline"></div>
             <div>
-                <input type="text" id="listapermiss" size='48' value="-" readonly><br>
-                <input type="text" id="listacnaes" size='48' value="-" readonly>
+                <input type="text" class="camposcopy" id="cnaesexistentes" size='48'
+                    value="Alteração de inscrição - CNAEs já existentes" readonly>
+                <button onclick="copiartxt('cnaesexistentes')">Copiar CNAEs já existentes</button>
+                <br>
+                <input type="text" class="camposcopy" id="cnaesnovos" size='48' value="Nova inscrição" readonly>
+                <button onclick="copiartxt('cnaesnovos')">Copiar CNAEs novos</button>
+                <br>
+                <input type="text" class="camposcopy" id="cnaesremovidos" size='48'
+                    value="Alteração de inscrição - CNAEs a serem removidos" readonly>
+                <button onclick="copiartxt('cnaesremovidos')">Copiar CNAEs a serem removidos</button>
+                <br>
             </div>
+            <div class="hline"></div>
         </div>
         <div id='navegacao'>
             <div id='tabela'></div>
@@ -163,6 +178,10 @@
             let filtros_num = table.getFilters()[0].value.length;
             let resultados_num = table.rowManager.activeRows.length;
             desagrupar();
+            if (timer == 0) {
+                timer = 3;
+                atualizacampos();
+            } else { timer = 3 };
             if (resultados_num < filtros_num) {
                 console.log();
                 alert(`não encontrado(s): ${valores_filtro.value
@@ -216,6 +235,9 @@
         });
         document.getElementById('resultado').style.backgroundColor = 'white';
         document.getElementById('resultado').innerHTML = '<h4>...<br>...</h4>';
+        document.getElementById('cnaesexistentes').value = "Alteração de inscrição - CNAEs já existentes";
+        document.getElementById('cnaesnovos').value = "Nova inscrição";
+        document.getElementById('cnaesremovidos').value = "Alteração de inscrição - CNAEs a serem removidos";
     });
 
     desagrupar = () => {
@@ -225,6 +247,12 @@
     }
 
     // atualizar campos grupos distintos
+    let dadosfiltradosagrupados = (coletados) => {
+        document.getElementById('cnaesexistentes').value = coletados.existentes;
+        document.getElementById('cnaesnovos').value = coletados.novos;
+        document.getElementById('cnaesremovidos').value = coletados.removidos;
+    };
+
     let timer = 0;
     let atualizacampos = () => {
         if (timer > 0) {
@@ -232,10 +260,27 @@
                 timer--;
                 if (timer == 0) {
                     if (table.getFilters().length != 0) {
-                        console.log(table.getData("active"));
+                        let dadosfiltrados = table.getData("active");
+                        let contador = dadosfiltrados.length;
+                        dadosfiltrados.reduce((a, e) => {
+                            if (e.tipo == true) {
+                                coletados.existentes.push(e.codigo);
+                            } else if (e.tipo == false) {
+                                coletados.removidos.push(e.codigo);
+                            } else {
+                                coletados.novos.push(e.codigo);
+                            };
+                            contador--;
+                            if (contador == 0) {
+                                dadosfiltradosagrupados(coletados);
+                            };
+                        }, coletados = {
+                            existentes: [],
+                            removidos: [],
+                            novos: []
+                        });
                     };
                 } else {
-                    console.log(timer);
                     atualizacampos();
                 }
             }, 500);
@@ -276,7 +321,6 @@
                 }
             }
         },
-        height: '100%',
         layout: 'fitColumns',
         groupBy: ['divisao'],
         groupStartOpen: false,
@@ -337,24 +381,30 @@
         },
         columns: [
             {
-                title: 'Permissível', field: 'permissivel',
-                width: 95, hozAlign: "center", formatter: "tickCross", formatterParams: {
+                title: 'Tipo', field: 'tipo',
+                width: 40, hozAlign: "center", formatter: "tickCross", formatterParams: {
                     allowEmpty: true
                 },
                 cellClick: (e, cell) => {
                     if (timer == 0) {
-                        timer = 5;
+                        timer = 3;
                         atualizacampos();
-                    } else { timer = 5 };
-
+                    } else { timer = 3 };
+                    let idrow = cell._cell.row.data.id
                     if (cell.getValue() == null) {
                         cell.setValue(true)
+                        table.updateData([{ id: idrow, tipodescr: "CNAE já existente" }]);
                     } else if (cell.getValue() == true) {
                         cell.setValue(false)
+                        table.updateData([{ id: idrow, tipodescr: "CNAEs a serem removidos" }]);
                     } else {
                         cell.setValue(null)
+                        table.updateData([{ id: idrow, tipodescr: "Nova inscrição" }]);
                     };
                 }
+            },
+            {
+                title: 'Solicitação', field: 'tipodescr', width: 150
             },
             {
                 title: 'Código', field: 'codigo', width: 75
@@ -423,6 +473,19 @@
     document.getElementById('botaoimprimir').addEventListener('click', e => {
         window.print();
     });
+
+    // botões copiar texto
+    function copiartxt(campo) {
+        document.getElementsByClassName("camposcopy")[0].style.backgroundColor = '#fff';
+        document.getElementsByClassName("camposcopy")[1].style.backgroundColor = '#fff';
+        document.getElementsByClassName("camposcopy")[2].style.backgroundColor = '#fff';
+        let copyText = document.getElementById(campo);
+        copyText.select();
+        copyText.setSelectionRange(0, 99999);
+        document.execCommand("copy");
+        document.getElementById(campo).style.backgroundColor = '#cccccc';
+        //alert(copyText.value);
+    }
 </script>
 
 </html>

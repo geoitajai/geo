@@ -18,7 +18,9 @@ dados = pd.read_csv('dados/risco_uso.tsv',
                     )
 
 # %%
-dados['permissivel'] = np.nan
+dados['tipo'] = np.nan
+dados['tipodescr'] = 'Nova inscrição'
+dados['id'] = dados.index
 
 # %%
 dados.to_json('temp.json', orient='records')
