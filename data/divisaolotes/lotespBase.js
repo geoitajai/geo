@@ -43,6 +43,7 @@ let promessa = new Promise((resolve, reject) => {
                 "nfracaoi": lote.properties.nfracaoi,
                 "ntipopes": lote.properties.ntipopes,
                 "inscrlig": lote.properties.inscrlig,
+                "zon2012predom": Boolean(lote.properties.zon2012predom) ? lote.properties.zon2012predom.trim() : lote.properties.zon2012predom,
                 "zon2012": lote.properties.zon2012,
                 "zon2012alt": lote.properties.zon2012alt,
                 "reaeroporto": lote.properties.reaeroporto === null ? null : lote.properties.reaeroporto.trim(),
