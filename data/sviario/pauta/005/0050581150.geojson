@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0050581150", "cod": 10, "nome": "R.Antônio Ayres dos Santos", "ptotalvia": 13.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692227878520534, -26.900679612447142 ], [ -48.692231834523312, -26.900365193034585 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050581150", "cod": 23, "nome": "R.Cargelino Francelino", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69267185237522, -26.90062944624194 ], [ -48.69222817, -26.90063949 ], [ -48.692181784331417, -26.900640331767825 ] ] } }
+]
+}

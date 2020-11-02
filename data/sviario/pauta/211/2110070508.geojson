@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2110070508", "cod": 505, "nome": "R.Gaspar", "ptotalvia": 13.2, "ppasseio1": 2.6, "ppasseio2": 2.6 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676795440041374, -26.909966921853915 ], [ -48.676462318678375, -26.909860989681636 ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2140410134", "cod": 766, "nome": "R.Paulo Herbst", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.634088511759288, -26.929899927578724 ], [ -48.6343535, -26.93010491 ], [ -48.634435996968136, -26.930171566192939 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140410134", "cod": 771, "nome": "R.Ver.Hermínio Gervásio", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6343535, -26.93010491 ], [ -48.634206701368598, -26.930371807740091 ] ] } }
+]
+}

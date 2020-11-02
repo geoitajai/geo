@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2040070180", "cod": 648, "nome": "R.Onze de Junho", "ptotalvia": 13.2, "ppasseio1": 1.9, "ppasseio2": 1.9 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.650863255025484, -26.921008899628642 ], [ -48.65090073, -26.92109244 ], [ -48.651194150464747, -26.921641833244639 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040070180", "cod": 665, "nome": "R.Pedro Camilo da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -48.65090073, -26.92109244 ], [ -48.650379089710263, -26.921296541335519 ] ], [ [ -48.65028158532369, -26.921337223479618 ], [ -48.649779964045813, -26.921552734929158 ] ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040070180", "cod": 665, "nome": "R.Pedro Camilo da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.649722445025269, -26.921801265835398 ], [ -48.650177477487958, -26.922097383110916 ] ] } }
+]
+}

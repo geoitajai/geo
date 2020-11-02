@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2032060660", "cod": 1269, "nome": "R.César Augusto Dalsóquio", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.728691964147735, -26.866776723527742 ], [ -48.72862694, -26.86714469 ], [ -48.728608964855646, -26.867246409764487 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2032060660", "cod": 1649, "nome": "R.Sem denominação oficial", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.72862694, -26.86714469 ], [ -48.729427058001136, -26.867115667964931 ] ] } }
+]
+}

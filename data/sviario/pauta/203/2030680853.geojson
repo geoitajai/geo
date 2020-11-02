@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2030680853", "cod": 1175, "nome": "Marginal Leste", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.726752308329282, -26.876626912699084 ], [ -48.727437096876585, -26.874924987660233 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2030680853", "cod": 1269, "nome": "R.César Augusto Dalsóquio", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.726398024384352, -26.874272727701111 ], [ -48.725879628212482, -26.874883910630111 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2030680853", "cod": 1280, "nome": "R.João Borges Régis", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.725896473369701, -26.87574680093568 ], [ -48.726746279381345, -26.876627490762612 ] ] } }
+]
+}

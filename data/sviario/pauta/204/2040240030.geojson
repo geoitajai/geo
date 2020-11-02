@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2040240030", "cod": 623, "nome": "R.Lages", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.654718005235971, -26.915595390030013 ], [ -48.65487991485189, -26.915660271762448 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040240030", "cod": 630, "nome": "Serv.Lourenço Cardoso Valente", "ptotalvia": 3.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65514541, -26.91512367 ], [ -48.654841969630674, -26.914878582905878 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040240030", "cod": 281, "nome": "R.Camboriú", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.655146876340957, -26.915120702987757 ], [ -48.65514541, -26.91512367 ], [ -48.654880175533918, -26.915660338569232 ] ] } }
+]
+}

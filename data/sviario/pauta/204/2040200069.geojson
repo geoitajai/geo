@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2040200069", "cod": 639, "nome": "R.Estados Unidos", "ptotalvia": 8.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.654351762306746, -26.917411030328715 ], [ -48.654678099565814, -26.917676059299456 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040200069", "cod": 640, "nome": "R.Pedro Rebello", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.654017605626912, -26.917730238527373 ], [ -48.654326574023145, -26.917962751377875 ] ] } }
+]
+}

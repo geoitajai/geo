@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2120280001", "cod": 444, "nome": "R.Luiz José Bento da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.680500518380207, -26.889315505927009 ], [ -48.68061906, -26.88940831 ], [ -48.680731640504952, -26.889621554141026 ] ] } }
+]
+}

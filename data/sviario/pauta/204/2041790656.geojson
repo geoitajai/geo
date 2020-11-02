@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2041790656", "cod": 700, "nome": "R.Benjamim Wendhausen", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65138725, -26.92625878 ], [ -48.65143453963784, -26.926297843326786 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2041790656", "cod": 704, "nome": "R.Abraão Bernardino Rocha", "ptotalvia": 13.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.651456780625089, -26.926194628603124 ], [ -48.65138725, -26.92625878 ], [ -48.651199995502878, -26.926429556557785 ] ] } }
+]
+}

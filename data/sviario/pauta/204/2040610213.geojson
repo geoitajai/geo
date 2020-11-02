@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2040610213", "cod": 698, "nome": "R.Iolanda Ardigó", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.653124724224305, -26.927214437030525 ], [ -48.65284458, -26.92746258 ], [ -48.652787548621248, -26.927514228116923 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040610213", "cod": 700, "nome": "R.Benjamim Wendhausen", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.652786130158653, -26.927414299359913 ], [ -48.65284458, -26.92746258 ], [ -48.653066484448672, -26.92764870780913 ] ] } }
+]
+}

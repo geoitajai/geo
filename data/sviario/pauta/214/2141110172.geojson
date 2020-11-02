@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2141110172", "cod": 797, "nome": "R.Ver.Nabor Russi", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.631995610885674, -26.948329174706515 ], [ -48.632018638183354, -26.94864404189547 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2141110172", "cod": 801, "nome": "R.Walter Ferreira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.63200099, -26.94840273 ], [ -48.632387195311388, -26.948389152699225 ] ] } }
+]
+}

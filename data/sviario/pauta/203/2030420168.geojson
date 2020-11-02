@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2030420168", "cod": 1024, "nome": "R.Theodoro Lino Régis", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700930293335695, -26.867079070969154 ], [ -48.701645003203716, -26.867251864598963 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2030420168", "cod": 1025, "nome": "R.Antônio Tironi", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.701891268398342, -26.871713172238906 ], [ -48.70180804, -26.87171716 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2030420168", "cod": 1061, "nome": "R.José Luiz Marcelino", "ptotalvia": 10.2, "ppasseio1": 1.6, "ppasseio2": 1.6 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.701927163508721, -26.872833540648966 ], [ -48.70141042, -26.87288851 ], [ -48.701254679256785, -26.872917427827641 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2030420168", "cod": 1027, "nome": "R.Francisco José de Aviz", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.701775179101737, -26.869591443655459 ], [ -48.70160767, -26.86960182 ] ] } }
+]
+}

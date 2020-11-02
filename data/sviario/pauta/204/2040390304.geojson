@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2040390304", "cod": 606, "nome": "R.Dr.Leoberto Leal", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.657847687939807, -26.91428214403329 ], [ -48.65759145, -26.91407863 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040390304", "cod": 265, "nome": "Av.Ver.Abrahão João Francisco", "ptotalvia": 29.4, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.657645280024113, -26.914050797108381 ], [ -48.65759145, -26.91407863 ], [ -48.657361245243003, -26.914230970272186 ] ] } }
+]
+}

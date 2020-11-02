@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2161890500", "cod": 1267, "nome": "R.Serafim Gamba", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.8185608503818, -27.006350156346855 ], [ -48.81843862, -27.00636713 ], [ -48.81823551, -27.00641915 ], [ -48.8179537, -27.00653678 ], [ -48.81708033000001, -27.00703442 ], [ -48.81669188, -27.00715204 ], [ -48.81659569360027, -27.007171377294544 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2161890500", "cod": 1235, "nome": "Rod.Dep.Antônio Heil", "ptotalvia": 30.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -48.818280895714985, -27.001260766814326 ], [ -48.81793599, -27.00096564 ], [ -48.81698487, -27.00015494 ] ], [ [ -48.81698487, -27.00015494 ], [ -48.816515709002779, -26.999738377382887 ] ], [ [ -48.81698487, -27.00015494 ], [ -48.816940376246286, -27.000095239799432 ] ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2161890500", "cod": 1592, "nome": "R.João Rodolpho Reinert", "ptotalvia": 25.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.81793599, -27.00096564 ], [ -48.817943343358841, -27.000938053876823 ] ] } }
+]
+}

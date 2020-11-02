@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2140850061", "cod": 831, "nome": "R.Renato Melim Cunha", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.629484165254091, -26.94329021265801 ], [ -48.629528473565088, -26.943605784815002 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140850061", "cod": 833, "nome": "R.Demétrio Izidoro Cardoso", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.629932676154802, -26.943289051512625 ], [ -48.629426555786381, -26.943351991810157 ] ] } }
+]
+}

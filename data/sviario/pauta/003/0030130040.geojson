@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0030130040", "cod": 1117, "nome": "R.Erminio Machado", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691816663968666, -26.892711592229123 ], [ -48.69183218, -26.89301552 ], [ -48.691834917440545, -26.893065088859096 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0030130040", "cod": 1130, "nome": "R.Francisco Olegário dos Santos", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691906258790183, -26.893010127966502 ], [ -48.69183218, -26.89301552 ], [ -48.691498572666355, -26.893027922051512 ] ] } }
+]
+}

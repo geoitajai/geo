@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2141720600", "cod": 813, "nome": "R.Sem denominação oficial", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.645910881862811, -26.948669704429257 ], [ -48.64570275, -26.94851598 ], [ -48.64545052, -26.94817651 ], [ -48.645435463573023, -26.948132662125424 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2141720600", "cod": 812, "nome": "R.Sem denominação oficial", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.644172520228281, -26.948241577755638 ], [ -48.64421409, -26.94870114 ], [ -48.64423882, -26.94899652 ], [ -48.64427344, -26.94925663 ], [ -48.644272232663496, -26.949265240067874 ] ] } }
+]
+}

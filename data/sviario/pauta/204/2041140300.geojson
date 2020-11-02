@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2041140300", "cod": 891, "nome": "R.Mônica Gizele Elisio", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691517151334729, -26.934093701424683 ], [ -48.69151532, -26.93409699 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2041140300", "cod": 265, "nome": "Av.Ver.Abrahão João Francisco", "ptotalvia": 29.4, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692825688668535, -26.934998811793598 ], [ -48.69151532, -26.93409699 ], [ -48.691306464836302, -26.933947967800506 ] ] } }
+]
+}

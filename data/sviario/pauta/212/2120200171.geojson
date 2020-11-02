@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2120200171", "cod": 158, "nome": "R.Albino Gugelmin", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.679904025682369, -26.893630057456932 ], [ -48.677952768596761, -26.89369426800593 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2120200171", "cod": 434, "nome": "R.Hildo Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.679735003664533, -26.891528212373906 ], [ -48.67974167, -26.89157605 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2120200171", "cod": 426, "nome": "R.Alfredo Eicke", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.679818090979623, -26.891559731306589 ], [ -48.67974167, -26.89157605 ], [ -48.6795895, -26.89160671 ], [ -48.67945909701438, -26.89163098440487 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2120200171", "cod": 161, "nome": "Av.Irineu Bornhausen", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6795895, -26.89160671 ], [ -48.67916648, -26.89210424 ], [ -48.677927243857745, -26.893651427391919 ] ] } }
+]
+}

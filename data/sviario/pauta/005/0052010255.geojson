@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0052010255", "cod": 109, "nome": "R.Paulo Kleis Júnior", "ptotalvia": 13.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692667578555579, -26.910452677523441 ], [ -48.69234709, -26.91046111 ], [ -48.692281176078303, -26.910462631861861 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0052010255", "cod": 10, "nome": "R.Antônio Ayres dos Santos", "ptotalvia": 13.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692357178965324, -26.910877157320414 ], [ -48.69234709, -26.91046111 ], [ -48.692346637214513, -26.910399455437133 ] ] } }
+]
+}

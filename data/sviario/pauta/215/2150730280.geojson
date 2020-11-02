@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2150730280", "cod": 1352, "nome": "R.Antônio José Rebello", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.735182322327105, -26.879034161171734 ], [ -48.735216377981516, -26.879395863663937 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2150730280", "cod": 1358, "nome": "Av.Marcos Luís Cabral", "ptotalvia": 26.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.735523863381758, -26.8793764295363 ], [ -48.73522623423991, -26.879398678050105 ] ] } }
+]
+}

@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0052490130", "cod": 981, "nome": "R.Dr.Nelly Piccoli", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.699389592340609, -26.926158807595133 ], [ -48.69914387943566, -26.926402095292996 ] ] } }
+]
+}

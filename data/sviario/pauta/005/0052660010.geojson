@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0052660010", "cod": 79, "nome": "R.Herval do Oeste", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68625724, -26.8972191 ], [ -48.685937961350945, -26.897224518879348 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0052660010", "cod": 75, "nome": "R.Ademar Garcia da Silva", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.686251499767344, -26.896867351045888 ], [ -48.686259110663649, -26.897277772027831 ] ] } }
+]
+}

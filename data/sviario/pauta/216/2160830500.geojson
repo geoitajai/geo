@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2160830500", "cod": 1499, "nome": "R.Valdecir Cagnetti", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.74247796, -26.97631619 ], [ -48.742524452241248, -26.97639013756686 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2160830500", "cod": 1496, "nome": "R.Marcos Albino", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.738365522107529, -26.977534054414658 ], [ -48.73871254, -26.97747914 ], [ -48.73920391, -26.97727595 ], [ -48.74078808, -26.97689761 ], [ -48.74210888, -26.97652276 ], [ -48.74292259, -26.97606734 ], [ -48.74326458, -26.97594122 ], [ -48.74363802, -26.97584313 ], [ -48.743800622049982, -26.975779487535892 ] ] } }
+]
+}

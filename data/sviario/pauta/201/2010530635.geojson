@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2010530635", "cod": 362, "nome": "R.Cruz de Souza", "ptotalvia": 3.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.662291460108897, -26.908795448963353 ], [ -48.662674819499763, -26.909095119190788 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010530635", "cod": 363, "nome": "R.Rubens de Almeida", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.662393819782608, -26.908551956909076 ], [ -48.66243309, -26.90857941 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010530635", "cod": 353, "nome": "R.João Bauer", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.662474815909491, -26.908531340090441 ], [ -48.66243309, -26.90857941 ], [ -48.662279860376998, -26.908775257623905 ] ] } }
+]
+}

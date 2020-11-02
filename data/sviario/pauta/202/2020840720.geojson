@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2020840720", "cod": 240, "nome": "R.Joaquim José de Freitas", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67427584171682, -26.905709887968612 ], [ -48.67433941, -26.90570708 ], [ -48.67467783, -26.90570001 ], [ -48.674791082146143, -26.90569670669348 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020840720", "cod": 1580, "nome": "R.Theresinha Bella Cruz Jasper", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674671191196737, -26.90578390952972 ], [ -48.67467783, -26.90570001 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020840720", "cod": 243, "nome": "R.Raul Heusi da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674357653433574, -26.905413798386267 ], [ -48.67433935, -26.90571024 ] ] } }
+]
+}

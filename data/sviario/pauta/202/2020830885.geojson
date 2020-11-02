@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2020830885", "cod": 233, "nome": "R.Teodoro Luiz Pereira", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677753298300622, -26.904503329588906 ], [ -48.67770902, -26.90450604 ], [ -48.677673, -26.90450803 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020830885", "cod": 227, "nome": "R.Indaial", "ptotalvia": 17.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677713860970705, -26.90444827388492 ], [ -48.67770902, -26.90450604 ], [ -48.677689212423253, -26.904829422725772 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020830885", "cod": 233, "nome": "R.Teodoro Luiz Pereira", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677673, -26.90450803 ], [ -48.677387800303258, -26.904523831650341 ] ] } }
+]
+}

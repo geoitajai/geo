@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0055110150", "cod": 142, "nome": "R.Hygina de Andrade Corrêa", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.708503215170786, -26.910340702377084 ], [ -48.70843283, -26.91034347 ], [ -48.70804154813888, -26.910358296098885 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0055110150", "cod": 135, "nome": "R.José Pezzini", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.708429561034585, -26.910274477179634 ], [ -48.70843283, -26.91034347 ], [ -48.70844588149285, -26.910636127164562 ] ] } }
+]
+}

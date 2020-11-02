@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0054910030", "cod": 107, "nome": "R.Profª.Erotides da Silva Fontes", "ptotalvia": 20.0, "ppasseio1": 3.5, "ppasseio2": 3.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702935447402346, -26.909117698148016 ], [ -48.70318919, -26.909103479999988 ], [ -48.703239020060579, -26.909100865693269 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054910030", "cod": 32, "nome": "R.Dr.João Américo Watzko", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70319067291765, -26.90913138517158 ], [ -48.70318919, -26.909103479999988 ], [ -48.703171088874356, -26.908771882588344 ] ] } }
+]
+}

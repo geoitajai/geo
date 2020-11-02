@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2160360270", "cod": 1474, "nome": "R.Arlindo Mafra", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.71254195, -26.94335921 ], [ -48.712210982582754, -26.94336750323852 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2160360270", "cod": 1477, "nome": "R.Germano Dagnoni", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.71253959287337, -26.943295571667573 ], [ -48.712558031731938, -26.943774349243274 ] ] } }
+]
+}

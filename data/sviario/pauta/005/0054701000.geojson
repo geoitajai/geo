@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0054701000", "cod": 928, "nome": "R.Pedro Jerônimo Sedrez", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70521689, -26.91884403 ], [ -48.70526623989079, -26.918886613456593 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054701000", "cod": 926, "nome": "Av.Min.Luiz Gallotti", "ptotalvia": 17.2, "ppasseio1": 3.25, "ppasseio2": 3.25 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.705705491509249, -26.918366595955682 ], [ -48.70567437, -26.91839664 ], [ -48.704776496579314, -26.919274710686185 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054701000", "cod": 927, "nome": "R.Mauro Carlos Bertemes", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70571065733958, -26.918426327025426 ], [ -48.70567437, -26.91839664 ], [ -48.70429699, -26.91795362 ] ] } }
+]
+}

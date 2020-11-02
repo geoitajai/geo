@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2150420760", "cod": 1402, "nome": "R.Domingos Rampelotti", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.719263281258804, -26.90182825968774 ], [ -48.71916707, -26.90174906 ], [ -48.719040440782926, -26.901616917456323 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2150420760", "cod": 1407, "nome": "R.Vicente Cândido Pereira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.71916707, -26.90174906 ], [ -48.719177960016502, -26.902082475114426 ] ] } }
+]
+}

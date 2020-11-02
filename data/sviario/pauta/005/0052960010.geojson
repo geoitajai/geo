@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0052960010", "cod": 953, "nome": "R.José Domingos Machado", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69925765, -26.92236831 ], [ -48.698899767713449, -26.922506308978374 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0052960010", "cod": 945, "nome": "R.Paulo Valmor Severino", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.699291487840576, -26.922417259742769 ], [ -48.69925765, -26.92236831 ], [ -48.69904723309331, -26.922068130193765 ] ] } }
+]
+}

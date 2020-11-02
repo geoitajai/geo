@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0052640170", "cod": 80, "nome": "R.Porto União", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.684299256565183, -26.897652829169751 ], [ -48.68430086, -26.89769612 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0052640170", "cod": 62, "nome": "R.São Joaquim", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.684336675297587, -26.897695813418164 ], [ -48.68430086, -26.89769612 ], [ -48.683966483479807, -26.897700804548837 ] ] } }
+]
+}

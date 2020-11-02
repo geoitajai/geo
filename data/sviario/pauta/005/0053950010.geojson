@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0053950010", "cod": 963, "nome": "R.Arnaldo Lopes", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69145051832205, -26.926958013041997 ], [ -48.69164766, -26.92723776 ], [ -48.69168423836441, -26.927288716380488 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0053950010", "cod": 968, "nome": "R.Carlos Otto Priess", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691922752895721, -26.927087581599004 ], [ -48.691598434174963, -26.927264903838228 ] ] } }
+]
+}

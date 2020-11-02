@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2110430197", "cod": 163, "nome": "R.Alberto Werner", "ptotalvia": 13.2, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66996551326217, -26.913456517095781 ], [ -48.67001429, -26.9138531 ], [ -48.670024792636283, -26.913923084326161 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110430197", "cod": 331, "nome": "R.Karl Richard Breitenbauch", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67001429, -26.9138531 ], [ -48.669753714444525, -26.914040176744773 ] ] } }
+]
+}

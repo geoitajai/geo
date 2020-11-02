@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2160050500", "cod": 1430, "nome": "R.Manoel Bernardes", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.727439056453264, -26.953814675882658 ], [ -48.72752814, -26.954000139999987 ], [ -48.72810275, -26.95510756 ], [ -48.72879084, -26.95626368 ], [ -48.72982188, -26.95706316 ], [ -48.72998085, -26.95756002 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2160050500", "cod": 1572, "nome": "R.Anna Custódio", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.737794565914605, -26.94953134300113 ], [ -48.7376833, -26.94953514 ] ] } }
+]
+}

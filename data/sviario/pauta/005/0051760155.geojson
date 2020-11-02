@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0051760155", "cod": 980, "nome": "R.Paulo Aridio de França", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698411046480629, -26.926155946000282 ], [ -48.69837027, -26.92619419 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0051760155", "cod": 984, "nome": "R.Maria Alves Mafra", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698147704399609, -26.926015322167231 ], [ -48.69837027, -26.92619419 ], [ -48.69840781439779, -26.926225206464956 ] ] } }
+]
+}

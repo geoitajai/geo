@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0051720310", "cod": 942, "nome": "R.Olavo Murilo Seara", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702075158831413, -26.92321318879134 ], [ -48.70214965, -26.92327598 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0051720310", "cod": 942, "nome": "R.Olavo Murilo Seara", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70214965, -26.92327598 ], [ -48.702329436731794, -26.923427527610972 ] ] } }
+]
+}

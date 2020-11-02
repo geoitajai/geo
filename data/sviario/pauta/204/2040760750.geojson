@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2040760750", "cod": 616, "nome": "R.Augusto Pedro Schoenau", "ptotalvia": 11.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.659297600890227, -26.917548297747313 ], [ -48.65922163, -26.91731563 ], [ -48.65917120436162, -26.917124676559968 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040760750", "cod": 615, "nome": "R.Jacintho Francisco dos Santos", "ptotalvia": 5.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.659619549064608, -26.917443996629796 ], [ -48.65959604, -26.91739433 ], [ -48.6594817, -26.91711656 ] ] } }
+]
+}

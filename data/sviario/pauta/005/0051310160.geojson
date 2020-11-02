@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0051310160", "cod": 897, "nome": "R.Dos Girassóis", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.690972468427418, -26.916312121402168 ], [ -48.690998107047278, -26.916736963707777 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0051310160", "cod": 906, "nome": "R.João Marcelino Machado", "ptotalvia": 10.0, "ppasseio1": 1.75, "ppasseio2": 1.75 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69104916628563, -26.916682977473148 ], [ -48.69099513, -26.91668552 ], [ -48.690662703993297, -26.916702569909727 ] ] } }
+]
+}

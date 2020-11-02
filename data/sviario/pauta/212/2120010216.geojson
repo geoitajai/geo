@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2120010216", "cod": 185, "nome": "R.Pedro Rangel", "ptotalvia": 12.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677936878500795, -26.900879070303354 ], [ -48.677826090000011, -26.90088506 ], [ -48.677648045664782, -26.900894684048072 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2120010216", "cod": 188, "nome": "R.Stringari", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67756184583925, -26.900445305106111 ], [ -48.677599352577019, -26.90087677302536 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2120010216", "cod": 190, "nome": "R.José Cândido", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677584425013464, -26.900871282140375 ], [ -48.677479201635904, -26.900707901334016 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2120010216", "cod": 207, "nome": "Trav.Genelicio Pedro de Souza", "ptotalvia": 5.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677826090000011, -26.90088506 ], [ -48.677825105895053, -26.900934399334147 ] ] } }
+]
+}

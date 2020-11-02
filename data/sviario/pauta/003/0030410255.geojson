@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0030410255", "cod": 1131, "nome": "Trav.Antônio Zaguini", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69361285, -26.88971002 ], [ -48.693538570968826, -26.889710680275645 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0030410255", "cod": 1113, "nome": "R.Odilio Garcia", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693593129423327, -26.889431295249768 ], [ -48.69361285, -26.88971002 ], [ -48.693616304984857, -26.88976667534493 ] ] } }
+]
+}

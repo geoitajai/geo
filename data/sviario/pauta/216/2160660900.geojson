@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2160660900", "cod": 1496, "nome": "R.Marcos Albino", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.754694847174548, -26.964029415319686 ], [ -48.75501813, -26.96385085 ], [ -48.75531295, -26.96362312 ], [ -48.75551342, -26.96334283 ], [ -48.75555273, -26.96320268 ], [ -48.755552469442861, -26.963200035027928 ] ] } }
+]
+}

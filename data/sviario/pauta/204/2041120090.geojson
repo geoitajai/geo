@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2041120090", "cod": 880, "nome": "R.Pedro Manoel Moreira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.688968187326054, -26.932366226517995 ], [ -48.6885749, -26.93286846 ], [ -48.688530503633046, -26.932916676634758 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2041120090", "cod": 882, "nome": "R.Otávio Müller", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.688616236470011, -26.932897803102829 ], [ -48.6885749, -26.93286846 ], [ -48.688010778886159, -26.93247729089304 ] ] } }
+]
+}

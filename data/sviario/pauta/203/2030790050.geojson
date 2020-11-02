@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2030790050", "cod": 1269, "nome": "R.César Augusto Dalsóquio", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.725672967647462, -26.860066258857312 ], [ -48.72626918, -26.8608185 ], [ -48.726503443132898, -26.861081562691037 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2030790050", "cod": 1273, "nome": "R.Hercílio Tomaz dos Santos", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.726522504168287, -26.861020594563936 ], [ -48.72645232, -26.86102416 ] ] } }
+]
+}

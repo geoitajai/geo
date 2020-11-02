@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2020080236", "cod": 491, "nome": "Av.Getúlio Vargas", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.671686541302542, -26.906497089844311 ], [ -48.67167863, -26.9064368 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020080236", "cod": 241, "nome": "R.Izaura Dalago", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.671707926884785, -26.905793835654066 ], [ -48.671569235491866, -26.905797213051038 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020080236", "cod": 241, "nome": "R.Izaura Dalago", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.671914749282536, -26.905846394461722 ], [ -48.6717976, -26.90646037 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020080236", "cod": 160, "nome": "R.Heitor Liberato", "ptotalvia": 15.5, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.671847290707852, -26.906476285181395 ], [ -48.6717976, -26.90646037 ], [ -48.67167863, -26.9064368 ], [ -48.671404230872653, -26.906347922550882 ] ] } }
+]
+}

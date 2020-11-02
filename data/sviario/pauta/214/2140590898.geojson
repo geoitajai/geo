@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2140590898", "cod": 731, "nome": "R.José Correia", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.644673510751225, -26.930915688867064 ], [ -48.64434957, -26.93064562 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140590898", "cod": 747, "nome": "R.Pedro Salles dos Santos", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.64439352, -26.9305795 ], [ -48.644337589270464, -26.930560926719362 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140590898", "cod": 586, "nome": "Av.Osvaldo Reis", "ptotalvia": 34.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.644604389609384, -26.930239059226899 ], [ -48.64439352, -26.9305795 ], [ -48.64434957, -26.93064562 ], [ -48.644317905171313, -26.930686950936259 ] ] } }
+]
+}

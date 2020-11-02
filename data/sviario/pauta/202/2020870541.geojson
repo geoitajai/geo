@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2020870541", "cod": 229, "nome": "Trav.Valdemar Cordoni", "ptotalvia": 9.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.680294876896603, -26.905492117576689 ], [ -48.68029876, -26.90556252 ], [ -48.680318012077933, -26.905976257724802 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020870541", "cod": 240, "nome": "R.Joaquim José de Freitas", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68029876, -26.90556252 ], [ -48.680663778953758, -26.905548704519646 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020870541", "cod": 240, "nome": "R.Joaquim José de Freitas", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.680221607183277, -26.905563890856854 ], [ -48.68029876, -26.90556252 ] ] } }
+]
+}

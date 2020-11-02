@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2120990131", "cod": 416, "nome": "Trav.João Santana", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.687877192776625, -26.894777746338402 ], [ -48.68783274, -26.89482437 ], [ -48.687535466020563, -26.895123767983698 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2120990131", "cod": 405, "nome": "R.David Adão Schmidt", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.688058612684507, -26.895015983929362 ], [ -48.68783274, -26.89482437 ], [ -48.687771821095886, -26.894775053420961 ] ] } }
+]
+}

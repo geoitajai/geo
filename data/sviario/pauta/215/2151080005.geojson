@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2151080005", "cod": 1319, "nome": "Av.Paulo Cantídio da Silva", "ptotalvia": 32.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.749180485751047, -26.881225217771775 ], [ -48.749200348209875, -26.881471301274743 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2151080005", "cod": 1340, "nome": "Av.José João Corrêa", "ptotalvia": 18.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.749179837379316, -26.88152818133409 ], [ -48.748826071931994, -26.881550865562634 ] ] } }
+]
+}

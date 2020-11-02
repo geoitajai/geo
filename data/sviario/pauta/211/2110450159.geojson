@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2110450159", "cod": 163, "nome": "R.Alberto Werner", "ptotalvia": 13.2, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.669681918053172, -26.911043346959598 ], [ -48.669724846520232, -26.911381760352594 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110450159", "cod": 329, "nome": "R.Maria Isaura da Silva Muller", "ptotalvia": 4.5, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.669093371971272, -26.911168386290452 ], [ -48.66911275, -26.91118319 ], [ -48.66911540755067, -26.911342193252594 ] ] } }
+]
+}

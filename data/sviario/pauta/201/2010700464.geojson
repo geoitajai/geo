@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2010700464", "cod": 345, "nome": "Serv.Rosa Marcelina Silva", "ptotalvia": 4.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.666120186004797, -26.911716177748399 ], [ -48.6660762, -26.9117616 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010700464", "cod": 268, "nome": "R.Brusque", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66595517376787, -26.911634636672737 ], [ -48.6660762, -26.9117616 ], [ -48.666192579346109, -26.911918394695395 ] ] } }
+]
+}

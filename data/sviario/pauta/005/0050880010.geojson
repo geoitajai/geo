@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0050880010", "cod": 113, "nome": "R.Timbó", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695199694106059, -26.906262838217096 ], [ -48.69487962, -26.9062827 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050880010", "cod": 48, "nome": "R.Pedro Cristiano de Miranda", "ptotalvia": 13.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.694855265264586, -26.905905387165742 ], [ -48.69487962, -26.9062827 ], [ -48.694883290687308, -26.906331402322799 ] ] } }
+]
+}

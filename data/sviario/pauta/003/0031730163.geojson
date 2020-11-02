@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0031730163", "cod": 1142, "nome": "R.Lausimar Laus", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696016059795774, -26.892968356534812 ], [ -48.696042110802111, -26.893428441390498 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031730163", "cod": 1144, "nome": "R.Alfredo Esser", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696674223012955, -26.89294372962248 ], [ -48.696698779056767, -26.893392401252477 ] ] } }
+]
+}

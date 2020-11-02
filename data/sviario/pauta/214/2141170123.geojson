@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2141170123", "cod": 839, "nome": "R.Paulo Batschauer", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.631224154132973, -26.950105197686685 ], [ -48.63077754, -26.95014723 ], [ -48.630717090673073, -26.950155454919457 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2141170123", "cod": 782, "nome": "R.Delfim Mário Pádua Peixoto", "ptotalvia": 20.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.630782602597606, -26.950205139377964 ], [ -48.63077754, -26.95014723 ], [ -48.630755881026111, -26.949889198749212 ] ] } }
+]
+}

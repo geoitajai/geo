@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2010580295", "cod": 338, "nome": "R.Sem denominação oficial", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66650417, -26.90819227 ], [ -48.666458033155216, -26.908242416948028 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010580295", "cod": 321, "nome": "R.Joaquim Lopes Corrêa", "ptotalvia": 6.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.666679528620868, -26.908016642609077 ], [ -48.66669982, -26.90833687 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010580295", "cod": 284, "nome": "R.Alm.Barroso", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.666733501290643, -26.908362995597471 ], [ -48.66669982, -26.90833687 ], [ -48.66650417, -26.90819227 ], [ -48.666437211004009, -26.908138325276838 ] ] } }
+]
+}

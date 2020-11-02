@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2120360001", "cod": 446, "nome": "Av.Leodegario Pedro da Silva", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674100464619563, -26.891747746714465 ], [ -48.673502620382962, -26.892480948422875 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2120360001", "cod": 457, "nome": "R.Manoel Gaya", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.673006655846002, -26.892167148976782 ], [ -48.673611651346924, -26.891415704249169 ] ] } }
+]
+}

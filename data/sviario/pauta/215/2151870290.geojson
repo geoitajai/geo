@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2151870290", "cod": 1334, "nome": "Av.Domingos de Almeida", "ptotalvia": 26.0, "ppasseio1": 5.0, "ppasseio2": 5.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.743386393380682, -26.87880256781234 ], [ -48.743623569299949, -26.878787535643351 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2151870290", "cod": 1594, "nome": "R.Amelia Izabel Coelho", "ptotalvia": 18.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.743335541004527, -26.879167198929057 ], [ -48.743307136995348, -26.878878448755898 ] ] } }
+]
+}

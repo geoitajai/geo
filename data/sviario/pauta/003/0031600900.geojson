@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0031600900", "cod": 1177, "nome": "R.Francisco Reis", "ptotalvia": 20.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.711310355228136, -26.897558412524106 ], [ -48.71134091, -26.89798107 ], [ -48.711346877259622, -26.898063468954899 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031600900", "cod": 1642, "nome": "R.\"B\"", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.712854270234544, -26.898253511890434 ], [ -48.71285082, -26.898200679999988 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031600900", "cod": 1672, "nome": "R.José de Souza", "ptotalvia": 15.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.712912836941079, -26.898209699614085 ], [ -48.71285082, -26.898200679999988 ], [ -48.71134091, -26.89798107 ] ] } }
+]
+}

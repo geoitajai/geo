@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2120920157", "cod": 411, "nome": "Trav.Paulo Malburg", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.686159756089864, -26.892959255903996 ], [ -48.68586072, -26.89325751 ], [ -48.685825085303755, -26.893293971436659 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2120920157", "cod": 405, "nome": "R.David Adão Schmidt", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.686087896887564, -26.893443578409563 ], [ -48.68586072, -26.89325751 ], [ -48.685813134795936, -26.893219092113135 ] ] } }
+]
+}

@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2110450666", "cod": 327, "nome": "R.Umbelino Damasio de Brito", "ptotalvia": 11.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.668598519577614, -26.910667846165115 ], [ -48.66854123000001, -26.91074546 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110450666", "cod": 329, "nome": "R.Maria Isaura da Silva Muller", "ptotalvia": 4.5, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66854123000001, -26.91074546 ], [ -48.66873809, -26.91089697 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110450666", "cod": 340, "nome": "R.Anita Garibaldi", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66848967, -26.91081619 ], [ -48.668413266634971, -26.910757160599374 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110450666", "cod": 343, "nome": "Serv.Perfeito José da Silva", "ptotalvia": 3.65, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.668335, -26.91102483 ], [ -48.668295665908275, -26.910994842850112 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110450666", "cod": 327, "nome": "R.Umbelino Damasio de Brito", "ptotalvia": 11.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66854123000001, -26.91074546 ], [ -48.66848967, -26.91081619 ], [ -48.668335, -26.91102483 ], [ -48.668326123134221, -26.911035882298727 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110450666", "cod": 329, "nome": "R.Maria Isaura da Silva Muller", "ptotalvia": 4.5, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66873809, -26.91089697 ], [ -48.668880315696036, -26.911005623024735 ] ] } }
+]
+}

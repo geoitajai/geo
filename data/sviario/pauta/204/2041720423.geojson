@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2041720423", "cod": 1607, "nome": "R.Júlio Willerding", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66014282, -26.91334308 ], [ -48.660116938291637, -26.913385978762925 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2041720423", "cod": 265, "nome": "Av.Ver.Abrahão João Francisco", "ptotalvia": 29.4, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.660431292957384, -26.913367852277879 ], [ -48.66014282, -26.91334308 ], [ -48.660000001960512, -26.913343886982251 ] ] } }
+]
+}

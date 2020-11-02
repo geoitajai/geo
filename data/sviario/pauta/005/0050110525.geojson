@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0050110525", "cod": 104, "nome": "R.Padre Paulo Condla", "ptotalvia": 15.0, "ppasseio1": 3.5, "ppasseio2": 3.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68724207524297, -26.908823253630661 ], [ -48.686781078140889, -26.908841154618926 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050110525", "cod": 105, "nome": "Serv.Arvelino Formentin", "ptotalvia": 4.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.686921381484808, -26.909171508897685 ], [ -48.6870684, -26.90916761 ] ] } }
+]
+}

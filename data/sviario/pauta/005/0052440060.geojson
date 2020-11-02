@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0052440060", "cod": 914, "nome": "R.Das Azaléias", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695625868171881, -26.919261779141603 ], [ -48.695283013266078, -26.919320217959175 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0052440060", "cod": 1640, "nome": "R.João Jacinto Vieira", "ptotalvia": 6.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695290533416596, -26.918963721194256 ], [ -48.695490049391331, -26.91893204278313 ] ] } }
+]
+}

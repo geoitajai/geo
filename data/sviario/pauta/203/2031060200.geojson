@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2031060200", "cod": 1051, "nome": "R.Alex Ciro Vicente", "ptotalvia": 14.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69291491, -26.87041986 ], [ -48.692589726257275, -26.870426125807359 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2031060200", "cod": 1046, "nome": "R.Eugênio Pezzini", "ptotalvia": 13.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692895259999929, -26.870071536898507 ], [ -48.69291491, -26.87041986 ], [ -48.692916278883231, -26.870453172876644 ] ] } }
+]
+}

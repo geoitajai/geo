@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2020571271", "cod": 209, "nome": "R.José Quirino", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676326789837219, -26.90065873055989 ], [ -48.67651572, -26.9008045 ], [ -48.676605226801755, -26.900876190487246 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020571271", "cod": 1682, "nome": "Serv.João Joaquim da Costa", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67651572, -26.9008045 ], [ -48.67679156, -26.90052229 ] ] } }
+]
+}

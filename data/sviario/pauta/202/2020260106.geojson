@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2020260106", "cod": 217, "nome": "R.Profº.Mario Mello", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674109277148432, -26.901900771351229 ], [ -48.67402838, -26.90190463 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020260106", "cod": 220, "nome": "R.Max", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.673838672806049, -26.901757549534935 ], [ -48.67402838, -26.90190463 ], [ -48.674100367821481, -26.901960118914388 ] ] } }
+]
+}

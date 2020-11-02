@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2150320700", "cod": 1347, "nome": "R.Francisco Pontiolli", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.73195985736087, -26.873340818316247 ], [ -48.731433315627065, -26.873344625267066 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2150320700", "cod": 1346, "nome": "R.Bertholino Serpa", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.732002563480918, -26.872154211756015 ], [ -48.73150047250914, -26.872165320783868 ] ] } }
+]
+}

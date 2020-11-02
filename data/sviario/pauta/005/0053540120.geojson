@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0053540120", "cod": 964, "nome": "R.Olivia Rautemberg", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69101794, -26.92486396 ], [ -48.69114341864173, -26.925158023970116 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0053540120", "cod": 952, "nome": "R.Peterson André Machado", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691302161690473, -26.924756605766881 ], [ -48.69101794, -26.92486396 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0053540120", "cod": 952, "nome": "R.Peterson André Machado", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691302161690473, -26.924756605766881 ], [ -48.69101794, -26.92486396 ] ] } }
+]
+}

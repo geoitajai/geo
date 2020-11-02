@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2210992335", "cod": 574, "nome": "R.Esperidião Graciliano da Silva", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.678182899734622, -26.920120613514467 ], [ -48.6780843, -26.92012411 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210992335", "cod": 575, "nome": "R.Alvino Baumann", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.678076667640696, -26.919941486078404 ], [ -48.6780843, -26.92012411 ] ] } }
+]
+}

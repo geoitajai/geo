@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0030420270", "cod": 1113, "nome": "R.Odilio Garcia", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693693145787023, -26.891026716793181 ], [ -48.69369811, -26.89110812 ], [ -48.693713444406008, -26.891371036868264 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0030420270", "cod": 1129, "nome": "R.Henrique Borba dos Santos", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.694114156146995, -26.891079547938862 ], [ -48.69397831, -26.89108888 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0030420270", "cod": 1129, "nome": "R.Henrique Borba dos Santos", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69397831, -26.89108888 ], [ -48.69369811, -26.89110812 ], [ -48.693601240715992, -26.891114301465375 ] ] } }
+]
+}

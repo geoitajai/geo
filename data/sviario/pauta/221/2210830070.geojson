@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2210830070", "cod": 535, "nome": "R.Carlos Serafim Zaguini", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68043666, -26.92280266 ], [ -48.68049047995963, -26.923380458019125 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210830070", "cod": 538, "nome": "R.Estud.Renato Victorino", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6804861, -26.92333902 ], [ -48.680428454212183, -26.923343490795613 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210830070", "cod": 545, "nome": "R.José Gall", "ptotalvia": 15.6, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.680833092167966, -26.922971212695337 ], [ -48.68043666, -26.92280266 ], [ -48.680417528292509, -26.922793146148251 ] ] } }
+]
+}

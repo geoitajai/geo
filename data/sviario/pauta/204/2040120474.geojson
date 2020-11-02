@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2040120474", "cod": 670, "nome": "R.Gumercindo Rocha", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6506566, -26.92370904 ], [ -48.650624497448071, -26.92369788198825 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040120474", "cod": 672, "nome": "R.Florianópolis", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.650814161905124, -26.923438046934319 ], [ -48.6506566, -26.92370904 ], [ -48.650645696316687, -26.92372866016856 ] ] } }
+]
+}

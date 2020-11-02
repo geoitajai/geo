@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2041250120", "cod": 888, "nome": "R.Pe.João Rodrigues de Almeida", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.686292232842199, -26.934697840609548 ], [ -48.686581742126833, -26.934901885895489 ] ] } }
+]
+}

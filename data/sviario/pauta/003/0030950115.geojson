@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0030950115", "cod": 1220, "nome": "R.Mato Grosso", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69899911022415, -26.897698062632621 ], [ -48.69896502, -26.89769895 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0030950115", "cod": 1220, "nome": "R.Mato Grosso", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69896502, -26.89769895 ], [ -48.698635763717263, -26.897707517406047 ] ] } }
+]
+}

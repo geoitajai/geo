@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2110050776", "cod": 258, "nome": "Serv.José Vieira", "ptotalvia": 1.7, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67499936, -26.90747653 ], [ -48.675007113039896, -26.907457783441856 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110050776", "cod": 160, "nome": "R.Heitor Liberato", "ptotalvia": 15.5, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675309668315037, -26.907580509243775 ], [ -48.67499936, -26.90747653 ], [ -48.674990862900898, -26.907473897156365 ] ] } }
+]
+}

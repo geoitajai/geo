@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0052780330", "cod": 65, "nome": "R.Santa Cecília", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.683140940362492, -26.895440207005478 ], [ -48.68288717, -26.8956712 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0052780330", "cod": 58, "nome": "R.Osvaldo Becker", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.683213727369171, -26.895876058238095 ], [ -48.68311924433511, -26.89587894649528 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0052780330", "cod": 61, "nome": "R.São Francisco do Sul", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.682885848003565, -26.895599102956155 ], [ -48.68288717, -26.8956712 ], [ -48.682887359697517, -26.895675799254271 ] ] } }
+]
+}

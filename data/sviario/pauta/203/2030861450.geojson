@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2030861450", "cod": 1091, "nome": "R.Hercília Moser", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695128420456541, -26.88106047588014 ], [ -48.695142978704624, -26.881403576591463 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2030861450", "cod": 1108, "nome": "R.Eurípedes Amorim Leal", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695535183112099, -26.881341452998175 ], [ -48.69540432, -26.88134255 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2030861450", "cod": 1108, "nome": "R.Eurípedes Amorim Leal", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69540432, -26.88134255 ], [ -48.69536795, -26.88134286 ], [ -48.69513896, -26.881318 ], [ -48.695056431731764, -26.881318926007527 ] ] } }
+]
+}

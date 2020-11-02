@@ -1,0 +1,15 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2210610150", "cod": 540, "nome": "R.Reinaldo Pereira da Silva", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68108903, -26.92308003 ], [ -48.681094482930497, -26.923139755696216 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210610150", "cod": 545, "nome": "R.José Gall", "ptotalvia": 15.6, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.682428804080558, -26.923661441749253 ], [ -48.68241998, -26.92364683 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210610150", "cod": 537, "nome": "R.Pres.João Goulart", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68241998, -26.92364683 ], [ -48.682403403014206, -26.923659306814567 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210610150", "cod": 545, "nome": "R.José Gall", "ptotalvia": 15.6, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68241998, -26.92364683 ], [ -48.68208775, -26.92348454 ], [ -48.68108903, -26.92308003 ], [ -48.680912476205613, -26.923004964543995 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210610150", "cod": 159, "nome": "R.José Pereira Liberato", "ptotalvia": 12.5, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.684066664140204, -26.921803958244624 ], [ -48.68241998, -26.92364683 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210610150", "cod": 567, "nome": "R.Jorge Santos de Macedo", "ptotalvia": 12.0, "ppasseio1": 5.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68146579, -26.92258892 ], [ -48.681401667094846, -26.922589288989087 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210610150", "cod": 567, "nome": "R.Jorge Santos de Macedo", "ptotalvia": 12.0, "ppasseio1": 5.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.681465790003088, -26.922549087709097 ], [ -48.68146579, -26.9225889 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210610150", "cod": 566, "nome": "R.São Gonçalo", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68207972, -26.92232439 ], [ -48.681821758131086, -26.922325932391008 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210610150", "cod": 566, "nome": "R.São Gonçalo", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.682076921131554, -26.922164170519284 ], [ -48.68207972, -26.92232439 ] ] } }
+]
+}

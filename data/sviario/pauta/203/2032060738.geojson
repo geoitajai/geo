@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2032060738", "cod": 1274, "nome": "R.Chrispim Antônio Ferreira", "ptotalvia": 5.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.729142802518744, -26.867327705964463 ], [ -48.729618874148834, -26.867311541430375 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2032060738", "cod": 1649, "nome": "R.Sem denominação oficial", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.729127192793044, -26.867126545268327 ], [ -48.72954168, -26.86711151 ] ] } }
+]
+}

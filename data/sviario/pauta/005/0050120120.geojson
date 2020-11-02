@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0050120120", "cod": 49, "nome": "R.Saul Schead dos Santos", "ptotalvia": 13.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.688879016599344, -26.911152587406296 ], [ -48.68884254000001, -26.911153280000011 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050120120", "cod": 84, "nome": "R.São Vicente", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.685849810651064, -26.910135990588749 ], [ -48.685555268274534, -26.91076755396022 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050120120", "cod": 109, "nome": "R.Paulo Kleis Júnior", "ptotalvia": 13.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68890453980481, -26.910532896594518 ], [ -48.68883604, -26.91053419 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050120120", "cod": 60, "nome": "R.Estefano José Vanolli", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.688834478165496, -26.910105709372075 ], [ -48.68883604, -26.91053419 ], [ -48.688842739545123, -26.911191550577744 ] ] } }
+]
+}

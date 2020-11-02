@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2020120465", "cod": 309, "nome": "R.Luisa Pereira Gonçalves", "ptotalvia": 3.5, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.668569751699202, -26.904403976458486 ], [ -48.66855238, -26.904232940000011 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020120465", "cod": 163, "nome": "R.Alberto Werner", "ptotalvia": 13.2, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.668866809096592, -26.904032763046359 ], [ -48.668906206465429, -26.904452762757209 ] ] } }
+]
+}

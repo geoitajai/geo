@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2161690180", "cod": 1251, "nome": "R.Mineral", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.846833098678211, -27.038813527444955 ], [ -48.84705921, -27.03847121 ], [ -48.847074817916067, -27.038457307542199 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2161690180", "cod": 1263, "nome": "R.Mercedes Graf dos Santos", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.847456002156441, -27.038470881218679 ], [ -48.84745929, -27.03865747 ] ] } }
+]
+}

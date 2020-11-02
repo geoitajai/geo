@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2141190138", "cod": 837, "nome": "R.Pra.Jucilia Maria da Silva Miguel", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.631582705381355, -26.951076800657749 ], [ -48.6315104, -26.95108654 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2141190138", "cod": 838, "nome": "R.Lúcia Serafim de Oliveira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6315104, -26.95108654 ], [ -48.631452611748095, -26.950466865880578 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2141190138", "cod": 837, "nome": "R.Pra.Jucilia Maria da Silva Miguel", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6315104, -26.95108656 ], [ -48.63086657, -26.95116561 ], [ -48.630803518287557, -26.951174630836988 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2141190138", "cod": 782, "nome": "R.Delfim Mário Pádua Peixoto", "ptotalvia": 20.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.63086657, -26.95116561 ], [ -48.630812264420271, -26.950544430500244 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2141190138", "cod": 782, "nome": "R.Delfim Mário Pádua Peixoto", "ptotalvia": 20.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.630879310833379, -26.951224517483904 ], [ -48.63086657, -26.95116561 ] ] } }
+]
+}

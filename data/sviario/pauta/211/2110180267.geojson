@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2110180267", "cod": 507, "nome": "R.Rio do Sul", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67734152, -26.91205759 ], [ -48.676973040349601, -26.911955738922757 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110180267", "cod": 508, "nome": "R.Wandelino Winter", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6773283, -26.91222026 ], [ -48.676940623084377, -26.912185012183489 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110180267", "cod": 227, "nome": "R.Indaial", "ptotalvia": 17.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67734591452983, -26.911970509498516 ], [ -48.67734152, -26.91205759 ], [ -48.6773283, -26.91222026 ], [ -48.677326484422991, -26.912261602256702 ] ] } }
+]
+}

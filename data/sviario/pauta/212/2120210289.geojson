@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2120210289", "cod": 426, "nome": "R.Alfredo Eicke", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.679234584694534, -26.891672776870994 ], [ -48.678995448084052, -26.891717291182978 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2120210289", "cod": 161, "nome": "Av.Irineu Bornhausen", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.679328312899976, -26.891913902844493 ], [ -48.67916648, -26.89210424 ], [ -48.67908190413857, -26.892209834835242 ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0051942200", "cod": 933, "nome": "R.Ana Mafra Pereira", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70518737, -26.92222576 ], [ -48.705135103516177, -26.922276670513728 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0051942200", "cod": 932, "nome": "R.Oscar Silva Justino", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.704899739570067, -26.92197364856106 ], [ -48.70518737, -26.92222576 ] ] } }
+]
+}

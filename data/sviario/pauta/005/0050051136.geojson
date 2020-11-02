@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0050051136", "cod": 84, "nome": "R.São Vicente", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.687546985838686, -26.899585152491049 ], [ -48.68754673, -26.89958659 ], [ -48.687412100562973, -26.899928230650637 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050051136", "cod": 88, "nome": "R.Otaviano Feller", "ptotalvia": 6.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68754673, -26.89958659 ], [ -48.687541147567515, -26.899586687916837 ] ] } }
+]
+}

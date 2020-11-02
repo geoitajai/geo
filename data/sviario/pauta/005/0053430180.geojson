@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0053430180", "cod": 949, "nome": "R.Palmir Francisco Dias", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69361128619758, -26.922937871987717 ], [ -48.693272660007082, -26.923056937569726 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0053430180", "cod": 949, "nome": "R.Palmir Francisco Dias", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69361128619758, -26.922937871987717 ], [ -48.693272660007082, -26.923056937569726 ] ] } }
+]
+}

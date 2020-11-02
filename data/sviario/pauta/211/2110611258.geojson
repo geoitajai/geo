@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2110611258", "cod": 552, "nome": "R.Lico Amaral", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.673019240412252, -26.917875116465787 ], [ -48.67302466, -26.91794585 ], [ -48.673164645697554, -26.919583170052789 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110611258", "cod": 553, "nome": "R.Modesto Fernandes Vieira", "ptotalvia": 13.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67302466, -26.91794585 ], [ -48.67246322, -26.91795454 ], [ -48.672298711420581, -26.918045376620078 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110611258", "cod": 545, "nome": "R.José Gall", "ptotalvia": 15.6, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.672760857787267, -26.919640447950368 ], [ -48.67265422, -26.91956255 ], [ -48.672367270698636, -26.919229374819675 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110611258", "cod": 577, "nome": "R.Jacob Ardigó", "ptotalvia": 21.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.673162288257352, -26.919584284693379 ], [ -48.67265422, -26.91956255 ] ] } }
+]
+}

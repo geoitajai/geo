@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2040722632", "cod": 612, "nome": "R.Antônio de Meneses Vasconcelos de Drumond", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.658899313660143, -26.91752707545178 ], [ -48.658867328344868, -26.917436329912583 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040722632", "cod": 266, "nome": "R.Uruguai", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.658355983177735, -26.917143819504226 ], [ -48.658175112758101, -26.917365384341789 ] ] } }
+]
+}

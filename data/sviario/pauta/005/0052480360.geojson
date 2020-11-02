@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0052480360", "cod": 985, "nome": "R.Ivana Werner", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702951819083253, -26.925871370282621 ], [ -48.70275331, -26.92583892 ], [ -48.702524656878907, -26.925807559648973 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0052480360", "cod": 986, "nome": "R.Arlindo Werner", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70275331, -26.92583892 ], [ -48.702667708694364, -26.925922401084453 ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2040460117", "cod": 659, "nome": "R.Aladi Schendroski Bini", "ptotalvia": 12.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65583436, -26.91916248 ], [ -48.65587135554653, -26.919194081606356 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040460117", "cod": 266, "nome": "R.Uruguai", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.655991153347244, -26.919047613424887 ], [ -48.65583436, -26.91916248 ], [ -48.65576495216547, -26.919212490136847 ] ] } }
+]
+}

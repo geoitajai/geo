@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0032110860", "cod": 1166, "nome": "R.Eredes Serpa", "ptotalvia": 12.5, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.701827571240678, -26.893588987990441 ], [ -48.701847694938955, -26.893921758304451 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0032110860", "cod": 1225, "nome": "R.Campo Grande", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70138437, -26.89381786 ], [ -48.70128385331207, -26.893818774418524 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0032110860", "cod": 1718, "nome": "R.Macapá", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70138437, -26.89381786 ], [ -48.701390693177991, -26.893946325745077 ] ] } }
+]
+}

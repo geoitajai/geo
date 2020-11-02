@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0050271590", "cod": 50, "nome": "R.Luiz Lopes Gonzaga", "ptotalvia": 13.2, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693873499219031, -26.904954868109105 ], [ -48.69387688, -26.9052524 ], [ -48.693878384940774, -26.905310195503368 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050271590", "cod": 15, "nome": "R.Arq.Nilson Edson dos Santos", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693939773866738, -26.905249487777258 ], [ -48.69387688, -26.9052524 ], [ -48.693418901573814, -26.905268510456914 ] ] } }
+]
+}

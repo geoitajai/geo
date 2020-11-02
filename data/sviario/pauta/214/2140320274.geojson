@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2140320274", "cod": 756, "nome": "R.Dr.José Menescau do Monte", "ptotalvia": 17.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.636360869564186, -26.927413218759281 ], [ -48.636171027207403, -26.927705300604948 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140320274", "cod": 761, "nome": "R.João Manoel da Silva (Cabeçudas)", "ptotalvia": 8.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.636372483375126, -26.927539927934529 ], [ -48.63630861, -26.9274928 ], [ -48.63599933811377, -26.927253709396457 ] ] } }
+]
+}

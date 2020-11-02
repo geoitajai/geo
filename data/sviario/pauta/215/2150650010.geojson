@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2150650010", "cod": 1349, "nome": "R.Nono Emilio Dalçoquio", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.734658989096715, -26.879078169945757 ], [ -48.734692664328719, -26.879438614298419 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2150650010", "cod": 1358, "nome": "Av.Marcos Luís Cabral", "ptotalvia": 26.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.73468701432671, -26.879441217567173 ], [ -48.734373998090909, -26.879462625433739 ] ] } }
+]
+}

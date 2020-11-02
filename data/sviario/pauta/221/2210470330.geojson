@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2210470330", "cod": 536, "nome": "R.Exp.Carlos Costa", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68201679, -26.92436765 ], [ -48.681694994231435, -26.924393470843768 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210470330", "cod": 541, "nome": "R.Ercides Mafra", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.682008377436247, -26.924302789352279 ], [ -48.68201679, -26.92436765 ] ] } }
+]
+}

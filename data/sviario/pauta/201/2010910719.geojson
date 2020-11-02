@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2010910719", "cod": 359, "nome": "R.Domingos Manoel Rodrigues", "ptotalvia": 6.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66290077, -26.9097856 ], [ -48.66260994, -26.91000721 ], [ -48.662530005376119, -26.91007529936315 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010910719", "cod": 360, "nome": "R.Treze de Maio", "ptotalvia": 13.6, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.662654769365055, -26.909596132427737 ], [ -48.66290077, -26.9097856 ], [ -48.66296410279265, -26.90983311741174 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010910719", "cod": 361, "nome": "R.Profª.Zélia de Souza e Silva", "ptotalvia": 4.2, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.662404061466823, -26.909841855973816 ], [ -48.66260994, -26.91000721 ] ] } }
+]
+}

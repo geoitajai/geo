@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2161700010", "cod": 1251, "nome": "R.Mineral", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.84649533105604, -27.039359130148899 ], [ -48.84668626, -27.03903583 ], [ -48.846729784531377, -27.038969937295381 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2161700010", "cod": 1262, "nome": "R.Francisco Jacob Khnis", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.847036605858989, -27.039017209284374 ], [ -48.84668626, -27.03903583 ] ] } }
+]
+}

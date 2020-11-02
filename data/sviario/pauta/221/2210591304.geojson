@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2210591304", "cod": 265, "nome": "Av.Ver.Abrahão João Francisco", "ptotalvia": 29.4, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696317860164051, -26.936618203560016 ], [ -48.696060524261206, -26.936542153201756 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210591304", "cod": 878, "nome": "R.Erna Hoier Corrêa", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696212989104261, -26.93451507089781 ], [ -48.695709522227894, -26.934828805679587 ] ] } }
+]
+}

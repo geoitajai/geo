@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2010420076", "cod": 286, "nome": "R.Tijucas", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.662614813262671, -26.906723065959742 ], [ -48.66234576, -26.90703269 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010420076", "cod": 352, "nome": "R.Frederico Augusto Luiz Thieme", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.661910879526253, -26.906674703959577 ], [ -48.66234576, -26.90703269 ], [ -48.662369996337539, -26.907051760222846 ] ] } }
+]
+}

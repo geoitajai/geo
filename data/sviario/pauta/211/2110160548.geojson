@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2110160548", "cod": 507, "nome": "R.Rio do Sul", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674301576888517, -26.911056835841368 ], [ -48.6741974, -26.91102076 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110160548", "cod": 489, "nome": "R.Fiuza Lima", "ptotalvia": 13.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67422016862313, -26.911196176505872 ], [ -48.6741974, -26.91102076 ], [ -48.674181307834282, -26.910876900803757 ] ] } }
+]
+}

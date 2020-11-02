@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2020110270", "cod": 308, "nome": "R.Constantino Lucas Pereira", "ptotalvia": 4.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.668387521115811, -26.904556208500534 ], [ -48.66848744, -26.90540413 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020110270", "cod": 160, "nome": "R.Heitor Liberato", "ptotalvia": 15.5, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.668530769774868, -26.905418618051804 ], [ -48.66848744, -26.90540413 ], [ -48.668182411931916, -26.905311921543415 ] ] } }
+]
+}

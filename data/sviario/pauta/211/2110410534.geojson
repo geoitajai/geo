@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2110410534", "cod": 163, "nome": "R.Alberto Werner", "ptotalvia": 13.2, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.669792131042897, -26.911912174410674 ], [ -48.66980014, -26.91197531 ], [ -48.669828476446042, -26.912254509776961 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110410534", "cod": 493, "nome": "Trav.Emilia Kuhn da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.670194311945245, -26.912071676193015 ], [ -48.66980014, -26.91197531 ] ] } }
+]
+}

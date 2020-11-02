@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0052910350", "cod": 120, "nome": "R.Chapecó", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.701209031442552, -26.904901889407647 ], [ -48.701247317175024, -26.90566100615559 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0052910350", "cod": 15, "nome": "R.Arq.Nilson Edson dos Santos", "ptotalvia": 21.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.701417566930402, -26.90487257038118 ], [ -48.701255482150209, -26.904879275408405 ] ] } }
+]
+}

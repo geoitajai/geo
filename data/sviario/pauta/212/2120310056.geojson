@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2120310056", "cod": 444, "nome": "R.Luiz José Bento da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67916637, -26.88816192 ], [ -48.679209700661161, -26.888200056296142 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2120310056", "cod": 157, "nome": "R.Blumenau", "ptotalvia": 14.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.679402220073257, -26.887995662956307 ], [ -48.67916637, -26.88816192 ], [ -48.679123998149947, -26.888201956220932 ] ] } }
+]
+}

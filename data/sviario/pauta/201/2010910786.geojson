@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2010910786", "cod": 360, "nome": "R.Treze de Maio", "ptotalvia": 13.6, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66212940467301, -26.909191497643597 ], [ -48.662409410910783, -26.90940715844037 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010910786", "cod": 361, "nome": "R.Profª.Zélia de Souza e Silva", "ptotalvia": 4.2, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.661987781565841, -26.909507513051494 ], [ -48.662073942403708, -26.909576714978463 ] ] } }
+]
+}

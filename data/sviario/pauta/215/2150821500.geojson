@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2150821500", "cod": 1399, "nome": "R.Angela Cecilia Tolardo", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.76282189, -26.89175614 ], [ -48.762822026052419, -26.891766791242656 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2150821500", "cod": 1343, "nome": "Rod.Jorge Lacerda", "ptotalvia": 43.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.763053037027028, -26.891775323495761 ], [ -48.76282189, -26.89175614 ], [ -48.761515752405892, -26.891645041080618 ] ] } }
+]
+}

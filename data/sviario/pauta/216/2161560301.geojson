@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2161560301", "cod": 871, "nome": "R.Alfredo Labes", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.673833617513885, -26.931741054038547 ], [ -48.67375837, -26.93174438 ], [ -48.673551597765403, -26.93175104363478 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2161560301", "cod": 872, "nome": "R.Profº.Ondino Geraldo da Silva", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.673936629021824, -26.933649437317943 ], [ -48.67384199, -26.93365216 ], [ -48.673636136999136, -26.933660366756857 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2161560301", "cod": 875, "nome": "R.Elias Brick Adaime", "ptotalvia": 20.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67375837, -26.93174438 ], [ -48.67384199, -26.93365216 ], [ -48.67384231, -26.93437544 ] ] } }
+]
+}

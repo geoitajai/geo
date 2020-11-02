@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0031920140", "cod": 1214, "nome": "R.Vitória", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700785327664761, -26.898072991223447 ], [ -48.70072405, -26.89807616 ], [ -48.70028492999942, -26.898096420720535 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031920140", "cod": 1164, "nome": "R.Gustavo Bernedet", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700705560273356, -26.897790985403788 ], [ -48.700728789444589, -26.898134170009165 ] ] } }
+]
+}

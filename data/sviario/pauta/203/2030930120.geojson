@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2030930120", "cod": 1081, "nome": "R.José Carlos Felício", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69618406, -26.87718661 ], [ -48.696089483410255, -26.877194187964118 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2030930120", "cod": 1087, "nome": "R.João Emiliano da Silva", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696177291583552, -26.877027006147319 ], [ -48.696188252603001, -26.877377710807909 ] ] } }
+]
+}

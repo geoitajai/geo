@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0053200120", "cod": 957, "nome": "R.Emanoel José Rebello", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698346454039317, -26.922248919691715 ], [ -48.698473814837882, -26.922527136949277 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0053200120", "cod": 952, "nome": "R.Peterson André Machado", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698136380005195, -26.922291043314836 ], [ -48.698124100782579, -26.922295534932566 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0053200120", "cod": 952, "nome": "R.Peterson André Machado", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698136380005195, -26.922291043314836 ], [ -48.698124100782579, -26.922295534932566 ] ] } }
+]
+}

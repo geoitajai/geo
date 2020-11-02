@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0054450005", "cod": 1020, "nome": "R.Sem denominação oficial", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6972769, -26.92981289 ], [ -48.69710855, -26.9299848 ], [ -48.697066445266714, -26.930025264204236 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054450005", "cod": 1019, "nome": "R.Alcides Bento Gonçalves", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697061833740499, -26.929946484001025 ], [ -48.69710855, -26.9299848 ], [ -48.69731341681991, -26.930159430684927 ] ] } }
+]
+}

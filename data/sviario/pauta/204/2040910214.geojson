@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2040910214", "cod": 552, "nome": "R.Lico Amaral", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.673229576119539, -26.921455486435438 ], [ -48.67323011, -26.9214716 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040910214", "cod": 551, "nome": "R.Guilherme Albani", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.673773216800654, -26.921796156371652 ], [ -48.67377476, -26.92183935 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040910214", "cod": 487, "nome": "R.Aristides Francisco Palumbo", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674119717719478, -26.922035539945462 ], [ -48.67411053, -26.9220798 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040910214", "cod": 265, "nome": "Av.Ver.Abrahão João Francisco", "ptotalvia": 29.4, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67441434828455, -26.922289952065253 ], [ -48.67411053, -26.9220798 ], [ -48.67377476, -26.92183935 ], [ -48.67323011, -26.9214716 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040910214", "cod": 265, "nome": "Av.Ver.Abrahão João Francisco", "ptotalvia": 29.4, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67323011, -26.9214716 ], [ -48.673196497496434, -26.921448496523332 ] ] } }
+]
+}

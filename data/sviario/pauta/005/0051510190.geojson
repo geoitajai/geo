@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0051510190", "cod": 909, "nome": "R.Das Violetas", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692820371805105, -26.918123660721644 ], [ -48.69248812, -26.91814286 ], [ -48.692419663039274, -26.918146692928275 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0051510190", "cod": 896, "nome": "R.Das Hortências", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69248405701525, -26.918082047445957 ], [ -48.69248812, -26.91814286 ], [ -48.692514535941136, -26.918481481061452 ] ] } }
+]
+}

@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2160260360", "cod": 1472, "nome": "R.Doutel de Andrade", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.7096047, -26.94245089 ], [ -48.709607056833121, -26.942523847628873 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2160260360", "cod": 1475, "nome": "R.Clair Brun da Silva", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.709766256041199, -26.942165779602472 ], [ -48.70977468, -26.94245176 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2160260360", "cod": 1475, "nome": "R.Clair Brun da Silva", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70977468, -26.94245176 ], [ -48.7096047, -26.94245089 ], [ -48.709487984382186, -26.942451468083419 ] ] } }
+]
+}

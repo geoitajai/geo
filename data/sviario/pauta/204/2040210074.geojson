@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2040210074", "cod": 680, "nome": "R.Pedro Guerreiro Jr", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.654599730134983, -26.916948051968838 ], [ -48.65493409, -26.91713637 ], [ -48.654977294124386, -26.917171416905163 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040210074", "cod": 276, "nome": "Av.7 de Setembro", "ptotalvia": 18.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.654966789555878, -26.91705886231922 ], [ -48.65493409, -26.91713637 ], [ -48.654867570403972, -26.91736732923388 ] ] } }
+]
+}

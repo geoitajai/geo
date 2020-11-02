@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0031460335", "cod": 1170, "nome": "R.Ver.Nestor dos Santos", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.704767051849807, -26.892105122193524 ], [ -48.704785920492277, -26.892437051562059 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031460335", "cod": 1686, "nome": "R.3 \"Lot. Jardim Violino\"", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.705192186364094, -26.892166462128426 ], [ -48.70508649, -26.89217215 ] ] } }
+]
+}

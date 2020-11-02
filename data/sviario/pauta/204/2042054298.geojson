@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2042054298", "cod": 866, "nome": "R.Valdevino Vieira Cordeiro", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.673767445430627, -26.928577085954593 ], [ -48.67372332, -26.92857115 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2042054298", "cod": 854, "nome": "R.Ver.Abílio Otávio do Canto", "ptotalvia": 20.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.673738434430234, -26.928482750006623 ], [ -48.67372332, -26.92857115 ], [ -48.673679657495647, -26.928792740018125 ] ] } }
+]
+}

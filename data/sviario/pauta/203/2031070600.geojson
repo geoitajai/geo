@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2031070600", "cod": 1047, "nome": "R.Annanias Caetano da Silva", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.690964001211498, -26.869860196326801 ], [ -48.69096771, -26.87000263 ], [ -48.69099723, -26.870456799999989 ], [ -48.690997230010645, -26.870517816382748 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2031070600", "cod": 1050, "nome": "R.Paulo Bagatoli", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691039145522097, -26.870000848820922 ], [ -48.69096771, -26.87000263 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2031070600", "cod": 1051, "nome": "R.Alex Ciro Vicente", "ptotalvia": 14.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691035569814908, -26.870456061721367 ], [ -48.69099723, -26.870456799999989 ] ] } }
+]
+}

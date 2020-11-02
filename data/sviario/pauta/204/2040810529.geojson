@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2040810529", "cod": 852, "nome": "Trav.Pedro João Galvão", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.669983598418263, -26.92118039349123 ], [ -48.66982167, -26.92118942 ], [ -48.669673239884787, -26.921110012842885 ] ] } }
+]
+}

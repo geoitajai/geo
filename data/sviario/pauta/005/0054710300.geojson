@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0054710300", "cod": 892, "nome": "Av.Ver.Nilo Simas", "ptotalvia": 20.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700981206446123, -26.915887164476022 ], [ -48.70102608, -26.91709262 ], [ -48.70093754, -26.91741282 ], [ -48.70071617, -26.91781636 ], [ -48.69997996, -26.91883802 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054710300", "cod": 938, "nome": "R.Roberto Manoel Tomás", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.701419345838744, -26.919043109022823 ], [ -48.70134504, -26.91893834 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054710300", "cod": 939, "nome": "R.José Domingos Mafra", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700919344868055, -26.919250373380823 ], [ -48.70083672, -26.91913425 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054710300", "cod": 940, "nome": "R.Aldhemar Veiga", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700390674007956, -26.919440610485083 ], [ -48.70031529, -26.91933309 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054710300", "cod": 941, "nome": "R.Fabiano e Silva Marques", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.699880738587524, -26.919639902682913 ], [ -48.69983812, -26.91957872 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054710300", "cod": 892, "nome": "Av.Ver.Nilo Simas", "ptotalvia": 20.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69997996, -26.91883802 ], [ -48.699390926607698, -26.919655412278278 ] ] } }
+]
+}

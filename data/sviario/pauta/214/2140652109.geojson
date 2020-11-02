@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2140652109", "cod": 738, "nome": "R.Antônio Valenza", "ptotalvia": 8.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6416821, -26.93298776 ], [ -48.64138453, -26.93275774 ], [ -48.64122957, -26.9327401 ], [ -48.64117755113854, -26.932741604460549 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140652109", "cod": 736, "nome": "R.Venezuela", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.64169889, -26.93296746 ], [ -48.6416821, -26.93298776 ], [ -48.641627776472419, -26.933044739215962 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140652109", "cod": 736, "nome": "R.Venezuela", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.641855992692712, -26.932777489131784 ], [ -48.64169889, -26.93296746 ] ] } }
+]
+}

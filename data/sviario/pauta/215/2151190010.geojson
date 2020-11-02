@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2151190010", "cod": 1329, "nome": "R.Maria Nilma da Luz Costa", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.74949701, -26.87752382 ], [ -48.749424793217287, -26.877528632477301 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2151190010", "cod": 1321, "nome": "R.Waldemar da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.74947535882022, -26.877269744133478 ], [ -48.74949701, -26.87752382 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2151190010", "cod": 1321, "nome": "R.Waldemar da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.74949701, -26.87752382 ], [ -48.74950317186061, -26.877588677142619 ] ] } }
+]
+}

@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2010330660", "cod": 369, "nome": "Serv.Hermínio José Ferreira Neto", "ptotalvia": 8.5, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65762029, -26.91076868 ], [ -48.657891596510474, -26.910989505064503 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010330660", "cod": 370, "nome": "R.Paulo Caramuru da Silva", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.658098102703654, -26.910769119676832 ], [ -48.65773398, -26.91049284 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010330660", "cod": 276, "nome": "Av.7 de Setembro", "ptotalvia": 18.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.657742068002257, -26.910472733152929 ], [ -48.65773398, -26.91049284 ], [ -48.65762029, -26.91076868 ], [ -48.657580570407099, -26.910862748605492 ] ] } }
+]
+}

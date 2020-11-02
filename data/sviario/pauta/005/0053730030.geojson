@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0053730030", "cod": 974, "nome": "R.João Ascendino Lamim", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69628997, -26.92728093 ], [ -48.696232829698225, -26.927312763414164 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0053730030", "cod": 926, "nome": "Av.Min.Luiz Gallotti", "ptotalvia": 17.2, "ppasseio1": 3.25, "ppasseio2": 3.25 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696621465631424, -26.927139341965447 ], [ -48.69639819, -26.92733794 ], [ -48.696365247099799, -26.927368803211575 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0053730030", "cod": 894, "nome": "R.Agílio Cunha", "ptotalvia": 15.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69628997, -26.92728093 ], [ -48.69639819, -26.92733794 ], [ -48.69641394518932, -26.92735102358133 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0053730030", "cod": 894, "nome": "R.Agílio Cunha", "ptotalvia": 15.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696071243057119, -26.927096604219948 ], [ -48.69628997, -26.92728093 ] ] } }
+]
+}

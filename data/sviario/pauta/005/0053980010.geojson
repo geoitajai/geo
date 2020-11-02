@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0053980010", "cod": 974, "nome": "R.João Ascendino Lamim", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692625827822944, -26.929278949341708 ], [ -48.69255025, -26.92931656 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0053980010", "cod": 1005, "nome": "R.Diác.Antônio João Vicente", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69255025, -26.92931656 ], [ -48.692563004958011, -26.92933180900895 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0053980010", "cod": 892, "nome": "Av.Ver.Nilo Simas", "ptotalvia": 20.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69267150681371, -26.929135030064369 ], [ -48.69255025, -26.92931658 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0053980010", "cod": 892, "nome": "Av.Ver.Nilo Simas", "ptotalvia": 20.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69255025, -26.92931656 ], [ -48.692524173426378, -26.929353389948325 ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2020700088", "cod": 213, "nome": "R.Leopoldo Hess", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.680463, -26.90203077 ], [ -48.680431460630494, -26.902453737214522 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020700088", "cod": 205, "nome": "R.Fridolim Erthal Júnior", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.680548172480947, -26.902026692495141 ], [ -48.680463, -26.90203077 ], [ -48.680151667131241, -26.902047836866164 ] ] } }
+]
+}

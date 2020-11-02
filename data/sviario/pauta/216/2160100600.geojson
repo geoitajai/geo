@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2160100600", "cod": 1478, "nome": "R.Benjamim Dagnoni", "ptotalvia": 22.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.710743108237821, -26.94699618911477 ], [ -48.71061333, -26.94715864 ], [ -48.710543982692364, -26.947274547874777 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2160100600", "cod": 1471, "nome": "R.Francisco Daligni", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.710504564752895, -26.9467371615989 ], [ -48.71050511, -26.94674996 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2160100600", "cod": 1472, "nome": "R.Doutel de Andrade", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70974710477504, -26.946275972144576 ], [ -48.70975039, -26.94636292 ] ] } }
+]
+}

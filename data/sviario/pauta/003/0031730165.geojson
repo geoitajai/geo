@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0031730165", "cod": 1130, "nome": "R.Francisco Olegário dos Santos", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69666359, -26.89274945 ], [ -48.696193170655761, -26.892758841860402 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031730165", "cod": 1144, "nome": "R.Alfredo Esser", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696658293715373, -26.892668474658954 ], [ -48.69666359, -26.89274945 ], [ -48.696686277400588, -26.893163979467243 ] ] } }
+]
+}

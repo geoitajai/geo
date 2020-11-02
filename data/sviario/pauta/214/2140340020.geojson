@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2140340020", "cod": 760, "nome": "R.João Bauer Júnior", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.637307607436476, -26.928891067513909 ], [ -48.63691584, -26.92859289 ], [ -48.63681637874069, -26.928520944587344 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140340020", "cod": 761, "nome": "R.João Manoel da Silva (Cabeçudas)", "ptotalvia": 8.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.63691584, -26.92859289 ], [ -48.636963214806073, -26.928280787752954 ] ] } }
+]
+}

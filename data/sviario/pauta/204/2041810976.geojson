@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2041810976", "cod": 697, "nome": "R.Manoel Bernardo da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.654194055667212, -26.927705169228418 ], [ -48.65406535, -26.92784351 ], [ -48.65371668, -26.928194070000011 ], [ -48.653526338988897, -26.928372861126579 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2041810976", "cod": 699, "nome": "R.Neoflides Vieira Wendhausen", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.653993790370393, -26.92778430918824 ], [ -48.65406535, -26.92784351 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2041810976", "cod": 700, "nome": "R.Benjamim Wendhausen", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.653637826248747, -26.928127930543351 ], [ -48.65371668, -26.928194070000011 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2041810976", "cod": 690, "nome": "R.Videira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.655396023209306, -26.927787827454623 ], [ -48.655344, -26.92788998 ] ] } }
+]
+}

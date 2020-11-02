@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0050620090", "cod": 18, "nome": "R.Exp.Olímpio José Borges", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693439788381895, -26.903212833753642 ], [ -48.693082710112371, -26.9032207201987 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050620090", "cod": 19, "nome": "R.Alfredo Kleis", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693447269657213, -26.902827593861527 ], [ -48.693068839774241, -26.902776334620516 ] ] } }
+]
+}

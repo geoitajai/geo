@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2120181125", "cod": 165, "nome": "R.Jassão dos Santos", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.678088378919384, -26.894124057111124 ], [ -48.677489231141053, -26.894142992887833 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2120181125", "cod": 161, "nome": "Av.Irineu Bornhausen", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677732089098484, -26.893861966950674 ], [ -48.677479498073218, -26.894124798532612 ] ] } }
+]
+}

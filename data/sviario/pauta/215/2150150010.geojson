@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2150150010", "cod": 1376, "nome": "R.Carlos Luiz Stringari", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.734601875444355, -26.888582762975144 ], [ -48.734675383131403, -26.88948026892923 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2150150010", "cod": 1378, "nome": "R.Atilio Dalsóquio", "ptotalvia": 26.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.734711685920487, -26.888739681609447 ], [ -48.73461702, -26.88876084 ] ] } }
+]
+}

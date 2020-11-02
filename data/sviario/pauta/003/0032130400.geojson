@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0032130400", "cod": 1182, "nome": "R.Rosa Orsi Dalcóquio", "ptotalvia": 15.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.707609572666115, -26.89332664886901 ], [ -48.707178022529, -26.893213490357656 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0032130400", "cod": 1229, "nome": "R.Jaime Fernandes Vieira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.707768536858403, -26.896602925019319 ], [ -48.70733178212965, -26.896623112197595 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0032130400", "cod": 1229, "nome": "R.Jaime Fernandes Vieira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.707776982209303, -26.896602534654509 ], [ -48.707322140836943, -26.896623557811026 ] ] } }
+]
+}

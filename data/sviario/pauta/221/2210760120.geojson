@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2210760120", "cod": 567, "nome": "R.Jorge Santos de Macedo", "ptotalvia": 12.0, "ppasseio1": 5.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68146579, -26.92258892 ], [ -48.681360404363048, -26.922589526416079 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210760120", "cod": 567, "nome": "R.Jorge Santos de Macedo", "ptotalvia": 12.0, "ppasseio1": 5.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.681464584716544, -26.922259721987842 ], [ -48.68146579, -26.92232806 ], [ -48.68146579, -26.9225889 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210760120", "cod": 566, "nome": "R.São Gonçalo", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.681794816038881, -26.922326093454402 ], [ -48.68146579, -26.92232806 ] ] } }
+]
+}

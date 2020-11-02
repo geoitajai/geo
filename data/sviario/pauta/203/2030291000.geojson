@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2030291000", "cod": 1269, "nome": "R.César Augusto Dalsóquio", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.714088159390442, -26.882677256906575 ], [ -48.71401598, -26.88267871 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2030291000", "cod": 1071, "nome": "Av.Dr.Nereu Ramos", "ptotalvia": 13.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.711871900036591, -26.878944190614739 ], [ -48.71209088, -26.87911712 ], [ -48.71279433, -26.87981477 ], [ -48.71331577, -26.88048609 ], [ -48.71331577, -26.88060895 ], [ -48.71303045, -26.88239034 ], [ -48.71318787, -26.88246932 ], [ -48.713930233470222, -26.882465468556756 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2030291000", "cod": 1270, "nome": "Av.Pres.Castelo Branco", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.714041897443387, -26.884719940588063 ], [ -48.71401598, -26.88267871 ], [ -48.714027580865697, -26.882540930521635 ] ] } }
+]
+}

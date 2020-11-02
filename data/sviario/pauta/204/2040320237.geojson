@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2040320237", "cod": 623, "nome": "R.Lages", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.655036714527462, -26.915722148981118 ], [ -48.65546022, -26.91588927 ], [ -48.655484420672742, -26.91589807932916 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040320237", "cod": 276, "nome": "Av.7 de Setembro", "ptotalvia": 18.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.655578439583486, -26.915606455553352 ], [ -48.65546022, -26.91588927 ], [ -48.655446024894921, -26.915922917465018 ] ] } }
+]
+}

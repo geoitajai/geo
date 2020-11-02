@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2041270040", "cod": 887, "nome": "R.Emanuel dos Santos", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.686859036847146, -26.93549637098554 ], [ -48.68667252446803, -26.935492071111565 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2041270040", "cod": 889, "nome": "R.Marcus Gustavo Heusi", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.686678001391023, -26.935047005108441 ], [ -48.686454768528073, -26.935313429139704 ] ] } }
+]
+}

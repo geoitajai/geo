@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2141710100", "cod": 804, "nome": "R.Maurino Vieira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.64292697, -26.95206307 ], [ -48.642817630064428, -26.952076992996528 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2141710100", "cod": 805, "nome": "Av.Márcio Ferreira de Mello e Silva", "ptotalvia": 15.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.64160005, -26.95413534 ], [ -48.6416064, -26.95300522 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2141710100", "cod": 806, "nome": "R.Joel José Ferreira", "ptotalvia": 5.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.64294057, -26.95133309 ], [ -48.642821858368769, -26.951340089821077 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2141710100", "cod": 792, "nome": "R.Ariribá", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.643873396160515, -26.954483227451977 ], [ -48.64385222, -26.95443149 ], [ -48.64379289, -26.9543651 ], [ -48.64284158000001, -26.95424686 ], [ -48.64253165, -26.95414106 ], [ -48.64233712, -26.95406758 ], [ -48.64198432, -26.95408522 ], [ -48.64160005, -26.95413534 ], [ -48.641555933448373, -26.954141090875883 ] ] } }
+]
+}

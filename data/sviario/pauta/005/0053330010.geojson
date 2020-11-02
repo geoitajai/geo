@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0053330010", "cod": 958, "nome": "R.Francisco de Mattos Dutra", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696267009671054, -26.922878614765605 ], [ -48.69630119, -26.92295604 ], [ -48.69639849580043, -26.923181134218193 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0053330010", "cod": 958, "nome": "R.Francisco de Mattos Dutra", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696267009671054, -26.922878614765605 ], [ -48.69630119, -26.92295604 ], [ -48.69639849580043, -26.923181134218193 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0053330010", "cod": 952, "nome": "R.Peterson André Machado", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696381283707794, -26.922928385762226 ], [ -48.696017120689746, -26.923057294342005 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0053330010", "cod": 952, "nome": "R.Peterson André Machado", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696381283707794, -26.922928385762226 ], [ -48.696017120689746, -26.923057294342005 ] ] } }
+]
+}

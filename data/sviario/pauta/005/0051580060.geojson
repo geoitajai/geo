@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0051580060", "cod": 900, "nome": "R.dos Ciprestes", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69417296, -26.9180672 ], [ -48.694175029267448, -26.918094289369257 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0051580060", "cod": 909, "nome": "R.Das Violetas", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.694519303039172, -26.918045528737384 ], [ -48.69417296, -26.9180672 ], [ -48.694157450359263, -26.918067514656485 ] ] } }
+]
+}

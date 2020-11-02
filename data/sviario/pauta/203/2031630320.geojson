@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2031630320", "cod": 1066, "nome": "R.Itamar Bruno de Carvalho", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70061268, -26.87851782 ], [ -48.700245832782485, -26.8785380181458 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2031630320", "cod": 1062, "nome": "R.Alberto Buchele", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700599425980585, -26.878236715909438 ], [ -48.70061268, -26.87851782 ] ] } }
+]
+}

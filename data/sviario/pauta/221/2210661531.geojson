@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2210661531", "cod": 159, "nome": "R.José Pereira Liberato", "ptotalvia": 12.5, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.682269742422044, -26.913452712924169 ], [ -48.68225077, -26.91366782 ], [ -48.68226267, -26.91380927 ], [ -48.682272402580196, -26.913849922173984 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210661531", "cod": 515, "nome": "R.Fábio Cesário Pereira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68226267, -26.91380927 ], [ -48.681903090272016, -26.913826812532356 ] ] } }
+]
+}

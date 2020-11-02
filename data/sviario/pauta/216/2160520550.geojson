@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2160520550", "cod": 1446, "nome": "Serv.Adelino Francisco Mafra", "ptotalvia": 4.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.737604022087162, -26.946153150015963 ], [ -48.73764781, -26.94663067 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2160520550", "cod": 1235, "nome": "Rod.Dep.Antônio Heil", "ptotalvia": 30.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.737833583956004, -26.946651086607929 ], [ -48.73764781, -26.94663067 ], [ -48.737555903744592, -26.946621045448722 ] ] } }
+]
+}

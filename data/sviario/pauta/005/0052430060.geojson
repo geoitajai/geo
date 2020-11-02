@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0052430060", "cod": 914, "nome": "R.Das Azaléias", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.694470756295125, -26.919454033858791 ], [ -48.69428118, -26.91948395 ], [ -48.694113031754384, -26.919520391525218 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0052430060", "cod": 900, "nome": "R.dos Ciprestes", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69427430127471, -26.919393897063937 ], [ -48.69428118, -26.91948395 ] ] } }
+]
+}

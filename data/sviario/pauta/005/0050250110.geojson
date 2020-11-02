@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0050250110", "cod": 18, "nome": "R.Exp.Olímpio José Borges", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.690193659301173, -26.903309374721939 ], [ -48.68983542958766, -26.903320008353663 ] ] } }
+]
+}

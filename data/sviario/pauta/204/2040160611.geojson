@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2040160611", "cod": 644, "nome": "R.Telemaco Pereira Liberato", "ptotalvia": 12.1, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.652614022486524, -26.919739163216573 ], [ -48.65356269, -26.92050925 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040160611", "cod": 645, "nome": "R.Antônio Manoel Moreira", "ptotalvia": 13.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.652414499376469, -26.920495934694681 ], [ -48.65294646, -26.9209308 ], [ -48.65292152, -26.92094394 ], [ -48.652980270974027, -26.920994860883368 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040160611", "cod": 647, "nome": "R.Agostinho Fernandes Vieira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65349603, -26.92065313 ], [ -48.65294646, -26.9209308 ], [ -48.65292152, -26.92094394 ], [ -48.652874952846446, -26.920968473864654 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040160611", "cod": 276, "nome": "Av.7 de Setembro", "ptotalvia": 18.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.653574543701623, -26.920482577871464 ], [ -48.65356269, -26.92050925 ], [ -48.653451263061982, -26.92074974797006 ] ] } }
+]
+}

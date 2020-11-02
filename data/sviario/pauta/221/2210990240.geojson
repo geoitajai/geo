@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2210990240", "cod": 542, "nome": "R.Helio Firmo Caetano", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67813891, -26.92071597 ], [ -48.678140740000011, -26.92093152 ], [ -48.6781406, -26.92095491 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210990240", "cod": 572, "nome": "R.Acari Antônio Moser", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.678188182552027, -26.920713131681971 ], [ -48.67813891, -26.92071597 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210990240", "cod": 573, "nome": "R.São João Batista", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.678140740000011, -26.92093152 ], [ -48.67784639233745, -26.920944932188029 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210990240", "cod": 542, "nome": "R.Helio Firmo Caetano", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6781406, -26.92095491 ], [ -48.67814045457208, -26.92097892408826 ] ] } }
+]
+}

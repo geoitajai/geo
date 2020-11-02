@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2150270130", "cod": 1360, "nome": "R.Fermino Vieira Cordeiro", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.736544996989281, -26.897630700621104 ], [ -48.73612901, -26.89770959 ], [ -48.735936031228825, -26.897697292859132 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2150270130", "cod": 1374, "nome": "R.Ademar Barbi", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.736083805459302, -26.894019595458733 ], [ -48.73608718, -26.89405854 ] ] } }
+]
+}

@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2121200275", "cod": 158, "nome": "R.Albino Gugelmin", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68180164000001, -26.89355953 ], [ -48.681718134321123, -26.893562923799113 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2121200275", "cod": 159, "nome": "R.José Pereira Liberato", "ptotalvia": 12.5, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.681798963952431, -26.893469539163075 ], [ -48.68180164000001, -26.89355953 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2121200275", "cod": 159, "nome": "R.José Pereira Liberato", "ptotalvia": 12.5, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68180164000001, -26.89355953 ], [ -48.681811846871611, -26.893932087300819 ] ] } }
+]
+}

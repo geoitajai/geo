@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0054920880", "cod": 124, "nome": "R.João Alves de Oliveira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702587636668127, -26.906615113602086 ], [ -48.702247759111465, -26.906639082992246 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054920880", "cod": 33, "nome": "R.Jaziel José Rosa", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702596802136178, -26.906633068816905 ], [ -48.702609924597688, -26.906868641923168 ] ] } }
+]
+}

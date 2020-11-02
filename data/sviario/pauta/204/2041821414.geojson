@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2041821414", "cod": 689, "nome": "R.Antônio André Paulo", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656110345079924, -26.926950794985235 ], [ -48.65644525, -26.92729322 ], [ -48.656497461102596, -26.92732406047767 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2041821414", "cod": 690, "nome": "R.Videira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656029047591197, -26.926977136047348 ], [ -48.65562096, -26.92734614 ], [ -48.655550667060282, -26.927484168154518 ] ] } }
+]
+}

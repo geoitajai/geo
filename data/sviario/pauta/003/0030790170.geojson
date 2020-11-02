@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0030790170", "cod": 1133, "nome": "R.São Paulo (bairro Cordeiros)", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698231487294308, -26.88904376982984 ], [ -48.69790651, -26.88906069 ], [ -48.697861637346705, -26.889062560377806 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0030790170", "cod": 1161, "nome": "Av.Independência", "ptotalvia": 18.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697902425831465, -26.888995210262639 ], [ -48.697928020535088, -26.889420186056991 ] ] } }
+]
+}

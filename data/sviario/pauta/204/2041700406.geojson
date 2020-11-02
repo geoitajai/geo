@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2041700406", "cod": 648, "nome": "R.Onze de Junho", "ptotalvia": 13.2, "ppasseio1": 1.9, "ppasseio2": 1.9 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.651357816094688, -26.921943024086044 ], [ -48.6515126, -26.9222607 ], [ -48.65152835937122, -26.922288802939889 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2041700406", "cod": 672, "nome": "R.Florianópolis", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6515126, -26.9222607 ], [ -48.651422478068774, -26.922412250029772 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2041700406", "cod": 665, "nome": "R.Pedro Camilo da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.650538631480281, -26.922332405889115 ], [ -48.65067445, -26.92242079 ], [ -48.650647277044428, -26.922483899219984 ] ] } }
+]
+}

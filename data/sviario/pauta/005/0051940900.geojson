@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0051940900", "cod": 1012, "nome": "R.Rivo Lafaiéte de Oliveira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702574133396567, -26.929165087806105 ], [ -48.70260096, -26.92918748 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0051940900", "cod": 984, "nome": "R.Maria Alves Mafra", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702326514918568, -26.929490169964371 ], [ -48.70239265, -26.92954433 ] ] } }
+]
+}

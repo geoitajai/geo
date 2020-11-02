@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0051810105", "cod": 1014, "nome": "R.Francisco Molleri", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69821261574991, -26.926767792597925 ], [ -48.69835571, -26.926888009999988 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0051810105", "cod": 1014, "nome": "R.Francisco Molleri", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69835571, -26.926888009999988 ], [ -48.698490492217374, -26.927001240541475 ] ] } }
+]
+}

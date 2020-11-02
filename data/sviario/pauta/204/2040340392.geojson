@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2040340392", "cod": 624, "nome": "R.Antônio Cabral", "ptotalvia": 3.5, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65686678, -26.91253215 ], [ -48.65714267970808, -26.912744975299617 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040340392", "cod": 276, "nome": "Av.7 de Setembro", "ptotalvia": 18.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656996179612477, -26.912233505472287 ], [ -48.65697518, -26.91228225 ], [ -48.65686678, -26.91253215 ], [ -48.656865721191906, -26.912534607096021 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040340392", "cod": 681, "nome": "R.Domingos José Cabral", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.657397513939195, -26.912608101462425 ], [ -48.65697518, -26.91228225 ] ] } }
+]
+}

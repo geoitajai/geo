@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0031920050", "cod": 1214, "nome": "R.Vitória", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700080574724588, -26.898105849074074 ], [ -48.69976366, -26.89812047 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031920050", "cod": 1213, "nome": "Trav.Terezinha", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.699743147845815, -26.897721147481608 ], [ -48.69976366, -26.89812047 ], [ -48.699772575435205, -26.898197662192494 ] ] } }
+]
+}

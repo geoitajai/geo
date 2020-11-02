@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0052640900", "cod": 84, "nome": "R.São Vicente", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.687628096249057, -26.899047476806622 ], [ -48.68762604, -26.89914096 ], [ -48.68757009194708, -26.89945532347086 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0052640900", "cod": 87, "nome": "R.Exp.José Corrêa", "ptotalvia": 5.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68762604, -26.89914096 ], [ -48.687079181392711, -26.899147735409429 ] ] } }
+]
+}

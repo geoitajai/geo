@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2020200397", "cod": 261, "nome": "R.Izabel Ramos Fabeni", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.668705070763018, -26.901773625389271 ], [ -48.668957626317244, -26.90200079831758 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020200397", "cod": 224, "nome": "Trav.Bela Cruz", "ptotalvia": 3.5, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.669033334961746, -26.901441348986939 ], [ -48.669364768932752, -26.901732139542016 ] ] } }
+]
+}

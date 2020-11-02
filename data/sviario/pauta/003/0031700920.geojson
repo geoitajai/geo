@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0031700920", "cod": 1133, "nome": "R.São Paulo (bairro Cordeiros)", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695773882552608, -26.889158525849151 ], [ -48.69541738, -26.88917915 ], [ -48.695365363304852, -26.88918412124378 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031700920", "cod": 1141, "nome": "R.Laudelina Dionísio", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695555960880093, -26.88962221568443 ], [ -48.69541738, -26.88917915 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031700920", "cod": 1141, "nome": "R.Laudelina Dionísio", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69541738, -26.88917915 ], [ -48.695415827321064, -26.889143430890961 ] ] } }
+]
+}

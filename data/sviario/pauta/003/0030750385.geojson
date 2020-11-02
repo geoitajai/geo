@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0030750385", "cod": 1161, "nome": "Av.Independência", "ptotalvia": 18.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698103062150189, -26.88649019229512 ], [ -48.697854881484972, -26.886981651332928 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0030750385", "cod": 1186, "nome": "R.Rio Grande do Sul", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6985172, -26.88740269 ], [ -48.698101157050559, -26.887420619520167 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0030750385", "cod": 1111, "nome": "Av.Dr.Reinaldo Schmithausen", "ptotalvia": 27.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698544127235472, -26.886763177776292 ], [ -48.698162061074527, -26.88648345784927 ] ] } }
+]
+}

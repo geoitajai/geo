@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2031740350", "cod": 1046, "nome": "R.Eugênio Pezzini", "ptotalvia": 13.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69333248, -26.88138186 ], [ -48.69337882, -26.88252466 ], [ -48.69342868, -26.88362565 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2031740350", "cod": 1114, "nome": "R.São Cristóvão", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69268685, -26.88389974 ], [ -48.692690212905774, -26.883948511476348 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2031740350", "cod": 1113, "nome": "R.Odilio Garcia", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69324764, -26.88366281 ], [ -48.693250803290397, -26.883713663026619 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2031740350", "cod": 1108, "nome": "R.Eurípedes Amorim Leal", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693417252026578, -26.881377982715033 ], [ -48.69333248, -26.88138186 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2031740350", "cod": 1079, "nome": "R.PoetaBento Nascimento", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693472230024263, -26.882523695350919 ], [ -48.69337882, -26.88252466 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2031740350", "cod": 1111, "nome": "Av.Dr.Reinaldo Schmithausen", "ptotalvia": 27.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693450687460697, -26.883622594584661 ], [ -48.69342868, -26.88362565 ], [ -48.69324764, -26.88366281 ], [ -48.69268685, -26.88389974 ], [ -48.692143264880805, -26.884138879170557 ] ] } }
+]
+}

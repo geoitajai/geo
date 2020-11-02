@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0031300725", "cod": 1168, "nome": "R.José Lopes", "ptotalvia": 14.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.703389146079509, -26.890687144566026 ], [ -48.70339437, -26.89078858 ], [ -48.703409123015092, -26.891009390531526 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031300725", "cod": 1231, "nome": "R.Hermes Guedes da Fonseca", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.703491800312385, -26.890783392883002 ], [ -48.70339437, -26.89078858 ], [ -48.702875390103124, -26.890793531118938 ] ] } }
+]
+}

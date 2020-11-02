@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2140310645", "cod": 753, "nome": "R.Hilda Teixeira Zaguini", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.636246379481555, -26.926835916370504 ], [ -48.63630851, -26.92684392 ], [ -48.636436344400472, -26.926798474586093 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140310645", "cod": 756, "nome": "R.Dr.José Menescau do Monte", "ptotalvia": 17.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.63657568, -26.92708272 ], [ -48.636468664656796, -26.92724736983795 ] ] } }
+]
+}

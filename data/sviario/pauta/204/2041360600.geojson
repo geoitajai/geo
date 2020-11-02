@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2041360600", "cod": 867, "nome": "R.Oswaldo Espíndola", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676624079725812, -26.929511333477446 ], [ -48.67631821, -26.92949832 ], [ -48.67619523, -26.92930535 ], [ -48.676078570494354, -26.929228230221785 ] ] } }
+]
+}

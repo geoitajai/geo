@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2010671311", "cod": 344, "nome": "R.Mathias Olinger", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.666958146288621, -26.911732519356796 ], [ -48.6668921, -26.91180639 ], [ -48.66643577, -26.91220954 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010671311", "cod": 396, "nome": "R.Luiz Berlim", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66631944, -26.91208931 ], [ -48.666287461493646, -26.912121113259314 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010671311", "cod": 268, "nome": "R.Brusque", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.666221093440818, -26.911956810875584 ], [ -48.66631944, -26.91208931 ], [ -48.66643577, -26.91220954 ], [ -48.666470753765289, -26.912254859430849 ] ] } }
+]
+}

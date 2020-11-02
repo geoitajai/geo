@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2040710138", "cod": 685, "nome": "R.Ivo Atanasio Veiga", "ptotalvia": 5.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656663398222058, -26.925018198138506 ], [ -48.65665956, -26.92502108 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040710138", "cod": 686, "nome": "R.Antônio Foes", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656155978752757, -26.925141100279617 ], [ -48.656416807921346, -26.925356792415176 ] ] } }
+]
+}

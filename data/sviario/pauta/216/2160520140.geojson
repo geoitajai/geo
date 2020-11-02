@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2160520140", "cod": 1449, "nome": "R.Giusyppe Moser", "ptotalvia": 5.6, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.74129291, -26.9459953 ], [ -48.7411632, -26.94600544 ], [ -48.741064333416105, -26.946018335971921 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2160520140", "cod": 1413, "nome": "Av.Itaipava", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.741436190819506, -26.945408741068196 ], [ -48.74134325, -26.94539805 ], [ -48.741038081856459, -26.945368278007855 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2160520140", "cod": 1460, "nome": "R.Rosália Pedroni", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.741340076786962, -26.945329167378002 ], [ -48.74134325, -26.94539805 ] ] } }
+]
+}

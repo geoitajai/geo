@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2160160110", "cod": 1573, "nome": "R.Antonia Apollinário", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.687618970325872, -26.967378989209916 ], [ -48.68746735, -26.96741923 ], [ -48.68692792, -26.96765538 ], [ -48.686922479125137, -26.967657048235655 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2160160110", "cod": 1645, "nome": "R.Sem denominação oficial", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68692792, -26.96765538 ], [ -48.686935482051631, -26.967709244617208 ] ] } }
+]
+}

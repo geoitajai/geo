@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0055240010", "cod": 135, "nome": "R.José Pezzini", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.708439617462375, -26.910495667133407 ], [ -48.70845303, -26.91079642 ], [ -48.708454759072048, -26.910858622127112 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0055240010", "cod": 143, "nome": "R.Alice dos Santos Bittencourt", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70884522966044, -26.91078329441488 ], [ -48.70877332, -26.91078678 ], [ -48.70845303, -26.91079642 ], [ -48.708388808687388, -26.910799007642495 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0055240010", "cod": 1293, "nome": "R.Leopoldo Cristiano de Miranda", "ptotalvia": 20.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70885407660446, -26.910752213312534 ], [ -48.70877332, -26.91078678 ], [ -48.708581012117826, -26.910877694842156 ] ] } }
+]
+}

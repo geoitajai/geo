@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2040810170", "cod": 849, "nome": "Serv.Pedro José João, beco 1", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.669877624807803, -26.919877980999633 ], [ -48.66987268, -26.9199353 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040810170", "cod": 269, "nome": "R.Pedro José João", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.669651982671986, -26.919826718966309 ], [ -48.66960067, -26.92000974 ], [ -48.669483564417213, -26.920177089368142 ] ] } }
+]
+}

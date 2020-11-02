@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2010671289", "cod": 396, "nome": "R.Luiz Berlim", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66631944, -26.91208931 ], [ -48.666306528780012, -26.912102150467749 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010671289", "cod": 268, "nome": "R.Brusque", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66615078701291, -26.911862089090604 ], [ -48.66631944, -26.91208931 ], [ -48.666351189667395, -26.912122124118198 ] ] } }
+]
+}

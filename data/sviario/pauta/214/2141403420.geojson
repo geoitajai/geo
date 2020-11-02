@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2141403420", "cod": 586, "nome": "Av.Osvaldo Reis", "ptotalvia": 34.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -48.64122766, -26.93747986 ], [ -48.641221084430498, -26.937499406293927 ] ], [ [ -48.641077669687768, -26.937925713649019 ], [ -48.64105609, -26.93798986 ], [ -48.64102588, -26.93843554 ], [ -48.641021352330242, -26.938626609481162 ] ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2141403420", "cod": 586, "nome": "Av.Osvaldo Reis", "ptotalvia": 34.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.641301235443294, -26.937374058425885 ], [ -48.64122766, -26.93747986 ] ] } }
+]
+}

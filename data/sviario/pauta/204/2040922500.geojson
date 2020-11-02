@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2040922500", "cod": 1633, "nome": "R.Ver.José Carlos Mendonça", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.684439516971217, -26.931044589811105 ], [ -48.68426023, -26.93482049 ], [ -48.684324693342106, -26.934823295956146 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040922500", "cod": 1702, "nome": "R. Sem denominação oficial", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68316237, -26.93160129 ], [ -48.68381308, -26.9313418 ], [ -48.68443722, -26.93109292 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040922500", "cod": 1702, "nome": "R. Sem denominação oficial", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68316237, -26.93160129 ], [ -48.68381308, -26.9313418 ], [ -48.68443722, -26.93109292 ] ] } }
+]
+}

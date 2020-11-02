@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2030961486", "cod": 1139, "nome": "R.Galdino de Borba", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696289155200503, -26.88512297946076 ], [ -48.69628772, -26.88507999 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2030961486", "cod": 1087, "nome": "R.João Emiliano da Silva", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69598732, -26.88484496 ], [ -48.69640953, -26.88414393 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2030961486", "cod": 1111, "nome": "Av.Dr.Reinaldo Schmithausen", "ptotalvia": 27.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69657843828567, -26.885297912443608 ], [ -48.69628772, -26.88507999 ], [ -48.69598732, -26.88484496 ], [ -48.695951139745347, -26.884816731689373 ] ] } }
+]
+}

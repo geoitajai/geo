@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0054240380", "cod": 139, "nome": "R.Maria Luíza Etur Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.707458332452191, -26.908394439938309 ], [ -48.70732968, -26.90839914 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054240380", "cod": 139, "nome": "R.Maria Luíza Etur Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70732968, -26.90839914 ], [ -48.707095881631361, -26.908407680856175 ] ] } }
+]
+}

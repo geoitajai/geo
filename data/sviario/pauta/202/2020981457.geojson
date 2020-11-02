@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2020981457", "cod": 251, "nome": "Trav.Antônio Carlos da Silva", "ptotalvia": 13.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675782907577513, -26.906548720164576 ], [ -48.67577756, -26.90672654 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020981457", "cod": 250, "nome": "R.Maria da Glória", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676246365309964, -26.906874348092551 ], [ -48.67577756, -26.90672654 ], [ -48.675756030213783, -26.906782964967324 ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2030710190", "cod": 1175, "nome": "Marginal Leste", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.728815012465695, -26.871771319806015 ], [ -48.728936686909215, -26.87147770129884 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2030710190", "cod": 1269, "nome": "R.César Augusto Dalsóquio", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.727915918088698, -26.871436834282711 ], [ -48.72778125318014, -26.871744126928686 ] ] } }
+]
+}

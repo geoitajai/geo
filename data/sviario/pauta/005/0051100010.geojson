@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0051100010", "cod": 43, "nome": "R.Antônio Carlos Pereira Leão Filho", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696469192247733, -26.900408681122524 ], [ -48.69647373, -26.9004657 ], [ -48.696494564790612, -26.900740254127189 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0051100010", "cod": 23, "nome": "R.Cargelino Francelino", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69653831, -26.90046174 ], [ -48.69647373, -26.9004657 ], [ -48.6964158627028, -26.900469479339247 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0051100010", "cod": 23, "nome": "R.Cargelino Francelino", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696924589668754, -26.9004380313757 ], [ -48.69653831, -26.90046174 ] ] } }
+]
+}

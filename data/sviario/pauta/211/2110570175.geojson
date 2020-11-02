@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2110570175", "cod": 269, "nome": "R.Pedro José João", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66963504, -26.91846563 ], [ -48.669203083637285, -26.918501394585384 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110570175", "cod": 269, "nome": "R.Pedro José João", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66962572706089, -26.918360056336397 ], [ -48.66963504, -26.91846563 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110570175", "cod": 269, "nome": "R.Pedro José João", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66963504, -26.91846563 ], [ -48.66964128453143, -26.918680185164561 ] ] } }
+]
+}

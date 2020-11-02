@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2140310280", "cod": 753, "nome": "R.Hilda Teixeira Zaguini", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.636696531376238, -26.92670597705353 ], [ -48.63674122, -26.92669009 ], [ -48.637216608788997, -26.926417947072203 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140310280", "cod": 1695, "nome": "R.Sem denominação oficial", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.63709312551741, -26.9271726661248 ], [ -48.63699607, -26.927091539999989 ], [ -48.6369021, -26.92677846 ], [ -48.63683286, -26.92670791 ], [ -48.63674122, -26.92669009 ] ] } }
+]
+}

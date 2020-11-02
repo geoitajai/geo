@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2020430317", "cod": 175, "nome": "R.Eugênio José Reichert", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67363534, -26.89479026 ], [ -48.674022266255704, -26.895091907065545 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020430317", "cod": 173, "nome": "R.Francisco Czarneski", "ptotalvia": 7.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67363534, -26.89479026 ], [ -48.673593540494224, -26.894754768780928 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020430317", "cod": 157, "nome": "R.Blumenau", "ptotalvia": 14.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67363534, -26.89479026 ], [ -48.673484636412496, -26.894994383839624 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020430317", "cod": 157, "nome": "R.Blumenau", "ptotalvia": 14.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.673679807995107, -26.89473653988081 ], [ -48.67363534, -26.89479026 ] ] } }
+]
+}

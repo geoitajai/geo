@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0031430250", "cod": 1169, "nome": "R.Selso Duarte Moreira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.704428760239367, -26.896688353308228 ], [ -48.7044294, -26.89670076 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031430250", "cod": 1170, "nome": "R.Ver.Nestor dos Santos", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.705026162736118, -26.896663240783457 ], [ -48.70502646, -26.89666847 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031430250", "cod": 1170, "nome": "R.Ver.Nestor dos Santos", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70502646, -26.89666847 ], [ -48.70502865, -26.89670691 ], [ -48.705049450946035, -26.89713112045019 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031430250", "cod": 1169, "nome": "R.Selso Duarte Moreira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.7044294, -26.89670076 ], [ -48.70443178, -26.89674688 ], [ -48.704455717637281, -26.897157752919412 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031430250", "cod": 1229, "nome": "R.Jaime Fernandes Vieira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.705083192073594, -26.896705694156591 ], [ -48.70502865, -26.89670691 ], [ -48.70443178, -26.89674688 ], [ -48.704369525210744, -26.896750459528779 ] ] } }
+]
+}

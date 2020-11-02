@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2030430840", "cod": 1024, "nome": "R.Theodoro Lino Régis", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70134797268625, -26.867180052763132 ], [ -48.70194292, -26.86732389 ], [ -48.702178982582176, -26.867411919515984 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2030430840", "cod": 1037, "nome": "R.Germano Bastos", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70178551, -26.86728586 ], [ -48.701790602992737, -26.867376743468036 ] ] } }
+]
+}

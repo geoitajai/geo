@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0031880110", "cod": 1194, "nome": "Trav.São Luiz", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.699637147527653, -26.895752066542201 ], [ -48.69965348, -26.89603341 ], [ -48.69965683790786, -26.896100734716903 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031880110", "cod": 1150, "nome": "R.Amapá", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70006138480035, -26.896017644631478 ], [ -48.69960252, -26.89603607 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031880110", "cod": 1150, "nome": "R.Amapá", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69960252, -26.89603607 ], [ -48.699577649584739, -26.896037068646077 ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0054930410", "cod": 127, "nome": "R.Jeferson Nunes", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702651334847175, -26.907808321222671 ], [ -48.70232094150888, -26.907825845060106 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054930410", "cod": 33, "nome": "R.Jaziel José Rosa", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702648685866805, -26.907561454537422 ], [ -48.702661248681522, -26.907782690101097 ] ] } }
+]
+}

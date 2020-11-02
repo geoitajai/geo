@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2140600346", "cod": 731, "nome": "R.José Correia", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.64614636, -26.93213946 ], [ -48.645831265399096, -26.931877923744807 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140600346", "cod": 727, "nome": "R.Artur Torquato Batista", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.646159151018935, -26.931692543498279 ], [ -48.64614636, -26.93213946 ], [ -48.646138488533509, -26.932167078385124 ] ] } }
+]
+}

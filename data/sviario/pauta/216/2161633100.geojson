@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2161633100", "cod": 1503, "nome": "R.Vergílio Cadore", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.829330137667768, -26.989300833878982 ], [ -48.82984242, -26.98926003 ], [ -48.83064785, -26.98929214 ], [ -48.83088984, -26.98926996 ], [ -48.83128964, -26.98920096 ], [ -48.83177737, -26.98911674 ], [ -48.83200739, -26.98903145 ], [ -48.832071941665959, -26.988987915641182 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2161633100", "cod": 1713, "nome": "Serv.Bertolda Borba de Souza", "ptotalvia": 10.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.83128964, -26.98920096 ], [ -48.831313882991445, -26.989518267727263 ] ] } }
+]
+}

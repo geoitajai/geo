@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2041290220", "cod": 1481, "nome": "R.Álvaro Beraldi", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692832789693355, -26.93862782549968 ], [ -48.69226373, -26.93878775 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2041290220", "cod": 1481, "nome": "R.Álvaro Beraldi", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69226373, -26.93878775 ], [ -48.692201523781847, -26.938805232046757 ] ] } }
+]
+}

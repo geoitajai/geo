@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0055150150", "cod": 135, "nome": "R.José Pezzini", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.708528085756861, -26.912249289737812 ], [ -48.70853227, -26.91233697 ], [ -48.708550081324965, -26.912611215692081 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0055150150", "cod": 146, "nome": "R.Maria Nunes da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.708613628709372, -26.91233244658574 ], [ -48.70853227, -26.91233697 ], [ -48.708136794263311, -26.912351383477862 ] ] } }
+]
+}

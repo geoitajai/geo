@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2160740300", "cod": 1478, "nome": "R.Benjamim Dagnoni", "ptotalvia": 22.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.710866902908037, -26.955299016906306 ], [ -48.71089923, -26.95538651 ], [ -48.71101266, -26.95577951 ], [ -48.71110772, -26.95609369 ], [ -48.711154407354428, -26.956268127986892 ] ] } }
+]
+}

@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2110410254", "cod": 262, "nome": "Av.José Eugênio Muller", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.670733819208635, -26.91387946955998 ], [ -48.67073986, -26.91392824 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110410254", "cod": 497, "nome": "R.Ciriaco Meirinho", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.670792977129743, -26.913925457429581 ], [ -48.67073986, -26.91392824 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110410254", "cod": 262, "nome": "Av.José Eugênio Muller", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67073986, -26.91392824 ], [ -48.670773002646072, -26.914156172368536 ] ] } }
+]
+}

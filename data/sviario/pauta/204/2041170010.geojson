@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2041170010", "cod": 880, "nome": "R.Pedro Manoel Moreira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.688456222177798, -26.932997349812595 ], [ -48.68816906, -26.93330922 ], [ -48.688129108103553, -26.93335697326421 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2041170010", "cod": 883, "nome": "R.Olga Gern Pereira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.688424885438643, -26.933486063169092 ], [ -48.68816906, -26.93330922 ], [ -48.688117255100302, -26.933274125488644 ] ] } }
+]
+}

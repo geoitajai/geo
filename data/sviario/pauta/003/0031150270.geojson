@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0031150270", "cod": 1164, "nome": "R.Gustavo Bernedet", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700198701803629, -26.889116595031965 ], [ -48.70021391, -26.88940055 ], [ -48.70021796047692, -26.889470540870416 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031150270", "cod": 1233, "nome": "R.Áurea de Souza", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700285135313145, -26.889395693571899 ], [ -48.70021391, -26.88940055 ], [ -48.699758539413367, -26.88943508692423 ] ] } }
+]
+}

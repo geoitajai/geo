@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2160230780", "cod": 1413, "nome": "Av.Itaipava", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.74120364162566, -26.94538442998731 ], [ -48.74084817, -26.94534975 ], [ -48.740733517020395, -26.945337696862861 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2160230780", "cod": 1461, "nome": "R.Gerda Wagenknecht Sasse", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.740809359617003, -26.944699841214597 ], [ -48.74084817, -26.94534975 ] ] } }
+]
+}

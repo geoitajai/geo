@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0052760170", "cod": 67, "nome": "R.São Miguel", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.684570405384655, -26.89545910705305 ], [ -48.684307053443099, -26.895713243724849 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0052760170", "cod": 58, "nome": "R.Osvaldo Becker", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.684701319937737, -26.895852830868598 ], [ -48.684451206434183, -26.89585826996543 ] ] } }
+]
+}

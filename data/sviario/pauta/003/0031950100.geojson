@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0031950100", "cod": 1179, "nome": "R.Aracajú", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700892931850319, -26.899922171657572 ], [ -48.70084648, -26.89992455 ], [ -48.700402173070088, -26.899947746784644 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031950100", "cod": 1164, "nome": "R.Gustavo Bernedet", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700828030168367, -26.899653922272613 ], [ -48.70084648, -26.89992455 ], [ -48.700846845005017, -26.899982067832298 ] ] } }
+]
+}

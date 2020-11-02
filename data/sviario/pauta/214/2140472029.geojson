@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2140472029", "cod": 775, "nome": "R.Paulo Irineu Werner", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.633452534536438, -26.931510222421018 ], [ -48.63338595, -26.93146197 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140472029", "cod": 771, "nome": "R.Ver.Hermínio Gervásio", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.633384799029926, -26.931425628545078 ], [ -48.63338595, -26.93146197 ], [ -48.63339867601492, -26.931804197435365 ] ] } }
+]
+}

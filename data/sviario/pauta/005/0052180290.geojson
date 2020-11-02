@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0052180290", "cod": 118, "nome": "R.Joaçaba", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70177303, -26.904864039999989 ], [ -48.701776041725282, -26.904923357204403 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0052180290", "cod": 15, "nome": "R.Arq.Nilson Edson dos Santos", "ptotalvia": 21.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.701956172815564, -26.904858441249388 ], [ -48.70177303, -26.904864039999989 ], [ -48.701651737547621, -26.904866541875489 ] ] } }
+]
+}

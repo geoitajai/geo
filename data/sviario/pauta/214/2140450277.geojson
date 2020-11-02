@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2140450277", "cod": 773, "nome": "R.Eloy Cordeiro", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.634733104681658, -26.931259268828924 ], [ -48.63481428, -26.93132388 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140450277", "cod": 774, "nome": "R.Arnoldo Pollhein", "ptotalvia": 10.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.63481428, -26.93132388 ], [ -48.634667674108179, -26.931479115391372 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140450277", "cod": 776, "nome": "R.Benjamim Constant", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.63570436, -26.93261138 ], [ -48.635528616682556, -26.932465722231473 ] ] } }
+]
+}

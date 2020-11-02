@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2010090226", "cod": 288, "nome": "Av.Pref.Paulo Bauer", "ptotalvia": 14.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.658695106676738, -26.902328217463207 ], [ -48.6586305, -26.90232122 ], [ -48.65842795, -26.90236628 ], [ -48.65821409, -26.90246718 ], [ -48.658039814801285, -26.902583742479191 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010090226", "cod": 289, "nome": "R.Pedro Ferreira", "ptotalvia": 14.0, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65886014094847, -26.902533201159144 ], [ -48.658327433733632, -26.902907388354048 ] ] } }
+]
+}

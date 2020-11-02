@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2140651986", "cod": 741, "nome": "R.Henrique Sarmento Vieira", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6398941937031, -26.933860649242632 ], [ -48.63979861, -26.933863 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140651986", "cod": 735, "nome": "R.Tereza Francisca Pereira", "ptotalvia": 13.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.639260063828694, -26.933696890539988 ], [ -48.63898009, -26.93404818 ], [ -48.638950471237088, -26.934172296922302 ] ] } }
+]
+}

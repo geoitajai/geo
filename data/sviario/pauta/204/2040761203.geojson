@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2040761203", "cod": 612, "nome": "R.Antônio de Meneses Vasconcelos de Drumond", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.660616451214736, -26.917997316984902 ], [ -48.66060204, -26.91798361 ], [ -48.66033834, -26.91799463 ], [ -48.66009766471614, -26.91807510473539 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040761203", "cod": 614, "nome": "R.Aldo Locatelli", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66060204, -26.91798361 ], [ -48.66041221, -26.91774946 ], [ -48.660239389800793, -26.917611617463624 ] ] } }
+]
+}

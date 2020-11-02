@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2160052780", "cod": 1427, "nome": "R.José Carlos de Andrade", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.737837110387005, -26.948905584580814 ], [ -48.73786677, -26.9493439 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2160052780", "cod": 1572, "nome": "R.Anna Custódio", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.737952773658328, -26.949525943939278 ], [ -48.7376833, -26.94953514 ] ] } }
+]
+}

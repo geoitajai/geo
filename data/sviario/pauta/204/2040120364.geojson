@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2040120364", "cod": 648, "nome": "R.Onze de Junho", "ptotalvia": 13.2, "ppasseio1": 1.9, "ppasseio2": 1.9 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.651531825298449, -26.922294983561741 ], [ -48.65185252, -26.92286686 ], [ -48.651874782404093, -26.922910242939238 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040120364", "cod": 649, "nome": "R.Dr.Francisco Rangel", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.651883063152148, -26.922782954960059 ], [ -48.65185252, -26.92286686 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040120364", "cod": 672, "nome": "R.Florianópolis", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.651493767785887, -26.922292368499601 ], [ -48.65117420214272, -26.922829750961686 ] ] } }
+]
+}

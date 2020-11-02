@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0055320090", "cod": 134, "nome": "R.Acácio Pereira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.708570712528569, -26.906537696392338 ], [ -48.70822476, -26.90655441 ], [ -48.708161510898101, -26.90655712244779 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0055320090", "cod": 135, "nome": "R.José Pezzini", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.708220723609514, -26.90648980618781 ], [ -48.70822476, -26.90655441 ], [ -48.708243496050656, -26.906891112356856 ] ] } }
+]
+}

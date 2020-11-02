@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0053660030", "cod": 994, "nome": "R.Osmar Jordino Alexandre", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695496816635924, -26.92456486926438 ], [ -48.6957084, -26.92488679 ], [ -48.695737944561323, -26.924928351774476 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0053660030", "cod": 892, "nome": "Av.Ver.Nilo Simas", "ptotalvia": 20.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695753100231549, -26.924822507765878 ], [ -48.6957084, -26.92488679 ], [ -48.695567342190991, -26.925080594550938 ] ] } }
+]
+}

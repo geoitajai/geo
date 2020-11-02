@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2160130800", "cod": 1482, "nome": "Serv. Adélia Schaefer Moser", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.687085232261246, -26.947612282648919 ], [ -48.68709538, -26.94772027 ], [ -48.68669847, -26.94823133 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2160130800", "cod": 1573, "nome": "R.Antonia Apollinário", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.684308041058493, -26.959037093397303 ], [ -48.68450806, -26.95909294 ], [ -48.68468744, -26.95922328 ], [ -48.685301494674789, -26.959692289719044 ] ] } }
+]
+}

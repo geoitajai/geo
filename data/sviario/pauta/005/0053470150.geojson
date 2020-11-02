@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0053470150", "cod": 954, "nome": "R.Raul Machado", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69290971920698, -26.925139918169446 ], [ -48.69264498, -26.92523458 ], [ -48.692564075229875, -26.925262703131473 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0053470150", "cod": 954, "nome": "R.Raul Machado", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69290971920698, -26.925139918169446 ], [ -48.69264498, -26.92523458 ], [ -48.692564075229875, -26.925262703131473 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0053470150", "cod": 922, "nome": "R.P.Heribert José Schmith", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692501613956601, -26.924899468730864 ], [ -48.69264498, -26.92523458 ], [ -48.692685099780931, -26.925292486582073 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0053470150", "cod": 922, "nome": "R.P.Heribert José Schmith", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692501613956601, -26.924899468730864 ], [ -48.69264498, -26.92523458 ], [ -48.692685099780931, -26.925292486582073 ] ] } }
+]
+}

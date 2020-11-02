@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0051780125", "cod": 926, "nome": "Av.Min.Luiz Gallotti", "ptotalvia": 17.2, "ppasseio1": 3.25, "ppasseio2": 3.25 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.699412425173747, -26.92443282890288 ], [ -48.69915148, -26.92467756 ], [ -48.699130844004038, -26.924698622215903 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0051780125", "cod": 946, "nome": "R.Otília Damasceno", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69913236771513, -26.924650093942937 ], [ -48.69915148, -26.92467756 ], [ -48.699452565816323, -26.924930772281876 ] ] } }
+]
+}

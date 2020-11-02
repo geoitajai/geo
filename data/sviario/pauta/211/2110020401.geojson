@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2110020401", "cod": 314, "nome": "R.Alfredo Trompowisky", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.670431019444337, -26.907382235624798 ], [ -48.67027604, -26.90739644 ], [ -48.66996652, -26.9074248 ], [ -48.669919631355327, -26.907430142882731 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110020401", "cod": 262, "nome": "Av.José Eugênio Muller", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.669897932175303, -26.906863515415239 ], [ -48.66996652, -26.9074248 ], [ -48.669970763520446, -26.907460305366609 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110020401", "cod": 1692, "nome": "R.Ana Ferreira Figueiredo", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67028348827472, -26.907457134984089 ], [ -48.67027604, -26.90739644 ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2160460680", "cod": 1434, "nome": "R.Artur Winter", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.72241159, -26.94453785000001 ], [ -48.721829606703174, -26.944525785440003 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2160460680", "cod": 1431, "nome": "R.Protásio Wippel", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.722265746199668, -26.944231814948484 ], [ -48.72241159, -26.94453785000001 ], [ -48.722431173327386, -26.944579851565855 ] ] } }
+]
+}

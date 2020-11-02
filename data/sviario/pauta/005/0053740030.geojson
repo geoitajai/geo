@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0053740030", "cod": 977, "nome": "R.Milton Jaques", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696002274169878, -26.926935964529932 ], [ -48.69593086, -26.9269783 ], [ -48.695490538743947, -26.927215954872864 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0053740030", "cod": 894, "nome": "R.Agílio Cunha", "ptotalvia": 15.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695839572189932, -26.926903091514706 ], [ -48.69593086, -26.9269783 ], [ -48.696130582197377, -26.927146610646478 ] ] } }
+]
+}

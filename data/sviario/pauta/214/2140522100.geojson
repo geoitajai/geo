@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2140522100", "cod": 717, "nome": "R.José Carlos Câmara Bastos", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.641561233450616, -26.924256779249419 ], [ -48.64154798, -26.92423678 ], [ -48.64143588, -26.9242162 ], [ -48.64130069, -26.92427794 ], [ -48.64112924, -26.92443668 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140522100", "cod": 717, "nome": "R.José Carlos Câmara Bastos", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.64112924, -26.92443668 ], [ -48.64075007, -26.92458955 ], [ -48.64047641, -26.9246601 ], [ -48.64021593, -26.9246895 ], [ -48.63985934, -26.9247021 ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0051960100", "cod": 30, "nome": "R.Araquari", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69730328, -26.90294541 ], [ -48.697239642323225, -26.902948884811821 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0051960100", "cod": 42, "nome": "R.Nova Trento", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697299166978802, -26.902891383513225 ], [ -48.69730328, -26.90294541 ], [ -48.697323310188452, -26.903224923175038 ] ] } }
+]
+}

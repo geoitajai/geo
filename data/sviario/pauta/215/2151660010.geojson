@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2151660010", "cod": 1598, "nome": "Av.Projetada K", "ptotalvia": 18.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.744838160019953, -26.866358436750637 ], [ -48.74448692, -26.86637547 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2151660010", "cod": 1311, "nome": "R.Marcos Aurélio Seára", "ptotalvia": 28.7, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.744848646747712, -26.866110424660395 ], [ -48.744862633210495, -26.866292583415081 ] ] } }
+]
+}

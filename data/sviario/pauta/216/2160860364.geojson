@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2160860364", "cod": 421, "nome": "Trav.Vitor Ribeiro da Luz", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.683784163823901, -26.891210814934865 ], [ -48.68347328, -26.89137584 ], [ -48.683422275784665, -26.891399547191821 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2160860364", "cod": 405, "nome": "R.David Adão Schmidt", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.683521176071977, -26.891412454416887 ], [ -48.683298751477984, -26.891238410849301 ] ] } }
+]
+}

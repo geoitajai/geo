@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0030840205", "cod": 1200, "nome": "R.Alagoas", "ptotalvia": 11.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698552244975382, -26.891745066051854 ], [ -48.698188638346437, -26.891759062202787 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0030840205", "cod": 1201, "nome": "Trav.Curitiba", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69817193676279, -26.891799460311841 ], [ -48.698183216301288, -26.892029367825256 ] ] } }
+]
+}

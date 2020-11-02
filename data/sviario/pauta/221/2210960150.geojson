@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2210960150", "cod": 575, "nome": "R.Alvino Baumann", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67805958, -26.91953262 ], [ -48.678076605089011, -26.919939989367521 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210960150", "cod": 576, "nome": "R.Santa Luzia", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.678392977658753, -26.919516796521656 ], [ -48.67805958, -26.91953262 ], [ -48.67801182, -26.91953447 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210960150", "cod": 576, "nome": "R.Santa Luzia", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67801182, -26.91953447 ], [ -48.677994532014687, -26.919535137702717 ] ] } }
+]
+}

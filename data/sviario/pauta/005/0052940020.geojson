@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0052940020", "cod": 118, "nome": "R.Joaçaba", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702208831713897, -26.913274845537504 ], [ -48.70221892, -26.91346553 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0052940020", "cod": 119, "nome": "R.Xaxim", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70221892, -26.91346553 ], [ -48.702121475718641, -26.913463200871838 ] ] } }
+]
+}

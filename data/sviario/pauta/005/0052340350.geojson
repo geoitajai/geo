@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0052340350", "cod": 898, "nome": "R.Das Orquídeas", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.690902471854876, -26.918836532075229 ], [ -48.69091279, -26.9189914 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0052340350", "cod": 893, "nome": "R.Otto Hoier", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.690175736345012, -26.919458685000578 ], [ -48.69018044, -26.91926994 ], [ -48.69014668546216, -26.918882949033161 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0052340350", "cod": 896, "nome": "R.Das Hortências", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69254648229937, -26.91887738267204 ], [ -48.6925476, -26.91889091 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0052340350", "cod": 896, "nome": "R.Das Hortências", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6925476, -26.91889091 ], [ -48.692579925954135, -26.919282318398871 ] ] } }
+]
+}

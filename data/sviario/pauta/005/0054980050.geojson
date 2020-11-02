@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0054980050", "cod": 1001, "nome": "R.Valério Cadore", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69336646, -26.93025641 ], [ -48.693391639499964, -26.930277229898415 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054980050", "cod": 1005, "nome": "R.Diác.Antônio João Vicente", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693193549345196, -26.929905715962441 ], [ -48.69347469, -26.93012922 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054980050", "cod": 926, "nome": "Av.Min.Luiz Gallotti", "ptotalvia": 17.2, "ppasseio1": 3.25, "ppasseio2": 3.25 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693516224112159, -26.930090494354513 ], [ -48.69347469, -26.93012922 ], [ -48.69336646, -26.93025641 ], [ -48.693317619319068, -26.930300792334627 ] ] } }
+]
+}

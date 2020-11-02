@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2030680936", "cod": 1269, "nome": "R.César Augusto Dalsóquio", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.725715400823674, -26.875077530890948 ], [ -48.725498, -26.87533384 ], [ -48.725435322657297, -26.87540078759158 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2030680936", "cod": 1280, "nome": "R.João Borges Régis", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.725498, -26.87533384 ], [ -48.726097195244748, -26.875954819100066 ] ] } }
+]
+}

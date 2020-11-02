@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2121110490", "cod": 159, "nome": "R.José Pereira Liberato", "ptotalvia": 12.5, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68186609, -26.89562768 ], [ -48.681878173430036, -26.895849495970356 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2121110490", "cod": 168, "nome": "R.João Melquíades Fernandes", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68186609, -26.89562768 ], [ -48.681775405924874, -26.895630756112908 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2121110490", "cod": 159, "nome": "R.José Pereira Liberato", "ptotalvia": 12.5, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.681862187587306, -26.895516351041884 ], [ -48.68186609, -26.8956277 ] ] } }
+]
+}

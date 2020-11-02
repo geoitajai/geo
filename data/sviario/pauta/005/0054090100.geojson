@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0054090100", "cod": 130, "nome": "Av.Nilo Bittencourt", "ptotalvia": 20.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.705344462166764, -26.913539139632501 ], [ -48.705348, -26.91358566 ], [ -48.70536125, -26.91380226 ], [ -48.705362753201015, -26.913821366672732 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054090100", "cod": 1290, "nome": "R.Elsa Rover de Oliveira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.705348, -26.91358566 ], [ -48.704910116228923, -26.913595120903867 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054090100", "cod": 149, "nome": "R.Genésio Tavares", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.705370593917607, -26.91380192452392 ], [ -48.70536125, -26.91380226 ] ] } }
+]
+}

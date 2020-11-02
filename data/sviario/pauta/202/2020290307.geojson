@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2020290307", "cod": 220, "nome": "R.Max", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.672338260505832, -26.900594561641402 ], [ -48.67238488, -26.9006304 ], [ -48.672651380605764, -26.90083702500403 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020290307", "cod": 161, "nome": "Av.Irineu Bornhausen", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.672590524632326, -26.900326067388992 ], [ -48.67238488, -26.9006304 ], [ -48.672348552443502, -26.900686570135278 ] ] } }
+]
+}

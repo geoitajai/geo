@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2120170483", "cod": 428, "nome": "R.Eliziário Pereira", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676602612412331, -26.893628762016089 ], [ -48.67651913, -26.8937293 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2120170483", "cod": 165, "nome": "R.Jassão dos Santos", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67681791317677, -26.894166024306681 ], [ -48.676752337921684, -26.894168281623678 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2120170483", "cod": 158, "nome": "R.Albino Gugelmin", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676899677053036, -26.893717275662897 ], [ -48.67651913, -26.8937293 ], [ -48.676448280623987, -26.893731678752761 ] ] } }
+]
+}

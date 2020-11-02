@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0050020345", "cod": 91, "nome": "R.Idalino João de Oliveira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68668746, -26.90472419 ], [ -48.686192221980306, -26.904704576069864 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050020345", "cod": 93, "nome": "Serv.Francisca Miranda da Veiga", "ptotalvia": 4.4, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68665573, -26.90491516 ], [ -48.686733793842805, -26.904918388936174 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050020345", "cod": 84, "nome": "R.São Vicente", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.686694998729763, -26.9046718489051 ], [ -48.68668746, -26.90472419 ], [ -48.68665573, -26.90491516 ], [ -48.686638968597499, -26.905034754458505 ] ] } }
+]
+}

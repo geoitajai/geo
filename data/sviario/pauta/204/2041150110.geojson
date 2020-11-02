@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2041150110", "cod": 881, "nome": "R.Francisco Rodrigues Pereira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.687453339663939, -26.932317999469554 ], [ -48.68717292, -26.93263164 ], [ -48.687141701899961, -26.932667640589738 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2041150110", "cod": 883, "nome": "R.Olga Gern Pereira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.687220859296197, -26.932664381563935 ], [ -48.68717292, -26.93263164 ], [ -48.686926827243937, -26.932445758657398 ] ] } }
+]
+}

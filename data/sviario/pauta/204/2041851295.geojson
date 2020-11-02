@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2041851295", "cod": 659, "nome": "R.Aladi Schendroski Bini", "ptotalvia": 12.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656362655342647, -26.91961374754819 ], [ -48.656631917039796, -26.91984374764559 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2041851295", "cod": 662, "nome": "R.Carlos Gonçalves Dutra", "ptotalvia": 5.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656120877454391, -26.919823840991249 ], [ -48.6562541, -26.91993872 ] ] } }
+]
+}

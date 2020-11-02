@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0031630525", "cod": 1174, "nome": "R.Henrique Michels Júnior", "ptotalvia": 15.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.717769717865998, -26.894954682445686 ], [ -48.71767362023872, -26.895634767653888 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031630525", "cod": 1361, "nome": "R.Onildo Reis", "ptotalvia": 13.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.718509953274719, -26.89533689280157 ], [ -48.71816769, -26.89523988 ], [ -48.717861192889131, -26.894945764074667 ] ] } }
+]
+}

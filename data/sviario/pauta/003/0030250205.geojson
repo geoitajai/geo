@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0030250205", "cod": 1116, "nome": "R.Jovito Anacleto", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692238942158689, -26.894566430300547 ], [ -48.692259543990978, -26.894906774880912 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0030250205", "cod": 1137, "nome": "R.Felício Henrique dos Santos", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692644530379361, -26.894850581829896 ], [ -48.69225851, -26.89487569 ] ] } }
+]
+}

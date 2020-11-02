@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0054970500", "cod": 1000, "nome": "R.Osvaldo Cunha", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69296801, -26.93061604 ], [ -48.693019197282695, -26.930658181576177 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054970500", "cod": 1008, "nome": "R.P.Gilberto Mafra", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693105431617411, -26.930484173926349 ], [ -48.692901148040114, -26.93030181853149 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054970500", "cod": 926, "nome": "Av.Min.Luiz Gallotti", "ptotalvia": 17.2, "ppasseio1": 3.25, "ppasseio2": 3.25 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693108784111679, -26.930490531386212 ], [ -48.69296801, -26.93061604 ], [ -48.692888004821157, -26.930691827086452 ] ] } }
+]
+}

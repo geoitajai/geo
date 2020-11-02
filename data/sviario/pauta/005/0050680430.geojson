@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0050680430", "cod": 104, "nome": "R.Padre Paulo Condla", "ptotalvia": 15.0, "ppasseio1": 3.5, "ppasseio2": 3.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692697381476357, -26.908631928540533 ], [ -48.69232978, -26.90864284 ], [ -48.69227995558586, -26.90864424478562 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050680430", "cod": 10, "nome": "R.Antônio Ayres dos Santos", "ptotalvia": 13.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692329898102031, -26.908669093582898 ], [ -48.69232978, -26.90864284 ], [ -48.692323200683603, -26.90830752775825 ] ] } }
+]
+}

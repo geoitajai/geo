@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2110010424", "cod": 314, "nome": "R.Alfredo Trompowisky", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.669563497074115, -26.907469291163597 ], [ -48.66925544, -26.90749861 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110010424", "cod": 314, "nome": "R.Alfredo Trompowisky", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66925544, -26.90749861 ], [ -48.669203580388753, -26.907503255516449 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110010424", "cod": 163, "nome": "R.Alberto Werner", "ptotalvia": 13.2, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.669204612938756, -26.907097535002343 ], [ -48.66925544, -26.90749861 ], [ -48.669259595144496, -26.907534167967526 ] ] } }
+]
+}

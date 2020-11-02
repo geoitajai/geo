@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2040230221", "cod": 623, "nome": "R.Lages", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.654446747738078, -26.915486688960545 ], [ -48.65488016, -26.91566037 ], [ -48.654925527492658, -26.915678272779967 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040230221", "cod": 281, "nome": "R.Camboriú", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.654899554731621, -26.915621127408144 ], [ -48.65488016, -26.91566037 ], [ -48.654674899393527, -26.915908859480886 ] ] } }
+]
+}

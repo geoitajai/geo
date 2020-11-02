@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2160050820", "cod": 1423, "nome": "R.Erminia Alves", "ptotalvia": 6.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.738566343521356, -26.94737043431844 ], [ -48.738605928679135, -26.948002455337669 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2160050820", "cod": 1424, "nome": "R.Pedro Godoi Filho", "ptotalvia": 5.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.738290068801966, -26.947380985089893 ], [ -48.73830274, -26.94749518 ] ] } }
+]
+}

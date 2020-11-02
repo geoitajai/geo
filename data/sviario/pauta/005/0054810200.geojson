@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0054810200", "cod": 921, "nome": "R.Ivo Werner", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691033653404148, -26.921413109045179 ], [ -48.69076269, -26.92151853 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054810200", "cod": 922, "nome": "R.P.Heribert José Schmith", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.690574706550052, -26.92120347949372 ], [ -48.69076269, -26.92151853 ], [ -48.690795572372657, -26.921574694582262 ] ] } }
+]
+}

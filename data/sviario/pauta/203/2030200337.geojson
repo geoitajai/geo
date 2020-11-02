@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2030200337", "cod": 1104, "nome": "R.Abílio Corrêa Mello", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.703113892141076, -26.880911335568818 ], [ -48.70311795, -26.88098161 ], [ -48.703134259490326, -26.881253785830172 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2030200337", "cod": 1108, "nome": "R.Eurípedes Amorim Leal", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.703509589835591, -26.880964415617381 ], [ -48.703047901988569, -26.880985546251861 ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2031701050", "cod": 1027, "nome": "R.Francisco José de Aviz", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697988634742821, -26.869807879298193 ], [ -48.69791981, -26.86981101 ], [ -48.69772061, -26.86981482 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2031701050", "cod": 1040, "nome": "R.Valdecir Bastos", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697905740790887, -26.869514638829671 ], [ -48.69791981, -26.86981101 ], [ -48.697924206130537, -26.869872695820963 ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2141830500", "cod": 827, "nome": "R.Valério Zermiani", "ptotalvia": 5.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.635983909824546, -26.944384480683677 ], [ -48.636020051902932, -26.944622481167716 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2141830500", "cod": 822, "nome": "R.Luci Canziani", "ptotalvia": 26.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.636334829139514, -26.944283677172876 ], [ -48.636009750458534, -26.94432507474361 ] ] } }
+]
+}

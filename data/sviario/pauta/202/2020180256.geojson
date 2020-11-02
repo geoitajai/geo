@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2020180256", "cod": 236, "nome": "R.Ver.Claudino José Francisco Pacheco", "ptotalvia": 10.8, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67072716, -26.9026133 ], [ -48.670768187418176, -26.902629603651288 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020180256", "cod": 235, "nome": "R.Felipe Reiser", "ptotalvia": 12.5, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.670882193363163, -26.902823748888594 ], [ -48.67082789, -26.90284181 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020180256", "cod": 161, "nome": "Av.Irineu Bornhausen", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.670738094385214, -26.902606886617839 ], [ -48.67072716, -26.9026133 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020180256", "cod": 161, "nome": "Av.Irineu Bornhausen", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67072716, -26.9026133 ], [ -48.6704707, -26.90266753 ], [ -48.670314739598304, -26.902677029141866 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020180256", "cod": 223, "nome": "R.Benjamin Franklin Pereira", "ptotalvia": 15.2, "ppasseio1": 1.9, "ppasseio2": 1.9 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67072716, -26.9026133 ], [ -48.67082789, -26.90284181 ], [ -48.670868617637133, -26.902928975043636 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020180256", "cod": 223, "nome": "R.Benjamin Franklin Pereira", "ptotalvia": 15.2, "ppasseio1": 1.9, "ppasseio2": 1.9 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.670717534031844, -26.902596903856182 ], [ -48.67072716, -26.9026133 ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0030480080", "cod": 1137, "nome": "R.Felício Henrique dos Santos", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69425135, -26.8947531 ], [ -48.694157868174948, -26.894760984458159 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0030480080", "cod": 1149, "nome": "R.Paulo Rodrigues Pereira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.694244982553094, -26.894627132585882 ], [ -48.69425135, -26.8947531 ], [ -48.694264551609081, -26.894978595882801 ] ] } }
+]
+}

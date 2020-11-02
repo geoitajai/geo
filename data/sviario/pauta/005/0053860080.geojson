@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0053860080", "cod": 970, "nome": "R.Anastácio José Mendes", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.694050647396914, -26.928129662945413 ], [ -48.69417177, -26.92831303 ], [ -48.69422424, -26.92843974 ], [ -48.694259064903342, -26.928484364872009 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0053860080", "cod": 974, "nome": "R.João Ascendino Lamim", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6945214499397, -26.928268674554293 ], [ -48.69422424, -26.92843974 ], [ -48.694182164096446, -26.928463117197374 ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2110160330", "cod": 488, "nome": "Av.Duque de Caxias", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.673441730669232, -26.912445655609368 ], [ -48.6734329, -26.91238035 ], [ -48.673397616341461, -26.912110625157109 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110160330", "cod": 490, "nome": "R.Corifeu de Azevedo Marques", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.673807023751372, -26.912409751915693 ], [ -48.6734329, -26.91238035 ], [ -48.673370947643456, -26.912374555257532 ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2040760425", "cod": 616, "nome": "R.Augusto Pedro Schoenau", "ptotalvia": 11.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65986451, -26.91871838 ], [ -48.659704137458291, -26.918394490563486 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040760425", "cod": 612, "nome": "R.Antônio de Meneses Vasconcelos de Drumond", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.659896628323011, -26.918538097253972 ], [ -48.65991395, -26.91861919 ], [ -48.65986451, -26.91871838 ], [ -48.65969557, -26.91878084 ], [ -48.65950604, -26.9186449 ], [ -48.659455109139572, -26.918553019390608 ] ] } }
+]
+}

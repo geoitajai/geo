@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2020210268", "cod": 223, "nome": "R.Benjamin Franklin Pereira", "ptotalvia": 15.2, "ppasseio1": 1.9, "ppasseio2": 1.9 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.668844760199377, -26.900922093360808 ], [ -48.6689054, -26.90097259 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020210268", "cod": 224, "nome": "Trav.Bela Cruz", "ptotalvia": 3.5, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6686398, -26.90109607 ], [ -48.669108580747505, -26.901507367648126 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020210268", "cod": 157, "nome": "R.Blumenau", "ptotalvia": 14.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.668944991130907, -26.900932955366986 ], [ -48.6689054, -26.90097259 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020210268", "cod": 223, "nome": "R.Benjamin Franklin Pereira", "ptotalvia": 15.2, "ppasseio1": 1.9, "ppasseio2": 1.9 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6689054, -26.90097259 ], [ -48.669295819159771, -26.901302451698019 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020210268", "cod": 162, "nome": "Av.Cel.Eugênio Muller", "ptotalvia": 25.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.668560223178297, -26.901134379411079 ], [ -48.6686398, -26.90109607 ], [ -48.6689054, -26.90097259 ] ] } }
+]
+}

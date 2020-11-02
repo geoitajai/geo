@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0051870390", "cod": 1021, "nome": "R.Vilmar José Pinto", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695533136604112, -26.929359801629566 ], [ -48.69565415, -26.92945982 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0051870390", "cod": 1021, "nome": "R.Vilmar José Pinto", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69565415, -26.92945982 ], [ -48.695819600022425, -26.929596565838914 ] ] } }
+]
+}

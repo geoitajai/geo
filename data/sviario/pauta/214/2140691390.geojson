@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2140691390", "cod": 815, "nome": "Av.Braulio Werner", "ptotalvia": 24.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.64202159882143, -26.948318164686611 ], [ -48.64197492, -26.94832089 ], [ -48.641626565728274, -26.948342650317525 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140691390", "cod": 816, "nome": "R.Odinei Linhares", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.641954921374854, -26.947889500380484 ], [ -48.64197492, -26.94832089 ] ] } }
+]
+}

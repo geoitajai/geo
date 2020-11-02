@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2160490300", "cod": 1413, "nome": "Av.Itaipava", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.730298864001391, -26.942403401071036 ], [ -48.729151780059233, -26.94179669899054 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2160490300", "cod": 1441, "nome": "R.Augusto Cardoso Pereira", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.72911599448372, -26.944053841410163 ], [ -48.72923123, -26.94433529 ], [ -48.72929281, -26.94486665 ], [ -48.72936561, -26.94593017 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2160490300", "cod": 1442, "nome": "R.Leonardo Severo Pereira", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -48.73091312660069, -26.944340205115321 ], [ -48.730939584842666, -26.944738718475328 ] ], [ [ -48.730947299872014, -26.94485492182638 ], [ -48.730982606843156, -26.94538671221741 ] ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2160490300", "cod": 1235, "nome": "Rod.Dep.Antônio Heil", "ptotalvia": 30.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.73050319293408, -26.945940027747461 ], [ -48.72936561, -26.94593017 ], [ -48.729325857649854, -26.945929088737557 ] ] } }
+]
+}

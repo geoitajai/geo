@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2041751000", "cod": 1607, "nome": "R.Júlio Willerding", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.659298977828762, -26.914021736777361 ], [ -48.65923773, -26.91397768 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2041751000", "cod": 1607, "nome": "R.Júlio Willerding", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -48.65906966, -26.91410741 ], [ -48.659138280400079, -26.9141584112635 ] ], [ [ -48.65906966, -26.91410741 ], [ -48.659008008470501, -26.914167219837896 ] ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2041751000", "cod": 1607, "nome": "R.Júlio Willerding", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65923773, -26.91397771 ], [ -48.65906966, -26.91410741 ] ] } }
+]
+}

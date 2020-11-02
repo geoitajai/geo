@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2110400081", "cod": 492, "nome": "R.Carlos Seara", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.671424112952856, -26.913834010807683 ], [ -48.67143086, -26.91389204 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110400081", "cod": 498, "nome": "R.Willy Henning", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.671419610324499, -26.914179083941267 ], [ -48.671799408416312, -26.914157895736004 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110400081", "cod": 497, "nome": "R.Ciriaco Meirinho", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.671783762965021, -26.913871212822695 ], [ -48.67143086, -26.91389204 ], [ -48.671398544677992, -26.913893733006351 ] ] } }
+]
+}

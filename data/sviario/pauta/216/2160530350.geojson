@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2160530350", "cod": 1459, "nome": "R.Sylvio Demarch", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.743416683338467, -26.945605991119571 ], [ -48.74341962, -26.94565056 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2160530350", "cod": 1413, "nome": "Av.Itaipava", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.743438374234891, -26.945652757246158 ], [ -48.74341962, -26.94565056 ], [ -48.742765609283197, -26.945568522539954 ] ] } }
+]
+}

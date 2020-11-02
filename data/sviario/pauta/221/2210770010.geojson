@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2210770010", "cod": 567, "nome": "R.Jorge Santos de Macedo", "ptotalvia": 12.0, "ppasseio1": 5.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.681456207788763, -26.921784683220892 ], [ -48.68146088, -26.92204967 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210770010", "cod": 567, "nome": "R.Jorge Santos de Macedo", "ptotalvia": 12.0, "ppasseio1": 5.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68146088, -26.92204967 ], [ -48.681463286831566, -26.922186133704887 ] ] } }
+]
+}

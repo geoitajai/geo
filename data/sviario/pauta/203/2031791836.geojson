@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2031791836", "cod": 1056, "nome": "R.Luiz Felipe da Costa Zacharias", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69304609, -26.87462652 ], [ -48.692615180078818, -26.87463798287186 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2031791836", "cod": 1046, "nome": "R.Eugênio Pezzini", "ptotalvia": 13.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693033403469968, -26.874331201989701 ], [ -48.69304609, -26.87462652 ], [ -48.693048127842196, -26.874689039456229 ] ] } }
+]
+}

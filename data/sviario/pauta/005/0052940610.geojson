@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0052940610", "cod": 107, "nome": "R.Profª.Erotides da Silva Fontes", "ptotalvia": 20.0, "ppasseio1": 3.5, "ppasseio2": 3.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.701937856948639, -26.909170424894441 ], [ -48.70199154, -26.90916765 ], [ -48.702393981408662, -26.909146710135314 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0052940610", "cod": 118, "nome": "R.Joaçaba", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.701989582306432, -26.909129093060162 ], [ -48.70199154, -26.90916765 ], [ -48.702006020113657, -26.909441352028583 ] ] } }
+]
+}

@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0030100460", "cod": 1118, "nome": "R.João Magalhães", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691309978466478, -26.891180290708682 ], [ -48.69131402, -26.89124307 ], [ -48.691333315113908, -26.891520863309946 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0030100460", "cod": 1129, "nome": "R.Henrique Borba dos Santos", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6913641, -26.89124045 ], [ -48.690942193715365, -26.891267026759575 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0030100460", "cod": 1129, "nome": "R.Henrique Borba dos Santos", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691387401733088, -26.891238982252641 ], [ -48.6913641, -26.89124045 ] ] } }
+]
+}

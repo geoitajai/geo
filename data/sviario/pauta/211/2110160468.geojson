@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2110160468", "cod": 508, "nome": "R.Wandelino Winter", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67438470206654, -26.911959801586057 ], [ -48.67431826, -26.91195398 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110160468", "cod": 489, "nome": "R.Fiuza Lima", "ptotalvia": 13.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674326185162158, -26.912012955649722 ], [ -48.674272294035241, -26.91159776534662 ] ] } }
+]
+}

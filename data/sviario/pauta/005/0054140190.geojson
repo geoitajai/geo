@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0054140190", "cod": 130, "nome": "Av.Nilo Bittencourt", "ptotalvia": 20.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.705150390742205, -26.909961528202043 ], [ -48.70515367, -26.91001763 ], [ -48.705170073566144, -26.910295537502876 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054140190", "cod": 141, "nome": "R.Domingos Antônio Borba", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.705618877947458, -26.91000011877183 ], [ -48.70515367, -26.91001763 ], [ -48.705122213348645, -26.91001941470628 ] ] } }
+]
+}

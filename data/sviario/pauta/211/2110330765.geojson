@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2110330765", "cod": 487, "nome": "R.Aristides Francisco Palumbo", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.673757164008222, -26.915257408529545 ], [ -48.67377374, -26.91554346 ], [ -48.673777226516833, -26.915602144571036 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110330765", "cod": 501, "nome": "R.Joaquim Falco Uriarte", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.673705047794215, -26.915546632639117 ], [ -48.67377374, -26.91554346 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110330765", "cod": 501, "nome": "R.Joaquim Falco Uriarte", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67377374, -26.91554346 ], [ -48.674241635526087, -26.91552121345574 ] ] } }
+]
+}

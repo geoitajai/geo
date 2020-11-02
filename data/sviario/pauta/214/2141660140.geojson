@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2141660140", "cod": 588, "nome": "R.Octacílio da Silva Costa", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.630338528512418, -26.959178766537171 ], [ -48.6302946, -26.95917134 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2141660140", "cod": 598, "nome": "R.Prát.Adolfinho Lindalvo Costa", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6302946, -26.95917134 ], [ -48.629960321261073, -26.959212923066431 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2141660140", "cod": 589, "nome": "R.Anthurium", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.630342830727741, -26.95901884085005 ], [ -48.6302946, -26.95917134 ] ] } }
+]
+}

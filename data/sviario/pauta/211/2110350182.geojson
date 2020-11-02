@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2110350182", "cod": 548, "nome": "R.Manoel Anibal Pereira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67548035, -26.9166306 ], [ -48.675482775983156, -26.916673059618148 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110350182", "cod": 582, "nome": "R.Olga Mussi Dietrich", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675833686057906, -26.916609511635414 ], [ -48.67548035, -26.9166306 ], [ -48.675459258741135, -26.91663144199422 ] ] } }
+]
+}

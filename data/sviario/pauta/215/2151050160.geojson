@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2151050160", "cod": 1314, "nome": "R.Ver.Pedro João de Souza Filho", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.74693757, -26.87857964 ], [ -48.746969764183085, -26.878946351080977 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2151050160", "cod": 1334, "nome": "Av.Domingos de Almeida", "ptotalvia": 26.0, "ppasseio1": 5.0, "ppasseio2": 5.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.747246341712348, -26.878560794305141 ], [ -48.74693757, -26.87857964 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2151050160", "cod": 1314, "nome": "R.Ver.Pedro João de Souza Filho", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.746936978192991, -26.878573343519019 ], [ -48.74693757, -26.87857964 ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2020761290", "cod": 227, "nome": "R.Indaial", "ptotalvia": 17.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677678846190268, -26.902313720886681 ], [ -48.677679567934511, -26.90232130844171 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020761290", "cod": 235, "nome": "R.Felipe Reiser", "ptotalvia": 12.5, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677343059250987, -26.902685247318502 ], [ -48.67711906, -26.90251341 ], [ -48.677064172554388, -26.902515929880654 ] ] } }
+]
+}

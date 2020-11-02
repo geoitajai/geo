@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0050560545", "cod": 48, "nome": "R.Pedro Cristiano de Miranda", "ptotalvia": 13.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.694348121385339, -26.898913103385873 ], [ -48.6943693, -26.89931192 ], [ -48.694373509044802, -26.89936734259285 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050560545", "cod": 25, "nome": "R.Rodolfo Kucker", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.694427848673847, -26.899308958684951 ], [ -48.6943693, -26.89931192 ], [ -48.694043168874366, -26.899325756276873 ] ] } }
+]
+}

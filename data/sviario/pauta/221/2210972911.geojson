@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2210972911", "cod": 569, "nome": "R.João Reipert de Amorim", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68010250250915, -26.920231441505678 ], [ -48.6801138, -26.92033755 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210972911", "cod": 572, "nome": "R.Acari Antônio Moser", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.680562922151388, -26.92057959672298 ], [ -48.68014181, -26.92060058 ], [ -48.680084742386825, -26.920603868147605 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210972911", "cod": 569, "nome": "R.João Reipert de Amorim", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6801138, -26.92033755 ], [ -48.68014181, -26.92060058 ], [ -48.680144105667814, -26.920662453704516 ] ] } }
+]
+}

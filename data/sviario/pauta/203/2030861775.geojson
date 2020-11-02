@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2030861775", "cod": 1091, "nome": "R.Hercília Moser", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695029857245252, -26.878737631800799 ], [ -48.69504032, -26.87898417 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2030861775", "cod": 1091, "nome": "R.Hercília Moser", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69504032, -26.87898417 ], [ -48.695045214964814, -26.879099532137431 ] ] } }
+]
+}

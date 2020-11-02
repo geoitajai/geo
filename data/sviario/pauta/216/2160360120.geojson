@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2160360120", "cod": 1478, "nome": "R.Benjamim Dagnoni", "ptotalvia": 22.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.712398536126464, -26.944748497046174 ], [ -48.71231507, -26.94481562 ], [ -48.71214857, -26.94505892 ], [ -48.712116816900178, -26.945111772659565 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2160360120", "cod": 1473, "nome": "R.Emerson Schneider", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.71214857, -26.94505892 ], [ -48.711819054605023, -26.945067790091034 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2160360120", "cod": 1469, "nome": "R.Chrispim Evaristo", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.711864898784619, -26.944650657942134 ], [ -48.71188049, -26.94506585 ], [ -48.711882434049102, -26.94510658896483 ] ] } }
+]
+}

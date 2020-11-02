@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2030983240", "cod": 1096, "nome": "R.Luiz da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.699802073620575, -26.883118390267317 ], [ -48.69981988, -26.88341821 ], [ -48.699822189941294, -26.883459988577421 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2030983240", "cod": 1110, "nome": "R.Sebastião Romeu Soares", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.699883497609491, -26.883413755504396 ], [ -48.69981988, -26.88341821 ], [ -48.69950998, -26.88344125 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2030983240", "cod": 1110, "nome": "R.Sebastião Romeu Soares", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69950998, -26.88344125 ], [ -48.699424090193439, -26.883447633368977 ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0054280110", "cod": 136, "nome": "R.Bernardino Leonel Félix", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.706061314593249, -26.907091943146636 ], [ -48.70590996, -26.90709802 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054280110", "cod": 136, "nome": "R.Bernardino Leonel Félix", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70590996, -26.90709802 ], [ -48.705689555224154, -26.907106867657042 ] ] } }
+]
+}

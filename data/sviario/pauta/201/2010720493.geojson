@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2010720493", "cod": 328, "nome": "Bc.Moreira", "ptotalvia": 6.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.666024267695512, -26.91379589709631 ], [ -48.66562051, -26.91413677 ], [ -48.665559088510634, -26.914203999641188 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010720493", "cod": 393, "nome": "R.José Joaquim dos Santos", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.666214770181789, -26.914614435404104 ], [ -48.66562051, -26.91413677 ], [ -48.665276284887575, -26.913860409527828 ] ] } }
+]
+}

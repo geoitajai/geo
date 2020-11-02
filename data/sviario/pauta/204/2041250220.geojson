@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2041250220", "cod": 887, "nome": "R.Emanuel dos Santos", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68745332, -26.93551007 ], [ -48.687308136639587, -26.935506723562291 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2041250220", "cod": 888, "nome": "R.Pe.João Rodrigues de Almeida", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.687196061067979, -26.935330892134846 ], [ -48.68745332, -26.93551007 ], [ -48.68757138, -26.93559194 ] ] } }
+]
+}

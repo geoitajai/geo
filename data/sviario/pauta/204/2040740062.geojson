@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2040740062", "cod": 657, "nome": "R.Cesário Chaves", "ptotalvia": 12.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.657589110500574, -26.919807807239387 ], [ -48.65754375, -26.91985116 ], [ -48.657237381908395, -26.920127742185404 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040740062", "cod": 658, "nome": "R.Cecília Brandão", "ptotalvia": 12.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.657314838766958, -26.919654752905487 ], [ -48.65754375, -26.91985116 ], [ -48.657586699049645, -26.919887693427594 ] ] } }
+]
+}

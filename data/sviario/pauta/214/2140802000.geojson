@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2140802000", "cod": 822, "nome": "R.Luci Canziani", "ptotalvia": 26.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.637554749647563, -26.944122791197106 ], [ -48.63737024, -26.94413544 ], [ -48.63706855, -26.94417512 ], [ -48.63652947, -26.94425889 ], [ -48.636352763917635, -26.944281393222102 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140802000", "cod": 825, "nome": "R.Argemiro Mendonça", "ptotalvia": 5.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.63706855, -26.94417512 ], [ -48.637076805740612, -26.944225463131712 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140802000", "cod": 826, "nome": "R.Jovita Rodrigues Machado", "ptotalvia": 5.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.63652947, -26.94425889 ], [ -48.636535670173977, -26.944299736273901 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140802000", "cod": 824, "nome": "R.João Domingos Pereira", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.63737024, -26.94413544 ], [ -48.637377457386897, -26.944184196472555 ] ] } }
+]
+}

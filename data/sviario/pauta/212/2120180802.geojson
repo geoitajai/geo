@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2120180802", "cod": 158, "nome": "R.Albino Gugelmin", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.680780126669028, -26.893601042450644 ], [ -48.6807573, -26.89360197 ], [ -48.680414843909425, -26.8936132433412 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2120180802", "cod": 425, "nome": "R.João Maria da Veiga", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6807573, -26.89360197 ], [ -48.680756381616646, -26.893556557351204 ] ] } }
+]
+}

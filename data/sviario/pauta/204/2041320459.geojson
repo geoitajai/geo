@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2041320459", "cod": 863, "nome": "R.Aldo Marcos Cunha", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676868856807317, -26.926779002790255 ], [ -48.676460690207847, -26.926722981743218 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2041320459", "cod": 543, "nome": "R.José Siqueira", "ptotalvia": 25.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676528127339765, -26.926307292070426 ], [ -48.67651787, -26.92635734 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2041320459", "cod": 543, "nome": "R.José Siqueira", "ptotalvia": 25.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67651787, -26.92635734 ], [ -48.67645060064806, -26.926685528916927 ] ] } }
+]
+}

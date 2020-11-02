@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2040210030", "cod": 639, "nome": "R.Estados Unidos", "ptotalvia": 8.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.654326334807443, -26.917390379759357 ], [ -48.654514176375152, -26.917542932250047 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040210030", "cod": 276, "nome": "Av.7 de Setembro", "ptotalvia": 18.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.654887979102497, -26.917296469371038 ], [ -48.654814642201039, -26.917551097697505 ] ] } }
+]
+}

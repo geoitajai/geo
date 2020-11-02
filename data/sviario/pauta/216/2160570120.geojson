@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2160570120", "cod": 1413, "nome": "Av.Itaipava", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.747056190949166, -26.94666151247662 ], [ -48.746577418596772, -26.946234727339633 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2160570120", "cod": 1452, "nome": "R.Luis Rousch", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.747066549535546, -26.946657802161482 ], [ -48.747011239094881, -26.945804485346034 ] ] } }
+]
+}

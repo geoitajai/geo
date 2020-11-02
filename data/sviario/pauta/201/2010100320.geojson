@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2010100320", "cod": 291, "nome": "R.Samuel Heusi", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.660255839934266, -26.904498515460833 ], [ -48.66022007, -26.90447549 ], [ -48.659436084945902, -26.904007688989676 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010100320", "cod": 275, "nome": "R.Cônego Tomaz Fontes", "ptotalvia": 13.2, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.660205582842181, -26.904512485461183 ], [ -48.66022007, -26.90447549 ], [ -48.660613266291648, -26.903528758554884 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010100320", "cod": 287, "nome": "R.Silva", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.659859172971395, -26.902631190374738 ], [ -48.66007836785559, -26.902698407940552 ] ] } }
+]
+}

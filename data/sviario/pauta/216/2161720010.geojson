@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2161720010", "cod": 1251, "nome": "R.Mineral", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.845647172828713, -27.040643478500261 ], [ -48.84582319, -27.040384239999987 ], [ -48.845859834113078, -27.040331088342413 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2161720010", "cod": 1260, "nome": "R.Manoel Dario Custódio", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.846144379170418, -27.040366358613046 ], [ -48.84582319, -27.040384239999987 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2161720010", "cod": 1258, "nome": "R.Maria Trainotti", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.845723683842778, -27.040837077133453 ], [ -48.845700812361336, -27.040824442104313 ] ] } }
+]
+}

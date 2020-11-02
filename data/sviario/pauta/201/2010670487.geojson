@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2010670487", "cod": 340, "nome": "R.Anita Garibaldi", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.668142032801782, -26.910547603970482 ], [ -48.667833098011435, -26.910308917873856 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010670487", "cod": 343, "nome": "Serv.Perfeito José da Silva", "ptotalvia": 3.65, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.667966295339603, -26.910743739443213 ], [ -48.667641464377766, -26.910496095140491 ] ] } }
+]
+}

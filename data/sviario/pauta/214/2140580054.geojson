@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2140580054", "cod": 723, "nome": "R.Osni Melo", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6471016, -26.93018007 ], [ -48.647054519231588, -26.930148077813072 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140580054", "cod": 727, "nome": "R.Artur Torquato Batista", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.647374596542036, -26.929878104557424 ], [ -48.64708171695662, -26.930202584236213 ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0050271920", "cod": 9, "nome": "R.Rui Barbosa", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69392652748737, -26.90469636072649 ], [ -48.69387059, -26.90469884 ], [ -48.693527179710181, -26.904710433343681 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050271920", "cod": 50, "nome": "R.Luiz Lopes Gonzaga", "ptotalvia": 13.2, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693868904555977, -26.904638532413614 ], [ -48.69387059, -26.90469884 ], [ -48.693874557351684, -26.905047990616858 ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0054750040", "cod": 895, "nome": "R.Lino do Amaral", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695929960084328, -26.918444505179551 ], [ -48.69595372648304, -26.918757217827402 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054750040", "cod": 913, "nome": "R.Laudino Pedro da Silva", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69553639, -26.91852734 ], [ -48.695520973162957, -26.918528322870166 ] ] } }
+]
+}

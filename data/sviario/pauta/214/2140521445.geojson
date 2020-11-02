@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2140521445", "cod": 718, "nome": "R.Sem denominação oficial", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.64565622, -26.92590655 ], [ -48.64560058, -26.92581983 ], [ -48.645554586965979, -26.925785803445862 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140521445", "cod": 717, "nome": "R.José Carlos Câmara Bastos", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.645771140692133, -26.925946322310526 ], [ -48.64565622, -26.92590655 ], [ -48.64518802, -26.92580072 ], [ -48.645059660746448, -26.925782377798797 ] ] } }
+]
+}

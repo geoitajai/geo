@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2150500047", "cod": 1388, "nome": "R.João Maestri", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.745160995179823, -26.899624622198264 ], [ -48.74516801, -26.89971513 ], [ -48.745190190139013, -26.900027095730838 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2150500047", "cod": 1387, "nome": "R.João Gottardi", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.745079907702014, -26.899711923959163 ], [ -48.74516801, -26.89971513 ], [ -48.745523455420305, -26.899683772069494 ] ] } }
+]
+}

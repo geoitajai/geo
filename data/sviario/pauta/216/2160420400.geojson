@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2160420400", "cod": 1413, "nome": "Av.Itaipava", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.709597446655359, -26.936470294321186 ], [ -48.70928386, -26.93643712 ], [ -48.70804493, -26.93639101 ], [ -48.70733064, -26.93636027 ], [ -48.707154259217155, -26.936334906278024 ] ] } }
+]
+}

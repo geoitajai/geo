@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2160052510", "cod": 1423, "nome": "R.Erminia Alves", "ptotalvia": 6.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.73860817810229, -26.948038369795089 ], [ -48.73861555, -26.94815607 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2160052510", "cod": 1425, "nome": "R.Guilherme May", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.738206589693704, -26.948011927217486 ], [ -48.73820914, -26.94803531 ], [ -48.738252510929115, -26.948372857260136 ] ] } }
+]
+}

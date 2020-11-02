@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0030980075", "cod": 1207, "nome": "Av.Brasília", "ptotalvia": 18.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698312079014151, -26.898441443885407 ], [ -48.698197064699677, -26.898668069812878 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0030980075", "cod": 1208, "nome": "R.Goiás", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698284133001728, -26.898260771856229 ], [ -48.69794379605132, -26.898271634454563 ] ] } }
+]
+}

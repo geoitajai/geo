@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0031480100", "cod": 1172, "nome": "R.Enedina D'Avila Ferreira", "ptotalvia": 15.0, "ppasseio1": 3.5, "ppasseio2": 3.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.705806699513644, -26.887906377287983 ], [ -48.705832332052417, -26.888404477659794 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031480100", "cod": 1100, "nome": "R.Gercino José Correa", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.705667084244133, -26.88787883425984 ], [ -48.70566939, -26.8879198 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031480100", "cod": 1111, "nome": "Av.Dr.Reinaldo Schmithausen", "ptotalvia": 27.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.705795062323922, -26.887902687880683 ], [ -48.70566939, -26.8879198 ], [ -48.705310031416779, -26.887951378193264 ] ] } }
+]
+}

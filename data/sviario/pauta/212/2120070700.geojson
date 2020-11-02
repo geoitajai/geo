@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2120070700", "cod": 181, "nome": "R.Dr.Osmar Nunes", "ptotalvia": 9.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.680030191392156, -26.897347914024127 ], [ -48.679651175426557, -26.897367811826715 ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2031680015", "cod": 1064, "nome": "R.Dorval José de Aragão", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70343304, -26.87499144 ], [ -48.70308097822214, -26.875004866619708 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2031680015", "cod": 1067, "nome": "R.Santo Rampelotti", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.703128082701689, -26.8749645277003 ], [ -48.70313051, -26.875011189999988 ], [ -48.703150228377787, -26.875364482670037 ] ] } }
+]
+}

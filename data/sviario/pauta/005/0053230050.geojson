@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0053230050", "cod": 953, "nome": "R.José Domingos Machado", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697607275825824, -26.922981236101712 ], [ -48.697006975016023, -26.923202618301726 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0053230050", "cod": 953, "nome": "R.José Domingos Machado", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697607275825824, -26.922981236101712 ], [ -48.697006975016023, -26.923202618301726 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0053230050", "cod": 892, "nome": "Av.Ver.Nilo Simas", "ptotalvia": 20.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697352940081416, -26.922597563203933 ], [ -48.696950684005905, -26.923139065464177 ] ] } }
+]
+}

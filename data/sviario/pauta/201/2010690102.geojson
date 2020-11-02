@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2010690102", "cod": 348, "nome": "Trav. Tiburcio Bastos Gonçaves", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66533279, -26.90973997 ], [ -48.665152399369042, -26.909906010684683 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010690102", "cod": 348, "nome": "Trav. Tiburcio Bastos Gonçaves", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66533279, -26.90973995 ], [ -48.665067780114342, -26.90951113621831 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010690102", "cod": 348, "nome": "Trav. Tiburcio Bastos Gonçaves", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.665416530792015, -26.909814624313718 ], [ -48.66533279, -26.90973995 ] ] } }
+]
+}

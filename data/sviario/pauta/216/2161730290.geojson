@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2161730290", "cod": 1257, "nome": "R.Moysés Jeronymo de Oliveira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.84601856, -27.04154052 ], [ -48.846304350162058, -27.041520994536935 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2161730290", "cod": 1258, "nome": "R.Maria Trainotti", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.846085932049071, -27.041636046410808 ], [ -48.8460859, -27.04163578 ], [ -48.84601856, -27.04154052 ], [ -48.84588905065479, -27.041528986004383 ] ] } }
+]
+}

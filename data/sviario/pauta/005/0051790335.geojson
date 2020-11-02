@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0051790335", "cod": 980, "nome": "R.Paulo Aridio de França", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.699581286328744, -26.925058368656625 ], [ -48.699336277028237, -26.925288167547883 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0051790335", "cod": 946, "nome": "R.Otília Damasceno", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.699359453073207, -26.924852464921948 ], [ -48.699563028610868, -26.925023670738632 ] ] } }
+]
+}

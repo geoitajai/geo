@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2150470080", "cod": 1360, "nome": "R.Fermino Vieira Cordeiro", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.742961533291606, -26.894983028839594 ], [ -48.742882181027561, -26.895110109650414 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2150470080", "cod": 1383, "nome": "R.Maria Leandra dos Santos", "ptotalvia": 5.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.743411055165637, -26.895096116154505 ], [ -48.74330002, -26.89511104 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2150470080", "cod": 1385, "nome": "R.Joaquim de Souza Medeiros", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.743279965095326, -26.894949377909452 ], [ -48.74330002, -26.89511104 ], [ -48.743321372623882, -26.89530101367945 ] ] } }
+]
+}

@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0050800080", "cod": 1638, "nome": "R.Raul Bayer Laus", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696012331721427, -26.914159746454899 ], [ -48.69597171, -26.91360737 ], [ -48.695967499018415, -26.913550100970568 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050800080", "cod": 1636, "nome": "R.Jair Norberto da Rocha", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697535191346944, -26.914602129320706 ], [ -48.69743716, -26.91347841 ], [ -48.69743248833457, -26.913424864001964 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050800080", "cod": 1637, "nome": "R.Maria Iolanda da Rocha", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69743716, -26.91347841 ], [ -48.69597171, -26.91360737 ] ] } }
+]
+}

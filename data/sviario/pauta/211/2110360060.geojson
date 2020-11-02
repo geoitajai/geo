@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2110360060", "cod": 560, "nome": "R.Ulysses Machado Dutra", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67180058, -26.91619783 ], [ -48.671806529509119, -26.916254200727032 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110360060", "cod": 486, "nome": "R.Francisco de Paula Seara", "ptotalvia": 11.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.671869831791483, -26.916194660520631 ], [ -48.67180058, -26.91619783 ], [ -48.67137568236236, -26.916213244108317 ] ] } }
+]
+}

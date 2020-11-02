@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2040030332", "cod": 650, "nome": "R.João Luiz Gonçalves", "ptotalvia": 6.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.653173048831825, -26.916731856112026 ], [ -48.65284628, -26.91650225 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040030332", "cod": 650, "nome": "R.João Luiz Gonçalves", "ptotalvia": 6.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.652906205757169, -26.916410140463505 ], [ -48.65271849960007, -26.916698622612113 ] ] } }
+]
+}

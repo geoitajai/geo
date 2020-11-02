@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0050401030", "cod": 1627, "nome": "R.\"B\"", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69058013, -26.90041186 ], [ -48.690994462531506, -26.900401210754019 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050401030", "cod": 23, "nome": "R.Cargelino Francelino", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691051790523062, -26.900660833215603 ], [ -48.69058718, -26.90066926 ], [ -48.690533259690511, -26.90067067347896 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050401030", "cod": 51, "nome": "R.Otávio Cesário Pereira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.690579964901467, -26.900405828180428 ], [ -48.69058013, -26.90041186 ], [ -48.69058718, -26.90066926 ], [ -48.690587565530485, -26.900715682017466 ] ] } }
+]
+}

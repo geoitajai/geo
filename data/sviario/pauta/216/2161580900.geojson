@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2161580900", "cod": 1237, "nome": "R.Edmundo Leopoldo Merizio", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.856471572731273, -27.034843282931934 ], [ -48.85755942, -27.0351752 ], [ -48.857953373588046, -27.035341446888815 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2161580900", "cod": 1235, "nome": "Rod.Dep.Antônio Heil", "ptotalvia": 30.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.85805680010494, -27.035174818870765 ], [ -48.8579398, -27.03508145 ], [ -48.85764252, -27.03472641 ], [ -48.857384068065109, -27.034403003128784 ] ] } }
+]
+}

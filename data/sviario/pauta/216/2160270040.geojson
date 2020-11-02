@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2160270040", "cod": 1472, "nome": "R.Doutel de Andrade", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.709624265455318, -26.943056554704498 ], [ -48.70963527, -26.94339721 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2160270040", "cod": 1474, "nome": "R.Arlindo Mafra", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.709987154910984, -26.94343573149424 ], [ -48.70963675, -26.9434432 ], [ -48.709574035084223, -26.943445749396528 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2160270040", "cod": 1472, "nome": "R.Doutel de Andrade", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70963527, -26.94339721 ], [ -48.70963675, -26.9434432 ], [ -48.709639241055321, -26.943505861469042 ] ] } }
+]
+}

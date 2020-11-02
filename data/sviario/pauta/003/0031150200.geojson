@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0031150200", "cod": 1163, "nome": "R.Romualdo Sedrez", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.699517018529924, -26.889156709955856 ], [ -48.6995325, -26.88945223 ], [ -48.699536185872269, -26.889507682602378 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031150200", "cod": 1233, "nome": "R.Áurea de Souza", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.699997325910523, -26.88941697669436 ], [ -48.6995325, -26.88945223 ], [ -48.699465137627783, -26.889453683682991 ] ] } }
+]
+}

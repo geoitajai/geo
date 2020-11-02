@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2010310075", "cod": 278, "nome": "R.Joinville", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.658220133827101, -26.908370743258413 ], [ -48.65754450550844, -26.908178763383859 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010310075", "cod": 372, "nome": "R.Dr.Aderbal Ramos da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65837644, -26.90893446 ], [ -48.658425107864019, -26.908974336393239 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010310075", "cod": 276, "nome": "Av.7 de Setembro", "ptotalvia": 18.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.658410918242183, -26.908851491757996 ], [ -48.65837644, -26.90893446 ], [ -48.65808297, -26.90962524 ], [ -48.658066757923116, -26.909665544076365 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010310075", "cod": 277, "nome": "R.Alm.Tamandaré", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65808297, -26.90962524 ], [ -48.657244610001591, -26.909376330329035 ] ] } }
+]
+}

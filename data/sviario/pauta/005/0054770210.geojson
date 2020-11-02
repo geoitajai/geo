@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0054770210", "cod": 895, "nome": "R.Lino do Amaral", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695753679602028, -26.915869730020511 ], [ -48.69575654, -26.91594241 ], [ -48.695770418362649, -26.916202337111432 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054770210", "cod": 905, "nome": "R.Dr.Hermes Atílio Mariani", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69575654, -26.91594241 ], [ -48.695667510052047, -26.915946661548109 ] ] } }
+]
+}

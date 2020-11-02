@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0050041380", "cod": 84, "nome": "R.São Vicente", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.687135312547916, -26.907543553449731 ], [ -48.68712899, -26.907581709999988 ], [ -48.686994970121447, -26.907868069626467 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050041380", "cod": 102, "nome": "R.Dom  Jaime de Barros Câmara", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.687171267210744, -26.907579864192503 ], [ -48.68712899, -26.907581709999988 ] ] } }
+]
+}

@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2020470166", "cod": 171, "nome": "R.Manoel Zeferino Teixeira", "ptotalvia": 13.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675916124975132, -26.895997907180611 ], [ -48.67575056, -26.89586517 ], [ -48.675692081263172, -26.895819454643391 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020470166", "cod": 170, "nome": "R.Anísio Costa", "ptotalvia": 7.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676229512818281, -26.895726915145605 ], [ -48.67604139, -26.8955775 ], [ -48.675966914966878, -26.895518582268124 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020470166", "cod": 161, "nome": "Av.Irineu Bornhausen", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676111596178544, -26.895505945009941 ], [ -48.67604139, -26.8955775 ], [ -48.67575056, -26.89586517 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020470166", "cod": 161, "nome": "Av.Irineu Bornhausen", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67575056, -26.89586517 ], [ -48.67570743536281, -26.895908007031728 ] ] } }
+]
+}

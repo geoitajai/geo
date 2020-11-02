@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2041740483", "cod": 1607, "nome": "R.Júlio Willerding", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.660369161476872, -26.913695903681809 ], [ -48.66074673, -26.91394774 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2041740483", "cod": 266, "nome": "R.Uruguai", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.660891870797428, -26.913751942813889 ], [ -48.66074673, -26.91394774 ], [ -48.660705242881171, -26.914004351937248 ] ] } }
+]
+}

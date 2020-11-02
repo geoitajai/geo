@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2210591070", "cod": 879, "nome": "R.Sem denominação oficial", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6975178, -26.93370197 ], [ -48.69766964, -26.93389463 ], [ -48.697678789768979, -26.934046087679871 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210591070", "cod": 878, "nome": "R.Erna Hoier Corrêa", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698179331974458, -26.933289711423619 ], [ -48.697435385581819, -26.933753320674899 ] ] } }
+]
+}

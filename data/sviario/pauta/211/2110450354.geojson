@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2110450354", "cod": 327, "nome": "R.Umbelino Damasio de Brito", "ptotalvia": 11.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.669315691377257, -26.90986550249929 ], [ -48.66930267, -26.90986843 ], [ -48.66914404, -26.90997452 ], [ -48.66900354, -26.91011924 ], [ -48.6689322763809, -26.910215757415209 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110450354", "cod": 284, "nome": "R.Alm.Barroso", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66900354, -26.91011924 ], [ -48.668938344490918, -26.910069847039182 ] ] } }
+]
+}

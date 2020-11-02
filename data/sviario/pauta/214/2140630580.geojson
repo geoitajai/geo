@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2140630580", "cod": 727, "nome": "R.Artur Torquato Batista", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.64584688613887, -26.93286090029579 ], [ -48.64562212, -26.93330351 ], [ -48.64559536302891, -26.933362701206416 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140630580", "cod": 733, "nome": "R.Alcides Pereira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.645556811239061, -26.933248112288624 ], [ -48.64562212, -26.93330351 ], [ -48.64579426, -26.93335189 ], [ -48.645872927452608, -26.933443844629284 ] ] } }
+]
+}

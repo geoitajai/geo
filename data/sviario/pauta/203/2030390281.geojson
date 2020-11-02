@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2030390281", "cod": 1060, "nome": "R.Valdir Souza", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692677884518716, -26.876616338304498 ], [ -48.6931084, -26.876604 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2030390281", "cod": 1046, "nome": "R.Eugênio Pezzini", "ptotalvia": 13.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693105952271765, -26.876540002639814 ], [ -48.693115149790536, -26.876903338706729 ] ] } }
+]
+}

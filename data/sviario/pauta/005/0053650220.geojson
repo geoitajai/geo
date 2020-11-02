@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0053650220", "cod": 995, "nome": "R.Edmundo Heusi Júnior", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695381774399472, -26.925257408182539 ], [ -48.69540832, -26.92529908 ], [ -48.695675015569222, -26.925675696225831 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0053650220", "cod": 892, "nome": "Av.Ver.Nilo Simas", "ptotalvia": 20.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695562577586486, -26.925087140802599 ], [ -48.69540832, -26.92529908 ], [ -48.695379976665699, -26.925339694215022 ] ] } }
+]
+}

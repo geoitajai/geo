@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2041560070", "cod": 872, "nome": "R.Profº.Ondino Geraldo da Silva", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674275293146025, -26.933639693723812 ], [ -48.67384199, -26.93365216 ], [ -48.673775407759493, -26.933654814472252 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2041560070", "cod": 875, "nome": "R.Elias Brick Adaime", "ptotalvia": 20.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.673839579075796, -26.933597155147723 ], [ -48.67384199, -26.93365216 ], [ -48.67384212005544, -26.933946018401723 ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0054820080", "cod": 937, "nome": "R.Anatolio José da Silva", "ptotalvia": 9.2, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.703832617113335, -26.921619017662174 ], [ -48.703598561125929, -26.921838634229097 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054820080", "cod": 938, "nome": "R.Roberto Manoel Tomás", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.7036866, -26.9217601 ], [ -48.703608268978975, -26.92169625930034 ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2020430374", "cod": 174, "nome": "R.José Neri dos Santos", "ptotalvia": 3.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67321231, -26.89536324 ], [ -48.673156549502103, -26.895317584965024 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020430374", "cod": 157, "nome": "R.Blumenau", "ptotalvia": 14.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67338956499642, -26.895123154949275 ], [ -48.67321231, -26.89536324 ], [ -48.673178172773603, -26.895401990695341 ] ] } }
+]
+}

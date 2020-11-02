@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2210510581", "cod": 844, "nome": "R.Itapoa (particular)", "ptotalvia": 6.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.681381734737336, -26.926169347462103 ], [ -48.680342420379411, -26.926263161792779 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210510581", "cod": 265, "nome": "Av.Ver.Abrahão João Francisco", "ptotalvia": 29.4, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.680526269253072, -26.926501127766752 ], [ -48.680319165854996, -26.926357204320155 ] ] } }
+]
+}

@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2010720184", "cod": 392, "nome": "R.Abercio Werner", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6680935, -26.91417809 ], [ -48.667870922039569, -26.914422828256626 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010720184", "cod": 268, "nome": "R.Brusque", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.667840096367996, -26.913867123297731 ], [ -48.66802211, -26.91408379 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010720184", "cod": 333, "nome": "R.Etelvina de Brito", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.668077343455714, -26.914012729275928 ], [ -48.66802211, -26.91408379 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010720184", "cod": 268, "nome": "R.Brusque", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66802211, -26.91408379 ], [ -48.6680935, -26.91417809 ], [ -48.668138840187474, -26.914231424880906 ] ] } }
+]
+}

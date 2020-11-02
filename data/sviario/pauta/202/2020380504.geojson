@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2020380504", "cod": 190, "nome": "R.José Cândido", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.672909253715957, -26.897005285485882 ], [ -48.67237684, -26.8965752 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020380504", "cod": 157, "nome": "R.Blumenau", "ptotalvia": 14.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.672592840822922, -26.896258538454454 ], [ -48.67237684, -26.8965752 ], [ -48.672334612977714, -26.89664148079698 ] ] } }
+]
+}

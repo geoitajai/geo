@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2031862031", "cod": 1098, "nome": "R.Hamilton Pimentel", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.701575317226776, -26.880441247775103 ], [ -48.70159806, -26.88073731 ], [ -48.701600051035641, -26.88077673628025 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2031862031", "cod": 1106, "nome": "R.Profº.Cosme Buzarello", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.701898929624534, -26.880422675287821 ], [ -48.701916624980257, -26.880759376684388 ] ] } }
+]
+}

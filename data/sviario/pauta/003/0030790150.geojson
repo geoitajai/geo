@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0030790150", "cod": 1133, "nome": "R.São Paulo (bairro Cordeiros)", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698436226990928, -26.889033109525808 ], [ -48.698069426434117, -26.88905220773648 ] ] } }
+]
+}

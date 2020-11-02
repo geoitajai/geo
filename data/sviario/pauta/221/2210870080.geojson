@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2210870080", "cod": 539, "nome": "R.José Mariano Furtado", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.679089899068416, -26.923974206992082 ], [ -48.6790939, -26.924017229999986 ], [ -48.679127726395365, -26.924342908624432 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210870080", "cod": 537, "nome": "R.Pres.João Goulart", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.679520225743872, -26.923985151574808 ], [ -48.6790939, -26.924017229999986 ], [ -48.679042524941842, -26.924021475106677 ] ] } }
+]
+}

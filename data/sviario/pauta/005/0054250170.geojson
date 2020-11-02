@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0054250170", "cod": 130, "nome": "Av.Nilo Bittencourt", "ptotalvia": 20.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.705055949545574, -26.90820837813602 ], [ -48.70506976, -26.90848168 ], [ -48.705072115816769, -26.908534715955607 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054250170", "cod": 139, "nome": "R.Maria Luíza Etur Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.705486342423207, -26.908466467829559 ], [ -48.70506976, -26.90848168 ], [ -48.70503948867097, -26.908483115481197 ] ] } }
+]
+}

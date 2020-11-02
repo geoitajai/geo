@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2031410700", "cod": 1045, "nome": "R.Antônia Gums Baumgartner", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700809203347049, -26.87252430364277 ], [ -48.70083733, -26.87299492 ], [ -48.700840642143369, -26.873062726282601 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2031410700", "cod": 1061, "nome": "R.José Luiz Marcelino", "ptotalvia": 10.2, "ppasseio1": 1.6, "ppasseio2": 1.6 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700924590078813, -26.872978717919732 ], [ -48.70083733, -26.87299492 ], [ -48.700474276460639, -26.873093629531375 ] ] } }
+]
+}

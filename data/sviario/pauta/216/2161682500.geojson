@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2161682500", "cod": 1503, "nome": "R.Vergílio Cadore", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.834098062398645, -26.978131880792564 ], [ -48.83358541, -26.97785419 ], [ -48.83343309, -26.97763512 ], [ -48.8332923, -26.97728708 ], [ -48.83316962, -26.97710069 ], [ -48.83276663, -26.97660038 ], [ -48.832632792221489, -26.976467937261788 ] ] } }
+]
+}

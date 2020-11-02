@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0031740195", "cod": 1144, "nome": "R.Alfredo Esser", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69671785879936, -26.893741012869981 ], [ -48.69672927, -26.89394951 ], [ -48.696735107198286, -26.89407185216691 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031740195", "cod": 1145, "nome": "R.Antônio Müller Reis", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69672927, -26.89394951 ], [ -48.696637436657291, -26.893957957329551 ] ] } }
+]
+}

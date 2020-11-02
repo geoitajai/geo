@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2040460272", "cod": 631, "nome": "R.Miguel Wanderhec", "ptotalvia": 5.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.655664895706842, -26.918402458163062 ], [ -48.65585675, -26.91858608 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040460272", "cod": 679, "nome": "R.Eduardo Gonçalves Dutra", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656263363659441, -26.91826550820381 ], [ -48.656007913606565, -26.918046416763062 ] ] } }
+]
+}

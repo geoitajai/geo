@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2210510255", "cod": 545, "nome": "R.José Gall", "ptotalvia": 15.6, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.683761246826187, -26.927190688807844 ], [ -48.68361225, -26.92682021 ], [ -48.683572061083957, -26.926703367378778 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210510255", "cod": 843, "nome": "R.Paulo Hoier", "ptotalvia": 8.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.683704228500602, -26.926813277134027 ], [ -48.68361225, -26.92682021 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210510255", "cod": 265, "nome": "Av.Ver.Abrahão João Francisco", "ptotalvia": 29.4, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68181525922968, -26.927396877788926 ], [ -48.681264356060829, -26.92701404503693 ] ] } }
+]
+}

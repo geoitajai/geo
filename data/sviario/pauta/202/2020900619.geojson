@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2020900619", "cod": 250, "nome": "R.Maria da Glória", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -48.67632271812068, -26.906898420940298 ], [ -48.675825928187685, -26.90674178993569 ] ], [ [ -48.675704676087712, -26.906917552885663 ], [ -48.67543561, -26.907622709999988 ] ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020900619", "cod": 160, "nome": "R.Heitor Liberato", "ptotalvia": 15.5, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675963653547967, -26.907790667962566 ], [ -48.67543561, -26.907622709999988 ], [ -48.6753791134092, -26.907603779042663 ] ] } }
+]
+}

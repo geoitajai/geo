@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0053930030", "cod": 963, "nome": "R.Arnaldo Lopes", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692786863138522, -26.928890801478641 ], [ -48.69281097, -26.92892622 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0053930030", "cod": 974, "nome": "R.João Ascendino Lamim", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693234182710931, -26.928976204257399 ], [ -48.692877858429959, -26.92915352797214 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0053930030", "cod": 892, "nome": "Av.Ver.Nilo Simas", "ptotalvia": 20.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692961812673808, -26.928722319019958 ], [ -48.69281097, -26.92892622 ], [ -48.692783054259877, -26.928968016681534 ] ] } }
+]
+}

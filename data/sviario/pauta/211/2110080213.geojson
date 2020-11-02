@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2110080213", "cod": 504, "nome": "R.Santo Antônio", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67389282860303, -26.908074810495677 ], [ -48.67381284, -26.9080496 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110080213", "cod": 489, "nome": "R.Fiuza Lima", "ptotalvia": 13.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67386050044265, -26.908408195194664 ], [ -48.67381284, -26.9080496 ], [ -48.673807514757478, -26.908006958649864 ] ] } }
+]
+}

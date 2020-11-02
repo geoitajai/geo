@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2030050311", "cod": 1084, "nome": "R.Clarinda Júlio Pereira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69456285, -26.87816277 ], [ -48.69460187559487, -26.878160184020899 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2030050311", "cod": 1061, "nome": "R.José Luiz Marcelino", "ptotalvia": 10.2, "ppasseio1": 1.6, "ppasseio2": 1.6 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69454636734794, -26.877871947162422 ], [ -48.69456285, -26.87816277 ], [ -48.694564568702241, -26.878193255462961 ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0054730420", "cod": 923, "nome": "R.Aldo Silva", "ptotalvia": 14.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698458333335871, -26.918503615603385 ], [ -48.69846279, -26.91859182 ], [ -48.698483703008321, -26.918819340580129 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054730420", "cod": 925, "nome": "R.Antônio José Marcos", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69846279, -26.91859182 ], [ -48.698129293023449, -26.91860483657188 ] ] } }
+]
+}

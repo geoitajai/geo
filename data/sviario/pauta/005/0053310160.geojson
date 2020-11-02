@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0053310160", "cod": 950, "nome": "R.Raul de Souza", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6952252180294, -26.922856331774998 ], [ -48.694904200979025, -26.922968576397952 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0053310160", "cod": 950, "nome": "R.Raul de Souza", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6952252180294, -26.922856331774998 ], [ -48.694904200979025, -26.922968576397952 ] ] } }
+]
+}

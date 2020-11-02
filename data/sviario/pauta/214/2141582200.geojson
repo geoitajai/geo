@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2141582200", "cod": 800, "nome": "R.DonaNey Vianna Zaguini", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.633134859778544, -26.948424329742814 ], [ -48.63312704, -26.94836314 ], [ -48.63310231, -26.94806335 ], [ -48.633097239632306, -26.948020731504538 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2141582200", "cod": 801, "nome": "R.Walter Ferreira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.632672814606686, -26.948379110880662 ], [ -48.63312704, -26.94836314 ], [ -48.633186567022008, -26.948371699308968 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2141582200", "cod": 802, "nome": "R.Verª.Marilda Ultramari Gau", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.63310231, -26.94806335 ], [ -48.633149521511825, -26.948045869159223 ] ] } }
+]
+}

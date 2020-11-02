@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2110680628", "cod": 583, "nome": "R.Vitor Zaguini", "ptotalvia": 11.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676146901096416, -26.918701417613836 ], [ -48.6761721, -26.91908086 ], [ -48.676174187702763, -26.91911539309412 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110680628", "cod": 577, "nome": "R.Jacob Ardigó", "ptotalvia": 21.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676557581210979, -26.919043745375799 ], [ -48.6761721, -26.91908086 ], [ -48.676128546454237, -26.919086721682824 ] ] } }
+]
+}

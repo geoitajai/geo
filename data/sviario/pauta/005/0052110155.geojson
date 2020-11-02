@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0052110155", "cod": 20, "nome": "R.Manoel Francisco Coelho", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698811423035934, -26.901896894973504 ], [ -48.69840156, -26.90191241 ], [ -48.698336677102624, -26.901916103529874 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0052110155", "cod": 40, "nome": "R.São José", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698398833315451, -26.901853700953534 ], [ -48.698418760687055, -26.902213984626194 ] ] } }
+]
+}

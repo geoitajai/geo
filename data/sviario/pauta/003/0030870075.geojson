@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0030870075", "cod": 1195, "nome": "R.Ceará", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698541853520311, -26.893909254405301 ], [ -48.698182687132885, -26.89392293682749 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0030870075", "cod": 1207, "nome": "Av.Brasília", "ptotalvia": 18.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69827711, -26.89391934 ], [ -48.698280185785244, -26.893998450495317 ] ] } }
+]
+}

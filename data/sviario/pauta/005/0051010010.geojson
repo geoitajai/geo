@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0051010010", "cod": 45, "nome": "R.Olavo Bilac", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695324544637323, -26.902024270743233 ], [ -48.695350129582238, -26.902361949615223 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0051010010", "cod": 20, "nome": "R.Manoel Francisco Coelho", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695770605801499, -26.902068106636541 ], [ -48.69532902, -26.90209374 ], [ -48.695257549625779, -26.902098270088484 ] ] } }
+]
+}

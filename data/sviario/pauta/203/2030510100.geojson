@@ -1,0 +1,13 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2030510100", "cod": 1072, "nome": "Av.Pres.Costa e Silva", "ptotalvia": 13.35, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.709251502059296, -26.875443072469217 ], [ -48.70918731, -26.87539184 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2030510100", "cod": 1061, "nome": "R.José Luiz Marcelino", "ptotalvia": 10.2, "ppasseio1": 1.6, "ppasseio2": 1.6 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70879254, -26.87496548 ], [ -48.708754816345674, -26.874906959947484 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2030510100", "cod": 1075, "nome": "R.Pç.Celso Pereira da Silva", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.708847555841999, -26.875743709416948 ], [ -48.70888238, -26.87570574 ], [ -48.70918731, -26.87539184 ], [ -48.70951198, -26.87504814 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2030510100", "cod": 1075, "nome": "R.Pç.Celso Pereira da Silva", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70951198, -26.87504814 ], [ -48.709556337509476, -26.875097390574734 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2030510100", "cod": 1075, "nome": "R.Pç.Celso Pereira da Silva", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70951198, -26.87504814 ], [ -48.7092365, -26.87474097 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2030510100", "cod": 1075, "nome": "R.Pç.Celso Pereira da Silva", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.7092365, -26.87474097 ], [ -48.70879254, -26.87496548 ], [ -48.70839425, -26.8751963 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2030510100", "cod": 1075, "nome": "R.Pç.Celso Pereira da Silva", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -48.70839425, -26.8751963 ], [ -48.70888238, -26.87570574 ] ], [ [ -48.708380166283796, -26.87520415696088 ], [ -48.70839425, -26.8751963 ] ] ] } }
+]
+}

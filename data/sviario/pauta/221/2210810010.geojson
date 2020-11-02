@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2210810010", "cod": 545, "nome": "R.José Gall", "ptotalvia": 15.6, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.678649028232741, -26.922055520619121 ], [ -48.67814509, -26.92187872 ], [ -48.678093655336539, -26.92185716788153 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210810010", "cod": 542, "nome": "R.Helio Firmo Caetano", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67814509, -26.92187874 ], [ -48.678137759733843, -26.921917528078048 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210810010", "cod": 542, "nome": "R.Helio Firmo Caetano", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.678142751980658, -26.921634795277978 ], [ -48.67814509, -26.92187872 ] ] } }
+]
+}

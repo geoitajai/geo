@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2020650290", "cod": 210, "nome": "R.Conceição", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.678936888570753, -26.903094286513934 ], [ -48.67895466, -26.90310827 ], [ -48.679173879960672, -26.90327619450369 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020650290", "cod": 204, "nome": "R.Apolonia Inthur Cordeiro", "ptotalvia": 6.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.679067014469254, -26.902914344171823 ], [ -48.67895466, -26.90310827 ] ] } }
+]
+}

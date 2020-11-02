@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2030710600", "cod": 1175, "nome": "Marginal Leste", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.728583855977398, -26.872329129799049 ], [ -48.72872698600554, -26.871983739610073 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2030710600", "cod": 1278, "nome": "R.Olívio Francisco Borges", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.72834583, -26.87191057 ], [ -48.728175313054095, -26.871910321375353 ] ] } }
+]
+}

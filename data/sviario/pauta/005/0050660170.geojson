@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0050660170", "cod": 101, "nome": "R.Nelson Raul Rebello", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69391461, -26.90702821 ], [ -48.693589097462763, -26.907039883410135 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050660170", "cod": 50, "nome": "R.Luiz Lopes Gonzaga", "ptotalvia": 13.2, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693911454845505, -26.906712363968925 ], [ -48.6939126, -26.9068268 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050660170", "cod": 50, "nome": "R.Luiz Lopes Gonzaga", "ptotalvia": 13.2, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6939126, -26.9068268 ], [ -48.69391461, -26.90702821 ], [ -48.69391526, -26.90705579 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050660170", "cod": 50, "nome": "R.Luiz Lopes Gonzaga", "ptotalvia": 13.2, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69391526, -26.90705579 ], [ -48.693916209005863, -26.907095789060701 ] ] } }
+]
+}

@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2160170350", "cod": 1479, "nome": "R.João Thomaz Pinto", "ptotalvia": 25.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691231200724047, -26.972917390593178 ], [ -48.69138293, -26.97312148 ], [ -48.69200652, -26.97381919 ], [ -48.69221632, -26.97396635 ], [ -48.69263205, -26.97410485 ], [ -48.69284573, -26.97420008 ], [ -48.69339134251279, -26.97459609336995 ] ] } }
+]
+}

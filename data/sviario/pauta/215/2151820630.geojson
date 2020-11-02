@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2151820630", "cod": 1557, "nome": "R.Antônio Carlos Figueredo", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.74495322, -26.88504931 ], [ -48.744923257294751, -26.884678442322702 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2151820630", "cod": 1341, "nome": "Av.Demostenes Feminella Filho", "ptotalvia": 26.0, "ppasseio1": 5.0, "ppasseio2": 5.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.744961002005375, -26.885048968351967 ], [ -48.74495322, -26.88504931 ], [ -48.744588394557887, -26.885021272584886 ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0050590200", "cod": 23, "nome": "R.Cargelino Francelino", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.694299081728374, -26.900594612570305 ], [ -48.69385748, -26.9006026 ], [ -48.693782778837701, -26.900604291758242 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050590200", "cod": 50, "nome": "R.Luiz Lopes Gonzaga", "ptotalvia": 13.2, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693856542132124, -26.900537250684685 ], [ -48.69385748, -26.9006026 ], [ -48.693844647810913, -26.900857369533366 ] ] } }
+]
+}

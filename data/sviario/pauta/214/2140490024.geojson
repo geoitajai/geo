@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2140490024", "cod": 600, "nome": "Av.Dr.José Medeiros Vieira", "ptotalvia": 0.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.627611714415494, -26.935052275769664 ], [ -48.62756651, -26.93479615 ], [ -48.627541963042567, -26.934655437286725 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140490024", "cod": 771, "nome": "R.Ver.Hermínio Gervásio", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.631734150362888, -26.934169155798607 ], [ -48.63159011, -26.93415458 ], [ -48.63145163, -26.93406247 ], [ -48.631328674088785, -26.933962764353829 ] ] } }
+]
+}

@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2160600500", "cod": 1429, "nome": "R.Ver.Germano Luiz Vieira", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.75111221, -26.95069835 ], [ -48.75065152, -26.95006757 ], [ -48.74961518, -26.94904003 ], [ -48.74955422, -26.94881279 ], [ -48.74961346500195, -26.948625399179917 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2160600500", "cod": 1235, "nome": "Rod.Dep.Antônio Heil", "ptotalvia": 30.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.750990898727729, -26.948982157938822 ], [ -48.749793029906016, -26.948585132147361 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2160600500", "cod": 1429, "nome": "R.Ver.Germano Luiz Vieira", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.752401768941823, -26.95336919097706 ], [ -48.75245818, -26.9529229 ], [ -48.75236397, -26.95250301 ], [ -48.752037, -26.95196455 ], [ -48.75111221, -26.95069835 ] ] } }
+]
+}

@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0053340170", "cod": 993, "nome": "R.Euclydes Adão Peixer", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69577976, -26.92410518 ], [ -48.695787591770305, -26.924116678456063 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0053340170", "cod": 954, "nome": "R.Raul Machado", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695787963379622, -26.924102283888693 ], [ -48.69577976, -26.92410518 ], [ -48.695456101972539, -26.924221670504522 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0053340170", "cod": 954, "nome": "R.Raul Machado", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695787963379622, -26.924102283888693 ], [ -48.69577976, -26.92410518 ], [ -48.695456101972539, -26.924221670504522 ] ] } }
+]
+}

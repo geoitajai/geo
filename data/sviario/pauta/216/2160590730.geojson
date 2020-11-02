@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2160590730", "cod": 1463, "nome": "R.João Vieira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.751613369141971, -26.948108054859688 ], [ -48.751960398260941, -26.948236008985536 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2160590730", "cod": 1464, "nome": "R.Carlos Alberto Vieira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.752071776222685, -26.947911346479664 ], [ -48.752073293032488, -26.947929425508828 ] ] } }
+]
+}

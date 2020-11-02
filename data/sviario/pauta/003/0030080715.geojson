@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0030080715", "cod": 1118, "nome": "R.João Magalhães", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69092627291846, -26.88571662850396 ], [ -48.69093688, -26.88576759 ], [ -48.690991885495215, -26.886540745728382 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0030080715", "cod": 1111, "nome": "Av.Dr.Reinaldo Schmithausen", "ptotalvia": 27.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.690809153459924, -26.885731188971995 ], [ -48.690648145138496, -26.885916434159508 ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2010580359", "cod": 321, "nome": "R.Joaquim Lopes Corrêa", "ptotalvia": 6.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.666644384914726, -26.907515834910356 ], [ -48.66665946, -26.907699929999989 ], [ -48.666668188660303, -26.90783768128988 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010580359", "cod": 314, "nome": "R.Alfredo Trompowisky", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.666762807794782, -26.907747122087759 ], [ -48.66666407, -26.90777269 ], [ -48.66655999, -26.90778979 ], [ -48.66622091, -26.907774029999985 ], [ -48.66616801965769, -26.90779237535321 ] ] } }
+]
+}

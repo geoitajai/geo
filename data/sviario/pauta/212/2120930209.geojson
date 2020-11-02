@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2120930209", "cod": 413, "nome": "Trav.Lisberto João Potter", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.686942067766232, -26.893591138010645 ], [ -48.68664993, -26.89389063 ], [ -48.686622940577756, -26.893917999108485 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2120930209", "cod": 405, "nome": "R.David Adão Schmidt", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68669037501045, -26.893922863312646 ], [ -48.68664993, -26.89389063 ], [ -48.686414075829489, -26.893705273864843 ] ] } }
+]
+}

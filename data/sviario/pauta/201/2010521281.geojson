@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2010521281", "cod": 356, "nome": "R.Herculano Correa", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.660686285412631, -26.910827150723332 ], [ -48.660768384866017, -26.910896125941068 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010521281", "cod": 353, "nome": "R.João Bauer", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.660866107725127, -26.91054575265591 ], [ -48.660668148511029, -26.910794654023483 ] ] } }
+]
+}

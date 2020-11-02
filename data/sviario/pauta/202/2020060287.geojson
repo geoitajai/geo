@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2020060287", "cod": 286, "nome": "R.Tijucas", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.667066902415947, -26.901963908990343 ], [ -48.6669858, -26.90201073 ], [ -48.66662888, -26.90224061 ], [ -48.666621796231411, -26.902248057620405 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020060287", "cod": 285, "nome": "R.Cap.Adolfo Germano de Andrade", "ptotalvia": 13.8, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.666978456089417, -26.901735051613631 ], [ -48.6669858, -26.90201073 ], [ -48.666995156838794, -26.902096135350895 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020060287", "cod": 305, "nome": "Pç.Antônio Lopes Gonzaga", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66662888, -26.90224061 ], [ -48.66660928, -26.90176804 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020060287", "cod": 162, "nome": "Av.Cel.Eugênio Muller", "ptotalvia": 25.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.666590213873704, -26.901770115733118 ], [ -48.66660928, -26.90176804 ], [ -48.66694513961211, -26.901726170277435 ] ] } }
+]
+}

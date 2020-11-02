@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2150740260", "cod": 1352, "nome": "R.Antônio José Rebello", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.734894715743756, -26.875966711624667 ], [ -48.73492132, -26.87626203 ], [ -48.734927063061853, -26.876323028485867 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2150740260", "cod": 1359, "nome": "R.Francisca Casas Ramos", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.735316192769879, -26.876230654450332 ], [ -48.73492132, -26.87626203 ], [ -48.734858949246245, -26.876267177326785 ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2040440785", "cod": 623, "nome": "R.Lages", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656592082833541, -26.916450307752495 ], [ -48.65638706, -26.9167233 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040440785", "cod": 617, "nome": "R.Hilda Bella Cruz da Silva", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656760654043921, -26.916945261444386 ], [ -48.6566936, -26.91688945 ] ] } }
+]
+}

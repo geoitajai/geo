@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2160050730", "cod": 1424, "nome": "R.Pedro Godoi Filho", "ptotalvia": 5.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.738258032767767, -26.947089413785484 ], [ -48.7382584, -26.94709558 ], [ -48.738299977120853, -26.947470280493999 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2160050730", "cod": 1425, "nome": "R.Guilherme May", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.738114502457016, -26.947108594374189 ], [ -48.73812293, -26.94724488 ], [ -48.738148088084586, -26.947475546616904 ] ] } }
+]
+}

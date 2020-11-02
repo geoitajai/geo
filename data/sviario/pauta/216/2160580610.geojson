@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2160580610", "cod": 1413, "nome": "Av.Itaipava", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.747931448356127, -26.947458065136004 ], [ -48.747920566725135, -26.947447980930825 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2160580610", "cod": 1456, "nome": "R.Gertrudes da Silva Simas", "ptotalvia": 8.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.748310351027101, -26.947120424605526 ], [ -48.748341953031222, -26.947454236379329 ] ] } }
+]
+}

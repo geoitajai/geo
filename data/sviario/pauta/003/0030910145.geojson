@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0030910145", "cod": 1207, "nome": "Av.Brasília", "ptotalvia": 18.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69828261654483, -26.895490597476627 ], [ -48.69828468, -26.89554657 ], [ -48.698301455405925, -26.895921733554555 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0030910145", "cod": 1193, "nome": "R.Pará", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698609511908479, -26.895537838302918 ], [ -48.69828468, -26.89554657 ], [ -48.698246938421647, -26.895547660460444 ] ] } }
+]
+}

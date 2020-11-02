@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2032040675", "cod": 1070, "nome": "R.Emília Máxima dos Santos", "ptotalvia": 10.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.707370535281548, -26.873184290218475 ], [ -48.70739690904599, -26.873709691787475 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2032040675", "cod": 1071, "nome": "Av.Dr.Nereu Ramos", "ptotalvia": 13.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.707608657156406, -26.873194952834446 ], [ -48.707636081622162, -26.873678469913912 ] ] } }
+]
+}

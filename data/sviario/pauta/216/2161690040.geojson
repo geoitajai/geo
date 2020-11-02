@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2161690040", "cod": 1263, "nome": "R.Mercedes Graf dos Santos", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.847457395981699, -27.038549982271853 ], [ -48.84745929, -27.03865747 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2161690040", "cod": 1262, "nome": "R.Francisco Jacob Khnis", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.847656753154759, -27.038984246586793 ], [ -48.847269332100886, -27.039004839507491 ] ] } }
+]
+}

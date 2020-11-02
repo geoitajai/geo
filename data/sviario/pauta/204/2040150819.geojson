@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2040150819", "cod": 648, "nome": "R.Onze de Junho", "ptotalvia": 13.2, "ppasseio1": 1.9, "ppasseio2": 1.9 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65027491, -26.91985457 ], [ -48.650472969895603, -26.920229247096536 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040150819", "cod": 654, "nome": "R.Jorge Tzaschel", "ptotalvia": 13.4, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65050837914076, -26.919670446931875 ], [ -48.65027491, -26.91985457 ], [ -48.650211467100149, -26.919904699517961 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040150819", "cod": 280, "nome": "Av.Min.Victor Konder", "ptotalvia": 20.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.650238608819613, -26.919780689157115 ], [ -48.65027491, -26.91985457 ] ] } }
+]
+}

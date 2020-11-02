@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2120280527", "cod": 436, "nome": "R.Mathias Palm", "ptotalvia": 9.5, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.680149363655715, -26.891116699860159 ], [ -48.68013366, -26.89072143 ], [ -48.679942426418592, -26.890311732195329 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2120280527", "cod": 435, "nome": "R.João Pinto Amaral", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.680425540373541, -26.890110722385021 ], [ -48.68065377, -26.89056678 ], [ -48.680671398817687, -26.891066607554745 ] ] } }
+]
+}

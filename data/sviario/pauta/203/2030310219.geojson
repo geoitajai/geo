@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2030310219", "cod": 1075, "nome": "R.Pç.Celso Pereira da Silva", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.708456587188863, -26.875160174027425 ], [ -48.70839425, -26.8751963 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2030310219", "cod": 1075, "nome": "R.Pç.Celso Pereira da Silva", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -48.70839425, -26.8751963 ], [ -48.708598157298731, -26.875409109883677 ] ], [ [ -48.70813593, -26.87534041 ], [ -48.70839425, -26.8751963 ] ] ] } }
+]
+}

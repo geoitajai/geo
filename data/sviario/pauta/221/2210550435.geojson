@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2210550435", "cod": 846, "nome": "R.Odílio Pereira", "ptotalvia": 8.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68470363, -26.92894292 ], [ -48.68460540694597, -26.92887533687923 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210550435", "cod": 848, "nome": "R.Bento Cesário Aragão", "ptotalvia": 6.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.684871071447972, -26.92874088988507 ], [ -48.68470363, -26.92894292 ], [ -48.68462745344501, -26.929029859459895 ] ] } }
+]
+}

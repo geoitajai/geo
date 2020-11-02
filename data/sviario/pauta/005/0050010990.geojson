@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0050010990", "cod": 63, "nome": "R.Caçador", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.684285186031737, -26.894059422280474 ], [ -48.684003335588905, -26.893791239147756 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050010990", "cod": 64, "nome": "R.Papanduva", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68409443, -26.893910649999988 ], [ -48.684024047580358, -26.893975302344575 ] ] } }
+]
+}

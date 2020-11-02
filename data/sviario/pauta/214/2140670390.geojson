@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2140670390", "cod": 1653, "nome": "R.Nelson João da Cunha", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.642961716843892, -26.934698254426504 ], [ -48.64287832, -26.934653 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140670390", "cod": 586, "nome": "Av.Osvaldo Reis", "ptotalvia": 34.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.642031808404205, -26.93386694018303 ], [ -48.64202024, -26.93390026 ], [ -48.64194882, -26.9342676 ], [ -48.64191861, -26.93477942 ], [ -48.641917182261338, -26.935422808587802 ] ] } }
+]
+}

@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2210900130", "cod": 538, "nome": "R.Estud.Renato Victorino", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.679094257678194, -26.923446959452725 ], [ -48.67904125, -26.92345107 ], [ -48.67876698, -26.923472660000012 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210900130", "cod": 539, "nome": "R.José Mariano Furtado", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67904125, -26.92345107 ], [ -48.6790939, -26.924017229999986 ], [ -48.679097288777562, -26.924049857011713 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210900130", "cod": 537, "nome": "R.Pres.João Goulart", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.679140789784952, -26.924013701892584 ], [ -48.6790939, -26.924017229999986 ], [ -48.67879582, -26.92404186 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210900130", "cod": 538, "nome": "R.Estud.Renato Victorino", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67876698, -26.923472660000012 ], [ -48.678633169957372, -26.923483197124561 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210900130", "cod": 537, "nome": "R.Pres.João Goulart", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67879582, -26.92404186 ], [ -48.678679316993133, -26.924051488227693 ] ] } }
+]
+}

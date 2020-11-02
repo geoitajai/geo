@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0053450010", "cod": 952, "nome": "R.Peterson André Machado", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.694224715545268, -26.923690366321974 ], [ -48.69420421, -26.92369759 ], [ -48.693835266290655, -26.923833011714688 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0053450010", "cod": 952, "nome": "R.Peterson André Machado", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.694224715545268, -26.923690366321974 ], [ -48.69420421, -26.92369759 ], [ -48.693835266290655, -26.923833011714688 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0053450010", "cod": 894, "nome": "R.Agílio Cunha", "ptotalvia": 15.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.694200688530664, -26.923662003908852 ], [ -48.69420421, -26.92369759 ], [ -48.694226635146144, -26.924070765230073 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0053450010", "cod": 894, "nome": "R.Agílio Cunha", "ptotalvia": 15.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.694200688530664, -26.923662003908852 ], [ -48.69420421, -26.92369759 ], [ -48.694226635146144, -26.924070765230073 ] ] } }
+]
+}

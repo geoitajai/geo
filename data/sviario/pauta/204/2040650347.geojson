@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2040650347", "cod": 684, "nome": "R.José Gopertino Chaves", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.654749215378764, -26.92557675789401 ], [ -48.65467126, -26.92580699 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040650347", "cod": 684, "nome": "R.José Gopertino Chaves", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65467126, -26.92580699 ], [ -48.65466486, -26.92582589 ], [ -48.654586118642214, -26.925900625460251 ] ] } }
+]
+}

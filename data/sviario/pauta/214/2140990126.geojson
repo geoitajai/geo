@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2140990126", "cod": 808, "nome": "R.Hildebrando Jorge da Silva", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.629842531240655, -26.946663855425072 ], [ -48.62918166, -26.9467375 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140990126", "cod": 599, "nome": "Av.Dr.José Medeiros Vieira", "ptotalvia": 0.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.629206448088496, -26.946973574828995 ], [ -48.62918166, -26.9467375 ], [ -48.629178299893347, -26.946686951678032 ] ] } }
+]
+}

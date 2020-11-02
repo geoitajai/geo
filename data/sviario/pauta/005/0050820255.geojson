@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0050820255", "cod": 46, "nome": "R.Dr.Ivo Stein Ferreira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.694632020072994, -26.898455979611239 ], [ -48.69440704, -26.89847038 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050820255", "cod": 48, "nome": "R.Pedro Cristiano de Miranda", "ptotalvia": 13.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.694323202033495, -26.898412584210242 ], [ -48.69432489, -26.898475629999986 ], [ -48.69434515142229, -26.898857175655653 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050820255", "cod": 46, "nome": "R.Dr.Ivo Stein Ferreira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69440704, -26.89847038 ], [ -48.69432489, -26.898475629999986 ], [ -48.694261628102623, -26.898477675471611 ] ] } }
+]
+}

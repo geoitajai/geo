@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0054950345", "cod": 107, "nome": "R.Profª.Erotides da Silva Fontes", "ptotalvia": 20.0, "ppasseio1": 3.5, "ppasseio2": 3.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702668185550685, -26.909132442057725 ], [ -48.70272607, -26.90912943 ], [ -48.703001209994291, -26.909114013268074 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054950345", "cod": 33, "nome": "R.Jaziel José Rosa", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702724073978182, -26.909098454054192 ], [ -48.70272607, -26.90912943 ], [ -48.702741524141416, -26.909469698277384 ] ] } }
+]
+}

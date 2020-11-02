@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2210390421", "cod": 513, "nome": "R.Anibal César", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.678013557408278, -26.918081670359904 ], [ -48.67799406000001, -26.91780542 ], [ -48.677988088071778, -26.917736649397632 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210390421", "cod": 579, "nome": "R.Leonel Pereira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67840772544853, -26.917779875213455 ], [ -48.67799406000001, -26.91780542 ], [ -48.67798796, -26.91780572 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210390421", "cod": 579, "nome": "R.Leonel Pereira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67798796, -26.91780572 ], [ -48.677920306312522, -26.91780898466391 ] ] } }
+]
+}

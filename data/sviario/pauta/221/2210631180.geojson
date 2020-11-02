@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2210631180", "cod": 520, "nome": "R.Pedro Joaquim Vieira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677783301161377, -26.912317114630245 ], [ -48.67732302, -26.91234049 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210631180", "cod": 227, "nome": "R.Indaial", "ptotalvia": 17.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677325311790831, -26.912288304072998 ], [ -48.67732302, -26.91234049 ], [ -48.677318041308048, -26.912693290351704 ] ] } }
+]
+}

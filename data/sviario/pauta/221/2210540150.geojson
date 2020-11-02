@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2210540150", "cod": 846, "nome": "R.Odílio Pereira", "ptotalvia": 8.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.684352756885602, -26.928701498419645 ], [ -48.68410021, -26.92852773 ], [ -48.684031070119268, -26.928484089067425 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210540150", "cod": 847, "nome": "R.Sebastião Procópio Nunes", "ptotalvia": 8.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.684345226084488, -26.928241396214229 ], [ -48.68410021, -26.92852773 ] ] } }
+]
+}

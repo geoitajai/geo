@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2140361400", "cod": 735, "nome": "R.Tereza Francisca Pereira", "ptotalvia": 13.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.63490891062861, -26.928730095761441 ], [ -48.63504646, -26.92872942 ], [ -48.63536142, -26.9288181 ], [ -48.635378058613334, -26.928825287621418 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140361400", "cod": 756, "nome": "R.Dr.José Menescau do Monte", "ptotalvia": 17.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.635493677469704, -26.928584518043543 ], [ -48.6353846, -26.9287169 ], [ -48.63536142, -26.9288181 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140361400", "cod": 757, "nome": "R.Elyzabeth Baron", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.635366043557553, -26.928833274547738 ], [ -48.63536142, -26.9288181 ] ] } }
+]
+}

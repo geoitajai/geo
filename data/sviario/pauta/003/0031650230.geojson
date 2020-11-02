@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0031650230", "cod": 1112, "nome": "R.Santo Agostinho", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.694474873403593, -26.892893093876506 ], [ -48.6944728, -26.89285653 ], [ -48.694451585039552, -26.892517426842439 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031650230", "cod": 1130, "nome": "R.Francisco Olegário dos Santos", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69479902, -26.89282547 ], [ -48.6944728, -26.89285653 ], [ -48.694441431859559, -26.892871238597362 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031650230", "cod": 1130, "nome": "R.Francisco Olegário dos Santos", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.694800725208907, -26.892825307779209 ], [ -48.69479902, -26.89282547 ] ] } }
+]
+}

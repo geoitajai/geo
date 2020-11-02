@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2120890209", "cod": 409, "nome": "Trav.João Bento", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.685384976138188, -26.892343079127951 ], [ -48.68508342, -26.89264916 ], [ -48.685056315360086, -26.892676906636456 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2120890209", "cod": 405, "nome": "R.David Adão Schmidt", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.685128576889461, -26.892683452537707 ], [ -48.68508342, -26.89264916 ], [ -48.684845001483041, -26.892457574353472 ] ] } }
+]
+}

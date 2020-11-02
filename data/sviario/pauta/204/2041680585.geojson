@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2041680585", "cod": 870, "nome": "R.Irene Bonanomi da Silva", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.671634359732401, -26.930005508556384 ], [ -48.671260620229717, -26.930000650838977 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2041680585", "cod": 870, "nome": "R.Irene Bonanomi da Silva", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.671503452178875, -26.930003807184764 ], [ -48.671129744513564, -26.92999894953434 ] ] } }
+]
+}

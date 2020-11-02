@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2141340133", "cod": 589, "nome": "R.Anthurium", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.63109728429211, -26.956698638555753 ], [ -48.63108706, -26.95673643 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2141340133", "cod": 590, "nome": "R.Pedro Corrêa da Silva", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.631128529843132, -26.9567319390713 ], [ -48.63108706, -26.95673643 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2141340133", "cod": 592, "nome": "R.Albatroz", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.63108706, -26.95673643 ], [ -48.630606934379536, -26.956806137966595 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2141340133", "cod": 595, "nome": "R.Miguel Francisco Borges", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.630980542360341, -26.957164920201762 ], [ -48.63094972, -26.95715755 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2141340133", "cod": 589, "nome": "R.Anthurium", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.63108706, -26.95673645 ], [ -48.630936043645228, -26.957197348503747 ] ] } }
+]
+}

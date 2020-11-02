@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2141260210", "cod": 587, "nome": "Av.Carlos Drumond de Andrade", "ptotalvia": 20.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.630496928061774, -26.956469560030619 ], [ -48.630127385901616, -26.956511922865523 ] ] } }
+]
+}

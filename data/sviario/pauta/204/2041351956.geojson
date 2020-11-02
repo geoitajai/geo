@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2041351956", "cod": 865, "nome": "R.José Cugnier", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677020558386907, -26.928028537751871 ], [ -48.67698722, -26.928134329999988 ], [ -48.67701182, -26.92833169 ], [ -48.677032264642321, -26.928386372453289 ] ] } }
+]
+}

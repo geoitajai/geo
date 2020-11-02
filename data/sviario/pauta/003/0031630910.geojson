@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0031630910", "cod": 1288, "nome": "Rod.BR-101", "ptotalvia": 40.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.718248685785959, -26.897570299607544 ], [ -48.718328356436139, -26.897382268407835 ] ] } }
+]
+}

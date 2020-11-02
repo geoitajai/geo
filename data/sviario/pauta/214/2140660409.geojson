@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2140660409", "cod": 743, "nome": "R.Lauro Anastácio Pereira", "ptotalvia": 3.4, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6412198, -26.934614169999989 ], [ -48.641178813680952, -26.934625016042602 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140660409", "cod": 736, "nome": "R.Venezuela", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.64121679677136, -26.934599151646392 ], [ -48.6412198, -26.934614169999989 ], [ -48.64125287, -26.934759039999985 ], [ -48.6413368343649, -26.934937570284454 ] ] } }
+]
+}

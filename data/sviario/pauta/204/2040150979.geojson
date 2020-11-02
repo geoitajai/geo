@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2040150979", "cod": 648, "nome": "R.Onze de Junho", "ptotalvia": 13.2, "ppasseio1": 1.9, "ppasseio2": 1.9 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65053432677847, -26.92034531762393 ], [ -48.65058553, -26.92044218 ], [ -48.65078949, -26.92084446 ], [ -48.650791360166473, -26.920848629047672 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040150979", "cod": 663, "nome": "Serv.João Manuel Francisco", "ptotalvia": 3.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65078949, -26.92084446 ], [ -48.651076912399752, -26.920744130354713 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040150979", "cod": 664, "nome": "Serv.José Santana Filho", "ptotalvia": 3.5, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65058553, -26.92044218 ], [ -48.65094855136779, -26.920278628530717 ] ] } }
+]
+}

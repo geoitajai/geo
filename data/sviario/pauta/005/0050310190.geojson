@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0050310190", "cod": 103, "nome": "R.Com.Germano Rauert", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.689113681145116, -26.908073150427946 ], [ -48.6888021, -26.90808307 ], [ -48.688751325122624, -26.908084881356572 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050310190", "cod": 60, "nome": "R.Estefano José Vanolli", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68879459, -26.90778299 ], [ -48.6888021, -26.90808307 ], [ -48.68880299791693, -26.908149844255863 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050310190", "cod": 60, "nome": "R.Estefano José Vanolli", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.688792017527923, -26.907680199934546 ], [ -48.68879459, -26.90778299 ] ] } }
+]
+}

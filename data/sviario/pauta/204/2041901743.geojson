@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2041901743", "cod": 658, "nome": "R.Cecília Brandão", "ptotalvia": 12.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.658541639134405, -26.920699977870122 ], [ -48.65876747, -26.92089207 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2041901743", "cod": 660, "nome": "R.José Patrocinio Zaguini", "ptotalvia": 12.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65876747, -26.92089207 ], [ -48.658723085628601, -26.920935294747967 ] ] } }
+]
+}

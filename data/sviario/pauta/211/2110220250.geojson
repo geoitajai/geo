@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2110220250", "cod": 510, "nome": "R.Abelardo Costa Filho", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67563813, -26.912567549999988 ], [ -48.675638568622666, -26.912831643453565 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110220250", "cod": 490, "nome": "R.Corifeu de Azevedo Marques", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675955928285923, -26.912595516894381 ], [ -48.67563813, -26.912567549999988 ], [ -48.675574792018644, -26.912561871077052 ] ] } }
+]
+}

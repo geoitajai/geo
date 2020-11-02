@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0052260510", "cod": 941, "nome": "R.Fabiano e Silva Marques", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70105287, -26.92132257 ], [ -48.700863145142137, -26.921050212012624 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0052260510", "cod": 941, "nome": "R.Fabiano e Silva Marques", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70110364687541, -26.92139546262387 ], [ -48.70105287, -26.92132257 ] ] } }
+]
+}

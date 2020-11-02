@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2031870103", "cod": 1106, "nome": "R.Profº.Cosme Buzarello", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702257492196303, -26.886839859826193 ], [ -48.70231472, -26.88796562 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2031870103", "cod": 1111, "nome": "Av.Dr.Reinaldo Schmithausen", "ptotalvia": 27.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702316273856226, -26.887965866579083 ], [ -48.70231472, -26.88796562 ], [ -48.701944776769018, -26.887921754396761 ] ] } }
+]
+}

@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2030460355", "cod": 1024, "nome": "R.Theodoro Lino Régis", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69525031, -26.86765886 ], [ -48.69581848, -26.86754038 ], [ -48.69629811, -26.86744823 ], [ -48.696318969451013, -26.867445571520605 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2030460355", "cod": 1042, "nome": "R.Pr.Anôr Nagel Júnior", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69629811, -26.86744823 ], [ -48.696300802261256, -26.867494509676675 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2030460355", "cod": 1043, "nome": "R.Nilton Santos da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69581848, -26.86754038 ], [ -48.695820693945429, -26.867613152401727 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2030460355", "cod": 1044, "nome": "R.Áurea da Silva Simas", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69525031, -26.86765886 ], [ -48.695252070582661, -26.867687138008669 ] ] } }
+]
+}

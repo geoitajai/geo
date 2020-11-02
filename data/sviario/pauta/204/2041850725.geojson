@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2041850725", "cod": 633, "nome": "R.Antônio Caetano", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.655762218252079, -26.920450290055829 ], [ -48.65597624, -26.92062506 ], [ -48.656054307899417, -26.920688066684036 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2041850725", "cod": 637, "nome": "R.Zacharias Baptista Moura", "ptotalvia": 4.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65597624, -26.92062506 ], [ -48.656275676088448, -26.920329714872434 ] ] } }
+]
+}

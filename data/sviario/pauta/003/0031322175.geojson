@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0031322175", "cod": 1167, "nome": "R.José Rosa", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.703122844767222, -26.899494747598773 ], [ -48.70313748, -26.89956238 ], [ -48.703175043206066, -26.900356511859787 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031322175", "cod": 1178, "nome": "Av.Mário Uriarte", "ptotalvia": 30.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70356970963698, -26.899505404118358 ], [ -48.703193942291463, -26.89946079757636 ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0030830285", "cod": 1196, "nome": "Av.Guanabara", "ptotalvia": 18.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697395345157794, -26.891188495907901 ], [ -48.69739868, -26.89124385 ], [ -48.697414089492703, -26.891612635267105 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0030830285", "cod": 1199, "nome": "R.Sergipe", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697721906723373, -26.891235432139162 ], [ -48.69739868, -26.89124385 ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2160060350", "cod": 1430, "nome": "R.Manoel Bernardes", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.725868621228329, -26.950364305510536 ], [ -48.72604586, -26.95073942 ], [ -48.726264165649205, -26.951242565998939 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2160060350", "cod": 1235, "nome": "Rod.Dep.Antônio Heil", "ptotalvia": 30.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.725894782017704, -26.945864143058976 ], [ -48.725632276846632, -26.945861158568263 ] ] } }
+]
+}

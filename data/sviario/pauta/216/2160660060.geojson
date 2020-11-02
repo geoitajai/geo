@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2160660060", "cod": 1496, "nome": "R.Marcos Albino", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.753019118713716, -26.965245563321606 ], [ -48.75318237, -26.96513668 ], [ -48.75333961, -26.96500354 ], [ -48.753642606709626, -26.964702856003115 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2160660060", "cod": 1429, "nome": "R.Ver.Germano Luiz Vieira", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.753512566177399, -26.960443820061069 ], [ -48.75316201, -26.96032271 ], [ -48.753057362310692, -26.960227641960863 ] ] } }
+]
+}

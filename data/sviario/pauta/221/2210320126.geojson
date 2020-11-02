@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2210320126", "cod": 513, "nome": "R.Anibal César", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677935442112037, -26.917089224163824 ], [ -48.677906840236325, -26.91663140722213 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210320126", "cod": 581, "nome": "R.Germano Montibeller", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677998375543758, -26.916691439462106 ], [ -48.67791165, -26.91669591 ], [ -48.67790755, -26.91669619 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210320126", "cod": 581, "nome": "R.Germano Montibeller", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67790755, -26.91669619 ], [ -48.677592130986419, -26.9167178593401 ] ] } }
+]
+}

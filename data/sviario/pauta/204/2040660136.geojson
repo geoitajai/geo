@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2040660136", "cod": 690, "nome": "R.Videira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656414501363201, -26.926601217529164 ], [ -48.6562672, -26.9267435 ], [ -48.656160961148203, -26.926850277943078 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040660136", "cod": 691, "nome": "R.Edmundo Kienast", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656190559932185, -26.926680562980248 ], [ -48.6562672, -26.9267435 ] ] } }
+]
+}

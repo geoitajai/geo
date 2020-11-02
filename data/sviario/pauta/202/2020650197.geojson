@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2020650197", "cod": 202, "nome": "R.Laudeano José de Almeida", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.679864938650894, -26.902469228829855 ], [ -48.67986284, -26.90253121 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020650197", "cod": 203, "nome": "R.Menina Rosana da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.679933488722774, -26.902528480398139 ], [ -48.67986284, -26.90253121 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020650197", "cod": 203, "nome": "R.Menina Rosana da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67986284, -26.90253121 ], [ -48.679379381224301, -26.902540540452634 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020650197", "cod": 202, "nome": "R.Laudeano José de Almeida", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67986284, -26.90253121 ], [ -48.679781251847203, -26.90283524578097 ] ] } }
+]
+}

@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0054110250", "cod": 130, "nome": "Av.Nilo Bittencourt", "ptotalvia": 20.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.705256580685159, -26.911671261108502 ], [ -48.7052685, -26.91181741 ], [ -48.705272368558916, -26.912166334332305 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054110250", "cod": 1294, "nome": "R.Luiza Pereira Cardoso", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.7052685, -26.91181741 ], [ -48.705197013127055, -26.911820627065847 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054110250", "cod": 1293, "nome": "R.Leopoldo Cristiano de Miranda", "ptotalvia": 20.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.7058367542217, -26.91198794090722 ], [ -48.705321732781513, -26.912195494559036 ] ] } }
+]
+}

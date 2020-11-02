@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2110620125", "cod": 552, "nome": "R.Lico Amaral", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.673004927406353, -26.917688310631789 ], [ -48.67302466, -26.91794585 ], [ -48.673030890667853, -26.918018726541664 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110620125", "cod": 553, "nome": "R.Modesto Fernandes Vieira", "ptotalvia": 13.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67302466, -26.91794585 ], [ -48.672952127699808, -26.917946972785025 ] ] } }
+]
+}

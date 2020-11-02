@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2020260423", "cod": 221, "nome": "R.Pedro Antônio Fayal", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.671956825996261, -26.901151771438563 ], [ -48.67201738, -26.90119863 ], [ -48.672236376002111, -26.901374869197561 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020260423", "cod": 161, "nome": "Av.Irineu Bornhausen", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.672302405543817, -26.90075792296437 ], [ -48.67201738, -26.90119863 ], [ -48.671971867097604, -26.90126674731243 ] ] } }
+]
+}

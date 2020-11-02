@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0030940070", "cod": 1220, "nome": "R.Mato Grosso", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69974097, -26.89767875 ], [ -48.699448821388401, -26.897686355892308 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0030940070", "cod": 1213, "nome": "Trav.Terezinha", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69973719, -26.89755736 ], [ -48.69974097, -26.89767875 ], [ -48.699744127029199, -26.897740209852326 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0030940070", "cod": 1212, "nome": "R.Manaus", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.699831530181044, -26.897552077414105 ], [ -48.69973719, -26.89755736 ] ] } }
+]
+}

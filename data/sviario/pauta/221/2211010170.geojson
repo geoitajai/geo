@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2211010170", "cod": 565, "nome": "R.Antero Chaves", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.680739784658506, -26.921176408252361 ], [ -48.68080655, -26.9211745 ], [ -48.681106790140333, -26.921167456198926 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2211010170", "cod": 568, "nome": "R.Eugênio Geraldino Franca", "ptotalvia": 12.0, "ppasseio1": 5.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68080655, -26.9211745 ], [ -48.680807486662012, -26.921228228822283 ] ] } }
+]
+}

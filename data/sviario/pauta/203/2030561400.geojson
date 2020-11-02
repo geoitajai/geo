@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2030561400", "cod": 1269, "nome": "R.César Augusto Dalsóquio", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.719531922564961, -26.878821984358428 ], [ -48.718926726860495, -26.878967322270476 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2030561400", "cod": 1285, "nome": "R.Hermes Justino Patrianova", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.719699120183165, -26.880619344093081 ], [ -48.71955863, -26.88062981 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2030561400", "cod": 1286, "nome": "R.Nelson Bittencourt", "ptotalvia": 20.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.719833409849649, -26.882367086445864 ], [ -48.71968837, -26.8823753 ] ] } }
+]
+}

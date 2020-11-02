@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2210520460", "cod": 845, "nome": "R.Raimundo Binder", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.683219063813809, -26.928093306412112 ], [ -48.68287506, -26.92813334 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210520460", "cod": 265, "nome": "Av.Ver.Abrahão João Francisco", "ptotalvia": 29.4, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.682995580014449, -26.928209090001136 ], [ -48.68298081, -26.928199339999988 ], [ -48.68287506, -26.92813334 ], [ -48.682673542175614, -26.927993305300355 ] ] } }
+]
+}

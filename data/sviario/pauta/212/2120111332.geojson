@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2120111332", "cod": 170, "nome": "R.Anísio Costa", "ptotalvia": 7.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676444109941386, -26.895898501242975 ], [ -48.67634043000001, -26.89581501 ], [ -48.67604139, -26.8955775 ], [ -48.676030993080559, -26.895569274928395 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2120111332", "cod": 168, "nome": "R.João Melquíades Fernandes", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676701670667519, -26.895802769928412 ], [ -48.67634043000001, -26.89581501 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2120111332", "cod": 161, "nome": "Av.Irineu Bornhausen", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676219553468911, -26.895395913369711 ], [ -48.67604139, -26.8955775 ], [ -48.676021808472854, -26.895596868833245 ] ] } }
+]
+}

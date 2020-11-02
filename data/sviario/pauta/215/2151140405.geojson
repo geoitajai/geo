@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2151140405", "cod": 1331, "nome": "R.Dalva Santos Estanislau", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.74688013, -26.87796851 ], [ -48.746784130780199, -26.877976652915727 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2151140405", "cod": 1314, "nome": "R.Ver.Pedro João de Souza Filho", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.746870903521987, -26.877854133777493 ], [ -48.74688013, -26.87796851 ], [ -48.746899501003817, -26.878174607261975 ] ] } }
+]
+}

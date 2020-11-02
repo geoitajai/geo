@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2154501000", "cod": 1310, "nome": "R.Bruno Vicente da Luz", "ptotalvia": 26.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.760609382019176, -26.872652038134969 ], [ -48.76061039, -26.87269325 ], [ -48.76053654, -26.87335929 ], [ -48.76036423, -26.87425466 ], [ -48.76033688, -26.874603539999988 ], [ -48.760285250860193, -26.875388593326104 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2154501000", "cod": 1310, "nome": "R.Bruno Vicente da Luz", "ptotalvia": 26.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.760608765395013, -26.872707902137694 ], [ -48.76053654, -26.87335929 ], [ -48.76036423, -26.87425466 ], [ -48.76033688, -26.874603539999988 ], [ -48.760290413928622, -26.875310086425209 ] ] } }
+]
+}

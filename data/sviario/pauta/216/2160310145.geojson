@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2160310145", "cod": 1731, "nome": "Av.Marginal Sul", "ptotalvia": 30.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.713126515997914, -26.942881095791186 ], [ -48.712983706250178, -26.942810835536346 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2160310145", "cod": 1477, "nome": "R.Germano Dagnoni", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.71323292, -26.94304923 ], [ -48.712813983786525, -26.942850092290577 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2160310145", "cod": 1470, "nome": "R.Manoel da Silva", "ptotalvia": 8.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.713231738482193, -26.942940953228995 ], [ -48.713234547994659, -26.943199203477718 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2160310145", "cod": 1477, "nome": "R.Germano Dagnoni", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.71252660116987, -26.942958233228094 ], [ -48.712535764714978, -26.943196170922342 ] ] } }
+]
+}

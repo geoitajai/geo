@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2160400100", "cod": 1478, "nome": "R.Benjamim Dagnoni", "ptotalvia": 22.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.711956323261788, -26.945378911490849 ], [ -48.71189991, -26.94547281 ], [ -48.711571782670802, -26.945919268826774 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2160400100", "cod": 1469, "nome": "R.Chrispim Evaristo", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.71189332458453, -26.945334807965821 ], [ -48.71189991, -26.94547281 ] ] } }
+]
+}

@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2020610246", "cod": 186, "nome": "R.Otto Praun", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677264148567531, -26.901115616244962 ], [ -48.67713977, -26.90130433 ], [ -48.67708236199848, -26.90136953366062 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020610246", "cod": 227, "nome": "R.Indaial", "ptotalvia": 17.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677611166303038, -26.901224975385329 ], [ -48.677623693715375, -26.901634083674399 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020610246", "cod": 209, "nome": "R.José Quirino", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677068056266478, -26.901246891562373 ], [ -48.67713977, -26.90130433 ], [ -48.677605833241714, -26.901650691016133 ] ] } }
+]
+}

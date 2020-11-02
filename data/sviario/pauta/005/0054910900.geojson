@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0054910900", "cod": 125, "nome": "R.Catarina dos Passos Bosco", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70262009, -26.90705113 ], [ -48.702522703931741, -26.907055500206496 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054910900", "cod": 33, "nome": "R.Jaziel José Rosa", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702612287154736, -26.906911054278076 ], [ -48.70262009, -26.90705113 ], [ -48.702629053469515, -26.907212290796583 ] ] } }
+]
+}

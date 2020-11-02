@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0050140557", "cod": 56, "nome": "R.Antônio Ayres dos Santos", "ptotalvia": 13.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692114986400433, -26.89681761891363 ], [ -48.69211716, -26.89691843 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050140557", "cod": 57, "nome": "R.Rui Vieira", "ptotalvia": 8.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692323448096069, -26.896912861946195 ], [ -48.69211716, -26.89691843 ], [ -48.691898668587392, -26.896925866145128 ] ] } }
+]
+}

@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0030560195", "cod": 1147, "nome": "R.Iolando Benvenutti Júnior", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695505881372675, -26.896133758609746 ], [ -48.6955093, -26.89619281 ], [ -48.695528314639716, -26.896462006592877 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0030560195", "cod": 1150, "nome": "R.Amapá", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6955093, -26.89619281 ], [ -48.695446722312496, -26.896195441570022 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0030560195", "cod": 1150, "nome": "R.Amapá", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695945626391598, -26.896170276215095 ], [ -48.6955093, -26.89619281 ] ] } }
+]
+}

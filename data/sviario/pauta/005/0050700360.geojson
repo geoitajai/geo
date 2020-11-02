@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0050700360", "cod": 108, "nome": "R.Alvina Ramos", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.694002659936494, -26.909905701242202 ], [ -48.69395342, -26.90988354 ], [ -48.693618345098578, -26.909890897182478 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050700360", "cod": 50, "nome": "R.Luiz Lopes Gonzaga", "ptotalvia": 13.2, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69394854, -26.90968048 ], [ -48.69395342, -26.90988354 ], [ -48.693955338391838, -26.909948132252424 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050700360", "cod": 50, "nome": "R.Luiz Lopes Gonzaga", "ptotalvia": 13.2, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693946065533716, -26.90957758806039 ], [ -48.69394854, -26.90968048 ] ] } }
+]
+}

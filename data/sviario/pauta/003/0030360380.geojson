@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0030360380", "cod": 1114, "nome": "R.São Cristóvão", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693096123325894, -26.890750875820252 ], [ -48.69311874, -26.89114541 ], [ -48.693121601019726, -26.891191565823018 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0030360380", "cod": 1129, "nome": "R.Henrique Borba dos Santos", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693418722613622, -26.891125948207364 ], [ -48.693065388565813, -26.891148494278728 ] ] } }
+]
+}

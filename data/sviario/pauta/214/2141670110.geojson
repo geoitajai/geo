@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2141670110", "cod": 598, "nome": "R.Prát.Adolfinho Lindalvo Costa", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.628902644826688, -26.959331107720068 ], [ -48.62875727, -26.95934232 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2141670110", "cod": 599, "nome": "Av.Dr.José Medeiros Vieira", "ptotalvia": 0.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.62875727, -26.95934232 ], [ -48.628778371766757, -26.959275218397618 ] ] } }
+]
+}

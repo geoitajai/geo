@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2020840041", "cod": 240, "nome": "R.Joaquim José de Freitas", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674532535735317, -26.905703045471334 ], [ -48.67467783, -26.90570001 ], [ -48.674925531781291, -26.905692784986019 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020840041", "cod": 1580, "nome": "R.Theresinha Bella Cruz Jasper", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67467096829116, -26.905786726551238 ], [ -48.67467783, -26.90570001 ] ] } }
+]
+}

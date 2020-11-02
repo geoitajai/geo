@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0051550185", "cod": 895, "nome": "R.Lino do Amaral", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695763832114856, -26.916078983668594 ], [ -48.69578277, -26.91643367 ], [ -48.695787576121703, -26.916495800478195 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0051550185", "cod": 910, "nome": "R.Das Petúnias", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69578277, -26.91643367 ], [ -48.69548916, -26.91644989 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0051550185", "cod": 910, "nome": "R.Das Petúnias", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69548916, -26.91644989 ], [ -48.69547323720667, -26.916450769142294 ] ] } }
+]
+}

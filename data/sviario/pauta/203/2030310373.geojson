@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2030310373", "cod": 1061, "nome": "R.José Luiz Marcelino", "ptotalvia": 10.2, "ppasseio1": 1.6, "ppasseio2": 1.6 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.708671253962144, -26.87477733083232 ], [ -48.708160698607799, -26.873985306678929 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2030310373", "cod": 1071, "nome": "Av.Dr.Nereu Ramos", "ptotalvia": 13.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.707666810226435, -26.874220240291649 ], [ -48.707724350844735, -26.87523472402934 ] ] } }
+]
+}

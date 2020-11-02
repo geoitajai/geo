@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2120460015", "cod": 456, "nome": "Trav.Cambé", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67163157, -26.88735372 ], [ -48.671487396463583, -26.887522967954016 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2120460015", "cod": 457, "nome": "R.Manoel Gaya", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67163157, -26.88735372 ], [ -48.671577640235874, -26.887309194195911 ] ] } }
+]
+}

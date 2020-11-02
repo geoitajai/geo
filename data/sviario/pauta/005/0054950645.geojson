@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0054950645", "cod": 33, "nome": "R.Jaziel José Rosa", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702848219280597, -26.911252503428006 ], [ -48.702870719120568, -26.911560761196707 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054950645", "cod": 1300, "nome": "R.Tilda Macena de Almeida", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.703128704515251, -26.911552748338732 ], [ -48.702975562735602, -26.911572121902623 ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0052831560", "cod": 54, "nome": "R.Marcelino Ramos", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691719918556302, -26.895973536858431 ], [ -48.691569819595578, -26.895885930856924 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0052831560", "cod": 55, "nome": "R.Guilherme Genuíno Rhenius", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691727174776943, -26.896210546825188 ], [ -48.691352163246371, -26.896224815337696 ] ] } }
+]
+}

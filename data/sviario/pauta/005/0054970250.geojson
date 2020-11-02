@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0054970250", "cod": 891, "nome": "R.Mônica Gizele Elisio", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691987871981226, -26.931259742256778 ], [ -48.692188255127341, -26.93136499518214 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054970250", "cod": 926, "nome": "Av.Min.Luiz Gallotti", "ptotalvia": 17.2, "ppasseio1": 3.25, "ppasseio2": 3.25 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692399118066092, -26.931151186557312 ], [ -48.692197942404242, -26.931367090520425 ] ] } }
+]
+}

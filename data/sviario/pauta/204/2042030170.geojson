@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2042030170", "cod": 707, "nome": "R.João Fernandes Vieira Junior", "ptotalvia": 10.5, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.650615277206207, -26.929079017633637 ], [ -48.65062671, -26.9291421 ], [ -48.650672586247268, -26.929411099460253 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2042030170", "cod": 698, "nome": "R.Iolanda Ardigó", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65069442552754, -26.929130848727574 ], [ -48.65062671, -26.9291421 ] ] } }
+]
+}

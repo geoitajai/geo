@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2141080189", "cod": 799, "nome": "R.Maria Furtado Cabral", "ptotalvia": 18.5, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.63056654, -26.94760946 ], [ -48.630633849694419, -26.947604484333642 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2141080189", "cod": 782, "nome": "R.Delfim Mário Pádua Peixoto", "ptotalvia": 20.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.630575736860656, -26.947740716213037 ], [ -48.630553257132497, -26.947420086252897 ] ] } }
+]
+}

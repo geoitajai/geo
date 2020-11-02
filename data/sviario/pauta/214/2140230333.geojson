@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2140230333", "cod": 754, "nome": "R.Mar.Floriano Peixoto", "ptotalvia": 8.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.632240970896767, -26.929615888971632 ], [ -48.63205035, -26.929821 ], [ -48.631983053553547, -26.929890995279511 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140230333", "cod": 763, "nome": "R.Juvêncio Tavares D'Amaral", "ptotalvia": 12.4, "ppasseio1": 4.4, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.631231995719077, -26.929315642091652 ], [ -48.63125794, -26.92930281 ], [ -48.631670722982584, -26.929018687275185 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140230333", "cod": 776, "nome": "R.Benjamim Constant", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.631254219800198, -26.929358034463988 ], [ -48.63125794, -26.92930281 ] ] } }
+]
+}

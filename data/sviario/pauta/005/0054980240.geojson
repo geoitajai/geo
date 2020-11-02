@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0054980240", "cod": 1009, "nome": "R.Carlos Bernardes", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69250075, -26.93010988 ], [ -48.692464755437406, -26.930193453255146 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054980240", "cod": 1008, "nome": "R.P.Gilberto Mafra", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692653534473123, -26.930162938240755 ], [ -48.69250075, -26.93010988 ], [ -48.692383698200729, -26.930082884796242 ] ] } }
+]
+}

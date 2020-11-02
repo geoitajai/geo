@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0050110335", "cod": 106, "nome": "R.José Santangelo", "ptotalvia": 6.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.688842840710606, -26.909101892553608 ], [ -48.68881385, -26.90910263 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050110335", "cod": 60, "nome": "R.Estefano José Vanolli", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68881377, -26.90909216 ], [ -48.68881385, -26.90910263 ], [ -48.688813850003392, -26.909161080746912 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050110335", "cod": 60, "nome": "R.Estefano José Vanolli", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68881191907041, -26.90885155698237 ], [ -48.68881377, -26.90909216 ] ] } }
+]
+}

@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2151110245", "cod": 1323, "nome": "R.Luiz Castro", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.750071528637555, -26.878323621106471 ], [ -48.75007463, -26.87836228 ], [ -48.750162056230018, -26.879405766238623 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2151110245", "cod": 1324, "nome": "R.Augusto Cugnier", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.750582112589697, -26.878295097518045 ], [ -48.75058541, -26.87832935 ], [ -48.750668198875658, -26.879366765101206 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2151110245", "cod": 1334, "nome": "Av.Domingos de Almeida", "ptotalvia": 26.0, "ppasseio1": 5.0, "ppasseio2": 5.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.750638841100091, -26.878325430803404 ], [ -48.75058541, -26.87832935 ], [ -48.75007463, -26.87836228 ], [ -48.750014104678215, -26.878365352953967 ] ] } }
+]
+}

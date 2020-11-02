@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2160680010", "cod": 1484, "nome": "R.Reynoldo Merlo", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.756054918795201, -26.959711528062574 ], [ -48.756058, -26.95978677 ], [ -48.75603186, -26.95999836 ], [ -48.755987989973924, -26.960082057064014 ] ] } }
+]
+}

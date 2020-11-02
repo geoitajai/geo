@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2041870187", "cod": 636, "nome": "R.Júlia Raulina Chaves", "ptotalvia": 7.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.655662850446113, -26.921286294739332 ], [ -48.65639651, -26.92191455 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2041870187", "cod": 684, "nome": "R.José Gopertino Chaves", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.654837462687446, -26.921753981545454 ], [ -48.65573313, -26.92252161 ], [ -48.655700314521063, -26.922620768348178 ] ] } }
+]
+}

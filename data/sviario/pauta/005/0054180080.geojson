@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0054180080", "cod": 130, "nome": "Av.Nilo Bittencourt", "ptotalvia": 20.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.705247831821914, -26.911563986640139 ], [ -48.7052685, -26.91181741 ], [ -48.705268697118001, -26.911835188907578 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054180080", "cod": 1294, "nome": "R.Luiza Pereira Cardoso", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.7052685, -26.91181741 ], [ -48.70481405415763, -26.911837860435817 ] ] } }
+]
+}

@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2030780400", "cod": 1175, "nome": "Marginal Leste", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.727393937090596, -26.858109824990773 ], [ -48.727286292984729, -26.857508258798276 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2030780400", "cod": 1269, "nome": "R.César Augusto Dalsóquio", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.72434776199826, -26.857442479921964 ], [ -48.72435837, -26.85749324 ], [ -48.72454688, -26.85823474 ], [ -48.724568728020941, -26.858279473904826 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2030780400", "cod": 1272, "nome": "R.Domingos Silva", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.72721220109824, -26.857367538042766 ], [ -48.72435837, -26.85749324 ] ] } }
+]
+}

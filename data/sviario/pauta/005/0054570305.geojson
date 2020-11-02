@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0054570305", "cod": 987, "nome": "R.Andrelino Werner", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702368240578181, -26.926938428162345 ], [ -48.70215016, -26.92714904 ], [ -48.702119913030494, -26.927178842724778 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054570305", "cod": 946, "nome": "R.Otília Damasceno", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70211274491411, -26.927117740696826 ], [ -48.70215016, -26.92714904 ], [ -48.702463175327317, -26.92741584987089 ] ] } }
+]
+}

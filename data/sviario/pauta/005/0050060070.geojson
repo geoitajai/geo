@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0050060070", "cod": 21, "nome": "R.Gaspar da Costa Moraes", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.688773970291784, -26.901699554497121 ], [ -48.68870263, -26.90170113 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050060070", "cod": 60, "nome": "R.Estefano José Vanolli", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68869927819101, -26.901576399036056 ], [ -48.68870263, -26.90170113 ], [ -48.688705602189977, -26.901936268602562 ] ] } }
+]
+}

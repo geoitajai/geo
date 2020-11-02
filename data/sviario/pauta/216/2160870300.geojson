@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2160870300", "cod": 1586, "nome": "R.Luiz Alcebiades Pereira", "ptotalvia": 25.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.775821808126707, -27.00202269694589 ], [ -48.77592775, -27.00232386 ], [ -48.77608591, -27.00281668 ], [ -48.77622722, -27.00308914 ], [ -48.77661089, -27.00374083 ], [ -48.77689824, -27.00420457 ] ] } }
+]
+}

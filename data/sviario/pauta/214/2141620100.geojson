@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2141620100", "cod": 588, "nome": "R.Octacílio da Silva Costa", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.632054454214561, -26.956998999227963 ], [ -48.63198391, -26.95740484 ], [ -48.631968525272534, -26.957466206604497 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2141620100", "cod": 595, "nome": "R.Miguel Francisco Borges", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.63198391, -26.95740484 ], [ -48.631465189156962, -26.957280807302698 ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2110410998", "cod": 163, "nome": "R.Alberto Werner", "ptotalvia": 13.2, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.670305443307896, -26.916152049279859 ], [ -48.67031966, -26.91627544 ], [ -48.670311222554503, -26.916449005796014 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110410998", "cod": 267, "nome": "Trav.André Barbi", "ptotalvia": 18.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.670713712381506, -26.91640040521666 ], [ -48.670405705809877, -26.916535921448244 ] ] } }
+]
+}

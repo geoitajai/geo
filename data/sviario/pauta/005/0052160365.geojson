@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0052160365", "cod": 37, "nome": "Av.Campos Novos", "ptotalvia": 21.0, "ppasseio1": 5.0, "ppasseio2": 5.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70031186, -26.90487279 ], [ -48.700316166060432, -26.904955556105026 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0052160365", "cod": 37, "nome": "Av.Campos Novos", "ptotalvia": 21.0, "ppasseio1": 5.0, "ppasseio2": 5.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700299082024777, -26.904627203059846 ], [ -48.70031186, -26.90487279 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0052160365", "cod": 15, "nome": "R.Arq.Nilson Edson dos Santos", "ptotalvia": 21.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700761046487642, -26.904898940543241 ], [ -48.70031494, -26.9049218 ], [ -48.700294415714488, -26.90492250871257 ] ] } }
+]
+}

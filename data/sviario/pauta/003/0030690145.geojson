@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0030690145", "cod": 1207, "nome": "Av.Brasília", "ptotalvia": 18.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698262061128183, -26.89494641223154 ], [ -48.69826462, -26.89500243 ], [ -48.698278373239837, -26.895375495163314 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0030690145", "cod": 1151, "nome": "R.Maranhão", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698304536415534, -26.895001174934336 ], [ -48.69826462, -26.89500243 ], [ -48.697942819684009, -26.895013956901551 ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0054540005", "cod": 987, "nome": "R.Andrelino Werner", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.701142399966848, -26.928141986211866 ], [ -48.70093811, -26.92834327 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054540005", "cod": 984, "nome": "R.Maria Alves Mafra", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700879190236407, -26.928292685788126 ], [ -48.70093811, -26.92834327 ], [ -48.701239150302655, -26.928596597785553 ] ] } }
+]
+}

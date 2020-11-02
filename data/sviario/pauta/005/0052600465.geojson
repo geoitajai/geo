@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0052600465", "cod": 71, "nome": "R.Abelardo Luz", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.687838829464354, -26.896872900957316 ], [ -48.687834554073767, -26.897215029826636 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0052600465", "cod": 72, "nome": "R.Maravilha", "ptotalvia": 4.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68748101357523, -26.896865638040978 ], [ -48.687474366906031, -26.897217559264757 ] ] } }
+]
+}

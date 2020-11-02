@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2031851243", "cod": 1063, "nome": "R.Lídia Puel Peixer", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70024394348696, -26.879694399698362 ], [ -48.70024508, -26.87970634 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2031851243", "cod": 1095, "nome": "R.Ver.Telêmaco de Oliveira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70035721307211, -26.879922079120192 ], [ -48.70032337, -26.87993183 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2031851243", "cod": 1095, "nome": "R.Ver.Telêmaco de Oliveira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70024508, -26.87970634 ], [ -48.700309948225303, -26.880946564609133 ] ] } }
+]
+}

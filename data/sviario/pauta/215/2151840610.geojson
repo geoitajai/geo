@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2151840610", "cod": 1594, "nome": "R.Amelia Izabel Coelho", "ptotalvia": 18.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.7438826, -26.8849663 ], [ -48.743847827418399, -26.884583301888764 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2151840610", "cod": 1341, "nome": "Av.Demostenes Feminella Filho", "ptotalvia": 26.0, "ppasseio1": 5.0, "ppasseio2": 5.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.743902250660199, -26.884967835814884 ], [ -48.7438826, -26.8849663 ], [ -48.743491378724848, -26.884957274897239 ] ] } }
+]
+}

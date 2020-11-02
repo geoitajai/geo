@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2031420010", "cod": 1039, "nome": "R.Orlandina Amália Pires Corrêa", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698928464436051, -26.873180895801436 ], [ -48.69893482, -26.87328928 ], [ -48.698949287758381, -26.873659429015202 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2031420010", "cod": 1061, "nome": "R.José Luiz Marcelino", "ptotalvia": 10.2, "ppasseio1": 1.6, "ppasseio2": 1.6 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.699276002804787, -26.873530314767027 ], [ -48.698965043486282, -26.873660187496526 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2031420010", "cod": 1038, "nome": "R.Pedro João de Souza", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.699234157581444, -26.873149178971207 ], [ -48.69893482, -26.87328928 ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2040250293", "cod": 628, "nome": "R.Bento Adriano Pereira", "ptotalvia": 5.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65564161, -26.91405314 ], [ -48.655119714194505, -26.913648459538464 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040250293", "cod": 281, "nome": "R.Camboriú", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.655755915224645, -26.91377225174686 ], [ -48.655619648894998, -26.914109521017213 ] ] } }
+]
+}

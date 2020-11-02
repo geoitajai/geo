@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2041190043", "cod": 885, "nome": "Trav.Arvoredo", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.686179306075395, -26.932843775351579 ], [ -48.68597755, -26.93307167 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2041190043", "cod": 884, "nome": "R.Ten.Antônio Quintas Maia", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.686351130955465, -26.933319612935986 ], [ -48.68597755, -26.93307167 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2041190043", "cod": 890, "nome": "R.Sol.Abelardo Mendonça Sobrinho", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.685982228037105, -26.932974945452923 ], [ -48.68597755, -26.93307167 ], [ -48.6859718304202, -26.933140128868764 ] ] } }
+]
+}

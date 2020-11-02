@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0054010190", "cod": 151, "nome": "R.Armando Fontolan", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.706797428790196, -26.914650382187649 ], [ -48.70645471, -26.9146626 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054010190", "cod": 151, "nome": "R.Armando Fontolan", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70645471, -26.9146626 ], [ -48.706429885543415, -26.914663484962411 ] ] } }
+]
+}

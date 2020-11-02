@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0051540003", "cod": 895, "nome": "R.Lino do Amaral", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69573686, -26.91544236 ], [ -48.69575074096953, -26.915795062176112 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0051540003", "cod": 904, "nome": "R.Sidney Schulze", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69573686, -26.91544236 ], [ -48.695431002081619, -26.9154580348468 ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2010310197", "cod": 372, "nome": "R.Dr.Aderbal Ramos da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65837644, -26.90893446 ], [ -48.658421823382035, -26.908971645228714 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010310197", "cod": 276, "nome": "Av.7 de Setembro", "ptotalvia": 18.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.658459751383781, -26.908733979722598 ], [ -48.65837644, -26.90893446 ], [ -48.658329394899916, -26.909045197083383 ] ] } }
+]
+}

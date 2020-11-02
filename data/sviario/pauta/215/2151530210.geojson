@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2151530210", "cod": 1311, "nome": "R.Marcos Aurélio Seára", "ptotalvia": 28.7, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.745210005601358, -26.870671692663034 ], [ -48.74521185, -26.87069269 ], [ -48.745230412847832, -26.870960046754014 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2151530210", "cod": 1315, "nome": "R.Maria Marques Rampelotti", "ptotalvia": 18.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.745622328125833, -26.870670597924796 ], [ -48.745201864963057, -26.870693253273785 ] ] } }
+]
+}

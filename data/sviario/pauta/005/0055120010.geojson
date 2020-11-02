@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0055120010", "cod": 144, "nome": "R.Benno Emmendorfer", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.707780537730237, -26.911270172650937 ], [ -48.70760418, -26.91127565 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0055120010", "cod": 143, "nome": "R.Alice dos Santos Bittencourt", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.707815327614313, -26.910822113369573 ], [ -48.707456218655508, -26.910836580782902 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0055120010", "cod": 1293, "nome": "R.Leopoldo Cristiano de Miranda", "ptotalvia": 20.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.707846748458735, -26.911179137099804 ], [ -48.70760418, -26.91127565 ], [ -48.707522319149604, -26.911308638618404 ] ] } }
+]
+}

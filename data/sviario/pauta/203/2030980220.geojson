@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2030980220", "cod": 1097, "nome": "R.Maurício da Silva", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69909839, -26.88119807 ], [ -48.699117850029204, -26.88153393017598 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2030980220", "cod": 1108, "nome": "R.Eurípedes Amorim Leal", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.699376034442437, -26.88117743053246 ], [ -48.69935492, -26.881179 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2030980220", "cod": 1108, "nome": "R.Eurípedes Amorim Leal", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69935492, -26.881179 ], [ -48.69909839, -26.88119807 ], [ -48.699050699262131, -26.881201505695341 ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2041250150", "cod": 888, "nome": "R.Pe.João Rodrigues de Almeida", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.686578408989661, -26.93489953671758 ], [ -48.68671871, -26.93499842 ], [ -48.686865595848374, -26.935100725472399 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2041250150", "cod": 889, "nome": "R.Marcus Gustavo Heusi", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68671871, -26.93499842 ], [ -48.686670539907169, -26.93505591027029 ] ] } }
+]
+}

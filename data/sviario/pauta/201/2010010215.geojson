@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2010010215", "cod": 282, "nome": "R.Lauro Muller", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.654998202118172, -26.908658889981083 ], [ -48.65498763, -26.90871814 ], [ -48.654920362575318, -26.909095201656825 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010010215", "cod": 277, "nome": "R.Alm.Tamandaré", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.655045870222423, -26.908734503591777 ], [ -48.65498763, -26.90871814 ], [ -48.654586759162051, -26.908596425614419 ] ] } }
+]
+}

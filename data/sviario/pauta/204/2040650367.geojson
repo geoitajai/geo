@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2040650367", "cod": 691, "nome": "R.Edmundo Kienast", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.654728656170228, -26.925480392522879 ], [ -48.65477037, -26.92551428 ], [ -48.655098466987688, -26.925783721827326 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040650367", "cod": 684, "nome": "R.José Gopertino Chaves", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.654788350898016, -26.925465938029905 ], [ -48.65477037, -26.92551428 ], [ -48.65467126, -26.92580699 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040650367", "cod": 684, "nome": "R.José Gopertino Chaves", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65467126, -26.92580699 ], [ -48.65466486, -26.92582589 ], [ -48.654663313935835, -26.925827357410952 ] ] } }
+]
+}

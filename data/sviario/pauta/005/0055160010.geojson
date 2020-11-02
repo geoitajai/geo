@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0055160010", "cod": 148, "nome": "R.Maria Pessoa Espíndola (Dona Continha)", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.707940953957589, -26.913256638095653 ], [ -48.70759912, -26.9132693 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0055160010", "cod": 148, "nome": "R.Maria Pessoa Espíndola (Dona Continha)", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70759912, -26.9132693 ], [ -48.707591128158676, -26.913269596009084 ] ] } }
+]
+}

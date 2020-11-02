@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2140710095", "cod": 805, "nome": "Av.Márcio Ferreira de Mello e Silva", "ptotalvia": 15.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.641603485478377, -26.953523945229037 ], [ -48.641605864446433, -26.95310054050632 ] ] } }
+]
+}

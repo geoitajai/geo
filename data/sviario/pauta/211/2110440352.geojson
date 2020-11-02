@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2110440352", "cod": 332, "nome": "R.Hilda Breitenbauch", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.669316896472921, -26.913123072288787 ], [ -48.6692466, -26.9132104 ], [ -48.669246893847578, -26.913210814869338 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110440352", "cod": 333, "nome": "R.Etelvina de Brito", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.669021210004004, -26.912788270993264 ], [ -48.668799064125693, -26.913079266404733 ] ] } }
+]
+}

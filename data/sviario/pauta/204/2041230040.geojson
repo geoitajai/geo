@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2041230040", "cod": 884, "nome": "R.Ten.Antônio Quintas Maia", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.686439453521672, -26.933378231681615 ], [ -48.686143550316721, -26.933181843438149 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2041230040", "cod": 890, "nome": "R.Sol.Abelardo Mendonça Sobrinho", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.685952860278775, -26.933367185649839 ], [ -48.685936719678651, -26.933560374113075 ] ] } }
+]
+}

@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2010230287", "cod": 290, "nome": "R.Hercílio Luz", "ptotalvia": 13.2, "ppasseio1": 3.5, "ppasseio2": 3.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.657024655234686, -26.905445414474666 ], [ -48.65676358, -26.90536523 ], [ -48.656714848534264, -26.90535087993181 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010230287", "cod": 298, "nome": "R.Manoel Vieira Garção", "ptotalvia": 13.0, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656779559520551, -26.905326410148621 ], [ -48.65676358, -26.90536523 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010230287", "cod": 295, "nome": "R.XV de Novembro", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65676358, -26.90536523 ], [ -48.65664424050442, -26.905733497921922 ] ] } }
+]
+}

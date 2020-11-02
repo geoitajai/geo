@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0051960010", "cod": 20, "nome": "R.Manoel Francisco Coelho", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697667374121963, -26.901953100228788 ], [ -48.69753078, -26.90196 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0051960010", "cod": 42, "nome": "R.Nova Trento", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697224714762271, -26.901917226824811 ], [ -48.69722942, -26.90197522 ], [ -48.697250143016667, -26.902247428555217 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0051960010", "cod": 20, "nome": "R.Manoel Francisco Coelho", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69753078, -26.90196 ], [ -48.69722942, -26.90197522 ], [ -48.697163852708414, -26.901979605946192 ] ] } }
+]
+}

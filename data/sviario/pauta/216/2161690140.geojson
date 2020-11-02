@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2161690140", "cod": 1265, "nome": "R.Pedro Angioletti", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.848655260085373, -27.038483697477908 ], [ -48.84865649, -27.03852731 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2161690140", "cod": 1262, "nome": "R.Francisco Jacob Khnis", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.848862616158989, -27.038920143416995 ], [ -48.848477630963686, -27.038940610204254 ] ] } }
+]
+}

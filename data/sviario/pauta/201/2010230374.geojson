@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2010230374", "cod": 295, "nome": "R.XV de Novembro", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656542498351982, -26.906047460234422 ], [ -48.65640754, -26.90646392 ], [ -48.656396531717562, -26.906498549732614 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010230374", "cod": 297, "nome": "R.Olímpio Miranda Júnior", "ptotalvia": 13.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656940146452747, -26.906539050819767 ], [ -48.65640754, -26.90646392 ], [ -48.656365072807944, -26.906457425647588 ] ] } }
+]
+}

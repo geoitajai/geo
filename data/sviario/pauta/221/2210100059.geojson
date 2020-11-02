@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2210100059", "cod": 518, "nome": "R.Egon Schauffert", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.679516693813227, -26.911328984691298 ], [ -48.67953851, -26.911725199999985 ], [ -48.67954043867271, -26.911769253039431 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210100059", "cod": 522, "nome": "R.Abdon David Schimidt", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.679916746978641, -26.911705098498885 ], [ -48.67953851, -26.911725199999985 ], [ -48.679481454062113, -26.91172777000283 ] ] } }
+]
+}

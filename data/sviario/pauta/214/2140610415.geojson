@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2140610415", "cod": 721, "nome": "R.Pedro Luiz da Silva", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.644441477919763, -26.92849555275971 ], [ -48.644111212904122, -26.928380646663737 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140610415", "cod": 720, "nome": "Serv.Anastácio José Paulo", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.644544615953485, -26.928270791729638 ], [ -48.644202909137036, -26.928155205171713 ] ] } }
+]
+}

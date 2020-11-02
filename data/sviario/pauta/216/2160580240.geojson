@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2160580240", "cod": 1453, "nome": "R.Antônio Bento da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.748816850717105, -26.946302616539366 ], [ -48.74884723, -26.9466489 ], [ -48.748864891660382, -26.946802966020368 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2160580240", "cod": 1454, "nome": "R.Sebastiana Correa Teixeira", "ptotalvia": 7.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.748958829723691, -26.946631540981503 ], [ -48.74884723, -26.9466489 ] ] } }
+]
+}

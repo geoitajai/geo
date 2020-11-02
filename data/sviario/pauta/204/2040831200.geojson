@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2040831200", "cod": 865, "nome": "R.José Cugnier", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677387318241479, -26.929113844220193 ], [ -48.67743994, -26.92922303 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040831200", "cod": 867, "nome": "R.Oswaldo Espíndola", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6771651, -26.92953435 ], [ -48.677040257573552, -26.929529039036929 ] ] } }
+]
+}

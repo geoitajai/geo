@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2120170500", "cod": 428, "nome": "R.Eliziário Pereira", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676568611775998, -26.893669709058397 ], [ -48.67651913, -26.8937293 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2120170500", "cod": 158, "nome": "R.Albino Gugelmin", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676596994597197, -26.893726839757012 ], [ -48.67651913, -26.8937293 ], [ -48.676216267055935, -26.893739468308642 ] ] } }
+]
+}

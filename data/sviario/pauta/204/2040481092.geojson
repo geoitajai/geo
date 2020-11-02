@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2040481092", "cod": 638, "nome": "R.Irmã Maria Zélia", "ptotalvia": 5.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.654712478205809, -26.921884883074611 ], [ -48.65475389, -26.92195047 ], [ -48.65474473, -26.92205823 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040481092", "cod": 684, "nome": "R.José Gopertino Chaves", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.654859670493643, -26.921773014852434 ], [ -48.65514637514999, -26.922018735604304 ] ] } }
+]
+}

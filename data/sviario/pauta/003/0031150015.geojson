@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0031150015", "cod": 1163, "nome": "R.Romualdo Sedrez", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.699427505827543, -26.887448027552754 ], [ -48.699456946563132, -26.888010014774249 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031150015", "cod": 1111, "nome": "Av.Dr.Reinaldo Schmithausen", "ptotalvia": 27.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.699865351386002, -26.887616798591431 ], [ -48.69967707, -26.88754576 ], [ -48.699458025680968, -26.887438499218028 ] ] } }
+]
+}

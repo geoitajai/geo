@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2030942139", "cod": 1108, "nome": "R.Eurípedes Amorim Leal", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69664196, -26.88131402 ], [ -48.696510106351155, -26.8813171223712 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2030942139", "cod": 1086, "nome": "R.Luiz José Medeiros", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696911412258046, -26.881036554127245 ], [ -48.6969223, -26.88130753 ], [ -48.696924849927143, -26.881377317423862 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2030942139", "cod": 1108, "nome": "R.Eurípedes Amorim Leal", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697000012940293, -26.881305603516815 ], [ -48.69664196, -26.88131402 ] ] } }
+]
+}

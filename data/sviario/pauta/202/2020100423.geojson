@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2020100423", "cod": 313, "nome": "Serv.Pedro Coschela", "ptotalvia": 5.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66612909, -26.90465909 ], [ -48.666104907680896, -26.904412996306174 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020100423", "cod": 160, "nome": "R.Heitor Liberato", "ptotalvia": 15.5, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.666380601281766, -26.904743198911973 ], [ -48.66612909, -26.90465909 ], [ -48.666061069184344, -26.904638417056688 ] ] } }
+]
+}

@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0030470100", "cod": 1143, "nome": "R.Mário Reis", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695227225758629, -26.893796558424167 ], [ -48.69523382, -26.89409283 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0030470100", "cod": 1147, "nome": "R.Iolando Benvenutti Júnior", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6953814, -26.8940782 ], [ -48.695387193628008, -26.894169914332025 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0030470100", "cod": 1145, "nome": "R.Antônio Müller Reis", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6953814, -26.8940782 ], [ -48.69523382, -26.89409283 ], [ -48.695177581899038, -26.89409894467672 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0030470100", "cod": 1145, "nome": "R.Antônio Müller Reis", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695633566029002, -26.894043657284712 ], [ -48.6953814, -26.8940782 ] ] } }
+]
+}

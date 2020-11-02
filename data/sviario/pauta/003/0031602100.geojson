@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0031602100", "cod": 1177, "nome": "R.Francisco Reis", "ptotalvia": 20.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.711047373854242, -26.893918779995523 ], [ -48.71104794, -26.89392842 ], [ -48.711123713821358, -26.894976611091838 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031602100", "cod": 1182, "nome": "R.Rosa Orsi Dalcóquio", "ptotalvia": 15.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.71178468975166, -26.89403140359688 ], [ -48.71104794, -26.89392842 ], [ -48.711038871282334, -26.893927146591178 ] ] } }
+]
+}

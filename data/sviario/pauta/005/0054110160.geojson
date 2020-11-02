@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0054110160", "cod": 146, "nome": "R.Maria Nunes da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.705838983562337, -26.912435100953985 ], [ -48.705487592283291, -26.912447901782972 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054110160", "cod": 1293, "nome": "R.Leopoldo Cristiano de Miranda", "ptotalvia": 20.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.705629215787539, -26.912071579227806 ], [ -48.705479348733711, -26.912131975615491 ] ] } }
+]
+}

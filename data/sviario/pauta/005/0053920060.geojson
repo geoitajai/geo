@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0053920060", "cod": 972, "nome": "R.Nancy Patino Reiser", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693086702954979, -26.928470786927818 ], [ -48.69311596, -26.92851395 ], [ -48.693330916180713, -26.928807488771952 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0053920060", "cod": 892, "nome": "Av.Ver.Nilo Simas", "ptotalvia": 20.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693270689246056, -26.92830137308616 ], [ -48.69311596, -26.92851395 ], [ -48.693084162218021, -26.928556932810352 ] ] } }
+]
+}

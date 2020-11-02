@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2210350463", "cod": 580, "nome": "R.Antônio Manoel Correia", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68362296, -26.91691174 ], [ -48.68317321685231, -26.91693820575523 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210350463", "cod": 159, "nome": "R.José Pereira Liberato", "ptotalvia": 12.5, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.683580345362522, -26.916819609652894 ], [ -48.68362296, -26.91691174 ], [ -48.683733727763467, -26.917147224102095 ] ] } }
+]
+}

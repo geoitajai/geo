@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2030840090", "cod": 1080, "nome": "R.Carlos Juvenal Gomes", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696093371454133, -26.876779946363939 ], [ -48.695727125644524, -26.876793787283624 ] ] } }
+]
+}

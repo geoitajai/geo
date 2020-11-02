@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0054330080", "cod": 107, "nome": "R.Profª.Erotides da Silva Fontes", "ptotalvia": 20.0, "ppasseio1": 3.5, "ppasseio2": 3.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.704690724857599, -26.909036378015486 ], [ -48.70509367, -26.90901996 ], [ -48.705110149644007, -26.90901915235025 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054330080", "cod": 130, "nome": "Av.Nilo Bittencourt", "ptotalvia": 20.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.705077468507596, -26.908655219818538 ], [ -48.70509367, -26.90901996 ], [ -48.705094395883918, -26.909031753192618 ] ] } }
+]
+}

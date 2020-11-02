@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2120670339", "cod": 475, "nome": "R.Mauricio Pacheco", "ptotalvia": 20.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.670321554056002, -26.884417383389767 ], [ -48.67036675, -26.88445646 ], [ -48.670688756946717, -26.884729348595577 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2120670339", "cod": 476, "nome": "R.Maria Edith Gonçalves da Rosa", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.670553861721238, -26.884278255023322 ], [ -48.67036675, -26.88445646 ], [ -48.670310962365363, -26.884521924517372 ] ] } }
+]
+}

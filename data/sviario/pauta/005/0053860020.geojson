@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0053860020", "cod": 970, "nome": "R.Anastácio José Mendes", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693703351071441, -26.927606976320302 ], [ -48.69373087, -26.92764555 ], [ -48.694027592538632, -26.928094760207802 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0053860020", "cod": 976, "nome": "R.Gélio Hercílio Corrêa", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.694232395015995, -26.927372291078488 ], [ -48.69415518, -26.92741439 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0053860020", "cod": 977, "nome": "R.Milton Jaques", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.694478697320392, -26.927762067368839 ], [ -48.6944159, -26.92779596 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0053860020", "cod": 892, "nome": "Av.Ver.Nilo Simas", "ptotalvia": 20.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.694018384508652, -26.927241476376182 ], [ -48.69373087, -26.92764555 ], [ -48.693688158727738, -26.927707430949379 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0053860020", "cod": 922, "nome": "R.P.Heribert José Schmith", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.694024013285841, -26.927241499990448 ], [ -48.69415518, -26.92741439 ], [ -48.6944159, -26.92779596 ], [ -48.694453198584796, -26.927857040803659 ] ] } }
+]
+}

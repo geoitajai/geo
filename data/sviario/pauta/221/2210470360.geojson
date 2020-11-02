@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2210470360", "cod": 541, "nome": "R.Ercides Mafra", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68194148, -26.92378701 ], [ -48.681989832765474, -26.924159810238606 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210470360", "cod": 537, "nome": "R.Pres.João Goulart", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.682332418027194, -26.923712734235572 ], [ -48.68226194, -26.92376578 ], [ -48.68194148, -26.92378701 ], [ -48.681885215531963, -26.923791709527304 ] ] } }
+]
+}

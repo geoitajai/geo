@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0051410160", "cod": 897, "nome": "R.Dos Girassóis", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.690940529557508, -26.915821562313852 ], [ -48.69096562, -26.91619864 ], [ -48.69096842773687, -26.916245165423017 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0051410160", "cod": 905, "nome": "R.Dr.Hermes Atílio Mariani", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691298507201374, -26.91617865828972 ], [ -48.69096562, -26.91619864 ], [ -48.690906205638022, -26.916200967188889 ] ] } }
+]
+}

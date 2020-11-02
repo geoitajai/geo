@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2160871500", "cod": 1527, "nome": "R.Benta Custodio Vieira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.774236129600574, -27.016152718759155 ], [ -48.77397411, -27.01635833 ], [ -48.77383287, -27.01653895 ], [ -48.77374315, -27.01669303 ], [ -48.77371383, -27.01691596 ], [ -48.7736771, -27.01698933 ], [ -48.7735709, -27.01708641 ], [ -48.77336694000001, -27.01721925 ] ] } }
+]
+}

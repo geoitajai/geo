@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2030490203", "cod": 1074, "nome": "R.Tiradentes", "ptotalvia": 9.5, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.709038602934093, -26.876077373584273 ], [ -48.70873966, -26.87586135 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2030490203", "cod": 1075, "nome": "R.Pç.Celso Pereira da Silva", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.708701886246033, -26.875901443494588 ], [ -48.70873966, -26.87586135 ], [ -48.70888238, -26.87570574 ], [ -48.708948025497847, -26.875638163649459 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2030490203", "cod": 1075, "nome": "R.Pç.Celso Pereira da Silva", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.708834527470174, -26.875655798664674 ], [ -48.70888238, -26.87570574 ] ] } }
+]
+}

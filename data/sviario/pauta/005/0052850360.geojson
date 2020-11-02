@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0052850360", "cod": 107, "nome": "R.Profª.Erotides da Silva Fontes", "ptotalvia": 20.0, "ppasseio1": 3.5, "ppasseio2": 3.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.699539120600356, -26.909255865783056 ], [ -48.69983055, -26.90924787 ], [ -48.699882735401758, -26.909246277597504 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0052850360", "cod": 152, "nome": "R.Concórdia", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.699808378003524, -26.908835245368781 ], [ -48.69983055, -26.90924787 ], [ -48.699832344667421, -26.909280088657638 ] ] } }
+]
+}

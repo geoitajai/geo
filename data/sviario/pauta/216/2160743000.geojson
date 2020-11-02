@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2160743000", "cod": 1723, "nome": "R.Alameda Mata Atlântica", "ptotalvia": 22.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.721540598723465, -26.954006587560684 ], [ -48.72153267, -26.95401438 ], [ -48.72138293, -26.95406433 ], [ -48.721153997212184, -26.954378009024911 ] ] } }
+]
+}

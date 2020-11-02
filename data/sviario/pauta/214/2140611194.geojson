@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2140611194", "cod": 745, "nome": "R.Alzira de Oliveira Pereira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.641204798625012, -26.93013212740123 ], [ -48.64119302, -26.93000542 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140611194", "cod": 747, "nome": "R.Pedro Salles dos Santos", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.64273844596768, -26.930029877117281 ], [ -48.64260837, -26.92998668 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140611194", "cod": 753, "nome": "R.Hilda Teixeira Zaguini", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.640601720347085, -26.928577537871572 ], [ -48.64068735, -26.9286439 ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2151810010", "cod": 1325, "nome": "R.Domingos Nunes dos Santos", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.75056079, -26.87341098 ], [ -48.750582880844256, -26.873683741830835 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2151810010", "cod": 1330, "nome": "R.Sem denominação oficial", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.750898217354397, -26.873633623094438 ], [ -48.75057925, -26.87364702 ] ] } }
+]
+}

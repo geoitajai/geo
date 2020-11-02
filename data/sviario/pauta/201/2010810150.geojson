@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2010810150", "cod": 274, "nome": "Av.Cel.Marcos Konder", "ptotalvia": 30.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.659716379692505, -26.911495068594238 ], [ -48.659589786467386, -26.911777983578528 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010810150", "cod": 370, "nome": "R.Paulo Caramuru da Silva", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.659511143404714, -26.911841249601402 ], [ -48.658942622605878, -26.911409894343535 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010810150", "cod": 371, "nome": "R.Ver.João Angelino Lopes Júnior", "ptotalvia": 11.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.659760473303415, -26.911389188357436 ], [ -48.659205614017573, -26.910930415399758 ] ] } }
+]
+}

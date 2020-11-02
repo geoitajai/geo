@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0051700090", "cod": 940, "nome": "R.Aldhemar Veiga", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702422596256191, -26.922094793532931 ], [ -48.70210793, -26.92183101 ], [ -48.70208420584725, -26.92180575374746 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0051700090", "cod": 926, "nome": "Av.Min.Luiz Gallotti", "ptotalvia": 17.2, "ppasseio1": 3.25, "ppasseio2": 3.25 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702340259443709, -26.921613369718784 ], [ -48.70210793, -26.92183101 ], [ -48.702072053061904, -26.921867100288434 ] ] } }
+]
+}

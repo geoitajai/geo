@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0050240400", "cod": 60, "nome": "R.Estefano José Vanolli", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.688708787781088, -26.902188292302235 ], [ -48.68870951, -26.90224543 ], [ -48.688727069870815, -26.902633360016253 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050240400", "cod": 29, "nome": "R.Antônio Cyrilo Dutra", "ptotalvia": 17.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68870951, -26.90224543 ], [ -48.688665270550977, -26.902239839696918 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050240400", "cod": 20, "nome": "R.Manoel Francisco Coelho", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.689128212965166, -26.902237637857542 ], [ -48.68870951, -26.90224543 ] ] } }
+]
+}

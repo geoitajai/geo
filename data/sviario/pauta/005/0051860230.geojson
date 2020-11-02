@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0051860230", "cod": 1019, "nome": "R.Alcides Bento Gonçalves", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69522593, -26.92844068 ], [ -48.695538266729564, -26.928696860210927 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0051860230", "cod": 926, "nome": "Av.Min.Luiz Gallotti", "ptotalvia": 17.2, "ppasseio1": 3.25, "ppasseio2": 3.25 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695438672251733, -26.92824398224117 ], [ -48.69522593, -26.92844068 ], [ -48.695205008434726, -26.928462144072274 ] ] } }
+]
+}

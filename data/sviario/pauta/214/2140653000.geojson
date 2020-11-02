@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2140653000", "cod": 735, "nome": "R.Tereza Francisca Pereira", "ptotalvia": 13.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.640308200051955, -26.935070976331804 ], [ -48.64118918, -26.93589123 ], [ -48.641705197314536, -26.936333954492074 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140653000", "cod": 736, "nome": "R.Venezuela", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.641240654110476, -26.934705525796478 ], [ -48.64125287, -26.934759039999985 ], [ -48.6414546, -26.93518797 ], [ -48.64171503, -26.93597446 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140653000", "cod": 586, "nome": "Av.Osvaldo Reis", "ptotalvia": 34.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.64190691483622, -26.936055596408309 ], [ -48.64186916, -26.936212 ], [ -48.641846986883323, -26.936298989134425 ] ] } }
+]
+}

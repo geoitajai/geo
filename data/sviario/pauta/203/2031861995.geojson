@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2031861995", "cod": 1098, "nome": "R.Hamilton Pimentel", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.701599103551708, -26.880757974302952 ], [ -48.701616972129862, -26.8811118057762 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2031861995", "cod": 1106, "nome": "R.Profº.Cosme Buzarello", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70191597463301, -26.880747002100161 ], [ -48.70193102, -26.88103328 ], [ -48.701934586892115, -26.881095180554379 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2031861995", "cod": 1108, "nome": "R.Eurípedes Amorim Leal", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702002126119595, -26.881030452490322 ], [ -48.70193102, -26.88103328 ], [ -48.70165552, -26.88104088 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2031861995", "cod": 1108, "nome": "R.Eurípedes Amorim Leal", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70165552, -26.88104088 ], [ -48.701532494542064, -26.881044282755255 ] ] } }
+]
+}

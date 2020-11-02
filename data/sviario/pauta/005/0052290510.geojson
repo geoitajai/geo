@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0052290510", "cod": 944, "nome": "R.Henrique Leonardo Deóla Pfitzer", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6997873545834, -26.922185887205355 ], [ -48.69995199, -26.92241885 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0052290510", "cod": 944, "nome": "R.Henrique Leonardo Deóla Pfitzer", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69995199, -26.92241885 ], [ -48.70000252730285, -26.92249036127599 ] ] } }
+]
+}

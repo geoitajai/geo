@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0031660130", "cod": 1143, "nome": "R.Mário Reis", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695227408712128, -26.893804778295674 ], [ -48.69523382, -26.89409283 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031660130", "cod": 1145, "nome": "R.Antônio Müller Reis", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69531418186164, -26.894084863533543 ], [ -48.69523382, -26.89409283 ], [ -48.694872816525418, -26.894132080912378 ] ] } }
+]
+}

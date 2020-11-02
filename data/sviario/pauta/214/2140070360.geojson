@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2140070360", "cod": 674, "nome": "R.Abel Adriano da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.646881432949584, -26.924043167762463 ], [ -48.646820150000011, -26.92407273 ], [ -48.64674874, -26.9241756 ], [ -48.646683421146342, -26.92442693614074 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140070360", "cod": 1717, "nome": "R.Guido Dutra Rosa", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.646436822446979, -26.924400338135737 ], [ -48.646287748023866, -26.924132111254504 ] ] } }
+]
+}

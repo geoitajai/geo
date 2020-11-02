@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2120310219", "cod": 483, "nome": "R.Henrique Dauer", "ptotalvia": 14.4, "ppasseio1": 1.9, "ppasseio2": 1.9 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68022186199952, -26.887391301490659 ], [ -48.68013761, -26.88728558 ], [ -48.679744230313354, -26.886969532770067 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2120310219", "cod": 157, "nome": "R.Blumenau", "ptotalvia": 14.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.680226233934945, -26.887459481264408 ], [ -48.679998207796416, -26.887585141097006 ] ] } }
+]
+}

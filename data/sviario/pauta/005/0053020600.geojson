@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0053020600", "cod": 1582, "nome": "Trav.Jarbas Gomes da Silva", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.699417281972394, -26.91308067190252 ], [ -48.69940798, -26.91307789 ], [ -48.699028856242315, -26.912966074339788 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0053020600", "cod": 153, "nome": "R.Acedilo Monteiro de Lima", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.699374647782889, -26.912458220087075 ], [ -48.69940798, -26.91307789 ] ] } }
+]
+}

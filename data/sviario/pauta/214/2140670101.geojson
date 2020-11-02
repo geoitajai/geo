@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2140670101", "cod": 727, "nome": "R.Artur Torquato Batista", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.645423051754925, -26.933616225525483 ], [ -48.64536824, -26.93367389 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140670101", "cod": 734, "nome": "R.Donato Pereira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -48.643452932852902, -26.932069453052705 ], [ -48.645668721183796, -26.933930742074438 ] ], [ [ -48.645711548573807, -26.933966716693824 ], [ -48.64629392, -26.934455899999989 ] ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140670101", "cod": 737, "nome": "R.Hudo Pereira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6434564, -26.93207184 ], [ -48.64319796, -26.932502 ], [ -48.64302981, -26.93246966 ], [ -48.642840984298765, -26.932379024039456 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140670101", "cod": 586, "nome": "Av.Osvaldo Reis", "ptotalvia": 34.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.642797658356933, -26.932384329658568 ], [ -48.642674535139719, -26.9325602982878 ] ] } }
+]
+}

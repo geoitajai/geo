@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2140100007", "cod": 1675, "nome": "R.Joaquim Luiz", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.644550517441694, -26.923284648486732 ], [ -48.64443673, -26.92318371 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140100007", "cod": 666, "nome": "R.Antônio Rocha D´Andrade", "ptotalvia": 12.8, "ppasseio1": 2.3, "ppasseio2": 2.3 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.647285605526797, -26.921696984414947 ], [ -48.6471777, -26.92157583 ], [ -48.647182174421097, -26.92152064648339 ] ] } }
+]
+}

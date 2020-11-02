@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0054930190", "cod": 118, "nome": "R.Joaçaba", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.701877344945913, -26.906918558726971 ], [ -48.701894480943103, -26.907256056450642 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054930190", "cod": 125, "nome": "R.Catarina dos Passos Bosco", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702321082774759, -26.907064547754182 ], [ -48.70218799, -26.90707052 ] ] } }
+]
+}

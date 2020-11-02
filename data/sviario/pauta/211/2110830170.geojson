@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2110830170", "cod": 548, "nome": "R.Manoel Anibal Pereira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675742076545838, -26.920815502918327 ], [ -48.67574663, -26.92087986 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110830170", "cod": 545, "nome": "R.José Gall", "ptotalvia": 15.6, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675832597645353, -26.920915593244125 ], [ -48.67574663, -26.92087986 ], [ -48.675462622738983, -26.920763564654056 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110830170", "cod": 548, "nome": "R.Manoel Anibal Pereira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67574663, -26.92087986 ], [ -48.675769612653369, -26.921219463845141 ] ] } }
+]
+}

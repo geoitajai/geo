@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2030250060", "cod": 1110, "nome": "R.Sebastião Romeu Soares", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.704440400144136, -26.883191508693791 ], [ -48.70403856, -26.88321205 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2030250060", "cod": 1102, "nome": "R.Américo Meinicke", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.704356010686631, -26.882936212879766 ], [ -48.704374569858416, -26.883260088830429 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2030250060", "cod": 1110, "nome": "R.Sebastião Romeu Soares", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70403856, -26.88321205 ], [ -48.703906322840062, -26.883218804890177 ] ] } }
+]
+}

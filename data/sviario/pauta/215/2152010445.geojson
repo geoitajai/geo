@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2152010445", "cod": 1606, "nome": "R.Nagibe Alexandre Aziati", "ptotalvia": 18.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.742156695681636, -26.869724305188253 ], [ -48.74224542, -26.86971916 ], [ -48.742659541789735, -26.869694984534618 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2152010445", "cod": 1602, "nome": "R.Euclides Alberto Melies", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.742240192845941, -26.869655513346625 ], [ -48.74224542, -26.86971916 ], [ -48.742272933800599, -26.870078261794021 ] ] } }
+]
+}

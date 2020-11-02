@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2040370077", "cod": 1607, "nome": "R.Júlio Willerding", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -48.659395265352799, -26.914232563297457 ], [ -48.65933282, -26.914303 ] ], [ [ -48.65933282, -26.914303 ], [ -48.659484721059748, -26.914434597529816 ] ], [ [ -48.659181670973027, -26.914190660730732 ], [ -48.65933282, -26.914303 ] ] ] } }
+]
+}

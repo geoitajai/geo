@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2010821000", "cod": 290, "nome": "R.Hercílio Luz", "ptotalvia": 13.2, "ppasseio1": 3.5, "ppasseio2": 3.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.654886777651043, -26.904820895464688 ], [ -48.6547995, -26.90479604 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010821000", "cod": 288, "nome": "Av.Pref.Paulo Bauer", "ptotalvia": 14.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.654993780057119, -26.904662554030818 ], [ -48.6547995, -26.90479604 ], [ -48.654632333829852, -26.905128787667152 ] ] } }
+]
+}

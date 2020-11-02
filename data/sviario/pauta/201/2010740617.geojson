@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2010740617", "cod": 379, "nome": "Trav.Sarg.Armando Barbosa", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66622995, -26.91532802 ], [ -48.66605095, -26.91549137 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010740617", "cod": 379, "nome": "Trav.Sarg.Armando Barbosa", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66605095, -26.91549137 ], [ -48.665950312618591, -26.915583214409875 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010740617", "cod": 380, "nome": "R.Juvenal Garcia", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.666282626175473, -26.915368428660578 ], [ -48.66622995, -26.91532802 ], [ -48.665991679145733, -26.915140634737032 ] ] } }
+]
+}

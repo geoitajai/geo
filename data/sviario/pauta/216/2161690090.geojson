@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2161690090", "cod": 1264, "nome": "R.Luiz Sétimo Trainotti", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.848061597560175, -27.038516547309818 ], [ -48.84806317000001, -27.03856495 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2161690090", "cod": 1262, "nome": "R.Francisco Jacob Khnis", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.848259682106814, -27.038952196444555 ], [ -48.847873489255313, -27.038972725757734 ] ] } }
+]
+}

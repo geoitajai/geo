@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0031260820", "cod": 1167, "nome": "R.José Rosa", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702857409881936, -26.894733587780376 ], [ -48.702878758717333, -26.895102494164838 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031260820", "cod": 1224, "nome": "Serv.Alcides Calixto Gonçalves Junior", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70238435408217, -26.895098516193563 ], [ -48.70247076, -26.89509256 ] ] } }
+]
+}

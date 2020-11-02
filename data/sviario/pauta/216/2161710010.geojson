@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2161710010", "cod": 1251, "nome": "R.Mineral", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.845804619721122, -27.040411590421289 ], [ -48.84582319, -27.040384239999987 ], [ -48.846042835991838, -27.040065646301674 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2161710010", "cod": 1260, "nome": "R.Manoel Dario Custódio", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.846405029990869, -27.040351846998366 ], [ -48.84582319, -27.040384239999987 ] ] } }
+]
+}

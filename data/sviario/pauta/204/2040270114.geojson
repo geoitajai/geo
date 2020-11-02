@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2040270114", "cod": 625, "nome": "R.Manoel Dono Morgado", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65453348, -26.9112724 ], [ -48.654606491246298, -26.91129847419397 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040270114", "cod": 280, "nome": "Av.Min.Victor Konder", "ptotalvia": 20.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.653755589669608, -26.910921655411212 ], [ -48.653704984311616, -26.911253910862893 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040270114", "cod": 282, "nome": "R.Lauro Muller", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.654579510788729, -26.911010842494566 ], [ -48.65453348, -26.9112724 ], [ -48.654517275716643, -26.91137102000275 ] ] } }
+]
+}

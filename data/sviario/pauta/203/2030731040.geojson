@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2030731040", "cod": 1269, "nome": "R.César Augusto Dalsóquio", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.72853443094489, -26.867678929094918 ], [ -48.72851417, -26.86779741 ], [ -48.7284799, -26.8680573 ], [ -48.728468966829496, -26.868149954076717 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2030731040", "cod": 1275, "nome": "R.Mathias Chrispim Ferreira", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.729037290706323, -26.867783005497181 ], [ -48.72901638, -26.86778412 ], [ -48.72851417, -26.86779741 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2030731040", "cod": 1276, "nome": "R.Antônio Vinotti", "ptotalvia": 4.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.729045672642272, -26.868039221673584 ], [ -48.7284799, -26.8680573 ] ] } }
+]
+}

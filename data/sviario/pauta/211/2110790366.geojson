@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2110790366", "cod": 552, "nome": "R.Lico Amaral", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.673215220846572, -26.921022216341999 ], [ -48.67323011, -26.9214716 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110790366", "cod": 265, "nome": "Av.Ver.Abrahão João Francisco", "ptotalvia": 29.4, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.673438439402432, -26.921612265411465 ], [ -48.67323011, -26.9214716 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110790366", "cod": 265, "nome": "Av.Ver.Abrahão João Francisco", "ptotalvia": 29.4, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67323011, -26.9214716 ], [ -48.673180808542085, -26.921437712751047 ] ] } }
+]
+}

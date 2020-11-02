@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2040450046", "cod": 656, "nome": "R.João Matias Heil", "ptotalvia": 12.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65682847, -26.91844111 ], [ -48.656868023869912, -26.918475742128962 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040450046", "cod": 266, "nome": "R.Uruguai", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.657093051962129, -26.918246223419153 ], [ -48.65682847, -26.91844111 ], [ -48.656759455566259, -26.918488071073472 ] ] } }
+]
+}

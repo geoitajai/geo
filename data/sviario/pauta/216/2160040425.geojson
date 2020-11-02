@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2160040425", "cod": 1422, "nome": "R.Henrique Antônio Custódio", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.739237495681586, -26.956751847870912 ], [ -48.73926741, -26.95715117 ], [ -48.739279247906943, -26.957338363965391 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2160040425", "cod": 1710, "nome": "R. Sem denominação oficial", "ptotalvia": 8.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.73926741, -26.95715117 ], [ -48.739172988600401, -26.957155533209701 ] ] } }
+]
+}

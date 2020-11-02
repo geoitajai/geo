@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0051450330", "cod": 908, "nome": "R.Das Papoulas", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69245369, -26.91763844 ], [ -48.691976838585774, -26.917661072932379 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0051450330", "cod": 896, "nome": "R.Das Hortências", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692450005978735, -26.917572388920696 ], [ -48.692473628469749, -26.917925958504199 ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2152060285", "cod": 1602, "nome": "R.Euclides Alberto Melies", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.741936602117164, -26.866047531677353 ], [ -48.74196879, -26.86641478 ], [ -48.74174996, -26.86642265 ], [ -48.741754739001983, -26.86648617065514 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2152060285", "cod": 1604, "nome": "R.Rad.Marinho Lopes Stringari", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.742009725959527, -26.86641127797353 ], [ -48.74196879, -26.86641478 ] ] } }
+]
+}

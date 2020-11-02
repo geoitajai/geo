@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2140660460", "cod": 736, "nome": "R.Venezuela", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.641357334796822, -26.934981159499976 ], [ -48.6414546, -26.93518797 ], [ -48.641475631775293, -26.935251485639402 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140660460", "cod": 586, "nome": "Av.Osvaldo Reis", "ptotalvia": 34.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.641918517577473, -26.934821073054696 ], [ -48.641917796279678, -26.935146127852676 ] ] } }
+]
+}

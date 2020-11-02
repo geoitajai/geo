@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0031240050", "cod": 1179, "nome": "R.Aracajú", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70174076, -26.89987876 ], [ -48.701634309466939, -26.899884210908628 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031240050", "cod": 1180, "nome": "Trav.Natal", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70174076, -26.89987876 ], [ -48.701749884608184, -26.90006188888297 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031240050", "cod": 1166, "nome": "R.Eredes Serpa", "ptotalvia": 12.5, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702179226354978, -26.899704536668796 ], [ -48.702198499378824, -26.900037789790009 ] ] } }
+]
+}

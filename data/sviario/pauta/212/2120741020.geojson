@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2120741020", "cod": 463, "nome": "R.Carlos Alberto Mayr", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674817712730281, -26.886554773457856 ], [ -48.67474885, -26.88649635 ], [ -48.674480689107092, -26.886275488987128 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2120741020", "cod": 466, "nome": "R.Manoel Moacir Werner", "ptotalvia": 6.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67480796956788, -26.886439185793904 ], [ -48.67478878, -26.88645774 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2120741020", "cod": 466, "nome": "R.Manoel Moacir Werner", "ptotalvia": 6.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67478878, -26.88645774 ], [ -48.67474885, -26.88649635 ], [ -48.674545657848626, -26.886696659204812 ] ] } }
+]
+}

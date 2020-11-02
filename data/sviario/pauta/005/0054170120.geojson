@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0054170120", "cod": 1559, "nome": "Serv.Heryk Fellipe de Oliveira Pereira", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.704820808009899, -26.91277146067025 ], [ -48.705074910978965, -26.912753931347098 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054170120", "cod": 1293, "nome": "R.Leopoldo Cristiano de Miranda", "ptotalvia": 20.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70505205056395, -26.912311579162768 ], [ -48.704752207503624, -26.912442465273227 ] ] } }
+]
+}

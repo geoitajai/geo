@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2210701965", "cod": 513, "nome": "R.Anibal César", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67803114, -26.91833079 ], [ -48.678027423807848, -26.918278137026103 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210701965", "cod": 578, "nome": "R.Imbituba", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.678054137155392, -26.918329682905718 ], [ -48.67803114, -26.91833079 ], [ -48.67802066, -26.91833114 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210701965", "cod": 578, "nome": "R.Imbituba", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67802066, -26.91833114 ], [ -48.67766394559667, -26.918343020684016 ] ] } }
+]
+}

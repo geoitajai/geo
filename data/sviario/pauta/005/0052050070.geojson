@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0052050070", "cod": 164, "nome": "Av.Gov.Adolfo Konder", "ptotalvia": 30.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692407332933534, -26.913023971989556 ], [ -48.692478974182656, -26.913048467656175 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0052050070", "cod": 10, "nome": "R.Antônio Ayres dos Santos", "ptotalvia": 13.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692371065393324, -26.913000028238343 ], [ -48.69236344, -26.91138569 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0052050070", "cod": 10, "nome": "R.Antônio Ayres dos Santos", "ptotalvia": 13.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69236344, -26.91138569 ], [ -48.692362979242269, -26.911288221146062 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0052050070", "cod": 50, "nome": "R.Luiz Lopes Gonzaga", "ptotalvia": 13.2, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69398392523329, -26.911264982578881 ], [ -48.69398416, -26.91136463 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0052050070", "cod": 50, "nome": "R.Luiz Lopes Gonzaga", "ptotalvia": 13.2, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69398416, -26.91136463 ], [ -48.69398873600931, -26.913293832754359 ] ] } }
+]
+}

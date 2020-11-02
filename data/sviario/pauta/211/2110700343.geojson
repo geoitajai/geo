@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2110700343", "cod": 573, "nome": "R.São João Batista", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677418741007799, -26.920964417360153 ], [ -48.67737325, -26.92096649 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110700343", "cod": 227, "nome": "R.Indaial", "ptotalvia": 17.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677369960344649, -26.920890486539481 ], [ -48.67737325, -26.92096649 ], [ -48.677383042402383, -26.921212967116588 ] ] } }
+]
+}

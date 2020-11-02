@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2210580420", "cod": 878, "nome": "R.Erna Hoier Corrêa", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695225848265359, -26.935130203063583 ], [ -48.69467411, -26.93547401 ], [ -48.6944347, -26.93553249 ], [ -48.69384529, -26.93552446 ], [ -48.693815267856984, -26.935536427730849 ] ] } }
+]
+}

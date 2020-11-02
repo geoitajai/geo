@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2040520470", "cod": 696, "nome": "R.Marciano Marquetti", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.651868815628127, -26.925412208676281 ], [ -48.65210264, -26.92560608 ], [ -48.652152282008366, -26.92564677656738 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040520470", "cod": 704, "nome": "R.Abraão Bernardino Rocha", "ptotalvia": 13.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.652392133971766, -26.925344312027509 ], [ -48.652048628698964, -26.925653552273221 ] ] } }
+]
+}

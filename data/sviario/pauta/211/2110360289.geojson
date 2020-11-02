@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2110360289", "cod": 486, "nome": "R.Francisco de Paula Seara", "ptotalvia": 11.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.673870625223174, -26.916102836506578 ], [ -48.67380716, -26.91610598 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110360289", "cod": 487, "nome": "R.Aristides Francisco Palumbo", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.673783277360741, -26.915703991493995 ], [ -48.67380716, -26.91610598 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110360289", "cod": 486, "nome": "R.Francisco de Paula Seara", "ptotalvia": 11.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67380716, -26.91610598 ], [ -48.673419413322094, -26.916123731118113 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110360289", "cod": 487, "nome": "R.Aristides Francisco Palumbo", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67380716, -26.91610598 ], [ -48.673810379532213, -26.916154749178741 ] ] } }
+]
+}

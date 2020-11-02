@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0053840010", "cod": 968, "nome": "R.Carlos Otto Priess", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693209427294804, -26.926368315421687 ], [ -48.69293185, -26.92652554 ], [ -48.692865100278922, -26.926562543886003 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0053840010", "cod": 970, "nome": "R.Anastácio José Mendes", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69273343367044, -26.926237387369451 ], [ -48.69293185, -26.92652554 ], [ -48.692976183389369, -26.926587684082985 ] ] } }
+]
+}

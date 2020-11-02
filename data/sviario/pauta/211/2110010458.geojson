@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2110010458", "cod": 494, "nome": "R.1º de Maio", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.669642007136886, -26.907479366903324 ], [ -48.66963979, -26.90746203 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110010458", "cod": 314, "nome": "R.Alfredo Trompowisky", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.669999067531464, -26.907421817841104 ], [ -48.66996652, -26.9074248 ], [ -48.66963979, -26.90746203 ], [ -48.669630489847272, -26.907462915142403 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110010458", "cod": 262, "nome": "Av.José Eugênio Muller", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66991055775167, -26.906966836390062 ], [ -48.66996652, -26.9074248 ], [ -48.669969792037257, -26.907452177006743 ] ] } }
+]
+}

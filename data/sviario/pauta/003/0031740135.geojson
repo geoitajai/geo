@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0031740135", "cod": 1144, "nome": "R.Alfredo Esser", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696683312815772, -26.893109812545273 ], [ -48.696701678382603, -26.893445375731226 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031740135", "cod": 1202, "nome": "R.Theodoro Benassi", "ptotalvia": 4.5, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697007690436344, -26.893073991824078 ], [ -48.69701302, -26.89315582 ] ] } }
+]
+}

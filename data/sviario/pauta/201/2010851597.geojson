@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2010851597", "cod": 266, "nome": "R.Uruguai", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.666056, -26.90783123 ], [ -48.665746796684097, -26.908102344751377 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010851597", "cod": 339, "nome": "R.Dr.Alexandre Fleming", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.665932808542777, -26.908281941216 ], [ -48.665780771388846, -26.908163608355125 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010851597", "cod": 314, "nome": "R.Alfredo Trompowisky", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66614245455326, -26.907801242763576 ], [ -48.666056, -26.90783123 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010851597", "cod": 284, "nome": "R.Alm.Barroso", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.666306185384506, -26.908032765805373 ], [ -48.666004087205636, -26.907789382283923 ] ] } }
+]
+}

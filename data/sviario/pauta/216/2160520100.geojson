@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2160520100", "cod": 1413, "nome": "Av.Itaipava", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.742230665204275, -26.945501418175979 ], [ -48.7421068, -26.94548588 ], [ -48.741724809158896, -26.945441940701805 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2160520100", "cod": 1447, "nome": "R.José Vitti", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.7421068, -26.94548588 ], [ -48.74214787, -26.94563743 ], [ -48.742144692123638, -26.945809035349452 ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2150660010", "cod": 1349, "nome": "R.Nono Emilio Dalçoquio", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.734372877215243, -26.876001311424169 ], [ -48.73439991, -26.87630506 ], [ -48.7344055668568, -26.87636561026272 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2150660010", "cod": 1359, "nome": "R.Francisca Casas Ramos", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.734471537003238, -26.876299149010475 ], [ -48.73439991, -26.87630506 ], [ -48.734021293985911, -26.876335274230538 ] ] } }
+]
+}

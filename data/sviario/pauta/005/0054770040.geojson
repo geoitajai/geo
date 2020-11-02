@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0054770040", "cod": 895, "nome": "R.Lino do Amaral", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695851901398122, -26.917409762110744 ], [ -48.69585492, -26.91745714 ], [ -48.695876263543056, -26.917737975707563 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054770040", "cod": 912, "nome": "R.dos Crisântemos", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69585492, -26.91745714 ], [ -48.695782174663719, -26.917460845148238 ] ] } }
+]
+}

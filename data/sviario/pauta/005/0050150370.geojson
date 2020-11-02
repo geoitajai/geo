@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0050150370", "cod": 60, "nome": "R.Estefano José Vanolli", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.688625301961224, -26.897563197557528 ], [ -48.68862533, -26.89757521 ], [ -48.688635861483228, -26.897868828745825 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050150370", "cod": 53, "nome": "R.Ver.Airton de Souza", "ptotalvia": 14.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.689048619531611, -26.897563291306103 ], [ -48.68862533, -26.89757521 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050150370", "cod": 62, "nome": "R.São Joaquim", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6886354, -26.89783056 ], [ -48.68860653490308, -26.89783056004412 ] ] } }
+]
+}

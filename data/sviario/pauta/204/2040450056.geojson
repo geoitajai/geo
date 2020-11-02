@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2040450056", "cod": 622, "nome": "R.Sem denominação oficial", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.657152468989558, -26.918148999474163 ], [ -48.65706531, -26.91809917 ], [ -48.656736968668227, -26.917810331295346 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040450056", "cod": 266, "nome": "R.Uruguai", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.657169900845822, -26.91818961760741 ], [ -48.656912685481082, -26.918379078439052 ] ] } }
+]
+}

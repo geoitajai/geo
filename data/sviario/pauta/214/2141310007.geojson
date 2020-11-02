@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2141310007", "cod": 594, "nome": "R.Pelicano", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.629754026147843, -26.957505353187454 ], [ -48.62936616, -26.95740607 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2141310007", "cod": 599, "nome": "Av.Dr.José Medeiros Vieira", "ptotalvia": 0.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.629345308811999, -26.95747237738685 ], [ -48.62936616, -26.95740607 ], [ -48.629479705695779, -26.957034969515238 ] ] } }
+]
+}

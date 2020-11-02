@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2030240346", "cod": 1110, "nome": "R.Sebastião Romeu Soares", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.704164979847739, -26.883205587781767 ], [ -48.70403856, -26.88321205 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2030240346", "cod": 1103, "nome": "R.Henrique Bianchini", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70375923910224, -26.883162492510387 ], [ -48.70376292, -26.88322613 ], [ -48.703777243994935, -26.883483351842429 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2030240346", "cod": 1110, "nome": "R.Sebastião Romeu Soares", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70403856, -26.88321205 ], [ -48.70376292, -26.88322613 ], [ -48.703702066858909, -26.883228226545434 ] ] } }
+]
+}

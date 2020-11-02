@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0031260270", "cod": 1166, "nome": "R.Eredes Serpa", "ptotalvia": 12.5, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.701914409674721, -26.895024964277223 ], [ -48.70192079, -26.89513047 ], [ -48.701936344058261, -26.895380065905893 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031260270", "cod": 1224, "nome": "Serv.Alcides Calixto Gonçalves Junior", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70192079, -26.89513047 ], [ -48.70247076, -26.89509256 ] ] } }
+]
+}

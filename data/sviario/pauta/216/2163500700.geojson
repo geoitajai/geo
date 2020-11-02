@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2163500700", "cod": 1478, "nome": "R.Benjamim Dagnoni", "ptotalvia": 22.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.713761798460013, -26.986908651867918 ], [ -48.71370095, -26.98787608 ], [ -48.713684701534703, -26.98796360586817 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2163500700", "cod": 1578, "nome": "Serv.Aloysius Wloch", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.71370095, -26.98787608 ], [ -48.71575669, -26.98855411 ], [ -48.715873113027861, -26.988472456279887 ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0031640060", "cod": 1112, "nome": "R.Santo Agostinho", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.694320538758141, -26.890162851749995 ], [ -48.694305835222771, -26.889832365102375 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031640060", "cod": 1152, "nome": "Trav.Rubi", "ptotalvia": 7.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.694797586525596, -26.890115084217339 ], [ -48.6946785, -26.8901165 ] ] } }
+]
+}

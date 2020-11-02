@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2120290346", "cod": 439, "nome": "R.Curt Hering", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68169467, -26.89040367 ], [ -48.681753934556077, -26.890504727480742 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2120290346", "cod": 439, "nome": "R.Curt Hering", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.681698305306391, -26.890544230894204 ], [ -48.68169467, -26.89040367 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2120290346", "cod": 438, "nome": "Trav.Equador", "ptotalvia": 13.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.681179454468513, -26.890646355818976 ], [ -48.68117678, -26.8905216 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2120290346", "cod": 439, "nome": "R.Curt Hering", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.681587623033643, -26.890140497382824 ], [ -48.68164325, -26.89025626 ], [ -48.68169467, -26.89040367 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2120290346", "cod": 443, "nome": "R.Almerindo Victor de Freitas", "ptotalvia": 6.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68164325, -26.89025626 ], [ -48.681725000926754, -26.89022581351831 ] ] } }
+]
+}

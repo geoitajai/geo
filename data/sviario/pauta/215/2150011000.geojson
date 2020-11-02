@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2150011000", "cod": 1176, "nome": "Marginal Oeste", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.724202413626678, -26.884076080075904 ], [ -48.72339069, -26.8860277 ], [ -48.722812036119876, -26.887409502719962 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2150011000", "cod": 1343, "nome": "Rod.Jorge Lacerda", "ptotalvia": 43.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.724625610259878, -26.889558299753041 ], [ -48.723217602439377, -26.88985977214201 ] ] } }
+]
+}

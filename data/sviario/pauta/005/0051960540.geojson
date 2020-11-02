@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0051960540", "cod": 20, "nome": "R.Manoel Francisco Coelho", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697903613578923, -26.901940755370422 ], [ -48.69783941, -26.90194441 ], [ -48.69753078, -26.90196 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0051960540", "cod": 41, "nome": "R.Biguaçú", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697835245460155, -26.901881918290972 ], [ -48.697860545819367, -26.902346370615877 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0051960540", "cod": 20, "nome": "R.Manoel Francisco Coelho", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69753078, -26.90196 ], [ -48.697413486861436, -26.901965923894579 ] ] } }
+]
+}

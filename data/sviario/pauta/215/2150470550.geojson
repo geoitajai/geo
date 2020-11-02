@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2150470550", "cod": 1387, "nome": "R.João Gottardi", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.741680826112031, -26.89876476786597 ], [ -48.74194485, -26.89906518 ], [ -48.74217745, -26.89943263 ], [ -48.74231922, -26.89952153 ], [ -48.74232261150933, -26.899522485119711 ] ] } }
+]
+}

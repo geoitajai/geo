@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0052310010", "cod": 978, "nome": "R.Luiz Silva", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69973974, -26.92306569 ], [ -48.699489408468672, -26.92320120561584 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0052310010", "cod": 945, "nome": "R.Paulo Valmor Severino", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.699771778384267, -26.92311282454223 ], [ -48.69973974, -26.92306569 ], [ -48.699557942914403, -26.922802711171862 ] ] } }
+]
+}

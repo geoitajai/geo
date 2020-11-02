@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0051580175", "cod": 912, "nome": "R.dos Crisântemos", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695804374576305, -26.917459714441058 ], [ -48.69556748, -26.91747178 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0051580175", "cod": 912, "nome": "R.dos Crisântemos", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69556748, -26.91747178 ], [ -48.695440869549941, -26.917478228356657 ] ] } }
+]
+}

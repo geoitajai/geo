@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2120071008", "cod": 181, "nome": "R.Dr.Osmar Nunes", "ptotalvia": 9.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.679216851130441, -26.897390611972529 ], [ -48.67741799, -26.89748503 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2120071008", "cod": 182, "nome": "R.Deogracio de Oliveira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67747417458358, -26.897386432822067 ], [ -48.67741799, -26.89748503 ], [ -48.67724878, -26.89776798 ], [ -48.677152287824683, -26.897997312111279 ] ] } }
+]
+}

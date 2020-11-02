@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2040330303", "cod": 611, "nome": "R.Luiz de Gregório", "ptotalvia": 7.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65608379383395, -26.915822504722883 ], [ -48.65605799, -26.91580197 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040330303", "cod": 276, "nome": "Av.7 de Setembro", "ptotalvia": 18.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.655644775125928, -26.915447761570714 ], [ -48.655527455959607, -26.915728422906426 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040330303", "cod": 265, "nome": "Av.Ver.Abrahão João Francisco", "ptotalvia": 29.4, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656089454312841, -26.915729383388197 ], [ -48.65605799, -26.91580197 ], [ -48.656011554902982, -26.915918947108036 ] ] } }
+]
+}

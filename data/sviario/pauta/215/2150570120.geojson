@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2150570120", "cod": 1355, "nome": "R.Laura Rebello", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.73283916, -26.8764365 ], [ -48.732873918640315, -26.8768042427679 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2150570120", "cod": 1359, "nome": "R.Francisca Casas Ramos", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.73291533718821, -26.876429175617716 ], [ -48.73283916, -26.8764365 ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2020130069", "cod": 310, "nome": "Trav.Kobarg", "ptotalvia": 5.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66785439, -26.90257308 ], [ -48.667864031243482, -26.902661743362778 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020130069", "cod": 311, "nome": "R.Olegário Souza Júnior", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66799178846005, -26.902559953192924 ], [ -48.66785439, -26.90257308 ], [ -48.667580825693072, -26.902591187931897 ] ] } }
+]
+}

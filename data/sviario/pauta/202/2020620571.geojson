@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2020620571", "cod": 206, "nome": "R.Aurora Tabalipa", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.678040605175049, -26.90187271310414 ], [ -48.67803855, -26.9018728 ], [ -48.67777974, -26.90175164 ], [ -48.677653804442848, -26.901681019980185 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020620571", "cod": 207, "nome": "Trav.Genelicio Pedro de Souza", "ptotalvia": 5.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677814330491877, -26.901474629214352 ], [ -48.67781213, -26.90158495 ], [ -48.67777974, -26.90175164 ] ] } }
+]
+}

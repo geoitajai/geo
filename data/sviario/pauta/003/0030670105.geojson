@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0030670105", "cod": 1196, "nome": "Av.Guanabara", "ptotalvia": 18.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697501965364495, -26.893349145257329 ], [ -48.69750454, -26.89340197 ], [ -48.697510522824324, -26.893637603201672 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0030670105", "cod": 1204, "nome": "R.Rio Grande do Norte", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697537582827195, -26.893400935931723 ], [ -48.69750454, -26.89340197 ] ] } }
+]
+}

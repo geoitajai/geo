@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2020630494", "cod": 206, "nome": "R.Aurora Tabalipa", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.679072885457451, -26.901829062949151 ], [ -48.678700722218061, -26.901844800815493 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020630494", "cod": 205, "nome": "R.Fridolim Erthal Júnior", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.679090565683801, -26.902111588101263 ], [ -48.678711080642422, -26.902135077877457 ] ] } }
+]
+}

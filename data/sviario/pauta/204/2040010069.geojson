@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2040010069", "cod": 629, "nome": "R.Tubarão", "ptotalvia": 13.2, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.654134462053811, -26.913921675072519 ], [ -48.65407344, -26.9138999 ], [ -48.65335637, -26.91379174 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040010069", "cod": 280, "nome": "Av.Min.Victor Konder", "ptotalvia": 20.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.653359202112135, -26.913769853211438 ], [ -48.65335637, -26.91379174 ], [ -48.653283002536682, -26.914256951132785 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040010069", "cod": 282, "nome": "R.Lauro Muller", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.654084313725669, -26.913839939537667 ], [ -48.65407344, -26.9138999 ], [ -48.653984683574897, -26.914391640364961 ] ] } }
+]
+}

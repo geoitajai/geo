@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2120680153", "cod": 463, "nome": "R.Carlos Alberto Mayr", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.672048771706834, -26.884322217237695 ], [ -48.67203495, -26.88431099 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2120680153", "cod": 474, "nome": "R.João José Dias", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67203495, -26.88431099 ], [ -48.671775480167078, -26.884566181715893 ] ] } }
+]
+}

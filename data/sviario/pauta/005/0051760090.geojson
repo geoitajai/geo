@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0051760090", "cod": 981, "nome": "R.Dr.Nelly Piccoli", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698953651554135, -26.926590444541045 ], [ -48.69890647, -26.92663716 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0051760090", "cod": 984, "nome": "R.Maria Alves Mafra", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698847271881206, -26.926588254245388 ], [ -48.69890647, -26.92663716 ], [ -48.699100681104156, -26.926800702733509 ] ] } }
+]
+}

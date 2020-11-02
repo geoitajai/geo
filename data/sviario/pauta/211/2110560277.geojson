@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2110560277", "cod": 272, "nome": "R.Maria Zelandia Dias Costa", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.668569528226776, -26.917777886481375 ], [ -48.66837063, -26.91811701 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110560277", "cod": 265, "nome": "Av.Ver.Abrahão João Francisco", "ptotalvia": 29.4, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.668539608141899, -26.918233175072324 ], [ -48.66837063, -26.91811701 ], [ -48.668283944138281, -26.918053956402858 ] ] } }
+]
+}

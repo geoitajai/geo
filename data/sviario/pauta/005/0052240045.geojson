@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0052240045", "cod": 938, "nome": "R.Roberto Manoel Tomás", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702558626459165, -26.920649433994473 ], [ -48.70254368, -26.92062836 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0052240045", "cod": 938, "nome": "R.Roberto Manoel Tomás", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70254368, -26.92062836 ], [ -48.70235835167631, -26.920367060439652 ] ] } }
+]
+}
