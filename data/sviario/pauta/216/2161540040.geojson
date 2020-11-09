@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2161540040", "cod": 1251, "nome": "R.Mineral", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.842527026478841, -27.045409799769168 ], [ -48.842588758657286, -27.045309960465051 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2161540040", "cod": 1253, "nome": "R.Eduardo Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.842974854499168, -27.045608906936973 ], [ -48.842552421660713, -27.045631979334733 ] ] } }
+]
+}

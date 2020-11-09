@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010510057", "cod": 355, "nome": "Serv.Carlos Hugo Praun", "ptotalvia": 6.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66070986, -26.9114371 ], [ -48.660636676325744, -26.911514728450449 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010510057", "cod": 355, "nome": "Serv.Carlos Hugo Praun (Serv.)", "ptotalvia": 6.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66070986, -26.9114371 ], [ -48.660636676325744, -26.911514728450449 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2010510057", "cod": 354, "nome": "R.Carlos Hugo Praun", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66102773139886, -26.911703382501518 ], [ -48.66070986, -26.9114371 ], [ -48.660603666039329, -26.911349306443746 ] ] } }
 ]
 }

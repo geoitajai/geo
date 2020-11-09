@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140740760", "cod": 587, "nome": "Av.Carlos Drumond de Andrade", "ptotalvia": 20.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.64011117, -26.95537021 ], [ -48.640050141459213, -26.955377030721014 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140740760", "cod": 587, "nome": "Av.Carlos Drumond de Andrade (Praia Brava)", "ptotalvia": 20.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.64011117, -26.95537021 ], [ -48.640050141459213, -26.955377030721014 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2140740760", "cod": 586, "nome": "Av.Osvaldo Reis", "ptotalvia": 34.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.640149150324035, -26.955230570135843 ], [ -48.64011117, -26.95537021 ], [ -48.640048261352057, -26.955507162037673 ] ] } }
 ]
 }

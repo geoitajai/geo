@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2150350740", "cod": 1176, "nome": "Marginal Oeste", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.727676883144689, -26.857219107520169 ], [ -48.727693776613769, -26.857317203873148 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2150350740", "cod": 1176, "nome": "Av.Marginal Oeste", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.727676883144689, -26.857219107520169 ], [ -48.727693776613769, -26.857317203873148 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2150350740", "cod": 1309, "nome": "R.Insp.Othon José Nogueira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.728849671368756, -26.857334740317668 ], [ -48.72802248, -26.85738057 ], [ -48.727735057780876, -26.857390560203143 ] ] } }
 ]
 }

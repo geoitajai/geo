@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2161010425", "cod": 1661, "nome": "R. Profª. Giane Fiorenzano", "ptotalvia": 13.5, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.72305023, -26.9794853 ], [ -48.72313122, -26.97925163 ], [ -48.723147357715519, -26.979207160400936 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2161010425", "cod": 1655, "nome": "R. Maurino Mafra", "ptotalvia": 13.5, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.722838952377579, -26.979159580767885 ], [ -48.72313122, -26.97925163 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2161010425", "cod": 1655, "nome": "R. Maurino Mafra", "ptotalvia": 13.5, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.722838952325453, -26.979159580819779 ], [ -48.72313122, -26.97925163 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2161010425", "cod": 1661, "nome": "R. Profª. Giane Fiorenzano", "ptotalvia": 13.5, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.72305023, -26.9794853 ], [ -48.72313122, -26.97925163 ], [ -48.723147357715519, -26.979207160400936 ] ] } }
 ]
 }

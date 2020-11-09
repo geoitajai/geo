@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "003nan0nan", "cod": 1119, "nome": "R.Pedro Camilo Vicente", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.690018576280451, -26.89136040980695 ], [ -48.690028739706953, -26.891505797347939 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "003nan0nan", "cod": 1129, "nome": "R.Henrique Borba dos Santos", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.690003723840817, -26.891332506733828 ], [ -48.689667073168174, -26.891353385779507 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "003nan0nan", "cod": 1129, "nome": "R.Henrique Borba dos Santos", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68992592414105, -26.891337331936903 ], [ -48.689584544278183, -26.891358504089755 ] ] } }
+]
+}

@@ -2,9 +2,9 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0031010325", "cod": 1162, "nome": "R.Nossa Senhora de Fátima", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.699067661057455, -26.893285813867706 ], [ -48.69907009, -26.893352530000012 ], [ -48.699081725888014, -26.893654616200237 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0031010325", "cod": 1204, "nome": "R.Rio Grande do Norte", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69907009, -26.893352530000012 ], [ -48.69879246, -26.8933613 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031010325", "cod": 1162, "nome": "R.Nossa Senhora de Fátima", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.699067661057455, -26.893285813867706 ], [ -48.69907009, -26.89335253 ], [ -48.699081725888021, -26.893654616200237 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031010325", "cod": 1204, "nome": "R.Rio Grande do Norte", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69907009, -26.89335253 ], [ -48.69879246, -26.8933613 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "0031010325", "cod": 1204, "nome": "R.Rio Grande do Norte", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69879246, -26.8933613 ], [ -48.698661860669034, -26.893365472797541 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0031010325", "cod": 1203, "nome": "R.Osvaldo Cruz", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.699151947453167, -26.893349945541143 ], [ -48.69907009, -26.893352530000012 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0031010325", "cod": 1203, "nome": "R.Osvaldo Cruz", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69915194745316, -26.893349945541136 ], [ -48.69907009, -26.89335253 ] ] } }
 ]
 }

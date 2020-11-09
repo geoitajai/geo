@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2041720555", "cod": 266, "nome": "R.Uruguai", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.661376234066459, -26.913100018449374 ], [ -48.661116957581271, -26.913448499056528 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2041720555", "cod": 266, "nome": "R.Uruguai", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.661376234066459, -26.913100018449374 ], [ -48.661116957581264, -26.913448499056543 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2041720555", "cod": 264, "nome": "Av.Joca Brandão", "ptotalvia": 26.4, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.661052869825987, -26.912959198686991 ], [ -48.661340486761794, -26.913064968518476 ] ] } }
 ]
 }

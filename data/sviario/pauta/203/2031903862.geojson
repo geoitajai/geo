@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2031903862", "cod": 1105, "nome": "R.Francisca Machado", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70240521, -26.8789886 ], [ -48.70243363, -26.87950148 ], [ -48.70243757629008, -26.879598775879348 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2031903862", "cod": 1107, "nome": "R.Valmir Olívio dos Santos", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70243363, -26.87950148 ], [ -48.702065306094227, -26.879523105023424 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2031903862", "cod": 1105, "nome": "R.Francisca Machado", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70240521, -26.8789886 ], [ -48.70243363, -26.87950148 ], [ -48.702437576314203, -26.879598776474069 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2031903862", "cod": 1107, "nome": "R.Valmir Olívio dos Santos", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70243363, -26.87950148 ], [ -48.702115844835298, -26.879520137851848 ] ] } }
 ]
 }
