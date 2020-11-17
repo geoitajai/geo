@@ -457,12 +457,22 @@
             layout: 'fitColumns',
             columns: [
                 {
-                    title: 'Consulta Prévia',
+                    title: 'Consulta Prévia (construções)',
                     formatter: 'link',
-                    width: 125,
+                    width: 210,
                     formatterParams: {
                         labelField: 'linkinfo',
                         urlField: 'consultaprevia',
+                        target: '_blank'
+                    }
+                },
+                {
+                    title: 'Avaliação atividade (alvará)',
+                    formatter: 'link',
+                    width: 200,
+                    formatterParams: {
+                        labelField: 'linkinfo',
+                        urlField: 'consultaalvara',
                         target: '_blank'
                     }
                 },
@@ -514,16 +524,6 @@
                     title: 'Cód.Lote',
                     field: 'inscrlig',
                     width: 90
-                },
-                {
-                    title: 'Avaliação atividade (alvará)',
-                    formatter: 'link',
-                    width: 190,
-                    formatterParams: {
-                        labelField: 'linkinfo',
-                        urlField: 'consultaalvara',
-                        target: '_blank'
-                    }
                 }
             ]
         });

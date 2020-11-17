@@ -33,18 +33,38 @@
         width: 100%;
     }
 
-    .conteiner {
+    /*  conteiner {
         display: flex;
         flex-direction: column;
         height: 100%;
         min-height: 100%;
-    }
+    } */
 
     #brastitulo {
         display: flex;
         color: var(--claro);
         background: var(--base);
         text-shadow: 1px 1px 2px black;
+    }
+
+    .topo {
+        display: flex;
+    }
+
+    .corpo {
+        display: flex;
+    }
+
+    #instrucoes {
+        max-height: 670px;
+        overflow-y: auto;
+    }
+
+
+    @media screen and (max-width: 850px) {
+        #instrucoes {
+            visibility: hidden;
+        }
     }
 
     #pesquisa {
@@ -102,57 +122,102 @@
 </style>
 
 <body>
-    <div id='conteiner'>
-        <div id='brastitulo'>
-            <div>
-                <img src='https://geoitajai.github.io/geo/images/favicon-96x96.png'
-                    style='height:45px; width:auto; padding:3px;'>
-            </div>
-            <div style='font-size:85%; padding:3px;'>
-                Município de Itajaí <br> Secretaria Municipal de Desenvolvimento Urbano e Habitação<br>
-                <b>CONSULTA GRAU DE RISCO E VIABILIDADE</b>
-                <br>
-                <div id='leis'>
+    <div id='topo'>
+        <div class='corpo'>
+            <div id='entrada'>
+                <div id='brastitulo'>
                     <div>
-                        Decreto Nº 11.985,<br>24 de Agosto de 2020.<br>
+                        <img src='https://geoitajai.github.io/geo/images/favicon-96x96.png'
+                            style='height:45px; width:auto; padding:3px;'>
                     </div>
-                    <div class="vl"></div>
-                    <div>
-                        Decreto Nº 11.956,<br>24 de Agosto de 2020.<br>
+                    <div style='font-size:85%; padding:3px;'>
+                        Município de Itajaí <br> Secretaria Municipal de Desenvolvimento Urbano e Habitação<br>
+                        <b>CONSULTA GRAU DE RISCO E VIABILIDADE</b>
+                        <br>
+                        <div id='leis'>
+                            <div>
+                                Decreto Nº 11.985,<br>24 de Agosto de 2020.<br>
+                            </div>
+                            <div class="vl"></div>
+                            <div>
+                                Decreto Nº 11.956,<br>24 de Agosto de 2020.<br>
+                            </div>
+                            <div class="vl"></div>
+                            <div>
+                                Lei complementar nº 215,<br>de 31 de Dezembro de 2012.<br>
+                            </div>
+                        </div>
                     </div>
                 </div>
+                <div class="hline"></div>
+                <div id='pesquisa'>
+                    <div id='mapa'></div><br>
+                    <div id='identificalote'>
+                        -
+                    </div>
+                    <div class="hline"></div>
+                    <div class="no-print">
+                        <input id='filter-value' type='text' size='48'
+                            placeholder='códigos separados por espaço, ex: 26.10-8-00 68.10-2-01'>
+                        <button id='filter-clear' class='botao' type='button'>limpar</button><br>
+                        <input id='filter-area' type='text' size='48' placeholder='área total ocupada(apenas números)'>
+                        <button id='filter-enter' class='botao' type='button'>consultar</button><br>
+                    </div>
+                    <div class="hline"></div>
+                    <div id='resultado'>
+                        <h4>...<br>...</h4>
+                    </div><br>
+                    <div id='zoneamento'>
+                        <h4>...</h4>
+                    </div>
+                    <div class="hline"></div>
+                </div>
             </div>
-        </div>
-        <div class="hline"></div>
-        <div id='pesquisa'>
-            <div id='mapa'></div><br>
-            <div id='identificalote'>
-                -
+            <div id='instrucoes' class="no-print">
+                <ol>
+                    <li>A avaliação é feita utilizando os dados de códigos de atividades econômicas na CNAE,
+                        consideranda
+                        em
+                        conjunto com o zoneamento e área.</li>
+                    <div class="hline"></div>
+                    <li>Para efetuar a consulta é necessário preencher o campo com os códigos das atividades formatadas
+                        e
+                        separadas por espaço, exemplo: <b>26.10-8-00 68.10-2-01</b></li>
+                    <div class="hline"></div>
+                    <li>Para facilitar o preenchimento pode-se utilizar os dados do comprovante de inscrição e situação
+                        cadastral, encontrado em :<br>
+                        <a href='http://servicos.receita.fazenda.gov.br/Servicos/cnpjreva/cnpjreva_solicitacao.asp' target='_blank'><b>
+                                COMPROVANTE DE INSCRIÇÃO E DE SITUAÇÃO CADASTRAL</b></a></li>
+                    <div class="hline"></div>
+                    <li> No endereço acima, ao serem exibidas as informações do cadastro do contribuinte, o conteúdo
+                        onde
+                        aparecem os códigos das atividades econômicas pode ser copiado com o comando Ctrl+C, inclusive
+                        pode-se
+                        selecionar tudo com o comando Ctrl+A e em seguida Ctrl+C.</li>
+                    <div class="hline"></div>
+                    <li>Então é necessário colar o conteúdo (Ctrl+V) nesta página, no campo onde deveriam ser digitados
+                        os códigos.</li>
+                    <div class="hline"></div>
+                    <li>O próximo passo é preencher a área ocupada e clicar no botão <b>consultar</b></li>
+                    <div class="hline"></div>
+                    <li>A lista de atividades será filtrada na tabela abaixo, o resultado será mostrado de acordo com a
+                        atividade e nível de risco do local.</li>
+                    <div class="hline"></div>
+                    <li>Já com a tabela filtrada, no caso em que uma das atividades for permissível ou esteja sendo
+                        removida, pode-se clicar na tabela abaixo, no texto
+                        "Nova inscrição" para alternar o tipo de solicitação, as opções são: <b>CNAE já existente, CNAEs
+                            a serem removidos e Nova inscrição</b></li>
+                    <div class="hline"></div>
+                </ol>
             </div>
-            <div class="hline"></div>
-            <div class="no-print">
-                <input id='filter-value' type='text' size='48'
-                    placeholder='códigos separados por espaço, ex: 26.10-8-00 68.10-2-01'>
-                <button id='filter-clear' class='botao' type='button'>limpar</button><br>
-                <input id='filter-area' type='text' size='48' placeholder='área total ocupada(apenas números)'>
-                <button id='filter-enter' class='botao' type='button'>consultar</button><br>
-            </div>
-            <div class="hline"></div>
-            <div id='resultado'>
-                <h4>...<br>...</h4>
-            </div><br>
-            <div id='zoneamento'>
-                <h4>...</h4>
-            </div>
-            <div class="hline"></div>
         </div>
         <div id='navegacao'>
             <div id='tabela'></div>
+            <div class="hline"></div>
+            <button type="button" class="no-print" id="botaoimprimir">
+                IMPRESSÃO/SALVAR PDF
+            </button><br>
         </div>
-        <div class="hline"></div>
-        <button type="button" class="no-print" id="botaoimprimir">
-            IMPRESSÃO/SALVAR PDF
-        </button><br>
         <!-- <div class="hline"></div><br>
         <div>
             <input type="text" class="camposcopy" id="cnaesexistentes" size='48'
@@ -275,7 +340,7 @@
                             };
                             compr--;
                             if (compr === 0) {
-                                console.log(ate200, d200a400, acima400);
+                                //console.log(ate200, d200a400, acima400);
                                 if (isNaN(parseInt(area_filtro.value)) === true) {
                                     alert('área digitada não é um número válido');
                                 } else if (ate200.length == 0 && d200a400.length == 0 && acima400.length == 0) {
@@ -355,13 +420,13 @@
                                         if (lcontador == 0) {
                                             if (resultados.includes('proibido') == true) {
                                                 document.getElementById('zoneamento').style.backgroundColor = 'rgb(255, 0, 0, 0.3)';
-                                                document.getElementById('zoneamento').innerHTML = `<h4>ATIVIDADE PROIBIDA</h4>`;
+                                                document.getElementById('zoneamento').innerHTML = `<h4>Atividade PROIBIDA para o local</h4>`;
                                             } else if (resultados.includes('permissível') == true) {
                                                 document.getElementById('zoneamento').style.backgroundColor = 'rgb(255, 204, 102, 0.3)';
-                                                document.getElementById('zoneamento').innerHTML = `<h4>ATIVIDADE PERMISSÍVEL</h4>`;
+                                                document.getElementById('zoneamento').innerHTML = `<h4>Atividade PERMISSÍVEL (solicitar parecer do CMGDT - SEDUH)</h4>`;
                                             } else if (resultados.includes('permitido') == true) {
                                                 document.getElementById('zoneamento').style.backgroundColor = 'rgb(153, 255, 102, 0.3)';
-                                                document.getElementById('zoneamento').innerHTML = `<h4>ATIVIDADE PERMITIDA</h4>`;
+                                                document.getElementById('zoneamento').innerHTML = `<h4>Ativdade PERMITIDA para o local</h4>`;
                                             };
                                         };
                                     });
