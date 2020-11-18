@@ -998,6 +998,7 @@
             },
             onAdd: function (mapa) {
                 let container = L.DomUtil.create('div', 'leaflet-bar leaflet-control leaflet-control-custom');
+                L.DomEvent.disableClickPropagation(container);
                 container.style.backgroundColor = 'white';
                 container.style.backgroundImage = "url(images/flatmap64x64.png)";
                 container.style.backgroundSize = "26px 26px";
