@@ -19,7 +19,7 @@
     <script src="lib/jquery-3.5.1.min.js"></script>
     <script src="lib/jquery-ui.min.js"></script>
     <script src="lib/tabulator.min.js"></script>
-    <script src="lib/sheetrock.min.js"></script>
+    <!-- <script src="lib/sheetrock.min.js"></script> -->
     <script src="lib/measure/Leaflet.draw.js"></script>
     <script src="lib/measure/Leaflet.Draw.Event.js"></script>
     <script src="lib/measure/Toolbar.js"></script>
@@ -606,11 +606,11 @@
         };
 
         //tratar o resultado da pesquisa por código ou nº inscrição imobiliária (solução temporária Google sheets)
-        let gsResultadoP = (error, options, response) => {
-            if (!error) {
+        let gsResultadoP = (result) => {
+            if (result.inscrlig != 'null') {
                 plantaCadastralDestaque.clearLayers();
                 //console.log(response.rows[0].cellsArray[2])
-                $.getJSON(`data/divisaolotes/exportTabela/${String(response.rows[0].cellsArray[2].substring(0, 3))}/${String(response.rows[0].cellsArray[2])}.geojson`, (
+                $.getJSON(`data/divisaolotes/exportTabela/${result.inscrlig.substring(0, 3)}/${result.inscrlig}.geojson`, (
                     data) => {
                     let consultapreviap;
                     let linkinfo;
@@ -741,18 +741,34 @@
                     if (event.keyCode == 13) {
                         event.preventDefault();
                         if ($("#pesquisaRapida").val().includes(".") && $("#pesquisaRapida").val().length === 15) {
-                            let pesquisaC = "select * where A CONTAINS '" + $("#pesquisaRapida").val() + "'";
-                            sheetrock({
-                                url: "https://docs.google.com/spreadsheets/d/1DjWU_mtifE3LHAFY8rLWEsP1bjz3YZcUb39oy31W7to/edit#gid=0",
-                                query: pesquisaC,
-                                callback: gsResultadoP
+                            $.ajax({
+                                url: `https://script.google.com/macros/s/AKfycbztb574Ma_64ym_BrecHIwaC7LHJoeW1AlNyVA0WE6TzgFGEHOnsvI3yg/exec?${$("#pesquisaRapida").val()}`,
+                                headers: {
+                                    'Content-Type': 'application/x-www-form-urlencoded'
+                                },
+                                type: "GET", /* or type:"GET" or type:"PUT" */
+                                dataType: "json",
+                                data: {
+                                },
+                                success: (e) => { gsResultadoP(e) },
+                                error: () => {
+                                    console.log("erro pesquisa");
+                                }
                             });
                         } else {
-                            let pesquisaI = "select * where B = '" + $("#pesquisaRapida").val() + "'";
-                            sheetrock({
-                                url: "https://docs.google.com/spreadsheets/d/1DjWU_mtifE3LHAFY8rLWEsP1bjz3YZcUb39oy31W7to/edit#gid=0",
-                                query: pesquisaI,
-                                callback: gsResultadoP
+                            $.ajax({
+                                url: `https://script.google.com/macros/s/AKfycbztb574Ma_64ym_BrecHIwaC7LHJoeW1AlNyVA0WE6TzgFGEHOnsvI3yg/exec?${$("#pesquisaRapida").val()}`,
+                                headers: {
+                                    'Content-Type': 'application/x-www-form-urlencoded'
+                                },
+                                type: "GET", /* or type:"GET" or type:"PUT" */
+                                dataType: "json",
+                                data: {
+                                },
+                                success: (e) => { gsResultadoP(e) },
+                                error: () => {
+                                    console.log("erro pesquisa");
+                                }
                             });
                         };
                         $("#pesquisaRapida").val("");
