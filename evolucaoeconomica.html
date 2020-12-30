@@ -292,7 +292,7 @@
                     title: nome,
                     columns: [
                         { title: "nº", field: "quant", width: 40, headerSort: false },
-                        { title: "Atividade", field: "ativ", width: 600, headerSort: false }
+                        { title: "Atividade", field: "ativ", width: 400, headerSort: false }
                     ]
                 }];
                 tabelausodosolo.setColumns(newColumns);
@@ -330,8 +330,8 @@
             selectable: 1,
             resizableColumns:false,
             columns: [
-                { title: "nº CNPJs", field: "quant", width: 90 },
-                { title: "Nome da via", field: "name", width: 200, headerFilter: "input" },
+                { title: "nº", field: "quant", width: 40, headerSort: false },
+                { title: "Nome da via", field: "name", width: 180, headerFilter: "input", headerSort: false },
                 { title: "2000_______________2005_________________2010________________2015______________2020", field: "line", width: 560, headerSort: false, formatter: lineFormatter }
             ],
             rowClick: (e, row) => {
@@ -348,7 +348,7 @@
                 {
                     title: "Clique sobre uma via para visualizar as atividades",
                     columns: [
-                        { title: "nº CNPJs", field: "quant", width: 90 },
+                        { title: "nº CNPJs", field: "quant", width: 40, headerSort: false },
                         { title: "Atividade", field: "ativ", width: 400, headerSort: false }
                     ]
                 }
