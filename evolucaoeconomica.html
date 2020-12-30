@@ -49,6 +49,7 @@
             display: flex;
             flex-direction: column;
             height: 100%;
+            min-height: 100%;
         }
 
         .flex-containerB {
@@ -57,7 +58,7 @@
 
         .flex-containerC {
             display: flex;
-            width: 100em;
+            width: 100%;
             background: var(--claro);
         }
 
@@ -131,8 +132,8 @@
             <div id="mapa">mapa</div>
         </div>
         <div class="flex-containerC">
-            <div id='tabelatabulator'>tabulator</div>
-            <div id='tabelausodosolo'>uso do solo</div>
+            <div id='tabelatabulator'></div>
+            <div id='tabelausodosolo'></div>
         </div>
 
     </div>
@@ -327,6 +328,7 @@
         var tabelavias = new Tabulator("#tabelatabulator", {
             height: '25em',
             selectable: 1,
+            resizableColumns:false,
             columns: [
                 { title: "nº CNPJs", field: "quant", width: 90 },
                 { title: "Nome da via", field: "name", width: 200, headerFilter: "input" },
@@ -341,6 +343,7 @@
         //Tabela uso do solo
         var tabelausodosolo = new Tabulator("#tabelausodosolo", {
             height: '25em',
+            resizableColumns:false,
             columns: [
                 {
                     title: "Clique sobre uma via para visualizar as atividades",
