@@ -275,6 +275,8 @@
         //Tabelas
 
         //Popular uso do solo
+        let pesquisaQvias = L.featureGroup().addTo(mapa);
+
         usodosolotab = (cod, nome) => {
             $.getJSON(`data/evo_economia/uso_do_solo/u${cod}.json`, (data) => {
                 atividades = data.index.map((e, i) => {
@@ -295,7 +297,22 @@
                 tabelausodosolo.setColumns(newColumns);
                 tabelausodosolo.setData(atividades.slice(1));
                 tabelausodosolo.setSort("quant", "desc");
-                console.log(dadosvias);
+
+                pesquisaQvias.clearLayers();
+                L.geoJSON(dadosvias, {
+                    filter: function (feature, layer) {
+                        return feature.properties.cod == cod;
+                    },
+                    style: (feature) => {
+                        return {
+                            stroke: false,
+                            interactive: false
+                        };
+                    }
+                }).addTo(pesquisaQvias);
+                mapa.flyToBounds(pesquisaQvias.getBounds(), {
+                    maxZoom: 17
+                });
             });
         };
 
