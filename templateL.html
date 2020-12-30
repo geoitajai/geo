@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Planta Cadastral</title>
+    <link rel="icon" type="image/png" href="images/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link rel="stylesheet" href="lib/leaflet.css" />
+    <link rel="stylesheet" href="lib/jquery-ui.min.css" />
+    <link rel="stylesheet" href="lib/jquery-ui.theme.min.css" />
+    <link rel="stylesheet" href="lib/tabulator_simple.min.css" />
+    <!-- <link rel="stylesheet" href="plantacadastral.css" /> -->
+    <script src="lib/leaflet.js"></script>
+    <script src="lib/jquery-3.5.1.min.js"></script>
+    <script src="lib/jquery-ui.min.js"></script>
+    <script src="lib/tabulator.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-172813797-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-172813797-1');
+    </script>
+
+    <style>
+        :root {
+            --base: #00bcd4;
+            --escuro: #333;
+            --claro: white;
+        }
+
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            height: 100%;
+            width: 100%;
+            overflow-x: hidden;
+            overflow-y: hidden;
+        }
+
+        .flex-containerA {
+            display: flex;
+            background-color: DodgerBlue;
+            flex-direction: column;
+            height: 100%;
+        }
+
+        .flex-containerB {
+            display: flex;
+            flex: 15;
+            background-color: DodgerBlue;
+        }
+
+        #brasarea {
+            height: 2.5em;
+            background: var(--base);
+            color: var(--claro);
+            text-shadow: 1px 1px 2px black;
+        }
+
+        #mapa {
+            background-color: gray;
+            flex: 5;
+        }
+
+        #consultagraficos {
+            width: 22em;
+        }
+
+        #tabelatabulator {
+            height: 15em;
+            background-color: green;
+        }
+
+        .tabulator {
+            font-size: 12px;
+            background: var(--claro);
+        }
+
+        .tabulator .tabulator-header .tabulator-col {
+            background: var(--base);
+            color: var(--claro);
+            text-shadow: 1px 1px 2px black;
+        }
+
+        .tabulator .tabulator-header {
+            border-bottom: 0px;
+        }
+
+        .tabulator .tabulator-header,
+        .tabulator .tabulator-header .tabulator-col {
+            background-color: var(--base);
+        }
+
+        .leaflet-container {
+            background: #E6E6E6;
+        }
+
+        .leaflet-default-icon-path {
+            background-image: url(images/marker-icon.png);
+        }
+
+        .leaflet-control-layers-toggle {
+            background-image: url(images/layers.png);
+        }
+
+        .leaflet-retina .leaflet-control-layers-toggle {
+            background-image: url(images/layers-2x.png);
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="flex-containerA">
+        <div id="brasarea">
+            <img src="images/favicon-32x32.png" style="vertical-align: middle; padding:3px;">
+            <span style="vertical-align: middle;">Município de Itajaí - Evolução econômica por via</span>
+        </div>
+        <div class="flex-containerB">
+            <div id="mapa">mapa</div>
+            <div id='consultagraficos'>
+                <div id='chartA'>graf1</div>
+                <div id='chartB'>graf2</div>
+            </div>
+        </div>
+        <div id="tabelatabulator">tabulator</div>
+    </div>
+
+    <script>
+        //#div do mapa
+        let mapa = new L.Map('mapa', {
+            zoom: 14,
+            minZoom: 12,
+            maxZoom: 19,
+            maxBounds: [
+                //south west
+                [-27.3000, -49.2300],
+                //north east
+                [-26.3285, -48.3200]
+            ],
+            center: new L.latLng([-26.9046, -48.6874]),
+            zoomControl: false,
+            preferCanvas: true
+        });
+
+        //#basemaps
+        //Mapa base, SMU
+        let tilesmu = new L.TileLayer('tiles/basemap/{z}/{x}/{y}.png', {
+            minZoom: 12,
+            maxZoom: 19,
+            attribution: 'Município de Itajaí/SC, <a href="mailto:jaceguay@itajai.sc.gov.br?Subject=WebGIS" target="_top">SIE</a>'
+        }).addTo(mapa);
+
+        //Mapa base, OSM
+        let tileosm = new L.TileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            minZoom: 12,
+            maxZoom: 19,
+            attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+        });
+
+        //Mapa base, ESRI
+        let tileesri = new L.TileLayer(
+            'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+            minZoom: 12,
+            maxZoom: 19,
+            opacity: 0.6,
+            attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
+        });
+
+        //Controle de camadas
+        let baseMaps = {
+            "SIE.Itajaí": tilesmu,
+            "OSM": tileosm,
+            "Satélite": tileesri
+        };
+        L.control.layers(baseMaps, null, {
+            collapsed: false,
+            position: 'bottomright'
+        }).addTo(mapa);
+
+        //barra escala
+        L.control.scale({
+            position: "bottomright",
+            imperial: false
+        }).addTo(mapa);
+
+        //Norte
+        let nortemapa = L.control({
+            position: 'bottomright'
+        });
+        nortemapa.onAdd = function (map) {
+            let div = L.DomUtil.create('div', 'info2 legend');
+            div.innerHTML +=
+                '<center><sub><font size="4">▲</font></sub><br/>' +
+                '<sup><font size="2">N</font></sup></center>'
+            return div;
+        };
+        nortemapa.addTo(mapa);
+
+        //Botão zoom posicionado
+        L.control.zoom({
+            position: 'topright'
+        }).addTo(mapa);
+    </script>
+</body>
+
+</html>
