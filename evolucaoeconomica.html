@@ -56,11 +56,11 @@
             flex: 1;
         }
 
-        .flex-containerC {
+        /* .flex-containerC {
             display: flex;
             width: 100%;
             background: var(--claro);
-        }
+        } */
 
         #brasarea {
             height: 2.5em;
@@ -118,6 +118,52 @@
         .leaflet-retina .leaflet-control-layers-toggle {
             background-image: url(images/layers-2x.png);
         }
+
+        #tabs {
+            background: transparent;
+            border: none;
+            overflow: hidden;
+            height: 20em;
+        }
+
+        /*
+        #tabs-1 {
+            display: flex;
+            flex-direction: column;
+        }
+
+        #tabs-2 {
+            display: flex;
+            flex-direction: column;
+        }
+        */
+
+        #tabs .ui-widget-header {
+            background: transparent;
+            border: none;
+            -moz-border-radius: 0px;
+            -webkit-border-radius: 0px;
+            border-radius: 0px;
+        }
+
+        #tabs .ui-tabs-nav .ui-state-default {
+            background: transparent;
+            border: none;
+        }
+
+        #tabs .ui-tabs-nav .ui-state-active {
+            background: var(--base);
+            border: none;
+        }
+
+        #tabs .ui-tabs-nav .ui-state-default a {
+            color: var(--escuro);
+        }
+
+        #tabs .ui-tabs-nav .ui-state-active a {
+            color: var(--claro);
+            text-shadow: 1px 1px 2px black;
+        }
     </style>
 
 </head>
@@ -131,14 +177,44 @@
         <div class="flex-containerB">
             <div id="mapa">mapa</div>
         </div>
-        <div class="flex-containerC">
-            <div id='tabelatabulator'></div>
-            <div id='tabelausodosolo'></div>
+        <div id="tabs">
+            <ul>
+                <li id="Vias"><a href="#tabs-1">Vias</a></li>
+                <li id="Usos"><a href="#tabs-2">Usos</a></li>
+            </ul>
+            <div id="tabs-1">
+                <div id='tabelatabulator'></div>
+            </div>
+            <div id="tabs-2">
+                <div id='tabelausodosolo'></div>
+            </div>
         </div>
+    </div>
 
     </div>
 
     <script>
+        //##comportamento jQueryUI Tabs##
+        $(() => {
+            $("#tabs").tabs({
+                heightStyle: "fill",
+                activate: (event, ui) => {
+                    if (ui.newTab[0].id === 'Vias') {
+                        let selectedRows = tabelavias.getSelectedRows();
+                        tabelavias.redraw(true);
+                        if (selectedRows.length > 0) {
+                            tabelavias.deselectRow();
+                            tabelavias.selectRow(selectedRows[0]._row.data.id);
+                            tabelavias.scrollToRow(selectedRows[0]._row.data.id);
+                        };
+                    } else if (ui.newTab[0].id === 'Usos') {
+                        tabelausodosolo.redraw(true);
+                    };
+                }
+            });
+            $("div.ui-tabs-panel").css('padding', '0px');
+        });
+
         //#div do mapa
         let mapa = new L.Map('mapa', {
             zoom: 14,
@@ -326,9 +402,9 @@
 
         //Vias
         var tabelavias = new Tabulator("#tabelatabulator", {
-            height: '25em',
+            height: '20em',
             selectable: 1,
-            resizableColumns:false,
+            resizableColumns: false,
             columns: [
                 { title: "nº", field: "quant", width: 40, headerSort: false },
                 { title: "Nome da via", field: "name", width: 180, headerFilter: "input", headerSort: false },
@@ -342,8 +418,8 @@
         //Uso do solo
         //Tabela uso do solo
         var tabelausodosolo = new Tabulator("#tabelausodosolo", {
-            height: '25em',
-            resizableColumns:false,
+            height: '20em',
+            resizableColumns: false,
             columns: [
                 {
                     title: "Clique sobre uma via para visualizar as atividades",
