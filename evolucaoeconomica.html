@@ -354,43 +354,49 @@
         //Popular uso do solo
         let pesquisaQvias = L.featureGroup().addTo(mapa);
 
+        let linhaselecionada = 0;
         usodosolotab = (cod, nome) => {
-            $.getJSON(`data/evo_economia/uso_do_solo/u${cod}.json`, (data) => {
-                atividades = data.index.map((e, i) => {
-                    result = {
-                        ativ: e,
-                        quant: data.data[i]
-                    };
-                    return result
-                });
-
-                let newColumns = [{
-                    title: nome,
-                    columns: [
-                        { title: "nº", field: "quant", width: 40, headerSort: false },
-                        { title: "Atividade", field: "ativ", width: 400, headerSort: false }
-                    ]
-                }];
-                tabelausodosolo.setColumns(newColumns);
-                tabelausodosolo.setData(atividades.slice(1));
-                tabelausodosolo.setSort("quant", "desc");
-
-                pesquisaQvias.clearLayers();
-                L.geoJSON(dadosvias, {
-                    filter: function (feature, layer) {
-                        return feature.properties.cod == cod;
-                    },
-                    style: (feature) => {
-                        return {
-                            stroke: false,
-                            interactive: false
+            if (linhaselecionada !== cod) {
+                linhaselecionada = cod;
+                tabelavias.deselectRow();
+                tabelavias.selectRow(cod);
+                $.getJSON(`data/evo_economia/uso_do_solo/u${cod}.json`, (data) => {
+                    atividades = data.index.map((e, i) => {
+                        result = {
+                            ativ: e,
+                            quant: data.data[i]
                         };
-                    }
-                }).addTo(pesquisaQvias);
-                mapa.flyToBounds(pesquisaQvias.getBounds(), {
-                    maxZoom: 17
+                        return result
+                    });
+
+                    let newColumns = [{
+                        title: nome,
+                        columns: [
+                            { title: "nº", field: "quant", width: 40, headerSort: false },
+                            { title: "Atividade", field: "ativ", width: 400, headerSort: false }
+                        ]
+                    }];
+                    tabelausodosolo.setColumns(newColumns);
+                    tabelausodosolo.setData(atividades.slice(1));
+                    tabelausodosolo.setSort("quant", "desc");
+
+                    pesquisaQvias.clearLayers();
+                    L.geoJSON(dadosvias, {
+                        filter: function (feature, layer) {
+                            return feature.properties.cod == cod;
+                        },
+                        style: (feature) => {
+                            return {
+                                stroke: false,
+                                interactive: false
+                            };
+                        }
+                    }).addTo(pesquisaQvias);
+                    mapa.flyToBounds(pesquisaQvias.getBounds(), {
+                        maxZoom: 17
+                    });
                 });
-            });
+            };
         };
 
         //Gerar gráfico sparkline - linha
@@ -403,7 +409,6 @@
         //Vias
         var tabelavias = new Tabulator("#tabelatabulator", {
             height: '20em',
-            selectable: 1,
             resizableColumns: false,
             columns: [
                 { title: "nº", field: "quant", width: 40, headerSort: false },
