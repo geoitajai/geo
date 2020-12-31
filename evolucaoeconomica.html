@@ -12,12 +12,14 @@
     <link rel="stylesheet" href="lib/jquery-ui.min.css" />
     <link rel="stylesheet" href="lib/jquery-ui.theme.min.css" />
     <link rel="stylesheet" href="lib/tabulator_simple.min.css" />
-    <!-- <link rel="stylesheet" href="plantacadastral.css" /> -->
+    <link rel="stylesheet" href="lib/Chart.min.css" />
     <script src="lib/leaflet.js"></script>
     <script src="lib/jquery-3.5.1.min.js"></script>
     <script src="lib/jquery-ui.min.js"></script>
     <script src="lib/tabulator.min.js"></script>
     <script src="lib/jquery.sparkline.min.js"></script>
+    <script src="lib/moment.min.js"></script>
+    <script src="lib/Chart.min.js"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-172813797-1"></script>
     <script>
@@ -55,12 +57,6 @@
         .flex-containerB {
             flex: 1;
         }
-
-        /* .flex-containerC {
-            display: flex;
-            width: 100%;
-            background: var(--claro);
-        } */
 
         #brasarea {
             height: 2.5em;
@@ -126,17 +122,10 @@
             height: 20em;
         }
 
-        /*
-        #tabs-1 {
-            display: flex;
-            flex-direction: column;
+        #grafico {
+            height: 240px;
+            width: 350px;
         }
-
-        #tabs-2 {
-            display: flex;
-            flex-direction: column;
-        }
-        */
 
         #tabs .ui-widget-header {
             background: transparent;
@@ -172,7 +161,7 @@
     <div class="flex-containerA">
         <div id="brasarea">
             <img src="images/favicon-32x32.png" style="vertical-align: middle; padding:3px;">
-            <span style="vertical-align: middle;">Município de Itajaí - Evolução econômica por via</span>
+            <span style="vertical-align: middle;">Itajaí - Nº empresas por via</span>
         </div>
         <div class="flex-containerB">
             <div id="mapa">mapa</div>
@@ -181,12 +170,18 @@
             <ul>
                 <li id="Vias"><a href="#tabs-1">Vias</a></li>
                 <li id="Usos"><a href="#tabs-2">Usos</a></li>
+                <li id="Usos"><a href="#tabs-3">Timeline</a></li>
             </ul>
             <div id="tabs-1">
                 <div id='tabelatabulator'></div>
             </div>
             <div id="tabs-2">
                 <div id='tabelausodosolo'></div>
+            </div>
+            <div id="tabs-3">
+                <div id='grafico'>
+                    <canvas id="graftimeline" width="100" height="70"></canvas>
+                </div>
             </div>
         </div>
     </div>
@@ -360,6 +355,12 @@
                 linhaselecionada = cod;
                 tabelavias.deselectRow();
                 tabelavias.selectRow(cod);
+
+                //grafico
+                let selectedRows = tabelavias.getSelectedRows();
+                grafzoom(selectedRows[0]._row.data.line, nome);
+
+                //tab uso do solo
                 $.getJSON(`data/evo_economia/uso_do_solo/u${cod}.json`, (data) => {
                     atividades = data.index.map((e, i) => {
                         result = {
@@ -402,7 +403,7 @@
         //Gerar gráfico sparkline - linha
         var lineFormatter = (cell, formatterParams, onRendered) => {
             onRendered(() => {
-                $(cell.getElement()).sparkline(cell.getValue(), { width: '100%', height: '3.5em', type: 'line', lineWidth: 2 });
+                $(cell.getElement()).sparkline(cell.getValue(), { width: '100%', height: '2em', type: 'line', lineWidth: 2 });
             });
         };
 
@@ -413,7 +414,7 @@
             columns: [
                 { title: "nº", field: "quant", width: 40, headerSort: false },
                 { title: "Nome da via", field: "name", width: 180, headerFilter: "input", headerSort: false },
-                { title: "2000_______________2005_________________2010________________2015______________2020", field: "line", width: 560, headerSort: false, formatter: lineFormatter }
+                { title: "nº CNPJs por ano, 2000 até 2020", field: "line", width: 560, headerSort: false, formatter: lineFormatter }
             ],
             rowClick: (e, row) => {
                 usodosolotab(row._row.data.id, row._row.data.name);
@@ -451,6 +452,37 @@
             tabelavias.setData(tabdata);
             tabelavias.setSort("quant", "desc");
         });
+
+        //timeline
+        let ctx = $('#graftimeline');
+
+        grafzoom = (values, titulo) => {
+            let graftimeline = new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: ['2000', '2001', '2002', '2003', '2004', '2005',
+                        '2006', '2007', '2008', '2009', '2010', '2011', '2012',
+                        '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020'],
+                    datasets: [{
+                        label: 'nº de CNPJs',
+                        borderColor: 'rgba(0, 0, 0, 0.8)',
+                        data: values//[12, 19, 3, 5, 2, 3, 12, 19, 3, 5, 2, 3, 12, 19, 3, 5, 2, 3, 11, 20, 33]
+                    }]
+                },
+                options: {
+                    legend: {
+                        display: false
+                    },
+                    title: {
+                        display: true,
+                        text: titulo
+                    }
+                }
+            });
+        };
+
+        grafzoom(0, 'Clique sobre uma via no mapa ou tabela para visualizar o timeline detalhado.');
+
     </script>
 </body>
 
