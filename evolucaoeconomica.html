@@ -388,7 +388,9 @@
                         },
                         style: (feature) => {
                             return {
-                                stroke: false,
+                                weight: 18,
+                                color: "#66ccff",
+                                opacity: 0.3,
                                 interactive: false
                             };
                         }
@@ -403,7 +405,7 @@
         //Gerar gráfico sparkline - linha
         var lineFormatter = (cell, formatterParams, onRendered) => {
             onRendered(() => {
-                $(cell.getElement()).sparkline(cell.getValue(), { width: '100%', height: '2em', type: 'line', lineWidth: 2 });
+                $(cell.getElement()).sparkline(cell.getValue(), { width: '100%', height: '1.5em', type: 'line', lineWidth: 2 });
             });
         };
 
@@ -412,9 +414,16 @@
             height: '20em',
             resizableColumns: false,
             columns: [
-                { title: "nº", field: "quant", width: 40, headerSort: false },
-                { title: "Nome da via", field: "name", width: 180, headerFilter: "input", headerSort: false },
-                { title: "nº CNPJs por ano, 2000 até 2020", field: "line", width: 560, headerSort: false, formatter: lineFormatter }
+                { title: "quant.", field: "quant", width: 40, headerSort: false },
+                {
+                    title: "Nome da via", field: "name", width: 180,
+                    headerFilter: "input", headerSort: false
+                },
+                {
+                    title: "nº CNPJs por ano, 2000 até 2020",
+                    field: "line", width: 250,
+                    headerSort: false, formatter: lineFormatter
+                }
             ],
             rowClick: (e, row) => {
                 usodosolotab(row._row.data.id, row._row.data.name);
