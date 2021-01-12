@@ -941,9 +941,20 @@
                 if (viasciclo == undefined) {
                     $.getScript('camadas/cicloviario.js', () => { });
                     $.getJSON("camadas/data/ciclodados.geojson", (data) => {
-                        document.getElementById("medidaciclo").innerHTML = '<span style="color:#ff4dd2">███</span></br>Ciclovias</br>(' + data.features[0].properties.comprimento / 1000 + ' Km)</br>' + '</br>' +
-                            '<span style="color:#e68a00">███</span></br>Ciclofaixas</br>(' + data.features[2].properties.comprimento / 1000 + ' Km)</br>' + '</br>' +
-                            '<span style="color:#b30059">█ █</span></br>Compartilhadas</br>(' + data.features[1].properties.comprimento / 1000 + ' Km)</br>';
+                        ciclotab = data.features.reduce((t, e) => {
+                            if (e.properties.tipo == 'ciclovia') {
+                                t.ciclovia = e.properties.comprimento / 1000
+                            } else if (e.properties.tipo == 'ciclofaixa') {
+                                t.ciclofaixa = e.properties.comprimento / 1000
+                            } else if (e.properties.tipo == 'compartilhado') {
+                                t.compartilhado = e.properties.comprimento / 1000
+                            };
+                            return t
+                        }, { ciclovia: 0, ciclofaixa: 0, compartilhado: 0 })
+
+                        document.getElementById("medidaciclo").innerHTML = '<span style="color:#ff4dd2">███</span></br>Ciclovias</br>(' + Math.floor(ciclotab.ciclovia) + ' Km)</br>' + '</br>' +
+                            '<span style="color:#e68a00">███</span></br>Ciclofaixas</br>(' + Math.floor(ciclotab.ciclofaixa) + ' Km)</br>' + '</br>' +
+                            '<span style="color:#b30059">█ █</span></br>Compartilhadas</br>(' + Math.floor(ciclotab.compartilhado) + ' Km)</br>';
                     });
                 } else {
                     mapa.addLayer(viasciclo);
