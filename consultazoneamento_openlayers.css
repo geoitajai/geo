@@ -9,13 +9,13 @@ html, body {
     overflow: visible;
 }
 
-.mapa {
+.leaflet-container {
     border: none;
     width: 174.7mm;
     height: 96.3mm;
     position: absolute;
     left: 38.9mm;
-    top: 153mm;
+    top: 164.2mm;
     background-color: white;
 }
 
@@ -90,32 +90,40 @@ html, body {
 }
 
 #pautavias {
-    left: 39mm;
-    top: 142.15mm;
-    font-size: 12px;
+    left: 53.1mm;
+    top: 142.55mm;
+    font-size: 9px;
     font-weight: normal;
-    height: 15px;
-    width: 661px;
+    height: 51px;
+    width: 602px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 #reaeroporto {
-    left: 98.7mm;
-    top: 281.35mm;
+    left: 88.2mm;
+    top: 284.05mm;
 }
 
 #redeptransito {
-    left: 40.2mm;
+    left: 12mm;
     top: 296.45mm;
 }
 
 #reambiental {
-    left: 40.1mm;
-    top: 281.05mm;
+    left: 12mm;
+    top: 284.05mm;
+}
+
+#repatrimoniohistorico {
+    left: 88.2mm;
+    top: 291.8mm;
 }
 
 #rerodovias {
-    left: 98.7mm;
-    top: 286.35mm;
+    left: 88.2mm;
+    top: 287.85mm;
 }
 
 table {

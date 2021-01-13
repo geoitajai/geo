@@ -51,6 +51,7 @@
     <div class="obs" id='redeptransito'></div>
     <div class="obs" id='reambiental'></div>
     <div class="obs" id='rerodovias'></div>
+    <div class="obs" id='repatrimoniohistorico'></div>
 
     <script>
         let mapa = new L.Map('mapa', {
@@ -301,14 +302,49 @@
                 if (datalote[0].properties.rerodovias !== null && datalote[0].properties.rerodovias.includes('s')) {
                     document.getElementById("rerodovias").innerHTML = 'X'
                 };
+                if (datalote[0].properties.repatrimoniohistorico !== null && datalote[0].properties.repatrimoniohistorico.includes('s')) {
+                    document.getElementById("repatrimoniohistorico").innerHTML = 'X'
+                };
                 if (datalote[0].properties.nomevcd !== null) {
+                    $.getJSON(`data/sviario/pauta/${String(datalote[0].properties.inscrlig.substring(0, 3))}/${datalote[0].properties.inscrlig}.geojson`).done(datab => {
+                        if (datalote[0].properties.ptotalvia == 0) {
+                            document.getElementById("pautavias").innerHTML = 'consultar Secretaria Municipal de Desenvolvimento Urbano e Habitação';
+                        } else {
+                            tabelapauta = datab.features.reduce((a, e) => {
+                                vialinha = `${e.properties.nome} - Cx.da via: ${e.properties.ptotalvia} - Passeios: ${e.properties.ppasseio1}/ ${e.properties.ppasseio2}m`
+                                a.push(vialinha)
+                                return a
+                            }, []);
+                            let list = "<li>" + tabelapauta.join("</li><li>") + "</li>";
+                            document.getElementById("pautavias").innerHTML = list;
+                        };
+                    }).fail(nodata => {
+                        console.log(nodata)
+                        let secaoviaria = (datalote[0].properties.viasecao == null) ? '1' : datalote[0].properties.viasecao;
+                        $.getJSON(`data/sviario/exportTabela/${String(datalote[0].properties.via1)}.${secaoviaria}.geojson`, (datac) => {
+                            if (datac.properties.ptotalvia == 0) {
+                                document.getElementById("pautavias").innerHTML = 'consultar Secretaria Municipal de Desenvolvimento Urbano e Habitação';
+                            } else {
+                                document.getElementById("pautavias").innerHTML = `${datac.properties.nome} - Cx.da via: ${datac.properties.ptotalvia}m - Passeios: ${datac.properties.ppasseio1}/ ${datac.properties.ppasseio2}m`;
+                            };
+                        });
+                    });
+                    /*
                     $.getJSON(`data/sviario/exportTabela/${String(datalote[0].properties.via1)}.${String(datalote[0].properties.viasecao)}.geojson`, (data) => {
                         if (data.properties.ptotalvia == 0) {
                             document.getElementById("pautavias").innerHTML = 'consultar Secretaria Municipal de Desenvolvimento Urbano e Habitação';
                         } else {
-                            document.getElementById("pautavias").innerHTML = `${data.properties.nome} - Cx.da via: ${data.properties.ptotalvia}m - Passeios: ${data.properties.ppasseio1}/ ${data.properties.ppasseio2}m`;
-                        }
-                    });
+                            $.getJSON(`data/sviario/pauta/${String(datalote[0].properties.inscrlig.substring(0, 3))}/${datalote[0].properties.inscrlig}.geojson`, (data) => {
+                                tabelapauta = data.features.reduce((a, e) => {
+                                    vialinha = `${e.properties.nome} - Cx.da via: ${e.properties.ptotalvia} - Passeios: ${e.properties.ppasseio1}/ ${e.properties.ppasseio2}m`
+                                    a.push(vialinha)
+                                    return a
+                                }, []);
+                                let list = "<li>" + tabelapauta.join("</li><li>") + "</li>";
+                                document.getElementById("pautavias").innerHTML = list;
+                            });
+                        };
+                    });*/
                 };
                 document.getElementById("reambiental").innerHTML = 'X';
                 //MontarMapa

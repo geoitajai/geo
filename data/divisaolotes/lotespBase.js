@@ -50,6 +50,7 @@ let promessa = new Promise((resolve, reject) => {
                 "redeptransito": lote.properties.redeptransito === null ? null : lote.properties.redeptransito.trim(),
                 "reambiental": lote.properties.reambiental === null ? null : lote.properties.reambiental.trim(),
                 "rerodovias": lote.properties.rerodovias === null ? null : lote.properties.rerodovias.trim(),
+                "repatrimoniohistorico": lote.properties.repatrimoniohistorico === null ? null : lote.properties.repatrimoniohistorico.trim(),
                 "via1": lote.properties.via1,
                 "viasecao": lote.properties.viasecao
             }
