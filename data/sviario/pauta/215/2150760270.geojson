@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2150760270", "cod": 1351, "nome": "R.Pedro Reis", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.735435319588071, -26.876170221645065 ], [ -48.73543996, -26.87622082 ], [ -48.735468312906633, -26.876523076018753 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2150760270", "cod": 1359, "nome": "R.Francisca Casas Ramos", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.73543996, -26.87622082 ], [ -48.735386376842456, -26.876225077690712 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2150760270", "cod": 1351, "nome": "R.Pedro Reis", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.735435319588071, -26.876170221645062 ], [ -48.73543996, -26.87622082 ], [ -48.735468312906633, -26.876523076018753 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2150760270", "cod": 1359, "nome": "R.Francisca Casas Ramos", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.73543996, -26.87622082 ], [ -48.735386376842456, -26.876225077690716 ] ] } }
 ]
 }

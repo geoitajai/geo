@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2021010330", "cod": 159, "nome": "R.José Pereira Liberato", "ptotalvia": 12.5, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.682647242512637, -26.902384729543872 ], [ -48.68265132, -26.90241473 ], [ -48.682686070259592, -26.902677496543863 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2021010330", "cod": 159, "nome": "R.José Pereira Liberato", "ptotalvia": 12.5, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.682647242512637, -26.902384729543869 ], [ -48.68265132, -26.90241473 ], [ -48.682686070259592, -26.902677496543863 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2021010330", "cod": 203, "nome": "R.Menina Rosana da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68265132, -26.90241473 ], [ -48.682632085172472, -26.902415576322674 ] ] } }
 ]
 }

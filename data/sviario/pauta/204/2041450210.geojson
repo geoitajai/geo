@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2041450210", "cod": 854, "nome": "R.Ver.Abílio Otávio do Canto", "ptotalvia": 20.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674491434478462, -26.924338975751059 ], [ -48.67449072, -26.92434311 ], [ -48.67443209036378, -26.924644216076153 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2041450210", "cod": 854, "nome": "R.Ver.Abílio Otávio do Canto", "ptotalvia": 20.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674491434478462, -26.924338975751063 ], [ -48.67449072, -26.92434311 ], [ -48.67443209036378, -26.924644216076146 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2041450210", "cod": 857, "nome": "R.Pedro Pereira Mafra", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674492655037994, -26.924343359792726 ], [ -48.67449072, -26.92434311 ] ] } }
 ]
 }

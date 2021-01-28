@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0031550350", "cod": 1111, "nome": "Av.Dr.Reinaldo Schmithausen", "ptotalvia": 27.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -48.715646984324941, -26.891467269564036 ], [ -48.71560061, -26.891476839999989 ], [ -48.715249321289761, -26.891444977024459 ] ], [ [ -48.714991827061688, -26.891418188830617 ], [ -48.714824483763969, -26.891382731384038 ] ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0031550350", "cod": 1361, "nome": "R.Onildo Reis", "ptotalvia": 13.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.716399758264366, -26.892590338726876 ], [ -48.71607535, -26.89181146 ], [ -48.71560061, -26.891476839999989 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0031550350", "cod": 1111, "nome": "Av.Dr.Reinaldo Schmithausen", "ptotalvia": 27.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -48.715646984324941, -26.891467269564036 ], [ -48.71560061, -26.891476839999989 ], [ -48.715249321289761, -26.891444977024463 ] ], [ [ -48.714991827061688, -26.891418188830617 ], [ -48.714824483763969, -26.891382731384038 ] ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031550350", "cod": 1361, "nome": "R.Onildo Reis", "ptotalvia": 13.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.716399758264366, -26.892590338726883 ], [ -48.71607535, -26.89181146 ], [ -48.71560061, -26.891476839999989 ] ] } }
 ]
 }

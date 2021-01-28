@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040420064", "cod": 609, "nome": "R.Emílio da Cruz Coutinho", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65867127, -26.91673431 ], [ -48.65836028664971, -26.91648697030892 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040420064", "cod": 609, "nome": "R.Emílio da Cruz Coutinho", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65867127, -26.91673431 ], [ -48.65836028664971, -26.916486970308924 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2040420064", "cod": 266, "nome": "R.Uruguai", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.658727628162268, -26.916660096309336 ], [ -48.658508612772152, -26.916946342893922 ] ] } }
 ]
 }

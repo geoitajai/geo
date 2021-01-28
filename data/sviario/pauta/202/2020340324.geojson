@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020340324", "cod": 214, "nome": "R.Felício Maes", "ptotalvia": 7.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.673697027581888, -26.899259636085574 ], [ -48.673792398025107, -26.899335938646537 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020340324", "cod": 214, "nome": "R.Felício Maes", "ptotalvia": 7.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.673697027581888, -26.899259636085574 ], [ -48.673792398025107, -26.899335938646541 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2020340324", "cod": 218, "nome": "R.Austergilio Angelino", "ptotalvia": 13.2, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.673287412636917, -26.899520482978929 ], [ -48.673554992579078, -26.899731011350372 ] ] } }
 ]
 }

@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2030840080", "cod": 1080, "nome": "R.Carlos Juvenal Gomes", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696197690889427, -26.876775293890724 ], [ -48.69616948, -26.87677707 ], [ -48.695823736791532, -26.876790136311861 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2030840080", "cod": 1080, "nome": "R.Carlos Juvenal Gomes", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696197690889427, -26.876775293890724 ], [ -48.69616948, -26.87677707 ], [ -48.695823736791532, -26.876790136311858 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2030840080", "cod": 1087, "nome": "R.João Emiliano da Silva", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69616948, -26.87677707 ], [ -48.696171413627248, -26.876838937498597 ] ] } }
 ]
 }

@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140790085", "cod": 822, "nome": "R.Luci Canziani", "ptotalvia": 26.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.630936502727863, -26.944983143355213 ], [ -48.63038683, -26.94505516 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140790085", "cod": 822, "nome": "R.Luci Canziani", "ptotalvia": 26.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.630936502727863, -26.944983143355209 ], [ -48.63038683, -26.94505516 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2140790085", "cod": 782, "nome": "R.Delfim Mário Pádua Peixoto", "ptotalvia": 20.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.63041098607578, -26.945370930792713 ], [ -48.63038683, -26.94505516 ], [ -48.630382784339538, -26.94503054186713 ] ] } }
 ]
 }

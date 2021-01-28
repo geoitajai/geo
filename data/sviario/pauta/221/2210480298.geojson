@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2210480298", "cod": 534, "nome": "R.Antônio de Souza Cunha", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68289235, -26.924804819999988 ], [ -48.682438882196806, -26.924841847317921 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2210480298", "cod": 545, "nome": "R.José Gall", "ptotalvia": 15.6, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.683008589932996, -26.925122061781995 ], [ -48.68289235, -26.924804819999988 ], [ -48.682869903045813, -26.924739712147403 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2210480298", "cod": 534, "nome": "R.Antônio de Souza Cunha", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68289235, -26.92480482 ], [ -48.682438882196806, -26.924841847317918 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210480298", "cod": 545, "nome": "R.José Gall", "ptotalvia": 15.6, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.683008589932996, -26.925122061781995 ], [ -48.68289235, -26.92480482 ], [ -48.68286990304582, -26.924739712147403 ] ] } }
 ]
 }

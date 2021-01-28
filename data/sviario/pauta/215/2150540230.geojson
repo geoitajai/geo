@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2150540230", "cod": 1355, "nome": "R.Laura Rebello", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.73341055687181, -26.882637798570524 ], [ -48.73341626, -26.88270136 ], [ -48.733444049542243, -26.882997808644312 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2150540230", "cod": 1355, "nome": "R.Laura Rebello", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.73341055687181, -26.882637798570524 ], [ -48.73341626, -26.88270136 ], [ -48.733444049542243, -26.882997808644316 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2150540230", "cod": 1357, "nome": "R.José Balduino", "ptotalvia": 11.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.733484099122641, -26.882695984717891 ], [ -48.73323666, -26.88271559 ] ] } }
 ]
 }

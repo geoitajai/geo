@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040150271", "cod": 648, "nome": "R.Onze de Junho", "ptotalvia": 13.2, "ppasseio1": 1.9, "ppasseio2": 1.9 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.650792017887781, -26.920850095265489 ], [ -48.65090073, -26.92109244 ], [ -48.650937405668181, -26.921161110916856 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040150271", "cod": 663, "nome": "Serv.João Manuel Francisco", "ptotalvia": 3.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.650802318676, -26.920839981950586 ], [ -48.651290517251184, -26.920669567464163 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040150271", "cod": 648, "nome": "R.Onze de Junho", "ptotalvia": 13.2, "ppasseio1": 1.9, "ppasseio2": 1.9 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.650792017887781, -26.920850095265486 ], [ -48.65090073, -26.92109244 ], [ -48.650937405668181, -26.921161110916856 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040150271", "cod": 663, "nome": "Serv.João Manuel Francisco", "ptotalvia": 3.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.650802318676, -26.920839981950589 ], [ -48.651290517251184, -26.920669567464163 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2040150271", "cod": 665, "nome": "R.Pedro Camilo da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65090073, -26.92109244 ], [ -48.650845580818029, -26.921114018259129 ] ] } }
 ]
 }

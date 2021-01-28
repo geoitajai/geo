@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2160581600", "cod": 1456, "nome": "R.Gertrudes da Silva Simas", "ptotalvia": 8.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.74822284, -26.94619604 ], [ -48.748227970519686, -26.946250234259363 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2160581600", "cod": 1458, "nome": "R.Aristides Pedroni", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.748398150256129, -26.94291035393432 ], [ -48.747634531709174, -26.943377745505405 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2160581600", "cod": 1456, "nome": "R.Gertrudes da Silva Simas", "ptotalvia": 8.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.74822284, -26.94619604 ], [ -48.748227970519686, -26.946250234259367 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2160581600", "cod": 1458, "nome": "R.Aristides Pedroni", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.748398150256129, -26.94291035393432 ], [ -48.747634531709167, -26.943377745505408 ] ] } }
 ]
 }

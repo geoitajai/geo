@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0031230315", "cod": 1166, "nome": "R.Eredes Serpa", "ptotalvia": 12.5, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702111938791646, -26.898487917049057 ], [ -48.702129699295448, -26.898816017120875 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031230315", "cod": 1166, "nome": "R.Eredes Serpa", "ptotalvia": 12.5, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702111938791653, -26.898487917049057 ], [ -48.702129699295455, -26.898816017120875 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "0031230315", "cod": 1209, "nome": "R.Salvador", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70166169, -26.89858916 ], [ -48.701562667363554, -26.898595370901894 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0031230315", "cod": 1211, "nome": "Trav.Recife", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.701656472948372, -26.898503349363779 ], [ -48.70166169, -26.89858916 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0031230315", "cod": 1211, "nome": "Trav.Recife", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.701656472948365, -26.898503349363779 ], [ -48.70166169, -26.89858916 ] ] } }
 ]
 }

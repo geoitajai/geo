@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0055060150", "cod": 138, "nome": "R.Florisa Pereira Garcia Kumm", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.708368217427669, -26.907906531740466 ], [ -48.70829395, -26.90790987 ], [ -48.707900804936862, -26.907926180892918 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0055060150", "cod": 135, "nome": "R.José Pezzini", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.708290275133017, -26.90783450663362 ], [ -48.70829395, -26.90790987 ], [ -48.708313368713092, -26.90819440364503 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0055060150", "cod": 138, "nome": "R.Florisa Pereira Garcia Kumm", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.708368217427669, -26.907906531740466 ], [ -48.70829395, -26.90790987 ], [ -48.70790080493687, -26.907926180892915 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0055060150", "cod": 135, "nome": "R.José Pezzini", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.708290275133017, -26.90783450663362 ], [ -48.70829395, -26.90790987 ], [ -48.708313368713092, -26.908194403645027 ] ] } }
 ]
 }

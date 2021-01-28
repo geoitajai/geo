@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2120860564", "cod": 406, "nome": "Trav.Penha", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.684606560185358, -26.890995890980943 ], [ -48.684011891452393, -26.891574876870536 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2120860564", "cod": 406, "nome": "Trav.Penha", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.684606560185358, -26.890995890980943 ], [ -48.684011891452393, -26.891574876870532 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2120860564", "cod": 421, "nome": "Trav.Vitor Ribeiro da Luz", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68397009, -26.89111212 ], [ -48.68363532089073, -26.891289824711841 ] ] } }
 ]
 }

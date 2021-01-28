@@ -2,9 +2,9 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0030710045", "cod": 1629, "nome": "R.\"25\" Loteamento Costa Cavalcanti", "ptotalvia": 5.9, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69781201, -26.89664169 ], [ -48.697814870138338, -26.896735523575849 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0030710045", "cod": 1629, "nome": "R.\"25\" Loteamento Costa Cavalcanti", "ptotalvia": 5.9, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69781201, -26.896641689999989 ], [ -48.697814870138338, -26.896735523575849 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "0030710045", "cod": 1223, "nome": "R.Vera Lucia de Moura Albino", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697764182698165, -26.896016671322744 ], [ -48.69776887, -26.89610555 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0030710045", "cod": 1150, "nome": "R.Amapá", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698044042623415, -26.896096607480594 ], [ -48.69776887, -26.89610555 ], [ -48.697512992518604, -26.896114575279135 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0030710045", "cod": 1218, "nome": "R.Amazonas", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698067349507873, -26.896636248673719 ], [ -48.69781201, -26.89664169 ], [ -48.697534130283834, -26.896647616485499 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0030710045", "cod": 1150, "nome": "R.Amapá", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698044042623415, -26.896096607480594 ], [ -48.69776887, -26.89610555 ], [ -48.697512992518604, -26.896114575279142 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0030710045", "cod": 1218, "nome": "R.Amazonas", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698067349507873, -26.896636248673719 ], [ -48.69781201, -26.896641689999989 ], [ -48.697534130283834, -26.896647616485499 ] ] } }
 ]
 }

@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2210130055", "cod": 521, "nome": "R.Luciano Pinheiro da Silva", "ptotalvia": 13.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68071759031853, -26.910749518550475 ], [ -48.68072123, -26.91109589 ], [ -48.680722556178942, -26.911146254442233 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2210130055", "cod": 523, "nome": "R.Antônio Adão Dias", "ptotalvia": 13.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.681909476066821, -26.911047163404898 ], [ -48.68072123, -26.91109589 ], [ -48.680674982069405, -26.9110984635929 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2210130055", "cod": 521, "nome": "R.Luciano Pinheiro da Silva", "ptotalvia": 13.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.680717590318523, -26.910749518550475 ], [ -48.68072123, -26.911095889999988 ], [ -48.680722556178942, -26.911146254442237 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210130055", "cod": 523, "nome": "R.Antônio Adão Dias", "ptotalvia": 13.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.681909476066821, -26.911047163404898 ], [ -48.68072123, -26.911095889999988 ], [ -48.680674982069405, -26.9110984635929 ] ] } }
 ]
 }

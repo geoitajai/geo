@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010150394", "cod": 278, "nome": "R.Joinville", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.655788142990986, -26.907661956247182 ], [ -48.65520575, -26.9074957 ], [ -48.655145234446209, -26.907477456073011 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010150394", "cod": 278, "nome": "R.Joinville", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.655788142990986, -26.907661956247182 ], [ -48.65520575, -26.9074957 ], [ -48.655145234446209, -26.907477456073007 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2010150394", "cod": 282, "nome": "R.Lauro Muller", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.655270516727484, -26.907112398389597 ], [ -48.65520575, -26.9074957 ], [ -48.655195853937641, -26.907551162581857 ] ] } }
 ]
 }

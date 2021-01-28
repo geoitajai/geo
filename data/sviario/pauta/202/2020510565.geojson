@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020510565", "cod": 176, "nome": "R.Altino Werner", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675350572123477, -26.896651360997907 ], [ -48.675627427851218, -26.896878807426237 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020510565", "cod": 199, "nome": "R.Hélio Douat de Menezes", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675041180944945, -26.896955969065584 ], [ -48.675328794321906, -26.897188810805144 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2020510565", "cod": 176, "nome": "R.Altino Werner", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675350572123477, -26.896651360997907 ], [ -48.675627427851218, -26.896878807426241 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020510565", "cod": 199, "nome": "R.Hélio Douat de Menezes", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675041180944945, -26.896955969065584 ], [ -48.675328794321906, -26.897188810805147 ] ] } }
 ]
 }

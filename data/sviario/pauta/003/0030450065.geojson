@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0030450065", "cod": 1133, "nome": "R.São Paulo (bairro Cordeiros)", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695081795380112, -26.889211221527674 ], [ -48.69500417, -26.88921864 ], [ -48.694723155460196, -26.889235044223508 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0030450065", "cod": 1133, "nome": "R.São Paulo (bairro Cordeiros)", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695081795380112, -26.889211221527674 ], [ -48.69500417, -26.88921864 ], [ -48.694723155460196, -26.889235044223511 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "0030450065", "cod": 1143, "nome": "R.Mário Reis", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69500417, -26.88921864 ], [ -48.695007212619494, -26.889277893907497 ] ] } }
 ]
 }

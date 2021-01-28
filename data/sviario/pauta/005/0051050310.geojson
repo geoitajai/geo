@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0051050310", "cod": 44, "nome": "R.Manoel José dos Santos", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695915439729831, -26.901674389206921 ], [ -48.69594167, -26.90205818 ], [ -48.695945540936634, -26.902107581599875 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0051050310", "cod": 20, "nome": "R.Manoel Francisco Coelho", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696386262815707, -26.902030616052517 ], [ -48.69594167, -26.90205818 ], [ -48.69588941, -26.90206121 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0051050310", "cod": 20, "nome": "R.Manoel Francisco Coelho", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69588941, -26.90206121 ], [ -48.695885670235739, -26.90206142709652 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0051050310", "cod": 44, "nome": "R.Manoel José dos Santos", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695915439729831, -26.901674389206921 ], [ -48.69594167, -26.90205818 ], [ -48.695945540936634, -26.902107581599871 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0051050310", "cod": 20, "nome": "R.Manoel Francisco Coelho", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6963862628157, -26.902030616052521 ], [ -48.69594167, -26.90205818 ], [ -48.69588941, -26.90206121 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0051050310", "cod": 20, "nome": "R.Manoel Francisco Coelho", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69588941, -26.90206121 ], [ -48.695885670235739, -26.902061427096523 ] ] } }
 ]
 }

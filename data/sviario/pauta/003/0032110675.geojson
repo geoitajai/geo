@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0032110675", "cod": 1166, "nome": "R.Eredes Serpa", "ptotalvia": 12.5, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70193000108096, -26.895278280225973 ], [ -48.701949449119255, -26.895590362444945 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0032110675", "cod": 1166, "nome": "R.Eredes Serpa", "ptotalvia": 12.5, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70193000108096, -26.895278280225973 ], [ -48.701949449119255, -26.895590362444942 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "0032110675", "cod": 1193, "nome": "R.Pará", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70147831, -26.89540494 ], [ -48.701367580620477, -26.895410419133487 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0032110675", "cod": 1222, "nome": "Trav.Fortaleza", "ptotalvia": 9.5, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70147831, -26.89540494 ], [ -48.701487606796945, -26.895611295235319 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0032110675", "cod": 1222, "nome": "Trav.Fortaleza", "ptotalvia": 9.5, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70147831, -26.89540494 ], [ -48.701487606796945, -26.895611295235316 ] ] } }
 ]
 }

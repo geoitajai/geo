@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110510480", "cod": 388, "nome": "Bc.Aldo", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.667223579543631, -26.916837453741255 ], [ -48.6672123, -26.91667545 ], [ -48.667247848958588, -26.91662966810496 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110510480", "cod": 388, "nome": "Bc.Aldo", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.667223579543631, -26.916837453741255 ], [ -48.6672123, -26.91667545 ], [ -48.667247848958588, -26.916629668104964 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2110510480", "cod": 1667, "nome": "R.Sem denominação oficial", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.666988294806707, -26.916589104800721 ], [ -48.666923815888239, -26.916657654865428 ] ] } }
 ]
 }

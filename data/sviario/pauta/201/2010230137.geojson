@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010230137", "cod": 294, "nome": "R.Felipe Schmidt", "ptotalvia": 13.0, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.657653936551512, -26.905969223875907 ], [ -48.65752855, -26.90628238 ], [ -48.657481465685116, -26.906394346913228 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010230137", "cod": 404, "nome": "R.Edmundo Heusi", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.657609461677978, -26.906308230248211 ], [ -48.65752855, -26.90628238 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010230137", "cod": 295, "nome": "R.XV de Novembro", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656636073097459, -26.905758701494371 ], [ -48.656557788846605, -26.906000275999016 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2010230137", "cod": 294, "nome": "R.Felipe Schmidt", "ptotalvia": 13.0, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.657653936551512, -26.905969223875903 ], [ -48.65752855, -26.90628238 ], [ -48.657481465685116, -26.906394346913228 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010230137", "cod": 404, "nome": "R.Edmundo Heusi", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.657609461677978, -26.906308230248214 ], [ -48.65752855, -26.90628238 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010230137", "cod": 295, "nome": "R.XV de Novembro", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656636073097459, -26.905758701494367 ], [ -48.656557788846605, -26.906000275999016 ] ] } }
 ]
 }

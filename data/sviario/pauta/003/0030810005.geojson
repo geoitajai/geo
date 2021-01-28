@@ -3,7 +3,7 @@
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
 { "type": "Feature", "properties": { "inscrlig": "0030810005", "cod": 1192, "nome": "R.Porto Alegre", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69813225, -26.89067943 ], [ -48.698134701018816, -26.890763374579787 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0030810005", "cod": 1191, "nome": "R.Bahia", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698301610476989, -26.89067219253732 ], [ -48.69813225, -26.89067943 ], [ -48.69798786, -26.89067191 ], [ -48.697938213347079, -26.890673415052799 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0030810005", "cod": 1191, "nome": "R.Bahia", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698301610476989, -26.89067219253732 ], [ -48.69813225, -26.89067943 ], [ -48.69798786, -26.89067191 ], [ -48.697938213347079, -26.890673415052802 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "0030810005", "cod": 1161, "nome": "Av.Independência", "ptotalvia": 18.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697963744448082, -26.890303151688141 ], [ -48.69798786, -26.89067191 ] ] } }
 ]
 }

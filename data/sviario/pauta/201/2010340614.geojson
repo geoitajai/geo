@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010340614", "cod": 274, "nome": "Av.Cel.Marcos Konder", "ptotalvia": 30.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.660079642020534, -26.910583919102407 ], [ -48.659971645376629, -26.910859135557047 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010340614", "cod": 372, "nome": "R.Dr.Aderbal Ramos da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.659578048643802, -26.909918994811992 ], [ -48.659845716677715, -26.910138304323659 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010340614", "cod": 274, "nome": "Av.Cel.Marcos Konder", "ptotalvia": 30.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.660079642020534, -26.910583919102404 ], [ -48.659971645376636, -26.910859135557029 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010340614", "cod": 372, "nome": "R.Dr.Aderbal Ramos da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.659578048643802, -26.909918994811989 ], [ -48.659845716677715, -26.910138304323659 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2010340614", "cod": 276, "nome": "Av.7 de Setembro", "ptotalvia": 18.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.658300764011123, -26.90911258975963 ], [ -48.65808297, -26.90962524 ], [ -48.657996639513875, -26.909839861740682 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2010340614", "cod": 277, "nome": "R.Alm.Tamandaré", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65808297, -26.90962524 ], [ -48.658030633827593, -26.909609701527959 ] ] } }
 ]

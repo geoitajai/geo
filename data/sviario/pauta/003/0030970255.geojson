@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0030970255", "cod": 1173, "nome": "R.Agostinho Alves Ramos", "ptotalvia": 20.4, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698621015697071, -26.89918126622949 ], [ -48.698392785436347, -26.899043042388183 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0030970255", "cod": 1173, "nome": "R.Agostinho Alves Ramos", "ptotalvia": 20.4, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698621015697071, -26.899181266229487 ], [ -48.698392785436347, -26.899043042388179 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "0030970255", "cod": 1207, "nome": "Av.Brasília", "ptotalvia": 18.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698416829561658, -26.89872789248043 ], [ -48.69841827, -26.89878867 ], [ -48.698359011875951, -26.898940194746906 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0030970255", "cod": 1210, "nome": "R.Minas Gerais", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698741615717395, -26.898781414783226 ], [ -48.69841827, -26.89878867 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0030970255", "cod": 1210, "nome": "R.Minas Gerais", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698741615717395, -26.898781414783222 ], [ -48.69841827, -26.89878867 ] ] } }
 ]
 }

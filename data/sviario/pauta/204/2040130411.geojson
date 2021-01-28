@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040130411", "cod": 646, "nome": "R.Sebastião Bonifácio Cardoso", "ptotalvia": 3.5, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65258387, -26.92112183 ], [ -48.652575021776094, -26.92111454238815 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040130411", "cod": 646, "nome": "R.Sebastião Bonifácio Cardoso", "ptotalvia": 3.5, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65258387, -26.92112183 ], [ -48.652575021776094, -26.921114542388153 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2040130411", "cod": 647, "nome": "R.Agostinho Fernandes Vieira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.652588055409296, -26.921119624936971 ], [ -48.65258387, -26.92112183 ], [ -48.652275911068209, -26.921286758820685 ] ] } }
 ]
 }

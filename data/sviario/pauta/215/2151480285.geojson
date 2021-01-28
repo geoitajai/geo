@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2151480285", "cod": 1311, "nome": "R.Marcos Aurélio Seára", "ptotalvia": 28.7, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.745578968051255, -26.875584844003214 ], [ -48.745598546394206, -26.87582956347687 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2151480285", "cod": 1311, "nome": "R.Marcos Aurélio Seára", "ptotalvia": 28.7, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.745578968051255, -26.875584844003203 ], [ -48.745598546394206, -26.875829563476874 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2151480285", "cod": 1328, "nome": "Av.José Sasdelli", "ptotalvia": 18.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.745519484985685, -26.875546843029159 ], [ -48.74526444, -26.87556604 ] ] } }
 ]
 }

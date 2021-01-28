@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2042070195", "cod": 1620, "nome": "R.João Amaro", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.652256259118133, -26.933344679841259 ], [ -48.6522997, -26.93333371 ], [ -48.65230013, -26.93331287 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2042070195", "cod": 705, "nome": "R.João Cunha", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.652527853113554, -26.933061619007653 ], [ -48.65255608, -26.93313967 ], [ -48.652655, -26.93327783 ], [ -48.65266159, -26.9334542 ], [ -48.652666592925875, -26.933498786493399 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2042070195", "cod": 1620, "nome": "R.João Amaro", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.652256259118133, -26.933344679841262 ], [ -48.6522997, -26.93333371 ], [ -48.65230013, -26.93331287 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2042070195", "cod": 705, "nome": "R.João Cunha", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.652527853113554, -26.933061619007653 ], [ -48.65255608, -26.93313967 ], [ -48.652655, -26.93327783 ], [ -48.65266159, -26.933454200000011 ], [ -48.652666592925875, -26.933498786493399 ] ] } }
 ]
 }

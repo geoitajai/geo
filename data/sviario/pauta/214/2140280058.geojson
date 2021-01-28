@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140280058", "cod": 755, "nome": "R.C.Carlos Renaux", "ptotalvia": 8.4, "ppasseio1": 1.2, "ppasseio2": 1.2 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.635635959630569, -26.92669703294899 ], [ -48.63563105, -26.92671673000001 ], [ -48.63552719, -26.9268887 ], [ -48.635423444409277, -26.927009463574279 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140280058", "cod": 755, "nome": "R.C.Carlos Renaux", "ptotalvia": 8.4, "ppasseio1": 1.2, "ppasseio2": 1.2 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.635635959630569, -26.92669703294899 ], [ -48.63563105, -26.92671673 ], [ -48.63552719, -26.9268887 ], [ -48.635423444409277, -26.927009463574279 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2140280058", "cod": 761, "nome": "R.João Manoel da Silva (Cabeçudas)", "ptotalvia": 8.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.635595607135585, -26.926941592317402 ], [ -48.63552719, -26.9268887 ] ] } }
 ]
 }

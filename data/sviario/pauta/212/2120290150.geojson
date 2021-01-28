@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2120290150", "cod": 424, "nome": "Trav.São Bento", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68119251, -26.89125536 ], [ -48.68119347498682, -26.891280317896999 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2120290150", "cod": 426, "nome": "R.Alfredo Eicke", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.681641413363423, -26.891142140878202 ], [ -48.68119251, -26.89125536 ], [ -48.681141410804912, -26.891265324105564 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2120290150", "cod": 424, "nome": "Trav.São Bento", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68119251, -26.89125536 ], [ -48.68119347498682, -26.891280317896996 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2120290150", "cod": 426, "nome": "R.Alfredo Eicke", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.681641413363423, -26.891142140878198 ], [ -48.68119251, -26.89125536 ], [ -48.681141410804912, -26.891265324105568 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2120290150", "cod": 438, "nome": "Trav.Equador", "ptotalvia": 13.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68119251, -26.89125536 ], [ -48.681178720235891, -26.890612106077945 ] ] } }
 ]
 }

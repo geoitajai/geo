@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010070446", "cod": 299, "nome": "R.Eurico Krobel", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656001207829242, -26.904780314590628 ], [ -48.6559367, -26.90475007 ], [ -48.655315905012159, -26.904466869624869 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010070446", "cod": 288, "nome": "Av.Pref.Paulo Bauer", "ptotalvia": 14.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.655915880538217, -26.904028988813256 ], [ -48.65531247657983, -26.90444358266253 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010070446", "cod": 289, "nome": "R.Pedro Ferreira", "ptotalvia": 14.0, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656300838384063, -26.904357156235012 ], [ -48.6559367, -26.90475007 ], [ -48.655905256364882, -26.904802425369823 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2010070446", "cod": 299, "nome": "R.Eurico Krobel", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656001207829242, -26.904780314590628 ], [ -48.6559367, -26.90475007 ], [ -48.655315905012159, -26.904466869624873 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010070446", "cod": 288, "nome": "Av.Pref.Paulo Bauer", "ptotalvia": 14.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.655915880538217, -26.904028988813259 ], [ -48.65531247657983, -26.904443582662527 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010070446", "cod": 289, "nome": "R.Pedro Ferreira", "ptotalvia": 14.0, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656300838384063, -26.904357156235015 ], [ -48.6559367, -26.90475007 ], [ -48.655905256364882, -26.904802425369827 ] ] } }
 ]
 }

@@ -2,6 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2161821200", "cod": 1239, "nome": "R.Ana Vanat Orlandi", "ptotalvia": 3.5, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.857446277949464, -27.040319374642237 ], [ -48.85743622, -27.04049636 ], [ -48.857446351139828, -27.040736351991061 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2161821200", "cod": 1240, "nome": "R.Sem denominação oficial", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.857105547447219, -27.040394529035222 ], [ -48.857121921647575, -27.040699167678127 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2161821200", "cod": 1239, "nome": "R.Ana Vanat Orlandi", "ptotalvia": 3.5, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.857471129074987, -27.040328537353844 ], [ -48.85745957, -27.04050305 ], [ -48.857477907797531, -27.040724580607009 ] ] } }
 ]
 }

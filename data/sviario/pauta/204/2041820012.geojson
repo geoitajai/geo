@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2041820012", "cod": 689, "nome": "R.Antônio André Paulo", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65608586, -26.926925759999989 ], [ -48.656285037023757, -26.92712940987553 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2041820012", "cod": 690, "nome": "R.Videira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656136523958324, -26.926874839093298 ], [ -48.65608586, -26.926925759999989 ], [ -48.65605501, -26.926953659999988 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2041820012", "cod": 689, "nome": "R.Antônio André Paulo", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65608586, -26.92692576 ], [ -48.656285037023757, -26.92712940987553 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2041820012", "cod": 690, "nome": "R.Videira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656136523958324, -26.926874839093294 ], [ -48.65608586, -26.92692576 ], [ -48.65605501, -26.926953659999988 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2041820012", "cod": 690, "nome": "R.Videira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65605501, -26.926953659999988 ], [ -48.655826081113197, -26.927160664355792 ] ] } }
 ]
 }

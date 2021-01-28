@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0052010125", "cod": 49, "nome": "R.Saul Schead dos Santos", "ptotalvia": 13.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.694029979266801, -26.911044926357963 ], [ -48.69398341, -26.9110463 ], [ -48.693652267085874, -26.911052107710859 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0052010125", "cod": 49, "nome": "R.Saul Schead dos Santos", "ptotalvia": 13.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.694029979266801, -26.911044926357963 ], [ -48.69398341, -26.9110463 ], [ -48.693652267085881, -26.911052107710859 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "0052010125", "cod": 50, "nome": "R.Luiz Lopes Gonzaga", "ptotalvia": 13.2, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69397394023165, -26.910624904795469 ], [ -48.69398341, -26.9110463 ], [ -48.693983520971358, -26.911093398900686 ] ] } }
 ]
 }

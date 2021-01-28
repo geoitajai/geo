@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2151930500", "cod": 1599, "nome": "R.João Santos da Silva", "ptotalvia": 18.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.74260836, -26.86357413 ], [ -48.742465404254062, -26.86358405680307 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2151930500", "cod": 1565, "nome": "R.João Antônio Martins", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.742875279759851, -26.867207449710335 ], [ -48.74279073, -26.86635972 ], [ -48.74269374123628, -26.866360835608333 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2151930500", "cod": 1599, "nome": "R.João Santos da Silva", "ptotalvia": 18.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.74260836, -26.863574129999989 ], [ -48.742465404254062, -26.863584056803067 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2151930500", "cod": 1565, "nome": "R.João Antônio Martins", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.742875279759851, -26.867207449710335 ], [ -48.74279073, -26.86635972 ], [ -48.74269374123628, -26.866360835608337 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2151930500", "cod": 1310, "nome": "R.Bruno Vicente da Luz", "ptotalvia": 26.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.742045626039157, -26.857202332960835 ], [ -48.742622101691545, -26.857535103630852 ] ] } }
 ]
 }

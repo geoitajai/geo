@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040860010", "cod": 859, "nome": "R.Nivaldo Detoie", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67553102, -26.92305744 ], [ -48.675464852111425, -26.923392496039547 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040860010", "cod": 549, "nome": "R.Miguel Kunifas", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675322862142515, -26.922861578855898 ], [ -48.67532673, -26.92292609 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040860010", "cod": 265, "nome": "Av.Ver.Abrahão João Francisco", "ptotalvia": 29.4, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675566007763202, -26.923080610266322 ], [ -48.67553102, -26.92305744 ], [ -48.67532673, -26.92292609 ], [ -48.675150518335627, -26.92279437101778 ] ] } }
-]
-}

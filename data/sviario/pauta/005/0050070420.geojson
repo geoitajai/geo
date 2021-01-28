@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050070420", "cod": 14, "nome": "R.Gelásio Pedro de Miranda", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.688753043562386, -26.904331202361824 ], [ -48.68874708, -26.90433139 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050070420", "cod": 14, "nome": "R.Gelásio Pedro de Miranda", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.688753043562386, -26.904331202361828 ], [ -48.68874708, -26.90433139 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "0050070420", "cod": 60, "nome": "R.Estefano José Vanolli", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.688736998337184, -26.904106092960959 ], [ -48.68874708, -26.90433139 ], [ -48.688747436668415, -26.904355677885533 ] ] } }
 ]
 }

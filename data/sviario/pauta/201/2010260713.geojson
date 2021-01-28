@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010260713", "cod": 294, "nome": "R.Felipe Schmidt", "ptotalvia": 13.0, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65830611221589, -26.904359847208649 ], [ -48.65829396, -26.90438796 ], [ -48.658051379982567, -26.904985817644331 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010260713", "cod": 294, "nome": "R.Felipe Schmidt", "ptotalvia": 13.0, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65830611221589, -26.904359847208649 ], [ -48.65829396, -26.90438796 ], [ -48.658051379982567, -26.904985817644327 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2010260713", "cod": 293, "nome": "R.Dr.José Bonifácio Malburg", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65873273098935, -26.904658474037625 ], [ -48.65829396, -26.90438796 ], [ -48.658266183554034, -26.904371575660505 ] ] } }
 ]
 }

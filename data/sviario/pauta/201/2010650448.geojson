@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010650448", "cod": 318, "nome": "Serv.Manoel Fermino do Nascimento", "ptotalvia": 3.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.667422619684302, -26.908132053792052 ], [ -48.667234643947609, -26.908068830052589 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010650448", "cod": 318, "nome": "Serv.Manoel Fermino do Nascimento", "ptotalvia": 3.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.667422619684302, -26.908132053792052 ], [ -48.667234643947609, -26.908068830052585 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2010650448", "cod": 316, "nome": "R.Pereira Neto", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.667275409234641, -26.907774081783124 ], [ -48.66730291, -26.9080916 ] ] } }
 ]
 }

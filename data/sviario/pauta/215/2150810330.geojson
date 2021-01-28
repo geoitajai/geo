@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2150810330", "cod": 1310, "nome": "R.Bruno Vicente da Luz", "ptotalvia": 26.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.756780024016045, -26.887347799000196 ], [ -48.75677306, -26.88735266 ], [ -48.756366171935127, -26.887765668188102 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2150810330", "cod": 1310, "nome": "R.Bruno Vicente da Luz", "ptotalvia": 26.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.756780024016045, -26.887347799000196 ], [ -48.75677306, -26.88735266 ], [ -48.756366171935127, -26.887765668188106 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2150810330", "cod": 1342, "nome": "R.Solange Peirão", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.75456677, -26.88670934 ], [ -48.754518304730517, -26.886791988050906 ] ] } }
 ]
 }

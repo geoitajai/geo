@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0031280120", "cod": 1178, "nome": "Av.Mário Uriarte", "ptotalvia": 30.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702511272425902, -26.89936777776083 ], [ -48.702237336340694, -26.899329807881863 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031280120", "cod": 1178, "nome": "Av.Mário Uriarte", "ptotalvia": 30.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702511272425902, -26.899367777760833 ], [ -48.702237336340694, -26.899329807881863 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "0031280120", "cod": 1166, "nome": "R.Eredes Serpa", "ptotalvia": 12.5, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702158779381712, -26.899350983895047 ], [ -48.702185413709898, -26.899811523340492 ] ] } }
 ]
 }

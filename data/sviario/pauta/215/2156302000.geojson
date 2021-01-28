@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2156302000", "cod": 1402, "nome": "R.Domingos Rampelotti", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.749899725760095, -26.907957545810053 ], [ -48.74983031, -26.90792137 ], [ -48.74948473, -26.90782951 ], [ -48.74910596, -26.90779476 ], [ -48.74759958, -26.90766747 ], [ -48.74676697, -26.90767765 ], [ -48.74616793, -26.90761385 ], [ -48.74559502, -26.90752335 ], [ -48.745189599612118, -26.907532793807285 ] ] } }
+]
+}

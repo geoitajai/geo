@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020720637", "cod": 185, "nome": "R.Pedro Rangel", "ptotalvia": 12.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.680840837119121, -26.900755606540027 ], [ -48.680482955521072, -26.900769056480712 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020720637", "cod": 185, "nome": "R.Pedro Rangel", "ptotalvia": 12.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.680840837119121, -26.900755606540024 ], [ -48.680482955521072, -26.900769056480712 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2020720637", "cod": 201, "nome": "R.Albano Eicholtz", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.680461127039372, -26.900820144959692 ], [ -48.680463961203209, -26.901050929646562 ] ] } }
 ]
 }

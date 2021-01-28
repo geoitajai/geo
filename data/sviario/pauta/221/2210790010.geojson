@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2210790010", "cod": 565, "nome": "R.Antero Chaves", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.679481070393813, -26.921202990509371 ], [ -48.67954986, -26.92120022 ], [ -48.679986543761132, -26.921194992190337 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2210790010", "cod": 570, "nome": "R.Estud.Anastácio Luiz Pereira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67954986, -26.92120022 ], [ -48.679555847470269, -26.921504271484626 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2210790010", "cod": 565, "nome": "R.Antero Chaves", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.679481070393813, -26.921202990509368 ], [ -48.67954986, -26.92120022 ], [ -48.679986543761132, -26.92119499219034 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210790010", "cod": 570, "nome": "R.Estud.Anastácio Luiz Pereira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67954986, -26.92120022 ], [ -48.679555847470269, -26.921504271484633 ] ] } }
 ]
 }

@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0052330040", "cod": 979, "nome": "R.Waldemar Bittencourt Felix", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.699289387440324, -26.923912026779483 ], [ -48.698958002330144, -26.924095215474377 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0052330040", "cod": 979, "nome": "R.Waldemar Bittencourt Felix", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.699289387440324, -26.923912026779483 ], [ -48.698958002330144, -26.924095215474374 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "0052330040", "cod": 926, "nome": "Av.Min.Luiz Gallotti", "ptotalvia": 17.2, "ppasseio1": 3.25, "ppasseio2": 3.25 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.699551871605784, -26.924302046442069 ], [ -48.699335803895835, -26.924504689413137 ] ] } }
 ]
 }

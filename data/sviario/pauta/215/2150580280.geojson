@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2150580280", "cod": 1354, "nome": "R.Nilza Alves da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.733619377185448, -26.879154238253072 ], [ -48.733652054696691, -26.87951581505537 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2150580280", "cod": 1354, "nome": "R.Nilza Alves da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.733619377185448, -26.879154238253069 ], [ -48.733652054696691, -26.879515815055367 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2150580280", "cod": 1358, "nome": "Av.Marcos Luís Cabral", "ptotalvia": 26.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.733957964929431, -26.879497607346032 ], [ -48.733683333674129, -26.879524824308227 ] ] } }
 ]
 }

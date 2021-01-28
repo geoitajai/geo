@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2120271313", "cod": 434, "nome": "R.Hildo Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67823836, -26.88923484 ], [ -48.678542817907392, -26.889492642104187 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2120271313", "cod": 434, "nome": "R.Hildo Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67823836, -26.88923484 ], [ -48.678542817907392, -26.889492642104184 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2120271313", "cod": 157, "nome": "R.Blumenau", "ptotalvia": 14.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.678291102600923, -26.889169360380851 ], [ -48.67823836, -26.88923484 ], [ -48.678017526267297, -26.889501039000837 ] ] } }
 ]
 }

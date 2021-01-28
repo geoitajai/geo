@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140380203", "cod": 768, "nome": "R.Jorn.Roberto Mello de Faria", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.635978557026299, -26.929785049670876 ], [ -48.63606872, -26.92985769 ], [ -48.636374772015778, -26.930095886491099 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140380203", "cod": 768, "nome": "R.Jorn.Roberto Mello de Faria", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.635978557026306, -26.929785049670876 ], [ -48.63606872, -26.92985769 ], [ -48.636374772015778, -26.930095886491099 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2140380203", "cod": 770, "nome": "R.Aurora Cabral dos Santos", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.636311675030235, -26.929479698641362 ], [ -48.63606872, -26.92985769 ], [ -48.636009710344872, -26.929937287493161 ] ] } }
 ]
 }

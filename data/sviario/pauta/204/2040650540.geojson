@@ -2,9 +2,9 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040650540", "cod": 689, "nome": "R.Antônio André Paulo", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65608586, -26.926925759999989 ], [ -48.656147858907886, -26.926989151300152 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040650540", "cod": 690, "nome": "R.Videira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656321334791834, -26.926691209766368 ], [ -48.6562672, -26.9267435 ], [ -48.65608586, -26.926925759999989 ], [ -48.65605501, -26.926953659999988 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040650540", "cod": 691, "nome": "R.Edmundo Kienast", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656046936984218, -26.926562619159615 ], [ -48.6562672, -26.9267435 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040650540", "cod": 689, "nome": "R.Antônio André Paulo", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65608586, -26.92692576 ], [ -48.656147858907886, -26.926989151300152 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040650540", "cod": 690, "nome": "R.Videira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656321334791834, -26.926691209766364 ], [ -48.6562672, -26.9267435 ], [ -48.65608586, -26.92692576 ], [ -48.65605501, -26.926953659999988 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040650540", "cod": 691, "nome": "R.Edmundo Kienast", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656046936984218, -26.926562619159611 ], [ -48.6562672, -26.9267435 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2040650540", "cod": 690, "nome": "R.Videira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65605501, -26.926953659999988 ], [ -48.655965853010883, -26.927034278561099 ] ] } }
 ]
 }

@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2210120383", "cod": 159, "nome": "R.José Pereira Liberato", "ptotalvia": 12.5, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68253945959399, -26.912132783268792 ], [ -48.68252045, -26.91223207 ], [ -48.68246196934728, -26.912503782129452 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210120383", "cod": 159, "nome": "R.José Pereira Liberato", "ptotalvia": 12.5, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68253945959399, -26.912132783268795 ], [ -48.68252045, -26.91223207 ], [ -48.68246196934728, -26.912503782129452 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2210120383", "cod": 533, "nome": "Serv.Celeste Pereira Kracik", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68252045, -26.91223207 ], [ -48.68283432, -26.912272609999988 ] ] } }
 ]
 }

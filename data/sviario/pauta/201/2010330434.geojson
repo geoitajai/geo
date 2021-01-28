@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010330434", "cod": 274, "nome": "Av.Cel.Marcos Konder", "ptotalvia": 30.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.659562780690955, -26.911838336817951 ], [ -48.65954872, -26.91186976 ], [ -48.659535465115106, -26.91190388455702 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010330434", "cod": 274, "nome": "Av.Cel.Marcos Konder", "ptotalvia": 30.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.659562780690955, -26.911838336817954 ], [ -48.65954872, -26.91186976 ], [ -48.659535465115106, -26.91190388455702 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2010330434", "cod": 353, "nome": "R.João Bauer", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.659554155647882, -26.911870518688104 ], [ -48.65954872, -26.91186976 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2010330434", "cod": 370, "nome": "R.Paulo Caramuru da Silva", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65954872, -26.91186976 ], [ -48.658623392873587, -26.911167681992364 ] ] } }
 ]

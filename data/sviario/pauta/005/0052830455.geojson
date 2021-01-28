@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0052830455", "cod": 54, "nome": "R.Marcelino Ramos", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68924359391881, -26.89520110017158 ], [ -48.689133377830714, -26.895204200456664 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0052830455", "cod": 54, "nome": "R.Marcelino Ramos", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68924359391881, -26.895201100171583 ], [ -48.689133377830714, -26.895204200456664 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "0052830455", "cod": 1558, "nome": "R.Carlos Drumond de Andrade (S.Vicente)", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.689094247136495, -26.895553742985342 ], [ -48.689130451835126, -26.895205224970592 ] ] } }
 ]
 }

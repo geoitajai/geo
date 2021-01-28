@@ -2,9 +2,9 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0030050190", "cod": 1120, "nome": "R.Souza Cruz", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.689139270704082, -26.893099356539413 ], [ -48.68913777, -26.89309944 ], [ -48.68899608, -26.89310965 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0030050190", "cod": 1122, "nome": "R.Porto Velho", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.688985420438215, -26.892909998882104 ], [ -48.68899851, -26.89315513 ], [ -48.68900793461701, -26.893277838083577 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0030050190", "cod": 1123, "nome": "R.José Ramos", "ptotalvia": 9.5, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.688653328119656, -26.892931802591281 ], [ -48.68867271, -26.89325105 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0030050190", "cod": 1120, "nome": "R.Souza Cruz", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.689139270704082, -26.893099356539409 ], [ -48.68913777, -26.89309944 ], [ -48.68899608, -26.89310965 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0030050190", "cod": 1122, "nome": "R.Porto Velho", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.688985420438215, -26.8929099988821 ], [ -48.68899851, -26.89315513 ], [ -48.68900793461701, -26.893277838083577 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0030050190", "cod": 1123, "nome": "R.José Ramos", "ptotalvia": 9.5, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.688653328119656, -26.892931802591274 ], [ -48.68867271, -26.89325105 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "0030050190", "cod": 1124, "nome": "R.Rodolfo Bosco", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.688850757740092, -26.893286424947899 ], [ -48.68867271, -26.89325105 ], [ -48.688580151624343, -26.893182469353288 ] ] } }
 ]
 }

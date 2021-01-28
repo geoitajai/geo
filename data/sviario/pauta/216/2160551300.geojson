@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2160551300", "cod": 1458, "nome": "R.Aristides Pedroni", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.747664932594773, -26.943359138052244 ], [ -48.74759845, -26.94339983 ], [ -48.74720913588925, -26.943658100482374 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2160551300", "cod": 1458, "nome": "R.Aristides Pedroni", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.747664932594773, -26.943359138052248 ], [ -48.74759845, -26.94339983 ], [ -48.74720913588925, -26.94365810048237 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2160551300", "cod": 1466, "nome": "R.Maria de Souza Gonçalves", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.74748581402028, -26.941901191072432 ], [ -48.74759845, -26.94339983 ] ] } }
 ]
 }

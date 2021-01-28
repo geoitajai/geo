@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010701114", "cod": 401, "nome": "R.Ricardo Keunecke", "ptotalvia": 3.2, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66498163, -26.91050029 ], [ -48.664661453062209, -26.910756484281055 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010701114", "cod": 401, "nome": "R.Ricardo Keunecke", "ptotalvia": 3.2, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66498163, -26.91050029 ], [ -48.664661453062209, -26.910756484281059 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2010701114", "cod": 268, "nome": "R.Brusque", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.664770304390757, -26.910269979038631 ], [ -48.66498163, -26.91050029 ], [ -48.66501864, -26.91055452 ], [ -48.665039857139924, -26.910579407590475 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2010701114", "cod": 346, "nome": "Trav.Zozimo José Peixoto", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.665056995562701, -26.910517405399123 ], [ -48.66501864, -26.91055452 ] ] } }
 ]

@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0030350470", "cod": 1114, "nome": "R.São Cristóvão", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692992724951125, -26.888922494741781 ], [ -48.69301707, -26.88932321 ], [ -48.69303675, -26.88971514 ], [ -48.693040227807828, -26.889775808656402 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0030350470", "cod": 1131, "nome": "Trav.Antônio Zaguini", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693444557575567, -26.889711515916417 ], [ -48.69303675, -26.88971514 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0030350470", "cod": 1114, "nome": "R.São Cristóvão", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692992724951125, -26.888922494741784 ], [ -48.69301707, -26.88932321 ], [ -48.69303675, -26.88971514 ], [ -48.693040227807828, -26.889775808656402 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0030350470", "cod": 1131, "nome": "Trav.Antônio Zaguini", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693444557575567, -26.889711515916421 ], [ -48.69303675, -26.88971514 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "0030350470", "cod": 1132, "nome": "R.Anibal Pereira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69301707, -26.88932321 ], [ -48.692920899386465, -26.889328831041752 ] ] } }
 ]
 }

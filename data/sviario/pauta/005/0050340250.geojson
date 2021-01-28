@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050340250", "cod": 109, "nome": "R.Paulo Kleis Júnior", "ptotalvia": 13.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68917222077917, -26.910527841953101 ], [ -48.68883604, -26.91053419 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050340250", "cod": 109, "nome": "R.Paulo Kleis Júnior", "ptotalvia": 13.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68917222077917, -26.910527841953105 ], [ -48.68883604, -26.91053419 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "0050340250", "cod": 60, "nome": "R.Estefano José Vanolli", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.688834851373443, -26.910208093989052 ], [ -48.68883604, -26.91053419 ], [ -48.688836506784867, -26.910579990301656 ] ] } }
 ]
 }

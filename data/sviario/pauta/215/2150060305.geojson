@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2150060305", "cod": 1376, "nome": "R.Carlos Luiz Stringari", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.734592305533077, -26.8884659167846 ], [ -48.734618561728645, -26.888786497969804 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2150060305", "cod": 1378, "nome": "R.Atilio Dalsóquio", "ptotalvia": 26.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.734675486280047, -26.888747772450778 ], [ -48.73461702, -26.88876084 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2150060305", "cod": 1376, "nome": "R.Carlos Luiz Stringari", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.734592305533077, -26.888465916784604 ], [ -48.734618561728645, -26.888786497969804 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2150060305", "cod": 1378, "nome": "R.Atilio Dalsóquio", "ptotalvia": 26.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.734675486280047, -26.888747772450781 ], [ -48.73461702, -26.88876084 ] ] } }
 ]
 }

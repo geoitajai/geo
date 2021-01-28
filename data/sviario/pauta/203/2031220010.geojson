@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2031220010", "cod": 1099, "nome": "R.Ver.Horácio Ramos Gonzaga", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70608463787454, -26.887297995458056 ], [ -48.70612196, -26.88794222 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2031220010", "cod": 1111, "nome": "Av.Dr.Reinaldo Schmithausen", "ptotalvia": 27.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.706400019271804, -26.888006828788416 ], [ -48.70612196, -26.88794222 ], [ -48.706053930415706, -26.88793336304219 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2031220010", "cod": 1099, "nome": "R.Ver.Horácio Ramos Gonzaga", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70608463787454, -26.887297995458056 ], [ -48.70612196, -26.887942219999989 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2031220010", "cod": 1111, "nome": "Av.Dr.Reinaldo Schmithausen", "ptotalvia": 27.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.706400019271804, -26.888006828788416 ], [ -48.70612196, -26.887942219999989 ], [ -48.706053930415706, -26.887933363042187 ] ] } }
 ]
 }

@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010260087", "cod": 290, "nome": "R.Hercílio Luz", "ptotalvia": 13.2, "ppasseio1": 3.5, "ppasseio2": 3.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.658709017470031, -26.905951902082368 ], [ -48.6585914, -26.90591694 ], [ -48.658160032071933, -26.905789542407902 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010260087", "cod": 290, "nome": "R.Hercílio Luz", "ptotalvia": 13.2, "ppasseio1": 3.5, "ppasseio2": 3.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.658709017470031, -26.905951902082364 ], [ -48.6585914, -26.90591694 ], [ -48.658160032071926, -26.905789542407902 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2010260087", "cod": 300, "nome": "Serv.Henrique Labes", "ptotalvia": 4.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6585914, -26.90591694 ], [ -48.658690068261755, -26.905664462361059 ] ] } }
 ]
 }

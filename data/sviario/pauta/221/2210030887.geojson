@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2210030887", "cod": 526, "nome": "R.Carolina Vailati", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.680723875814728, -26.910070845863665 ], [ -48.68072053, -26.91007105 ], [ -48.680333784883821, -26.910095580150454 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2210030887", "cod": 521, "nome": "R.Luciano Pinheiro da Silva", "ptotalvia": 13.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.680721378700696, -26.910066171247045 ], [ -48.68072053, -26.91007105 ], [ -48.680717057567023, -26.910509044206439 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2210030887", "cod": 526, "nome": "R.Carolina Vailati", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.680723875814728, -26.910070845863665 ], [ -48.68072053, -26.91007105 ], [ -48.680333784883821, -26.91009558015045 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210030887", "cod": 521, "nome": "R.Luciano Pinheiro da Silva", "ptotalvia": 13.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.680721378700696, -26.910066171247049 ], [ -48.68072053, -26.91007105 ], [ -48.680717057567023, -26.910509044206439 ] ] } }
 ]
 }

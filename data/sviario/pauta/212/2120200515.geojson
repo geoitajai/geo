@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2120200515", "cod": 425, "nome": "R.João Maria da Veiga", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.680700991572756, -26.891803684992773 ], [ -48.680683018599318, -26.891388456881121 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2120200515", "cod": 425, "nome": "R.João Maria da Veiga", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.680700991572756, -26.891803684992777 ], [ -48.680683018599318, -26.891388456881124 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2120200515", "cod": 426, "nome": "R.Alfredo Eicke", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.680603847876185, -26.891374643685609 ], [ -48.680466472872716, -26.891409381741852 ] ] } }
 ]
 }

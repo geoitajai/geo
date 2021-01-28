@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2041450050", "cod": 854, "nome": "R.Ver.Abílio Otávio do Canto", "ptotalvia": 20.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67480323, -26.922534769999988 ], [ -48.674738043244453, -26.922911979330586 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2041450050", "cod": 854, "nome": "R.Ver.Abílio Otávio do Canto", "ptotalvia": 20.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67480323, -26.922534769999984 ], [ -48.674738043244453, -26.922911979330593 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2041450050", "cod": 550, "nome": "R.Acyr Cunha", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674697713091902, -26.922432664879725 ], [ -48.67470012, -26.92248762 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2041450050", "cod": 265, "nome": "Av.Ver.Abrahão João Francisco", "ptotalvia": 29.4, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674804510226117, -26.922535726983636 ], [ -48.67480323, -26.922534769999988 ], [ -48.67470012, -26.92248762 ], [ -48.674403361429754, -26.922282352447247 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2041450050", "cod": 265, "nome": "Av.Ver.Abrahão João Francisco", "ptotalvia": 29.4, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674804510226117, -26.922535726983632 ], [ -48.67480323, -26.922534769999984 ], [ -48.67470012, -26.92248762 ], [ -48.674403361429754, -26.922282352447244 ] ] } }
 ]
 }

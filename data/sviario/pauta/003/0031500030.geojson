@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0031500030", "cod": 1171, "nome": "R.Mário Bento dos Passos", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.705427998510451, -26.893005448925209 ], [ -48.70543202, -26.89306996 ], [ -48.705447784998519, -26.893375579477834 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031500030", "cod": 1171, "nome": "R.Mário Bento dos Passos", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.705427998510451, -26.893005448925212 ], [ -48.70543202, -26.89306996 ], [ -48.705447784998519, -26.893375579477834 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "0031500030", "cod": 1203, "nome": "R.Osvaldo Cruz", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.705836165678555, -26.893058869241244 ], [ -48.70543202, -26.89306996 ], [ -48.70535912227438, -26.893071533429755 ] ] } }
 ]
 }

@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040050181", "cod": 665, "nome": "R.Pedro Camilo da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.650427246611727, -26.921277699179083 ], [ -48.65034758, -26.92130887 ], [ -48.649976106624379, -26.921468466552163 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040050181", "cod": 665, "nome": "R.Pedro Camilo da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.650427246611727, -26.921277699179086 ], [ -48.65034758, -26.92130887 ], [ -48.649976106624379, -26.921468466552163 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2040050181", "cod": 678, "nome": "R.Fritz Schneider", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.650209746025517, -26.921042481463832 ], [ -48.65034758, -26.92130887 ] ] } }
 ]
 }

@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050230800", "cod": 21, "nome": "R.Gaspar da Costa Moraes", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.694109193994379, -26.901582440694323 ], [ -48.69382045, -26.90158971 ], [ -48.693739325100069, -26.901591418194858 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050230800", "cod": 21, "nome": "R.Gaspar da Costa Moraes", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.694109193994379, -26.901582440694323 ], [ -48.69382045, -26.90158971 ], [ -48.693739325100069, -26.901591418194862 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "0050230800", "cod": 50, "nome": "R.Luiz Lopes Gonzaga", "ptotalvia": 13.2, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69382055, -26.90186012 ], [ -48.693820589899531, -26.901966763824948 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "0050230800", "cod": 50, "nome": "R.Luiz Lopes Gonzaga", "ptotalvia": 13.2, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693822284559751, -26.901517759887458 ], [ -48.69382045, -26.90158971 ], [ -48.69382055, -26.90186012 ] ] } }
 ]

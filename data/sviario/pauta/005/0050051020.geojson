@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050051020", "cod": 60, "nome": "R.Estefano José Vanolli", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.688650200983375, -26.898457497142257 ], [ -48.688653, -26.89864083 ], [ -48.688652180123924, -26.898809527117823 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0050051020", "cod": 84, "nome": "R.São Vicente", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.687633087177048, -26.898442377946068 ], [ -48.68763133, -26.89890046 ], [ -48.687629675610097, -26.898975674064989 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050051020", "cod": 60, "nome": "R.Estefano José Vanolli", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.688650200983375, -26.89845749714226 ], [ -48.688653, -26.89864083 ], [ -48.688652180123924, -26.898809527117823 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050051020", "cod": 84, "nome": "R.São Vicente", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.687633087177048, -26.898442377946065 ], [ -48.68763133, -26.89890046 ], [ -48.687629675610097, -26.898975674064989 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "0050051020", "cod": 86, "nome": "R.João Camilo Vicente", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68763133, -26.89890046 ], [ -48.687555663551507, -26.898900653131516 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "0050051020", "cod": 46, "nome": "R.Dr.Ivo Stein Ferreira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68872834584468, -26.89863866453355 ], [ -48.688653, -26.89864083 ] ] } }
 ]

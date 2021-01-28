@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2041980571", "cod": 851, "nome": "Trav.Manoel Vargas", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.669273806686391, -26.920592421799761 ], [ -48.66920672, -26.92056137 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2041980571", "cod": 851, "nome": "Trav.Manoel Vargas", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.669273806686391, -26.920592421799757 ], [ -48.66920672, -26.92056137 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2041980571", "cod": 269, "nome": "R.Pedro José João", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.669234141083308, -26.920523731957132 ], [ -48.66920672, -26.92056137 ], [ -48.66919086, -26.9207146 ], [ -48.669204003544579, -26.920806234255171 ] ] } }
 ]
 }

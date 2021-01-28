@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050041210", "cod": 84, "nome": "R.São Vicente", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.686300315884502, -26.909080037328074 ], [ -48.686238, -26.90918963 ], [ -48.686094335839968, -26.909542387612017 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050041210", "cod": 84, "nome": "R.São Vicente", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.686300315884509, -26.909080037328074 ], [ -48.686238, -26.90918963 ], [ -48.686094335839968, -26.909542387612014 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "0050041210", "cod": 105, "nome": "Serv.Arvelino Formentin", "ptotalvia": 4.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.686238, -26.90918963 ], [ -48.686325897933685, -26.9091872994128 ] ] } }
 ]
 }

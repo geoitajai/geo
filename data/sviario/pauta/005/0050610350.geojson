@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050610350", "cod": 20, "nome": "R.Manoel Francisco Coelho", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692632939318358, -26.902181236121979 ], [ -48.69222046, -26.90219063 ], [ -48.692158817355029, -26.902191371287156 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050610350", "cod": 20, "nome": "R.Manoel Francisco Coelho", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692632939318351, -26.902181236121979 ], [ -48.69222046, -26.90219063 ], [ -48.692158817355029, -26.902191371287159 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "0050610350", "cod": 10, "nome": "R.Antônio Ayres dos Santos", "ptotalvia": 13.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692223157438931, -26.902488730147844 ], [ -48.69222046, -26.90219063 ], [ -48.692221133621082, -26.902129535006189 ] ] } }
 ]
 }

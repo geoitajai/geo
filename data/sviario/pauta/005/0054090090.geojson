@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0054090090", "cod": 130, "nome": "Av.Nilo Bittencourt", "ptotalvia": 20.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.705353920645734, -26.913682445838223 ], [ -48.70536125, -26.91380226 ], [ -48.705369834662491, -26.913911376658124 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054090090", "cod": 130, "nome": "Av.Nilo Bittencourt", "ptotalvia": 20.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.705353920645727, -26.913682445838226 ], [ -48.70536125, -26.91380226 ], [ -48.705369834662491, -26.913911376658124 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "0054090090", "cod": 149, "nome": "R.Genésio Tavares", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.705393053314033, -26.91380111815829 ], [ -48.70536125, -26.91380226 ] ] } }
 ]
 }

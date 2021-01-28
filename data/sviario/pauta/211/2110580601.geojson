@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110580601", "cod": 545, "nome": "R.José Gall", "ptotalvia": 15.6, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.672666146403216, -26.919571262139915 ], [ -48.67265422, -26.91956255 ], [ -48.672400786242655, -26.91926828964916 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110580601", "cod": 577, "nome": "R.Jacob Ardigó", "ptotalvia": 21.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.672667025837796, -26.919563097844485 ], [ -48.67265422, -26.91956255 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2110580601", "cod": 545, "nome": "R.José Gall", "ptotalvia": 15.6, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.672666146403216, -26.919571262139911 ], [ -48.67265422, -26.919562549999988 ], [ -48.672400786242655, -26.919268289649157 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110580601", "cod": 577, "nome": "R.Jacob Ardigó", "ptotalvia": 21.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.672667025837796, -26.919563097844485 ], [ -48.67265422, -26.919562549999988 ] ] } }
 ]
 }

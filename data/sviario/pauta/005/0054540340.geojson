@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0054540340", "cod": 988, "nome": "Av.Maria Marques Werner", "ptotalvia": 22.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702444803899496, -26.927686492977355 ], [ -48.7022909, -26.92784329 ], [ -48.702219604916074, -26.927914268864281 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054540340", "cod": 988, "nome": "Av.Maria Marques Werner", "ptotalvia": 22.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702444803899496, -26.927686492977358 ], [ -48.7022909, -26.92784329 ], [ -48.702219604916074, -26.927914268864281 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "0054540340", "cod": 1010, "nome": "R.Exp.Rosendo José Cândido", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.7022909, -26.92784329 ], [ -48.702348078017728, -26.927890657548911 ] ] } }
 ]
 }

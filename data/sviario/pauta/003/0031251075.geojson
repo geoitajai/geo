@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0031251075", "cod": 1106, "nome": "R.Profº.Cosme Buzarello", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702312677938167, -26.887925449546493 ], [ -48.70231472, -26.88796562 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0031251075", "cod": 1167, "nome": "R.José Rosa", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70246136, -26.88798889 ], [ -48.702506370715533, -26.888703757203739 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0031251075", "cod": 1111, "nome": "Av.Dr.Reinaldo Schmithausen", "ptotalvia": 27.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702510326574739, -26.887992687560615 ], [ -48.70246136, -26.88798889 ], [ -48.70231472, -26.88796562 ], [ -48.702008469261493, -26.887929306733437 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0031251075", "cod": 1106, "nome": "R.Profº.Cosme Buzarello", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702312677938167, -26.88792544954649 ], [ -48.70231472, -26.88796562 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031251075", "cod": 1167, "nome": "R.José Rosa", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70246136, -26.88798889 ], [ -48.702506370715533, -26.888703757203736 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031251075", "cod": 1111, "nome": "Av.Dr.Reinaldo Schmithausen", "ptotalvia": 27.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702510326574739, -26.887992687560612 ], [ -48.70246136, -26.88798889 ], [ -48.70231472, -26.88796562 ], [ -48.702008469261493, -26.887929306733433 ] ] } }
 ]
 }

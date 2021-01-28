@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0054200100", "cod": 130, "nome": "Av.Nilo Bittencourt", "ptotalvia": 20.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.705177507345951, -26.910421479671122 ], [ -48.70518017, -26.91046659 ], [ -48.70519290407978, -26.910732333258231 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054200100", "cod": 130, "nome": "Av.Nilo Bittencourt", "ptotalvia": 20.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.705177507345958, -26.910421479671122 ], [ -48.70518017, -26.91046659 ], [ -48.70519290407978, -26.910732333258231 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "0054200100", "cod": 142, "nome": "R.Hygina de Andrade Corrêa", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.705213149160535, -26.910465342585372 ], [ -48.70518017, -26.91046659 ], [ -48.704742500228107, -26.910488340780343 ] ] } }
 ]
 }

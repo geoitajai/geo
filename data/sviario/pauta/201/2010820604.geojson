@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010820604", "cod": 278, "nome": "R.Joinville", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.653910212302115, -26.907110051186766 ], [ -48.65350837, -26.90700766 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010820604", "cod": 288, "nome": "Av.Pref.Paulo Bauer", "ptotalvia": 14.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -48.654211420968601, -26.905966612865079 ], [ -48.65413323, -26.90612225 ], [ -48.654127593311863, -26.906150373463838 ] ], [ [ -48.653977500778538, -26.906899232760484 ], [ -48.653944944328018, -26.907061665619871 ] ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010820604", "cod": 278, "nome": "R.Joinville", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.653910212302115, -26.907110051186763 ], [ -48.65350837, -26.90700766 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010820604", "cod": 288, "nome": "Av.Pref.Paulo Bauer", "ptotalvia": 14.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -48.654211420968601, -26.905966612865083 ], [ -48.65413323, -26.90612225 ], [ -48.654127593311863, -26.906150373463834 ] ], [ [ -48.653977500778538, -26.906899232760502 ], [ -48.653944944328018, -26.907061665619871 ] ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2010820604", "cod": 297, "nome": "R.Olímpio Miranda Júnior", "ptotalvia": 13.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65413993476799, -26.906123319509174 ], [ -48.65413323, -26.90612225 ] ] } }
 ]
 }

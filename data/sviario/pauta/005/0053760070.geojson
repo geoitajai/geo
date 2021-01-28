@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0053760070", "cod": 975, "nome": "R.Manoel Cardozo", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.694754286116968, -26.926542373739547 ], [ -48.6944416672806, -26.926700450244848 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0053760070", "cod": 975, "nome": "R.Manoel Cardozo", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.694754286116968, -26.926542373739551 ], [ -48.6944416672806, -26.926700450244848 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "0053760070", "cod": 892, "nome": "Av.Ver.Nilo Simas", "ptotalvia": 20.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69450889892201, -26.926570731090173 ], [ -48.694436618415999, -26.926670745304854 ] ] } }
 ]
 }

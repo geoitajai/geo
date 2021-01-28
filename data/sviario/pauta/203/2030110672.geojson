@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2030110672", "cod": 1094, "nome": "R.Luiz Leôncio Buchele", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697647373250916, -26.88577587011628 ], [ -48.697661619359373, -26.886101009100109 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2030110672", "cod": 1094, "nome": "R.Luiz Leôncio Buchele", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697647373250916, -26.885775870116284 ], [ -48.697661619359366, -26.886101009100109 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2030110672", "cod": 1111, "nome": "Av.Dr.Reinaldo Schmithausen", "ptotalvia": 27.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697923795034143, -26.886305534747901 ], [ -48.697668728648921, -26.886114299785913 ] ] } }
 ]
 }

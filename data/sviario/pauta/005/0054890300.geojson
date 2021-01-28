@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0054890300", "cod": 33, "nome": "R.Jaziel José Rosa", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702481719378888, -26.904506856831411 ], [ -48.70249656, -26.90484192 ], [ -48.702497735263073, -26.904859548976169 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054890300", "cod": 33, "nome": "R.Jaziel José Rosa", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702481719378888, -26.904506856831411 ], [ -48.70249656, -26.90484192 ], [ -48.702497735263073, -26.904859548976166 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "0054890300", "cod": 15, "nome": "R.Arq.Nilson Edson dos Santos", "ptotalvia": 21.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70253625756974, -26.904840218599126 ], [ -48.70249656, -26.90484192 ], [ -48.70224427168818, -26.904849633465709 ] ] } }
 ]
 }

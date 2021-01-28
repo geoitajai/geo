@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0030880020", "cod": 1205, "nome": "R.Piauí", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698658772481366, -26.894457895012678 ], [ -48.698308376128587, -26.894470807038903 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0030880020", "cod": 1205, "nome": "R.Piauí", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698658772481366, -26.894457895012678 ], [ -48.698308376128587, -26.894470807038893 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "0030880020", "cod": 1207, "nome": "Av.Brasília", "ptotalvia": 18.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698286420959555, -26.894158821814973 ], [ -48.69829224, -26.89430849 ], [ -48.698282394376655, -26.894420425146599 ] ] } }
 ]
 }

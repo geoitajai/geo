@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050270910", "cod": 14, "nome": "R.Gelásio Pedro de Miranda", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.689471660629458, -26.904308589862957 ], [ -48.688952475777015, -26.904324927259481 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0050270910", "cod": 17, "nome": "R.Jovita da Costa Ramos", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.689449119917512, -26.903895770412159 ], [ -48.688960925322192, -26.903910961193933 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0050270910", "cod": 14, "nome": "R.Gelásio Pedro de Miranda", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.689471660629458, -26.904308589862957 ], [ -48.688952475777015, -26.904324927259484 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050270910", "cod": 17, "nome": "R.Jovita da Costa Ramos", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.689449119917512, -26.903895770412156 ], [ -48.688960925322192, -26.903910961193937 ] ] } }
 ]
 }

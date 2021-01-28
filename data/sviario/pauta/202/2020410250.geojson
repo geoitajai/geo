@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020410250", "cod": 174, "nome": "R.José Neri dos Santos", "ptotalvia": 3.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67321231, -26.89536324 ], [ -48.672661653047584, -26.894912376014812 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020410250", "cod": 199, "nome": "R.Hélio Douat de Menezes", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67315415, -26.89542926 ], [ -48.673205779953896, -26.895471029129389 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020410250", "cod": 157, "nome": "R.Blumenau", "ptotalvia": 14.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.673283640451913, -26.895266625815609 ], [ -48.67321231, -26.89536324 ], [ -48.67315415, -26.89542926 ], [ -48.673096761009155, -26.895514330521177 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2020410250", "cod": 174, "nome": "R.José Neri dos Santos", "ptotalvia": 3.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67321231, -26.89536324 ], [ -48.672661653047584, -26.894912376014808 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020410250", "cod": 199, "nome": "R.Hélio Douat de Menezes", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67315415, -26.89542926 ], [ -48.673205779953896, -26.895471029129393 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020410250", "cod": 157, "nome": "R.Blumenau", "ptotalvia": 14.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.673283640451913, -26.895266625815609 ], [ -48.67321231, -26.89536324 ], [ -48.67315415, -26.89542926 ], [ -48.673096761009155, -26.895514330521181 ] ] } }
 ]
 }

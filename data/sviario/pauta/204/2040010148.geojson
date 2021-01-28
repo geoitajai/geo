@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040010148", "cod": 280, "nome": "Av.Min.Victor Konder", "ptotalvia": 20.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65322391711112, -26.914631598642281 ], [ -48.653189115112248, -26.914852268875961 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040010148", "cod": 282, "nome": "R.Lauro Muller", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.653936200632664, -26.914660249874725 ], [ -48.653871178041264, -26.915020491322259 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2040010148", "cod": 280, "nome": "Av.Min.Victor Konder", "ptotalvia": 20.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65322391711112, -26.914631598642281 ], [ -48.653189115112248, -26.914852268875965 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040010148", "cod": 282, "nome": "R.Lauro Muller", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.653936200632664, -26.914660249874732 ], [ -48.653871178041264, -26.915020491322256 ] ] } }
 ]
 }

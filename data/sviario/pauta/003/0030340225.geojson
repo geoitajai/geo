@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0030340225", "cod": 1114, "nome": "R.São Cristóvão", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692807876769621, -26.885654952992375 ], [ -48.69281375, -26.88574013 ], [ -48.692832535091512, -26.886096038518936 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0030340225", "cod": 1114, "nome": "R.São Cristóvão", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692807876769621, -26.885654952992375 ], [ -48.69281375, -26.88574013 ], [ -48.692832535091512, -26.886096038518932 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "0030340225", "cod": 1134, "nome": "R.Fernando Vieira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693107462960803, -26.885720599698306 ], [ -48.69281375, -26.88574013 ], [ -48.692726912489427, -26.885744119775421 ] ] } }
 ]
 }

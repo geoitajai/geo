@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0030240195", "cod": 1115, "nome": "R.Adolfo José de Assis", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69257983063757, -26.891099193178782 ], [ -48.692584, -26.89117921 ], [ -48.692607730075956, -26.89154988931509 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0030240195", "cod": 1129, "nome": "R.Henrique Borba dos Santos", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69266773526649, -26.891173867265213 ], [ -48.692584, -26.89117921 ], [ -48.692298102512524, -26.891191296529836 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0030240195", "cod": 1115, "nome": "R.Adolfo José de Assis", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69257983063757, -26.891099193178778 ], [ -48.692584, -26.89117921 ], [ -48.692607730075956, -26.891549889315087 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0030240195", "cod": 1129, "nome": "R.Henrique Borba dos Santos", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69266773526649, -26.891173867265209 ], [ -48.692584, -26.89117921 ], [ -48.692298102512524, -26.891191296529833 ] ] } }
 ]
 }

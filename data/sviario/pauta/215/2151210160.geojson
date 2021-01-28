@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2151210160", "cod": 1324, "nome": "R.Augusto Cugnier", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.750286080610351, -26.875215362728202 ], [ -48.75029002, -26.87526088 ], [ -48.750331171249421, -26.875688359451463 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2151210160", "cod": 1328, "nome": "Av.José Sasdelli", "ptotalvia": 18.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.750597882500593, -26.875241591957678 ], [ -48.75048223, -26.87524884 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2151210160", "cod": 1324, "nome": "R.Augusto Cugnier", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.750286080610358, -26.875215362728206 ], [ -48.75029002, -26.87526088 ], [ -48.750331171249421, -26.875688359451463 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2151210160", "cod": 1328, "nome": "Av.José Sasdelli", "ptotalvia": 18.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.750597882500593, -26.875241591957682 ], [ -48.75048223, -26.87524884 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2151210160", "cod": 1328, "nome": "Av.José Sasdelli", "ptotalvia": 18.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.75048223, -26.87524884 ], [ -48.75029002, -26.87526088 ], [ -48.750223962661124, -26.875265594488649 ] ] } }
 ]
 }

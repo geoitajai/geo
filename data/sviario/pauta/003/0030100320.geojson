@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0030100320", "cod": 1118, "nome": "R.João Magalhães", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691419989627391, -26.892768715951668 ], [ -48.691443714792165, -26.893110284972799 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0030100320", "cod": 1118, "nome": "R.João Magalhães", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691419989627391, -26.892768715951675 ], [ -48.691443714792165, -26.893110284972803 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "0030100320", "cod": 1130, "nome": "R.Francisco Olegário dos Santos", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691519184563219, -26.893027155814977 ], [ -48.69143864, -26.89303015 ] ] } }
 ]
 }

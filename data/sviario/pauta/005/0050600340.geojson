@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050600340", "cod": 22, "nome": "R.Jaci Ramos", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69447016, -26.90106402 ], [ -48.694106042143439, -26.901072867381828 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050600340", "cod": 22, "nome": "R.Jaci Ramos", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69447016, -26.90106402 ], [ -48.694106042143446, -26.901072867381824 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "0050600340", "cod": 48, "nome": "R.Pedro Cristiano de Miranda", "ptotalvia": 13.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.694467603232546, -26.901003722703969 ], [ -48.69447016, -26.90106402 ], [ -48.694491218377543, -26.901408701153716 ] ] } }
 ]
 }

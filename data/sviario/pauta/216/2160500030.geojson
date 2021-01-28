@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2160500030", "cod": 1445, "nome": "R.Carmo Casemiro da Silva", "ptotalvia": 4.2, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.732683805990888, -26.945757364114243 ], [ -48.732297399427907, -26.945740916380647 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2160500030", "cod": 1445, "nome": "R.Carmo Casemiro da Silva", "ptotalvia": 4.2, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.732683805990888, -26.945757364114243 ], [ -48.732297399427907, -26.945740916380643 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2160500030", "cod": 1235, "nome": "Rod.Dep.Antônio Heil", "ptotalvia": 30.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.73256296837917, -26.946087368841464 ], [ -48.732351236497173, -26.946067769433405 ] ] } }
 ]
 }

@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050270730", "cod": 17, "nome": "R.Jovita da Costa Ramos", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.690699054055024, -26.903856869418263 ], [ -48.690181103876682, -26.903872990639567 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050270730", "cod": 17, "nome": "R.Jovita da Costa Ramos", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.690699054055024, -26.903856869418259 ], [ -48.690181103876682, -26.903872990639563 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "0050270730", "cod": 51, "nome": "R.Otávio Cesário Pereira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69064494, -26.90385893 ], [ -48.690647580593158, -26.904117956752227 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "0050270730", "cod": 51, "nome": "R.Otávio Cesário Pereira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.690643787881065, -26.903797311046564 ], [ -48.69064494, -26.90385893 ] ] } }
 ]

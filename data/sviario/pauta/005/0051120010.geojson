@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0051120010", "cod": 107, "nome": "R.Profª.Erotides da Silva Fontes", "ptotalvia": 20.0, "ppasseio1": 3.5, "ppasseio2": 3.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697027042451303, -26.909333134636331 ], [ -48.69731356, -26.90931545 ], [ -48.697330830165512, -26.90931476742831 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0051120010", "cod": 107, "nome": "R.Profª.Erotides da Silva Fontes", "ptotalvia": 20.0, "ppasseio1": 3.5, "ppasseio2": 3.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697027042451303, -26.909333134636331 ], [ -48.69731356, -26.90931545 ], [ -48.697330830165512, -26.909314767428306 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "0051120010", "cod": 156, "nome": "R.Exp.José Inácio da Rocha", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697287955898979, -26.908806939455179 ], [ -48.69731356, -26.90931545 ] ] } }
 ]
 }

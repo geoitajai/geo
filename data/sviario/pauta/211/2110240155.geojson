@@ -2,9 +2,9 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110240155", "cod": 489, "nome": "R.Fiuza Lima", "ptotalvia": 13.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674417991524663, -26.912717505036621 ], [ -48.67438357, -26.912455059999989 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110240155", "cod": 489, "nome": "R.Fiuza Lima", "ptotalvia": 13.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67438357, -26.912455059999989 ], [ -48.674374183224174, -26.912382742553838 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110240155", "cod": 490, "nome": "R.Corifeu de Azevedo Marques", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674469576608594, -26.912462772135132 ], [ -48.67438357, -26.912455059999989 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110240155", "cod": 490, "nome": "R.Corifeu de Azevedo Marques", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67438357, -26.912455059999989 ], [ -48.674035422679246, -26.912427701008156 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2110240155", "cod": 489, "nome": "R.Fiuza Lima", "ptotalvia": 13.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674417991524663, -26.912717505036621 ], [ -48.67438357, -26.91245506 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110240155", "cod": 489, "nome": "R.Fiuza Lima", "ptotalvia": 13.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67438357, -26.91245506 ], [ -48.674374183224174, -26.912382742553838 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110240155", "cod": 490, "nome": "R.Corifeu de Azevedo Marques", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674469576608594, -26.912462772135125 ], [ -48.67438357, -26.91245506 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110240155", "cod": 490, "nome": "R.Corifeu de Azevedo Marques", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67438357, -26.91245506 ], [ -48.674035422679246, -26.912427701008152 ] ] } }
 ]
 }

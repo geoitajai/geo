@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0052080150", "cod": 23, "nome": "R.Cargelino Francelino", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69775382, -26.90038714 ], [ -48.697685723702243, -26.90039131849035 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0052080150", "cod": 23, "nome": "R.Cargelino Francelino", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69775382, -26.90038714 ], [ -48.697685723702243, -26.900391318490346 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "0052080150", "cod": 41, "nome": "R.Biguaçú", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697751713020239, -26.900347275386437 ], [ -48.69775382, -26.90038714 ], [ -48.697770513358947, -26.900693591371745 ] ] } }
 ]
 }

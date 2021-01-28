@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140471849", "cod": 754, "nome": "R.Mar.Floriano Peixoto", "ptotalvia": 8.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.632039083128198, -26.92983271872323 ], [ -48.63196133, -26.92991359 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2140471849", "cod": 776, "nome": "R.Benjamim Constant", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.632231209852669, -26.930100997878025 ], [ -48.63196133, -26.92991359 ], [ -48.631853976123693, -26.929834591128071 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2140471849", "cod": 779, "nome": "R.DonaMaria Flora Caldeira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.631536512425015, -26.930200439317531 ], [ -48.63193612, -26.93042093 ], [ -48.631924268419603, -26.930438722125267 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2140471849", "cod": 754, "nome": "R.Mar.Floriano Peixoto", "ptotalvia": 8.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.632039083128198, -26.929832718723226 ], [ -48.63196133, -26.92991359 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140471849", "cod": 776, "nome": "R.Benjamim Constant", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.632231209852669, -26.930100997878025 ], [ -48.63196133, -26.92991359 ], [ -48.631853976123693, -26.929834591128078 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140471849", "cod": 779, "nome": "R.DonaMaria Flora Caldeira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.631536512425015, -26.930200439317527 ], [ -48.63193612, -26.93042093 ], [ -48.631924268419603, -26.930438722125274 ] ] } }
 ]
 }

@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0051720430", "cod": 933, "nome": "R.Ana Mafra Pereira", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.703385903239678, -26.923944191428028 ], [ -48.703175, -26.92414027 ], [ -48.703129960591042, -26.924183294946328 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0051720430", "cod": 933, "nome": "R.Ana Mafra Pereira", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.703385903239678, -26.923944191428031 ], [ -48.703175, -26.92414027 ], [ -48.703129960591042, -26.924183294946328 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "0051720430", "cod": 942, "nome": "R.Olavo Murilo Seara", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702956206343927, -26.923955845691872 ], [ -48.703175, -26.92414027 ] ] } }
 ]
 }

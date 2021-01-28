@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050050435", "cod": 60, "nome": "R.Estefano José Vanolli", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.688641023047253, -26.898012733693434 ], [ -48.68864518, -26.89812863 ], [ -48.688648380993619, -26.898338290096454 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050050435", "cod": 60, "nome": "R.Estefano José Vanolli", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.688641023047253, -26.898012733693434 ], [ -48.68864518, -26.89812863 ], [ -48.688648380993619, -26.898338290096451 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "0050050435", "cod": 52, "nome": "R.Pedro Batista da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.688720978067856, -26.89812700285902 ], [ -48.68864518, -26.89812863 ] ] } }
 ]
 }

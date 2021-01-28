@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0031170200", "cod": 1164, "nome": "R.Gustavo Bernedet", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70031930231638, -26.891221684456216 ], [ -48.70032322, -26.89128938 ], [ -48.700337112940488, -26.891566105588318 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031170200", "cod": 1164, "nome": "R.Gustavo Bernedet", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70031930231638, -26.891221684456212 ], [ -48.70032322, -26.89128938 ], [ -48.700337112940488, -26.891566105588325 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "0031170200", "cod": 1232, "nome": "R.Eduardo Pessoa Lins", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700393038613527, -26.891284413619847 ], [ -48.70032322, -26.89128938 ], [ -48.69984759695113, -26.891316299689944 ] ] } }
 ]
 }

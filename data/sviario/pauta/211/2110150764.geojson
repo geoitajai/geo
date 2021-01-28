@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110150764", "cod": 491, "nome": "Av.Getúlio Vargas", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.672134247340729, -26.909870320595591 ], [ -48.67209628, -26.90957867 ], [ -48.672090422461224, -26.909534807710294 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110150764", "cod": 491, "nome": "Av.Getúlio Vargas", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.672134247340729, -26.909870320595594 ], [ -48.67209628, -26.90957867 ], [ -48.672090422461224, -26.909534807710294 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2110150764", "cod": 495, "nome": "R.João Gaya", "ptotalvia": 14.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.672455973281082, -26.909547893705493 ], [ -48.67209628, -26.90957867 ], [ -48.672058691291689, -26.90958238119465 ] ] } }
 ]
 }

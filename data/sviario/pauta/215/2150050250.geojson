@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2150050250", "cod": 1376, "nome": "R.Carlos Luiz Stringari", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.734803512444593, -26.891044669855582 ], [ -48.734829136031713, -26.89135751950316 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2150050250", "cod": 1343, "nome": "Rod.Jorge Lacerda", "ptotalvia": 43.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.734254380997307, -26.887496224760572 ], [ -48.733793494069189, -26.887594944231768 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2150050250", "cod": 1376, "nome": "R.Carlos Luiz Stringari", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.734803512444593, -26.891044669855582 ], [ -48.734829136031713, -26.891357519503156 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2150050250", "cod": 1343, "nome": "Rod.Jorge Lacerda", "ptotalvia": 43.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.734254380997307, -26.887496224760572 ], [ -48.733793494069189, -26.887594944231765 ] ] } }
 ]
 }

@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050290490", "cod": 99, "nome": "R.Dr.Félix Malburg", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68916911205141, -26.906636935346004 ], [ -48.68877534, -26.906647989999989 ], [ -48.688742987483771, -26.906648857557997 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0050290490", "cod": 60, "nome": "R.Estefano José Vanolli", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.688764277660077, -26.906386178267606 ], [ -48.68877534, -26.906647989999989 ], [ -48.688776683178396, -26.906695736593612 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0050290490", "cod": 99, "nome": "R.Dr.Félix Malburg", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.689169112051417, -26.906636935346004 ], [ -48.68877534, -26.90664799 ], [ -48.688742987483771, -26.906648857557997 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050290490", "cod": 60, "nome": "R.Estefano José Vanolli", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.688764277660077, -26.906386178267613 ], [ -48.68877534, -26.90664799 ], [ -48.688776683178396, -26.906695736593605 ] ] } }
 ]
 }

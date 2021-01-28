@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140260317", "cod": 735, "nome": "R.Tereza Francisca Pereira", "ptotalvia": 13.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.63412755, -26.92850701 ], [ -48.634190554769702, -26.928553891370441 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2140260317", "cod": 755, "nome": "R.C.Carlos Renaux", "ptotalvia": 8.4, "ppasseio1": 1.2, "ppasseio2": 1.2 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.634477100445785, -26.928113177380254 ], [ -48.63412755, -26.92850699 ], [ -48.634074063317726, -26.928566209814949 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2140260317", "cod": 758, "nome": "R.Quintino Bocaiuva", "ptotalvia": 6.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.63412755, -26.92850699 ], [ -48.63371118985858, -26.928187226836183 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2140260317", "cod": 735, "nome": "R.Tereza Francisca Pereira", "ptotalvia": 13.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.63412755, -26.92850701 ], [ -48.634190554769702, -26.928553891370445 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140260317", "cod": 755, "nome": "R.C.Carlos Renaux", "ptotalvia": 8.4, "ppasseio1": 1.2, "ppasseio2": 1.2 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.634477100445785, -26.928113177380254 ], [ -48.63412755, -26.928506989999988 ], [ -48.634074063317733, -26.928566209814946 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140260317", "cod": 758, "nome": "R.Quintino Bocaiuva", "ptotalvia": 6.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.63412755, -26.928506989999988 ], [ -48.63371118985858, -26.928187226836179 ] ] } }
 ]
 }

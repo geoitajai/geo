@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0031740255", "cod": 1144, "nome": "R.Alfredo Esser", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696749749776572, -26.894378746582234 ], [ -48.696765387834176, -26.89470650496586 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031740255", "cod": 1144, "nome": "R.Alfredo Esser", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696749749776572, -26.894378746582234 ], [ -48.696765387834176, -26.894706504965864 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "0031740255", "cod": 1205, "nome": "R.Piauí", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697233260724985, -26.894495498242513 ], [ -48.69711511, -26.89449732 ] ] } }
 ]
 }

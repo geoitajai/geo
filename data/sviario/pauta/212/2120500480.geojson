@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2120500480", "cod": 459, "nome": "R.Figueiras, das", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66961175, -26.88648566 ], [ -48.669392452564502, -26.886738783375389 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2120500480", "cod": 451, "nome": "R.Pedro Teixeira de Mello", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.669871790473699, -26.886658161243616 ], [ -48.66961175, -26.88648566 ], [ -48.669543469454155, -26.886440918626121 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2120500480", "cod": 459, "nome": "R.Figueiras, das", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66961175, -26.88648566 ], [ -48.66939165451852, -26.8867397045146 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2120500480", "cod": 451, "nome": "R.Pedro Teixeira de Mello", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.669871794586157, -26.88665816397166 ], [ -48.66961175, -26.88648566 ], [ -48.669541112704017, -26.886439374345564 ] ] } }
 ]
 }

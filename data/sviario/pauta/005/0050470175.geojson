@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050470175", "cod": 99, "nome": "R.Dr.Félix Malburg", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692334511398137, -26.906547850908371 ], [ -48.69228364, -26.90654946 ], [ -48.691865917577211, -26.906561196258203 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0050470175", "cod": 10, "nome": "R.Antônio Ayres dos Santos", "ptotalvia": 13.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692284816409483, -26.906601911651759 ], [ -48.69228364, -26.90654946 ], [ -48.692280939551424, -26.906264693390575 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0050470175", "cod": 99, "nome": "R.Dr.Félix Malburg", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692334511398137, -26.906547850908375 ], [ -48.69228364, -26.90654946 ], [ -48.691865917577211, -26.906561196258199 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050470175", "cod": 10, "nome": "R.Antônio Ayres dos Santos", "ptotalvia": 13.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692284816409483, -26.906601911651755 ], [ -48.69228364, -26.90654946 ], [ -48.692280939551424, -26.906264693390575 ] ] } }
 ]
 }

@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010350246", "cod": 274, "nome": "Av.Cel.Marcos Konder", "ptotalvia": 30.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.660299660995328, -26.910038982443538 ], [ -48.660182861839772, -26.910323905328323 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010350246", "cod": 274, "nome": "Av.Cel.Marcos Konder", "ptotalvia": 30.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.660299660995328, -26.910038982443545 ], [ -48.660182861839765, -26.910323905328326 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2010350246", "cod": 372, "nome": "R.Dr.Aderbal Ramos da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.659652557597404, -26.909980042659154 ], [ -48.660126270449602, -26.910368170161039 ] ] } }
 ]
 }

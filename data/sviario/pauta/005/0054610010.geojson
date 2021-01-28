@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0054610010", "cod": 988, "nome": "Av.Maria Marques Werner", "ptotalvia": 22.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700045366375512, -26.930002214327281 ], [ -48.69997392056456, -26.93006909184081 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0054610010", "cod": 894, "nome": "R.Agílio Cunha", "ptotalvia": 15.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.699864843785086, -26.930221081089698 ], [ -48.700125348266866, -26.930439491904981 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0054610010", "cod": 988, "nome": "Av.Maria Marques Werner", "ptotalvia": 22.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700045366375512, -26.930002214327278 ], [ -48.699973920564638, -26.930069091840732 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054610010", "cod": 894, "nome": "R.Agílio Cunha", "ptotalvia": 15.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.699864843785086, -26.930221081089698 ], [ -48.700125348266866, -26.930439491904984 ] ] } }
 ]
 }

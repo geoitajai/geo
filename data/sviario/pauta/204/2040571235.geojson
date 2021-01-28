@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040571235", "cod": 713, "nome": "R.João Wollinger", "ptotalvia": 13.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.650277823604469, -26.925975279929542 ], [ -48.65033019, -26.9260194 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040571235", "cod": 713, "nome": "R.João Wollinger", "ptotalvia": 13.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.650277823604469, -26.925975279929538 ], [ -48.65033019, -26.9260194 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2040571235", "cod": 714, "nome": "R.Ver.Luiz Soares", "ptotalvia": 13.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65033019, -26.9260194 ], [ -48.650289011448869, -26.926055458967348 ] ] } }
 ]
 }

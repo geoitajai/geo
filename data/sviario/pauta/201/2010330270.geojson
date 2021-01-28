@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010330270", "cod": 370, "nome": "R.Paulo Caramuru da Silva", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65931038418222, -26.911688927648822 ], [ -48.659037229131712, -26.911481675769608 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010330270", "cod": 264, "nome": "Av.Joca Brandão", "ptotalvia": 26.4, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65864999795653, -26.912078616852224 ], [ -48.658938684200123, -26.912183539892503 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2010330270", "cod": 370, "nome": "R.Paulo Caramuru da Silva", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65931038418222, -26.911688927648825 ], [ -48.659037229131712, -26.911481675769611 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010330270", "cod": 264, "nome": "Av.Joca Brandão", "ptotalvia": 26.4, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65864999795653, -26.912078616852227 ], [ -48.658938684200123, -26.912183539892503 ] ] } }
 ]
 }

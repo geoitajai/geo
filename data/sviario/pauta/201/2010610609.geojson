@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010610609", "cod": 315, "nome": "R.Criciúma", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66771134567859, -26.906536209611637 ], [ -48.66783912, -26.90760598 ], [ -48.667846981261896, -26.907673265311672 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010610609", "cod": 315, "nome": "R.Criciúma", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66771134567859, -26.906536209611641 ], [ -48.66783912, -26.90760598 ], [ -48.667846981261896, -26.907673265311676 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2010610609", "cod": 314, "nome": "R.Alfredo Trompowisky", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66783912, -26.90760598 ], [ -48.667756186185905, -26.907611749406108 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2010610609", "cod": 314, "nome": "R.Alfredo Trompowisky", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.668409443380078, -26.907579476076297 ], [ -48.66783912, -26.90760598 ] ] } }
 ]

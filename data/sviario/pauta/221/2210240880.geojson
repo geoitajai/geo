@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2210240880", "cod": 515, "nome": "R.Fábio Cesário Pereira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.679869296867999, -26.913926016175733 ], [ -48.67961127, -26.9139386 ], [ -48.679516549390499, -26.913943646110305 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210240880", "cod": 515, "nome": "R.Fábio Cesário Pereira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.679869296867999, -26.913926016175729 ], [ -48.67961127, -26.9139386 ], [ -48.679516549390499, -26.913943646110305 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2210240880", "cod": 518, "nome": "R.Egon Schauffert", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.679607765250125, -26.913865134866207 ], [ -48.67961127, -26.9139386 ] ] } }
 ]
 }

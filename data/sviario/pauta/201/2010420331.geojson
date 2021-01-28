@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010420331", "cod": 274, "nome": "Av.Cel.Marcos Konder", "ptotalvia": 30.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.661847328329223, -26.906408143090321 ], [ -48.66178416, -26.906570389999985 ], [ -48.661768645496075, -26.906604682342152 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010420331", "cod": 293, "nome": "R.Dr.José Bonifácio Malburg", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66178416, -26.906570389999985 ], [ -48.661770658297122, -26.906560465236289 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010420331", "cod": 352, "nome": "R.Frederico Augusto Luiz Thieme", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66178416, -26.906570389999985 ], [ -48.662093579431989, -26.906825099764472 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2010420331", "cod": 274, "nome": "Av.Cel.Marcos Konder", "ptotalvia": 30.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.661847328329223, -26.906408143090324 ], [ -48.66178416, -26.906570389999988 ], [ -48.661768645496075, -26.906604682342156 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010420331", "cod": 293, "nome": "R.Dr.José Bonifácio Malburg", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66178416, -26.906570389999988 ], [ -48.661770658297122, -26.906560465236286 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010420331", "cod": 352, "nome": "R.Frederico Augusto Luiz Thieme", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66178416, -26.906570389999988 ], [ -48.662093579431989, -26.906825099764468 ] ] } }
 ]
 }

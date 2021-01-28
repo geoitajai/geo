@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110510380", "cod": 265, "nome": "Av.Ver.Abrahão João Francisco", "ptotalvia": 29.4, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.666999592525393, -26.917172710073711 ], [ -48.666794807781628, -26.917030004060482 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110510380", "cod": 265, "nome": "Av.Ver.Abrahão João Francisco", "ptotalvia": 29.4, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.666999592525393, -26.917172710073707 ], [ -48.666794807781628, -26.917030004060482 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2110510380", "cod": 388, "nome": "Bc.Aldo", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.667234941607582, -26.917000642487839 ], [ -48.667222217910819, -26.916817897144195 ] ] } }
 ]
 }

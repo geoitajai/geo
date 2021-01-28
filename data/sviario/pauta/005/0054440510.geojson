@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0054440510", "cod": 988, "nome": "Av.Maria Marques Werner", "ptotalvia": 22.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698719649185243, -26.931233958118785 ], [ -48.69865067, -26.9312993 ], [ -48.698389638434293, -26.931557877730008 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054440510", "cod": 988, "nome": "Av.Maria Marques Werner", "ptotalvia": 22.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698719649185243, -26.931233958118781 ], [ -48.69865067, -26.9312993 ], [ -48.698389638434293, -26.931557877730008 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "0054440510", "cod": 1019, "nome": "R.Alcides Bento Gonçalves", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698433816394832, -26.931114457167435 ], [ -48.69865067, -26.9312993 ] ] } }
 ]
 }

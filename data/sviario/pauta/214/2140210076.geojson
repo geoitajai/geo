@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140210076", "cod": 754, "nome": "R.Mar.Floriano Peixoto", "ptotalvia": 8.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.633849917456843, -26.927861123974175 ], [ -48.63362803, -26.92812336 ], [ -48.633576334146923, -26.928178987735404 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140210076", "cod": 754, "nome": "R.Mar.Floriano Peixoto", "ptotalvia": 8.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.63384991745685, -26.927861123974175 ], [ -48.63362803, -26.92812336 ], [ -48.633576334146923, -26.928178987735418 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2140210076", "cod": 758, "nome": "R.Quintino Bocaiuva", "ptotalvia": 6.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.633690368712685, -26.928171236190828 ], [ -48.63362803, -26.92812336 ], [ -48.633233105158432, -26.927831418319975 ] ] } }
 ]
 }

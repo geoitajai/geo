@@ -2,7 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2150190010", "cod": 1377, "nome": "R.Valdemar Oliveira da Silva", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.73654083, -26.89319837 ], [ -48.736513863666687, -26.893189538203838 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2150190010", "cod": 1373, "nome": "R.Irineu Maria", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.73653911828557, -26.89317355921909 ], [ -48.736570412881917, -26.893626951609313 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2150190010", "cod": 1373, "nome": "R.Irineu Maria", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.73653911828557, -26.893173559219093 ], [ -48.736570412881917, -26.893626951609313 ] ] } }
 ]
 }

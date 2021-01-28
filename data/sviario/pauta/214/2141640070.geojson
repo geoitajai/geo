@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2141640070", "cod": 596, "nome": "R.Carlos Alberto Niehues", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.631049030721677, -26.957863238448859 ], [ -48.63074371, -26.95778434 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2141640070", "cod": 596, "nome": "R.Carlos Alberto Niehues", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.631049030721677, -26.957863238448855 ], [ -48.63074371, -26.95778434 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2141640070", "cod": 589, "nome": "R.Anthurium", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.63076500691033, -26.957719343379811 ], [ -48.63074371, -26.95778434 ], [ -48.630605194945026, -26.95819588366993 ] ] } }
 ]
 }

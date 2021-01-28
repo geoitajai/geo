@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2031961070", "cod": 1284, "nome": "R.Giuzepina Cogo Casini", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.719975404783327, -26.88229344277299 ], [ -48.71998047, -26.88235962 ], [ -48.720023124563049, -26.882905018964209 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2031961070", "cod": 1284, "nome": "R.Giuzepina Cogo Casini", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.719975404783327, -26.882293442772987 ], [ -48.71998047, -26.88235962 ], [ -48.720023124563049, -26.882905018964209 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2031961070", "cod": 1286, "nome": "R.Nelson Bittencourt", "ptotalvia": 20.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.720058607600969, -26.882354333279697 ], [ -48.71968837, -26.8823753 ] ] } }
 ]
 }

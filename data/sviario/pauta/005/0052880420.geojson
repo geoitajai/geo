@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0052880420", "cod": 107, "nome": "R.Profª.Erotides da Silva Fontes", "ptotalvia": 20.0, "ppasseio1": 3.5, "ppasseio2": 3.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700136593615824, -26.909238531007784 ], [ -48.700531251118051, -26.90922648695711 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0052880420", "cod": 107, "nome": "R.Profª.Erotides da Silva Fontes", "ptotalvia": 20.0, "ppasseio1": 3.5, "ppasseio2": 3.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700136593615824, -26.909238531007784 ], [ -48.700531251118051, -26.909226486957106 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "0052880420", "cod": 37, "nome": "Av.Campos Novos", "ptotalvia": 21.0, "ppasseio1": 5.0, "ppasseio2": 5.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700539126930721, -26.90924089147374 ], [ -48.700556854977634, -26.909578875024756 ] ] } }
 ]
 }

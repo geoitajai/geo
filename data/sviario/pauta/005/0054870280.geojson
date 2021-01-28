@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0054870280", "cod": 933, "nome": "R.Ana Mafra Pereira", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.704196893962362, -26.923181935150883 ], [ -48.70398175, -26.92338587 ], [ -48.70393616855177, -26.923428717090275 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054870280", "cod": 933, "nome": "R.Ana Mafra Pereira", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.704196893962362, -26.923181935150879 ], [ -48.70398175, -26.92338587 ], [ -48.703936168551778, -26.923428717090275 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "0054870280", "cod": 1677, "nome": "R.Sílvio Virgílio Teófilo", "ptotalvia": 6.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70398175, -26.92338587 ], [ -48.703775247882191, -26.923201678634598 ] ] } }
 ]
 }

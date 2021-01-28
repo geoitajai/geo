@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020310545", "cod": 219, "nome": "R.João Ladislau Tabalipa", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.672523397863962, -26.899626534030872 ], [ -48.672874, -26.89990655 ], [ -48.672878813984759, -26.899910332375967 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020310545", "cod": 219, "nome": "R.João Ladislau Tabalipa", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.672523397863962, -26.899626534030865 ], [ -48.672874, -26.89990655 ], [ -48.672878813984759, -26.899910332375967 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2020310545", "cod": 161, "nome": "Av.Irineu Bornhausen", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67302538, -26.8997486 ], [ -48.672874, -26.89990655 ], [ -48.67286861336747, -26.899914521755946 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2020310545", "cod": 161, "nome": "Av.Irineu Bornhausen", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.673097203620522, -26.89967364956712 ], [ -48.67302538, -26.8997486 ] ] } }
 ]

@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0054920890", "cod": 124, "nome": "R.João Alves de Oliveira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70259577, -26.90661454 ], [ -48.702334524332045, -26.90663296407546 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0054920890", "cod": 33, "nome": "R.Jaziel José Rosa", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702592750227836, -26.906555304850926 ], [ -48.70259577, -26.90661454 ], [ -48.702614492959647, -26.906950652627941 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0054920890", "cod": 124, "nome": "R.João Alves de Oliveira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70259577, -26.90661454 ], [ -48.702334524332045, -26.906632964075463 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054920890", "cod": 33, "nome": "R.Jaziel José Rosa", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702592750227836, -26.906555304850929 ], [ -48.70259577, -26.90661454 ], [ -48.702614492959647, -26.906950652627938 ] ] } }
 ]
 }

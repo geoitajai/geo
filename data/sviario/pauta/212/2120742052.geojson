@@ -1,0 +1,13 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2120742052", "cod": 469, "nome": "R.Rodrigo Fernandes da Rosa", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675185055876305, -26.887378186930896 ], [ -48.67504619, -26.8874999 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2120742052", "cod": 454, "nome": "R.Alfredo Eicke Júnior", "ptotalvia": 18.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.672429925994905, -26.886899863632419 ], [ -48.672164989164919, -26.886671640744446 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2120742052", "cod": 467, "nome": "R.Augusto de Jesus", "ptotalvia": 8.5, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.673903519707913, -26.886698801428171 ], [ -48.67383895, -26.88676492 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2120742052", "cod": 468, "nome": "R.Carlos Hugo da Rosa", "ptotalvia": 8.5, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674679603108103, -26.887229634177306 ], [ -48.67454352, -26.88735658 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2120742052", "cod": 470, "nome": "R.Henrique Pinotti", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.673524620997, -26.886379547037166 ], [ -48.67343516, -26.88646726 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2120742052", "cod": 466, "nome": "R.Manoel Moacir Werner", "ptotalvia": 6.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674249887917753, -26.886988230782535 ], [ -48.67415209, -26.88708464 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2120742052", "cod": 471, "nome": "R.Ver.Nelson Augusto de Souza Schiefler", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.673161384802221, -26.886080507468215 ], [ -48.6730973, -26.88614387 ] ] } }
+]
+}

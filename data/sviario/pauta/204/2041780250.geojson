@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2041780250", "cod": 691, "nome": "R.Edmundo Kienast", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.653306724638817, -26.924405908719205 ], [ -48.65350337, -26.9245468 ], [ -48.653581184990898, -26.924596977003819 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2041780250", "cod": 692, "nome": "R.Gorino Bernardes", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65350337, -26.9245468 ], [ -48.653254211191509, -26.924802978242607 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2041780250", "cod": 691, "nome": "R.Edmundo Kienast", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.653306724638817, -26.924405908719205 ], [ -48.65350337, -26.9245468 ], [ -48.653581184990898, -26.924596977003809 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2041780250", "cod": 692, "nome": "R.Gorino Bernardes", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65350337, -26.9245468 ], [ -48.653254211191516, -26.924802978242607 ] ] } }
 ]
 }

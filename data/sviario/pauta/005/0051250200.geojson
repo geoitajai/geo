@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0051250200", "cod": 906, "nome": "R.João Marcelino Machado", "ptotalvia": 10.0, "ppasseio1": 1.75, "ppasseio2": 1.75 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.688963965323296, -26.916789684725085 ], [ -48.68890321, -26.9167928 ], [ -48.688480658215369, -26.916813260947364 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0051250200", "cod": 893, "nome": "R.Otto Hoier", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.688961900280802, -26.917282741448368 ], [ -48.68892298, -26.91728467 ], [ -48.688520810397677, -26.917304661643506 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0051250200", "cod": 906, "nome": "R.João Marcelino Machado", "ptotalvia": 10.0, "ppasseio1": 1.75, "ppasseio2": 1.75 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.688963965323296, -26.916789684725085 ], [ -48.68890321, -26.916792799999989 ], [ -48.688480658215369, -26.916813260947361 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0051250200", "cod": 893, "nome": "R.Otto Hoier", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.688961900280802, -26.917282741448371 ], [ -48.68892298, -26.91728467 ], [ -48.688520810397677, -26.917304661643506 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "0051250200", "cod": 60, "nome": "R.Estefano José Vanolli", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.688902496273187, -26.916718368106242 ], [ -48.68890321, -26.91679282 ], [ -48.68892298, -26.91728467 ], [ -48.688917537567065, -26.917329445781192 ] ] } }
 ]
 }

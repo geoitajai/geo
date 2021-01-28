@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140520470", "cod": 716, "nome": "R.Manoel Anastácio Paulo", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.645773128790822, -26.927381434340521 ], [ -48.645322869175757, -26.92719850417377 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140520470", "cod": 716, "nome": "R.Manoel Anastácio Paulo", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.645773128790822, -26.927381434340514 ], [ -48.64532286917575, -26.927198504173774 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2140520470", "cod": 675, "nome": "R.Lila Heusi", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.645624466668181, -26.926912334324221 ], [ -48.64561129, -26.92697607 ] ] } }
 ]
 }

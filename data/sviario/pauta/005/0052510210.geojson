@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0052510210", "cod": 1013, "nome": "R.Alcides Esperidião Pereira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69979193, -26.92739154 ], [ -48.699749318172287, -26.927434333116032 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0052510210", "cod": 984, "nome": "R.Maria Alves Mafra", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69973292385415, -26.927335739946876 ], [ -48.69979193, -26.92739154 ], [ -48.7001166, -26.92765469 ], [ -48.700170089140556, -26.927698499309425 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0052510210", "cod": 985, "nome": "R.Ivana Werner", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700323536368856, -26.927459167361302 ], [ -48.7001166, -26.92765469 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0052510210", "cod": 1013, "nome": "R.Alcides Esperidião Pereira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69979193, -26.92739154 ], [ -48.699749318172287, -26.927434333116036 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0052510210", "cod": 984, "nome": "R.Maria Alves Mafra", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69973292385415, -26.927335739946876 ], [ -48.69979193, -26.92739154 ], [ -48.7001166, -26.92765469 ], [ -48.700170089140563, -26.927698499309447 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0052510210", "cod": 985, "nome": "R.Ivana Werner", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700323536368856, -26.927459167361299 ], [ -48.7001166, -26.92765469 ] ] } }
 ]
 }

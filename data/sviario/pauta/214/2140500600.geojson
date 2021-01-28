@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140500600", "cod": 600, "nome": "Av.Dr.José Medeiros Vieira (Norte)", "ptotalvia": 0.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.628144758264419, -26.938072404863142 ], [ -48.628043838336623, -26.937500620673706 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140500600", "cod": 600, "nome": "Av.Dr.José Medeiros Vieira (Norte)", "ptotalvia": 0.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.628144758264419, -26.938072404863146 ], [ -48.628043838336623, -26.937500620673706 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2140500600", "cod": 1653, "nome": "R.Nelson João da Cunha", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.64146405, -26.93713993 ], [ -48.641473608899901, -26.937140164048419 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2140500600", "cod": 586, "nome": "Av.Osvaldo Reis", "ptotalvia": 34.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.641587754297213, -26.936924203208452 ], [ -48.64146405, -26.93713993 ], [ -48.641279808330502, -26.937404870665496 ] ] } }
 ]

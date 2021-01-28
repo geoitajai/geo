@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2150150400", "cod": 1377, "nome": "R.Valdemar Oliveira da Silva", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.734975817064999, -26.892519546450689 ], [ -48.7349232, -26.89250598 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2150150400", "cod": 1376, "nome": "R.Carlos Luiz Stringari", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.734892313980005, -26.892128882944071 ], [ -48.7349232, -26.89250598 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2150150400", "cod": 1377, "nome": "R.Valdemar Oliveira da Silva", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.7349232, -26.89250598 ], [ -48.734975088463003, -26.892521474106292 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2150150400", "cod": 1376, "nome": "R.Carlos Luiz Stringari", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.734892313980005, -26.892128882944075 ], [ -48.7349232, -26.89250598 ] ] } }
 ]
 }

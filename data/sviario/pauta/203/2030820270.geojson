@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2030820270", "cod": 1175, "nome": "Av.Marginal Leste", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.725745771683364, -26.850758415447629 ], [ -48.725727764738146, -26.85072538298056 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2030820270", "cod": 1271, "nome": "R.João Vieira Ramos", "ptotalvia": 8.5, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.725805099488284, -26.851009840557094 ], [ -48.725279831666924, -26.851032175829666 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2030820270", "cod": 1175, "nome": "Av.Marginal Leste", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.725745771683364, -26.850758415447629 ], [ -48.725727764738146, -26.850725382980563 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2030820270", "cod": 1271, "nome": "R.João Vieira Ramos", "ptotalvia": 8.5, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.725805099488284, -26.851009840557094 ], [ -48.725279831666924, -26.851032175829669 ] ] } }
 ]
 }

@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0030340440", "cod": 1114, "nome": "R.São Cristóvão", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692888601764238, -26.88715829274161 ], [ -48.69290885, -26.88754192 ], [ -48.692909258143985, -26.887548638044869 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0030340440", "cod": 1114, "nome": "R.São Cristóvão", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692888601764245, -26.88715829274161 ], [ -48.69290885, -26.88754192 ], [ -48.692909258143985, -26.887548638044869 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "0030340440", "cod": 1113, "nome": "R.Odilio Garcia", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693456165592643, -26.887140257338284 ], [ -48.6934773, -26.88751243 ], [ -48.693478693434784, -26.88753578944031 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0030340440", "cod": 1136, "nome": "R.José Luciano Pereira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693533009699522, -26.887508953976351 ], [ -48.6934773, -26.88751243 ], [ -48.69290885, -26.88754192 ], [ -48.69289311246655, -26.887542660918438 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0030340440", "cod": 1136, "nome": "R.José Luciano Pereira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693533009699522, -26.887508953976351 ], [ -48.6934773, -26.88751243 ], [ -48.69290885, -26.88754192 ], [ -48.69289311246655, -26.887542660918442 ] ] } }
 ]
 }

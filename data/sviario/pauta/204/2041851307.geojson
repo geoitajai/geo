@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2041851307", "cod": 637, "nome": "R.Zacharias Baptista Moura", "ptotalvia": 4.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656435645257162, -26.920171930295126 ], [ -48.65644183, -26.92016583 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2041851307", "cod": 659, "nome": "R.Aladi Schendroski Bini", "ptotalvia": 12.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656449849562108, -26.919688227951774 ], [ -48.656719463744807, -26.919918528687248 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2041851307", "cod": 662, "nome": "R.Carlos Gonçalves Dutra", "ptotalvia": 5.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656208129440202, -26.919899079208395 ], [ -48.6562541, -26.91993872 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2041851307", "cod": 637, "nome": "Serv.Zacharias Baptista Moura", "ptotalvia": 4.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656435645257162, -26.920171930295123 ], [ -48.65644183, -26.92016583 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2041851307", "cod": 659, "nome": "R.Aladi Schendroski Bini", "ptotalvia": 12.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656449849562108, -26.91968822795177 ], [ -48.656719463744807, -26.919918528687248 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2041851307", "cod": 662, "nome": "R.Carlos Gonçalves Dutra", "ptotalvia": 5.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656208129440202, -26.919899079208399 ], [ -48.6562541, -26.91993872 ] ] } }
 ]
 }

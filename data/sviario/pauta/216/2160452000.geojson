@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2160452000", "cod": 1730, "nome": "Av.Marginal Norte", "ptotalvia": 30.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.717338937718743, -26.944621755065516 ], [ -48.717113214307275, -26.944483622542037 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2160452000", "cod": 1419, "nome": "R.Cândido Winter", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.71750868, -26.94426398 ], [ -48.717501553908974, -26.944637445038513 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2160452000", "cod": 1730, "nome": "Av.Marginal Norte", "ptotalvia": 30.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.717338937718743, -26.944621755065516 ], [ -48.717113214307275, -26.944483622542034 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2160452000", "cod": 1419, "nome": "R.Cândido Winter", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.71750868, -26.94426398 ], [ -48.717501553908974, -26.94463744503852 ] ] } }
 ]
 }

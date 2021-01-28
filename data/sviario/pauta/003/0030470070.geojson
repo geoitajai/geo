@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0030470070", "cod": 1143, "nome": "R.Mário Reis", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69521253537188, -26.893443979058336 ], [ -48.69522399, -26.893651179999988 ], [ -48.695227006493198, -26.893786707104777 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0030470070", "cod": 1159, "nome": "Trav.Zircônia", "ptotalvia": 7.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69522399, -26.893651179999988 ], [ -48.695130911613695, -26.893654027264542 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0030470070", "cod": 1143, "nome": "R.Mário Reis", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69521253537188, -26.893443979058329 ], [ -48.69522399, -26.89365118 ], [ -48.695227006493198, -26.893786707104766 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0030470070", "cod": 1159, "nome": "Trav.Zircônia", "ptotalvia": 7.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69522399, -26.89365118 ], [ -48.695130911613695, -26.893654027264542 ] ] } }
 ]
 }

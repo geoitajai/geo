@@ -2,9 +2,9 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140610578", "cod": 724, "nome": "R.José Agripino Corbeta", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.645098565939172, -26.929495326699072 ], [ -48.64506101, -26.92946766 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140610578", "cod": 724, "nome": "R.José Agripino Corbeta", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.645098565939165, -26.929495326699076 ], [ -48.64506101, -26.92946766 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2140610578", "cod": 746, "nome": "R.Afonso Orsi", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.64469842, -26.93008725 ], [ -48.644347203671572, -26.929974248877951 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2140610578", "cod": 753, "nome": "R.Hilda Teixeira Zaguini", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.640138320417627, -26.928218405377319 ], [ -48.64068735, -26.9286439 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2140610578", "cod": 586, "nome": "Av.Osvaldo Reis", "ptotalvia": 34.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.64528874254588, -26.928982990958676 ], [ -48.64506101, -26.92946766 ], [ -48.64486324, -26.92981542 ], [ -48.64469842, -26.93008725 ], [ -48.644662382311303, -26.930145431820403 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2140610578", "cod": 753, "nome": "R.Hilda Teixeira Zaguini", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.640138320417627, -26.928218405377322 ], [ -48.64068735, -26.9286439 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140610578", "cod": 586, "nome": "Av.Osvaldo Reis", "ptotalvia": 34.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.64528874254588, -26.928982990958673 ], [ -48.64506101, -26.92946766 ], [ -48.64486324, -26.92981542 ], [ -48.64469842, -26.93008725 ], [ -48.644662382311303, -26.930145431820407 ] ] } }
 ]
 }

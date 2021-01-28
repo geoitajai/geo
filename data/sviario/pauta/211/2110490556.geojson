@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110490556", "cod": 391, "nome": "R.José Raimundo de Oliveira", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.667586750861325, -26.91602006589213 ], [ -48.667368681844913, -26.916293589556027 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110490556", "cod": 380, "nome": "R.Juvenal Garcia", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.667461218428784, -26.916291058322987 ], [ -48.66740153, -26.91625157 ], [ -48.66708931193515, -26.916000695321589 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2110490556", "cod": 391, "nome": "R.José Raimundo de Oliveira", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.667586750861325, -26.916020065892127 ], [ -48.667368681844913, -26.91629358955603 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110490556", "cod": 380, "nome": "R.Juvenal Garcia", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.667461218428784, -26.916291058322987 ], [ -48.66740153, -26.91625157 ], [ -48.667089311935158, -26.916000695321589 ] ] } }
 ]
 }

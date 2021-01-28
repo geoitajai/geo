@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0053780030", "cod": 969, "nome": "R.Augusto Fiorenzano Júnior", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.694109639460528, -26.926397197803421 ], [ -48.693783520924597, -26.92657661352537 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0053780030", "cod": 892, "nome": "Av.Ver.Nilo Simas", "ptotalvia": 20.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.694351401094437, -26.926787631858375 ], [ -48.69418045713325, -26.927020539912093 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0053780030", "cod": 969, "nome": "R.Augusto Fiorenzano Júnior", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.694109639460528, -26.926397197803421 ], [ -48.693783520924597, -26.926576613525384 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0053780030", "cod": 892, "nome": "Av.Ver.Nilo Simas", "ptotalvia": 20.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.694351401094437, -26.926787631858375 ], [ -48.69418045713325, -26.927020539912089 ] ] } }
 ]
 }

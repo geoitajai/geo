@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110370643", "cod": 500, "nome": "R.José Tedeo", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67090643, -26.91515886 ], [ -48.671511993619056, -26.915126280501596 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110370643", "cod": 500, "nome": "R.José Tedeo", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67090643, -26.91515886 ], [ -48.671511993619056, -26.915126280501593 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2110370643", "cod": 501, "nome": "R.Joaquim Falco Uriarte", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67095997, -26.91567339 ], [ -48.671559470578991, -26.915645711922036 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110370643", "cod": 262, "nome": "Av.José Eugênio Muller", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.670898764161649, -26.91509983063019 ], [ -48.67090643, -26.91515886 ], [ -48.67095997, -26.91567339 ], [ -48.670966325181269, -26.915727508606768 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2110370643", "cod": 262, "nome": "Av.José Eugênio Muller", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.670898764161649, -26.915099830630187 ], [ -48.67090643, -26.91515886 ], [ -48.67095997, -26.91567339 ], [ -48.670966325181269, -26.915727508606764 ] ] } }
 ]
 }

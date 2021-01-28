@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040581630", "cod": 703, "nome": "R.José Júlio da Rocha", "ptotalvia": 5.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -48.651169189454322, -26.928252354543556 ], [ -48.651033025228074, -26.928132334778702 ] ], [ [ -48.65095680419072, -26.928081170872183 ], [ -48.65081025, -26.9282313 ] ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040581630", "cod": 705, "nome": "R.João Cunha", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.650747987000393, -26.928114350147073 ], [ -48.65081025, -26.9282313 ], [ -48.650926327878587, -26.928552581429685 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2040581630", "cod": 703, "nome": "R.José Júlio da Rocha", "ptotalvia": 5.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -48.651169189454322, -26.928252354543567 ], [ -48.65103302522806, -26.928132334778699 ] ], [ [ -48.65095680419072, -26.928081170872183 ], [ -48.65081025, -26.9282313 ] ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040581630", "cod": 705, "nome": "R.João Cunha", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.650747987000393, -26.928114350147069 ], [ -48.65081025, -26.9282313 ], [ -48.650926327878587, -26.928552581429681 ] ] } }
 ]
 }

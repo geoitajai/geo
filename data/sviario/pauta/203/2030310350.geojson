@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2030310350", "cod": 1075, "nome": "R.Pç.Celso Pereira da Silva", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.708643937127867, -26.875051599698534 ], [ -48.70839425, -26.8751963 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2030310350", "cod": 1075, "nome": "R.Pç.Celso Pereira da Silva", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -48.70839425, -26.8751963 ], [ -48.708452959829323, -26.875257573204991 ] ], [ [ -48.70813593, -26.87534041 ], [ -48.70839425, -26.8751963 ] ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2030310350", "cod": 1075, "nome": "Pç.Celso Pereira da Silva", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70839425, -26.8751963 ], [ -48.708452959829323, -26.875257573204991 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2030310350", "cod": 1737, "nome": "R.B Lot Polar", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.708643937127867, -26.875051599698534 ], [ -48.70839425, -26.8751963 ], [ -48.70813593, -26.87534041 ] ] } }
 ]
 }

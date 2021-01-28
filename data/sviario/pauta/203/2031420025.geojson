@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2031420025", "cod": 1061, "nome": "R.José Luiz Marcelino", "ptotalvia": 10.2, "ppasseio1": 1.6, "ppasseio2": 1.6 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.699415068815448, -26.87347223326524 ], [ -48.699102181420734, -26.873602911711497 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2031420025", "cod": 1061, "nome": "R.José Luiz Marcelino", "ptotalvia": 10.2, "ppasseio1": 1.6, "ppasseio2": 1.6 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.699415068815448, -26.87347223326524 ], [ -48.699102181420734, -26.873602911711501 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2031420025", "cod": 1038, "nome": "R.Pedro João de Souza", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.699372263693149, -26.873084539875556 ], [ -48.698977227693682, -26.873269431696794 ] ] } }
 ]
 }

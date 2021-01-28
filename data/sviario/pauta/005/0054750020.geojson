@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0054750020", "cod": 895, "nome": "R.Lino do Amaral", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695943672040379, -26.918624923953658 ], [ -48.69596315, -26.91888121 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0054750020", "cod": 915, "nome": "R.Conegunda Tomazina Bosco", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69596315, -26.91888121 ], [ -48.695967649952038, -26.918936778484451 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054750020", "cod": 895, "nome": "R.Lino do Amaral", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695943672040379, -26.918624923953654 ], [ -48.69596315, -26.91888121 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054750020", "cod": 915, "nome": "R.Conegunda Tomazina Bosco", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69596315, -26.91888121 ], [ -48.695967649952038, -26.918936778484447 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "0054750020", "cod": 1640, "nome": "R.João Jacinto Vieira", "ptotalvia": 6.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695562273046512, -26.918920575302444 ], [ -48.69565999, -26.91890506 ] ] } }
 ]
 }

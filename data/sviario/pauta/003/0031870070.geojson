@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0031870070", "cod": 1193, "nome": "R.Pará", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700609251547867, -26.895447940566413 ], [ -48.70055934, -26.89545041 ], [ -48.700117595555881, -26.895478811036146 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0031870070", "cod": 1164, "nome": "R.Gustavo Bernedet", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700542753455174, -26.895186753799649 ], [ -48.70055934, -26.89545041 ], [ -48.700563058842299, -26.895513718538819 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0031870070", "cod": 1193, "nome": "R.Pará", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700609251547867, -26.895447940566413 ], [ -48.70055934, -26.89545041 ], [ -48.700117595555881, -26.895478811036149 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031870070", "cod": 1164, "nome": "R.Gustavo Bernedet", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700542753455174, -26.895186753799646 ], [ -48.70055934, -26.89545041 ], [ -48.700563058842299, -26.895513718538826 ] ] } }
 ]
 }

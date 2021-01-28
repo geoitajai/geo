@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2160360180", "cod": 1478, "nome": "R.Benjamim Dagnoni", "ptotalvia": 22.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.712654453268193, -26.944562134734046 ], [ -48.71258963, -26.94459482 ], [ -48.71231507, -26.94481562 ], [ -48.712264862424547, -26.944888986525424 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2160360180", "cod": 1478, "nome": "R.Benjamim Dagnoni", "ptotalvia": 22.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.712654453268193, -26.944562134734042 ], [ -48.71258963, -26.94459482 ], [ -48.71231507, -26.94481562 ], [ -48.712264862424547, -26.944888986525424 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2160360180", "cod": 1477, "nome": "R.Germano Dagnoni", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.712578211714458, -26.944298336348638 ], [ -48.71258963, -26.94459482 ] ] } }
 ]
 }

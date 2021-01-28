@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140590900", "cod": 731, "nome": "R.José Correia", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.64507160894194, -26.931247382694007 ], [ -48.6450175, -26.93120247 ], [ -48.644484516359157, -26.930758124792632 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140590900", "cod": 731, "nome": "R.José Correia", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.64507160894194, -26.931247382694004 ], [ -48.6450175, -26.93120247 ], [ -48.644484516359157, -26.930758124792632 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2140590900", "cod": 730, "nome": "R.Luiz Beduschi", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.645412006521816, -26.930941394897424 ], [ -48.64534392, -26.930885 ], [ -48.6450175, -26.93120247 ] ] } }
 ]
 }

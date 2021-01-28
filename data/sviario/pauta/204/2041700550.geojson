@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2041700550", "cod": 669, "nome": "R.João Batista Vieira", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65088871, -26.92330983 ], [ -48.650502761619528, -26.923175506087379 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2041700550", "cod": 669, "nome": "R.João Batista Vieira", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65088871, -26.92330983 ], [ -48.650502761619528, -26.923175506087382 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2041700550", "cod": 672, "nome": "R.Florianópolis", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.651038298570256, -26.923058284871249 ], [ -48.65088871, -26.92330983 ], [ -48.650845188264064, -26.923384684049655 ] ] } }
 ]
 }

@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2030280700", "cod": 1287, "nome": "R.Teporti - Terminal Portuário de Itajaí", "ptotalvia": 20.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -48.710688903258031, -26.888461292320901 ], [ -48.7108544, -26.88865124 ], [ -48.710876741438803, -26.888900304102684 ] ], [ [ -48.710892366258598, -26.889074490442937 ], [ -48.71090188, -26.88918055 ], [ -48.710849062643888, -26.890037235048361 ] ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2030280700", "cod": 1111, "nome": "Av.Dr.Reinaldo Schmithausen", "ptotalvia": 27.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.712278331081698, -26.890850021798745 ], [ -48.71174886, -26.89073977 ], [ -48.71107850580853, -26.890405480316332 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2030280700", "cod": 1287, "nome": "R.Teporti - Terminal Portuário de Itajaí", "ptotalvia": 20.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -48.710688903258031, -26.888461292320905 ], [ -48.7108544, -26.88865124 ], [ -48.710876741438803, -26.888900304102684 ] ], [ [ -48.710892366258598, -26.889074490442933 ], [ -48.71090188, -26.88918055 ], [ -48.710849062643888, -26.890037235048375 ] ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2030280700", "cod": 1111, "nome": "Av.Dr.Reinaldo Schmithausen", "ptotalvia": 27.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.712278331081698, -26.890850021798741 ], [ -48.71174886, -26.89073977 ], [ -48.71107850580853, -26.890405480316332 ] ] } }
 ]
 }

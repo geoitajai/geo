@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010840182", "cod": 339, "nome": "R.Dr.Alexandre Fleming", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.663882585682757, -26.906738032658101 ], [ -48.663743588089893, -26.906668395905537 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010840182", "cod": 342, "nome": "R.Dr.Cacildo Romagnoni", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.663709441294024, -26.906664507109319 ], [ -48.66350438, -26.90694308 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010840182", "cod": 339, "nome": "R.Dr.Alexandre Fleming", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.663882585682757, -26.906738032658101 ], [ -48.663743588089936, -26.906668395905552 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010840182", "cod": 342, "nome": "R.Dr.Cacildo Romagnoni", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.663709441294024, -26.90666450710933 ], [ -48.66350438, -26.90694308 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2010840182", "cod": 342, "nome": "R.Dr.Cacildo Romagnoni", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66350438, -26.90694308 ], [ -48.663468805611565, -26.906991203090186 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2010840182", "cod": 340, "nome": "R.Anita Garibaldi", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.663750371988925, -26.907134113447224 ], [ -48.66350438, -26.90694308 ] ] } }
 ]

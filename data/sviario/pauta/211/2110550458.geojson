@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110550458", "cod": 385, "nome": "R.Manoel Correa", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.667886682190911, -26.917059526377326 ], [ -48.66779612, -26.91698675 ], [ -48.667760697596705, -26.916958283024666 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110550458", "cod": 385, "nome": "R.Manoel Correa", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.667886682190911, -26.917059526377322 ], [ -48.66779612, -26.91698675 ], [ -48.667760697596705, -26.91695828302467 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2110550458", "cod": 1545, "nome": "R.Lauro Coninck", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66779612, -26.91698675 ], [ -48.667518236390229, -26.917164505066065 ] ] } }
 ]
 }

@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110430332", "cod": 163, "nome": "R.Alberto Werner", "ptotalvia": 13.2, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.669865365456801, -26.912617976942311 ], [ -48.66987946, -26.912756849999987 ], [ -48.669902442243206, -26.912943710657373 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110430332", "cod": 163, "nome": "R.Alberto Werner", "ptotalvia": 13.2, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.669865365456801, -26.912617976942315 ], [ -48.66987946, -26.91275685 ], [ -48.669902442243206, -26.912943710657373 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2110430332", "cod": 332, "nome": "R.Hilda Breitenbauch", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6697106, -26.91263398 ], [ -48.669433481761786, -26.912978240634629 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110430332", "cod": 336, "nome": "R.Carlos Santana", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66987946, -26.912756849999987 ], [ -48.6697106, -26.91263398 ], [ -48.669611782093092, -26.912554256673129 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2110430332", "cod": 336, "nome": "R.Carlos Santana", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66987946, -26.91275685 ], [ -48.6697106, -26.91263398 ], [ -48.669611782093092, -26.912554256673126 ] ] } }
 ]
 }

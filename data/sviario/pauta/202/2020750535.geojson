@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020750535", "cod": 210, "nome": "R.Conceição", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.680531834791317, -26.903823715358616 ], [ -48.68067205, -26.9038659 ], [ -48.68079367, -26.90390126 ], [ -48.680892553664378, -26.903928817439972 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020750535", "cod": 239, "nome": "Serv.Laudelino dos Santos", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68079367, -26.90390126 ], [ -48.68065007, -26.90450504 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020750535", "cod": 212, "nome": "R.José Pinto d'Amaral", "ptotalvia": 10.0, "ppasseio1": 1.7, "ppasseio2": 1.7 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.680697255660668, -26.903771250528216 ], [ -48.68067205, -26.9038659 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2020750535", "cod": 210, "nome": "R.Conceição", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.680531834791324, -26.903823715358616 ], [ -48.68067205, -26.9038659 ], [ -48.68079367, -26.90390126 ], [ -48.680892553664378, -26.903928817439972 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020750535", "cod": 239, "nome": "Serv.Laudelino dos Santos", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68079367, -26.90390126 ], [ -48.68065007, -26.904505039999989 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020750535", "cod": 212, "nome": "R.José Pinto d'Amaral", "ptotalvia": 10.0, "ppasseio1": 1.7, "ppasseio2": 1.7 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.680697255660668, -26.903771250528212 ], [ -48.68067205, -26.9038659 ] ] } }
 ]
 }

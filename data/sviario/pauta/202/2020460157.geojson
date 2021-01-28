@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020460157", "cod": 175, "nome": "R.Eugênio José Reichert", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674515410937339, -26.895476358126611 ], [ -48.67458014, -26.89552682 ], [ -48.674836024706757, -26.895727049671045 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020460157", "cod": 175, "nome": "R.Eugênio José Reichert", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674515410937332, -26.895476358126615 ], [ -48.67458014, -26.89552682 ], [ -48.674836024706757, -26.895727049671045 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2020460157", "cod": 176, "nome": "R.Altino Werner", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6745819, -26.89552685 ], [ -48.674364476541186, -26.895762407524458 ] ] } }
 ]
 }
