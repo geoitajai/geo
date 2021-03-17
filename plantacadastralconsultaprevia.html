@@ -18,7 +18,6 @@
     <script src="lib/jquery-ui.min.js"></script>
     <script src="lib/tabulator.min.js"></script>
     <script src="lib/fallback.js"></script>
-    <script src="lib/sheetrock.min.js"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-172813797-1"></script>
     <script>
@@ -329,13 +328,27 @@
         };
 
         //tratar o resultado da pesquisa por código ou nº inscrição imobiliária (solução temporária Google sheets)
-        let gsResultadoP = (error, options, response) => {
-            if (!error) {
+        let gsResultadoP = (result) => {
+            if (result.inscrlig != 'null') {
                 plantaCadastralDestaque.clearLayers();
-                $.getJSON(`data/divisaolotes/exportTabela/${String(response.rows[0].cellsArray[2].substring(0, 3))}/${String(response.rows[0].cellsArray[2])}.geojson`, (data) => {
-
+                //console.log(response.rows[0].cellsArray[2])
+                $.getJSON(`data/divisaolotes/exportTabela/${result.inscrlig.substring(0, 3)}/${result.inscrlig}.geojson`, (
+                    data) => {
+                    let consultapreviap;
+                    let linkinfo;
+                    if (data[0].properties.zon2012 === 'conflito') {
+                        consultapreviap = `https://geoitajai.github.io/geo/consultazoneamentoerro.html#${data[0].properties.inscrlig}`;
+                        linkinfo = 'regularizar situação cadastral';
+                    } else if (data[0].properties.zon2012 === 'dc0913463') {
+                        linkinfo = 'Suspensão mediante decisão judicial nº 0913463-80.2016.8.24.0033';
+                        consultapreviap = `https://geoitajai.github.io/geo/consultazoneamentodc0913463.html#${data[0].properties.inscrlig}`;
+                    } else {
+                        linkinfo = 'clique para abrir';
+                        consultapreviap = `https://geoitajai.github.io/geo/consultazoneamento.html#${data[0].properties.inscrlig}`;
+                    };
                     let objtabela2 = data.map((feicoes) => {
                         return {
+                            'consultaprevia': consultapreviap,
                             'ninscrao': feicoes.properties.ninscrao,
                             'ncodimov': feicoes.properties.ncodimov,
                             'nmatricu': feicoes.properties.nmatricu,
@@ -344,13 +357,11 @@
                             'nnumimov': feicoes.properties.nnumimov,
                             'ncomplem': feicoes.properties.ncomplem,
                             'nnomebai': feicoes.properties.nnomebai,
-                            'ntestapr': feicoes.properties.ntestapr,
                             'nareater': feicoes.properties.nareater,
                             'ncodcont': feicoes.properties.ncodcont,
                             'nfracaoi': feicoes.properties.nfracaoi,
-                            'ntipopes': feicoes.properties.ntipopes,
                             'inscrlig': feicoes.properties.inscrlig,
-                            'zon2012': feicoes.properties.zon2012
+                            'linkinfo': linkinfo
                         }
                     });
                     L.geoJson(data[0], {
@@ -370,6 +381,7 @@
                 alert("Não encontrado");
             }
         };
+
         //Zoom e destaque para via a partir de geoJSON
         function destaquevia(g) {
             pesquisaQvias.clearLayers();
@@ -451,21 +463,20 @@
                 }).keypress((event) => {
                     if (event.keyCode == 13) {
                         event.preventDefault();
-                        if ($("#pesquisaRapida").val().includes(".") && $("#pesquisaRapida").val().length === 15) {
-                            let pesquisaC = "select * where A CONTAINS '" + $("#pesquisaRapida").val() + "'";
-                            sheetrock({
-                                url: "https://docs.google.com/spreadsheets/d/1DjWU_mtifE3LHAFY8rLWEsP1bjz3YZcUb39oy31W7to/edit#gid=0",
-                                query: pesquisaC,
-                                callback: gsResultadoP
-                            });
-                        } else {
-                            let pesquisaI = "select * where B = '" + $("#pesquisaRapida").val() + "'";
-                            sheetrock({
-                                url: "https://docs.google.com/spreadsheets/d/1DjWU_mtifE3LHAFY8rLWEsP1bjz3YZcUb39oy31W7to/edit#gid=0",
-                                query: pesquisaI,
-                                callback: gsResultadoP
-                            });
-                        };
+                        $.ajax({
+                            url: `https://script.google.com/macros/s/AKfycbztb574Ma_64ym_BrecHIwaC7LHJoeW1AlNyVA0WE6TzgFGEHOnsvI3yg/exec?${$("#pesquisaRapida").val()}`,
+                            headers: {
+                                'Content-Type': 'application/x-www-form-urlencoded'
+                            },
+                            type: "GET",
+                            dataType: "json",
+                            data: {
+                            },
+                            success: (e) => { gsResultadoP(e) },
+                            error: () => {
+                                console.log("erro pesquisa");
+                            }
+                        });
                         $("#pesquisaRapida").val("");
                     }
                 });
