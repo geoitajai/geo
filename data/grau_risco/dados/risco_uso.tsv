@@ -88,24 +88,24 @@ codigo	divisao	denominacao	ate100	100a200	200a400	acima400	usoate100	uso100a200	
 02.10-1-05	PRODUÇÃO FLORESTAL	Cultivo de espécies madeireiras, exceto eucalipto, acácia-negra, pinus e teca	Alto	Alto	Alto	Alto	CSA	CSA	CSA	CSA
 02.10-1-06	PRODUÇÃO FLORESTAL	Cultivo de mudas em viveiros florestais	Alto	Alto	Alto	Alto	CSA	CSA	CSA	CSA
 02.10-1-07	PRODUÇÃO FLORESTAL	Extração de madeira em florestas plantadas	Alto	Alto	Alto	Alto	CSMV	CSMV	CSMV	CSMV
-02.10-1-08	PRODUÇÃO FLORESTAL	Produção de carvão vegetal - florestas plantadas	Alto	Alto	Alto	Alto	I4	I4	I4	I4
-02.10-1-09	PRODUÇÃO FLORESTAL	Produção de casca de acácia-negra - florestas plantadas	Alto	Alto	Alto	Alto	I4	I4	I4	I4
+02.10-1-08	PRODUÇÃO FLORESTAL	Produção de carvão vegetal - florestas plantadas	Alto	Alto	Alto	Alto	I1	I4	I4	I4
+02.10-1-09	PRODUÇÃO FLORESTAL	Produção de casca de acácia-negra - florestas plantadas	Alto	Alto	Alto	Alto	I1	I4	I4	I4
 02.10-1-99	PRODUÇÃO FLORESTAL	Produção de produtos não madeireiros não especificados anteriormente em florestas plantadas	Alto	Alto	Alto	Alto	I1	I2	I2	I3
 02.20-9-01	PRODUÇÃO FLORESTAL	Extração de madeira em florestas nativas	Alto	Alto	Alto	Alto	CSMV	CSMV	CSMV	CSMV
-02.20-9-02	PRODUÇÃO FLORESTAL	Produção de carvão vegetal - florestas nativas	Alto	Alto	Alto	Alto	I4	I4	I4	I4
+02.20-9-02	PRODUÇÃO FLORESTAL	Produção de carvão vegetal - florestas nativas	Alto	Alto	Alto	Alto	I1	I4	I4	I4
 02.20-9-03	PRODUÇÃO FLORESTAL	Coleta de castanha-do-pará em florestas nativas	Alto	Alto	Alto	Alto	CSMV	CSMV	CSMV	CSMV
 02.20-9-04	PRODUÇÃO FLORESTAL	Coleta de látex em florestas nativas	Alto	Alto	Alto	Alto	CSMV	CSMV	CSMV	CSMV
 02.20-9-05	PRODUÇÃO FLORESTAL	Coleta de palmito em florestas nativas	Alto	Alto	Alto	Alto	CSMV	CSMV	CSMV	CSMV
 02.20-9-06	PRODUÇÃO FLORESTAL	Conservação de florestas nativas	Alto	Alto	Alto	Alto	CSMV	CSMV	CSMV	CSMV
 02.20-9-99	PRODUÇÃO FLORESTAL	Coleta de produtos não madeireiros não especificados anteriormente em florestas nativas	Alto	Alto	Alto	Alto	CSMV	CSMV	CSMV	CSMV
 02.30-6-00	PRODUÇÃO FLORESTAL	Atividades de apoio à produção florestal	Baixo	Baixo	Médio	Alto	CS1	CS2	CS2	CS3
-03.11-6-01	PESCA E AQÜICULTURA	Pesca de peixes em água salgada	Alto	Alto	Alto	Alto	CSA	CSA	CSA	CSA
-03.11-6-02	PESCA E AQÜICULTURA	Pesca de crustáceos e moluscos em água salgada	Alto	Alto	Alto	Alto	CSA	CSA	CSA	CSA
-03.11-6-03	PESCA E AQÜICULTURA	Coleta de outros produtos marinhos	Alto	Alto	Alto	Alto	CSA	CSA	CSA	CSA
+03.11-6-01	PESCA E AQÜICULTURA	Pesca de peixes em água salgada	Alto	Alto	Alto	Alto	CS1	CS2	CS2	CS3
+03.11-6-02	PESCA E AQÜICULTURA	Pesca de crustáceos e moluscos em água salgada	Alto	Alto	Alto	Alto	CS1	CS2	CS2	CS3
+03.11-6-03	PESCA E AQÜICULTURA	Coleta de outros produtos marinhos	Alto	Alto	Alto	Alto	CS1	CS2	CS2	CS3
 03.11-6-04	PESCA E AQÜICULTURA	Atividades de apoio à pesca em água salgada	Alto	Alto	Alto	Alto	CS1	CS2	CS2	CS3
-03.12-4-01	PESCA E AQÜICULTURA	Pesca de peixes em água doce	Alto	Alto	Alto	Alto	CSA	CSA	CSA	CSA
-03.12-4-02	PESCA E AQÜICULTURA	Pesca de crustáceos e moluscos em água doce	Alto	Alto	Alto	Alto	CSA	CSA	CSA	CSA
-03.12-4-03	PESCA E AQÜICULTURA	Coleta de outros produtos aquáticos de água doce	Alto	Alto	Alto	Alto	CSA	CSA	CSA	CSA
+03.12-4-01	PESCA E AQÜICULTURA	Pesca de peixes em água doce	Alto	Alto	Alto	Alto	CS1	CS2	CS2	CS3
+03.12-4-02	PESCA E AQÜICULTURA	Pesca de crustáceos e moluscos em água doce	Alto	Alto	Alto	Alto	CS1	CS2	CS2	CS3
+03.12-4-03	PESCA E AQÜICULTURA	Coleta de outros produtos aquáticos de água doce	Alto	Alto	Alto	Alto	CS1	CS2	CS2	CS3
 03.21-3-01	PESCA E AQÜICULTURA	Criação de peixes em água salgada e salobra	Alto	Alto	Alto	Alto	CSA	CSA	CSA	CSA
 03.21-3-02	PESCA E AQÜICULTURA	Criação de camarões em água salgada e salobra	Alto	Alto	Alto	Alto	CSA	CSA	CSA	CSA
 03.21-3-03	PESCA E AQÜICULTURA	Criação de ostras e mexilhões em água salgada e salobra	Alto	Alto	Alto	Alto	CSA	CSA	CSA	CSA
@@ -122,26 +122,26 @@ codigo	divisao	denominacao	ate100	100a200	200a400	acima400	usoate100	uso100a200	
 03.21-3-05	PESCA E AQÜICULTURA	Atividades de apoio à aquicultura em água salgada e salobra	Baixo	Baixo	Médio	Alto	CS1	CS2	CS2	CS3
 03.22-1-07	PESCA E AQÜICULTURA	Atividades de apoio à aquicultura em água doce	Baixo	Baixo	Médio	Alto	CS1	CS2	CS2	CS3
 05.00-3-01	EXTRAÇÃO DE CARVÃO MINERAL	Extração de carvão mineral	Alto	Alto	Alto	Alto	CSMV	CSMV	CSMV	CSMV
-05.00-3-02	EXTRAÇÃO DE CARVÃO MINERAL	Beneficiamento de carvão mineral	Alto	Alto	Alto	Alto	I4	I4	I4	I4
+05.00-3-02	EXTRAÇÃO DE CARVÃO MINERAL	Beneficiamento de carvão mineral	Alto	Alto	Alto	Alto	I1	I4	I4	I4
 06.00-0-01	EXTRAÇÃO DE PETRÓLEO E GÁS NATURAL	Extração de petróleo e gás natural	Alto	Alto	Alto	Alto	CSMV	CSMV	CSMV	CSMV
 06.00-0-02	EXTRAÇÃO DE PETRÓLEO E GÁS NATURAL	Extração e beneficiamento de xisto	Alto	Alto	Alto	Alto	CSMV	CSMV	CSMV	CSMV
 06.00-0-03	EXTRAÇÃO DE PETRÓLEO E GÁS NATURAL	Extração e beneficiamento de areias betuminosas	Alto	Alto	Alto	Alto	CSMV	CSMV	CSMV	CSMV
 07.10-3-01	EXTRAÇÃO DE MINERAIS METÁLICOS	Extração de minério de ferro	Alto	Alto	Alto	Alto	CSMV	CSMV	CSMV	CSMV
-07.10-3-02	EXTRAÇÃO DE MINERAIS METÁLICOS	Pelotização, sinterização e outros beneficiamentos de minério de ferro	Alto	Alto	Alto	Alto	I4	I4	I4	I4
+07.10-3-02	EXTRAÇÃO DE MINERAIS METÁLICOS	Pelotização, sinterização e outros beneficiamentos de minério de ferro	Alto	Alto	Alto	Alto	I1	I4	I4	I4
 07.21-9-01	EXTRAÇÃO DE MINERAIS METÁLICOS	Extração de minério de alumínio	Alto	Alto	Alto	Alto	CSMV	CSMV	CSMV	CSMV
-07.21-9-02	EXTRAÇÃO DE MINERAIS METÁLICOS	Beneficiamento de minério de alumínio	Alto	Alto	Alto	Alto	I4	I4	I4	I4
+07.21-9-02	EXTRAÇÃO DE MINERAIS METÁLICOS	Beneficiamento de minério de alumínio	Alto	Alto	Alto	Alto	I1	I4	I4	I4
 07.22-7-01	EXTRAÇÃO DE MINERAIS METÁLICOS	Extração de minério de estanho	Alto	Alto	Alto	Alto	CSMV	CSMV	CSMV	CSMV
-07.22-7-02	EXTRAÇÃO DE MINERAIS METÁLICOS	Beneficiamento de minério de estanho	Alto	Alto	Alto	Alto	I4	I4	I4	I4
+07.22-7-02	EXTRAÇÃO DE MINERAIS METÁLICOS	Beneficiamento de minério de estanho	Alto	Alto	Alto	Alto	I1	I4	I4	I4
 07.23-5-01	EXTRAÇÃO DE MINERAIS METÁLICOS	Extração de minério de manganês	Alto	Alto	Alto	Alto	CSMV	CSMV	CSMV	CSMV
-07.23-5-02	EXTRAÇÃO DE MINERAIS METÁLICOS	Beneficiamento de minério de manganês	Alto	Alto	Alto	Alto	I4	I4	I4	I4
+07.23-5-02	EXTRAÇÃO DE MINERAIS METÁLICOS	Beneficiamento de minério de manganês	Alto	Alto	Alto	Alto	I1	I4	I4	I4
 07.24-3-01	EXTRAÇÃO DE MINERAIS METÁLICOS	Extração de minério de metais preciosos	Alto	Alto	Alto	Alto	CSMV	CSMV	CSMV	CSMV
-07.24-3-02	EXTRAÇÃO DE MINERAIS METÁLICOS	Beneficiamento de minério de metais preciosos	Alto	Alto	Alto	Alto	I4	I4	I4	I4
+07.24-3-02	EXTRAÇÃO DE MINERAIS METÁLICOS	Beneficiamento de minério de metais preciosos	Alto	Alto	Alto	Alto	I1	I4	I4	I4
 07.25-1-00	EXTRAÇÃO DE MINERAIS METÁLICOS	Extração de minerais radioativos	Alto	Alto	Alto	Alto	CSMV	CSMV	CSMV	CSMV
 07.29-4-01	EXTRAÇÃO DE MINERAIS METÁLICOS	Extração de minérios de nióbio e titânio	Alto	Alto	Alto	Alto	CSMV	CSMV	CSMV	CSMV
 07.29-4-02	EXTRAÇÃO DE MINERAIS METÁLICOS	Extração de minério de tungstênio	Alto	Alto	Alto	Alto	CSMV	CSMV	CSMV	CSMV
 07.29-4-03	EXTRAÇÃO DE MINERAIS METÁLICOS	Extração de minério de níquel	Alto	Alto	Alto	Alto	CSMV	CSMV	CSMV	CSMV
 07.29-4-04	EXTRAÇÃO DE MINERAIS METÁLICOS	Extração de minérios de cobre, chumbo, zinco e outros minerais metálicos não ferrosos não especificados anteriormente	Alto	Alto	Alto	Alto	CSMV	CSMV	CSMV	CSMV
-07.29-4-05	EXTRAÇÃO DE MINERAIS METÁLICOS	Beneficiamento de minérios de cobre, chumbo, zinco e outros minerais metálicos não ferrosos não especificados anteriormente	Alto	Alto	Alto	Alto	I4	I4	I4	I4
+07.29-4-05	EXTRAÇÃO DE MINERAIS METÁLICOS	Beneficiamento de minérios de cobre, chumbo, zinco e outros minerais metálicos não ferrosos não especificados anteriormente	Alto	Alto	Alto	Alto	I1	I4	I4	I4
 08.10-0-01	EXTRAÇÃO DE MINERAIS NÃO METÁLICOS	Extração de ardósia e beneficiamento associado	Alto	Alto	Alto	Alto	CSMV	CSMV	CSMV	CSMV
 08.10-0-02	EXTRAÇÃO DE MINERAIS NÃO METÁLICOS	Extração de granito e beneficiamento associado	Alto	Alto	Alto	Alto	CSMV	CSMV	CSMV	CSMV
 08.10-0-03	EXTRAÇÃO DE MINERAIS NÃO METÁLICOS	Extração de mármore e beneficiamento associado	Alto	Alto	Alto	Alto	CSMV	CSMV	CSMV	CSMV
@@ -151,7 +151,7 @@ codigo	divisao	denominacao	ate100	100a200	200a400	acima400	usoate100	uso100a200	
 08.10-0-07	EXTRAÇÃO DE MINERAIS NÃO METÁLICOS	Extração de argila e beneficiamento associado	Alto	Alto	Alto	Alto	CSMV	CSMV	CSMV	CSMV
 08.10-0-08	EXTRAÇÃO DE MINERAIS NÃO METÁLICOS	Extração de saibro e beneficiamento associado	Alto	Alto	Alto	Alto	CSMV	CSMV	CSMV	CSMV
 08.10-0-09	EXTRAÇÃO DE MINERAIS NÃO METÁLICOS	Extração de bas e beneficiamento associado	Alto	Alto	Alto	Alto	CSMV	CSMV	CSMV	CSMV
-08.10-0-10	EXTRAÇÃO DE MINERAIS NÃO METÁLICOS	Beneficiamento de gesso e caulim associado à extração	Alto	Alto	Alto	Alto	I4	I4	I4	I4
+08.10-0-10	EXTRAÇÃO DE MINERAIS NÃO METÁLICOS	Beneficiamento de gesso e caulim associado à extração	Alto	Alto	Alto	Alto	I1	I4	I4	I4
 08.10-0-99	EXTRAÇÃO DE MINERAIS NÃO METÁLICOS	Extração e britamento de pedras e outros materiais para construção e beneficiamento associado	Alto	Alto	Alto	Alto	CSMV	CSMV	CSMV	CSMV
 08.91-6-00	EXTRAÇÃO DE MINERAIS NÃO METÁLICOS	Extração de minerais para fabricação de adubos, fertilizantes e outros produtos químicos	Alto	Alto	Alto	Alto	CSMV	CSMV	CSMV	CSMV
 08.92-4-01	EXTRAÇÃO DE MINERAIS NÃO METÁLICOS	Extração de sal marinho	Alto	Alto	Alto	Alto	CSMV	CSMV	CSMV	CSMV
@@ -166,16 +166,16 @@ codigo	divisao	denominacao	ate100	100a200	200a400	acima400	usoate100	uso100a200	
 09.90-4-01	ATIVIDADES DE APOIO À EXTRAÇÃO DE MINERAIS	Atividades de apoio à extração de minério de ferro	Baixo	Baixo	Médio	Alto	CS1	CS2	CS2	CS3
 09.90-4-02	ATIVIDADES DE APOIO À EXTRAÇÃO DE MINERAIS	Atividades de apoio à extração de minerais metálicos não ferrosos	Baixo	Baixo	Médio	Alto	CS1	CS2	CS2	CS3
 09.90-4-03	ATIVIDADES DE APOIO À EXTRAÇÃO DE MINERAIS	Atividades de apoio à extração de minerais não metálicos	Baixo	Baixo	Médio	Alto	CS1	CS2	CS2	CS3
-10.11-2-01	FABRICAÇÃO DE PRODUTOS ALIMENTÍCIOS	Frigorífico - abate de bovinos	Alto	Alto	Alto	Alto	I4	I4	I4	I4
-10.11-2-02	FABRICAÇÃO DE PRODUTOS ALIMENTÍCIOS	Frigorífico - abate de equinos	Alto	Alto	Alto	Alto	I4	I4	I4	I4
-10.11-2-03	FABRICAÇÃO DE PRODUTOS ALIMENTÍCIOS	Frigorífico - abate de ovinos e caprinos	Alto	Alto	Alto	Alto	I4	I4	I4	I4
-10.11-2-04	FABRICAÇÃO DE PRODUTOS ALIMENTÍCIOS	Frigorífico - abate de bufalinos	Alto	Alto	Alto	Alto	I4	I4	I4	I4
-10.11-2-05	FABRICAÇÃO DE PRODUTOS ALIMENTÍCIOS	Matadouro - abate de reses sob contrato, exceto abate de suínos	Alto	Alto	Alto	Alto	I4	I4	I4	I4
-10.12-1-01	FABRICAÇÃO DE PRODUTOS ALIMENTÍCIOS	Abate de aves	Alto	Alto	Alto	Alto	I4	I4	I4	I4
-10.12-1-02	FABRICAÇÃO DE PRODUTOS ALIMENTÍCIOS	Abate de pequenos animais	Alto	Alto	Alto	Alto	I4	I4	I4	I4
-10.12-1-03	FABRICAÇÃO DE PRODUTOS ALIMENTÍCIOS	Frigorífico - abate de suínos	Alto	Alto	Alto	Alto	I4	I4	I4	I4
-10.12-1-04	FABRICAÇÃO DE PRODUTOS ALIMENTÍCIOS	Matadouro - abate de suínos sob contrato	Alto	Alto	Alto	Alto	I4	I4	I4	I4
-10.99-6-04	FABRICAÇÃO DE PRODUTOS ALIMENTÍCIOS	Fabricação de gelo comum	Alto	Alto	Alto	Alto	I4	I4	I4	I4
+10.11-2-01	FABRICAÇÃO DE PRODUTOS ALIMENTÍCIOS	Frigorífico - abate de bovinos	Alto	Alto	Alto	Alto	I1	I4	I4	I4
+10.11-2-02	FABRICAÇÃO DE PRODUTOS ALIMENTÍCIOS	Frigorífico - abate de equinos	Alto	Alto	Alto	Alto	I1	I4	I4	I4
+10.11-2-03	FABRICAÇÃO DE PRODUTOS ALIMENTÍCIOS	Frigorífico - abate de ovinos e caprinos	Alto	Alto	Alto	Alto	I1	I4	I4	I4
+10.11-2-04	FABRICAÇÃO DE PRODUTOS ALIMENTÍCIOS	Frigorífico - abate de bufalinos	Alto	Alto	Alto	Alto	I1	I4	I4	I4
+10.11-2-05	FABRICAÇÃO DE PRODUTOS ALIMENTÍCIOS	Matadouro - abate de reses sob contrato, exceto abate de suínos	Alto	Alto	Alto	Alto	I1	I4	I4	I4
+10.12-1-01	FABRICAÇÃO DE PRODUTOS ALIMENTÍCIOS	Abate de aves	Alto	Alto	Alto	Alto	I1	I4	I4	I4
+10.12-1-02	FABRICAÇÃO DE PRODUTOS ALIMENTÍCIOS	Abate de pequenos animais	Alto	Alto	Alto	Alto	I1	I4	I4	I4
+10.12-1-03	FABRICAÇÃO DE PRODUTOS ALIMENTÍCIOS	Frigorífico - abate de suínos	Alto	Alto	Alto	Alto	I1	I4	I4	I4
+10.12-1-04	FABRICAÇÃO DE PRODUTOS ALIMENTÍCIOS	Matadouro - abate de suínos sob contrato	Alto	Alto	Alto	Alto	I1	I4	I4	I4
+10.99-6-04	FABRICAÇÃO DE PRODUTOS ALIMENTÍCIOS	Fabricação de gelo comum	Alto	Alto	Alto	Alto	I1	I4	I4	I4
 10.13-9-01	FABRICAÇÃO DE PRODUTOS ALIMENTÍCIOS	Fabricação de produtos de carne	Médio	Médio	Alto	Alto	I1	I2	I2	I3
 10.20-1-01	FABRICAÇÃO DE PRODUTOS ALIMENTÍCIOS	Preservação de peixes, crustáceos e moluscos	Médio	Médio	Alto	Alto	I1	I2	I2	I3
 10.20-1-02	FABRICAÇÃO DE PRODUTOS ALIMENTÍCIOS	Fabricação de conservas de peixes, crustáceos e moluscos	Médio	Médio	Alto	Alto	I1	I2	I2	I3
@@ -284,7 +284,7 @@ codigo	divisao	denominacao	ate100	100a200	200a400	acima400	usoate100	uso100a200	
 16.23-4-00	FABRICAÇÃO DE PRODUTOS DE MADEIRA	Fabricação de artefatos de tanoaria e de embalagens de madeira	Médio	Médio	Alto	Alto	I1	I2	I2	I3
 16.29-3-01	FABRICAÇÃO DE PRODUTOS DE MADEIRA	Fabricação de artefatos diversos de madeira, exceto móveis	Médio	Médio	Alto	Alto	I1	I2	I2	I3
 16.29-3-02	FABRICAÇÃO DE PRODUTOS DE MADEIRA	Fabricação de artefatos diversos de cortiça, bambu, palha, vime e outros materiais trançados, exceto móveis	Médio	Médio	Alto	Alto	I1	I2	I2	I3
-17.10-9-00	FABRICAÇÃO DE CELULOSE, PAPEL E PRODUTOS DE PAPEL	Fabricação de celulose e outras pastas para a fabricação de papel	Alto	Alto	Alto	Alto	I4	I4	I4	I4
+17.10-9-00	FABRICAÇÃO DE CELULOSE, PAPEL E PRODUTOS DE PAPEL	Fabricação de celulose e outras pastas para a fabricação de papel	Alto	Alto	Alto	Alto	I1	I4	I4	I4
 17.21-4-00	FABRICAÇÃO DE CELULOSE, PAPEL E PRODUTOS DE PAPEL	Fabricação de papel	Médio	Médio	Alto	Alto	I1	I2	I2	I3
 17.22-2-00	FABRICAÇÃO DE CELULOSE, PAPEL E PRODUTOS DE PAPEL	Fabricação de cartolina e papel-cartão	Médio	Médio	Alto	Alto	I1	I2	I2	I3
 17.31-1-00	FABRICAÇÃO DE CELULOSE, PAPEL E PRODUTOS DE PAPEL	Fabricação de embalagens de papel	Médio	Médio	Alto	Alto	I1	I2	I2	I3
@@ -307,58 +307,58 @@ codigo	divisao	denominacao	ate100	100a200	200a400	acima400	usoate100	uso100a200	
 18.30-0-01	IMPRESSÃO E REPRODUÇÃO DE GRAVAÇÕES	Reprodução de som em qualquer suporte	Baixo	Baixo	Médio	Alto	CS1	CS2	CS2	CS3
 18.30-0-02	IMPRESSÃO E REPRODUÇÃO DE GRAVAÇÕES	Reprodução de vídeo em qualquer suporte	Baixo	Baixo	Médio	Alto	CS1	CS2	CS2	CS3
 18.30-0-03	IMPRESSÃO E REPRODUÇÃO DE GRAVAÇÕES	Reprodução de software em qualquer suporte	Baixo	Baixo	Médio	Alto	CS1	CS2	CS2	CS3
-19.10-1-00	FABRICAÇÃO DE COQUE, DE PRODUTOS DERIVADOS DO PETRÓLEO E DE BIOCOMBUSTÍVEIS	Coquerias	Alto	Alto	Alto	Alto	I4	I4	I4	I4
-19.21-7-00	FABRICAÇÃO DE COQUE, DE PRODUTOS DERIVADOS DO PETRÓLEO E DE BIOCOMBUSTÍVEIS	Fabricação de produtos do refino de petróleo	Alto	Alto	Alto	Alto	I4	I4	I4	I4
-19.22-5-01	FABRICAÇÃO DE COQUE, DE PRODUTOS DERIVADOS DO PETRÓLEO E DE BIOCOMBUSTÍVEIS	Formulação de combustíveis	Alto	Alto	Alto	Alto	I4	I4	I4	I4
-19.22-5-02	FABRICAÇÃO DE COQUE, DE PRODUTOS DERIVADOS DO PETRÓLEO E DE BIOCOMBUSTÍVEIS	Rerrefino de óleos lubrificantes	Alto	Alto	Alto	Alto	I4	I4	I4	I4
-19.22-5-99	FABRICAÇÃO DE COQUE, DE PRODUTOS DERIVADOS DO PETRÓLEO E DE BIOCOMBUSTÍVEIS	Fabricação de outros produtos derivados do petróleo, exceto produtos do refino	Alto	Alto	Alto	Alto	I4	I4	I4	I4
-19.31-4-00	FABRICAÇÃO DE COQUE, DE PRODUTOS DERIVADOS DO PETRÓLEO E DE BIOCOMBUSTÍVEIS	Fabricação de álcool	Alto	Alto	Alto	Alto	I4	I4	I4	I4
-19.32-2-00	FABRICAÇÃO DE COQUE, DE PRODUTOS DERIVADOS DO PETRÓLEO E DE BIOCOMBUSTÍVEIS	Fabricação de biocombustíveis, exceto álcool	Alto	Alto	Alto	Alto	I4	I4	I4	I4
-20.11-8-00	FABRICAÇÃO DE PRODUTOS QUÍMICOS	Fabricação de cloro e álcalis	Alto	Alto	Alto	Alto	I4	I4	I4	I4
-20.12-6-00	FABRICAÇÃO DE PRODUTOS QUÍMICOS	Fabricação de intermediários para fertilizantes	Alto	Alto	Alto	Alto	I4	I4	I4	I4
-20.13-4-01	FABRICAÇÃO DE PRODUTOS QUÍMICOS	Fabricação de adubos e fertilizantes organo-minerais	Alto	Alto	Alto	Alto	I4	I4	I4	I4
-20.13-4-02	FABRICAÇÃO DE PRODUTOS QUÍMICOS	Fabricação de adubos e fertilizantes, exceto organo-minerais	Alto	Alto	Alto	Alto	I4	I4	I4	I4
-20.14-2-00	FABRICAÇÃO DE PRODUTOS QUÍMICOS	Fabricação de gases industriais	Alto	Alto	Alto	Alto	I4	I4	I4	I4
-20.19-3-01	FABRICAÇÃO DE PRODUTOS QUÍMICOS	Elaboração de combustíveis nucleares	Alto	Alto	Alto	Alto	I4	I4	I4	I4
-20.19-3-99	FABRICAÇÃO DE PRODUTOS QUÍMICOS	Fabricação de outros produtos químicos inorgânicos não especificados anteriormente	Alto	Alto	Alto	Alto	I4	I4	I4	I4
-20.21-5-00	FABRICAÇÃO DE PRODUTOS QUÍMICOS	Fabricação de produtos petroquímicos básicos	Alto	Alto	Alto	Alto	I4	I4	I4	I4
-20.22-3-00	FABRICAÇÃO DE PRODUTOS QUÍMICOS	Fabricação de intermediários para plastificantes, resinas e fibras	Alto	Alto	Alto	Alto	I4	I4	I4	I4
-20.29-1-00	FABRICAÇÃO DE PRODUTOS QUÍMICOS	Fabricação de produtos químicos orgânicos não especificados anteriormente	Alto	Alto	Alto	Alto	I4	I4	I4	I4
-20.31-2-00	FABRICAÇÃO DE PRODUTOS QUÍMICOS	Fabricação de resinas termoplásticas	Alto	Alto	Alto	Alto	I4	I4	I4	I4
-20.32-1-00	FABRICAÇÃO DE PRODUTOS QUÍMICOS	Fabricação de resinas termofixas	Alto	Alto	Alto	Alto	I4	I4	I4	I4
-20.33-9-00	FABRICAÇÃO DE PRODUTOS QUÍMICOS	Fabricação de elastômeros	Alto	Alto	Alto	Alto	I4	I4	I4	I4
+19.10-1-00	FABRICAÇÃO DE COQUE, DE PRODUTOS DERIVADOS DO PETRÓLEO E DE BIOCOMBUSTÍVEIS	Coquerias	Alto	Alto	Alto	Alto	I1	I4	I4	I4
+19.21-7-00	FABRICAÇÃO DE COQUE, DE PRODUTOS DERIVADOS DO PETRÓLEO E DE BIOCOMBUSTÍVEIS	Fabricação de produtos do refino de petróleo	Alto	Alto	Alto	Alto	I1	I4	I4	I4
+19.22-5-01	FABRICAÇÃO DE COQUE, DE PRODUTOS DERIVADOS DO PETRÓLEO E DE BIOCOMBUSTÍVEIS	Formulação de combustíveis	Alto	Alto	Alto	Alto	I1	I4	I4	I4
+19.22-5-02	FABRICAÇÃO DE COQUE, DE PRODUTOS DERIVADOS DO PETRÓLEO E DE BIOCOMBUSTÍVEIS	Rerrefino de óleos lubrificantes	Alto	Alto	Alto	Alto	I1	I4	I4	I4
+19.22-5-99	FABRICAÇÃO DE COQUE, DE PRODUTOS DERIVADOS DO PETRÓLEO E DE BIOCOMBUSTÍVEIS	Fabricação de outros produtos derivados do petróleo, exceto produtos do refino	Alto	Alto	Alto	Alto	I1	I4	I4	I4
+19.31-4-00	FABRICAÇÃO DE COQUE, DE PRODUTOS DERIVADOS DO PETRÓLEO E DE BIOCOMBUSTÍVEIS	Fabricação de álcool	Alto	Alto	Alto	Alto	I1	I4	I4	I4
+19.32-2-00	FABRICAÇÃO DE COQUE, DE PRODUTOS DERIVADOS DO PETRÓLEO E DE BIOCOMBUSTÍVEIS	Fabricação de biocombustíveis, exceto álcool	Alto	Alto	Alto	Alto	I1	I4	I4	I4
+20.11-8-00	FABRICAÇÃO DE PRODUTOS QUÍMICOS	Fabricação de cloro e álcalis	Alto	Alto	Alto	Alto	I1	I4	I4	I4
+20.12-6-00	FABRICAÇÃO DE PRODUTOS QUÍMICOS	Fabricação de intermediários para fertilizantes	Alto	Alto	Alto	Alto	I1	I4	I4	I4
+20.13-4-01	FABRICAÇÃO DE PRODUTOS QUÍMICOS	Fabricação de adubos e fertilizantes organo-minerais	Alto	Alto	Alto	Alto	I1	I4	I4	I4
+20.13-4-02	FABRICAÇÃO DE PRODUTOS QUÍMICOS	Fabricação de adubos e fertilizantes, exceto organo-minerais	Alto	Alto	Alto	Alto	I1	I4	I4	I4
+20.14-2-00	FABRICAÇÃO DE PRODUTOS QUÍMICOS	Fabricação de gases industriais	Alto	Alto	Alto	Alto	I1	I4	I4	I4
+20.19-3-01	FABRICAÇÃO DE PRODUTOS QUÍMICOS	Elaboração de combustíveis nucleares	Alto	Alto	Alto	Alto	I1	I4	I4	I4
+20.19-3-99	FABRICAÇÃO DE PRODUTOS QUÍMICOS	Fabricação de outros produtos químicos inorgânicos não especificados anteriormente	Alto	Alto	Alto	Alto	I1	I4	I4	I4
+20.21-5-00	FABRICAÇÃO DE PRODUTOS QUÍMICOS	Fabricação de produtos petroquímicos básicos	Alto	Alto	Alto	Alto	I1	I4	I4	I4
+20.22-3-00	FABRICAÇÃO DE PRODUTOS QUÍMICOS	Fabricação de intermediários para plastificantes, resinas e fibras	Alto	Alto	Alto	Alto	I1	I4	I4	I4
+20.29-1-00	FABRICAÇÃO DE PRODUTOS QUÍMICOS	Fabricação de produtos químicos orgânicos não especificados anteriormente	Alto	Alto	Alto	Alto	I1	I4	I4	I4
+20.31-2-00	FABRICAÇÃO DE PRODUTOS QUÍMICOS	Fabricação de resinas termoplásticas	Alto	Alto	Alto	Alto	I1	I4	I4	I4
+20.32-1-00	FABRICAÇÃO DE PRODUTOS QUÍMICOS	Fabricação de resinas termofixas	Alto	Alto	Alto	Alto	I1	I4	I4	I4
+20.33-9-00	FABRICAÇÃO DE PRODUTOS QUÍMICOS	Fabricação de elastômeros	Alto	Alto	Alto	Alto	I1	I4	I4	I4
 20.40-1-00	FABRICAÇÃO DE PRODUTOS QUÍMICOS	Fabricação de fibras artificiais e sintéticas	Alto	Alto	Alto	Alto	I1	I2	I2	I3
-20.51-7-00	FABRICAÇÃO DE PRODUTOS QUÍMICOS	Fabricação de defensivos agrícolas	Alto	Alto	Alto	Alto	I4	I4	I4	I4
+20.51-7-00	FABRICAÇÃO DE PRODUTOS QUÍMICOS	Fabricação de defensivos agrícolas	Alto	Alto	Alto	Alto	I1	I4	I4	I4
 20.52-5-00	FABRICAÇÃO DE PRODUTOS QUÍMICOS	Fabricação de desinfestantes domissanitários	Alto	Alto	Alto	Alto	I1	I2	I2	I3
 20.61-4-00	FABRICAÇÃO DE PRODUTOS QUÍMICOS	Fabricação de sabões e detergentes sintéticos	Alto	Alto	Alto	Alto	I1	I2	I2	I3
 20.62-2-00	FABRICAÇÃO DE PRODUTOS QUÍMICOS	Fabricação de produtos de limpeza e polimento	Alto	Alto	Alto	Alto	I1	I2	I2	I3
 20.63-1-00	FABRICAÇÃO DE PRODUTOS QUÍMICOS	Fabricação de cosméticos, produtos de perfumaria e de higiene pessoal	Alto	Alto	Alto	Alto	I1	I2	I2	I3
-20.71-1-00	FABRICAÇÃO DE PRODUTOS QUÍMICOS	Fabricação de tintas, vernizes, esmaltes e lacas	Alto	Alto	Alto	Alto	I4	I4	I4	I4
-20.72-0-00	FABRICAÇÃO DE PRODUTOS QUÍMICOS	Fabricação de tintas de impressão	Alto	Alto	Alto	Alto	I4	I4	I4	I4
-20.73-8-00	FABRICAÇÃO DE PRODUTOS QUÍMICOS	Fabricação de impermeabilizantes, solventes e produtos afins	Alto	Alto	Alto	Alto	I4	I4	I4	I4
-20.91-6-00	FABRICAÇÃO DE PRODUTOS QUÍMICOS	Fabricação de adesivos e selantes	Alto	Alto	Alto	Alto	I4	I4	I4	I4
-20.92-4-01	FABRICAÇÃO DE PRODUTOS QUÍMICOS	Fabricação de pólvoras, explosivos e detonantes	Alto	Alto	Alto	Alto	I4	I4	I4	I4
-20.92-4-02	FABRICAÇÃO DE PRODUTOS QUÍMICOS	Fabricação de artigos pirotécnicos	Alto	Alto	Alto	Alto	I4	I4	I4	I4
-20.92-4-03	FABRICAÇÃO DE PRODUTOS QUÍMICOS	Fabricação de fósforos de segurança	Alto	Alto	Alto	Alto	I4	I4	I4	I4
-20.93-2-00	FABRICAÇÃO DE PRODUTOS QUÍMICOS	Fabricação de aditivos de uso industrial	Alto	Alto	Alto	Alto	I4	I4	I4	I4
-20.94-1-00	FABRICAÇÃO DE PRODUTOS QUÍMICOS	Fabricação de catalisadores	Alto	Alto	Alto	Alto	I4	I4	I4	I4
-20.99-1-01	FABRICAÇÃO DE PRODUTOS QUÍMICOS	Fabricação de chapas, filmes, papéis e outros materiais e produtos químicos para fotografia	Alto	Alto	Alto	Alto	I4	I4	I4	I4
-20.99-1-99	FABRICAÇÃO DE PRODUTOS QUÍMICOS	Fabricação de outros produtos químicos não especificados anteriormente	Alto	Alto	Alto	Alto	I4	I4	I4	I4
-21.10-6-00	FABRICAÇÃO DE PRODUTOS FARMOQUÍMICOS E FARMACÊUTICOS	Fabricação de produtos farmoquímicos	Médio	Médio	Alto	Alto	I4	I4	I4	I4
+20.71-1-00	FABRICAÇÃO DE PRODUTOS QUÍMICOS	Fabricação de tintas, vernizes, esmaltes e lacas	Alto	Alto	Alto	Alto	I1	I4	I4	I4
+20.72-0-00	FABRICAÇÃO DE PRODUTOS QUÍMICOS	Fabricação de tintas de impressão	Alto	Alto	Alto	Alto	I1	I4	I4	I4
+20.73-8-00	FABRICAÇÃO DE PRODUTOS QUÍMICOS	Fabricação de impermeabilizantes, solventes e produtos afins	Alto	Alto	Alto	Alto	I1	I4	I4	I4
+20.91-6-00	FABRICAÇÃO DE PRODUTOS QUÍMICOS	Fabricação de adesivos e selantes	Alto	Alto	Alto	Alto	I1	I4	I4	I4
+20.92-4-01	FABRICAÇÃO DE PRODUTOS QUÍMICOS	Fabricação de pólvoras, explosivos e detonantes	Alto	Alto	Alto	Alto	I1	I4	I4	I4
+20.92-4-02	FABRICAÇÃO DE PRODUTOS QUÍMICOS	Fabricação de artigos pirotécnicos	Alto	Alto	Alto	Alto	I1	I4	I4	I4
+20.92-4-03	FABRICAÇÃO DE PRODUTOS QUÍMICOS	Fabricação de fósforos de segurança	Alto	Alto	Alto	Alto	I1	I4	I4	I4
+20.93-2-00	FABRICAÇÃO DE PRODUTOS QUÍMICOS	Fabricação de aditivos de uso industrial	Alto	Alto	Alto	Alto	I1	I4	I4	I4
+20.94-1-00	FABRICAÇÃO DE PRODUTOS QUÍMICOS	Fabricação de catalisadores	Alto	Alto	Alto	Alto	I1	I4	I4	I4
+20.99-1-01	FABRICAÇÃO DE PRODUTOS QUÍMICOS	Fabricação de chapas, filmes, papéis e outros materiais e produtos químicos para fotografia	Alto	Alto	Alto	Alto	I1	I4	I4	I4
+20.99-1-99	FABRICAÇÃO DE PRODUTOS QUÍMICOS	Fabricação de outros produtos químicos não especificados anteriormente	Alto	Alto	Alto	Alto	I1	I4	I4	I4
+21.10-6-00	FABRICAÇÃO DE PRODUTOS FARMOQUÍMICOS E FARMACÊUTICOS	Fabricação de produtos farmoquímicos	Médio	Médio	Alto	Alto	I1	I4	I4	I4
 21.21-1-01	FABRICAÇÃO DE PRODUTOS FARMOQUÍMICOS E FARMACÊUTICOS	Fabricação de medicamentos alopáticos para uso humano	Médio	Médio	Alto	Alto	I1	I2	I4	I4
 21.21-1-02	FABRICAÇÃO DE PRODUTOS FARMOQUÍMICOS E FARMACÊUTICOS	Fabricação de medicamentos homeopáticos para uso humano	Médio	Médio	Alto	Alto	I1	I2	I2	I3
 21.21-1-03	FABRICAÇÃO DE PRODUTOS FARMOQUÍMICOS E FARMACÊUTICOS	Fabricação de medicamentos fitoterápicos para uso humano	Médio	Médio	Alto	Alto	I1	I2	I2	I3
 21.22-0-00	FABRICAÇÃO DE PRODUTOS FARMOQUÍMICOS E FARMACÊUTICOS	Fabricação de medicamentos para uso veterinário	Médio	Médio	Alto	Alto	I1	I2	I2	I3
 21.23-8-00	FABRICAÇÃO DE PRODUTOS FARMOQUÍMICOS E FARMACÊUTICOS	Fabricação de preparações farmacêuticas	Médio	Médio	Alto	Alto	I1	I2	I2	I3
-22.11-1-00	FABRICAÇÃO DE PRODUTOS DE BORRACHA E DE MATERIAL PLÁSTICO	Fabricação de pneumáticos e de câmaras-de-ar	Médio	Médio	Alto	Alto	I4	I4	I4	I4
-22.19-6-00	FABRICAÇÃO DE PRODUTOS DE BORRACHA E DE MATERIAL PLÁSTICO	Fabricação de artefatos de borracha não especificados  anteriormente	Médio	Médio	Alto	Alto	I4	I4	I4	I4
-22.21-8-00	FABRICAÇÃO DE PRODUTOS DE BORRACHA E DE MATERIAL PLÁSTICO	Fabricação de laminados planos e tubulares de material plástico	Médio	Médio	Alto	Alto	I4	I4	I4	I4
-22.22-6-00	FABRICAÇÃO DE PRODUTOS DE BORRACHA E DE MATERIAL PLÁSTICO	Fabricação de embalagens de material plástico	Médio	Médio	Alto	Alto	I4	I4	I4	I4
-22.23-4-00	FABRICAÇÃO DE PRODUTOS DE BORRACHA E DE MATERIAL PLÁSTICO	Fabricação de tubos e acessórios de material plástico para uso na construção	Médio	Médio	Alto	Alto	I4	I4	I4	I4
-22.29-3-01	FABRICAÇÃO DE PRODUTOS DE BORRACHA E DE MATERIAL PLÁSTICO	Fabricação de artefatos de material plástico para uso pessoal e doméstico	Médio	Médio	Alto	Alto	I4	I4	I4	I4
-22.29-3-02	FABRICAÇÃO DE PRODUTOS DE BORRACHA E DE MATERIAL PLÁSTICO	Fabricação de artefatos de material plástico para usos industriais	Médio	Médio	Alto	Alto	I4	I4	I4	I4
-22.29-3-03	FABRICAÇÃO DE PRODUTOS DE BORRACHA E DE MATERIAL PLÁSTICO	Fabricação de artefatos de material plástico para uso na construção, exceto tubos e acessórios	Médio	Médio	Alto	Alto	I4	I4	I4	I4
-22.29-3-99	FABRICAÇÃO DE PRODUTOS DE BORRACHA E DE MATERIAL PLÁSTICO	Fabricação de artefatos de material plástico para outros usos não especificados anteriormente	Médio	Médio	Alto	Alto	I4	I4	I4	I4
+22.11-1-00	FABRICAÇÃO DE PRODUTOS DE BORRACHA E DE MATERIAL PLÁSTICO	Fabricação de pneumáticos e de câmaras-de-ar	Médio	Médio	Alto	Alto	I1	I4	I4	I4
+22.19-6-00	FABRICAÇÃO DE PRODUTOS DE BORRACHA E DE MATERIAL PLÁSTICO	Fabricação de artefatos de borracha não especificados  anteriormente	Médio	Médio	Alto	Alto	I1	I4	I4	I4
+22.21-8-00	FABRICAÇÃO DE PRODUTOS DE BORRACHA E DE MATERIAL PLÁSTICO	Fabricação de laminados planos e tubulares de material plástico	Médio	Médio	Alto	Alto	I1	I4	I4	I4
+22.22-6-00	FABRICAÇÃO DE PRODUTOS DE BORRACHA E DE MATERIAL PLÁSTICO	Fabricação de embalagens de material plástico	Médio	Médio	Alto	Alto	I1	I4	I4	I4
+22.23-4-00	FABRICAÇÃO DE PRODUTOS DE BORRACHA E DE MATERIAL PLÁSTICO	Fabricação de tubos e acessórios de material plástico para uso na construção	Médio	Médio	Alto	Alto	I1	I4	I4	I4
+22.29-3-01	FABRICAÇÃO DE PRODUTOS DE BORRACHA E DE MATERIAL PLÁSTICO	Fabricação de artefatos de material plástico para uso pessoal e doméstico	Médio	Médio	Alto	Alto	I1	I4	I4	I4
+22.29-3-02	FABRICAÇÃO DE PRODUTOS DE BORRACHA E DE MATERIAL PLÁSTICO	Fabricação de artefatos de material plástico para usos industriais	Médio	Médio	Alto	Alto	I1	I4	I4	I4
+22.29-3-03	FABRICAÇÃO DE PRODUTOS DE BORRACHA E DE MATERIAL PLÁSTICO	Fabricação de artefatos de material plástico para uso na construção, exceto tubos e acessórios	Médio	Médio	Alto	Alto	I1	I4	I4	I4
+22.29-3-99	FABRICAÇÃO DE PRODUTOS DE BORRACHA E DE MATERIAL PLÁSTICO	Fabricação de artefatos de material plástico para outros usos não especificados anteriormente	Médio	Médio	Alto	Alto	I1	I4	I4	I4
 22.12-9-00	FABRICAÇÃO DE PRODUTOS DE BORRACHA E DE MATERIAL PLÁSTICO	Reforma de pneumáticos usados	Médio	Médio	Médio	Alto	CS1	CS2	CS2	CS3
 23.11-7-00	FABRICAÇÃO DE PRODUTOS DE MINERAIS NÃO METÁLICOS	Fabricação de vidro plano e de segurança	Médio	Médio	Alto	Alto	I1	I4	I4	I4
 23.12-5-00	FABRICAÇÃO DE PRODUTOS DE MINERAIS NÃO METÁLICOS	Fabricação de embalagens de vidro	Médio	Médio	Alto	Alto	I1	I4	I4	I4
@@ -374,13 +374,13 @@ codigo	divisao	denominacao	ate100	100a200	200a400	acima400	usoate100	uso100a200	
 23.42-7-02	FABRICAÇÃO DE PRODUTOS DE MINERAIS NÃO METÁLICOS	Fabricação de artefatos de cerâmica e barro cozido para uso na construção, exceto azulejos e pisos	Médio	Médio	Alto	Alto	I1	I4	I4	I4
 23.49-4-01	FABRICAÇÃO DE PRODUTOS DE MINERAIS NÃO METÁLICOS	Fabricação de material sanitário de cerâmica	Médio	Médio	Alto	Alto	I1	I4	I4	I4
 23.49-4-99	FABRICAÇÃO DE PRODUTOS DE MINERAIS NÃO METÁLICOS	Fabricação de produtos cerâmicos não refratários não especificados anteriormente	Médio	Médio	Alto	Alto	I1	I4	I4	I4
-23.20-6-00	FABRICAÇÃO DE PRODUTOS DE MINERAIS NÃO METÁLICOS	Fabricação de cimento	Alto	Alto	Alto	Alto	I4	I4	I4	I4
-23.91-5-01	FABRICAÇÃO DE PRODUTOS DE MINERAIS NÃO METÁLICOS	Britamento de pedras, exceto associado à extração	Alto	Alto	Alto	Alto	I4	I4	I4	I4
-23.91-5-02	FABRICAÇÃO DE PRODUTOS DE MINERAIS NÃO METÁLICOS	Aparelhamento de pedras para construção, exceto associado à extração	Alto	Alto	Alto	Alto	I4	I4	I4	I4
-23.91-5-03	FABRICAÇÃO DE PRODUTOS DE MINERAIS NÃO METÁLICOS	Aparelhamento de placas e execução de trabalhos em mármore, granito, ardósia e outras pedras	Alto	Alto	Alto	Alto	I4	I4	I4	I4
-23.92-3-00	FABRICAÇÃO DE PRODUTOS DE MINERAIS NÃO METÁLICOS	Fabricação de cal e gesso	Alto	Alto	Alto	Alto	I4	I4	I4	I4
-23.99-1-02	FABRICAÇÃO DE PRODUTOS DE MINERAIS NÃO METÁLICOS	Fabricação de abrasivos	Alto	Alto	Alto	Alto	I4	I4	I4	I4
-23.99-1-99	FABRICAÇÃO DE PRODUTOS DE MINERAIS NÃO METÁLICOS	Fabricação de outros produtos de minerais não metálicos não especificados anteriormente	Alto	Alto	Alto	Alto	I4	I4	I4	I4
+23.20-6-00	FABRICAÇÃO DE PRODUTOS DE MINERAIS NÃO METÁLICOS	Fabricação de cimento	Alto	Alto	Alto	Alto	I1	I4	I4	I4
+23.91-5-01	FABRICAÇÃO DE PRODUTOS DE MINERAIS NÃO METÁLICOS	Britamento de pedras, exceto associado à extração	Alto	Alto	Alto	Alto	I1	I4	I4	I4
+23.91-5-02	FABRICAÇÃO DE PRODUTOS DE MINERAIS NÃO METÁLICOS	Aparelhamento de pedras para construção, exceto associado à extração	Alto	Alto	Alto	Alto	I1	I4	I4	I4
+23.91-5-03	FABRICAÇÃO DE PRODUTOS DE MINERAIS NÃO METÁLICOS	Aparelhamento de placas e execução de trabalhos em mármore, granito, ardósia e outras pedras	Alto	Alto	Alto	Alto	I1	I4	I4	I4
+23.92-3-00	FABRICAÇÃO DE PRODUTOS DE MINERAIS NÃO METÁLICOS	Fabricação de cal e gesso	Alto	Alto	Alto	Alto	I1	I4	I4	I4
+23.99-1-02	FABRICAÇÃO DE PRODUTOS DE MINERAIS NÃO METÁLICOS	Fabricação de abrasivos	Alto	Alto	Alto	Alto	I1	I4	I4	I4
+23.99-1-99	FABRICAÇÃO DE PRODUTOS DE MINERAIS NÃO METÁLICOS	Fabricação de outros produtos de minerais não metálicos não especificados anteriormente	Alto	Alto	Alto	Alto	I1	I4	I4	I4
 23.99-1-01	FABRICAÇÃO DE PRODUTOS DE MINERAIS NÃO METÁLICOS	Decoração, lapidação, gravação, vitrificação e outros trabalhos em cerâmica, louça, vidro e cristal	Baixo	Baixo	Médio	Alto	I1	I2	I2	I3
 24.11-3-00	METALURGIA	Produção de ferro-gusa	Alto	Alto	Alto	Alto	I1	I2	I2	I3
 24.12-1-00	METALURGIA	Produção de ferroligas	Alto	Alto	Alto	Alto	I1	I2	I2	I3
@@ -424,8 +424,8 @@ codigo	divisao	denominacao	ate100	100a200	200a400	acima400	usoate100	uso100a200	
 25.99-3-01	FABRICAÇÃO DE PRODUTOS DE METAL, EXCETO MÁQUINAS E EQUIPAMENTOS	Serviços de confecção de armações metálicas para a construção	Médio	Médio	Médio	Alto	CS1	CS2	CS2	CS3
 25.99-3-02	FABRICAÇÃO DE PRODUTOS DE METAL, EXCETO MÁQUINAS E EQUIPAMENTOS	Serviço de corte e dobra de metais	Médio	Médio	Médio	Alto	CS1	CS2	CS2	CS3
 25.39-0-02	FABRICAÇÃO DE PRODUTOS DE METAL, EXCETO MÁQUINAS E EQUIPAMENTOS	Serviços de tratamento e revestimento em metais	Alto	Alto	Médio	Alto	CS1	CS2	CS2	CS3
-25.50-1-01	FABRICAÇÃO DE PRODUTOS DE METAL, EXCETO MÁQUINAS E EQUIPAMENTOS	Fabricação de equipamento bélico pesado, exceto veículos militares de combate	Alto	Alto	Alto	Alto	I4	I4	I4	I4
-25.50-1-02	FABRICAÇÃO DE PRODUTOS DE METAL, EXCETO MÁQUINAS E EQUIPAMENTOS	Fabricação de armas de fogo, outras armas e munições	Alto	Alto	Alto	Alto	I4	I4	I4	I4
+25.50-1-01	FABRICAÇÃO DE PRODUTOS DE METAL, EXCETO MÁQUINAS E EQUIPAMENTOS	Fabricação de equipamento bélico pesado, exceto veículos militares de combate	Alto	Alto	Alto	Alto	I1	I4	I4	I4
+25.50-1-02	FABRICAÇÃO DE PRODUTOS DE METAL, EXCETO MÁQUINAS E EQUIPAMENTOS	Fabricação de armas de fogo, outras armas e munições	Alto	Alto	Alto	Alto	I1	I4	I4	I4
 26.10-8-00	FABRICAÇÃO DE EQUIPAMENTOS DE INFORMÁTICA, PRODUTOS ELETRÔNICOS E ÓPTICOS	Fabricação de componentes eletrônicos	Médio	Médio	Alto	Alto	I1	I2	I2	I3
 26.21-3-00	FABRICAÇÃO DE EQUIPAMENTOS DE INFORMÁTICA, PRODUTOS ELETRÔNICOS E ÓPTICOS	Fabricação de equipamentos de informática	Médio	Médio	Alto	Alto	I1	I2	I2	I3
 26.22-1-00	FABRICAÇÃO DE EQUIPAMENTOS DE INFORMÁTICA, PRODUTOS ELETRÔNICOS E ÓPTICOS	Fabricação de periféricos para equipamentos de informática	Médio	Médio	Alto	Alto	I1	I2	I2	I3
@@ -452,8 +452,8 @@ codigo	divisao	denominacao	ate100	100a200	200a400	acima400	usoate100	uso100a200	
 27.90-2-01	FABRICAÇÃO DE MÁQUINAS, APARELHOS E MATERIAIS ELÉTRICOS	Fabricação de eletrodos, contatos e outros artigos de carvão e grafita para uso elétrico, eletroímãs e isoladores	Médio	Médio	Alto	Alto	I1	I2	I2	I3
 27.90-2-02	FABRICAÇÃO DE MÁQUINAS, APARELHOS E MATERIAIS ELÉTRICOS	Fabricação de equipamentos para sinalização e alarme	Médio	Médio	Alto	Alto	I1	I2	I2	I3
 27.90-2-99	FABRICAÇÃO DE MÁQUINAS, APARELHOS E MATERIAIS ELÉTRICOS	Fabricação de outros equipamentos e aparelhos elétricos não especificados anteriormente	Médio	Médio	Alto	Alto	I1	I2	I2	I3
-27.21-0-00	FABRICAÇÃO DE MÁQUINAS, APARELHOS E MATERIAIS ELÉTRICOS	Fabricação de pilhas, baterias e acumuladores elétricos, exceto para veículos automotores	Alto	Alto	Alto	Alto	I4	I4	I4	I4
-27.22-8-01	FABRICAÇÃO DE MÁQUINAS, APARELHOS E MATERIAIS ELÉTRICOS	Fabricação de baterias e acumuladores para veículos automotores	Alto	Alto	Alto	Alto	I4	I4	I4	I4
+27.21-0-00	FABRICAÇÃO DE MÁQUINAS, APARELHOS E MATERIAIS ELÉTRICOS	Fabricação de pilhas, baterias e acumuladores elétricos, exceto para veículos automotores	Alto	Alto	Alto	Alto	I1	I4	I4	I4
+27.22-8-01	FABRICAÇÃO DE MÁQUINAS, APARELHOS E MATERIAIS ELÉTRICOS	Fabricação de baterias e acumuladores para veículos automotores	Alto	Alto	Alto	Alto	I1	I4	I4	I4
 27.22-8-02	FABRICAÇÃO DE MÁQUINAS, APARELHOS E MATERIAIS ELÉTRICOS	Recondicionamento de baterias e acumuladores para veículos automotores	Alto	Alto	Alto	Alto	CS1	CS2	CS2	CS3
 28.11-9-00	FABRICAÇÃO DE MÁQUINAS E EQUIPAMENTOS	Fabricação de motores e turbinas, peças e acessórios, exceto para aviões e veículos rodoviários	Médio	Médio	Alto	Alto	I1	I2	I2	I3
 28.12-7-00	FABRICAÇÃO DE MÁQUINAS E EQUIPAMENTOS	Fabricação de equipamentos hidráulicos e pneumáticos, peças e acessórios, exceto válvulas	Médio	Médio	Alto	Alto	I1	I2	I2	I3
@@ -594,7 +594,7 @@ codigo	divisao	denominacao	ate100	100a200	200a400	acima400	usoate100	uso100a200	
 35.30-1-00	ELETRICIDADE, GÁS E OUTRAS UTILIDADES	Produção e distribuição de vapor, água quente e ar condicionado	Médio	Médio	Médio	Alto	I1	I2	I2	I3
 35.20-4-01	ELETRICIDADE, GÁS E OUTRAS UTILIDADES	Produção de gás; processamento de gás natural	Alto	Alto	Alto	Alto	CS1	CS2	CS2	CS3
 35.20-4-02	ELETRICIDADE, GÁS E OUTRAS UTILIDADES	Distribuição de combustíveis gasosos por redes urbanas	Alto	Alto	Alto	Alto	CS1	CS2	CS2	CS3
-36.00-6-01	CAPTAÇÃO, TRATAMENTO E DISTRIBUIÇÃO DE ÁGUA	Captação, tratamento e distribuição de água	Alto	Alto	Alto	Alto	I4	I4	I4	I4
+36.00-6-01	CAPTAÇÃO, TRATAMENTO E DISTRIBUIÇÃO DE ÁGUA	Captação, tratamento e distribuição de água	Alto	Alto	Alto	Alto	I1	I4	I4	I4
 36.00-6-02	CAPTAÇÃO, TRATAMENTO E DISTRIBUIÇÃO DE ÁGUA	Distribuição de água por caminhões	Baixo	Baixo	Médio	Alto	CS1	CS2	CS2	CS3
 37.01-1-00	ESGOTO E ATIVIDADES RELACIONADAS	Gestão de redes de esgoto	Médio	Médio	Médio	Alto	CS1	CS2	CS2	CS3
 37.02-9-00	ESGOTO E ATIVIDADES RELACIONADAS	Atividades relacionadas a esgoto, exceto a gestão de redes	Baixo	Baixo	Médio	Alto	CS1	CS2	CS2	CS3
