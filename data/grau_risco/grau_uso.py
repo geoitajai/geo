@@ -3,18 +3,14 @@
 # ## Grau de Risco das Atividades Econômicas
 # [link](http://leismunicipa.is/hyrip)
 #
-# obs.:
-# propagate last valid observation forward to next valid
-# ```df.fillna(method='ffill')```
 
 # %%
 import pandas as pd
 import numpy as np
 
 # %%
-dados = pd.read_csv('dados/risco_uso.tsv',
-                    encoding='UTF-8',
-                    sep='\t'
+dados = pd.read_csv('dados/risco_uso_2021.csv',
+                    encoding='UTF-8'
                     )
 
 # %%
