@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Planta Cadastral</title>
+    <title>Praças Itajaí - SC</title>
     <link rel="icon" type="image/png" href="images/favicon-96x96.png" sizes="96x96">
     <link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16">
     <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32">
@@ -79,26 +79,6 @@
             overflow-y: scroll;
         }
 
-        .tabulator {
-            font-size: 12px;
-            background: var(--claro);
-        }
-
-        .tabulator .tabulator-header .tabulator-col {
-            background: var(--base);
-            color: var(--claro);
-            text-shadow: 1px 1px 2px black;
-        }
-
-        .tabulator .tabulator-header {
-            border-bottom: 0px;
-        }
-
-        .tabulator .tabulator-header,
-        .tabulator .tabulator-header .tabulator-col {
-            background-color: var(--base);
-        }
-
         .leaflet-container {
             background: #E6E6E6;
         }
@@ -162,6 +142,18 @@
         hr.bordaBranca {
             border: 2px solid white;
             border-radius: 1px;
+        }
+
+        #botaoHome {
+            font-size: large;
+            font-weight: bold;
+            background: none !important;
+            border: none;
+            padding: 0 !important;
+            color: white;
+            text-decoration: underline;
+            cursor: pointer;
+            margin-left: 10px;
         }
     </style>
 
@@ -279,7 +271,7 @@
                             weight: 5,
                             color: "#ffff00",
                             dashArray: "30 10",
-                            opacity: 0.6,
+                            opacity: 0.2,
                             interactive: false
                         };
                     }
@@ -387,19 +379,35 @@
             $('#plnome,#pbnome').html(
                 `<p style='text-align: center;'><img src='${e.target.feature.properties.imagem}' alt='foto praça' style='height: 200px;'></p>
                 <div style='color:white; margin-left: 10px;'>
-                <p>Nome:</p>
                 <h1>${e.target.feature.properties.nome}</h1>
                 <hr class='bordaBranca'>
                 <p>Tipo: ${e.target.feature.properties.tipo}</p>
-                <p>End.: ${e.target.feature.properties.endereco}</p>
                 <p>End.: ${e.target.feature.properties.endereco}, ${e.target.feature.properties.bairro}</p>
                 <hr class='bordaBranca'>
                 <p>Equipamentos: ${e.target.feature.properties.equipamentos}</p></div>`
             );
         };
 
+        conteudoHome = () => {
+            $('#plnome,#pbnome').html(
+                `<div style='color:white; margin-left: 10px;'>
+                <h1>Bem vindo</h1>
+                <hr class='bordaBranca'>
+                <p>Mapa das praças, Município de Itajaí - SC.</p>
+                <p>para obter informações a respeito de uma praça navegue pelo mapa e clique sobre um dos ícones</p>
+                <hr class='bordaBranca'>
+                <p>Criado e mantido pela</p>
+                <p><a href="https://itajai.sc.gov.br/e/urbanismo-e-habitacao" target="_blank">Secretaria Municipal de Desenvolvimento Urbano e Habitação - Município de Itajai</a></p>
+                <p>Tabela com os dados está disponível no seguinte endereço:</p>
+                <p><a href="https://docs.google.com/spreadsheets/d/1_chKCuko9EwvhA5mlhIdN8USX_jTnLNA9rhppsBhGWM/edit?usp=sharing" target="_blank">Visualizar/Baixar Tabela</a></p>
+                </div>`
+            );
+        };
+
+        conteudoHome();
+
         $('#botaoHome').click(e => {
-            alert("button");
+            conteudoHome();
         });
 
         $.getJSON('https://script.google.com/macros/s/AKfycbwc0l4GRdh7aMoqczsYIRKUqOP_E26cjxQxhSBh5qfnyB-djSipXLxPjB5MjPi0cxA1/exec', (data) => {
