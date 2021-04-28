@@ -179,12 +179,14 @@
         <div class='flex-containerB'>
             <div id='mapa'>mapa</div>
             <div id='barralateral'>
-                <div id='plnome'>graf1</div>
+                <button type='button' id='botaoHome'>Home</button>
+                <div id='plnome'> </div>
 
             </div>
         </div>
         <div id='barrainferior'>
-            <div id='pbnome'>graf1</div>
+            <button type='button' id='botaoHome'>Home</button>
+            <div id='pbnome'> </div>
         </div>
     </div>
 
@@ -348,8 +350,14 @@
         });
 
         //adicionar praças
-        pracasItajai = L.featureGroup();
-        //Propostas DET
+
+        tabelaHome = e => {
+            $('#plnome,#pbnome').html(
+                `<p>Bem vindo</p>`
+            );
+        };
+
+        tabelaHome();
 
         const iconePraca = L.icon({
             iconUrl: 'https://geoitajai.github.io/sie/images/ppracas.png',
@@ -358,24 +366,43 @@
             iconSize: [24, 45]
         });
 
-        conteudoBarras = (e) => {
+        const iconePracaSelect = L.icon({
+            iconUrl: 'https://geoitajai.github.io/sie/images/peedifpublic.png',
+            iconAnchor: [12, 45],
+            popupAnchor: [12, 0],
+            iconSize: [24, 45]
+        });
+
+        let ultimoPtMapa;
+
+        conteudoBarras = e => {
+
+            if (ultimoPtMapa) {
+                ultimoPtMapa.setIcon(iconePraca);
+            };
+
+            e.target.setIcon(iconePracaSelect);
+            ultimoPtMapa = e.target;
 
             $('#plnome,#pbnome').html(
                 `<p style='text-align: center;'><img src='${e.target.feature.properties.imagem}' alt='foto praça' style='height: 200px;'></p>
-                <div style="color:white; margin-left: 10px;">
+                <div style='color:white; margin-left: 10px;'>
                 <p>Nome:</p>
                 <h1>${e.target.feature.properties.nome}</h1>
-                <hr class="bordaBranca">
+                <hr class='bordaBranca'>
                 <p>Tipo: ${e.target.feature.properties.tipo}</p>
                 <p>End.: ${e.target.feature.properties.endereco}</p>
                 <p>End.: ${e.target.feature.properties.endereco}, ${e.target.feature.properties.bairro}</p>
-                <hr class="bordaBranca">
+                <hr class='bordaBranca'>
                 <p>Equipamentos: ${e.target.feature.properties.equipamentos}</p></div>`
             );
         };
 
-        $.getJSON('https://script.google.com/macros/s/AKfycbwc0l4GRdh7aMoqczsYIRKUqOP_E26cjxQxhSBh5qfnyB-djSipXLxPjB5MjPi0cxA1/exec', (data) => {
+        $('#botaoHome').click(e => {
+            alert("button");
+        });
 
+        $.getJSON('https://script.google.com/macros/s/AKfycbwc0l4GRdh7aMoqczsYIRKUqOP_E26cjxQxhSBh5qfnyB-djSipXLxPjB5MjPi0cxA1/exec', (data) => {
             L.geoJson(data, {
                 pointToLayer: function (feature, latlng) {
                     return L.marker(latlng, { icon: iconePraca });
@@ -385,11 +412,8 @@
                         click: conteudoBarras
                     });
                 }
-            }).addTo(pracasItajai);
-
+            }).addTo(mapa);
         });
-
-        mapa.addLayer(pracasItajai);
     </script>
 </body>
 
