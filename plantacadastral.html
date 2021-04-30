@@ -1104,6 +1104,7 @@
             else if (dados[4] !== '0') {
                 let latlng = L.latLng(dados[4].split(','));
                 //console.log(latlng);
+                L.marker(latlng).addTo(mapa);
                 mapa.flyTo(latlng, 19);
             };
         };
