@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2010730249", "cod": 393, "nome": "R.José Joaquim dos Santos", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.665686453733123, -26.914189775778766 ], [ -48.66562051, -26.91413677 ], [ -48.665457531654255, -26.914005923409146 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010730249", "cod": 327, "nome": "R.Umbelino Damasio de Brito", "ptotalvia": 11.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.665685232986483, -26.91408631740984 ], [ -48.6655486, -26.91421547 ], [ -48.665353960963415, -26.914428521337168 ] ] } }
+]
+}

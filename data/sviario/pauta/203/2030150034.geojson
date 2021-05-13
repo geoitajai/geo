@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2030150034", "cod": 1093, "nome": "R.César Stamm", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698005674084342, -26.881219571087996 ], [ -48.69800778, -26.88127444 ], [ -48.698018141784921, -26.881547771657846 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2030150034", "cod": 1093, "nome": "R.César Stamm", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698005674123984, -26.881219571067891 ], [ -48.69800778, -26.88127444 ], [ -48.698018141784921, -26.881547771657846 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2030150034", "cod": 1108, "nome": "R.Eurípedes Amorim Leal", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69829158, -26.88125519 ], [ -48.69800778, -26.88127444 ], [ -48.697930958987556, -26.881277310462487 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2030150034", "cod": 1108, "nome": "R.Eurípedes Amorim Leal", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698399564094935, -26.881247864872154 ], [ -48.69829158, -26.88125519 ] ] } }
 ]

@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2160160090", "cod": 1733, "nome": "Serv.Particular", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68792243, -26.9672997 ], [ -48.68817183726631, -26.967554038018616 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2160160090", "cod": 1573, "nome": "R.Antonia Apollinário", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68805295447816, -26.967271207666631 ], [ -48.68789575, -26.96730553 ], [ -48.687597682722718, -26.967384639057698 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2160160090", "cod": 1733, "nome": "Serv.Particular", "ptotalvia": 20.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68792243, -26.9672997 ], [ -48.6881718002738, -26.967554000294889 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2160160090", "cod": 1573, "nome": "R.Antonia Apollinário", "ptotalvia": 20.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.688052404706013, -26.967271327698302 ], [ -48.68789575, -26.96730553 ], [ -48.687587019210341, -26.967387469211495 ] ] } }
 ]
 }

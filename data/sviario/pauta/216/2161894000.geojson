@@ -2,7 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2161894000", "cod": 1508, "nome": "R.Reinoldo Pollheim", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.798535832492455, -27.064531510618231 ], [ -48.79838764, -27.06452188 ], [ -48.79806408, -27.06462665 ], [ -48.79796043, -27.06463837 ], [ -48.79748336, -27.06463607 ], [ -48.797241369072971, -27.064567568566666 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2161894000", "cod": 1267, "nome": "R.Serafim Gamba", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.825812464152641, -27.009017475379487 ], [ -48.825460182851096, -27.008818735530028 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2161894000", "cod": 1508, "nome": "R.Reinoldo Pollheim", "ptotalvia": 20.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.798535832492455, -27.064531510618231 ], [ -48.79838764, -27.06452188 ], [ -48.79806408, -27.06462665 ], [ -48.79796043, -27.06463837 ], [ -48.79748336, -27.06463607 ], [ -48.797241369072971, -27.064567568566666 ] ] } }
 ]
 }

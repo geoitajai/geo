@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0054720300", "cod": 892, "nome": "Av.Ver.Nilo Simas", "ptotalvia": 20.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70033428495703, -26.918346315941108 ], [ -48.69997996, -26.91883802 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054720300", "cod": 923, "nome": "R.Aldo Silva", "ptotalvia": 14.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698453541552624, -26.918408778637573 ], [ -48.69846279, -26.91859182 ], [ -48.69849968, -26.91899316 ], [ -48.698426172735225, -26.919091474569239 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054720300", "cod": 925, "nome": "R.Antônio José Marcos", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69846279, -26.91859182 ], [ -48.698383343615994, -26.918594920908482 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054720300", "cod": 942, "nome": "R.Olavo Murilo Seara", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69931911, -26.91975507 ], [ -48.699357001640344, -26.919808338480145 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054720300", "cod": 892, "nome": "Av.Ver.Nilo Simas", "ptotalvia": 20.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69997996, -26.91883802 ], [ -48.69931911, -26.91975507 ], [ -48.69912559192548, -26.920038159054911 ] ] } }
+]
+}

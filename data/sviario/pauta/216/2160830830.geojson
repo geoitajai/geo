@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2160830830", "cod": 1496, "nome": "R.Marcos Albino", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.741624331647103, -26.976660279140546 ], [ -48.74210888, -26.97652276 ], [ -48.742887392159645, -26.976087039827529 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2160830830", "cod": 1750, "nome": "Serv.Servidao Particular", "ptotalvia": 20.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.74282316, -26.97612299 ], [ -48.74211095, -26.9749809 ], [ -48.74206253, -26.97489979 ], [ -48.742044991532389, -26.974803723436093 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2160830830", "cod": 1499, "nome": "R.Valdecir Cagnetti", "ptotalvia": 20.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.74247796, -26.97631619 ], [ -48.742508045477265, -26.976364042035939 ] ] } }
+]
+}

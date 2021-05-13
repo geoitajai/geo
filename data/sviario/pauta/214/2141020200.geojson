@@ -2,8 +2,11 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2141020200", "cod": 793, "nome": "R.Duílio Furlan", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.63055004000001, -26.94737418 ], [ -48.630541546520696, -26.947374736044143 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2141020200", "cod": 782, "nome": "R.Delfim Mário Pádua Peixoto", "ptotalvia": 20.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.63055004000001, -26.94737418 ], [ -48.630512221908788, -26.946624164245044 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2141020200", "cod": 782, "nome": "R.Delfim Mário Pádua Peixoto", "ptotalvia": 20.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.630550389278973, -26.94737918179835 ], [ -48.63055004000001, -26.9473742 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2141020200", "cod": 1752, "nome": "R.4 \"Lot. Jardim Central\"", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.63159701, -26.94661831 ], [ -48.631583061329067, -26.946528721196131 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2141020200", "cod": 1753, "nome": "R.3 (lot. Jardim Central)", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.630934354729746, -26.946566624633437 ], [ -48.6309484, -26.94664784 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2141020200", "cod": 1754, "nome": "R.5 \"Lot. Jardim Central\"", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.632213637077989, -26.946486203462509 ], [ -48.63222574, -26.94657165 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2141020200", "cod": 793, "nome": "R.Duílio Furlan", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.63055004000001, -26.94737418 ], [ -48.630541364830925, -26.947374747938859 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2141020200", "cod": 782, "nome": "R.Delfim Mário Pádua Peixoto", "ptotalvia": 20.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.63055004000001, -26.94737418 ], [ -48.630512860198493, -26.946636822947319 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2141020200", "cod": 782, "nome": "R.Delfim Mário Pádua Peixoto", "ptotalvia": 20.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.630550282566489, -26.947377659748319 ], [ -48.63055004000001, -26.9473742 ] ] } }
 ]
 }

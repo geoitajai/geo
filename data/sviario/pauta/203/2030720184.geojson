@@ -2,6 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2030720184", "cod": 1269, "nome": "R.César Augusto Dalsóquio", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.728231721987463, -26.870262578729808 ], [ -48.728158322003445, -26.87064550514318 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2030720184", "cod": 1269, "nome": "R.César Augusto Dalsóquio", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.728359940023211, -26.869323330480931 ], [ -48.72835994, -26.86959366 ], [ -48.728348554649024, -26.869653058244726 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2030720184", "cod": 1277, "nome": "R.Fernando Germano Potter", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.728389314135981, -26.869593049213975 ], [ -48.72835994, -26.86959366 ] ] } }
 ]
 }

@@ -3,7 +3,7 @@
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
 { "type": "Feature", "properties": { "inscrlig": "2161501000", "cod": 1251, "nome": "R.Mineral", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.844699743358404, -27.042219509642649 ], [ -48.84482388, -27.04206185 ], [ -48.84510871, -27.04161207 ], [ -48.84548674, -27.04087992 ], [ -48.84557245, -27.04075353 ], [ -48.845716732724014, -27.040524382610897 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2161501000", "cod": 1258, "nome": "R.Maria Trainotti", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.845634077431249, -27.040789763096708 ], [ -48.84557245, -27.04075353 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2161501000", "cod": 1256, "nome": "R.Júlia Vieira da Rocha", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.844862638112254, -27.042122013861832 ], [ -48.84482388, -27.04206185 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2161501000", "cod": 1256, "nome": "R.Júlia Vieira da Rocha", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.844862638112254, -27.042122013861832 ], [ -48.84482388, -27.04206185 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2161501000", "cod": 1258, "nome": "R.Maria Trainotti", "ptotalvia": 20.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.845634077431249, -27.040789763096708 ], [ -48.84557245, -27.04075353 ] ] } }
 ]
 }

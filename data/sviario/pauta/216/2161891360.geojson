@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2161891360", "cod": 1609, "nome": "R.Maria de Lourdes Gastaldi", "ptotalvia": 20.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.817213193576343, -27.008758852635221 ], [ -48.81724134, -27.00877201 ], [ -48.81748985, -27.00877879 ], [ -48.817955982035649, -27.008761137804878 ] ] } }
+]
+}

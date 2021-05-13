@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2160150140", "cod": 1479, "nome": "R.João Thomaz Pinto", "ptotalvia": 25.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.684015518069266, -26.96711680444967 ], [ -48.68407221, -26.96717935 ], [ -48.68419870000001, -26.96735532 ], [ -48.68429797000001, -26.96750179 ], [ -48.6844093, -26.9676153 ], [ -48.684501177864995, -26.967682341339728 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2160150140", "cod": 1644, "nome": "Serv.Sem denominação oficial", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68407221, -26.96717935 ], [ -48.684711593168537, -26.967318698516291 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2160150140", "cod": 1479, "nome": "R.João Thomaz Pinto", "ptotalvia": 25.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.684033897236326, -26.967137081332943 ], [ -48.68407221, -26.96717935 ], [ -48.68419870000001, -26.96735532 ], [ -48.68429797000001, -26.96750179 ], [ -48.6844093, -26.9676153 ], [ -48.684501177864995, -26.967682341339728 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2160150140", "cod": 1644, "nome": "Serv.Sem denominação oficial", "ptotalvia": 25.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68407221, -26.96717935 ], [ -48.68471159326986, -26.967318698538385 ] ] } }
 ]
 }

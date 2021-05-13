@@ -2,9 +2,9 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
+{ "type": "Feature", "properties": { "inscrlig": "2150470600", "cod": 1387, "nome": "R.João Gottardi", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.742160593252962, -26.899406000630016 ], [ -48.74217745, -26.89943263 ], [ -48.74231922, -26.89952153 ], [ -48.742672092298079, -26.899620905680347 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2150470600", "cod": 1387, "nome": "R.João Gottardi", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.7420655530888, -26.899255861105576 ], [ -48.74217745, -26.89943263 ], [ -48.74231922, -26.89952153 ], [ -48.7428243, -26.89966377 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2150470600", "cod": 1390, "nome": "R.José Gottardi", "ptotalvia": 7.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.7428243, -26.89966377 ], [ -48.74282257547118, -26.899753434666877 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2150470600", "cod": 1387, "nome": "R.João Gottardi", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.7428243, -26.89966377 ], [ -48.742979536787921, -26.899679976844482 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2150470600", "cod": 1387, "nome": "R.João Gottardi", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.742160593252962, -26.899406000630016 ], [ -48.74217745, -26.89943263 ], [ -48.74231922, -26.89952153 ], [ -48.742672092298079, -26.899620905680347 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2150470600", "cod": 1387, "nome": "R.João Gottardi", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.7428243, -26.89966377 ], [ -48.742979536787921, -26.899679976844482 ] ] } }
 ]
 }

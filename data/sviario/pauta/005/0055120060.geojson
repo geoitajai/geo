@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0055120060", "cod": 135, "nome": "R.José Pezzini", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.708450144283972, -26.910731712845525 ], [ -48.70845303, -26.91079642 ], [ -48.70845692, -26.91093636 ], [ -48.708459669649457, -26.910999378026062 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0055120060", "cod": 143, "nome": "R.Alice dos Santos Bittencourt", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.708523229931885, -26.910794307204366 ], [ -48.70845303, -26.91079642 ], [ -48.708068941811909, -26.910811895466018 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0055120060", "cod": 1293, "nome": "R.Leopoldo Cristiano de Miranda", "ptotalvia": 20.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.708526754971722, -26.910903345195919 ], [ -48.70845692, -26.91093636 ], [ -48.708127377360832, -26.911067480001105 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0055120060", "cod": 143, "nome": "R.Alice dos Santos Bittencourt", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.708534162811603, -26.910773480335902 ], [ -48.7084518, -26.9107689 ], [ -48.708054911383186, -26.910785305502685 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0055120060", "cod": 135, "nome": "R.José Pezzini", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.708447606327965, -26.910674803596113 ], [ -48.70845303, -26.91079642 ], [ -48.708456822522564, -26.9109328533164 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0055120060", "cod": 1293, "nome": "R.Leopoldo Cristiano de Miranda", "ptotalvia": 20.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70842407010197, -26.910949430524077 ], [ -48.70825536778888, -26.911016554688743 ] ] } }
 ]
 }

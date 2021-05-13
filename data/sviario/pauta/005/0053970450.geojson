@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0053970450", "cod": 1748, "nome": "Serv.Sem denominação oficial", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69131638, -26.92798528 ], [ -48.691501946817063, -26.928198506061825 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0053970450", "cod": 955, "nome": "R.Acelino Alves dos Santos", "ptotalvia": 8.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691195864965152, -26.928012225771674 ], [ -48.69120815, -26.92802037 ], [ -48.69131638, -26.92798528 ], [ -48.691375179484488, -26.92794938098999 ] ] } }
+]
+}

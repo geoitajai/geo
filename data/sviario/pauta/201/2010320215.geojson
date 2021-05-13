@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2010320215", "cod": 281, "nome": "R.Camboriú", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656836073467282, -26.909719744823118 ], [ -48.656737137192344, -26.910253829542434 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010320215", "cod": 370, "nome": "R.Paulo Caramuru da Silva", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.657771137796139, -26.910521033739322 ], [ -48.65773398, -26.91049284 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010320215", "cod": 276, "nome": "Av.7 de Setembro", "ptotalvia": 18.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.657881748805458, -26.91012548407328 ], [ -48.65773398, -26.91049284 ], [ -48.657621681944086, -26.910765302809729 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010320215", "cod": 277, "nome": "R.Alm.Tamandaré", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.657662029487923, -26.909500263211136 ], [ -48.657410340582935, -26.909425536326857 ] ] } }
+]
+}

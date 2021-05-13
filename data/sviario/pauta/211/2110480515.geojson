@@ -2,8 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110480515", "cod": 328, "nome": "Bc.Moreira", "ptotalvia": 6.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66695662, -26.91281543 ], [ -48.666910106878028, -26.912868770925922 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2110480515", "cod": 268, "nome": "R.Brusque", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.666903956225063, -26.912756729882126 ], [ -48.66695662, -26.91281543 ], [ -48.667132748770044, -26.913025096186431 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110480515", "cod": 327, "nome": "R.Umbelino Damasio de Brito", "ptotalvia": 11.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66729630960365, -26.912376617019234 ], [ -48.66695662, -26.91281543 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2110480515", "cod": 327, "nome": "R.Umbelino Damasio de Brito", "ptotalvia": 11.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66729630960365, -26.912376617019234 ], [ -48.66695662, -26.91281543 ], [ -48.66691010697626, -26.912868771199232 ] ] } }
 ]
 }

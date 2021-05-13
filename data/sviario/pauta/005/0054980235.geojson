@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "0054980235", "cod": 1009, "nome": "R.Carlos Bernardes", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69250075, -26.93010988 ], [ -48.692476621846168, -26.930165901487516 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054980235", "cod": 1008, "nome": "R.P.Gilberto Mafra", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692534173465134, -26.930121487154651 ], [ -48.69250075, -26.93010988 ], [ -48.69219272, -26.93003884 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054980235", "cod": 892, "nome": "Av.Ver.Nilo Simas", "ptotalvia": 20.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692302320262719, -26.929666728968744 ], [ -48.69205341, -26.93001828 ], [ -48.692037032003348, -26.930041832256212 ] ] } }
+]
+}

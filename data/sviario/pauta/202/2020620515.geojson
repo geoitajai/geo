@@ -2,6 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
+{ "type": "Feature", "properties": { "inscrlig": "2020620515", "cod": 1751, "nome": "Serv.José Vieira", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.678177766351325, -26.901008641745879 ], [ -48.678178672441462, -26.901242624358577 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2020620515", "cod": 207, "nome": "Trav.Genelicio Pedro de Souza", "ptotalvia": 5.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677824686892478, -26.900955406513795 ], [ -48.677817891391506, -26.901296103558742 ] ] } }
 ]
 }

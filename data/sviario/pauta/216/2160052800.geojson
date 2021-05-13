@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2160052800", "cod": 1427, "nome": "R.José Carlos de Andrade", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.737824667409079, -26.948721699440611 ], [ -48.737846061200422, -26.949037861564324 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2160052800", "cod": 1427, "nome": "R.José Carlos de Andrade", "ptotalvia": 20.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.737821051582593, -26.948668263890784 ], [ -48.73784837122156, -26.949071999515766 ] ] } }
 ]
 }

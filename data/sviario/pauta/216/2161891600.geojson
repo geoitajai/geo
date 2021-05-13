@@ -2,8 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2161891600", "cod": 1553, "nome": "R.Antônio Gastaldi Filho", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.806522627169507, -27.011641936959773 ], [ -48.80619026, -27.01220341 ], [ -48.80576677, -27.01266728 ], [ -48.80551704, -27.01288539 ], [ -48.80506017, -27.01314877 ], [ -48.80490047, -27.0132344 ], [ -48.80489309969191, -27.013241423564267 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2161891600", "cod": 1267, "nome": "R.Serafim Gamba", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.804784525748353, -27.003534192029328 ], [ -48.804503434170378, -27.003513087094927 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2161891600", "cod": 1506, "nome": "R.José Lana", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.810002281479328, -26.999812488410846 ], [ -48.80965814, -26.99995805 ], [ -48.80942681, -27.00009709 ], [ -48.80916918, -27.00035133 ], [ -48.809135173682073, -27.000394216359119 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2161891600", "cod": 1506, "nome": "R.José Lana", "ptotalvia": 20.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.810002281479328, -26.999812488410846 ], [ -48.80965814, -26.99995805 ], [ -48.80942681, -27.00009709 ], [ -48.80916918, -27.00035133 ], [ -48.809135173682073, -27.000394216359119 ] ] } }
 ]
 }

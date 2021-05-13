@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010320211", "cod": 370, "nome": "R.Paulo Caramuru da Silva", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.657771044914192, -26.910520963264517 ], [ -48.65773398, -26.91049284 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010320211", "cod": 276, "nome": "Av.7 de Setembro", "ptotalvia": 18.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.657828393899749, -26.910258125660821 ], [ -48.65773398, -26.91049284 ], [ -48.657621680415566, -26.910765306518297 ] ] } }
-]
-}

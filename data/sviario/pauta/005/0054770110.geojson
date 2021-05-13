@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0054770110", "cod": 895, "nome": "R.Lino do Amaral", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695809194896924, -26.916775273808216 ], [ -48.69582213, -26.91694249 ], [ -48.695832533498603, -26.917105776580073 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054770110", "cod": 895, "nome": "R.Lino do Amaral", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695809194387948, -26.916775267228473 ], [ -48.69582213, -26.91694249 ], [ -48.695832532187886, -26.917105756007953 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "0054770110", "cod": 911, "nome": "R.Camélias, das", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69582213, -26.91694249 ], [ -48.695710226435928, -26.916948456639645 ] ] } }
 ]
 }

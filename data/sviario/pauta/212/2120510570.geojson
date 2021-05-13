@@ -2,9 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2120510570", "cod": 457, "nome": "R.Manoel Gaya", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67129499, -26.88707583 ], [ -48.67125298, -26.88700594 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2120510570", "cod": 453, "nome": "R.Antônio José da Veiga", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.671302937606903, -26.886955376214246 ], [ -48.67125298, -26.88700594 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2120510570", "cod": 457, "nome": "R.Manoel Gaya", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.671428615710781, -26.887186155427568 ], [ -48.67129499, -26.88707583 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2120510570", "cod": 457, "nome": "R.Manoel Gaya", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.671428615710781, -26.887186155427568 ], [ -48.67129499, -26.88707583 ], [ -48.67125298, -26.88700594 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2120510570", "cod": 453, "nome": "R.Antônio José da Veiga", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67125298, -26.88700594 ], [ -48.671159883837525, -26.886936716870082 ] ] } }
 ]
 }

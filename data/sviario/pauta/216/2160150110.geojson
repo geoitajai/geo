@@ -2,6 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2160150110", "cod": 1643, "nome": "R.Sem denominação oficial", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -48.683808539131533, -26.966046099603957 ], [ -48.683965688628255, -26.965921990909823 ] ], [ [ -48.684774963690522, -26.966035063148702 ], [ -48.68483375, -26.9661031 ], [ -48.685066736712912, -26.966468238110625 ] ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2160150110", "cod": 1288, "nome": "Rod.BR-101", "ptotalvia": 40.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.683765627301568, -26.96638069641374 ], [ -48.68376612, -26.9660796 ], [ -48.68375214933311, -26.965966012965719 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2160150110", "cod": 1643, "nome": "R.Sem denominação oficial", "ptotalvia": 20.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -48.68376612, -26.9660796 ], [ -48.68398405, -26.96590749 ], [ -48.684093199962291, -26.965848488204067 ] ], [ [ -48.68474617605554, -26.966001745489816 ], [ -48.68483375, -26.9661031 ], [ -48.685066736712912, -26.966468238110625 ] ] ] } }
 ]
 }
