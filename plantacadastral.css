@@ -23,9 +23,26 @@ html, body {
     flex: 11;
 }
 
-.tabela {
-    background-color: yellowgreen;
+#areatab {
+    display: flex;
     flex: 3;
+    flex-direction: row;
+    background-color:var(--claro);
+}
+
+#txt_tabela {
+    background-color:var(--claro);
+    height: 100%;
+    font-size: smaller;
+    max-height: 105px;
+    min-width: 150px;
+    max-width: 200px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.tabela {
+    background-color:var(--claro);
 }
 
 .conteiner0 {
