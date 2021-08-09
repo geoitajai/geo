@@ -28,13 +28,14 @@ html, body {
     flex: 3;
     flex-direction: row;
     background-color:var(--claro);
+    max-height: 190px;
 }
 
 #txt_tabela {
     background-color:var(--claro);
     height: 100%;
     font-size: smaller;
-    max-height: 105px;
+    max-height: 110px;
     min-width: 150px;
     max-width: 200px;
     overflow-y: hidden;
