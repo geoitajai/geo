@@ -635,6 +635,7 @@
                 } else {
                     linkinfo = 'clique para abrir';
                     consultapreviap = `https://geoitajai.github.io/geo/consultazoneamento.html#${data[0].properties.inscrlig}`;
+                    consultaalvara = `https://geoitajai.github.io/geo/consultaalvara.html#${data[0].properties.inscrlig}`;
                 };
                 let objtabela2 = data.map((feicoes) => {
                     return {
@@ -651,7 +652,8 @@
                         'ncodcont': feicoes.properties.ncodcont,
                         'nfracaoi': feicoes.properties.nfracaoi,
                         'inscrlig': feicoes.properties.inscrlig,
-                        'linkinfo': linkinfo
+                        'linkinfo': linkinfo,
+                        'consultaalvara': consultaalvara
                     }
                 });
                 L.geoJson(data[0], {
