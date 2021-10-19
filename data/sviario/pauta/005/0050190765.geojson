@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050190765", "cod": 24, "nome": "R.Carlos Schroeder", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.689109763990153, -26.900123232473568 ], [ -48.68868723, -26.90013284 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0050190765", "cod": 60, "nome": "R.Estefano José Vanolli", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.688674437539824, -26.899830777627965 ], [ -48.68868723, -26.90013284 ], [ -48.688686896853298, -26.900191108980327 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0050190765", "cod": 24.0, "nome": "R.Carlos Schroeder", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.689109763990153, -26.900123232473568 ], [ -48.68868723, -26.90013284 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050190765", "cod": 60.0, "nome": "R.Estefano José Vanolli", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.688674437539824, -26.899830777627965 ], [ -48.68868723, -26.90013284 ], [ -48.688686896853298, -26.900191108980327 ] ] } }
 ]
 }

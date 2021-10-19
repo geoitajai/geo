@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2160060500", "cod": 1235, "nome": "Rod.Dep.Antônio Heil", "ptotalvia": 30.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.728353726971704, -26.945905249406575 ], [ -48.727524899170056, -26.945896567762919 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2160060500", "cod": 1235.0, "nome": "Rod.Dep.Antônio Heil", "ptotalvia": 30.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.728353726971704, -26.945905249406575 ], [ -48.727524899170056, -26.945896567762915 ] ] } }
 ]
 }

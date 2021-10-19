@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140740255", "cod": 785, "nome": "R.Suécia", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.644087459737229, -26.955317134395077 ], [ -48.643747936201578, -26.955109069647278 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2140740255", "cod": 785.0, "nome": "R.Suécia", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.644087459737229, -26.955317134395077 ], [ -48.643747936201578, -26.955109069647278 ] ] } }
 ]
 }

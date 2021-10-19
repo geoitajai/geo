@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140760205", "cod": 803, "nome": "R.Valdir Martins", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.640143512586192, -26.954347967435709 ], [ -48.639720611800563, -26.954392225811702 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2140760205", "cod": 803.0, "nome": "R.Valdir Martins", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.640143512586192, -26.954347967435705 ], [ -48.639720611800563, -26.954392225811706 ] ] } }
 ]
 }

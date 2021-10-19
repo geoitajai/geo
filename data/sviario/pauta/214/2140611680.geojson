@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140611680", "cod": 745, "nome": "R.Alzira de Oliveira Pereira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.64169501, -26.93061529 ], [ -48.64123276, -26.93059503 ], [ -48.64121361, -26.92996648 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2140611680", "cod": 744, "nome": "R.João Antônio de Oliveira", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.641963758749071, -26.930502145466459 ], [ -48.64169501, -26.93061529 ], [ -48.641689145014169, -26.930700708934182 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2140611680", "cod": 745.0, "nome": "R.Alzira de Oliveira Pereira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.64169501, -26.93061529 ], [ -48.64123276, -26.93059503 ], [ -48.64121361, -26.92996648 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140611680", "cod": 744.0, "nome": "R.João Antônio de Oliveira", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.641963758749071, -26.930502145466459 ], [ -48.64169501, -26.93061529 ], [ -48.641689145014169, -26.930700708934182 ] ] } }
 ]
 }

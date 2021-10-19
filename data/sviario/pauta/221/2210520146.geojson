@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2210520146", "cod": 846, "nome": "R.Odílio Pereira", "ptotalvia": 8.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.683832694609393, -26.928358874542909 ], [ -48.68372963, -26.92829382 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2210520146", "cod": 265, "nome": "Av.Ver.Abrahão João Francisco", "ptotalvia": 29.4, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.683544269394275, -26.928571289342077 ], [ -48.683220497770471, -26.92835756261811 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2210520146", "cod": 846.0, "nome": "R.Odílio Pereira", "ptotalvia": 8.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.683832694609393, -26.928358874542909 ], [ -48.68372963, -26.92829382 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210520146", "cod": 265.0, "nome": "Av.Ver.Abrahão João Francisco", "ptotalvia": 29.4, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.683544269394275, -26.928571289342081 ], [ -48.683220497770471, -26.92835756261811 ] ] } }
 ]
 }

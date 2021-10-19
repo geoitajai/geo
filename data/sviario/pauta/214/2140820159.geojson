@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140820159", "cod": 834, "nome": "R.Richard Galm", "ptotalvia": 15.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.629137239199025, -26.942276939064129 ], [ -48.62871704, -26.94233658 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2140820159", "cod": 599, "nome": "Av.Dr.José Medeiros Vieira (Sul)", "ptotalvia": 0.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.628722109376454, -26.942380086680714 ], [ -48.62871704, -26.94233658 ], [ -48.628667464940413, -26.941895918364381 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2140820159", "cod": 834.0, "nome": "R.Richard Galm", "ptotalvia": 15.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.629137239199025, -26.942276939064129 ], [ -48.62871704, -26.94233658 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140820159", "cod": 599.0, "nome": "Av.Dr.José Medeiros Vieira (Sul)", "ptotalvia": 0.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.628722109376454, -26.942380086680718 ], [ -48.62871704, -26.94233658 ], [ -48.628668999063088, -26.941895164803842 ] ] } }
 ]
 }

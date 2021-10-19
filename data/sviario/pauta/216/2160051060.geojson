@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2160051060", "cod": 1572, "nome": "R.Anna Custódio", "ptotalvia": 20.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.738596855734052, -26.949503961888237 ], [ -48.737993206877093, -26.949524564070149 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2160051060", "cod": 1572.0, "nome": "R.Anna Custódio", "ptotalvia": 20.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.738596855734052, -26.949503961888237 ], [ -48.737993206877093, -26.949524564070149 ] ] } }
 ]
 }

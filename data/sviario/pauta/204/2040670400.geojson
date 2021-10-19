@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040670400", "cod": 691, "nome": "R.Edmundo Kienast", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.655164193893171, -26.925837698245214 ], [ -48.655435386885024, -26.926060407216749 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2040670400", "cod": 691.0, "nome": "R.Edmundo Kienast", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.655164193893171, -26.925837698245214 ], [ -48.655435386885024, -26.926060407216749 ] ] } }
 ]
 }

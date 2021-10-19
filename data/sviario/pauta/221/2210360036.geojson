@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2210360036", "cod": 579, "nome": "R.Leonel Pereira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.678533714077538, -26.917772094883169 ], [ -48.678158262429385, -26.917795280272205 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2210360036", "cod": 579.0, "nome": "R.Leonel Pereira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.678533714077538, -26.917772094883166 ], [ -48.678158262429385, -26.917795280272205 ] ] } }
 ]
 }

@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140400110", "cod": 766, "nome": "R.Paulo Herbst", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.634835721202002, -26.930494535075358 ], [ -48.63509206, -26.93070165 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2140400110", "cod": 766.0, "nome": "R.Paulo Herbst", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.634835721202002, -26.930494535075358 ], [ -48.63509206, -26.93070165 ] ] } }
 ]
 }

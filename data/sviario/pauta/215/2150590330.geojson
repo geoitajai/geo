@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2150590330", "cod": 1355, "nome": "R.Laura Rebello", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.733340325135423, -26.881855061710386 ], [ -48.733370257784713, -26.882188663615946 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2150590330", "cod": 1355.0, "nome": "R.Laura Rebello", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.733340325135423, -26.881855061710382 ], [ -48.733370257784713, -26.882188663615946 ] ] } }
 ]
 }

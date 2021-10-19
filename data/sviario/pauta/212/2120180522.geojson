@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2120180522", "cod": 1625, "nome": "Serv.José Pereira Liberato (Serv.)", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.681197948448322, -26.894131150650463 ], [ -48.68093073, -26.89413967 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2120180522", "cod": 166, "nome": "R.Hebert Kremer", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.680815092756944, -26.894644568620329 ], [ -48.681269580278546, -26.894628674454907 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2120180522", "cod": 1625.0, "nome": "Serv.José Pereira Liberato (Serv.)", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.681197948448322, -26.894131150650463 ], [ -48.68093073, -26.89413967 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2120180522", "cod": 166.0, "nome": "R.Hebert Kremer", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.680815092756944, -26.894644568620329 ], [ -48.681269580278546, -26.894628674454907 ] ] } }
 ]
 }

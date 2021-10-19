@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040040033", "cod": 650, "nome": "R.João Luiz Gonçalves", "ptotalvia": 6.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.652936404736209, -26.916565576857717 ], [ -48.65284628, -26.91650225 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040040033", "cod": 650, "nome": "R.João Luiz Gonçalves", "ptotalvia": 6.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.652974229864981, -26.916305595003287 ], [ -48.652782443367997, -26.916600348816448 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040040033", "cod": 280, "nome": "Av.Min.Victor Konder", "ptotalvia": 20.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.652568760660962, -26.916117394971558 ], [ -48.652394591703548, -26.916344218292892 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2040040033", "cod": 650.0, "nome": "R.João Luiz Gonçalves", "ptotalvia": 6.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.652936404736209, -26.916565576857721 ], [ -48.65284628, -26.91650225 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040040033", "cod": 650.0, "nome": "R.João Luiz Gonçalves", "ptotalvia": 6.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.652974229864981, -26.916305595003283 ], [ -48.652782443367997, -26.916600348816445 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040040033", "cod": 280.0, "nome": "Av.Min.Victor Konder", "ptotalvia": 20.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.652568760660962, -26.916117394971558 ], [ -48.652394591703548, -26.916344218292888 ] ] } }
 ]
 }

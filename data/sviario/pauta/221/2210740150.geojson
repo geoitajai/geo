@@ -2,9 +2,9 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2210740150", "cod": 542, "nome": "R.Helio Firmo Caetano", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.678139924660933, -26.920835483376752 ], [ -48.678140740000011, -26.92093152 ], [ -48.6781406, -26.92095491 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2210740150", "cod": 565, "nome": "R.Antero Chaves", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67813891, -26.921233969999989 ], [ -48.678510986246295, -26.921230101910858 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2210740150", "cod": 573, "nome": "R.São João Batista", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.678140740000011, -26.92093152 ], [ -48.678061494662998, -26.920935130938521 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2210740150", "cod": 542, "nome": "R.Helio Firmo Caetano", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6781406, -26.92095491 ], [ -48.67813891, -26.921233969999989 ], [ -48.678139317432318, -26.921276476081275 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2210740150", "cod": 542.0, "nome": "R.Helio Firmo Caetano", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.678139924660933, -26.920835483376752 ], [ -48.678140740000011, -26.92093152 ], [ -48.6781406, -26.92095491 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210740150", "cod": 565.0, "nome": "R.Antero Chaves", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67813891, -26.921233969999989 ], [ -48.678510986246295, -26.921230101910858 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210740150", "cod": 573.0, "nome": "R.São João Batista", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.678140740000011, -26.92093152 ], [ -48.678061494662998, -26.920935130938521 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210740150", "cod": 542.0, "nome": "R.Helio Firmo Caetano", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6781406, -26.92095491 ], [ -48.67813891, -26.921233969999989 ], [ -48.678139317432318, -26.921276476081275 ] ] } }
 ]
 }

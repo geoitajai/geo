@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2210020683", "cod": 526, "nome": "R.Carolina Vailati", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.681147564740151, -26.91004499491655 ], [ -48.680776446967229, -26.910067638358633 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2210020683", "cod": 526.0, "nome": "R.Carolina Vailati", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.681147564740151, -26.91004499491655 ], [ -48.680776446967229, -26.910067638358633 ] ] } }
 ]
 }

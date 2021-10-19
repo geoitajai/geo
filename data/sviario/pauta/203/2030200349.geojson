@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2030200349", "cod": 1104, "nome": "R.Abílio Corrêa Mello", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.703120502873894, -26.881024212867825 ], [ -48.703140779022682, -26.881362584880556 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2030200349", "cod": 1104.0, "nome": "R.Abílio Corrêa Mello", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.703120502873894, -26.881024212867828 ], [ -48.703140779022682, -26.881362584880556 ] ] } }
 ]
 }

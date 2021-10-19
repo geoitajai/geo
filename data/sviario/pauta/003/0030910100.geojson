@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0030910100", "cod": 1193, "nome": "R.Pará", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69917766796722, -26.895522569488069 ], [ -48.69888137, -26.89553053 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0030910100", "cod": 1193, "nome": "R.Pará", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69888137, -26.89553053 ], [ -48.698808580930105, -26.89553248682455 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0030910100", "cod": 1193.0, "nome": "R.Pará", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69917766796722, -26.895522569488069 ], [ -48.69888137, -26.89553053 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0030910100", "cod": 1193.0, "nome": "R.Pará", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69888137, -26.89553053 ], [ -48.698808580930105, -26.895532486824553 ] ] } }
 ]
 }

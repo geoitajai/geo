@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2150610470", "cod": 1354, "nome": "R.Nilza Alves da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.734047940132292, -26.883910221276849 ], [ -48.734079213524957, -26.884260174689143 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2150610470", "cod": 1354.0, "nome": "R.Nilza Alves da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.734047940132292, -26.883910221276846 ], [ -48.734079213524957, -26.884260174689143 ] ] } }
 ]
 }

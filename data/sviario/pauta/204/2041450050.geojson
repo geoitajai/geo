@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2041450050", "cod": 854, "nome": "R.Ver.Abílio Otávio do Canto", "ptotalvia": 20.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674798924451842, -26.922559684559261 ], [ -48.674736527765695, -26.922920748754283 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2041450050", "cod": 550, "nome": "R.Acyr Cunha", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674699427446292, -26.922471807443205 ], [ -48.67470012, -26.92248762 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2041450050", "cod": 265, "nome": "Av.Ver.Abrahão João Francisco", "ptotalvia": 29.4, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674766055613283, -26.922517770960049 ], [ -48.67470012, -26.92248762 ], [ -48.674475706323605, -26.922332393446514 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2041450050", "cod": 854.0, "nome": "R.Ver.Abílio Otávio do Canto", "ptotalvia": 20.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674798924451842, -26.922559684559253 ], [ -48.674736527765695, -26.922920748754287 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2041450050", "cod": 550.0, "nome": "R.Acyr Cunha", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674699427446292, -26.922471807443209 ], [ -48.67470012, -26.92248762 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2041450050", "cod": 265.0, "nome": "Av.Ver.Abrahão João Francisco", "ptotalvia": 29.4, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674766055613283, -26.922517770960049 ], [ -48.67470012, -26.92248762 ], [ -48.674475706323605, -26.922332393446514 ] ] } }
 ]
 }

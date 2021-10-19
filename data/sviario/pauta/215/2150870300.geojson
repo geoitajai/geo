@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2150870300", "cod": 1399, "nome": "R.Angela Cecilia Tolardo", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.76282189, -26.89175614 ], [ -48.762828349028695, -26.892261807465495 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2150870300", "cod": 1343, "nome": "Rod.Jorge Lacerda", "ptotalvia": 43.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.763242476468996, -26.891791045284673 ], [ -48.76282189, -26.89175614 ], [ -48.762786724821424, -26.89175314904092 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2150870300", "cod": 1399.0, "nome": "R.Angela Cecilia Tolardo", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.76282189, -26.89175614 ], [ -48.762828349028695, -26.892261807465495 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2150870300", "cod": 1343.0, "nome": "Rod.Jorge Lacerda", "ptotalvia": 43.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.763242476468996, -26.891791045284673 ], [ -48.76282189, -26.89175614 ], [ -48.762786724821424, -26.891753149040916 ] ] } }
 ]
 }

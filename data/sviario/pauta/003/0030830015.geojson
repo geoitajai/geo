@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0030830015", "cod": 1200, "nome": "R.Alagoas", "ptotalvia": 11.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697844347087909, -26.891770050489306 ], [ -48.697485183302732, -26.891781377321319 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0030830015", "cod": 1200.0, "nome": "R.Alagoas", "ptotalvia": 11.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697844347087909, -26.891770050489306 ], [ -48.697485183302732, -26.891781377321315 ] ] } }
 ]
 }

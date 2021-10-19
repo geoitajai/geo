@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040150555", "cod": 646, "nome": "R.Sebastião Bonifácio Cardoso", "ptotalvia": 3.5, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.652157312702322, -26.920770505433083 ], [ -48.65209768, -26.92072139 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040150555", "cod": 645, "nome": "R.Antônio Manoel Moreira", "ptotalvia": 13.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.651957183183654, -26.920122085357619 ], [ -48.652423520650146, -26.920503309416599 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2040150555", "cod": 646.0, "nome": "R.Sebastião Bonifácio Cardoso", "ptotalvia": 3.5, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.652157312702322, -26.920770505433083 ], [ -48.65209768, -26.92072139 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040150555", "cod": 645.0, "nome": "R.Antônio Manoel Moreira", "ptotalvia": 13.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.651957183183654, -26.920122085357619 ], [ -48.652423520650146, -26.920503309416599 ] ] } }
 ]
 }

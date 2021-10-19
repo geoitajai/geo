@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2151220160", "cod": 1327, "nome": "Av.Lauro José Pereira", "ptotalvia": 18.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.746805327449529, -26.872425389379657 ], [ -48.74664477, -26.87243506 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2151220160", "cod": 1314, "nome": "R.Ver.Pedro João de Souza Filho", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.746444293688143, -26.872426849364725 ], [ -48.746473167659822, -26.872793326863452 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2151220160", "cod": 1327, "nome": "Av.Lauro José Pereira", "ptotalvia": 18.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.74664477, -26.87243506 ], [ -48.74644647, -26.872447 ], [ -48.746391079042731, -26.87245089800032 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2151220160", "cod": 1327.0, "nome": "Av.Lauro José Pereira", "ptotalvia": 18.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.746805327449529, -26.872425389379657 ], [ -48.74664477, -26.87243506 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2151220160", "cod": 1314.0, "nome": "R.Ver.Pedro João de Souza Filho", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.746444293688143, -26.872426849364725 ], [ -48.746473167659822, -26.872793326863452 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2151220160", "cod": 1327.0, "nome": "Av.Lauro José Pereira", "ptotalvia": 18.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.74664477, -26.87243506 ], [ -48.74644647, -26.872447 ], [ -48.746391079042731, -26.87245089800032 ] ] } }
 ]
 }

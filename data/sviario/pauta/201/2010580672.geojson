@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010580672", "cod": 321, "nome": "R.Joaquim Lopes Corrêa", "ptotalvia": 6.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6664252, -26.90475811 ], [ -48.66645247281155, -26.90515262551251 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010580672", "cod": 160, "nome": "R.Heitor Liberato", "ptotalvia": 15.5, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.666552620900717, -26.904800724370478 ], [ -48.666221941853166, -26.904690141031612 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2010580672", "cod": 321.0, "nome": "R.Joaquim Lopes Corrêa", "ptotalvia": 6.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6664252, -26.90475811 ], [ -48.66645247281155, -26.90515262551251 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010580672", "cod": 160.0, "nome": "R.Heitor Liberato", "ptotalvia": 15.5, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.666552620900717, -26.904800724370478 ], [ -48.666221941853166, -26.904690141031612 ] ] } }
 ]
 }

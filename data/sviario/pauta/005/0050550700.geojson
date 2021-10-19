@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050550700", "cod": 46, "nome": "R.Dr.Ivo Stein Ferreira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693489508468708, -26.898501745047422 ], [ -48.693104562340814, -26.898512821161123 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0050550700", "cod": 46.0, "nome": "R.Dr.Ivo Stein Ferreira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693489508468708, -26.898501745047422 ], [ -48.693104562340814, -26.898512821161123 ] ] } }
 ]
 }

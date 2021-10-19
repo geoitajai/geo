@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2041980595", "cod": 852, "nome": "Trav.Pedro João Galvão", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.669296478543323, -26.920928062687882 ], [ -48.66921994, -26.92091734 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2041980595", "cod": 269, "nome": "R.Pedro José João", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.669196141000327, -26.920663578142701 ], [ -48.66919086, -26.9207146 ], [ -48.66921994, -26.92091734 ], [ -48.669228284395814, -26.921004755823482 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2041980595", "cod": 852.0, "nome": "Trav.Pedro João Galvão", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.669296478543323, -26.920928062687882 ], [ -48.66921994, -26.92091734 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2041980595", "cod": 269.0, "nome": "R.Pedro José João", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.669196141000327, -26.920663578142701 ], [ -48.66919086, -26.9207146 ], [ -48.66921994, -26.92091734 ], [ -48.669228284395814, -26.921004755823486 ] ] } }
 ]
 }

@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040850070", "cod": 859, "nome": "R.Nivaldo Detoie", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675445374396745, -26.923491125379417 ], [ -48.675358072610209, -26.923933192999133 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2040850070", "cod": 859.0, "nome": "R.Nivaldo Detoie", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675445374396745, -26.923491125379417 ], [ -48.675358072610209, -26.923933192999133 ] ] } }
 ]
 }

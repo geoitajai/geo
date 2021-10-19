@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010731053", "cod": 396, "nome": "R.Luiz Berlim", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.664593676815123, -26.913865835945991 ], [ -48.664525121569532, -26.913941378280072 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010731053", "cod": 380, "nome": "R.Juvenal Garcia", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.664808026412658, -26.914210799488092 ], [ -48.664510806170526, -26.913977765042965 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2010731053", "cod": 396.0, "nome": "R.Luiz Berlim", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.664593676815208, -26.913865835945909 ], [ -48.664525121569518, -26.9139413782801 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010731053", "cod": 380.0, "nome": "R.Juvenal Garcia", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.664808026412658, -26.914210799488092 ], [ -48.664510806170526, -26.913977765042965 ] ] } }
 ]
 }

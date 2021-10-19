@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0030720140", "cod": 1207, "nome": "Av.Brasília", "ptotalvia": 18.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69832771362897, -26.896570733564182 ], [ -48.69833005, -26.89663065 ], [ -48.698347051405996, -26.896996304518161 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0030720140", "cod": 1218, "nome": "R.Amazonas", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698371989762265, -26.896629307108462 ], [ -48.69833005, -26.89663065 ], [ -48.697966183597281, -26.896638404591094 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0030720140", "cod": 1207.0, "nome": "Av.Brasília", "ptotalvia": 18.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69832771362897, -26.896570733564182 ], [ -48.69833005, -26.89663065 ], [ -48.698347051405996, -26.896996304518165 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0030720140", "cod": 1218.0, "nome": "R.Amazonas", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698371989762265, -26.896629307108462 ], [ -48.69833005, -26.89663065 ], [ -48.697966183597281, -26.896638404591098 ] ] } }
 ]
 }

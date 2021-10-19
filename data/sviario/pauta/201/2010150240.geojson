@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010150240", "cod": 297, "nome": "R.Olímpio Miranda Júnior", "ptotalvia": 13.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656120428652329, -26.906420012850944 ], [ -48.655678309149359, -26.906352399535329 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2010150240", "cod": 297.0, "nome": "R.Olímpio Miranda Júnior", "ptotalvia": 13.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656120428652329, -26.906420012850944 ], [ -48.655678309149359, -26.906352399535326 ] ] } }
 ]
 }

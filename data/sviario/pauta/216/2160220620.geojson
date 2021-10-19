@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2160220620", "cod": 1462, "nome": "R.Leonor Rogge", "ptotalvia": 5.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.73978006, -26.94413617 ], [ -48.739821998529834, -26.944844212615827 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2160220620", "cod": 1462.0, "nome": "R.Leonor Rogge", "ptotalvia": 5.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.73978006, -26.94413617 ], [ -48.739821998529834, -26.944844212615827 ] ] } }
 ]
 }

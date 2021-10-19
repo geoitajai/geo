@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0030880128", "cod": 1195, "nome": "R.Ceará", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698741531151832, -26.893901647299693 ], [ -48.698381930959513, -26.893915346759428 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0030880128", "cod": 1195.0, "nome": "R.Ceará", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698741531151832, -26.893901647299693 ], [ -48.698381930959513, -26.893915346759425 ] ] } }
 ]
 }

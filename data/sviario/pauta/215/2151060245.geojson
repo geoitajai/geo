@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2151060245", "cod": 1316, "nome": "R.Mariângela Rocha Fabeni", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.747398451483022, -26.879264726504463 ], [ -48.747424854686933, -26.879584182805061 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2151060245", "cod": 1316.0, "nome": "R.Mariângela Rocha Fabeni", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.747398451483022, -26.879264726504463 ], [ -48.747424854686933, -26.879584182805061 ] ] } }
 ]
 }

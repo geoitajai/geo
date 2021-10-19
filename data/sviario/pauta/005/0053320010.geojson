@@ -2,9 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0053320010", "cod": 950, "nome": "R.Raul de Souza", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696203792301723, -26.92251291081989 ], [ -48.69611918, -26.92254375 ], [ -48.695835547258433, -26.92264292553913 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0053320010", "cod": 950, "nome": "R.Raul de Souza", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696203792301723, -26.92251291081989 ], [ -48.69611918, -26.92254375 ], [ -48.695835547258433, -26.92264292553913 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0053320010", "cod": 958, "nome": "R.Francisco de Mattos Dultra", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69608418794963, -26.922459683568416 ], [ -48.69611918, -26.92254375 ], [ -48.696253378778707, -26.922847738057914 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0053320010", "cod": 958, "nome": "R.Francisco de Mattos Dultra", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69608418794963, -26.922459683568416 ], [ -48.69611918, -26.92254375 ], [ -48.696253378778707, -26.922847738057914 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0053320010", "cod": 950.0, "nome": "R.Raul de Souza", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696203792301723, -26.922512910819886 ], [ -48.69611918, -26.92254375 ], [ -48.695835547258433, -26.92264292553913 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0053320010", "cod": 958.0, "nome": "R.Francisco de Mattos Dultra", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69608418794963, -26.92245968356842 ], [ -48.69611918, -26.92254375 ], [ -48.696253378778707, -26.922847738057911 ] ] } }
 ]
 }

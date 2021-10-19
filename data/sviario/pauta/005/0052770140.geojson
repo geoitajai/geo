@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0052770140", "cod": 66, "nome": "R.Itapiranga", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68477377941835, -26.894593047898585 ], [ -48.684514875717596, -26.894835472183264 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0052770140", "cod": 66.0, "nome": "R.Itapiranga", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68477377941835, -26.894593047898585 ], [ -48.684514875717596, -26.894835472183264 ] ] } }
 ]
 }

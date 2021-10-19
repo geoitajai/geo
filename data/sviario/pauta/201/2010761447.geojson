@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010761447", "cod": 265, "nome": "Av.Ver.Abrahão João Francisco", "ptotalvia": 29.4, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.661454821424336, -26.913635180489713 ], [ -48.661113303184344, -26.913516342196665 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010761447", "cod": 266, "nome": "R.Uruguai", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.661361152193052, -26.913120289320858 ], [ -48.661091141914191, -26.913483196455136 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2010761447", "cod": 265.0, "nome": "Av.Ver.Abrahão João Francisco", "ptotalvia": 29.4, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.661454821424336, -26.913635180489713 ], [ -48.661113303184337, -26.913516342196665 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010761447", "cod": 266.0, "nome": "R.Uruguai", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.661361152193052, -26.913120289320858 ], [ -48.661091141914191, -26.913483196455136 ] ] } }
 ]
 }

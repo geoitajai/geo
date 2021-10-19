@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0054920220", "cod": 118, "nome": "R.Joaçaba", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.701860745681053, -26.906591631640438 ], [ -48.701877854226602, -26.906928589143316 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0054920220", "cod": 124, "nome": "R.João Alves de Oliveira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70227336125069, -26.906637277466153 ], [ -48.702169670000011, -26.90664459 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0054920220", "cod": 118.0, "nome": "R.Joaçaba", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.701860745681053, -26.906591631640438 ], [ -48.701877854226602, -26.906928589143313 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054920220", "cod": 124.0, "nome": "R.João Alves de Oliveira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70227336125069, -26.90663727746616 ], [ -48.702169670000011, -26.90664459 ] ] } }
 ]
 }

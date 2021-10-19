@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2210280643", "cod": 511, "nome": "R.Gervásio Vieira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.680385081104724, -26.915032417126735 ], [ -48.680010195706245, -26.915056590897862 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2210280643", "cod": 511.0, "nome": "R.Gervásio Vieira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.680385081104724, -26.915032417126735 ], [ -48.680010195706245, -26.915056590897862 ] ] } }
 ]
 }

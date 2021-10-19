@@ -2,7 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0051790055", "cod": 989, "nome": "R.Lino José da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698734092727278, -26.924994608908843 ], [ -48.69877762, -26.92505914 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0051790055", "cod": 926, "nome": "Av.Min.Luiz Gallotti", "ptotalvia": 17.2, "ppasseio1": 3.25, "ppasseio2": 3.25 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698863261680764, -26.924971730198841 ], [ -48.69877762, -26.92505914 ], [ -48.698623203902578, -26.925202552585652 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0051790055", "cod": 989.0, "nome": "R.Lino José da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698734092727278, -26.924994608908843 ], [ -48.69877762, -26.92505914 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0051790055", "cod": 989.0, "nome": "R.Lino José da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698734092727278, -26.924994608908843 ], [ -48.69877762, -26.92505914 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0051790055", "cod": 926.0, "nome": "Av.Min.Luiz Gallotti", "ptotalvia": 17.2, "ppasseio1": 3.25, "ppasseio2": 3.25 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698863261680764, -26.924971730198841 ], [ -48.69877762, -26.92505914 ], [ -48.698623203902578, -26.925202552585652 ] ] } }
 ]
 }

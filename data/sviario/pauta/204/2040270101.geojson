@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040270101", "cod": 625, "nome": "R.Manoel Dono Morgado", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65453348, -26.9112724 ], [ -48.65461868171225, -26.911302827718171 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040270101", "cod": 280, "nome": "Av.Min.Victor Konder", "ptotalvia": 20.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.653733694831807, -26.911065408860878 ], [ -48.653691422888514, -26.911342949561448 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040270101", "cod": 282, "nome": "R.Lauro Muller", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.654555192722633, -26.911149023515708 ], [ -48.65453348, -26.9112724 ], [ -48.654500506518943, -26.911473077870511 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2040270101", "cod": 625.0, "nome": "R.Manoel Dono Morgado", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65453348, -26.9112724 ], [ -48.654618681712243, -26.911302827718171 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040270101", "cod": 280.0, "nome": "Av.Min.Victor Konder", "ptotalvia": 20.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.653733694831807, -26.911065408860878 ], [ -48.65369142161542, -26.911342957920056 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040270101", "cod": 282.0, "nome": "R.Lauro Muller", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.654555192722633, -26.911149023515705 ], [ -48.65453348, -26.9112724 ], [ -48.654500506396083, -26.911473078618275 ] ] } }
 ]
 }

@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2041413657", "cod": 866, "nome": "R.Valdevino Vieira Cordeiro", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674623708496263, -26.928692271546716 ], [ -48.674240978032358, -26.928640786824943 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2041413657", "cod": 866.0, "nome": "R.Valdevino Vieira Cordeiro", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674623708496263, -26.928692271546716 ], [ -48.674240978032358, -26.928640786824943 ] ] } }
 ]
 }

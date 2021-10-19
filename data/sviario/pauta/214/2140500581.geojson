@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140500581", "cod": 735, "nome": "R.Tereza Francisca Pereira", "ptotalvia": 13.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.639480073416593, -26.933189186606235 ], [ -48.63951423000001, -26.93337798 ], [ -48.63898009, -26.93404818 ], [ -48.63891415, -26.9343245 ], [ -48.63898339, -26.93463902 ], [ -48.63915484, -26.934786 ], [ -48.639190873981839, -26.934791538601665 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2140500581", "cod": 600, "nome": "Av.Dr.José Medeiros Vieira (Norte)", "ptotalvia": 0.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.628082071156818, -26.937717237711848 ], [ -48.627807176049707, -26.936159740350774 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2140500581", "cod": 735.0, "nome": "R.Tereza Francisca Pereira", "ptotalvia": 13.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.639480073416593, -26.933189186606235 ], [ -48.63951423000001, -26.93337798 ], [ -48.63898009, -26.93404818 ], [ -48.63891415, -26.9343245 ], [ -48.63898339, -26.93463902 ], [ -48.63915484, -26.934786 ], [ -48.639190873981839, -26.934791538601662 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140500581", "cod": 600.0, "nome": "Av.Dr.José Medeiros Vieira (Norte)", "ptotalvia": 0.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.628082071156818, -26.937717237711848 ], [ -48.627807176049707, -26.936159740350778 ] ] } }
 ]
 }

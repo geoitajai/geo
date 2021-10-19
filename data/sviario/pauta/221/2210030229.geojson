@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2210030229", "cod": 524, "nome": "R.Bel.Clito César Rebello", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67931954202453, -26.910700796311424 ], [ -48.678947311057314, -26.910721755684897 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2210030229", "cod": 524.0, "nome": "R.Bel.Clito César Rebello", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67931954202453, -26.910700796311428 ], [ -48.678947311057314, -26.910721755684897 ] ] } }
 ]
 }

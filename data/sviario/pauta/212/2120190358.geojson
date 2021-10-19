@@ -2,9 +2,9 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2120190358", "cod": 424, "nome": "Trav.São Bento", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68119251, -26.89125536 ], [ -48.681213387136175, -26.89179531501669 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2120190358", "cod": 426, "nome": "R.Alfredo Eicke", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.681668438069828, -26.891135324850652 ], [ -48.68119251, -26.89125536 ], [ -48.681153337488048, -26.891262998459627 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2120190358", "cod": 438, "nome": "Trav.Equador", "ptotalvia": 13.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68119251, -26.89125536 ], [ -48.681192168853187, -26.891239446380094 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2120190358", "cod": 159, "nome": "R.José Pereira Liberato", "ptotalvia": 12.5, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.681714354856958, -26.891149681677039 ], [ -48.681740041829123, -26.891774816212241 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2120190358", "cod": 424.0, "nome": "Trav.São Bento", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68119251, -26.89125536 ], [ -48.681213387136175, -26.89179531501669 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2120190358", "cod": 426.0, "nome": "R.Alfredo Eicke", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.681668438069821, -26.891135324850648 ], [ -48.68119251, -26.89125536 ], [ -48.681153337488048, -26.891262998459627 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2120190358", "cod": 438.0, "nome": "Trav.Equador", "ptotalvia": 13.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68119251, -26.89125536 ], [ -48.681192168853187, -26.891239446380098 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2120190358", "cod": 159.0, "nome": "R.José Pereira Liberato", "ptotalvia": 12.5, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.681714354856958, -26.891149681677039 ], [ -48.681740041829123, -26.891774816212241 ] ] } }
 ]
 }

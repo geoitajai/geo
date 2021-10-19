@@ -2,9 +2,9 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140750004", "cod": 587, "nome": "Av.Carlos Drumond de Andrade (Praia Brava)", "ptotalvia": 20.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.640073628952806, -26.955374405696059 ], [ -48.639284693922228, -26.955462576949561 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2140750004", "cod": 784, "nome": "R.Francisca Bernardes", "ptotalvia": 8.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.640222280810981, -26.954843153767776 ], [ -48.63955433, -26.95491009 ], [ -48.639231485588759, -26.954936054194089 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2140750004", "cod": 785, "nome": "R.Suécia", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.640223189238611, -26.954966255246923 ], [ -48.64022105, -26.95496622 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2140750004", "cod": 586, "nome": "Av.Osvaldo Reis", "ptotalvia": 34.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.640233615560831, -26.954884625574124 ], [ -48.64022105, -26.95496622 ], [ -48.64013326170317, -26.955288986877115 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2140750004", "cod": 587.0, "nome": "Av.Carlos Drumond de Andrade (Praia Brava)", "ptotalvia": 20.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.640073628952806, -26.955374405696055 ], [ -48.639284693922228, -26.955462576949557 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140750004", "cod": 784.0, "nome": "R.Francisca Bernardes", "ptotalvia": 8.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.640222280810981, -26.954843153767772 ], [ -48.63955433, -26.95491009 ], [ -48.639231485588759, -26.954936054194093 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140750004", "cod": 785.0, "nome": "R.Suécia", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.640223189238611, -26.954966255246926 ], [ -48.64022105, -26.95496622 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140750004", "cod": 586.0, "nome": "Av.Osvaldo Reis", "ptotalvia": 34.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.640233615560831, -26.954884625574124 ], [ -48.64022105, -26.95496622 ], [ -48.640133261703177, -26.955288986877097 ] ] } }
 ]
 }

@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0031770105", "cod": 1146, "nome": "R.Armando de Amorim", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696103627176733, -26.895708110152626 ], [ -48.696124111572885, -26.896029767507525 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0031770105", "cod": 1146.0, "nome": "R.Armando de Amorim", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696103627176733, -26.895708110152629 ], [ -48.696124111572885, -26.896029767507525 ] ] } }
 ]
 }

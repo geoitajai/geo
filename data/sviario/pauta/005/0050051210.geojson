@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050051210", "cod": 28, "nome": "R.José Genoario Junkes", "ptotalvia": 3.2, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68735759, -26.90006319 ], [ -48.687706289118879, -26.900065693263137 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0050051210", "cod": 84, "nome": "R.São Vicente", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.687373954725473, -26.900025030499261 ], [ -48.687194811186927, -26.900479627088853 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0050051210", "cod": 28.0, "nome": "R.José Genoario Junkes", "ptotalvia": 3.2, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68735759, -26.90006319 ], [ -48.687706289118879, -26.900065693263134 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050051210", "cod": 84.0, "nome": "R.São Vicente", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.687373954725473, -26.900025030499258 ], [ -48.687194811186927, -26.900479627088853 ] ] } }
 ]
 }

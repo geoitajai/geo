@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140250285", "cod": 754, "nome": "R.Mar.Floriano Peixoto", "ptotalvia": 8.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.633056131695298, -26.928738751391705 ], [ -48.632788367653667, -26.929026875708761 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2140250285", "cod": 755, "nome": "R.C.Carlos Renaux", "ptotalvia": 8.4, "ppasseio1": 1.2, "ppasseio2": 1.2 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.633564290509156, -26.929130619791184 ], [ -48.63337086, -26.92934478 ], [ -48.633297187704677, -26.929410467794423 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2140250285", "cod": 766, "nome": "R.Paulo Herbst", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.63337086, -26.92934478 ], [ -48.633432690228496, -26.929392609811632 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2140250285", "cod": 754.0, "nome": "R.Mar.Floriano Peixoto", "ptotalvia": 8.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.633056131695298, -26.928738751391705 ], [ -48.632788367653667, -26.929026875708754 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140250285", "cod": 755.0, "nome": "R.C.Carlos Renaux", "ptotalvia": 8.4, "ppasseio1": 1.2, "ppasseio2": 1.2 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.633564290509156, -26.929130619791184 ], [ -48.63337086, -26.92934478 ], [ -48.633297187704677, -26.929410467794426 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140250285", "cod": 766.0, "nome": "R.Paulo Herbst", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.63337086, -26.92934478 ], [ -48.633432690228496, -26.929392609811636 ] ] } }
 ]
 }

@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2031820010", "cod": 1048, "nome": "R.Luiz de Queiroz Gaudereto", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69285916, -26.86901274 ], [ -48.692550761551679, -26.869019707155029 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2031820010", "cod": 1046, "nome": "R.Eugênio Pezzini", "ptotalvia": 13.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692857126393633, -26.868962769402575 ], [ -48.69285916, -26.86901274 ], [ -48.692868499358838, -26.869354259951255 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2031820010", "cod": 1048.0, "nome": "R.Luiz de Queiroz Gaudereto", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69285916, -26.86901274 ], [ -48.692550761551679, -26.869019707155029 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2031820010", "cod": 1046.0, "nome": "R.Eugênio Pezzini", "ptotalvia": 13.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692857126393633, -26.868962769402575 ], [ -48.69285916, -26.86901274 ], [ -48.692868499358838, -26.869354259951255 ] ] } }
 ]
 }

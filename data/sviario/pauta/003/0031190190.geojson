@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0031190190", "cod": 1721, "nome": "R.4", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70090447, -26.88935348 ], [ -48.700927251708883, -26.889351931918629 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0031190190", "cod": 1165, "nome": "R.Fioravante Russi", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700851730781572, -26.889290693006629 ], [ -48.70085495, -26.88935684 ], [ -48.700872620194055, -26.889647247459088 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0031190190", "cod": 1233, "nome": "R.Áurea de Souza", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70090447, -26.88935348 ], [ -48.70085495, -26.88935684 ], [ -48.700395970167072, -26.889388136333388 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0031190190", "cod": 1721.0, "nome": "R.4", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70090447, -26.88935348 ], [ -48.700927251708876, -26.889351931918629 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031190190", "cod": 1165.0, "nome": "R.Fioravante Russi", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700851730781572, -26.889290693006632 ], [ -48.70085495, -26.88935684 ], [ -48.700872620194055, -26.889647247459088 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031190190", "cod": 1233.0, "nome": "R.Áurea de Souza", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70090447, -26.88935348 ], [ -48.70085495, -26.88935684 ], [ -48.700395970167072, -26.889388136333391 ] ] } }
 ]
 }

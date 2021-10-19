@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110690359", "cod": 546, "nome": "R.Manoel Joaquim Coelho", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67655163, -26.91657549 ], [ -48.676567405277112, -26.916829443234157 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110690359", "cod": 582, "nome": "R.Olga Mussi Dietrich", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676956645076878, -26.916554461459889 ], [ -48.67655163, -26.91657549 ], [ -48.67646926297212, -26.916579070258539 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2110690359", "cod": 546.0, "nome": "R.Manoel Joaquim Coelho", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67655163, -26.91657549 ], [ -48.676567405277112, -26.916829443234153 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110690359", "cod": 582.0, "nome": "R.Olga Mussi Dietrich", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676956645076878, -26.916554461459889 ], [ -48.67655163, -26.91657549 ], [ -48.676469262972113, -26.916579070258539 ] ] } }
 ]
 }

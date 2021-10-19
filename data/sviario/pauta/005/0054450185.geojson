@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0054450185", "cod": 1019, "nome": "R.Alcides Bento Gonçalves", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698245974845221, -26.930954343059085 ], [ -48.69849110103398, -26.931163285841034 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0054450185", "cod": 1019.0, "nome": "R.Alcides Bento Gonçalves", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698245974845221, -26.930954343059081 ], [ -48.69849110103398, -26.931163285841034 ] ] } }
 ]
 }

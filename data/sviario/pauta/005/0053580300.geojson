@@ -2,6 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0053580300", "cod": 990, "nome": "R.José Simplício de Oliveira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697741148055769, -26.924380438405283 ], [ -48.697927929554972, -26.924656295078485 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0053580300", "cod": 990.0, "nome": "R.José Simplício de Oliveira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697741148055769, -26.924380438405283 ], [ -48.697927929554972, -26.924656295078485 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0053580300", "cod": 990.0, "nome": "R.José Simplício de Oliveira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697741148055769, -26.924380438405283 ], [ -48.697927929554972, -26.924656295078485 ] ] } }
 ]
 }

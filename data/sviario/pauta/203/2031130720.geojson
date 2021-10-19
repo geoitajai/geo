@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2031130720", "cod": 1101, "nome": "R.José Francisco Mateus", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.704725975883903, -26.879241947546635 ], [ -48.704743006739086, -26.879561108879244 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2031130720", "cod": 1101.0, "nome": "R.José Francisco Mateus", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.704725975883903, -26.879241947546632 ], [ -48.704743006739086, -26.879561108879241 ] ] } }
 ]
 }

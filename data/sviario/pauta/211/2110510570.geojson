@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110510570", "cod": 388, "nome": "Bc.Aldo", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.667505738800052, -26.916813489226719 ], [ -48.6672361, -26.91701728 ], [ -48.667218116044118, -26.916758983626814 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2110510570", "cod": 388.0, "nome": "Bc.Aldo", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.667505738800052, -26.916813489226715 ], [ -48.6672361, -26.91701728 ], [ -48.667218116044118, -26.91675898362681 ] ] } }
 ]
 }

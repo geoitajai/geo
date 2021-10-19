@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2041280005", "cod": 887, "nome": "R.Emanuel dos Santos", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.686157607908449, -26.935480931319763 ], [ -48.68583325, -26.93547499 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2041280005", "cod": 890, "nome": "R.Sol.Abelardo Mendonça Sobrinho", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.685836767628309, -26.935414966933834 ], [ -48.68583325, -26.93547499 ], [ -48.68582624, -26.93574987 ], [ -48.685729228442675, -26.935745636450999 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2041280005", "cod": 887.0, "nome": "R.Emanuel dos Santos", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.686157607908449, -26.935480931319759 ], [ -48.68583325, -26.93547499 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2041280005", "cod": 890.0, "nome": "R.Sol.Abelardo Mendonça Sobrinho", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.685836767628309, -26.935414966933838 ], [ -48.68583325, -26.93547499 ], [ -48.68582624, -26.93574987 ], [ -48.685729228442675, -26.935745636450996 ] ] } }
 ]
 }

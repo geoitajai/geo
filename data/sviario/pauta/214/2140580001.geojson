@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140580001", "cod": 727, "nome": "R.Artur Torquato Batista", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.646927463128137, -26.93037348014969 ], [ -48.64687503, -26.93043157 ], [ -48.64669111, -26.93062101 ], [ -48.646667840426836, -26.930651157051791 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2140580001", "cod": 724, "nome": "R.José Agripino Corbeta", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.64669111, -26.93062101 ], [ -48.646644204664327, -26.930589045474537 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2140580001", "cod": 728, "nome": "R.João Hipólito Gonçalves", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.64719010098387, -26.930744569376937 ], [ -48.64687503, -26.93043157 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2140580001", "cod": 727.0, "nome": "R.Artur Torquato Batista", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.646927463128137, -26.93037348014969 ], [ -48.64687503, -26.93043157 ], [ -48.64669111, -26.93062101 ], [ -48.646667840426836, -26.930651157051791 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140580001", "cod": 724.0, "nome": "R.José Agripino Corbeta", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.64669111, -26.93062101 ], [ -48.646644204664327, -26.930589045474537 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140580001", "cod": 728.0, "nome": "R.João Hipólito Gonçalves", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.64719010098387, -26.930744569376934 ], [ -48.64687503, -26.93043157 ] ] } }
 ]
 }

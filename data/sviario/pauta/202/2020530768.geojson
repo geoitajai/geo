@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020530768", "cod": 200, "nome": "R.João Antônio de Azevedo", "ptotalvia": 4.5, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676700282852693, -26.898787729906729 ], [ -48.67639508135359, -26.89854479100185 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020530768", "cod": 188, "nome": "R.Stringari", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676211342590641, -26.89876392667172 ], [ -48.676497452669615, -26.898994099119353 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2020530768", "cod": 200.0, "nome": "R.João Antônio de Azevedo", "ptotalvia": 4.5, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676700282852693, -26.898787729906729 ], [ -48.67639508135359, -26.898544791001854 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020530768", "cod": 188.0, "nome": "R.Stringari", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676211342590641, -26.898763926671723 ], [ -48.676497452669615, -26.898994099119353 ] ] } }
 ]
 }

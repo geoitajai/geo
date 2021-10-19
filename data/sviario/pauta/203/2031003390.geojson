@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2031003390", "cod": 1096, "nome": "R.Luiz da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.699886793140735, -26.884628425794023 ], [ -48.699904716670517, -26.884952596100014 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2031003390", "cod": 1096.0, "nome": "R.Luiz da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.699886793140735, -26.884628425794023 ], [ -48.699904716670517, -26.884952596100014 ] ] } }
 ]
 }

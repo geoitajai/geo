@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0052720170", "cod": 81, "nome": "R.Mafra", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.683955552893408, -26.896327867710593 ], [ -48.683578523873415, -26.896333455831392 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0052720170", "cod": 81.0, "nome": "R.Mafra", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.683955552893408, -26.896327867710593 ], [ -48.683578523873415, -26.896333455831392 ] ] } }
 ]
 }

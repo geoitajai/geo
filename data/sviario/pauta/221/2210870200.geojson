@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2210870200", "cod": 535, "nome": "R.Carlos Serafim Zaguini", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.680535343936263, -26.923862104164595 ], [ -48.68053966, -26.92390844 ], [ -48.680571761584439, -26.924227341773992 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2210870200", "cod": 537, "nome": "R.Pres.João Goulart", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.680594088102815, -26.923903512537301 ], [ -48.68053966, -26.92390844 ], [ -48.680118717833714, -26.92394011645742 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2210870200", "cod": 535.0, "nome": "R.Carlos Serafim Zaguini", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.680535343936263, -26.923862104164595 ], [ -48.68053966, -26.92390844 ], [ -48.680571761584439, -26.924227341773992 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210870200", "cod": 537.0, "nome": "R.Pres.João Goulart", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.680594088102815, -26.923903512537301 ], [ -48.68053966, -26.92390844 ], [ -48.680118717833714, -26.92394011645742 ] ] } }
 ]
 }

@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2031480185", "cod": 1025, "nome": "R.Antônio Tironi", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698908272260496, -26.871861676502434 ], [ -48.69885127, -26.87186446 ], [ -48.69858343, -26.87187803 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2031480185", "cod": 1039, "nome": "R.Orlandina Amália Pires Corrêa", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698848548137612, -26.871810107706121 ], [ -48.69885127, -26.87186446 ], [ -48.698867749272601, -26.872145490229599 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2031480185", "cod": 1025, "nome": "R.Antônio Tironi", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69858343, -26.87187803 ], [ -48.698450860934877, -26.871884743804003 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2031480185", "cod": 1025.0, "nome": "R.Antônio Tironi", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698908272260496, -26.871861676502437 ], [ -48.69885127, -26.87186446 ], [ -48.69858343, -26.87187803 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2031480185", "cod": 1039.0, "nome": "R.Orlandina Amália Pires Corrêa", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698848548137612, -26.871810107706114 ], [ -48.69885127, -26.87186446 ], [ -48.698867749272601, -26.872145490229599 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2031480185", "cod": 1025.0, "nome": "R.Antônio Tironi", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69858343, -26.87187803 ], [ -48.698450860934877, -26.871884743804003 ] ] } }
 ]
 }

@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2151370050", "cod": 1315, "nome": "R.Maria Marques Rampelotti", "ptotalvia": 18.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.74987334, -26.87036914 ], [ -48.749769842137979, -26.870375696214634 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2151370050", "cod": 1324, "nome": "R.Augusto Cugnier", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.74987334, -26.87036914 ], [ -48.7500254, -26.87220331 ], [ -48.750028945213401, -26.872244274022318 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2151370050", "cod": 1327, "nome": "Av.Lauro José Pereira", "ptotalvia": 18.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.75013729, -26.87219567 ], [ -48.749949275858512, -26.872207621837052 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2151370050", "cod": 1315.0, "nome": "R.Maria Marques Rampelotti", "ptotalvia": 18.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.74987334, -26.87036914 ], [ -48.749769842137979, -26.870375696214634 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2151370050", "cod": 1324.0, "nome": "R.Augusto Cugnier", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.74987334, -26.87036914 ], [ -48.7500254, -26.87220331 ], [ -48.750028945213401, -26.872244274022318 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2151370050", "cod": 1327.0, "nome": "Av.Lauro José Pereira", "ptotalvia": 18.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.75013729, -26.87219567 ], [ -48.749949275858512, -26.872207621837052 ] ] } }
 ]
 }

@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020121153", "cod": 308, "nome": "R.Constantino Lucas Pereira", "ptotalvia": 4.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.668290069267144, -26.903729214330774 ], [ -48.668331459857747, -26.904080463421593 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2020121153", "cod": 308.0, "nome": "R.Constantino Lucas Pereira", "ptotalvia": 4.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.668290069267144, -26.903729214330774 ], [ -48.668331459857747, -26.904080463421593 ] ] } }
 ]
 }

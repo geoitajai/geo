@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2120060247", "cod": 198, "nome": "R.João Vechani", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.679822985070381, -26.898505476674075 ], [ -48.679249553163288, -26.898538387736522 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2120060247", "cod": 198.0, "nome": "R.João Vechani", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.679822985070381, -26.898505476674075 ], [ -48.679249553163288, -26.898538387736519 ] ] } }
 ]
 }

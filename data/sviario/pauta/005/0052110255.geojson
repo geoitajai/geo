@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0052110255", "cod": 40, "nome": "R.São José", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698520034582224, -26.904044990026549 ], [ -48.698538311575966, -26.904375431429173 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0052110255", "cod": 40.0, "nome": "R.São José", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698520034582224, -26.904044990026545 ], [ -48.698538311575966, -26.904375431429173 ] ] } }
 ]
 }

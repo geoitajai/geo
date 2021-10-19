@@ -2,7 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0053500210", "cod": 951, "nome": "R.Edgard Neuwirth", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692915476457486, -26.923673215091053 ], [ -48.692584376773837, -26.923788493220652 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0053500210", "cod": 951, "nome": "R.Edgard Neuwirth", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692915476457486, -26.923673215091053 ], [ -48.692584376773837, -26.923788493220652 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0053500210", "cod": 951.0, "nome": "R.Edgard Neuwirth", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692915476457486, -26.92367321509106 ], [ -48.692584376773837, -26.923788493220652 ] ] } }
 ]
 }

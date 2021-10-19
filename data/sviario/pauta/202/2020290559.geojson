@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020290559", "cod": 217, "nome": "R.Profº.Mario Mello", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674834991695953, -26.901866153975178 ], [ -48.67446889034548, -26.90188361788034 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020290559", "cod": 219, "nome": "R.João Ladislau Tabalipa", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674539001066279, -26.901214727199001 ], [ -48.67457533, -26.90124327 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2020290559", "cod": 217.0, "nome": "R.Profº.Mario Mello", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674834991695953, -26.901866153975181 ], [ -48.67446889034548, -26.901883617880344 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020290559", "cod": 219.0, "nome": "R.João Ladislau Tabalipa", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674539001066279, -26.901214727199001 ], [ -48.67457533, -26.90124327 ] ] } }
 ]
 }

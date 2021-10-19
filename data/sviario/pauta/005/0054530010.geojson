@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0054530010", "cod": 986, "nome": "R.Arlindo Werner", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70074116678861, -26.927804085009036 ], [ -48.70053965, -26.92800118 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0054530010", "cod": 984, "nome": "R.Maria Alves Mafra", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700476588519372, -26.927949531057564 ], [ -48.70053965, -26.92800118 ], [ -48.70081911887462, -26.928241112829095 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0054530010", "cod": 986.0, "nome": "R.Arlindo Werner", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70074116678861, -26.927804085009036 ], [ -48.70053965, -26.92800118 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054530010", "cod": 984.0, "nome": "R.Maria Alves Mafra", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700476588519372, -26.927949531057564 ], [ -48.70053965, -26.92800118 ], [ -48.70081911887462, -26.928241112829095 ] ] } }
 ]
 }

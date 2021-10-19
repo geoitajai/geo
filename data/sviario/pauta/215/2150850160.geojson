@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2150850160", "cod": 1401, "nome": "R.Pedro Norberto Rosa", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.765282488362125, -26.896466001246189 ], [ -48.76529353, -26.89673869 ], [ -48.765172166587483, -26.89674270252576 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2150850160", "cod": 1401.0, "nome": "R.Pedro Norberto Rosa", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.765282488362125, -26.896466001246186 ], [ -48.76529353, -26.89673869 ], [ -48.765172166587483, -26.89674270252576 ] ] } }
 ]
 }

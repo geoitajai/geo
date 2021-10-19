@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0052130250", "cod": 39, "nome": "R.Palhoça", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.699079136103514, -26.903908487505891 ], [ -48.699097967591719, -26.904241428005449 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0052130250", "cod": 39.0, "nome": "R.Palhoça", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.699079136103514, -26.903908487505891 ], [ -48.699097967591719, -26.904241428005445 ] ] } }
 ]
 }

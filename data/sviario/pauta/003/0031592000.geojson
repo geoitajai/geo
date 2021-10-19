@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0031592000", "cod": 1177, "nome": "R.Francisco Reis", "ptotalvia": 20.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.711668288010664, -26.902319861775815 ], [ -48.711786898712738, -26.903801737571886 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0031592000", "cod": 1177.0, "nome": "R.Francisco Reis", "ptotalvia": 20.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.711668288010664, -26.902319861775815 ], [ -48.711786898712738, -26.903801737571886 ] ] } }
 ]
 }

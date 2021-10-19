@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2161891600", "cod": 1506, "nome": "R.José Lana", "ptotalvia": 20.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.810002281479328, -26.999812488410846 ], [ -48.80965814, -26.99995805 ], [ -48.80942681, -27.00009709 ], [ -48.80916918, -27.00035133 ], [ -48.809135173682073, -27.000394216359119 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2161891600", "cod": 1506.0, "nome": "R.José Lana", "ptotalvia": 20.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.810002281479328, -26.999812488410846 ], [ -48.80965814, -26.99995805 ], [ -48.80942681, -27.00009709 ], [ -48.80916918, -27.00035133 ], [ -48.809135173682073, -27.000394216359123 ] ] } }
 ]
 }

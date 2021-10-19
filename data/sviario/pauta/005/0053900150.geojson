@@ -2,9 +2,9 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0053900150", "cod": 964, "nome": "R.Olivia Rautenberg", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691356202481842, -26.925640833302712 ], [ -48.69138197, -26.92569876 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0053900150", "cod": 971, "nome": "R.Juarez José Mendes", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69170008, -26.92557595 ], [ -48.691871299369659, -26.925826183634111 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0053900150", "cod": 954, "nome": "R.Raul Machado", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691784685481842, -26.925544160446062 ], [ -48.69170008, -26.92557595 ], [ -48.69138197, -26.92569876 ], [ -48.691343684590599, -26.925711107027571 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0053900150", "cod": 954, "nome": "R.Raul Machado", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691784685481842, -26.925544160446062 ], [ -48.69170008, -26.92557595 ], [ -48.69138197, -26.92569876 ], [ -48.691343684590599, -26.925711107027571 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0053900150", "cod": 964.0, "nome": "R.Olivia Rautenberg", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691356202481842, -26.925640833302712 ], [ -48.69138197, -26.92569876 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0053900150", "cod": 971.0, "nome": "R.Juarez José Mendes", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69170008, -26.92557595 ], [ -48.691871299369659, -26.925826183634115 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0053900150", "cod": 971.0, "nome": "R.Juarez José Mendes", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69170008, -26.92557595 ], [ -48.691871299369659, -26.925826183634115 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0053900150", "cod": 954.0, "nome": "R.Raul Machado", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691784685481842, -26.925544160446062 ], [ -48.69170008, -26.92557595 ], [ -48.69138197, -26.92569876 ], [ -48.691343684590599, -26.925711107027567 ] ] } }
 ]
 }

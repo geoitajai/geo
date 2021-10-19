@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0030510080", "cod": 1148, "nome": "R.Max Tavares D´Amaral", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.694798971187772, -26.894853943645963 ], [ -48.69482061, -26.89515745 ], [ -48.694822506321721, -26.895193562850849 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0030510080", "cod": 1151, "nome": "R.Maranhão", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695247993835245, -26.895129509809934 ], [ -48.69482061, -26.89515745 ], [ -48.69476327808021, -26.895158730238034 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0030510080", "cod": 1148.0, "nome": "R.Max Tavares D´Amaral", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.694798971187772, -26.894853943645963 ], [ -48.69482061, -26.89515745 ], [ -48.694822506321721, -26.895193562850849 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0030510080", "cod": 1151.0, "nome": "R.Maranhão", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695247993835245, -26.895129509809934 ], [ -48.69482061, -26.89515745 ], [ -48.69476327808021, -26.89515873023803 ] ] } }
 ]
 }

@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110460297", "cod": 335, "nome": "Trav.Reinaldo de Brito", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.668240977844391, -26.911842218121869 ], [ -48.668459717616273, -26.912096904253794 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2110460297", "cod": 335.0, "nome": "Trav.Reinaldo de Brito", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.668240977844391, -26.911842218121865 ], [ -48.668459717616265, -26.912096904253783 ] ] } }
 ]
 }

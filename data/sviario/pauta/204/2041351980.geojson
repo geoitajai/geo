@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2041351980", "cod": 865, "nome": "R.José Cugnier", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677079080874222, -26.928511589736718 ], [ -48.67710529, -26.92858169 ], [ -48.67730206, -26.92893694 ], [ -48.677305306978809, -26.928943677238628 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2041351980", "cod": 866, "nome": "R.Valdevino Vieira Cordeiro", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67730206, -26.92893694 ], [ -48.676791532173347, -26.928918517911054 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2041351980", "cod": 865.0, "nome": "R.José Cugnier", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677079080874222, -26.928511589736718 ], [ -48.67710529, -26.92858169 ], [ -48.67730206, -26.92893694 ], [ -48.677305306978809, -26.928943677238628 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2041351980", "cod": 866.0, "nome": "R.Valdevino Vieira Cordeiro", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67730206, -26.92893694 ], [ -48.676791532173347, -26.92891851791105 ] ] } }
 ]
 }

@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2041450100", "cod": 854, "nome": "R.Ver.Abílio Otávio do Canto", "ptotalvia": 20.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674688117588978, -26.923200876727712 ], [ -48.674645709525578, -26.923446271734452 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2041450100", "cod": 854.0, "nome": "R.Ver.Abílio Otávio do Canto", "ptotalvia": 20.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674688117588978, -26.923200876727712 ], [ -48.674645709525578, -26.923446271734452 ] ] } }
 ]
 }

@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110060141", "cod": 505, "nome": "R.Gaspar", "ptotalvia": 13.2, "ppasseio1": 2.6, "ppasseio2": 2.6 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67544350026693, -26.909537000732936 ], [ -48.675124616612294, -26.909435592409039 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2110060141", "cod": 505.0, "nome": "R.Gaspar", "ptotalvia": 13.2, "ppasseio1": 2.6, "ppasseio2": 2.6 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675443500266923, -26.909537000732936 ], [ -48.675124616612294, -26.909435592409039 ] ] } }
 ]
 }

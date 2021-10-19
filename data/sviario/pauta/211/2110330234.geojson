@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110330234", "cod": 501, "nome": "R.Joaquim Falco Uriarte", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675932353485102, -26.915440813574875 ], [ -48.676301361763898, -26.915423263148188 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2110330234", "cod": 501.0, "nome": "R.Joaquim Falco Uriarte", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675932353485102, -26.915440813574875 ], [ -48.676301361763898, -26.915423263148188 ] ] } }
 ]
 }

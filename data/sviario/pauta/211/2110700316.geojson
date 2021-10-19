@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110700316", "cod": 227, "nome": "R.Indaial", "ptotalvia": 17.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677311410611779, -26.919545087975933 ], [ -48.67731244, -26.91956148 ], [ -48.67732161, -26.91977341 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110700316", "cod": 227, "nome": "R.Indaial", "ptotalvia": 17.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67732161, -26.91977341 ], [ -48.677325999440562, -26.919874822820809 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110700316", "cod": 576, "nome": "R.Santa Luzia", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677328521501508, -26.919560858972918 ], [ -48.67731244, -26.91956148 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2110700316", "cod": 227.0, "nome": "R.Indaial", "ptotalvia": 17.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677311410611779, -26.919545087975937 ], [ -48.67731244, -26.91956148 ], [ -48.67732161, -26.91977341 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110700316", "cod": 227.0, "nome": "R.Indaial", "ptotalvia": 17.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67732161, -26.91977341 ], [ -48.677325999440562, -26.919874822820809 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110700316", "cod": 576.0, "nome": "R.Santa Luzia", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677328521501508, -26.919560858972915 ], [ -48.67731244, -26.91956148 ] ] } }
 ]
 }

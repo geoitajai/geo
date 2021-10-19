@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0032080030", "cod": 1151, "nome": "R.Maranhão", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.701394227495889, -26.894870363702974 ], [ -48.701032347469507, -26.89488638793123 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0032080030", "cod": 1151.0, "nome": "R.Maranhão", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.701394227495889, -26.894870363702974 ], [ -48.701032347469507, -26.89488638793123 ] ] } }
 ]
 }

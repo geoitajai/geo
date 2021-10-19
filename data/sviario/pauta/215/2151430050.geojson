@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2151430050", "cod": 1312, "nome": "R.Alberto Dagnoni", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.746626479249997, -26.881133950926266 ], [ -48.746651928277863, -26.881456530391098 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2151430050", "cod": 1312.0, "nome": "R.Alberto Dagnoni", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.746626479249997, -26.881133950926266 ], [ -48.746651928277863, -26.881456530391098 ] ] } }
 ]
 }

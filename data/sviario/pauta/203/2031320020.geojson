@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2031320020", "cod": 1091, "nome": "R.Hercília Moser", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69502731, -26.87867761 ], [ -48.69503000589615, -26.878741134523747 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2031320020", "cod": 1078, "nome": "R.Zulmira Leopoldina Machado", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695278092937372, -26.878664901833698 ], [ -48.69502731, -26.87867761 ], [ -48.694906091476831, -26.878678930806739 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2031320020", "cod": 1091.0, "nome": "R.Hercília Moser", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69502731, -26.87867761 ], [ -48.69503000589615, -26.878741134523747 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2031320020", "cod": 1078.0, "nome": "R.Zulmira Leopoldina Machado", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695278092937372, -26.878664901833698 ], [ -48.69502731, -26.87867761 ], [ -48.694906091476831, -26.878678930806739 ] ] } }
 ]
 }

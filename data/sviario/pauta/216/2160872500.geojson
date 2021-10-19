@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2160872500", "cod": 1517, "nome": "R.Augusto Dalago", "ptotalvia": 9.5, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.772068841675804, -26.990095171084128 ], [ -48.77207959, -26.9901428 ], [ -48.77223973000001, -26.99051354 ], [ -48.772253478930679, -26.990541792562112 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2160872500", "cod": 1519, "nome": "Serv.Glaci da Silva Rosa", "ptotalvia": 20.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.77223973000001, -26.99051354 ], [ -48.772300815454898, -26.990491815636052 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2160872500", "cod": 1517.0, "nome": "R.Augusto Dalago", "ptotalvia": 9.5, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.772068841675804, -26.990095171084128 ], [ -48.77207959, -26.9901428 ], [ -48.77223973000001, -26.99051354 ], [ -48.772253478930679, -26.990541792562116 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2160872500", "cod": 1519.0, "nome": "Serv.Glaci da Silva Rosa", "ptotalvia": 20.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.77223973000001, -26.99051354 ], [ -48.772300815454898, -26.990491815636052 ] ] } }
 ]
 }

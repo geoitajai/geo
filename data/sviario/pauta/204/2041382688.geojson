@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2041382688", "cod": 543, "nome": "R.José Siqueira", "ptotalvia": 25.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676592355700109, -26.92599328306957 ], [ -48.67659174, -26.92599691 ], [ -48.676538129335093, -26.92625848997314 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2041382688", "cod": 861, "nome": "R.Thadeu Kock", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676593376400433, -26.925997146377139 ], [ -48.67659174, -26.92599691 ], [ -48.676051416130669, -26.925917923007376 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2041382688", "cod": 543.0, "nome": "R.José Siqueira", "ptotalvia": 25.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676592355700109, -26.92599328306957 ], [ -48.67659174, -26.92599691 ], [ -48.676538129335093, -26.926258489973144 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2041382688", "cod": 861.0, "nome": "R.Thadeu Kock", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676593376400433, -26.925997146377139 ], [ -48.67659174, -26.92599691 ], [ -48.676051416130669, -26.925917923007379 ] ] } }
 ]
 }

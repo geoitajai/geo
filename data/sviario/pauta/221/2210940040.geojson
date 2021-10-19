@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2210940040", "cod": 569, "nome": "R.João Reipert de Amorim", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67996767, -26.9187643 ], [ -48.68000399677338, -26.919249819610616 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2210940040", "cod": 577, "nome": "R.Jacob Ardigó", "ptotalvia": 21.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.679993405995319, -26.918762633617789 ], [ -48.67996767, -26.9187643 ], [ -48.679661923153986, -26.918787904971644 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2210940040", "cod": 512, "nome": "R.Ângelo Rodi", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.679967136591117, -26.918754583240901 ], [ -48.67996767, -26.9187643 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2210940040", "cod": 569.0, "nome": "R.João Reipert de Amorim", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67996767, -26.9187643 ], [ -48.680003996773387, -26.919249819610613 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210940040", "cod": 577.0, "nome": "R.Jacob Ardigó", "ptotalvia": 21.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.679993405995319, -26.918762633617792 ], [ -48.67996767, -26.9187643 ], [ -48.679661923153979, -26.918787904971641 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210940040", "cod": 512.0, "nome": "R.Ângelo Rodi", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.679967136591117, -26.918754583240901 ], [ -48.67996767, -26.9187643 ] ] } }
 ]
 }

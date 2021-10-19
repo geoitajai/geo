@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0055070070", "cod": 107, "nome": "R.Profª.Erotides da Silva Fontes", "ptotalvia": 20.0, "ppasseio1": 3.5, "ppasseio2": 3.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70797290046, -26.908878805419818 ], [ -48.7083513, -26.90886025 ], [ -48.708397879034656, -26.908858402580361 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0055070070", "cod": 135, "nome": "R.José Pezzini", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.708333061511539, -26.908517091998267 ], [ -48.7083513, -26.90886025 ], [ -48.708352940448265, -26.908888201316834 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0055070070", "cod": 107.0, "nome": "R.Profª.Erotides da Silva Fontes", "ptotalvia": 20.0, "ppasseio1": 3.5, "ppasseio2": 3.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.707972900460007, -26.908878805419818 ], [ -48.7083513, -26.90886025 ], [ -48.708397879034649, -26.908858402580357 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0055070070", "cod": 135.0, "nome": "R.José Pezzini", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.708333061511539, -26.908517091998267 ], [ -48.7083513, -26.90886025 ], [ -48.708352940448265, -26.908888201316834 ] ] } }
 ]
 }

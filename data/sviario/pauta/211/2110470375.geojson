@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110470375", "cod": 334, "nome": "Trav.Bernardino João Vitorino", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.667787105716712, -26.912401420889914 ], [ -48.668070536272666, -26.912738911950772 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2110470375", "cod": 334.0, "nome": "Trav.Bernardino João Vitorino", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.667787105716712, -26.91240142088991 ], [ -48.668070536272666, -26.912738911950772 ] ] } }
 ]
 }

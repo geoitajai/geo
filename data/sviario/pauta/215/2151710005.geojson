@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2151710005", "cod": 1314, "nome": "R.Ver.Pedro João de Souza Filho", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.74549754, -26.86012006 ], [ -48.745501940581185, -26.860176287544448 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2151710005", "cod": 1312, "nome": "R.Alberto Dagnoni", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.745017386588877, -26.860206815978607 ], [ -48.74501377, -26.86015761 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2151710005", "cod": 1600, "nome": "R.Orlando Augusto da Silva", "ptotalvia": 26.0, "ppasseio1": 5.0, "ppasseio2": 5.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.74549754, -26.86012006 ], [ -48.74501377, -26.86015761 ], [ -48.744470552551974, -26.860204335895403 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2151710005", "cod": 1314.0, "nome": "R.Ver.Pedro João de Souza Filho", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.74549754, -26.86012006 ], [ -48.745501940581185, -26.860176287544444 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2151710005", "cod": 1312.0, "nome": "R.Alberto Dagnoni", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.745017386588877, -26.860206815978607 ], [ -48.74501377, -26.86015761 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2151710005", "cod": 1600.0, "nome": "R.Orlando Augusto da Silva", "ptotalvia": 26.0, "ppasseio1": 5.0, "ppasseio2": 5.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.74549754, -26.86012006 ], [ -48.74501377, -26.86015761 ], [ -48.744470552551974, -26.8602043358954 ] ] } }
 ]
 }

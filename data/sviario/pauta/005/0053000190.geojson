@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0053000190", "cod": 154, "nome": "R.Satyro Loureiro", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698452394142386, -26.906804583457308 ], [ -48.698471222441576, -26.907133295954907 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0053000190", "cod": 154.0, "nome": "R.Satyro Loureiro", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698452394142386, -26.906804583457308 ], [ -48.698471222441576, -26.907133295954907 ] ] } }
 ]
 }

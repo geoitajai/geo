@@ -2,9 +2,9 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0052600390", "cod": 71, "nome": "R.Abelardo Luz", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.687830675562992, -26.897525391771342 ], [ -48.68782684, -26.89783231 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0052600390", "cod": 72, "nome": "R.Maravilha", "ptotalvia": 4.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.687468677024931, -26.897518816024316 ], [ -48.68746269, -26.8978358 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0052600390", "cod": 84, "nome": "R.São Vicente", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68763301, -26.89783406 ], [ -48.687633201298759, -26.897908121344461 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0052600390", "cod": 62, "nome": "R.São Joaquim", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.687899181058469, -26.897832590889397 ], [ -48.68746269, -26.8978358 ], [ -48.687385707435318, -26.897835246770505 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0052600390", "cod": 71.0, "nome": "R.Abelardo Luz", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.687830675562992, -26.897525391771342 ], [ -48.68782684, -26.89783231 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0052600390", "cod": 72.0, "nome": "R.Maravilha", "ptotalvia": 4.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.687468677024931, -26.897518816024316 ], [ -48.68746269, -26.8978358 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0052600390", "cod": 84.0, "nome": "R.São Vicente", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68763301, -26.89783406 ], [ -48.687633201298759, -26.897908121344461 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0052600390", "cod": 62.0, "nome": "R.São Joaquim", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.687899181058469, -26.897832590889397 ], [ -48.68746269, -26.8978358 ], [ -48.687385707435318, -26.897835246770505 ] ] } }
 ]
 }

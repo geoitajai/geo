@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140430174", "cod": 773, "nome": "R.Eloy Cordeiro", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.634088675517162, -26.930789899841553 ], [ -48.634528315273229, -26.931100995327341 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2140430174", "cod": 776, "nome": "R.Benjamim Constant", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.634074027081027, -26.931366975228212 ], [ -48.633778293625014, -26.931170703261667 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2140430174", "cod": 773.0, "nome": "R.Eloy Cordeiro", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.634088675517162, -26.930789899841553 ], [ -48.634528315273229, -26.931100995327341 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140430174", "cod": 776.0, "nome": "R.Benjamim Constant", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.634074027081027, -26.931366975228212 ], [ -48.633778293625014, -26.931170703261664 ] ] } }
 ]
 }

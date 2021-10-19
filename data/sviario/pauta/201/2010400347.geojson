@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010400347", "cod": 291, "nome": "R.Samuel Heusi", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.661166911714453, -26.90505869695756 ], [ -48.6609361, -26.90492395 ], [ -48.66085487111647, -26.904874561119893 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010400347", "cod": 302, "nome": "R.José Ferreira da Silva", "ptotalvia": 7.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6609361, -26.90492395 ], [ -48.661175320484318, -26.904604447631879 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010400347", "cod": 303, "nome": "Trav.P.João Batista Réus", "ptotalvia": 7.5, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.661206902338755, -26.905034425274525 ], [ -48.661343021382251, -26.904862683914008 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2010400347", "cod": 291.0, "nome": "R.Samuel Heusi", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.661166911714453, -26.905058696957564 ], [ -48.6609361, -26.904923950000011 ], [ -48.66085487111647, -26.904874561119897 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010400347", "cod": 302.0, "nome": "R.José Ferreira da Silva", "ptotalvia": 7.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6609361, -26.904923950000011 ], [ -48.661175320484318, -26.904604447631879 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010400347", "cod": 303.0, "nome": "Trav.P.João Batista Réus", "ptotalvia": 7.5, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.661206902338755, -26.905034425274525 ], [ -48.661343021382251, -26.904862683914008 ] ] } }
 ]
 }

@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2160852850", "cod": 1541, "nome": "R.Eduardo Vicente de Mello", "ptotalvia": 25.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.723315706868448, -27.003594920229681 ], [ -48.72348094, -27.00403864 ], [ -48.72356139, -27.00410882 ], [ -48.72368245, -27.004133 ], [ -48.723752708794628, -27.004116853027398 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2160852850", "cod": 1541.0, "nome": "R.Eduardo Vicente de Mello", "ptotalvia": 25.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.723315706868448, -27.003594920229677 ], [ -48.72348094, -27.00403864 ], [ -48.72356139, -27.00410882 ], [ -48.72368245, -27.004133 ], [ -48.723752708794628, -27.004116853027398 ] ] } }
 ]
 }

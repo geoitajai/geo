@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0052900570", "cod": 37, "nome": "Av.Campos Novos", "ptotalvia": 21.0, "ppasseio1": 5.0, "ppasseio2": 5.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700637530761654, -26.91111694481334 ], [ -48.700654146523718, -26.911433720110395 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0052900570", "cod": 37.0, "nome": "Av.Campos Novos", "ptotalvia": 21.0, "ppasseio1": 5.0, "ppasseio2": 5.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700637530761654, -26.911116944813337 ], [ -48.700654146523718, -26.911433720110399 ] ] } }
 ]
 }

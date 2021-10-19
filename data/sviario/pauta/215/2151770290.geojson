@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2151770290", "cod": 1325, "nome": "R.Domingos Nunes dos Santos", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.750717955197537, -26.875333766852751 ], [ -48.75074806901069, -26.875649077618057 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2151770290", "cod": 1325.0, "nome": "R.Domingos Nunes dos Santos", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.750717955197537, -26.875333766852748 ], [ -48.75074806901069, -26.875649077618053 ] ] } }
 ]
 }

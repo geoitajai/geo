@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0052640700", "cod": 84, "nome": "R.São Vicente", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.687631520967599, -26.898850678306342 ], [ -48.68763133, -26.89890046 ], [ -48.68762604, -26.89914096 ], [ -48.68760997468631, -26.899231228739918 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0052640700", "cod": 86, "nome": "R.João Camilo Vicente", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68763133, -26.89890046 ], [ -48.6872233957627, -26.898901500733384 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0052640700", "cod": 87, "nome": "R.Exp.José Corrêa", "ptotalvia": 5.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68762604, -26.89914096 ], [ -48.687210602908401, -26.899146107331177 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0052640700", "cod": 84.0, "nome": "R.São Vicente", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.687631520967599, -26.898850678306339 ], [ -48.68763133, -26.89890046 ], [ -48.68762604, -26.89914096 ], [ -48.68760997468631, -26.899231228739914 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0052640700", "cod": 86.0, "nome": "R.João Camilo Vicente", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68763133, -26.89890046 ], [ -48.6872233957627, -26.898901500733384 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0052640700", "cod": 87.0, "nome": "R.Exp.José Corrêa", "ptotalvia": 5.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68762604, -26.89914096 ], [ -48.687210602908401, -26.89914610733118 ] ] } }
 ]
 }

@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2141040266", "cod": 783, "nome": "R.Conselheiro Júlio Kumm", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.632409882764534, -26.95310452397954 ], [ -48.632059381935171, -26.953149767558234 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2141040266", "cod": 783.0, "nome": "R.Conselheiro Júlio Kumm", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.632409882764534, -26.95310452397954 ], [ -48.632059381935171, -26.953149767558234 ] ] } }
 ]
 }

@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0052220190", "cod": 90, "nome": "R.Manoel Bandeira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.685889074055261, -26.904170698292667 ], [ -48.685530124154909, -26.904154444001303 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0052220190", "cod": 90.0, "nome": "R.Manoel Bandeira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.685889074055261, -26.904170698292667 ], [ -48.685530124154909, -26.904154444001303 ] ] } }
 ]
 }

@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110690200", "cod": 227, "nome": "R.Indaial", "ptotalvia": 17.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67720080972019, -26.91738341361005 ], [ -48.677214405761681, -26.917687163130786 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2110690200", "cod": 227.0, "nome": "R.Indaial", "ptotalvia": 17.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67720080972019, -26.917383413610047 ], [ -48.677214405761681, -26.917687163130797 ] ] } }
 ]
 }

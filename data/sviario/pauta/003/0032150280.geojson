@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0032150280", "cod": 1183, "nome": "R.Arnaldo Emílio Dalçóquio", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.709074667286494, -26.897408513176398 ], [ -48.709092912000621, -26.897731510211461 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0032150280", "cod": 1183.0, "nome": "R.Arnaldo Emílio Dalçóquio", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.709074667286494, -26.897408513176398 ], [ -48.709092912000621, -26.897731510211461 ] ] } }
 ]
 }

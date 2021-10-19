@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020370191", "cod": 190, "nome": "R.José Cândido", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.673747520861333, -26.897682430084789 ], [ -48.673444970744029, -26.8974380342902 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2020370191", "cod": 190.0, "nome": "R.José Cândido", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.673747520861333, -26.897682430084792 ], [ -48.673444970744029, -26.897438034290197 ] ] } }
 ]
 }

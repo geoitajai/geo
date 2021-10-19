@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110141268", "cod": 492, "nome": "R.Carlos Seara", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.671389870407232, -26.913539501026939 ], [ -48.67143086, -26.91389204 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110141268", "cod": 497, "nome": "R.Ciriaco Meirinho", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.671950720743887, -26.913861359209438 ], [ -48.67143086, -26.91389204 ], [ -48.671361978438739, -26.913895648710092 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2110141268", "cod": 492.0, "nome": "R.Carlos Seara", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.671389870407232, -26.913539501026936 ], [ -48.67143086, -26.91389204 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110141268", "cod": 497.0, "nome": "R.Ciriaco Meirinho", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.671950720743887, -26.913861359209438 ], [ -48.67143086, -26.91389204 ], [ -48.671361978438732, -26.913895648710092 ] ] } }
 ]
 }

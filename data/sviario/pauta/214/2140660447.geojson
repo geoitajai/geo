@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140660447", "cod": 736, "nome": "R.Venezuela", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.641326625262842, -26.934915863082999 ], [ -48.6414546, -26.93518797 ], [ -48.641460250765959, -26.935205035233118 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2140660447", "cod": 736.0, "nome": "R.Venezuela", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.641322074025808, -26.934906185968821 ], [ -48.6414546, -26.93518797 ], [ -48.641461224106322, -26.935207974706742 ] ] } }
 ]
 }

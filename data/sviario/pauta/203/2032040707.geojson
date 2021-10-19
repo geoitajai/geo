@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2032040707", "cod": 1070, "nome": "R.Emília Máxima dos Santos", "ptotalvia": 10.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.707389607779838, -26.873564240657029 ], [ -48.707409431977197, -26.873959165380519 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2032040707", "cod": 1071, "nome": "Av.Dr.Nereu Ramos (Murta)", "ptotalvia": 13.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.707630090476613, -26.873572840939438 ], [ -48.707650266237209, -26.873928556456598 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2032040707", "cod": 1070.0, "nome": "R.Emília Máxima dos Santos", "ptotalvia": 10.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.707389607779838, -26.873564240657029 ], [ -48.707409431977197, -26.873959165380519 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2032040707", "cod": 1071.0, "nome": "Av.Dr.Nereu Ramos (Murta)", "ptotalvia": 13.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.707630090476613, -26.873572840939438 ], [ -48.707650266237209, -26.873928556456598 ] ] } }
 ]
 }

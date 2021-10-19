@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2151250005", "cod": 1328, "nome": "Av.José Sasdelli", "ptotalvia": 18.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.748647150517606, -26.875360202057092 ], [ -48.748283345698518, -26.875384460591551 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2151250005", "cod": 1328.0, "nome": "Av.José Sasdelli", "ptotalvia": 18.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.748647150517606, -26.875360202057088 ], [ -48.748283345698511, -26.875384460591551 ] ] } }
 ]
 }

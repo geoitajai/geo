@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2042054305", "cod": 856, "nome": "R.José Anselmo da Silva", "ptotalvia": 9.5, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67365937, -26.9288957 ], [ -48.673007772047988, -26.928890231562104 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2042054305", "cod": 854, "nome": "R.Ver.Abílio Otávio do Canto", "ptotalvia": 20.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.673718187551273, -26.928597197562851 ], [ -48.67365937, -26.9288957 ], [ -48.673651763577297, -26.928960115102768 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2042054305", "cod": 856.0, "nome": "R.José Anselmo da Silva", "ptotalvia": 9.5, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67365937, -26.9288957 ], [ -48.673007772047988, -26.928890231562104 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2042054305", "cod": 854.0, "nome": "R.Ver.Abílio Otávio do Canto", "ptotalvia": 20.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.673718187551273, -26.928597197562848 ], [ -48.67365937, -26.9288957 ], [ -48.673651763577297, -26.928960115102772 ] ] } }
 ]
 }

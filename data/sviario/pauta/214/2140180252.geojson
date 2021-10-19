@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140180252", "cod": 752, "nome": "R.Jeremias Caldeira", "ptotalvia": 8.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.634974573336578, -26.926022337886092 ], [ -48.634629740668373, -26.925772137686394 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2140180252", "cod": 752.0, "nome": "R.Jeremias Caldeira", "ptotalvia": 8.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.634974573336578, -26.926022337886092 ], [ -48.634629740668373, -26.925772137686394 ] ] } }
 ]
 }

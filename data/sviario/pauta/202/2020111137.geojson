@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020111137", "cod": 285, "nome": "R.Cap.Adolfo Germano de Andrade", "ptotalvia": 13.8, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.667222099867182, -26.904197947199496 ], [ -48.667257614222727, -26.904528490980589 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2020111137", "cod": 285.0, "nome": "R.Cap.Adolfo Germano de Andrade", "ptotalvia": 13.8, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.667222099867182, -26.904197947199496 ], [ -48.667257614222727, -26.904528490980589 ] ] } }
 ]
 }

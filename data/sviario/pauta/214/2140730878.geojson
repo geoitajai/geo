@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140730878", "cod": 789, "nome": "R.Olímpio Manoel Cabral", "ptotalvia": 7.5, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.644797009511208, -26.956298818997624 ], [ -48.645195462788138, -26.956272011342033 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2140730878", "cod": 789.0, "nome": "R.Olímpio Manoel Cabral", "ptotalvia": 7.5, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.644797009511208, -26.956298818997624 ], [ -48.645195462788138, -26.956272011342033 ] ] } }
 ]
 }

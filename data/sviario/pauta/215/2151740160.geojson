@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2151740160", "cod": 1326, "nome": "R.João Ardigó", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.751831175042597, -26.88129360873485 ], [ -48.75183627, -26.88134402 ], [ -48.75186761133736, -26.881634020722068 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2151740160", "cod": 1340, "nome": "Av.José João Corrêa", "ptotalvia": 18.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.75209739, -26.88132021 ], [ -48.75183627, -26.88134402 ], [ -48.751788768995013, -26.881347036503822 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2151740160", "cod": 1326.0, "nome": "R.João Ardigó", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.751831175042597, -26.881293608734847 ], [ -48.75183627, -26.88134402 ], [ -48.75186761133736, -26.881634020722068 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2151740160", "cod": 1340.0, "nome": "Av.José João Corrêa", "ptotalvia": 18.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.75209739, -26.88132021 ], [ -48.75183627, -26.88134402 ], [ -48.751788768995013, -26.881347036503822 ] ] } }
 ]
 }

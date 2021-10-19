@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2150940205", "cod": 1319, "nome": "Av.Paulo Cantídio da Silva", "ptotalvia": 32.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.749520739268853, -26.885218676301299 ], [ -48.74952941, -26.88542767 ], [ -48.749468475623161, -26.885710704071361 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2150940205", "cod": 1341, "nome": "Av.Demostenes Feminella Filho", "ptotalvia": 26.0, "ppasseio1": 5.0, "ppasseio2": 5.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.74945785401696, -26.885147855557026 ], [ -48.748988443184508, -26.885039630530422 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2150940205", "cod": 1319.0, "nome": "Av.Paulo Cantídio da Silva", "ptotalvia": 32.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.749520739268853, -26.885218676301303 ], [ -48.74952941, -26.885427669999988 ], [ -48.749468475623168, -26.885710704071364 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2150940205", "cod": 1341.0, "nome": "Av.Demostenes Feminella Filho", "ptotalvia": 26.0, "ppasseio1": 5.0, "ppasseio2": 5.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.74945785401696, -26.885147855557026 ], [ -48.748988443184508, -26.885039630530422 ] ] } }
 ]
 }

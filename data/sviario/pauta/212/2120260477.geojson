@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2120260477", "cod": 454, "nome": "R.Alfredo Eicke Júnior", "ptotalvia": 18.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67695607000001, -26.89077935 ], [ -48.676918896612435, -26.890747919830979 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2120260477", "cod": 157, "nome": "R.Blumenau", "ptotalvia": 14.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677176191463047, -26.890512041979992 ], [ -48.67695607000001, -26.89077935 ], [ -48.676947016105309, -26.890790056179334 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2120260477", "cod": 454.0, "nome": "R.Alfredo Eicke Júnior", "ptotalvia": 18.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67695607000001, -26.89077935 ], [ -48.676918896612435, -26.890747919830975 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2120260477", "cod": 157.0, "nome": "R.Blumenau", "ptotalvia": 14.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677176191463047, -26.890512041979992 ], [ -48.67695607000001, -26.89077935 ], [ -48.676947016105309, -26.890790056179338 ] ] } }
 ]
 }

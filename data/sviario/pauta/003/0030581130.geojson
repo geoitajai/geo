@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0030581130", "cod": 1, "nome": "R.Vilson Gonçalves", "ptotalvia": 4.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69700273930443, -26.890377850468283 ], [ -48.697021301095184, -26.890933869412518 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0030581130", "cod": 1.0, "nome": "R.Vilson Gonçalves", "ptotalvia": 4.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69700273930443, -26.89037785046828 ], [ -48.697021301095184, -26.890933869412518 ] ] } }
 ]
 }

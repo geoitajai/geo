@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0054860240", "cod": 1563, "nome": "R.José Vasquez Martinez", "ptotalvia": 6.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.703778861972729, -26.922770184237176 ], [ -48.704032279493418, -26.922967066200563 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0054860240", "cod": 1563.0, "nome": "R.José Vasquez Martinez", "ptotalvia": 6.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.703778861972729, -26.922770184237176 ], [ -48.704032279493418, -26.922967066200563 ] ] } }
 ]
 }

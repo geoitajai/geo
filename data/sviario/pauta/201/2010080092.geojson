@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010080092", "cod": 291, "nome": "R.Samuel Heusi", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.657709093024287, -26.902954921989974 ], [ -48.65759542, -26.90288097 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010080092", "cod": 288, "nome": "Av.Pref.Paulo Bauer", "ptotalvia": 14.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.657600098676134, -26.902877840746115 ], [ -48.65759542, -26.90288097 ], [ -48.657224940994588, -26.903131934968812 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010080092", "cod": 289, "nome": "R.Dr. Pedro Ferreira", "ptotalvia": 14.0, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.657898218495724, -26.903211202134941 ], [ -48.657531037423738, -26.903477938377545 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2010080092", "cod": 291.0, "nome": "R.Samuel Heusi", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.657709093024287, -26.902954921989974 ], [ -48.65759542, -26.90288097 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010080092", "cod": 288.0, "nome": "Av.Pref.Paulo Bauer", "ptotalvia": 14.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.657600098676134, -26.902877840746115 ], [ -48.65759542, -26.90288097 ], [ -48.657224940994588, -26.903131934968812 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010080092", "cod": 289.0, "nome": "R.Dr. Pedro Ferreira", "ptotalvia": 14.0, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.657898218495724, -26.903211202134941 ], [ -48.657531037423738, -26.903477938377545 ] ] } }
 ]
 }

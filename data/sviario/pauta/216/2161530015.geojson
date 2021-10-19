@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2161530015", "cod": 1251, "nome": "R.Mineral", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.842070624235099, -27.046468813959567 ], [ -48.84218265, -27.04611913 ], [ -48.842218491128037, -27.04603403637935 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2161530015", "cod": 1556, "nome": "R.Francisco de Assis Berti", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.842559893956405, -27.046099721394192 ], [ -48.84218265, -27.04611913 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2161530015", "cod": 1251.0, "nome": "R.Mineral", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.84207955801817, -27.046440927605211 ], [ -48.84218265, -27.04611913 ], [ -48.84222769918393, -27.04601217468764 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2161530015", "cod": 1556.0, "nome": "R.Francisco de Assis Berti", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.842554555446704, -27.046099996059212 ], [ -48.84218265, -27.04611913 ] ] } }
 ]
 }

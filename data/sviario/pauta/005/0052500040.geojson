@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0052500040", "cod": 982, "nome": "R.João Cirilo da Cunha", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700370584052706, -26.925870505614576 ], [ -48.700124235149538, -26.926106862840982 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0052500040", "cod": 982.0, "nome": "R.João Cirilo da Cunha", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700370584052706, -26.925870505614579 ], [ -48.700124235149538, -26.926106862840982 ] ] } }
 ]
 }

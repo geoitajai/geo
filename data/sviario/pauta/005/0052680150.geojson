@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0052680150", "cod": 69, "nome": "R.Botuverá", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.685636059222702, -26.895787986735758 ], [ -48.68558015, -26.89584125 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0052680150", "cod": 58, "nome": "R.Osvaldo Becker", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.685677778663063, -26.895839739528139 ], [ -48.685302833572266, -26.895844102590448 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0052680150", "cod": 69.0, "nome": "R.Botuverá", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.685636059222702, -26.895787986735762 ], [ -48.68558015, -26.89584125 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0052680150", "cod": 58.0, "nome": "R.Osvaldo Becker", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.685677778663063, -26.895839739528139 ], [ -48.685302833572266, -26.895844102590448 ] ] } }
 ]
 }

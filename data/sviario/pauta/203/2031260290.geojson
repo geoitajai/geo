@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2031260290", "cod": 1036, "nome": "R.Alexandre D´Ávila Baptista", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702479439014084, -26.869819322679099 ], [ -48.702496792893719, -26.870128503905267 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2031260290", "cod": 1036.0, "nome": "R.Alexandre D´Ávila Baptista", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702479439014077, -26.869819322679099 ], [ -48.702496792893719, -26.870128503905267 ] ] } }
 ]
 }

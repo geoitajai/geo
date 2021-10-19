@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0030200485", "cod": 1116, "nome": "R.Jovito Anacleto", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69156591674431, -26.884720536633019 ], [ -48.6916682, -26.88481111 ], [ -48.691721223303745, -26.885537680694231 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0030200485", "cod": 1111, "nome": "Av.Dr.Reinaldo Schmithausen", "ptotalvia": 27.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692234716313877, -26.884098647204347 ], [ -48.6919588, -26.88422003 ], [ -48.691560675021798, -26.884647760028191 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0030200485", "cod": 1116.0, "nome": "R.Jovito Anacleto", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691664054569301, -26.884807439162611 ], [ -48.6916682, -26.88481111 ], [ -48.691721229256743, -26.885537762267049 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0030200485", "cod": 1111.0, "nome": "Av.Dr.Reinaldo Schmithausen", "ptotalvia": 27.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692227753727217, -26.88410171023828 ], [ -48.6919588, -26.88422003 ], [ -48.691902681705706, -26.884280321596645 ] ] } }
 ]
 }

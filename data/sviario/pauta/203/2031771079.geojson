@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2031771079", "cod": 1058, "nome": "R.Archimedes Lobo Johannsen", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69206214588592, -26.875647979382844 ], [ -48.691686091070466, -26.875658995582516 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2031771079", "cod": 1058.0, "nome": "R.Archimedes Lobo Johannsen", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69206214588592, -26.875647979382844 ], [ -48.691686091070466, -26.875658995582516 ] ] } }
 ]
 }

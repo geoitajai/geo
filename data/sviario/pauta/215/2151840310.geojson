@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2151840310", "cod": 1340, "nome": "Av.José João Corrêa", "ptotalvia": 18.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.743499325351237, -26.881887866275864 ], [ -48.743153410286446, -26.88191565140033 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2151840310", "cod": 1340.0, "nome": "Av.José João Corrêa", "ptotalvia": 18.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.743499325351237, -26.881887866275864 ], [ -48.743153410286446, -26.88191565140033 ] ] } }
 ]
 }

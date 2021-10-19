@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0054910620", "cod": 121, "nome": "R.Genelio Heleodoro Luiz", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70252886, -26.90532642 ], [ -48.702500865432569, -26.905327080708513 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0054910620", "cod": 33, "nome": "R.Jaziel José Rosa", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702495636850578, -26.904821077659921 ], [ -48.70249656, -26.90484192 ], [ -48.70252886, -26.90532642 ], [ -48.702529264577727, -26.905336099053311 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0054910620", "cod": 15, "nome": "R.Arq.Nilson Edson dos Santos", "ptotalvia": 21.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70283769472362, -26.904827298915919 ], [ -48.70249656, -26.90484192 ], [ -48.702447433734534, -26.904843422022545 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0054910620", "cod": 121.0, "nome": "R.Genelio Heleodoro Luiz", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70252886, -26.90532642 ], [ -48.702500865432569, -26.90532708070851 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054910620", "cod": 33.0, "nome": "R.Jaziel José Rosa", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702495636850578, -26.904821077659918 ], [ -48.70249656, -26.90484192 ], [ -48.70252886, -26.90532642 ], [ -48.702529264577727, -26.905336099053311 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054910620", "cod": 15.0, "nome": "R.Arq.Nilson Edson dos Santos", "ptotalvia": 21.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70283769472362, -26.904827298915915 ], [ -48.70249656, -26.90484192 ], [ -48.702447433734534, -26.904843422022548 ] ] } }
 ]
 }

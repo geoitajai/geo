@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040410468", "cod": 609, "nome": "R.Emílio da Cruz Coutinho", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656768710809281, -26.915221088615091 ], [ -48.65649424, -26.91500278 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040410468", "cod": 629, "nome": "R.Tubarão", "ptotalvia": 13.2, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65667028, -26.91481501 ], [ -48.656636197632821, -26.914804462624019 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040410468", "cod": 265, "nome": "Av.Ver.Abrahão João Francisco", "ptotalvia": 29.4, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656710336328906, -26.914772390168263 ], [ -48.65667028, -26.91481501 ], [ -48.65649424, -26.91500278 ], [ -48.656454171810964, -26.91506442772436 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2040410468", "cod": 609.0, "nome": "R.Emílio da Cruz Coutinho", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656768710809281, -26.915221088615088 ], [ -48.65649424, -26.91500278 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040410468", "cod": 629.0, "nome": "R.Tubarão", "ptotalvia": 13.2, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65667028, -26.91481501 ], [ -48.656636197632821, -26.914804462624023 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040410468", "cod": 265.0, "nome": "Av.Ver.Abrahão João Francisco", "ptotalvia": 29.4, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656710336328906, -26.914772390168263 ], [ -48.65667028, -26.91481501 ], [ -48.65649424, -26.91500278 ], [ -48.656454171810964, -26.915064427724367 ] ] } }
 ]
 }

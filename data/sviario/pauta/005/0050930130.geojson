@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050930130", "cod": 117, "nome": "R.Agrolândia", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69674837, -26.9087648 ], [ -48.696443596138323, -26.908779659089113 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0050930130", "cod": 95, "nome": "R.Érico Veríssimo", "ptotalvia": 14.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69672476575991, -26.908391106047386 ], [ -48.69674837, -26.9087648 ], [ -48.696751826727251, -26.908817419771495 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0050930130", "cod": 117.0, "nome": "R.Agrolândia", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69674837, -26.9087648 ], [ -48.696443596138323, -26.908779659089117 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050930130", "cod": 95.0, "nome": "R.Érico Veríssimo", "ptotalvia": 14.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69672476575991, -26.908391106047386 ], [ -48.69674837, -26.9087648 ], [ -48.696751826727251, -26.908817419771495 ] ] } }
 ]
 }

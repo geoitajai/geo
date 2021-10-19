@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040330201", "cod": 629, "nome": "R.Tubarão", "ptotalvia": 13.2, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656441701129985, -26.914740953299074 ], [ -48.65600222, -26.91459264 ], [ -48.655971585468087, -26.914581435561917 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040330201", "cod": 276, "nome": "Av.7 de Setembro", "ptotalvia": 18.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656020557691726, -26.914548576824082 ], [ -48.65600222, -26.91459264 ], [ -48.655890195607668, -26.914860639545161 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2040330201", "cod": 629.0, "nome": "R.Tubarão", "ptotalvia": 13.2, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656441701129985, -26.914740953299074 ], [ -48.65600222, -26.91459264 ], [ -48.655971585468087, -26.914581435561914 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040330201", "cod": 276.0, "nome": "Av.7 de Setembro", "ptotalvia": 18.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656020557691726, -26.914548576824082 ], [ -48.65600222, -26.91459264 ], [ -48.655890195607668, -26.914860639545161 ] ] } }
 ]
 }

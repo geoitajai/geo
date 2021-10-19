@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2041850620", "cod": 637, "nome": "Serv.Zacharias Baptista Moura", "ptotalvia": 4.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656260042231807, -26.920345135192804 ], [ -48.656398118404802, -26.920208944727396 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2041850620", "cod": 1703, "nome": "R. Maria Fortunata da Silva", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65638947, -26.92040847 ], [ -48.656293264252241, -26.92049894518879 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2041850620", "cod": 637.0, "nome": "Serv.Zacharias Baptista Moura", "ptotalvia": 4.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656260042231807, -26.920345135192804 ], [ -48.656398118404802, -26.920208944727396 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2041850620", "cod": 1703.0, "nome": "R. Maria Fortunata da Silva", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65638947, -26.92040847 ], [ -48.656293264252241, -26.92049894518879 ] ] } }
 ]
 }

@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140760210", "cod": 803, "nome": "R.Valdir Martins", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.640284406266865, -26.954333222017265 ], [ -48.6398581490811, -26.954377832091375 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2140760210", "cod": 586, "nome": "Av.Osvaldo Reis", "ptotalvia": 34.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.640299405602704, -26.954370146316496 ], [ -48.640269974524813, -26.954604699040807 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2140760210", "cod": 803.0, "nome": "R.Valdir Martins", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.640284406266858, -26.954333222017269 ], [ -48.6398581490811, -26.954377832091375 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140760210", "cod": 586.0, "nome": "Av.Osvaldo Reis", "ptotalvia": 34.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.640299405602704, -26.954370146316492 ], [ -48.640269974524813, -26.954604699040807 ] ] } }
 ]
 }

@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2163521000", "cod": 1704.0, "nome": "R.Olâmpio Francisco Vicente", "ptotalvia": 22.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.714729788136751, -27.007124154085407 ], [ -48.714678842707706, -27.007070246814912 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2163521000", "cod": 1541.0, "nome": "R.Eduardo Vicente de Mello", "ptotalvia": 25.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.718917175761732, -27.00047069220788 ], [ -48.71898933, -27.00055963 ], [ -48.71909768, -27.00072137 ], [ -48.71927618, -27.00109533 ], [ -48.719420029597366, -27.001275022542316 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2163521000", "cod": 1478.0, "nome": "R.Benjamim Dagnoni", "ptotalvia": 22.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.714893146329729, -27.005737805871906 ], [ -48.7149096, -27.00576375 ], [ -48.71493147, -27.00610278 ], [ -48.71487691, -27.00648257 ], [ -48.71480303, -27.00676993 ], [ -48.714677187596116, -27.007064526669705 ] ] } }
+]
+}

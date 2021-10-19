@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2161600460", "cod": 1534.0, "nome": "R.José Laurentino Júnior", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.863254484970071, -27.036731447050375 ], [ -48.8623121, -27.03647812 ], [ -48.862266447596717, -27.036465883524411 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2161600460", "cod": 1539.0, "nome": "R.Luigi Girardi", "ptotalvia": 20.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.863283962769692, -27.037273756938315 ], [ -48.86319029, -27.03724877 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2161600460", "cod": 1235.0, "nome": "Rod.Dep.Antônio Heil", "ptotalvia": 30.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.863097924712953, -27.038482100078255 ], [ -48.862317889810505, -27.037893291462186 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2161600460", "cod": 1716.0, "nome": "R.Olímpio Gadotti", "ptotalvia": 20.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.8623121, -27.03647812 ], [ -48.86230246176234, -27.036422384712647 ] ] } }
+]
+}

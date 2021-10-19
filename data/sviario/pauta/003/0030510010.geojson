@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0030510010", "cod": 1148, "nome": "R.Max Tavares D´Amaral", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69474846, -26.89414547 ], [ -48.694766358820438, -26.894396520632952 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0030510010", "cod": 1145, "nome": "R.Antônio Müller Reis", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695196018386561, -26.894096940110153 ], [ -48.694681616539654, -26.894152869171091 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0030510010", "cod": 1148.0, "nome": "R.Max Tavares D´Amaral", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69474846, -26.89414547 ], [ -48.694766358820438, -26.894396520632945 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0030510010", "cod": 1145.0, "nome": "R.Antônio Müller Reis", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695196018386561, -26.894096940110153 ], [ -48.694681616539654, -26.894152869171091 ] ] } }
 ]
 }

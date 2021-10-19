@@ -2,9 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0053260300", "cod": 950, "nome": "R.Raul de Souza", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69757527, -26.92201303 ], [ -48.697278707327975, -26.922121123708646 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0053260300", "cod": 950, "nome": "R.Raul de Souza", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69757527, -26.92201303 ], [ -48.697278707327975, -26.922121123708646 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0053260300", "cod": 946, "nome": "R.Otília Damasceno", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697469094008163, -26.921780002167345 ], [ -48.69757527, -26.92201303 ], [ -48.697595540325274, -26.922066852281265 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0053260300", "cod": 946, "nome": "R.Otília Damasceno", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697469094008163, -26.921780002167345 ], [ -48.69757527, -26.92201303 ], [ -48.697595540325274, -26.922066852281265 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0053260300", "cod": 950.0, "nome": "R.Raul de Souza", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69757527, -26.92201303 ], [ -48.697278707327975, -26.922121123708646 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0053260300", "cod": 946.0, "nome": "R.Otília Damasceno", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697469094008163, -26.921780002167349 ], [ -48.69757527, -26.92201303 ], [ -48.697595540325274, -26.922066852281262 ] ] } }
 ]
 }

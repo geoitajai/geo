@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2030220539", "cod": 1103, "nome": "R.Henrique Bianchini", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.703963158434114, -26.886897186905784 ], [ -48.703996011838768, -26.887522971952183 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2030220539", "cod": 1104, "nome": "R.Abílio Corrêa Mello", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.703449985097819, -26.88692399408604 ], [ -48.703481193340878, -26.887539287799566 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2030220539", "cod": 1103.0, "nome": "R.Henrique Bianchini", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.703963158434114, -26.886897186905784 ], [ -48.703996011838768, -26.887522971952183 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2030220539", "cod": 1104.0, "nome": "R.Abílio Corrêa Mello", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.703449985097819, -26.886923994086043 ], [ -48.703481193340878, -26.887539287799566 ] ] } }
 ]
 }

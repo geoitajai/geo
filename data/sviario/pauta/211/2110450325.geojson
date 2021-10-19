@@ -2,9 +2,9 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110450325", "cod": 163, "nome": "R.Alberto Werner", "ptotalvia": 13.2, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66957196, -26.91017652 ], [ -48.669585644658184, -26.91028440010016 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110450325", "cod": 327, "nome": "R.Umbelino Damasio de Brito", "ptotalvia": 11.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66952649, -26.90981811 ], [ -48.66930267, -26.90986843 ], [ -48.66914404, -26.90997452 ], [ -48.669109440496712, -26.910010158769712 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110450325", "cod": 163, "nome": "R.Alberto Werner", "ptotalvia": 13.2, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.669521456720013, -26.909775038475736 ], [ -48.66952649, -26.90981811 ], [ -48.66957196, -26.91017652 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110450325", "cod": 495, "nome": "R.João Gaya", "ptotalvia": 14.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.669579776978708, -26.909814115993054 ], [ -48.66952649, -26.90981811 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2110450325", "cod": 163.0, "nome": "R.Alberto Werner", "ptotalvia": 13.2, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66957196, -26.91017652 ], [ -48.669585644658184, -26.910284400100156 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110450325", "cod": 327.0, "nome": "R.Umbelino Damasio de Brito", "ptotalvia": 11.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66952649, -26.90981811 ], [ -48.66930267, -26.90986843 ], [ -48.66914404, -26.90997452 ], [ -48.669109440496712, -26.910010158769708 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110450325", "cod": 163.0, "nome": "R.Alberto Werner", "ptotalvia": 13.2, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.669521456720013, -26.90977503847574 ], [ -48.66952649, -26.90981811 ], [ -48.66957196, -26.91017652 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110450325", "cod": 495.0, "nome": "R.João Gaya", "ptotalvia": 14.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.669579776978708, -26.909814115993054 ], [ -48.66952649, -26.90981811 ] ] } }
 ]
 }

@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0031470170", "cod": 1171, "nome": "R.Mário Bento dos Passos", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.705525497322029, -26.89488210088787 ], [ -48.70554308473605, -26.895223046956556 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0031470170", "cod": 1171.0, "nome": "R.Mário Bento dos Passos", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.705525497322029, -26.89488210088787 ], [ -48.70554308473605, -26.895223046956552 ] ] } }
 ]
 }

@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2210300238", "cod": 512, "nome": "R.Ângelo Rodi", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67978460773292, -26.91586767743917 ], [ -48.679808745339407, -26.916211289007443 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2210300238", "cod": 512.0, "nome": "R.Ângelo Rodi", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67978460773292, -26.91586767743917 ], [ -48.679808745339407, -26.916211289007439 ] ] } }
 ]
 }

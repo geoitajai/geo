@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140630080", "cod": 733, "nome": "R.Alcides Pereira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.644953881469412, -26.93273667739772 ], [ -48.64522675821236, -26.932968145819949 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2140630080", "cod": 733.0, "nome": "R.Alcides Pereira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.644953881469412, -26.932736677397717 ], [ -48.64522675821236, -26.932968145819945 ] ] } }
 ]
 }

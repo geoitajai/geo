@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020880716", "cod": 159, "nome": "R.José Pereira Liberato", "ptotalvia": 12.5, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.682679797286603, -26.90593069001153 ], [ -48.68271874, -26.90600792 ], [ -48.682911962596826, -26.906382869988352 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020880716", "cod": 231, "nome": "R.Florisbela Balbina da Silva Gonçalves", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68271874, -26.90600792 ], [ -48.682240663481167, -26.90603652134525 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2020880716", "cod": 159.0, "nome": "R.José Pereira Liberato", "ptotalvia": 12.5, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.682679797286603, -26.905930690011534 ], [ -48.68271874, -26.90600792 ], [ -48.682911962596826, -26.906382869988352 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020880716", "cod": 231.0, "nome": "R.Florisbela Balbina da Silva Gonçalves", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68271874, -26.90600792 ], [ -48.682240663481167, -26.906036521345253 ] ] } }
 ]
 }

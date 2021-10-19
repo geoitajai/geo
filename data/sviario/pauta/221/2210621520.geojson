@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2210621520", "cod": 227, "nome": "R.Indaial", "ptotalvia": 17.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67751006270931, -26.908306009980592 ], [ -48.677494643840021, -26.908660523749681 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2210621520", "cod": 160, "nome": "R.Heitor Liberato", "ptotalvia": 15.5, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.678133048307288, -26.9084793654437 ], [ -48.677533563280953, -26.908289956861076 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2210621520", "cod": 227.0, "nome": "R.Indaial", "ptotalvia": 17.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67751006270931, -26.908306009980592 ], [ -48.677494643840021, -26.908660523749678 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210621520", "cod": 160.0, "nome": "R.Heitor Liberato", "ptotalvia": 15.5, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.678133048307295, -26.908479365443696 ], [ -48.677533563280953, -26.908289956861076 ] ] } }
 ]
 }

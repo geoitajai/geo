@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0052641350", "cod": 86, "nome": "R.João Camilo Vicente", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.686938103775027, -26.898902227877233 ], [ -48.68658118725174, -26.898903136762982 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0052641350", "cod": 87, "nome": "R.Exp.José Corrêa", "ptotalvia": 5.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.686958781661296, -26.899149226839821 ], [ -48.68656553306193, -26.899154097420354 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0052641350", "cod": 86.0, "nome": "R.João Camilo Vicente", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.686938103775027, -26.898902227877233 ], [ -48.68658118725174, -26.898903136762982 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0052641350", "cod": 87.0, "nome": "R.Exp.José Corrêa", "ptotalvia": 5.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.686958781661296, -26.899149226839818 ], [ -48.68656553306193, -26.899154097420354 ] ] } }
 ]
 }

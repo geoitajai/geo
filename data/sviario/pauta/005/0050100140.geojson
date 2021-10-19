@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050100140", "cod": 104, "nome": "R.Padre Paulo Condla", "ptotalvia": 15.0, "ppasseio1": 3.5, "ppasseio2": 3.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68815140602247, -26.908787938939668 ], [ -48.687665229348084, -26.908806820789057 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0050100140", "cod": 104.0, "nome": "R.Padre Paulo Condla", "ptotalvia": 15.0, "ppasseio1": 3.5, "ppasseio2": 3.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68815140602247, -26.908787938939671 ], [ -48.687665229348084, -26.90880682078906 ] ] } }
 ]
 }

@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110410232", "cod": 498, "nome": "R.Willy Henning", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67078151, -26.91421468 ], [ -48.670854157751457, -26.914210627534516 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110410232", "cod": 262, "nome": "Av.José Eugênio Muller", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.670764247663882, -26.914095961676605 ], [ -48.67078151, -26.91421468 ], [ -48.670808611677778, -26.914415286484513 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2110410232", "cod": 498.0, "nome": "R.Willy Henning", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67078151, -26.91421468 ], [ -48.670854157751457, -26.914210627534516 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110410232", "cod": 262.0, "nome": "Av.José Eugênio Muller", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.670764247663882, -26.914095961676605 ], [ -48.67078151, -26.91421468 ], [ -48.670808611677778, -26.914415286484516 ] ] } }
 ]
 }

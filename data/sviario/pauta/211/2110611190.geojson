@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110611190", "cod": 545, "nome": "R.José Gall", "ptotalvia": 15.6, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.672422158850992, -26.919293105323728 ], [ -48.672145293089166, -26.918971636241167 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2110611190", "cod": 545.0, "nome": "R.José Gall", "ptotalvia": 15.6, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.672422158850992, -26.919293105323728 ], [ -48.672145293089166, -26.918971636241167 ] ] } }
 ]
 }

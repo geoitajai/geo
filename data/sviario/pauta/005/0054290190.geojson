@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0054290190", "cod": 130, "nome": "Av.Nilo Bittencourt", "ptotalvia": 20.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.704943386016012, -26.906189214120978 ], [ -48.70494609, -26.90624468 ], [ -48.704963878517965, -26.906502981896363 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0054290190", "cod": 133, "nome": "R.Laudelino João da Veiga", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.705383823307983, -26.90622610868671 ], [ -48.70494609, -26.90624468 ], [ -48.704921506342608, -26.906245443306254 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0054290190", "cod": 130.0, "nome": "Av.Nilo Bittencourt", "ptotalvia": 20.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.704943386016012, -26.906189214120982 ], [ -48.70494609, -26.90624468 ], [ -48.704963878517965, -26.906502981896359 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054290190", "cod": 133.0, "nome": "R.Laudelino João da Veiga", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.705383823307983, -26.90622610868671 ], [ -48.70494609, -26.90624468 ], [ -48.704921506342608, -26.906245443306254 ] ] } }
 ]
 }

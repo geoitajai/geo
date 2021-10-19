@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040840040", "cod": 858, "nome": "R.Egon Muller", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676194181441176, -26.923541889430375 ], [ -48.676087016624166, -26.924156062816589 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040840040", "cod": 546, "nome": "R.Manoel Joaquim Coelho", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6765632028361, -26.923748796632523 ], [ -48.67655878, -26.92378416 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040840040", "cod": 265, "nome": "Av.Ver.Abrahão João Francisco", "ptotalvia": 29.4, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676607440107063, -26.923820262263472 ], [ -48.67655878, -26.92378416 ], [ -48.676232024131963, -26.923537809591153 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2040840040", "cod": 858.0, "nome": "R.Egon Muller", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676194181441176, -26.923541889430371 ], [ -48.676087016624173, -26.924156062816593 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040840040", "cod": 546.0, "nome": "R.Manoel Joaquim Coelho", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6765632028361, -26.923748796632523 ], [ -48.67655878, -26.92378416 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040840040", "cod": 265.0, "nome": "Av.Ver.Abrahão João Francisco", "ptotalvia": 29.4, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676607440107063, -26.923820262263469 ], [ -48.67655878, -26.92378416 ], [ -48.676232024131963, -26.923537809591153 ] ] } }
 ]
 }

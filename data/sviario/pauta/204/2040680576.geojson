@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040680576", "cod": 687, "nome": "R.Santina Ernesta dos Santos", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656479483847377, -26.926164693263896 ], [ -48.65668869, -26.92633636 ], [ -48.656746132430087, -26.926383227123708 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040680576", "cod": 690, "nome": "R.Videira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656983754987678, -26.92604192468098 ], [ -48.65690079, -26.92612471 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040680576", "cod": 690, "nome": "R.Videira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65690079, -26.92612471 ], [ -48.65668869, -26.92633636 ], [ -48.656636027605586, -26.926387230849002 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2040680576", "cod": 687.0, "nome": "R.Santina Ernesta dos Santos", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656479483847377, -26.926164693263896 ], [ -48.65668869, -26.92633636 ], [ -48.656746132430087, -26.926383227123704 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040680576", "cod": 690.0, "nome": "R.Videira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656983754987678, -26.92604192468098 ], [ -48.65690079, -26.92612471 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040680576", "cod": 690.0, "nome": "R.Videira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65690079, -26.92612471 ], [ -48.65668869, -26.92633636 ], [ -48.656636027605586, -26.926387230849002 ] ] } }
 ]
 }

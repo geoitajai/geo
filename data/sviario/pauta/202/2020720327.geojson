@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020720327", "cod": 159, "nome": "R.José Pereira Liberato", "ptotalvia": 12.5, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.682484832667043, -26.901134668268302 ], [ -48.682535592516999, -26.90153529119182 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020720327", "cod": 208, "nome": "R.Rio Araguaia", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.682608927056883, -26.901345435931844 ], [ -48.68251252000001, -26.90135019 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2020720327", "cod": 159.0, "nome": "R.José Pereira Liberato", "ptotalvia": 12.5, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.682484832667043, -26.901134668268305 ], [ -48.682535592516999, -26.90153529119182 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020720327", "cod": 208.0, "nome": "R.Rio Araguaia", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.682608927056883, -26.901345435931848 ], [ -48.68251252000001, -26.90135019 ] ] } }
 ]
 }

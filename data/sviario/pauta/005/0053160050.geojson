@@ -2,7 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0053160050", "cod": 946, "nome": "R.Otília Damasceno", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697018584322741, -26.920766801502303 ], [ -48.69714221067953, -26.92105065978004 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0053160050", "cod": 946, "nome": "R.Otília Damasceno", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697018584322741, -26.920766801502303 ], [ -48.69714221067953, -26.92105065978004 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0053160050", "cod": 946.0, "nome": "R.Otília Damasceno", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697018584322741, -26.920766801502307 ], [ -48.69714221067953, -26.92105065978004 ] ] } }
 ]
 }

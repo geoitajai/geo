@@ -2,9 +2,9 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050010710", "cod": 63, "nome": "R.Caçador", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68873415, -26.8960377 ], [ -48.68854318, -26.89610536 ], [ -48.688404792814673, -26.896145308353237 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0050010710", "cod": 405, "nome": "R.David Adão Schmidt", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68873415, -26.89603768 ], [ -48.688602940021383, -26.895750284976472 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0050010710", "cod": 60, "nome": "R.Estefano José Vanolli", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68873415, -26.89603768 ], [ -48.688755771730889, -26.896091547261591 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0050010710", "cod": 1558, "nome": "R.Carlos Drumond de Andrade (S.Vicente)", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68873415, -26.89603768 ], [ -48.688767548330489, -26.896023142232554 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0050010710", "cod": 63.0, "nome": "R.Caçador", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68873415, -26.8960377 ], [ -48.68854318, -26.89610536 ], [ -48.688404792814673, -26.896145308353237 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050010710", "cod": 405.0, "nome": "R.David Adão Schmidt", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68873415, -26.89603768 ], [ -48.688602940021383, -26.895750284976472 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050010710", "cod": 60.0, "nome": "R.Estefano José Vanolli", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68873415, -26.89603768 ], [ -48.688755771730889, -26.896091547261594 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050010710", "cod": 1558.0, "nome": "R.Carlos Drumond de Andrade (S.Vicente)", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68873415, -26.89603768 ], [ -48.688767548330489, -26.896023142232554 ] ] } }
 ]
 }

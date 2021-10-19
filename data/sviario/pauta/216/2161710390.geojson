@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2161710390", "cod": 1260, "nome": "R.Manoel Dario Custódio", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.848093180762611, -27.040262318243975 ], [ -48.847707669756382, -27.040285696214699 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2161710390", "cod": 1260.0, "nome": "R.Manoel Dario Custódio", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.848093180762611, -27.040262318243975 ], [ -48.847707669756382, -27.040285696214699 ] ] } }
 ]
 }

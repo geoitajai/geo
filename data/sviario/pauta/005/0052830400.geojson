@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0052830400", "cod": 59, "nome": "R.Alice Vieira da Silva", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.690124411401726, -26.896053605816668 ], [ -48.688885580468032, -26.896095327594988 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0052830400", "cod": 1558, "nome": "R.Carlos Drumond de Andrade (S.Vicente)", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.688860168724226, -26.895982825970577 ], [ -48.68891587, -26.89595858 ], [ -48.68901032, -26.89588083 ], [ -48.68909164, -26.89557884 ], [ -48.689106010950852, -26.895440501072159 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0052830400", "cod": 59.0, "nome": "R.Alice Vieira da Silva", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.690124411401726, -26.896053605816665 ], [ -48.688885580468032, -26.896095327594988 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0052830400", "cod": 1558.0, "nome": "R.Carlos Drumond de Andrade (S.Vicente)", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.688860168724226, -26.895982825970574 ], [ -48.68891587, -26.895958579999988 ], [ -48.68901032, -26.89588083 ], [ -48.68909164, -26.89557884 ], [ -48.689106010950852, -26.895440501072141 ] ] } }
 ]
 }

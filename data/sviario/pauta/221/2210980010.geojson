@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2210980010", "cod": 569, "nome": "R.João Reipert de Amorim", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.680075888411281, -26.919981475604366 ], [ -48.6801138, -26.92033755 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2210980010", "cod": 574, "nome": "R.Esperidião Graciliano da Silva", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.680159623099499, -26.920049280954604 ], [ -48.68008412, -26.92005318 ], [ -48.679750989192513, -26.920064997528325 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2210980010", "cod": 569, "nome": "R.João Reipert de Amorim", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6801138, -26.92033755 ], [ -48.680127624309613, -26.920467368310248 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2210980010", "cod": 569.0, "nome": "R.João Reipert de Amorim", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.680075888411281, -26.919981475604366 ], [ -48.6801138, -26.92033755 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210980010", "cod": 574.0, "nome": "R.Esperidião Graciliano da Silva", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.680159623099499, -26.920049280954597 ], [ -48.68008412, -26.92005318 ], [ -48.679750989192513, -26.920064997528321 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210980010", "cod": 569.0, "nome": "R.João Reipert de Amorim", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6801138, -26.92033755 ], [ -48.680127624309613, -26.920467368310248 ] ] } }
 ]
 }

@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0032020130", "cod": 1212, "nome": "R.Manaus", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.701553955812251, -26.897464918128943 ], [ -48.701176895965531, -26.897481995372917 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0032020130", "cod": 1212.0, "nome": "R.Manaus", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.701553955812251, -26.897464918128943 ], [ -48.701176895965531, -26.897481995372917 ] ] } }
 ]
 }

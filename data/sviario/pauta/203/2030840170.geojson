@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2030840170", "cod": 1080, "nome": "R.Carlos Juvenal Gomes", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695531285252059, -26.876801082953691 ], [ -48.69526726, -26.87680958 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2030840170", "cod": 1088, "nome": "R.Romualdo Manoel Fagundes", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695550326369357, -26.876808109105585 ], [ -48.695563557000938, -26.877137573774842 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2030840170", "cod": 1080.0, "nome": "R.Carlos Juvenal Gomes", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695531285252059, -26.876801082953687 ], [ -48.69526726, -26.87680958 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2030840170", "cod": 1088.0, "nome": "R.Romualdo Manoel Fagundes", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695550326369357, -26.876808109105589 ], [ -48.695563557000938, -26.877137573774846 ] ] } }
 ]
 }

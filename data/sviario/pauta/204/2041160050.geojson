@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2041160050", "cod": 883, "nome": "R.Olga Gern Pereira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.688011936918976, -26.93320277902497 ], [ -48.68772401187401, -26.933007727031839 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2041160050", "cod": 883.0, "nome": "R.Olga Gern Pereira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.688011936918976, -26.93320277902497 ], [ -48.68772401187401, -26.933007727031843 ] ] } }
 ]
 }

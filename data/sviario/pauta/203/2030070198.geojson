@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2030070198", "cod": 1086, "nome": "R.Luiz José Medeiros", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696800231229474, -26.877982863854548 ], [ -48.696807177888395, -26.878294049940813 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2030070198", "cod": 1681, "nome": "Serv.Servidão", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69680269, -26.87809306 ], [ -48.69720447, -26.87806192 ], [ -48.69726642, -26.87805409 ], [ -48.69729521, -26.87803688 ], [ -48.69731667, -26.87802567 ], [ -48.697394150152896, -26.878019287074956 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2030070198", "cod": 1086.0, "nome": "R.Luiz José Medeiros", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696800231229474, -26.877982863854552 ], [ -48.696807177888395, -26.878294049940809 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2030070198", "cod": 1681.0, "nome": "Serv.Servidão", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69680269, -26.87809306 ], [ -48.69720447, -26.87806192 ], [ -48.69726642, -26.87805409 ], [ -48.69729521, -26.87803688 ], [ -48.69731667, -26.87802567 ], [ -48.697394150152896, -26.878019287074956 ] ] } }
 ]
 }

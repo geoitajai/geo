@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020300212", "cod": 218, "nome": "R.Austergilio Angelino", "ptotalvia": 13.2, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.673442843762082, -26.899642774290196 ], [ -48.673811102573261, -26.899932514157843 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2020300212", "cod": 218.0, "nome": "R.Austergilio Angelino", "ptotalvia": 13.2, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.673442843762082, -26.899642774290196 ], [ -48.673811102573261, -26.899932514157843 ] ] } }
 ]
 }

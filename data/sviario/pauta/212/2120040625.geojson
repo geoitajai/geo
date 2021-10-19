@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2120040625", "cod": 197, "nome": "R.Ernesto Kobarg", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.681657488829821, -26.898740318219062 ], [ -48.681250819828065, -26.898764930635476 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2120040625", "cod": 197.0, "nome": "R.Ernesto Kobarg", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.681657488829821, -26.898740318219065 ], [ -48.681250819828065, -26.898764930635476 ] ] } }
 ]
 }

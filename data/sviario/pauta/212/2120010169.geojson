@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2120010169", "cod": 187, "nome": "R.Rodolfo Treder", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677887581060702, -26.900116715461191 ], [ -48.677539876783683, -26.900132216983568 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2120010169", "cod": 188, "nome": "R.Stringari", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677534810367817, -26.900134294839738 ], [ -48.677561191544029, -26.900437778245355 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2120010169", "cod": 187.0, "nome": "R.Rodolfo Treder", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677887581060702, -26.900116715461191 ], [ -48.677539876783683, -26.900132216983565 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2120010169", "cod": 188.0, "nome": "R.Stringari", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677534810367817, -26.900134294839738 ], [ -48.677561191544029, -26.900437778245355 ] ] } }
 ]
 }

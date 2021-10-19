@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2031270090", "cod": 1036, "nome": "R.Alexandre D´Ávila Baptista", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70261770322125, -26.872282659553257 ], [ -48.70264391, -26.87274956 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2031270090", "cod": 1061, "nome": "R.José Luiz Marcelino", "ptotalvia": 10.2, "ppasseio1": 1.6, "ppasseio2": 1.6 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.703001556738613, -26.872711065954629 ], [ -48.70264391, -26.87274956 ], [ -48.702612350088586, -26.872753364381108 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2031270090", "cod": 1036.0, "nome": "R.Alexandre D´Ávila Baptista", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70261770322125, -26.87228265955326 ], [ -48.70264391, -26.87274956 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2031270090", "cod": 1061.0, "nome": "R.José Luiz Marcelino", "ptotalvia": 10.2, "ppasseio1": 1.6, "ppasseio2": 1.6 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.703001556738613, -26.872711065954629 ], [ -48.70264391, -26.87274956 ], [ -48.702612350088586, -26.872753364381108 ] ] } }
 ]
 }

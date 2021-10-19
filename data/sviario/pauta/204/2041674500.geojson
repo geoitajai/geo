@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2041674500", "cod": 856, "nome": "R.José Anselmo da Silva", "ptotalvia": 9.5, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.672235048945893, -26.928595502436572 ], [ -48.671787439545547, -26.928459517749907 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2041674500", "cod": 856.0, "nome": "R.José Anselmo da Silva", "ptotalvia": 9.5, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.672235048945893, -26.928595502436572 ], [ -48.671787439545547, -26.928459517749911 ] ] } }
 ]
 }

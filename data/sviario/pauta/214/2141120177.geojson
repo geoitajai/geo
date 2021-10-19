@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2141120177", "cod": 795, "nome": "R.Maria das Dores Santos Müller", "ptotalvia": 15.0, "ppasseio1": 3.5, "ppasseio2": 3.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.631158718996502, -26.949089194380903 ], [ -48.63069347, -26.94914567 ], [ -48.630621098773858, -26.949155608915337 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2141120177", "cod": 782, "nome": "R.Delfim Mário Pádua Peixoto", "ptotalvia": 20.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.630699796122784, -26.949221035988923 ], [ -48.63069347, -26.94914567 ], [ -48.630668360582078, -26.948864889985217 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2141120177", "cod": 795.0, "nome": "R.Maria das Dores Santos Müller", "ptotalvia": 15.0, "ppasseio1": 3.5, "ppasseio2": 3.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.631158718996502, -26.949089194380903 ], [ -48.63069347, -26.949145669999989 ], [ -48.630621098773858, -26.949155608915337 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2141120177", "cod": 782.0, "nome": "R.Delfim Mário Pádua Peixoto", "ptotalvia": 20.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.630699796122784, -26.94922103598892 ], [ -48.63069347, -26.949145669999989 ], [ -48.630668360582078, -26.948864889985217 ] ] } }
 ]
 }

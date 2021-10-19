@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040760077", "cod": 616, "nome": "R.Augusto Pedro Schoenau", "ptotalvia": 11.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.659110447776925, -26.916929136154351 ], [ -48.65901679, -26.91687557 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040760077", "cod": 609, "nome": "R.Emílio da Cruz Coutinho", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65867127, -26.91673431 ], [ -48.658634947353143, -26.916705420977312 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040760077", "cod": 266, "nome": "R.Uruguai", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.658867727998249, -26.916476988999928 ], [ -48.658657652159491, -26.916751553066028 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2040760077", "cod": 616.0, "nome": "R.Augusto Pedro Schoenau", "ptotalvia": 11.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.659110447776925, -26.916929136154355 ], [ -48.65901679, -26.91687557 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040760077", "cod": 609.0, "nome": "R.Emílio da Cruz Coutinho", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65867127, -26.91673431 ], [ -48.658634947353136, -26.916705420977316 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040760077", "cod": 266.0, "nome": "R.Uruguai", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.658867727998256, -26.916476988999925 ], [ -48.658657652159491, -26.916751553066028 ] ] } }
 ]
 }

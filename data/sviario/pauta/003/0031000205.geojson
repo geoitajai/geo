@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0031000205", "cod": 1719, "nome": "R.S Ten.PM João de Souza", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698219480499176, -26.892876549633531 ], [ -48.698228189696778, -26.893110944010797 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0031000205", "cod": 1198, "nome": "R.Paraíba", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698596240463985, -26.892826828612222 ], [ -48.698235589010444, -26.892837529617971 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0031000205", "cod": 1719.0, "nome": "R.S Ten.PM João de Souza", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698219480499176, -26.892876549633531 ], [ -48.698228189696778, -26.89311094401079 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031000205", "cod": 1198.0, "nome": "R.Paraíba", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698596240463978, -26.892826828612222 ], [ -48.698235589010444, -26.892837529617971 ] ] } }
 ]
 }

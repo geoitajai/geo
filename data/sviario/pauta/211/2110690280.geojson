@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110690280", "cod": 581, "nome": "R.Germano Montibeller", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677205454002177, -26.916744423135544 ], [ -48.67717231, -26.9167467 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110690280", "cod": 227, "nome": "R.Indaial", "ptotalvia": 17.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67716839662527, -26.916686682123178 ], [ -48.67717231, -26.9167467 ], [ -48.677182915574669, -26.916983639747091 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2110690280", "cod": 581.0, "nome": "R.Germano Montibeller", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677205454002177, -26.916744423135544 ], [ -48.67717231, -26.9167467 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110690280", "cod": 227.0, "nome": "R.Indaial", "ptotalvia": 17.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677168396625277, -26.916686682123178 ], [ -48.67717231, -26.9167467 ], [ -48.677182915574669, -26.916983639747087 ] ] } }
 ]
 }

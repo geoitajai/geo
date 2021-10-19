@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2160052560", "cod": 1425, "nome": "R.Guilherme May", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.738294839361309, -26.948762051788925 ], [ -48.738328875243027, -26.949120855055835 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2160052560", "cod": 1425.0, "nome": "R.Guilherme May", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.738291559119347, -26.948727471695047 ], [ -48.738328026413491, -26.949111906786179 ] ] } }
 ]
 }

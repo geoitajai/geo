@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2151270355", "cod": 1323, "nome": "R.Luiz Castro", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.749583738770845, -26.87247871549058 ], [ -48.749611209857044, -26.872794714950025 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2151270355", "cod": 1323.0, "nome": "R.Luiz Castro", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.749583738770845, -26.872478715490576 ], [ -48.749611209857044, -26.872794714950025 ] ] } }
 ]
 }

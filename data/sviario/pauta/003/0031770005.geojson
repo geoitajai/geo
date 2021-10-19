@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0031770005", "cod": 1144, "nome": "R.Alfredo Esser", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696778888890613, -26.894989473626467 ], [ -48.69678174, -26.89504923 ], [ -48.696803697461249, -26.895396115392742 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0031770005", "cod": 1151, "nome": "R.Maranhão", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69678174, -26.89504925 ], [ -48.696437784685159, -26.895063248891592 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0031770005", "cod": 1151, "nome": "R.Maranhão", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69685086219318, -26.895047220155767 ], [ -48.69678174, -26.89504923 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0031770005", "cod": 1144.0, "nome": "R.Alfredo Esser", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696778888890613, -26.894989473626463 ], [ -48.69678174, -26.89504923 ], [ -48.696803697461249, -26.895396115392742 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031770005", "cod": 1151.0, "nome": "R.Maranhão", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69678174, -26.89504925 ], [ -48.696437784685159, -26.895063248891596 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031770005", "cod": 1151.0, "nome": "R.Maranhão", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69685086219318, -26.895047220155767 ], [ -48.69678174, -26.89504923 ] ] } }
 ]
 }

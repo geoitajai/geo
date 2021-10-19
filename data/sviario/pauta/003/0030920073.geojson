@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0030920073", "cod": 1194, "nome": "Trav.São Luiz", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.699661753251164, -26.89619928536391 ], [ -48.69968111, -26.89658738 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0030920073", "cod": 1217, "nome": "R.Rio Branco", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.699750534665661, -26.896583900628151 ], [ -48.69968111, -26.89658738 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0030920073", "cod": 1218, "nome": "R.Amazonas", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69968111, -26.89658738 ], [ -48.699365496594901, -26.896597489851878 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0030920073", "cod": 1194.0, "nome": "Trav.São Luiz", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.699661753251164, -26.89619928536392 ], [ -48.69968111, -26.89658738 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0030920073", "cod": 1217.0, "nome": "R.Rio Branco", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.699750534665661, -26.896583900628151 ], [ -48.69968111, -26.89658738 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0030920073", "cod": 1218.0, "nome": "R.Amazonas", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69968111, -26.89658738 ], [ -48.699365496594901, -26.896597489851874 ] ] } }
 ]
 }

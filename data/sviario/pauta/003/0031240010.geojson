@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0031240010", "cod": 1178, "nome": "Av.Mário Uriarte", "ptotalvia": 30.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702163255924397, -26.899319539609255 ], [ -48.70215691, -26.89931866 ], [ -48.70174364, -26.89928478 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0031240010", "cod": 1166, "nome": "R.Eredes Serpa", "ptotalvia": 12.5, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702156793999322, -26.899316528095564 ], [ -48.70215691, -26.89931866 ], [ -48.702180282530449, -26.899722799194461 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0031240010", "cod": 1178, "nome": "Av.Mário Uriarte", "ptotalvia": 30.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70174364, -26.89928478 ], [ -48.701715693584674, -26.899282494259683 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0031240010", "cod": 1178.0, "nome": "Av.Mário Uriarte", "ptotalvia": 30.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702163255924397, -26.899319539609255 ], [ -48.70215691, -26.89931866 ], [ -48.70174364, -26.89928478 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031240010", "cod": 1166.0, "nome": "R.Eredes Serpa", "ptotalvia": 12.5, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702156793999322, -26.899316528095564 ], [ -48.70215691, -26.89931866 ], [ -48.702180282530456, -26.899722799194461 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031240010", "cod": 1178.0, "nome": "Av.Mário Uriarte", "ptotalvia": 30.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70174364, -26.89928478 ], [ -48.701715693584674, -26.899282494259687 ] ] } }
 ]
 }

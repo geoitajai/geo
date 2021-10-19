@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020121123", "cod": 307, "nome": "R.José Francisco Constantino", "ptotalvia": 4.5, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.668586047988484, -26.903501411755038 ], [ -48.66861715, -26.90377554 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020121123", "cod": 308, "nome": "R.Constantino Lucas Pereira", "ptotalvia": 4.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.668266619747428, -26.903530216222411 ], [ -48.668309877751376, -26.903897313396236 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2020121123", "cod": 307.0, "nome": "R.José Francisco Constantino", "ptotalvia": 4.5, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.668586047988484, -26.903501411755038 ], [ -48.66861715, -26.90377554 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020121123", "cod": 308.0, "nome": "R.Constantino Lucas Pereira", "ptotalvia": 4.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.668266619747428, -26.903530216222407 ], [ -48.668309877751376, -26.903897313396236 ] ] } }
 ]
 }

@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010680058", "cod": 348, "nome": "Trav. Tiburcio Bastos Gonçalves", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.664921194839529, -26.910121153208014 ], [ -48.664912638639265, -26.910129264815044 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010680058", "cod": 346, "nome": "Trav.Zozimo José Peixoto", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.665347622429032, -26.910236180327882 ], [ -48.665092382646328, -26.910483163202173 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2010680058", "cod": 348.0, "nome": "Trav. Tiburcio Bastos Gonçalves", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.664921194839529, -26.910121153208017 ], [ -48.664912638639265, -26.910129264815048 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010680058", "cod": 346.0, "nome": "Trav.Zozimo José Peixoto", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.665347622429032, -26.910236180327878 ], [ -48.665092382646328, -26.910483163202173 ] ] } }
 ]
 }

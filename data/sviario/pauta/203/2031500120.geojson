@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2031500120", "cod": 1039, "nome": "R.Orlandina Amália Pires Corrêa", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698673515728217, -26.868507993802254 ], [ -48.69869203128664, -26.86882857001676 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2031500120", "cod": 1039.0, "nome": "R.Orlandina Amália Pires Corrêa", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698673515728217, -26.868507993802254 ], [ -48.69869203128664, -26.86882857001676 ] ] } }
 ]
 }

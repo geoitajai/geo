@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0054980160", "cod": 1005, "nome": "R.Diác.Antônio João Vicente", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692746738998565, -26.929535411777046 ], [ -48.69299653195133, -26.92974337959954 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0054980160", "cod": 1006, "nome": "R.Adelso Leonel de Amorim", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69287139, -26.92963919 ], [ -48.692947303223725, -26.929569270741823 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0054980160", "cod": 1005.0, "nome": "R.Diác.Antônio João Vicente", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692746738998565, -26.929535411777049 ], [ -48.69299653195133, -26.92974337959954 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054980160", "cod": 1006.0, "nome": "R.Adelso Leonel de Amorim", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69287139, -26.92963919 ], [ -48.692947303223725, -26.929569270741823 ] ] } }
 ]
 }

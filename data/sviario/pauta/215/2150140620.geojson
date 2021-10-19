@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2150140620", "cod": 1375, "nome": "R.Antônio Notari", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.735345621378272, -26.891282088892773 ], [ -48.735370103100486, -26.89159751375821 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2150140620", "cod": 1375.0, "nome": "R.Antônio Notari", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.735345621378272, -26.891282088892773 ], [ -48.735370103100486, -26.89159751375821 ] ] } }
 ]
 }

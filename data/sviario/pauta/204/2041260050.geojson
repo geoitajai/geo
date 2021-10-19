@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2041260050", "cod": 887, "nome": "R.Emanuel dos Santos", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.686417813677437, -26.935486198586471 ], [ -48.68631205, -26.93548376 ], [ -48.685838477323585, -26.935475085755701 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2041260050", "cod": 889, "nome": "R.Marcus Gustavo Heusi", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.686459677890674, -26.935307569930391 ], [ -48.68631205, -26.93548376 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2041260050", "cod": 890, "nome": "R.Sol.Abelardo Mendonça Sobrinho", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.685839615059095, -26.935366379707141 ], [ -48.685833765051903, -26.935466201416325 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2041260050", "cod": 887.0, "nome": "R.Emanuel dos Santos", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.686417813677437, -26.935486198586467 ], [ -48.68631205, -26.93548376 ], [ -48.685838477323593, -26.935475085755698 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2041260050", "cod": 889.0, "nome": "R.Marcus Gustavo Heusi", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.686459677890667, -26.935307569930394 ], [ -48.68631205, -26.93548376 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2041260050", "cod": 890.0, "nome": "R.Sol.Abelardo Mendonça Sobrinho", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.685839615059102, -26.935366379707148 ], [ -48.685833765051903, -26.935466201416325 ] ] } }
 ]
 }

@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2120890157", "cod": 408, "nome": "Trav.Paulo Fuck", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.684980992399197, -26.89202974053039 ], [ -48.684649259441919, -26.892361966833398 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2120890157", "cod": 405, "nome": "R.David Adão Schmidt", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.684914935278222, -26.89251377106358 ], [ -48.68468287, -26.89232729 ], [ -48.684636662590435, -26.892291070593494 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2120890157", "cod": 408.0, "nome": "Trav.Paulo Fuck", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.684980992399197, -26.892029740530386 ], [ -48.684649259441919, -26.892361966833395 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2120890157", "cod": 405.0, "nome": "R.David Adão Schmidt", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.684914935278222, -26.892513771063584 ], [ -48.68468287, -26.89232729 ], [ -48.684636662590435, -26.89229107059349 ] ] } }
 ]
 }

@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2210621295", "cod": 503, "nome": "R.José Manoel da Silva", "ptotalvia": 6.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.678527897256338, -26.909003683065194 ], [ -48.678114855535313, -26.909021821971201 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2210621295", "cod": 503.0, "nome": "R.José Manoel da Silva", "ptotalvia": 6.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.678527897256338, -26.909003683065194 ], [ -48.678114855535313, -26.909021821971198 ] ] } }
 ]
 }

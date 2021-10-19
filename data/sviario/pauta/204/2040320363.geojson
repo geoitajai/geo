@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040320363", "cod": 629, "nome": "R.Tubarão", "ptotalvia": 13.2, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656036095695065, -26.914604072215422 ], [ -48.65600222, -26.91459264 ], [ -48.65549884, -26.91440853 ], [ -48.655445884565466, -26.914389634075853 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040320363", "cod": 276, "nome": "Av.7 de Setembro", "ptotalvia": 18.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656024011971056, -26.914540276619057 ], [ -48.65600222, -26.91459264 ], [ -48.655909576601395, -26.914814273880229 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040320363", "cod": 281, "nome": "R.Camboriú", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.655518485369292, -26.914359906705336 ], [ -48.65549884, -26.91440853 ], [ -48.655339228500821, -26.914731493649771 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2040320363", "cod": 629.0, "nome": "R.Tubarão", "ptotalvia": 13.2, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656036095695065, -26.914604072215418 ], [ -48.65600222, -26.91459264 ], [ -48.65549884, -26.91440853 ], [ -48.655445884565466, -26.914389634075853 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040320363", "cod": 276.0, "nome": "Av.7 de Setembro", "ptotalvia": 18.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656024011971056, -26.914540276619054 ], [ -48.65600222, -26.91459264 ], [ -48.655909576601395, -26.914814273880229 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040320363", "cod": 281.0, "nome": "R.Camboriú", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.655518485369292, -26.914359906705339 ], [ -48.65549884, -26.91440853 ], [ -48.655339228500821, -26.914731493649775 ] ] } }
 ]
 }

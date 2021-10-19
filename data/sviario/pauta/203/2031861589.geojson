@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2031861589", "cod": 1095, "nome": "R.Ver.Telêmaco de Oliveira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700381630852256, -26.882224769335632 ], [ -48.700400542791428, -26.882558757671354 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2031861589", "cod": 1095.0, "nome": "R.Ver.Telêmaco de Oliveira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700381630852256, -26.882224769335632 ], [ -48.700400542791428, -26.882558757671351 ] ] } }
 ]
 }

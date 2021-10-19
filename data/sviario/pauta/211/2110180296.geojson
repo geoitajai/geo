@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110180296", "cod": 507, "nome": "R.Rio do Sul", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677228296100978, -26.912026294019363 ], [ -48.676850568106502, -26.911921886248429 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110180296", "cod": 508, "nome": "R.Wandelino Winter", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677189457706056, -26.912207636499925 ], [ -48.676814624059183, -26.912173556044369 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2110180296", "cod": 507.0, "nome": "R.Rio do Sul", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677228296100978, -26.912026294019363 ], [ -48.676850568106502, -26.911921886248425 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110180296", "cod": 508.0, "nome": "R.Wandelino Winter", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677189457706056, -26.912207636499925 ], [ -48.676814624059183, -26.912173556044365 ] ] } }
 ]
 }

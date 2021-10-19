@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110080649", "cod": 488, "nome": "Av.Duque de Caxias", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.673059389144989, -26.909525011856253 ], [ -48.67305567, -26.90949658 ], [ -48.67298782175753, -26.908998966240809 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110080649", "cod": 495, "nome": "R.João Gaya", "ptotalvia": 14.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.673485391943018, -26.909456145660588 ], [ -48.67305567, -26.90949658 ], [ -48.673019753197352, -26.909499653334098 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2110080649", "cod": 488.0, "nome": "Av.Duque de Caxias", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.673059389144989, -26.909525011856253 ], [ -48.67305567, -26.90949658 ], [ -48.67298782175753, -26.908998966240809 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110080649", "cod": 495.0, "nome": "R.João Gaya", "ptotalvia": 14.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.673485391943018, -26.909456145660585 ], [ -48.67305567, -26.90949658 ], [ -48.673019753197359, -26.909499653334098 ] ] } }
 ]
 }

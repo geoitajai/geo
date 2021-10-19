@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020161141", "cod": 225, "nome": "Trav.Esc.Julio Cesar Medeiros", "ptotalvia": 10.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.670116994134169, -26.902644513284379 ], [ -48.6701217, -26.90268875 ], [ -48.670169538369414, -26.902945122312882 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020161141", "cod": 161, "nome": "Av.Irineu Bornhausen", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.670207822551767, -26.902683541079664 ], [ -48.669785692510949, -26.90270925071917 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2020161141", "cod": 225.0, "nome": "Trav.Esc.Julio Cesar Medeiros", "ptotalvia": 10.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.670116994134169, -26.902644513284375 ], [ -48.6701217, -26.90268875 ], [ -48.670169538369414, -26.902945122312882 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020161141", "cod": 161.0, "nome": "Av.Irineu Bornhausen", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.670207822551767, -26.902683541079664 ], [ -48.669785692510949, -26.90270925071917 ] ] } }
 ]
 }

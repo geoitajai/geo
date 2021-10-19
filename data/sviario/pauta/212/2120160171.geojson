@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2120160171", "cod": 166, "nome": "R.Hebert Kremer", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.678512297374965, -26.894719832259756 ], [ -48.678924929443291, -26.894705526366327 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2120160171", "cod": 166.0, "nome": "R.Hebert Kremer", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.678512297374965, -26.89471983225976 ], [ -48.678924929443291, -26.894705526366327 ] ] } }
 ]
 }

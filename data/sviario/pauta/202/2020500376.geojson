@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020500376", "cod": 176, "nome": "R.Altino Werner", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675338803162354, -26.896641692363765 ], [ -48.67563525788087, -26.896885240042494 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2020500376", "cod": 176.0, "nome": "R.Altino Werner", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675338803162354, -26.896641692363762 ], [ -48.67563525788087, -26.896885240042494 ] ] } }
 ]
 }

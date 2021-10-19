@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110090475", "cod": 488, "nome": "Av.Duque de Caxias", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.672894084343852, -26.908311470515812 ], [ -48.672852643377801, -26.9080075292758 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2110090475", "cod": 488.0, "nome": "Av.Duque de Caxias", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.672894084343852, -26.908311470515812 ], [ -48.672852643377801, -26.9080075292758 ] ] } }
 ]
 }

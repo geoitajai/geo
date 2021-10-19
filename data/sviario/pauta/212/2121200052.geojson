@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2121200052", "cod": 418, "nome": "R.Bolívia", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.682307872242113, -26.892659358392379 ], [ -48.682314813148864, -26.892990609193717 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2121200052", "cod": 418.0, "nome": "R.Bolívia", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68230773754717, -26.892652930170666 ], [ -48.682314960699756, -26.892997650994268 ] ] } }
 ]
 }

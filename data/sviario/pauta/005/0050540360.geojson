@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050540360", "cod": 52, "nome": "R.Pedro Batista da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69381865390887, -26.897993488079052 ], [ -48.69373995, -26.89799606 ], [ -48.693427695342024, -26.898005025952862 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0050540360", "cod": 50, "nome": "R.Luiz Lopes Gonzaga", "ptotalvia": 13.2, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69373624888032, -26.897925514700031 ], [ -48.693739879440564, -26.898365870723651 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0050540360", "cod": 52.0, "nome": "R.Pedro Batista da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69381865390887, -26.897993488079052 ], [ -48.69373995, -26.89799606 ], [ -48.693427695342024, -26.898005025952862 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050540360", "cod": 50.0, "nome": "R.Luiz Lopes Gonzaga", "ptotalvia": 13.2, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69373624888032, -26.897925514700038 ], [ -48.693739879440564, -26.898365870723651 ] ] } }
 ]
 }

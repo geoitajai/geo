@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010260377", "cod": 290, "nome": "R.Hercílio Luz", "ptotalvia": 13.2, "ppasseio1": 3.5, "ppasseio2": 3.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65958408532456, -26.906223851383523 ], [ -48.65950225, -26.9061978 ], [ -48.659143352470771, -26.906086155348135 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010260377", "cod": 275, "nome": "R.Cônego Tomaz Fontes", "ptotalvia": 13.2, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65950225, -26.9061978 ], [ -48.659663476976149, -26.905834233562029 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010260377", "cod": 276, "nome": "Av.7 de Setembro", "ptotalvia": 18.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65950225, -26.9061978 ], [ -48.65947493279419, -26.906265051698686 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2010260377", "cod": 290.0, "nome": "R.Hercílio Luz", "ptotalvia": 13.2, "ppasseio1": 3.5, "ppasseio2": 3.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65958408532456, -26.906223851383523 ], [ -48.65950225, -26.9061978 ], [ -48.659143352470771, -26.906086155348135 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010260377", "cod": 275.0, "nome": "R.Cônego Tomaz Fontes", "ptotalvia": 13.2, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65950225, -26.9061978 ], [ -48.659663476976149, -26.905834233562029 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010260377", "cod": 276.0, "nome": "Av.7 de Setembro", "ptotalvia": 18.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65950225, -26.9061978 ], [ -48.659474932794197, -26.906265051698682 ] ] } }
 ]
 }

@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140660175", "cod": 736, "nome": "R.Venezuela", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.641947616018896, -26.932666696469315 ], [ -48.641709283481049, -26.932954892077806 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2140660175", "cod": 586, "nome": "Av.Osvaldo Reis", "ptotalvia": 34.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.642394117633785, -26.932994168084978 ], [ -48.642246603305857, -26.933290078112243 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2140660175", "cod": 736.0, "nome": "R.Venezuela", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.642006954332558, -26.932594943298781 ], [ -48.641796671522791, -26.93284922125768 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140660175", "cod": 586.0, "nome": "Av.Osvaldo Reis", "ptotalvia": 34.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.642440886387107, -26.932900350754533 ], [ -48.642304842711575, -26.93317325155348 ] ] } }
 ]
 }

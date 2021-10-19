@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2030490066", "cod": 1072, "nome": "Av.Pres.Costa e Silva", "ptotalvia": 13.35, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.709872113848107, -26.87593838660537 ], [ -48.709609254263952, -26.875728597560332 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2030490066", "cod": 1072.0, "nome": "Av.Pres.Costa e Silva", "ptotalvia": 13.35, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.709872113848107, -26.87593838660537 ], [ -48.709609254263952, -26.875728597560329 ] ] } }
 ]
 }

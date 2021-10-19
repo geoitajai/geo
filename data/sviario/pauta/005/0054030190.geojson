@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0054030190", "cod": 130, "nome": "Av.Nilo Bittencourt", "ptotalvia": 20.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.705357427542985, -26.913739773676813 ], [ -48.70536125, -26.91380226 ], [ -48.70537891, -26.91402673 ], [ -48.705379935535461, -26.914070709324566 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0054030190", "cod": 1581, "nome": "R.Osmar Antônio Corrêa", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70537891, -26.91402673 ], [ -48.705350819702723, -26.914027779317529 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0054030190", "cod": 149, "nome": "R.Genésio Tavares", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.705822081575405, -26.913785713952375 ], [ -48.70536125, -26.91380226 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0054030190", "cod": 130.0, "nome": "Av.Nilo Bittencourt", "ptotalvia": 20.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.705357427542985, -26.913739773676809 ], [ -48.70536125, -26.91380226 ], [ -48.70537891, -26.91402673 ], [ -48.705379935535461, -26.914070709324566 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054030190", "cod": 1581.0, "nome": "R.Osmar Antônio Corrêa", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70537891, -26.91402673 ], [ -48.705350819702723, -26.914027779317529 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054030190", "cod": 149.0, "nome": "R.Genésio Tavares", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.705822081575405, -26.913785713952375 ], [ -48.70536125, -26.91380226 ] ] } }
 ]
 }

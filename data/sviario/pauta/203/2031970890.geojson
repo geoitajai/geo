@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2031970890", "cod": 1284, "nome": "R.Giuzepina Cogo Casini", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.720050649264408, -26.883256959822614 ], [ -48.720077553955932, -26.88360097194159 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2031970890", "cod": 1284.0, "nome": "R.Giuzepina Cogo Casini", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.720050649264408, -26.883256959822617 ], [ -48.720077553955932, -26.88360097194159 ] ] } }
 ]
 }

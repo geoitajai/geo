@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140631186", "cod": 734, "nome": "R.Donato Pereira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.644118340031383, -26.932628412807446 ], [ -48.644402887074968, -26.932867437370128 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2140631186", "cod": 734.0, "nome": "R.Donato Pereira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.644118340031383, -26.93262841280745 ], [ -48.644402887074968, -26.932867437370131 ] ] } }
 ]
 }

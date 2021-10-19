@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0055070150", "cod": 135, "nome": "R.José Pezzini", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.708319990353822, -26.90829142741973 ], [ -48.70832486, -26.90836278 ], [ -48.708340036868442, -26.908648333725452 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0055070150", "cod": 139, "nome": "R.Maria Luíza Etur Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70839101582829, -26.908359372071349 ], [ -48.70832486, -26.90836278 ], [ -48.707926341556636, -26.908377341159536 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0055070150", "cod": 135.0, "nome": "R.José Pezzini", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.708319990353822, -26.90829142741973 ], [ -48.70832486, -26.90836278 ], [ -48.708340036868442, -26.908648333725452 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0055070150", "cod": 139.0, "nome": "R.Maria Luíza Etur Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70839101582829, -26.908359372071345 ], [ -48.70832486, -26.90836278 ], [ -48.707926341556636, -26.908377341159532 ] ] } }
 ]
 }

@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020290461", "cod": 220, "nome": "R.Max", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.673515244215835, -26.901506793123744 ], [ -48.673866867573423, -26.901779409047766 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2020290461", "cod": 220.0, "nome": "R.Max", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.673515244215835, -26.901506793123747 ], [ -48.673866867573423, -26.901779409047766 ] ] } }
 ]
 }

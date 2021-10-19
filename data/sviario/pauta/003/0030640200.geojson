@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0030640200", "cod": 1189, "nome": "R.Rio de Janeiro", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697422993864834, -26.88961593535063 ], [ -48.697056660711034, -26.889629378651115 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0030640200", "cod": 1189.0, "nome": "R.Rio de Janeiro", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697422993864834, -26.889615935350626 ], [ -48.697056660711034, -26.889629378651112 ] ] } }
 ]
 }

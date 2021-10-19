@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2151140265", "cod": 1314, "nome": "R.Ver.Pedro João de Souza Filho", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.746769317471625, -26.876594812203962 ], [ -48.746794999546196, -26.876913183985927 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2151140265", "cod": 1314.0, "nome": "R.Ver.Pedro João de Souza Filho", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.746769317471625, -26.876594812203965 ], [ -48.746794999546196, -26.876913183985927 ] ] } }
 ]
 }

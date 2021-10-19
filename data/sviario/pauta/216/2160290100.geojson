@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2160290100", "cod": 1468, "nome": "R.Francisco Boaventura da Silva", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.711076105178215, -26.942900056800745 ], [ -48.711085232968955, -26.94323396673586 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2160290100", "cod": 1468.0, "nome": "R.Francisco Boaventura da Silva", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.711076105178215, -26.942900056800745 ], [ -48.711085232968955, -26.94323396673586 ] ] } }
 ]
 }

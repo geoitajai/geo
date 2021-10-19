@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010250322", "cod": 291, "nome": "R.Samuel Heusi", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.659861771647726, -26.904261695671334 ], [ -48.659556861709802, -26.904079756560051 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2010250322", "cod": 291.0, "nome": "R.Samuel Heusi", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.659861771647734, -26.90426169567133 ], [ -48.659556861709802, -26.904079756560048 ] ] } }
 ]
 }

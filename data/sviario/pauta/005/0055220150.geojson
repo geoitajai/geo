@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0055220150", "cod": 144, "nome": "R.Benno Emmendorfer", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.709223246581111, -26.911210140013655 ], [ -48.708862780883138, -26.911228626018115 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0055220150", "cod": 144.0, "nome": "R.Benno Emmendorfer", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.709223246581111, -26.911210140013655 ], [ -48.708862780883138, -26.911228626018111 ] ] } }
 ]
 }

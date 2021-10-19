@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0031670030", "cod": 1143, "nome": "R.Mário Reis", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695013586861201, -26.889402029898175 ], [ -48.69502722, -26.88966753 ], [ -48.695030712974436, -26.889746479774381 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0031670030", "cod": 1153, "nome": "Trav.Esmeralda", "ptotalvia": 7.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69502722, -26.88966753 ], [ -48.694952455559275, -26.889669249919439 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0031670030", "cod": 1143.0, "nome": "R.Mário Reis", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695013586861201, -26.889402029898175 ], [ -48.69502722, -26.88966753 ], [ -48.695030712974436, -26.889746479774377 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031670030", "cod": 1153.0, "nome": "Trav.Esmeralda", "ptotalvia": 7.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69502722, -26.88966753 ], [ -48.694952455559275, -26.889669249919439 ] ] } }
 ]
 }

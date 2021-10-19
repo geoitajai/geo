@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0052910440", "cod": 120, "nome": "R.Chapecó", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.701279504966074, -26.90629921319173 ], [ -48.70129439731231, -26.906594492312134 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0052910440", "cod": 120.0, "nome": "R.Chapecó", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.701279504966074, -26.90629921319173 ], [ -48.70129439731231, -26.906594492312134 ] ] } }
 ]
 }

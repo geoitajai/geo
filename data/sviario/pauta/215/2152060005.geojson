@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2152060005", "cod": 1599, "nome": "R.João Santos da Silva", "ptotalvia": 18.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.741787931776102, -26.863635887228583 ], [ -48.74172566, -26.86364075 ], [ -48.74147523, -26.86366119 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2152060005", "cod": 1602, "nome": "R.Euclides Alberto Melies", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.741719445803767, -26.863585980655984 ], [ -48.74172566, -26.86364075 ], [ -48.741756418149265, -26.863991694170455 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2152060005", "cod": 1599.0, "nome": "R.João Santos da Silva", "ptotalvia": 18.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.741787931776102, -26.863635887228579 ], [ -48.74172566, -26.86364075 ], [ -48.74147523, -26.86366119 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2152060005", "cod": 1602.0, "nome": "R.Euclides Alberto Melies", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.741719445803767, -26.863585980655984 ], [ -48.74172566, -26.86364075 ], [ -48.741756418149265, -26.863991694170455 ] ] } }
 ]
 }

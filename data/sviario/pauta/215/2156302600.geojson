@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2156302600", "cod": 1403.0, "nome": "R.Luiz Moser", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.76035282358049, -26.916041442177324 ], [ -48.76029368, -26.91491856 ], [ -48.76029436, -26.91445754 ], [ -48.760368843462913, -26.91440922285274 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2156302600", "cod": 1402.0, "nome": "R.Domingos Rampelotti", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.760333833161255, -26.914328334064038 ], [ -48.76005804, -26.91423852 ], [ -48.75928381, -26.91382371 ], [ -48.759224714557739, -26.913798160720606 ] ] } }
+]
+}

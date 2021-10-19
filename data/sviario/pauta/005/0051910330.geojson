@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0051910330", "cod": 1002, "nome": "R.Salvador Joaquim Nunes", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.694063022772148, -26.930181273151735 ], [ -48.694346013071964, -26.930412800776132 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0051910330", "cod": 1002.0, "nome": "R.Salvador Joaquim Nunes", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.694063022772148, -26.930181273151735 ], [ -48.694346013071964, -26.930412800776129 ] ] } }
 ]
 }

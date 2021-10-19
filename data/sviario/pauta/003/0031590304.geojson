@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0031590304", "cod": 1725, "nome": "Av.Radial Oeste", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.715336259315627, -26.903230172282321 ], [ -48.714923500296521, -26.90421720553346 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0031590304", "cod": 1725.0, "nome": "Av.Radial Oeste", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.715336259315627, -26.903230172282317 ], [ -48.714923500296521, -26.904217205533463 ] ] } }
 ]
 }

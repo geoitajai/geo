@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0051420170", "cod": 906, "nome": "R.João Marcelino Machado", "ptotalvia": 10.0, "ppasseio1": 1.75, "ppasseio2": 1.75 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69145261747849, -26.916663993540848 ], [ -48.69108132932093, -26.916681464121215 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0051420170", "cod": 906.0, "nome": "R.João Marcelino Machado", "ptotalvia": 10.0, "ppasseio1": 1.75, "ppasseio2": 1.75 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69145261747849, -26.916663993540848 ], [ -48.69108132932093, -26.916681464121215 ] ] } }
 ]
 }

@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140610310", "cod": 722, "nome": "R.Leonardo Tetto", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.645549457852091, -26.928411193620793 ], [ -48.64553622, -26.92840234 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2140610310", "cod": 586, "nome": "Av.Osvaldo Reis", "ptotalvia": 34.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.645683531744297, -26.928149870748971 ], [ -48.64553622, -26.92840234 ], [ -48.645532459765676, -26.928411332790887 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2140610310", "cod": 722.0, "nome": "R.Leonardo Tetto", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.645549457852091, -26.928411193620789 ], [ -48.64553622, -26.92840234 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140610310", "cod": 586.0, "nome": "Av.Osvaldo Reis", "ptotalvia": 34.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.645683531744297, -26.928149870748971 ], [ -48.64553622, -26.92840234 ], [ -48.645532459765676, -26.928411332790883 ] ] } }
 ]
 }

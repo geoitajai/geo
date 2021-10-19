@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0052110005", "cod": 153, "nome": "R.Acedilo Monteiro de Lima", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69897537, -26.90498079 ], [ -48.69897869906066, -26.905043478264993 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0052110005", "cod": 39, "nome": "R.Palhoça", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.699122216269437, -26.904670143467513 ], [ -48.69913937, -26.90497342 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0052110005", "cod": 15, "nome": "R.Arq.Nilson Edson dos Santos", "ptotalvia": 21.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.699198533582823, -26.904970248932123 ], [ -48.69897537, -26.90498079 ], [ -48.698743468398561, -26.904992828371547 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0052110005", "cod": 153.0, "nome": "R.Acedilo Monteiro de Lima", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69897537, -26.90498079 ], [ -48.69897869906066, -26.905043478264989 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0052110005", "cod": 39.0, "nome": "R.Palhoça", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.699122216269437, -26.904670143467516 ], [ -48.69913937, -26.90497342 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0052110005", "cod": 15.0, "nome": "R.Arq.Nilson Edson dos Santos", "ptotalvia": 21.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.699198533582823, -26.904970248932123 ], [ -48.69897537, -26.90498079 ], [ -48.698743468398561, -26.904992828371544 ] ] } }
 ]
 }

@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2160570200", "cod": 1452, "nome": "R.Luis Rousch", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.746978088536842, -26.945293043591658 ], [ -48.746955752939414, -26.94494845232914 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2160570200", "cod": 1452.0, "nome": "R.Luis Rousch", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.746978088536842, -26.945293043591654 ], [ -48.746955752939414, -26.944948452329136 ] ] } }
 ]
 }

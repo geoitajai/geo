@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2210420680", "cod": 584, "nome": "R.Francisco Bettoni", "ptotalvia": 9.5, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.684940480085579, -26.919348092024357 ], [ -48.685353657260755, -26.919316201838228 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2210420680", "cod": 584.0, "nome": "R.Francisco Bettoni", "ptotalvia": 9.5, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.684940480085579, -26.919348092024357 ], [ -48.685353657260755, -26.919316201838225 ] ] } }
 ]
 }

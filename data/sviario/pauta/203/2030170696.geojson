@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2030170696", "cod": 1095, "nome": "R.Ver.Telêmaco de Oliveira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700442635416636, -26.883302119022744 ], [ -48.700485953386334, -26.884067116982536 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2030170696", "cod": 1110, "nome": "R.Sebastião Romeu Soares", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700505459028896, -26.883371162278451 ], [ -48.70044626, -26.88337434 ], [ -48.70010094, -26.88339853 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2030170696", "cod": 1110, "nome": "R.Sebastião Romeu Soares", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70010094, -26.88339853 ], [ -48.699956320941965, -26.883408656389598 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2030170696", "cod": 1095.0, "nome": "R.Ver.Telêmaco de Oliveira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700442635416636, -26.883302119022744 ], [ -48.700485953386334, -26.884067116982536 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2030170696", "cod": 1110.0, "nome": "R.Sebastião Romeu Soares", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700505459028896, -26.883371162278451 ], [ -48.70044626, -26.88337434 ], [ -48.70010094, -26.88339853 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2030170696", "cod": 1110.0, "nome": "R.Sebastião Romeu Soares", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70010094, -26.88339853 ], [ -48.699956320941965, -26.883408656389598 ] ] } }
 ]
 }

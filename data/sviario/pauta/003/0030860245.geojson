@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0030860245", "cod": 1198, "nome": "R.Paraíba", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698194012200503, -26.892838733217221 ], [ -48.697832945184679, -26.892848995192598 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0030860245", "cod": 1198.0, "nome": "R.Paraíba", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698194012200503, -26.892838733217221 ], [ -48.697832945184679, -26.892848995192601 ] ] } }
 ]
 }

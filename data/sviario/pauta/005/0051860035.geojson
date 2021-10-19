@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0051860035", "cod": 1018, "nome": "R.Minelvino Manoel Gonçalves", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69703547644032, -26.929235480247332 ], [ -48.697296547157606, -26.92945068777065 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0051860035", "cod": 1018.0, "nome": "R.Minelvino Manoel Gonçalves", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69703547644032, -26.929235480247332 ], [ -48.697296547157606, -26.929450687770647 ] ] } }
 ]
 }

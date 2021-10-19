@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2030100310", "cod": 1086, "nome": "R.Luiz José Medeiros", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697003060296602, -26.883517813241223 ], [ -48.69700538, -26.8835813 ], [ -48.697014777909345, -26.883845812637023 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2030100310", "cod": 1110, "nome": "R.Sebastião Romeu Soares", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697403463510376, -26.883568898013937 ], [ -48.696929921481726, -26.88358315965851 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2030100310", "cod": 1086.0, "nome": "R.Luiz José Medeiros", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697003060296602, -26.883517813241223 ], [ -48.69700538, -26.8835813 ], [ -48.697014777909345, -26.883845812637027 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2030100310", "cod": 1110.0, "nome": "R.Sebastião Romeu Soares", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697403463510376, -26.883568898013937 ], [ -48.696929921481726, -26.88358315965851 ] ] } }
 ]
 }

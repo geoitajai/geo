@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110110364", "cod": 494, "nome": "R.1º de Maio", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67001411, -26.90782796 ], [ -48.669957021732529, -26.907834800100638 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110110364", "cod": 262, "nome": "Av.José Eugênio Muller", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67000661890021, -26.90776030530272 ], [ -48.670055710327468, -26.908171048763318 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110110364", "cod": 1692, "nome": "R.Ana Ferreira Figueiredo", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6700125, -26.90780951 ], [ -48.67032253, -26.90777528 ], [ -48.670312580187122, -26.907694200620689 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2110110364", "cod": 494.0, "nome": "R.1º de Maio", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67001411, -26.90782796 ], [ -48.669957021732529, -26.907834800100641 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110110364", "cod": 262.0, "nome": "Av.José Eugênio Muller", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67000661890021, -26.90776030530272 ], [ -48.670055710327468, -26.908171048763322 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110110364", "cod": 1692.0, "nome": "R.Ana Ferreira Figueiredo", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6700125, -26.90780951 ], [ -48.67032253, -26.90777528 ], [ -48.670312580187122, -26.907694200620693 ] ] } }
 ]
 }

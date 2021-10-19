@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2150790800", "cod": 1334, "nome": "Av.Domingos de Almeida", "ptotalvia": 26.0, "ppasseio1": 5.0, "ppasseio2": 5.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.74252487, -26.87888094 ], [ -48.742694022825901, -26.878855289725141 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2150790800", "cod": 1343, "nome": "Rod.Jorge Lacerda", "ptotalvia": 43.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.743321912435327, -26.88611246220551 ], [ -48.741489852307524, -26.885978281013831 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2150790800", "cod": 1340, "nome": "Av.José João Corrêa", "ptotalvia": 18.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.742978200772697, -26.881928479249112 ], [ -48.74282766, -26.88193827 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2150790800", "cod": 1334.0, "nome": "Av.Domingos de Almeida", "ptotalvia": 26.0, "ppasseio1": 5.0, "ppasseio2": 5.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.74252487, -26.87888094 ], [ -48.742694022825901, -26.878855289725141 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2150790800", "cod": 1343.0, "nome": "Rod.Jorge Lacerda", "ptotalvia": 43.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.743321912435327, -26.886112462205507 ], [ -48.741489852307524, -26.885978281013831 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2150790800", "cod": 1340.0, "nome": "Av.José João Corrêa", "ptotalvia": 18.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.742978200772697, -26.881928479249115 ], [ -48.74282766, -26.88193827 ] ] } }
 ]
 }

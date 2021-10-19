@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2210030073", "cod": 525, "nome": "R.Aguinaldo Deola", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.678049835655422, -26.910893388262508 ], [ -48.67802686, -26.9112458 ], [ -48.678024704520418, -26.911283940192892 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2210030073", "cod": 523, "nome": "R.Antônio Adão Dias", "ptotalvia": 13.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67808918055286, -26.91124233318293 ], [ -48.67802686, -26.9112458 ], [ -48.67774874, -26.91121825 ], [ -48.677729062680605, -26.911212576035286 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2210030073", "cod": 525.0, "nome": "R.Aguinaldo Deola", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.678049835655422, -26.910893388262508 ], [ -48.67802686, -26.9112458 ], [ -48.678024704520418, -26.911283940192892 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210030073", "cod": 523.0, "nome": "R.Antônio Adão Dias", "ptotalvia": 13.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67808918055286, -26.91124233318293 ], [ -48.67802686, -26.9112458 ], [ -48.67774874, -26.91121825 ], [ -48.677729062680605, -26.911212576035286 ] ] } }
 ]
 }

@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040320312", "cod": 276, "nome": "Av.7 de Setembro", "ptotalvia": 18.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.655844045820892, -26.914971044721831 ], [ -48.655703052415625, -26.915308344845549 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040320312", "cod": 281, "nome": "R.Camboriú", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.655316572458148, -26.914777336522146 ], [ -48.655175828527348, -26.915062120740725 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2040320312", "cod": 276.0, "nome": "Av.7 de Setembro", "ptotalvia": 18.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.655844045820892, -26.914971044721831 ], [ -48.655703052415625, -26.915308344845549 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040320312", "cod": 281.0, "nome": "R.Camboriú", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.655316572458148, -26.914777336522146 ], [ -48.655175828527348, -26.915062120740725 ] ] } }
 ]
 }

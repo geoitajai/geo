@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020260431", "cod": 221, "nome": "R.Pedro Antônio Fayal", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.672042164652396, -26.901218575736802 ], [ -48.672319186919658, -26.90144151187997 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2020260431", "cod": 221.0, "nome": "R.Pedro Antônio Fayal", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.672042164652403, -26.901218575736802 ], [ -48.672319186919658, -26.901441511879966 ] ] } }
 ]
 }

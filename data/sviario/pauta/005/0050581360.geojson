@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050581360", "cod": 23, "nome": "R.Cargelino Francelino", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692913889791626, -26.900623966585304 ], [ -48.692551010451446, -26.900632181911998 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0050581360", "cod": 23.0, "nome": "R.Cargelino Francelino", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692913889791626, -26.900623966585304 ], [ -48.692551010451446, -26.900632181911998 ] ] } }
 ]
 }

@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040880040", "cod": 857, "nome": "R.Pedro Pereira Mafra", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6768266, -26.92466338 ], [ -48.676302032380406, -26.924592425386887 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040880040", "cod": 543, "nome": "R.José Siqueira", "ptotalvia": 25.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676829307680947, -26.924645869682283 ], [ -48.6768266, -26.92466338 ], [ -48.676775728516908, -26.92493173566136 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2040880040", "cod": 857.0, "nome": "R.Pedro Pereira Mafra", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6768266, -26.92466338 ], [ -48.676302032380406, -26.924592425386887 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040880040", "cod": 543.0, "nome": "R.José Siqueira", "ptotalvia": 25.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676829307680947, -26.924645869682291 ], [ -48.6768266, -26.92466338 ], [ -48.676775728516908, -26.92493173566136 ] ] } }
 ]
 }

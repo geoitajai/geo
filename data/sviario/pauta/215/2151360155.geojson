@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2151360155", "cod": 1315, "nome": "R.Maria Marques Rampelotti", "ptotalvia": 18.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.749760778358286, -26.870376270368581 ], [ -48.74941111, -26.87039842 ], [ -48.749324871192258, -26.87040443072495 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2151360155", "cod": 1323, "nome": "R.Luiz Castro", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.74941111, -26.87039842 ], [ -48.749436862724139, -26.870710759192892 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2151360155", "cod": 1315.0, "nome": "R.Maria Marques Rampelotti", "ptotalvia": 18.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.749760778358286, -26.870376270368578 ], [ -48.74941111, -26.87039842 ], [ -48.749324871192258, -26.870404430724953 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2151360155", "cod": 1323.0, "nome": "R.Luiz Castro", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.74941111, -26.87039842 ], [ -48.749436862724139, -26.870710759192889 ] ] } }
 ]
 }

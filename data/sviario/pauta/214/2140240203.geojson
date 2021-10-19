@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140240203", "cod": 754, "nome": "R.Mar.Floriano Peixoto", "ptotalvia": 8.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.632663345542305, -26.929161403549781 ], [ -48.632359339775732, -26.929488521695927 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2140240203", "cod": 755, "nome": "R.C.Carlos Renaux", "ptotalvia": 8.4, "ppasseio1": 1.2, "ppasseio2": 1.2 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.633163147289501, -26.929542644048386 ], [ -48.632863993685106, -26.929854432684845 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2140240203", "cod": 754.0, "nome": "R.Mar.Floriano Peixoto", "ptotalvia": 8.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.632663345542305, -26.929161403549777 ], [ -48.632359339775732, -26.92948852169593 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140240203", "cod": 755.0, "nome": "R.C.Carlos Renaux", "ptotalvia": 8.4, "ppasseio1": 1.2, "ppasseio2": 1.2 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.633163147289501, -26.929542644048386 ], [ -48.632863993685106, -26.929854432684841 ] ] } }
 ]
 }

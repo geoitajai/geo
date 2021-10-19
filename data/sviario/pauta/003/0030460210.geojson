@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0030460210", "cod": 1141, "nome": "R.Laudelina Dionísio", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695673907105785, -26.892437524806535 ], [ -48.695658798744425, -26.892115694671656 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0030460210", "cod": 1141.0, "nome": "R.Laudelina Dionísio", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695673907105785, -26.892437524806535 ], [ -48.695658798744425, -26.892115694671656 ] ] } }
 ]
 }

@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0052920200", "cod": 118, "nome": "R.Joaçaba", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702130279051495, -26.911790071032648 ], [ -48.702145092785713, -26.912070075748257 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0052920200", "cod": 118.0, "nome": "R.Joaçaba", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702130279051495, -26.911790071032648 ], [ -48.702145092785713, -26.912070075748261 ] ] } }
 ]
 }

@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2030350179", "cod": 1064, "nome": "R.Dorval José de Aragão", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702955617146699, -26.875009647315757 ], [ -48.7028066, -26.875015329999989 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2030350179", "cod": 1061, "nome": "R.José Luiz Marcelino", "ptotalvia": 10.2, "ppasseio1": 1.6, "ppasseio2": 1.6 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702568578543797, -26.872758640798097 ], [ -48.702258864478736, -26.872795974705458 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2030350179", "cod": 1064.0, "nome": "R.Dorval José de Aragão", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702955617146699, -26.875009647315753 ], [ -48.7028066, -26.875015329999989 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2030350179", "cod": 1061.0, "nome": "R.José Luiz Marcelino", "ptotalvia": 10.2, "ppasseio1": 1.6, "ppasseio2": 1.6 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702568578543797, -26.872758640798097 ], [ -48.702258864478736, -26.872795974705454 ] ] } }
 ]
 }

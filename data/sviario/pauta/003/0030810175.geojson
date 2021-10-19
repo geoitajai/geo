@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0030810175", "cod": 1190, "nome": "R.Espírito Santo", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698282373034736, -26.890133869813376 ], [ -48.69795343, -26.89014543 ], [ -48.697915704844938, -26.890146334343253 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0030810175", "cod": 1161, "nome": "Av.Independência", "ptotalvia": 18.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697951806875139, -26.890085121334103 ], [ -48.69795343, -26.89014543 ], [ -48.697977102917015, -26.89050742025891 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0030810175", "cod": 1190.0, "nome": "R.Espírito Santo", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698282373034736, -26.890133869813376 ], [ -48.69795343, -26.89014543 ], [ -48.697915704844938, -26.89014633434325 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0030810175", "cod": 1161.0, "nome": "Av.Independência", "ptotalvia": 18.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697951806875139, -26.890085121334092 ], [ -48.69795343, -26.89014543 ], [ -48.697977102917015, -26.890507420258913 ] ] } }
 ]
 }

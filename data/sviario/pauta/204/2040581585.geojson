@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2040581585", "cod": 705.0, "nome": "R.João Cunha", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.651000502145223, -26.928757880759328 ], [ -48.65111029, -26.92906175 ], [ -48.651126262789653, -26.929108246225173 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040581585", "cod": 698.0, "nome": "R.Iolanda Ardigó", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.651368309843029, -26.928877581487392 ], [ -48.65136307, -26.92888341 ], [ -48.65111029, -26.92906175 ], [ -48.651049580707209, -26.92907183734722 ] ] } }
+]
+}

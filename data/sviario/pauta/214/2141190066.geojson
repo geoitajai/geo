@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2141190066", "cod": 839, "nome": "R.Paulo Batschauer", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.631218499723353, -26.95010572985073 ], [ -48.63077754, -26.95014723 ], [ -48.630724058109124, -26.950154506910291 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2141190066", "cod": 782, "nome": "R.Delfim Mário Pádua Peixoto", "ptotalvia": 20.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.630802246764823, -26.950429842198211 ], [ -48.63077754, -26.95014723 ], [ -48.630773503118064, -26.950099137200795 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2141190066", "cod": 839.0, "nome": "R.Paulo Batschauer", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.631218499723346, -26.95010572985073 ], [ -48.63077754, -26.95014723 ], [ -48.630724058109124, -26.950154506910291 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2141190066", "cod": 782.0, "nome": "R.Delfim Mário Pádua Peixoto", "ptotalvia": 20.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.630802246764823, -26.950429842198211 ], [ -48.63077754, -26.95014723 ], [ -48.630773503118064, -26.950099137200795 ] ] } }
 ]
 }

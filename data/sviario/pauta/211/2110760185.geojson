@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110760185", "cod": 550, "nome": "R.Acyr Cunha", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674547527268956, -26.919260847277176 ], [ -48.67454917, -26.91928681 ], [ -48.67456727907291, -26.919626438370585 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110760185", "cod": 577, "nome": "R.Jacob Ardigó", "ptotalvia": 21.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674585561625271, -26.919282334409516 ], [ -48.67454917, -26.91928681 ], [ -48.674153022175666, -26.919346538288416 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2110760185", "cod": 550.0, "nome": "R.Acyr Cunha", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674547527268956, -26.919260847277176 ], [ -48.67454917, -26.919286809999988 ], [ -48.67456727907291, -26.919626438370585 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110760185", "cod": 577.0, "nome": "R.Jacob Ardigó", "ptotalvia": 21.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674585561625271, -26.919282334409516 ], [ -48.67454917, -26.919286809999988 ], [ -48.674153022175666, -26.919346538288416 ] ] } }
 ]
 }

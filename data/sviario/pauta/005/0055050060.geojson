@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0055050060", "cod": 138, "nome": "R.Florisa Pereira Garcia Kumm", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.708014855181425, -26.90792144926381 ], [ -48.707657273581539, -26.907936284024025 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0055050060", "cod": 138.0, "nome": "R.Florisa Pereira Garcia Kumm", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.708014855181425, -26.90792144926381 ], [ -48.707657273581539, -26.907936284024025 ] ] } }
 ]
 }

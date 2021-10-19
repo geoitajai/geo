@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020920769", "cod": 159, "nome": "R.José Pereira Liberato", "ptotalvia": 12.5, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68345651150112, -26.907630171845547 ], [ -48.68346036, -26.90771252 ], [ -48.683396647354925, -26.908017741159696 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020920769", "cod": 254, "nome": "R.Vicente Meirinho", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68346036, -26.90771252 ], [ -48.683078757818926, -26.90772457127963 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2020920769", "cod": 159.0, "nome": "R.José Pereira Liberato", "ptotalvia": 12.5, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68345651150112, -26.907630171845547 ], [ -48.68346036, -26.90771252 ], [ -48.683396647354925, -26.908017741159696 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020920769", "cod": 254.0, "nome": "R.Vicente Meirinho", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68346036, -26.90771252 ], [ -48.683078757818926, -26.907724571279633 ] ] } }
 ]
 }

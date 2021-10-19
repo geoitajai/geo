@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2161520145", "cod": 1252, "nome": "R.Maria do Carmo Cugik", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.843994532246235, -27.046478046834146 ], [ -48.844401697576785, -27.046456084869725 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2161520145", "cod": 1252.0, "nome": "R.Maria do Carmo Cugik", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.843994532246228, -27.046478046834146 ], [ -48.844401697576785, -27.046456084869728 ] ] } }
 ]
 }

@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2151240320", "cod": 1317, "nome": "R.Arq.Luiz Augusto Trojan", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.747319911051783, -26.872350351481494 ], [ -48.747355325212013, -26.872768216128751 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2151240320", "cod": 1327, "nome": "Av.Lauro José Pereira", "ptotalvia": 18.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.747619990510834, -26.872367213011987 ], [ -48.747256844162585, -26.872393397601137 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2151240320", "cod": 1317.0, "nome": "R.Arq.Luiz Augusto Trojan", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.747319911051783, -26.872350351481494 ], [ -48.747355325212013, -26.872768216128751 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2151240320", "cod": 1327.0, "nome": "Av.Lauro José Pereira", "ptotalvia": 18.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.747619990510842, -26.872367213011987 ], [ -48.747256844162585, -26.872393397601133 ] ] } }
 ]
 }

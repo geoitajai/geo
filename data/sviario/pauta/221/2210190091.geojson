@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2210190091", "cod": 530, "nome": "R.São Francisco de Assis", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.683820712532821, -26.910665577549523 ], [ -48.683763437427366, -26.911019180487337 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2210190091", "cod": 530.0, "nome": "R.São Francisco de Assis", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.683820712532821, -26.910665577549523 ], [ -48.683763437427366, -26.91101918048734 ] ] } }
 ]
 }

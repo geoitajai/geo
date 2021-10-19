@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2031610010", "cod": 1062, "nome": "R.Alberto Buchele", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70032491, -26.87313424 ], [ -48.700342038061009, -26.873462675487385 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2031610010", "cod": 1061, "nome": "R.José Luiz Marcelino", "ptotalvia": 10.2, "ppasseio1": 1.6, "ppasseio2": 1.6 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700389011267262, -26.873116811863877 ], [ -48.70032491, -26.87313424 ], [ -48.699940863624356, -26.873260945554065 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2031610010", "cod": 1062.0, "nome": "R.Alberto Buchele", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70032491, -26.87313424 ], [ -48.700342038061009, -26.873462675487385 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2031610010", "cod": 1061.0, "nome": "R.José Luiz Marcelino", "ptotalvia": 10.2, "ppasseio1": 1.6, "ppasseio2": 1.6 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700389011267262, -26.873116811863877 ], [ -48.70032491, -26.87313424 ], [ -48.699940863624356, -26.873260945554058 ] ] } }
 ]
 }

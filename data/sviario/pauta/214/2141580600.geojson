@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2141580600", "cod": 795, "nome": "R.Maria das Dores Santos Müller", "ptotalvia": 15.0, "ppasseio1": 3.5, "ppasseio2": 3.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.631848086097648, -26.948998270594632 ], [ -48.631556577976049, -26.949037696363153 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2141580600", "cod": 795.0, "nome": "R.Maria das Dores Santos Müller", "ptotalvia": 15.0, "ppasseio1": 3.5, "ppasseio2": 3.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.631848086097648, -26.948998270594632 ], [ -48.631556577976049, -26.949037696363153 ] ] } }
 ]
 }

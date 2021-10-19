@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2030184040", "cod": 1105, "nome": "R.Francisca Machado", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702784148985131, -26.886297155706377 ], [ -48.70278496, -26.88639138 ], [ -48.70275378, -26.88645868 ], [ -48.702759137572052, -26.886628558197735 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2030184040", "cod": 1105.0, "nome": "R.Francisca Machado", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702784148985131, -26.886297155706377 ], [ -48.70278496, -26.88639138 ], [ -48.70275378, -26.88645868 ], [ -48.702759137572052, -26.886628558197739 ] ] } }
 ]
 }

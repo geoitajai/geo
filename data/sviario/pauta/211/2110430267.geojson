@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110430267", "cod": 163, "nome": "R.Alberto Werner", "ptotalvia": 13.2, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.669887565001325, -26.912822749005919 ], [ -48.669924922452218, -26.913126489040767 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110430267", "cod": 332, "nome": "R.Hilda Breitenbauch", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.669556222475435, -26.91282576167767 ], [ -48.669269790226721, -26.9131815913282 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2110430267", "cod": 163.0, "nome": "R.Alberto Werner", "ptotalvia": 13.2, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.669887565001325, -26.912822749005922 ], [ -48.669924922452218, -26.913126489040771 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110430267", "cod": 332.0, "nome": "R.Hilda Breitenbauch", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.669556222475435, -26.912825761677666 ], [ -48.669269790226721, -26.9131815913282 ] ] } }
 ]
 }

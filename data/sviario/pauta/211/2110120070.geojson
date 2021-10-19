@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110120070", "cod": 494, "nome": "R.1º de Maio", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.669801444850414, -26.907853440612524 ], [ -48.66969153, -26.90786661 ], [ -48.669669952328995, -26.907697884034022 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110120070", "cod": 163, "nome": "R.Alberto Werner", "ptotalvia": 13.2, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.669283717327566, -26.907740595104453 ], [ -48.669321257266894, -26.908061844558961 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2110120070", "cod": 494.0, "nome": "R.1º de Maio", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.669801444850414, -26.907853440612524 ], [ -48.66969153, -26.90786661 ], [ -48.669669952328995, -26.907697884034022 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110120070", "cod": 163.0, "nome": "R.Alberto Werner", "ptotalvia": 13.2, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.669283717327566, -26.907740595104457 ], [ -48.669321257266894, -26.908061844558961 ] ] } }
 ]
 }

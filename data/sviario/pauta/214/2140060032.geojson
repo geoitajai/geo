@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140060032", "cod": 674, "nome": "R.Abel Adriano da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.646859124727584, -26.925299905952361 ], [ -48.6468641, -26.92530382 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2140060032", "cod": 675, "nome": "R.Lila Heusi", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6468641, -26.92530382 ], [ -48.646859286015662, -26.92530487781746 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2140060032", "cod": 674, "nome": "R.Abel Adriano da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6468641, -26.92530382 ], [ -48.647213493549486, -26.925423342656817 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2140060032", "cod": 674.0, "nome": "R.Abel Adriano da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.646859124727584, -26.925299905952361 ], [ -48.6468641, -26.92530382 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140060032", "cod": 675.0, "nome": "R.Lila Heusi", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6468641, -26.92530382 ], [ -48.646859286015662, -26.925304877817457 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140060032", "cod": 674.0, "nome": "R.Abel Adriano da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6468641, -26.92530382 ], [ -48.647213493549486, -26.925423342656817 ] ] } }
 ]
 }

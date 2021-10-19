@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2021020200", "cod": 185, "nome": "R.Pedro Rangel", "ptotalvia": 12.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68512216096947, -26.901098478244176 ], [ -48.68508072, -26.90107405 ], [ -48.684412984908356, -26.900874969261608 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2021020200", "cod": 208, "nome": "R.Rio Araguaia", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.685115612163422, -26.901221801786384 ], [ -48.684388345523828, -26.901257676497327 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2021020200", "cod": 185.0, "nome": "R.Pedro Rangel", "ptotalvia": 12.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68512216096947, -26.901098478244176 ], [ -48.68508072, -26.901074049999988 ], [ -48.684412984908356, -26.900874969261611 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2021020200", "cod": 208.0, "nome": "R.Rio Araguaia", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.685115612163422, -26.901221801786381 ], [ -48.684388345523828, -26.901257676497323 ] ] } }
 ]
 }

@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2041590030", "cod": 703, "nome": "R.José Júlio da Rocha", "ptotalvia": 5.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.650877629123471, -26.928162277351174 ], [ -48.65081025, -26.9282313 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2041590030", "cod": 705, "nome": "R.João Cunha", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.650658475928431, -26.927946219252874 ], [ -48.65081025, -26.9282313 ], [ -48.650824409713969, -26.928270491479157 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2041590030", "cod": 707, "nome": "R.João Fernandes Vieira Junior", "ptotalvia": 10.5, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.650421270072009, -26.928008542088481 ], [ -48.650480099458285, -26.928333147408733 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2041590030", "cod": 703.0, "nome": "R.José Júlio da Rocha", "ptotalvia": 5.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.650877629123471, -26.928162277351174 ], [ -48.65081025, -26.9282313 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2041590030", "cod": 705.0, "nome": "R.João Cunha", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.650658475928431, -26.927946219252874 ], [ -48.65081025, -26.9282313 ], [ -48.650824409713969, -26.928270491479164 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2041590030", "cod": 707.0, "nome": "R.João Fernandes Vieira Junior", "ptotalvia": 10.5, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.650421270072009, -26.928008542088477 ], [ -48.650480099458285, -26.928333147408729 ] ] } }
 ]
 }

@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2120220509", "cod": 428, "nome": "R.Eliziário Pereira", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677120128072531, -26.893005511789209 ], [ -48.676888469690311, -26.893284501868237 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2120220509", "cod": 428.0, "nome": "R.Eliziário Pereira", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677120128072531, -26.893005511789209 ], [ -48.676888469690311, -26.893284501868237 ] ] } }
 ]
 }

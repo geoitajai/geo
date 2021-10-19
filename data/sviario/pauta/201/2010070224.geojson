@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010070224", "cod": 288, "nome": "Av.Pref.Paulo Bauer", "ptotalvia": 14.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.657008730805444, -26.903278396199024 ], [ -48.65697675, -26.90330006 ], [ -48.656558423485329, -26.903587496444111 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010070224", "cod": 293, "nome": "R.Dr.José Bonifácio Malburg", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65731216060469, -26.903680770726041 ], [ -48.65728906, -26.90365372 ], [ -48.65697675, -26.90330006 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010070224", "cod": 289, "nome": "R.Dr. Pedro Ferreira", "ptotalvia": 14.0, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.657327148241734, -26.903626051316262 ], [ -48.65728906, -26.90365372 ], [ -48.656888043141471, -26.903934173911157 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2010070224", "cod": 288.0, "nome": "Av.Pref.Paulo Bauer", "ptotalvia": 14.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.657008730805444, -26.903278396199021 ], [ -48.65697675, -26.90330006 ], [ -48.656558423485329, -26.903587496444111 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010070224", "cod": 293.0, "nome": "R.Dr.José Bonifácio Malburg", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65731216060469, -26.903680770726041 ], [ -48.65728906, -26.90365372 ], [ -48.65697675, -26.90330006 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010070224", "cod": 289.0, "nome": "R.Dr. Pedro Ferreira", "ptotalvia": 14.0, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.657327148241734, -26.903626051316259 ], [ -48.65728906, -26.90365372 ], [ -48.656888043141471, -26.903934173911161 ] ] } }
 ]
 }

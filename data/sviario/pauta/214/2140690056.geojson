@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140690056", "cod": 818, "nome": "Serv.Leonel Miguel dos Santos", "ptotalvia": 5.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.640213549327932, -26.945492340136695 ], [ -48.64100062, -26.94539312 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2140690056", "cod": 586, "nome": "Av.Osvaldo Reis", "ptotalvia": 34.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.640211236565122, -26.945500229663978 ], [ -48.640240013140357, -26.945682434235223 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2140690056", "cod": 818.0, "nome": "Serv.Leonel Miguel dos Santos", "ptotalvia": 5.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.640213549327932, -26.945492340136695 ], [ -48.64100062, -26.94539312 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140690056", "cod": 586.0, "nome": "Av.Osvaldo Reis", "ptotalvia": 34.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.640211236565122, -26.945500229663981 ], [ -48.640240013140357, -26.945682434235223 ] ] } }
 ]
 }

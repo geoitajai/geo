@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040600305", "cod": 701, "nome": "R.José Roberto Sagaz", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.652987916641052, -26.928319226725257 ], [ -48.653263108807877, -26.928552040902222 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2040600305", "cod": 701.0, "nome": "R.José Roberto Sagaz", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.652987916641052, -26.928319226725261 ], [ -48.653263108807877, -26.928552040902222 ] ] } }
 ]
 }

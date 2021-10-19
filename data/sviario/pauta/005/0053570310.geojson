@@ -2,6 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0053570310", "cod": 989, "nome": "R.Lino José da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698374587481936, -26.924461623491382 ], [ -48.698554180754442, -26.924727880651169 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0053570310", "cod": 989.0, "nome": "R.Lino José da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698374587481936, -26.924461623491382 ], [ -48.698554180754442, -26.924727880651169 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0053570310", "cod": 989.0, "nome": "R.Lino José da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698374587481936, -26.924461623491382 ], [ -48.698554180754442, -26.924727880651169 ] ] } }
 ]
 }

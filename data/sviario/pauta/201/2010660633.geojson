@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010660633", "cod": 337, "nome": "Trav.Juventino Linhares", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66657725, -26.90877636 ], [ -48.666510854254931, -26.90884402639562 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010660633", "cod": 339, "nome": "R.Dr.Alexandre Fleming", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66674448487403, -26.908906572111036 ], [ -48.66657725, -26.90877636 ], [ -48.666469603965872, -26.908694720840185 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010660633", "cod": 284, "nome": "R.Alm.Barroso", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.667032528074976, -26.908594941129955 ], [ -48.666765465246208, -26.908387789090231 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2010660633", "cod": 337.0, "nome": "Trav.Juventino Linhares", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66657725, -26.90877636 ], [ -48.666510854254931, -26.908844026395617 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010660633", "cod": 339.0, "nome": "R.Dr.Alexandre Fleming", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66674448487403, -26.908906572111032 ], [ -48.66657725, -26.90877636 ], [ -48.666469603965872, -26.908694720840185 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010660633", "cod": 284.0, "nome": "R.Alm.Barroso", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.667032528074976, -26.908594941129955 ], [ -48.666765465246208, -26.908387789090234 ] ] } }
 ]
 }

@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110420359", "cod": 331, "nome": "R.Karl Richard Breitenbauch", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.668938898107776, -26.914625155851656 ], [ -48.66864872, -26.91483348 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110420359", "cod": 268, "nome": "R.Brusque", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.668602799069959, -26.914780844184307 ], [ -48.66864872, -26.91483348 ], [ -48.668858187593159, -26.915085887758806 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2110420359", "cod": 331.0, "nome": "R.Karl Richard Breitenbauch", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.668938898107776, -26.914625155851656 ], [ -48.66864872, -26.91483348 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110420359", "cod": 268.0, "nome": "R.Brusque", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.668602799069959, -26.914780844184303 ], [ -48.66864872, -26.91483348 ], [ -48.668858187593159, -26.915085887758806 ] ] } }
 ]
 }

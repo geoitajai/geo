@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110020358", "cod": 262, "nome": "Av.José Eugênio Muller", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.669879901692148, -26.906715963346787 ], [ -48.669924237497042, -26.907078783976178 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2110020358", "cod": 262.0, "nome": "Av.José Eugênio Muller", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.669879901692148, -26.906715963346787 ], [ -48.669924237497042, -26.907078783976178 ] ] } }
 ]
 }

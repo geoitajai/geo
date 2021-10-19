@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "215nan2370", "cod": 1409.0, "nome": "R.Carlos Bacca", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.754129133028236, -26.909229815001673 ], [ -48.754154897733692, -26.90963009179324 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "215nan2370", "cod": 1409.0, "nome": "R.Carlos Bacca", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.754068998107719, -26.908384547020418 ], [ -48.75406188, -26.90830288 ], [ -48.75404742, -26.90804035 ], [ -48.754046556284145, -26.908027255695263 ] ] } }
+]
+}

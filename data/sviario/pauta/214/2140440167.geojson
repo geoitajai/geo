@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140440167", "cod": 775, "nome": "R.Paulo Irineu Werner", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.633661504185966, -26.931661657902247 ], [ -48.63338595, -26.93146197 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2140440167", "cod": 771, "nome": "R.Ver.Hermínio Gervásio", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.633608751538119, -26.931140618850293 ], [ -48.63338327, -26.93137735 ], [ -48.63338595, -26.93146197 ], [ -48.633390158674644, -26.931575149474746 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2140440167", "cod": 775.0, "nome": "R.Paulo Irineu Werner", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.633661504185966, -26.93166165790225 ], [ -48.63338595, -26.93146197 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140440167", "cod": 771.0, "nome": "R.Ver.Hermínio Gervásio", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.633608751538119, -26.931140618850293 ], [ -48.63338327, -26.93137735 ], [ -48.63338595, -26.93146197 ], [ -48.633390158674644, -26.93157514947475 ] ] } }
 ]
 }

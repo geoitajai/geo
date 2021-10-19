@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110100639", "cod": 314, "nome": "R.Alfredo Trompowisky", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.671596829429376, -26.907281203627587 ], [ -48.671099795640103, -26.907323642393109 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2110100639", "cod": 314.0, "nome": "R.Alfredo Trompowisky", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.671596829429376, -26.907281203627587 ], [ -48.671099795640103, -26.907323642393113 ] ] } }
 ]
 }

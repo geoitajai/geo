@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0054630140", "cod": 1015, "nome": "R.Manoel Olívio Theodoro", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.701514937330415, -26.930213230403417 ], [ -48.701765471895122, -26.930418438956355 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0054630140", "cod": 1015.0, "nome": "R.Manoel Olívio Theodoro", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.701514937330415, -26.930213230403417 ], [ -48.701765471895122, -26.930418438956355 ] ] } }
 ]
 }

@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2030183002", "cod": 1106, "nome": "R.Profº.Cosme Buzarello", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702234528018401, -26.886388117179802 ], [ -48.702250906751502, -26.886710313524329 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2030183002", "cod": 1106.0, "nome": "R.Profº.Cosme Buzarello", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702234528018401, -26.886388117179806 ], [ -48.702250906751502, -26.886710313524329 ] ] } }
 ]
 }

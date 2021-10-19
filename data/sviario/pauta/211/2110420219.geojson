@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110420219", "cod": 331, "nome": "R.Karl Richard Breitenbauch", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.669876579812929, -26.91395196733535 ], [ -48.669553356275827, -26.914184020438348 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2110420219", "cod": 331.0, "nome": "R.Karl Richard Breitenbauch", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.669876579812929, -26.913951967335354 ], [ -48.669553356275827, -26.914184020438348 ] ] } }
 ]
 }

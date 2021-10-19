@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2141130300", "cod": 796, "nome": "R.Cláudio de Souza Ferreira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.630419488071517, -26.948168795699658 ], [ -48.62997531, -26.94821367 ], [ -48.629903042677292, -26.948222643308409 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2141130300", "cod": 794, "nome": "R.Dr.Lauro Mussi", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.62997076115969, -26.948152509550091 ], [ -48.62997531, -26.94821367 ], [ -48.629999440991703, -26.948489732564052 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2141130300", "cod": 796.0, "nome": "R.Cláudio de Souza Ferreira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.630419488071517, -26.948168795699655 ], [ -48.62997531, -26.94821367 ], [ -48.629903042677292, -26.948222643308409 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2141130300", "cod": 794.0, "nome": "R.Dr.Lauro Mussi", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.62997076115969, -26.948152509550088 ], [ -48.62997531, -26.94821367 ], [ -48.629999440991703, -26.948489732564052 ] ] } }
 ]
 }

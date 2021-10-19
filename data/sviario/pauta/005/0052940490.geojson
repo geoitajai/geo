@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0052940490", "cod": 118, "nome": "R.Joaçaba", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702044445608351, -26.910167666192997 ], [ -48.702062218837696, -26.910503612854633 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0052940490", "cod": 1302, "nome": "R.Luiz Carlos Machado", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702493355121113, -26.910375313490807 ], [ -48.7023657, -26.91037513 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0052940490", "cod": 118.0, "nome": "R.Joaçaba", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702044445608351, -26.910167666192994 ], [ -48.702062218837696, -26.910503612854633 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0052940490", "cod": 1302.0, "nome": "R.Luiz Carlos Machado", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702493355121113, -26.910375313490807 ], [ -48.7023657, -26.91037513 ] ] } }
 ]
 }

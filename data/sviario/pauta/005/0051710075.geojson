@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0051710075", "cod": 926, "nome": "Av.Min.Luiz Gallotti", "ptotalvia": 17.2, "ppasseio1": 3.25, "ppasseio2": 3.25 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702032484123258, -26.921906904493401 ], [ -48.701777942072013, -26.922162958996825 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0051710075", "cod": 926.0, "nome": "Av.Min.Luiz Gallotti", "ptotalvia": 17.2, "ppasseio1": 3.25, "ppasseio2": 3.25 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702032484123258, -26.921906904493401 ], [ -48.701777942072013, -26.922162958996825 ] ] } }
 ]
 }

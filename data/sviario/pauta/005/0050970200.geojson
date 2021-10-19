@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050970200", "cod": 1638, "nome": "R.Raul Bayer Laus", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696480626741845, -26.911075395876985 ], [ -48.69688172, -26.91105658 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0050970200", "cod": 95, "nome": "R.Érico Veríssimo", "ptotalvia": 14.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696863574824647, -26.910730370864599 ], [ -48.69688172, -26.91105658 ], [ -48.696931122747799, -26.911053810234577 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0050970200", "cod": 1638.0, "nome": "R.Raul Bayer Laus", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696480626741845, -26.911075395876985 ], [ -48.69688172, -26.91105658 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050970200", "cod": 95.0, "nome": "R.Érico Veríssimo", "ptotalvia": 14.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696863574824647, -26.910730370864595 ], [ -48.69688172, -26.91105658 ], [ -48.696931122747799, -26.911053810234581 ] ] } }
 ]
 }

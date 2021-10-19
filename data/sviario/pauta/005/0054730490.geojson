@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0054730490", "cod": 923, "nome": "R.Aldo Silva", "ptotalvia": 14.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698430839089248, -26.919085233416084 ], [ -48.698303708974144, -26.919255267025775 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0054730490", "cod": 925, "nome": "R.Antônio José Marcos", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698080637044598, -26.918934476280647 ], [ -48.698091482606678, -26.919246209029822 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0054730490", "cod": 923.0, "nome": "R.Aldo Silva", "ptotalvia": 14.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698430839089248, -26.919085233416084 ], [ -48.698303708974144, -26.919255267025775 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054730490", "cod": 925.0, "nome": "R.Antônio José Marcos", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698080637044598, -26.918934476280651 ], [ -48.698091482606678, -26.919246209029822 ] ] } }
 ]
 }

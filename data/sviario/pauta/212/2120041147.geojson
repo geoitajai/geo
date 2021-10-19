@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2120041147", "cod": 188, "nome": "R.Stringari", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676892004411471, -26.899302878956249 ], [ -48.67715591, -26.89950822 ], [ -48.67725130996179, -26.89958938609276 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2120041147", "cod": 196, "nome": "R.Antônio Ramos", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677411996210253, -26.899494325541887 ], [ -48.67715591, -26.89950822 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2120041147", "cod": 188.0, "nome": "R.Stringari", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676892004411471, -26.899302878956245 ], [ -48.67715591, -26.89950822 ], [ -48.677251309961783, -26.899589386092753 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2120041147", "cod": 196.0, "nome": "R.Antônio Ramos", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677411996210253, -26.899494325541887 ], [ -48.67715591, -26.89950822 ] ] } }
 ]
 }

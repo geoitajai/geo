@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050970250", "cod": 95, "nome": "R.Érico Veríssimo", "ptotalvia": 14.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696833572890789, -26.910191002860628 ], [ -48.696851843462497, -26.910519467260894 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0050970250", "cod": 95.0, "nome": "R.Érico Veríssimo", "ptotalvia": 14.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696833572890789, -26.910191002860632 ], [ -48.696851843462497, -26.910519467260894 ] ] } }
 ]
 }

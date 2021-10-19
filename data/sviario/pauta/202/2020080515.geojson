@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020080515", "cod": 249, "nome": "R.Germano Rozza", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.671449829953637, -26.905402332845789 ], [ -48.671013635481522, -26.905405531739195 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2020080515", "cod": 249.0, "nome": "R.Germano Rozza", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.671449829953637, -26.905402332845785 ], [ -48.671013635481522, -26.905405531739195 ] ] } }
 ]
 }

@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010630469", "cod": 326, "nome": "R.Hermann Bachmann", "ptotalvia": 4.2, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.668849413032106, -26.908359856534357 ], [ -48.66885321, -26.90839324 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010630469", "cod": 163, "nome": "R.Alberto Werner", "ptotalvia": 13.2, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.669355316065868, -26.908353302972795 ], [ -48.669391184022643, -26.90866024218726 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2010630469", "cod": 326.0, "nome": "R.Hermann Bachmann", "ptotalvia": 4.2, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.668849413032106, -26.908359856534357 ], [ -48.66885321, -26.90839324 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010630469", "cod": 163.0, "nome": "R.Alberto Werner", "ptotalvia": 13.2, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.669355316065868, -26.908353302972795 ], [ -48.669391184022643, -26.908660242187256 ] ] } }
 ]
 }

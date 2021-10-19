@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2021010200", "cod": 208, "nome": "R.Rio Araguaia", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.683391746599725, -26.901306830718141 ], [ -48.682790629591288, -26.901336475553805 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2021010200", "cod": 208.0, "nome": "R.Rio Araguaia", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.683391746599725, -26.901306830718138 ], [ -48.682790629591288, -26.901336475553805 ] ] } }
 ]
 }

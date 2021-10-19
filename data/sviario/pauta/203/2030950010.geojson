@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2030950010", "cod": 1087, "nome": "R.João Emiliano da Silva", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696408933517937, -26.883276660232386 ], [ -48.69642151, -26.88359847 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2030950010", "cod": 1110, "nome": "R.Sebastião Romeu Soares", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69673532, -26.88358902 ], [ -48.69642151, -26.88359847 ], [ -48.696362216692719, -26.883604284330396 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2030950010", "cod": 1110, "nome": "R.Sebastião Romeu Soares", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696737578009959, -26.88358895200253 ], [ -48.69673532, -26.88358902 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2030950010", "cod": 1087.0, "nome": "R.João Emiliano da Silva", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696408933517937, -26.883276660232386 ], [ -48.69642151, -26.88359847 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2030950010", "cod": 1110.0, "nome": "R.Sebastião Romeu Soares", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69673532, -26.88358902 ], [ -48.69642151, -26.88359847 ], [ -48.696362216692719, -26.883604284330392 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2030950010", "cod": 1110.0, "nome": "R.Sebastião Romeu Soares", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696737578009959, -26.883588952002533 ], [ -48.69673532, -26.88358902 ] ] } }
 ]
 }

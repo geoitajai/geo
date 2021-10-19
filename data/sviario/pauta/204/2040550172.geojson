@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040550172", "cod": 700, "nome": "R.Benjamim Wendhausen", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.651802545417574, -26.926601830930657 ], [ -48.652085809349117, -26.926835816659594 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2040550172", "cod": 700.0, "nome": "R.Benjamim Wendhausen", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.651802545417574, -26.926601830930657 ], [ -48.652085809349117, -26.926835816659594 ] ] } }
 ]
 }

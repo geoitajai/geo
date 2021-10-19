@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2160460820", "cod": 1437, "nome": "R.Artur Fermiano Teixeira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.72001009, -26.94356295 ], [ -48.72005848280736, -26.944080909811191 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2160460820", "cod": 1435, "nome": "R.Edmundo Wippel", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.719959892259965, -26.943547342511224 ], [ -48.72001009, -26.94356295 ], [ -48.720408472862843, -26.943672654656801 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2160460820", "cod": 1437.0, "nome": "R.Artur Fermiano Teixeira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.72001009, -26.94356295 ], [ -48.72005848280736, -26.944080909811195 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2160460820", "cod": 1435.0, "nome": "R.Edmundo Wippel", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.719959892259965, -26.943547342511224 ], [ -48.72001009, -26.94356295 ], [ -48.720408472862843, -26.943672654656801 ] ] } }
 ]
 }

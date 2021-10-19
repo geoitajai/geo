@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2120480180", "cod": 448, "nome": "R.Dr.Felipe Alencastro", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.670367646091876, -26.888574140643058 ], [ -48.670029217321456, -26.888347380839321 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2120480180", "cod": 448.0, "nome": "R.Dr.Felipe Alencastro", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.670367646091883, -26.888574140643058 ], [ -48.670029217321456, -26.888347380839321 ] ] } }
 ]
 }

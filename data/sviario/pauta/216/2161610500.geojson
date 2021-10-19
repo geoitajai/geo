@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2161610500", "cod": 1236, "nome": "R.LM 001 - Valquiria Laurentino Pereira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.863299925410871, -27.038669393823003 ], [ -48.86321716, -27.03888254 ], [ -48.863226638960946, -27.03905510345621 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2161610500", "cod": 1235, "nome": "Rod.Dep.Antônio Heil", "ptotalvia": 30.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.863281732402818, -27.038620845668209 ], [ -48.862994622306175, -27.03840412293431 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2161610500", "cod": 1236.0, "nome": "R.LM 001 - Valquiria Laurentino Pereira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.863299925410871, -27.038669393823003 ], [ -48.86321716, -27.03888254 ], [ -48.863226638960946, -27.03905510345621 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2161610500", "cod": 1235.0, "nome": "Rod.Dep.Antônio Heil", "ptotalvia": 30.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.863281732402818, -27.038620845668209 ], [ -48.862994622306175, -27.03840412293431 ] ] } }
 ]
 }

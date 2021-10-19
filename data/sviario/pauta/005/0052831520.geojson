@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0052831520", "cod": 55, "nome": "R.Guilherme Genuíno Rhenius", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691269589258162, -26.896227956994242 ], [ -48.690885908774021, -26.896242554080171 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0052831520", "cod": 1634, "nome": "R.Felipe Costa", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691098903726903, -26.895906232611956 ], [ -48.69109944, -26.89594129 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0052831520", "cod": 55.0, "nome": "R.Guilherme Genuíno Rhenius", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691269589258162, -26.896227956994242 ], [ -48.690885908774021, -26.896242554080168 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0052831520", "cod": 1634.0, "nome": "R.Felipe Costa", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691098903726903, -26.895906232611956 ], [ -48.69109944, -26.89594129 ] ] } }
 ]
 }

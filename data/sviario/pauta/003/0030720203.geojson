@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0030720203", "cod": 1218, "nome": "R.Amazonas", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697710816064671, -26.896643848279332 ], [ -48.697352437287989, -26.89665149124993 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0030720203", "cod": 1218.0, "nome": "R.Amazonas", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697710816064671, -26.896643848279332 ], [ -48.697352437287989, -26.89665149124993 ] ] } }
 ]
 }

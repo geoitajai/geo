@@ -2,6 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2042070229", "cod": 1641, "nome": "Serv. Anatália da Silva", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.652317044942905, -26.934055370181767 ], [ -48.65252241, -26.93399779 ], [ -48.652673899971575, -26.933940367324915 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2042070229", "cod": 1641.0, "nome": "Serv. Anatália da Silva", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.652317042678149, -26.934055370816754 ], [ -48.65252241, -26.93399779 ], [ -48.65267367625745, -26.933940452124517 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2042070229", "cod": 1758.0, "nome": "Serv.\"F\"", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65261955, -26.93396097 ], [ -48.652664249782624, -26.934037206690196 ] ] } }
 ]
 }

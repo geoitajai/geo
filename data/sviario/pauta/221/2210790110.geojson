@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2210790110", "cod": 565, "nome": "R.Antero Chaves", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.679733090587362, -26.921198026598955 ], [ -48.68016378, -26.92119287 ], [ -48.680229396964499, -26.921190994839474 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2210790110", "cod": 569, "nome": "R.João Reipert de Amorim", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.680161431894128, -26.921129550654992 ], [ -48.68016378, -26.92119287 ], [ -48.68017198438293, -26.921491924357362 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2210790110", "cod": 565.0, "nome": "R.Antero Chaves", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.679733090587362, -26.921198026598955 ], [ -48.68016378, -26.92119287 ], [ -48.680229396964499, -26.921190994839474 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210790110", "cod": 569.0, "nome": "R.João Reipert de Amorim", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.680161431894128, -26.921129550654992 ], [ -48.68016378, -26.92119287 ], [ -48.68017198438293, -26.921491924357369 ] ] } }
 ]
 }

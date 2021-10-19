@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110550120", "cod": 270, "nome": "R.Luiz Panca", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66906175, -26.91744898 ], [ -48.669034128899632, -26.917521574847246 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110550120", "cod": 273, "nome": "R.Gustavo Manoel dos Santos", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.669322590692218, -26.917431395502025 ], [ -48.66906175, -26.91744898 ], [ -48.668960900393444, -26.91745210621287 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2110550120", "cod": 270.0, "nome": "R.Luiz Panca", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66906175, -26.91744898 ], [ -48.669034128899625, -26.91752157484726 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110550120", "cod": 273.0, "nome": "R.Gustavo Manoel dos Santos", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.669322590692218, -26.917431395502025 ], [ -48.66906175, -26.91744898 ], [ -48.668960900393444, -26.91745210621287 ] ] } }
 ]
 }

@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2161690170", "cod": 1251, "nome": "R.Mineral", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.846739271295526, -27.038952843720754 ], [ -48.84697973166859, -27.038576414265226 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2161690170", "cod": 1251.0, "nome": "R.Mineral", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.846739271295526, -27.038952843720757 ], [ -48.84697973166859, -27.038576414265226 ] ] } }
 ]
 }

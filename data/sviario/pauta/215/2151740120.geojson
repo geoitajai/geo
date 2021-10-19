@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2151740120", "cod": 1326, "nome": "R.João Ardigó", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.75187350911051, -26.881688592582584 ], [ -48.75190658836808, -26.881994673004858 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2151740120", "cod": 1326.0, "nome": "R.João Ardigó", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.75187350911051, -26.881688592582588 ], [ -48.75190658836808, -26.881994673004858 ] ] } }
 ]
 }

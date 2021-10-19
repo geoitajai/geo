@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020540089", "cod": 188, "nome": "R.Stringari", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677005887833246, -26.89939149011191 ], [ -48.67715591, -26.89950822 ], [ -48.677268298407157, -26.899603839809235 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020540089", "cod": 189, "nome": "R.Manoel Mello", "ptotalvia": 5.2, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67682221351874, -26.899562798279774 ], [ -48.677100645683844, -26.899783517582883 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020540089", "cod": 196, "nome": "R.Antônio Ramos", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67727173842578, -26.899501935560512 ], [ -48.67715591, -26.89950822 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2020540089", "cod": 188.0, "nome": "R.Stringari", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677005887833246, -26.899391490111913 ], [ -48.67715591, -26.89950822 ], [ -48.677268298407157, -26.899603839809231 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020540089", "cod": 189.0, "nome": "R.Manoel Mello", "ptotalvia": 5.2, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67682221351874, -26.899562798279774 ], [ -48.677100645683844, -26.899783517582883 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020540089", "cod": 196.0, "nome": "R.Antônio Ramos", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67727173842578, -26.899501935560508 ], [ -48.67715591, -26.89950822 ] ] } }
 ]
 }

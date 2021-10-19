@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0052920020", "cod": 118, "nome": "R.Joaçaba", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702203355770827, -26.913171341537041 ], [ -48.702218058485514, -26.91344924602878 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0052920020", "cod": 119, "nome": "R.Xaxim", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702183650171108, -26.913464686982909 ], [ -48.701825183010627, -26.913456118424644 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0052920020", "cod": 118.0, "nome": "R.Joaçaba", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702203355770827, -26.913171341537044 ], [ -48.702218058485514, -26.91344924602878 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0052920020", "cod": 119.0, "nome": "R.Xaxim", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702183650171108, -26.913464686982913 ], [ -48.701825183010627, -26.913456118424644 ] ] } }
 ]
 }

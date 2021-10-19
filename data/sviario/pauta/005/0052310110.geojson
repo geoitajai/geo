@@ -2,9 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0052310110", "cod": 954, "nome": "R.Raul Machado", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698816302386746, -26.923015212991384 ], [ -48.69870834, -26.92305253 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0052310110", "cod": 957, "nome": "R.Emanoel José Rebello", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698676864501621, -26.922981469508098 ], [ -48.69870834, -26.92305253 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0052310110", "cod": 954, "nome": "R.Raul Machado", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69870834, -26.92305253 ], [ -48.698494774539107, -26.923132476443353 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0052310110", "cod": 954, "nome": "R.Raul Machado", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69870834, -26.92305253 ], [ -48.698494774539107, -26.923132476443353 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0052310110", "cod": 954.0, "nome": "R.Raul Machado", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698816302386746, -26.923015212991388 ], [ -48.69870834, -26.92305253 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0052310110", "cod": 957.0, "nome": "R.Emanoel José Rebello", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698676864501614, -26.922981469508098 ], [ -48.69870834, -26.92305253 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0052310110", "cod": 954.0, "nome": "R.Raul Machado", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69870834, -26.92305253 ], [ -48.698494774539114, -26.923132476443353 ] ] } }
 ]
 }

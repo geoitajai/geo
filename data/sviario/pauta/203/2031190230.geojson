@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2031190230", "cod": 1099, "nome": "R.Ver.Horácio Ramos Gonzaga", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.705490253193901, -26.877329905112855 ], [ -48.70551102963492, -26.877702884814134 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2031190230", "cod": 1099.0, "nome": "R.Ver.Horácio Ramos Gonzaga", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.705490253193901, -26.877329905112859 ], [ -48.70551102963492, -26.877702884814134 ] ] } }
 ]
 }

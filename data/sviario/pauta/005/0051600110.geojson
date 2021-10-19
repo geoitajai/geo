@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0051600110", "cod": 901, "nome": "R.Das Buganvilias", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.694771873068149, -26.918559041561892 ], [ -48.6947731, -26.918576 ], [ -48.6947899, -26.91879145 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0051600110", "cod": 913, "nome": "R.Laudino Pedro da Silva", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.694818573094331, -26.918573101192113 ], [ -48.6947731, -26.918576 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0051600110", "cod": 901, "nome": "R.Das Buganvilias", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6947899, -26.91879145 ], [ -48.694798068134148, -26.918896207755996 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0051600110", "cod": 901.0, "nome": "R.Das Buganvilias", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.694771873068149, -26.918559041561892 ], [ -48.6947731, -26.918576 ], [ -48.6947899, -26.91879145 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0051600110", "cod": 913.0, "nome": "R.Laudino Pedro da Silva", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.694818573094331, -26.918573101192113 ], [ -48.6947731, -26.918576 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0051600110", "cod": 901.0, "nome": "R.Das Buganvilias", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6947899, -26.91879145 ], [ -48.694798068134148, -26.918896207755996 ] ] } }
 ]
 }

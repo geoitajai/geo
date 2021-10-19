@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2031830055", "cod": 1048, "nome": "R.Luiz de Queiroz Gaudereto", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692397162555359, -26.869023176920447 ], [ -48.692046796591136, -26.869031090978378 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2031830055", "cod": 1048.0, "nome": "R.Luiz de Queiroz Gaudereto", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692397162555359, -26.86902317692045 ], [ -48.692046796591136, -26.869031090978375 ] ] } }
 ]
 }

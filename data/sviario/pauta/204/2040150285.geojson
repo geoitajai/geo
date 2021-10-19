@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040150285", "cod": 648, "nome": "R.Onze de Junho", "ptotalvia": 13.2, "ppasseio1": 1.9, "ppasseio2": 1.9 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.650842073687876, -26.920961681482634 ], [ -48.65090073, -26.92109244 ], [ -48.650998355685772, -26.921275232536097 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040150285", "cod": 665, "nome": "R.Pedro Camilo da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65090073, -26.92109244 ], [ -48.650833084489783, -26.921118907701995 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2040150285", "cod": 648.0, "nome": "R.Onze de Junho", "ptotalvia": 13.2, "ppasseio1": 1.9, "ppasseio2": 1.9 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.650842073687876, -26.92096168148263 ], [ -48.65090073, -26.92109244 ], [ -48.650998355685772, -26.9212752325361 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040150285", "cod": 665.0, "nome": "R.Pedro Camilo da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65090073, -26.92109244 ], [ -48.650833084489783, -26.921118907701995 ] ] } }
 ]
 }

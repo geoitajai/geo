@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2150301190", "cod": 1348, "nome": "R.José Montagna", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.72865886, -26.87546795 ], [ -48.728346630073624, -26.875328091032824 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2150301190", "cod": 1650, "nome": "R.Antonio Victor Gonçalves", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.728938211785739, -26.876402809923142 ], [ -48.7288634, -26.87640909 ], [ -48.729012341582063, -26.878480197417076 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2150301190", "cod": 1348.0, "nome": "R.José Montagna", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.72865886, -26.87546795 ], [ -48.728346630073624, -26.875328091032824 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2150301190", "cod": 1650.0, "nome": "R.Antonio Victor Gonçalves", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.728938211785739, -26.876402809923139 ], [ -48.7288634, -26.87640909 ], [ -48.729012341582063, -26.878480197417076 ] ] } }
 ]
 }

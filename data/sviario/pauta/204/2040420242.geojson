@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040420242", "cod": 609, "nome": "R.Emílio da Cruz Coutinho", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.657301737920406, -26.915645043990608 ], [ -48.657020870346585, -26.91542165012493 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2040420242", "cod": 609.0, "nome": "R.Emílio da Cruz Coutinho", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.657301737920406, -26.915645043990608 ], [ -48.657020870346585, -26.91542165012493 ] ] } }
 ]
 }

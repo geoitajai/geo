@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2141830950", "cod": 823, "nome": "R.Jordina de Lima", "ptotalvia": 5.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.637666680947284, -26.944357302123894 ], [ -48.637722527249174, -26.944697876973258 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2141830950", "cod": 824, "nome": "R.João Domingos Pereira", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.637417404649604, -26.944454056409569 ], [ -48.63742482, -26.94450415 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2141830950", "cod": 823.0, "nome": "R.Jordina de Lima", "ptotalvia": 5.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.637666680947284, -26.944357302123894 ], [ -48.637722527249174, -26.944697876973258 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2141830950", "cod": 824.0, "nome": "R.João Domingos Pereira", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.637417404649604, -26.944454056409558 ], [ -48.63742482, -26.94450415 ] ] } }
 ]
 }

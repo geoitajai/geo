@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0032020030", "cod": 1214, "nome": "R.Vitória", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.701470835246745, -26.898037540578517 ], [ -48.701106002508425, -26.898056408120656 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0032020030", "cod": 1214.0, "nome": "R.Vitória", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.701470835246745, -26.898037540578514 ], [ -48.701106002508425, -26.898056408120656 ] ] } }
 ]
 }

@@ -2,7 +2,9 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0053940220", "cod": 955, "nome": "R.Acelino Alves dos Santos", "ptotalvia": 8.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691836980879209, -26.927667434411791 ], [ -48.6919198, -26.92761687 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0053940220", "cod": 963, "nome": "R.Arnaldo Lopes", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691822881380929, -26.927481855934847 ], [ -48.6919198, -26.92761687 ], [ -48.692014827223112, -26.927756490191086 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0053940220", "cod": 955.0, "nome": "R.Acelino Alves dos Santos", "ptotalvia": 8.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691836980879209, -26.927667434411795 ], [ -48.6919198, -26.92761687 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0053940220", "cod": 955.0, "nome": "R.Acelino Alves dos Santos", "ptotalvia": 8.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691836980879209, -26.927667434411795 ], [ -48.6919198, -26.92761687 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0053940220", "cod": 963.0, "nome": "R.Arnaldo Lopes", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691822881380929, -26.927481855934847 ], [ -48.6919198, -26.92761687 ], [ -48.692014827223112, -26.92775649019109 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0053940220", "cod": 963.0, "nome": "R.Arnaldo Lopes", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691822881380929, -26.927481855934847 ], [ -48.6919198, -26.92761687 ], [ -48.692014827223112, -26.92775649019109 ] ] } }
 ]
 }

@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2161540155", "cod": 1253, "nome": "R.Eduardo Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.844622332801613, -27.045518912849307 ], [ -48.84421823072379, -27.045540988876748 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2161540155", "cod": 1253.0, "nome": "R.Eduardo Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.844577947183446, -27.045521337685489 ], [ -48.84415828832968, -27.045544263419412 ] ] } }
 ]
 }

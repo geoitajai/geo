@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140710105", "cod": 805, "nome": "Av.Márcio Ferreira de Mello e Silva", "ptotalvia": 15.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.64160005, -26.95413534 ], [ -48.641603294902119, -26.953557862546113 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2140710105", "cod": 792, "nome": "R.Ariribá", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.641669454601818, -26.954126287700205 ], [ -48.64160005, -26.95413534 ], [ -48.640956558829899, -26.954219221765197 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2140710105", "cod": 805.0, "nome": "Av.Márcio Ferreira de Mello e Silva", "ptotalvia": 15.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.64160005, -26.95413534 ], [ -48.641603294902119, -26.953557862546109 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140710105", "cod": 792.0, "nome": "R.Ariribá", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.641669454601818, -26.954126287700205 ], [ -48.64160005, -26.95413534 ], [ -48.640956558829899, -26.954219221765197 ] ] } }
 ]
 }

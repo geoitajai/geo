@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2032010660", "cod": 1282, "nome": "R.João Baptista", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.721680225705235, -26.882581958382008 ], [ -48.721708619341968, -26.882948455357852 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2032010660", "cod": 1282.0, "nome": "R.João Baptista", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.721680225705235, -26.882581958382005 ], [ -48.721708619341968, -26.882948455357852 ] ] } }
 ]
 }

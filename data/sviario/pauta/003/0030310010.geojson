@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0030310010", "cod": 1114, "nome": "R.São Cristóvão", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693328952106178, -26.894504404749071 ], [ -48.6933483, -26.89481021 ], [ -48.693351061214194, -26.894863608671422 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0030310010", "cod": 1137, "nome": "R.Felício Henrique dos Santos", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69340999098943, -26.894807090946653 ], [ -48.6933483, -26.89481021 ], [ -48.692952308749376, -26.894832129665037 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0030310010", "cod": 1114.0, "nome": "R.São Cristóvão", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693328952106178, -26.894504404749043 ], [ -48.6933483, -26.89481021 ], [ -48.693351061214194, -26.894863608671425 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0030310010", "cod": 1137.0, "nome": "R.Felício Henrique dos Santos", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69340999098943, -26.894807090946657 ], [ -48.6933483, -26.89481021 ], [ -48.692952308749376, -26.894832129665041 ] ] } }
 ]
 }

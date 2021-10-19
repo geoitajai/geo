@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040130099", "cod": 649, "nome": "R.Dr.Francisco Rangel", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.652071493640292, -26.922265314642917 ], [ -48.651980566890515, -26.922515101626583 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040130099", "cod": 276, "nome": "Av.7 de Setembro", "ptotalvia": 18.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.652721273834651, -26.922449305646573 ], [ -48.652572547026338, -26.922804333847171 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2040130099", "cod": 649.0, "nome": "R.Dr.Francisco Rangel", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.652071493640292, -26.922265314642917 ], [ -48.651980566890515, -26.922515101626583 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040130099", "cod": 276.0, "nome": "Av.7 de Setembro", "ptotalvia": 18.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.652721273834651, -26.922449305646577 ], [ -48.652572547026338, -26.922804333847168 ] ] } }
 ]
 }

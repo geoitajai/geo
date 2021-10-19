@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0054930420", "cod": 127, "nome": "R.Jeferson Nunes", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702575420529307, -26.9078123477356 ], [ -48.70224043956572, -26.9078301147097 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0054930420", "cod": 127.0, "nome": "R.Jeferson Nunes", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702575420529307, -26.9078123477356 ], [ -48.70224043956572, -26.907830114709697 ] ] } }
 ]
 }

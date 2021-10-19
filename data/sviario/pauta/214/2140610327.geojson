@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140610327", "cod": 720, "nome": "Serv.Anastácio José Paulo", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.64546205, -26.92858112 ], [ -48.64507801299321, -26.928451217797839 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2140610327", "cod": 722, "nome": "R.Leonardo Tetto", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.645610065026268, -26.928451728331794 ], [ -48.64553622, -26.92840234 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2140610327", "cod": 586, "nome": "Av.Osvaldo Reis", "ptotalvia": 34.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.645591275705364, -26.92830798330867 ], [ -48.64553622, -26.92840234 ], [ -48.645458983842524, -26.92858705384312 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2140610327", "cod": 720.0, "nome": "Serv.Anastácio José Paulo", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.64546205, -26.928581120000011 ], [ -48.64507801299321, -26.928451217797839 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140610327", "cod": 722.0, "nome": "R.Leonardo Tetto", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.645610065026268, -26.928451728331794 ], [ -48.64553622, -26.92840234 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140610327", "cod": 586.0, "nome": "Av.Osvaldo Reis", "ptotalvia": 34.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.645591275705364, -26.92830798330867 ], [ -48.64553622, -26.92840234 ], [ -48.645458983842524, -26.92858705384312 ] ] } }
 ]
 }

@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2120041109", "cod": 188, "nome": "R.Stringari", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676560907055197, -26.899045147285577 ], [ -48.676565, -26.89904844 ], [ -48.676833300956183, -26.899257202502362 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2120041109", "cod": 197, "nome": "R.Ernesto Kobarg", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676979847903517, -26.899023346541568 ], [ -48.676565, -26.89904844 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2120041109", "cod": 198, "nome": "R.João Vechani", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676643090025131, -26.898958853688125 ], [ -48.676565, -26.89904844 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2120041109", "cod": 188.0, "nome": "R.Stringari", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676560907055197, -26.899045147285577 ], [ -48.676565, -26.89904844 ], [ -48.676833300956183, -26.899257202502362 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2120041109", "cod": 197.0, "nome": "R.Ernesto Kobarg", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676979847903517, -26.899023346541565 ], [ -48.676565, -26.89904844 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2120041109", "cod": 198.0, "nome": "R.João Vechani", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676643090025131, -26.898958853688125 ], [ -48.676565, -26.89904844 ] ] } }
 ]
 }

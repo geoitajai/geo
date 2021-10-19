@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0052770090", "cod": 67, "nome": "R.São Miguel", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68497869436775, -26.89506510160767 ], [ -48.684723684925906, -26.895311190311535 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0052770090", "cod": 67.0, "nome": "R.São Miguel", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68497869436775, -26.895065101607667 ], [ -48.684723684925906, -26.895311190311531 ] ] } }
 ]
 }

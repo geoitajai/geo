@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040650820", "cod": 695, "nome": "R.Lúcio Correia de Mendonça", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65503159059606, -26.927195586968235 ], [ -48.65515909, -26.92730376 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2040650820", "cod": 695.0, "nome": "R.Lúcio Correia de Mendonça", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65503159059606, -26.927195586968235 ], [ -48.65515909, -26.92730376 ] ] } }
 ]
 }

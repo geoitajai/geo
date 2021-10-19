@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0031700510", "cod": 1129, "nome": "R.Henrique Borba dos Santos", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69580272, -26.89098576 ], [ -48.695710318982265, -26.890987821634532 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0031700510", "cod": 1139, "nome": "R.Galdino de Borba", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696303110814313, -26.891083378698756 ], [ -48.696310791809374, -26.890758833356447 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0031700510", "cod": 1129.0, "nome": "R.Henrique Borba dos Santos", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69580272, -26.89098576 ], [ -48.695710318982265, -26.890987821634532 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031700510", "cod": 1139.0, "nome": "R.Galdino de Borba", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696303110814313, -26.89108337869876 ], [ -48.696310791809374, -26.890758833356447 ] ] } }
 ]
 }

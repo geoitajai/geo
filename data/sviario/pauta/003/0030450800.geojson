@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0030450800", "cod": 1112, "nome": "R.Santo Agostinho", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.694068061155072, -26.885497663115547 ], [ -48.694046794828651, -26.885144130768634 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0030450800", "cod": 1112.0, "nome": "R.Santo Agostinho", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.694068061155072, -26.885497663115544 ], [ -48.694046794828651, -26.885144130768637 ] ] } }
 ]
 }

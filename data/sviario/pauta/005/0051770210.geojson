@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0051770210", "cod": 980, "nome": "R.Paulo Aridio de França", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.7006252, -26.92403939 ], [ -48.700407200023186, -26.924252272689877 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0051770210", "cod": 945, "nome": "R.Paulo Valmor Severino", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700848002703353, -26.924223192782996 ], [ -48.7006252, -26.92403939 ], [ -48.70055912620878, -26.923987262688563 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0051770210", "cod": 980.0, "nome": "R.Paulo Aridio de França", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.7006252, -26.92403939 ], [ -48.700407200023186, -26.924252272689884 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0051770210", "cod": 945.0, "nome": "R.Paulo Valmor Severino", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700848002703353, -26.924223192782996 ], [ -48.7006252, -26.92403939 ], [ -48.70055912620878, -26.923987262688563 ] ] } }
 ]
 }

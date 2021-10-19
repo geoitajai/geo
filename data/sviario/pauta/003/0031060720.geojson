@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0031060720", "cod": 1163, "nome": "R.Romualdo Sedrez", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.699528906873461, -26.889383642173925 ], [ -48.6995325, -26.88945223 ], [ -48.699551585188573, -26.889739359451148 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0031060720", "cod": 1233, "nome": "R.Áurea de Souza", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.699606981806355, -26.889446581259353 ], [ -48.6995325, -26.88945223 ], [ -48.69921182, -26.88945915 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0031060720", "cod": 1233, "nome": "R.Áurea de Souza", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69921182, -26.88945915 ], [ -48.699085996505772, -26.889461863998459 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0031060720", "cod": 1163.0, "nome": "R.Romualdo Sedrez", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.699528906873461, -26.889383642173922 ], [ -48.6995325, -26.88945223 ], [ -48.699551585188573, -26.889739359451152 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031060720", "cod": 1233.0, "nome": "R.Áurea de Souza", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.699606981806348, -26.889446581259353 ], [ -48.6995325, -26.88945223 ], [ -48.69921182, -26.889459150000011 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031060720", "cod": 1233.0, "nome": "R.Áurea de Souza", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69921182, -26.889459150000011 ], [ -48.699085996505772, -26.889461863998459 ] ] } }
 ]
 }

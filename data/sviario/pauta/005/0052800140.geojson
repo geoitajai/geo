@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0052800140", "cod": 61, "nome": "R.São Francisco do Sul", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.683494939551217, -26.893787003832291 ], [ -48.683233298838132, -26.894016516397425 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0052800140", "cod": 61.0, "nome": "R.São Francisco do Sul", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.683494939551217, -26.893787003832291 ], [ -48.683233298838132, -26.894016516397421 ] ] } }
 ]
 }

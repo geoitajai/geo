@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0031010295", "cod": 1162, "nome": "R.Nossa Senhora de Fátima", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.699077759996605, -26.893551655334154 ], [ -48.69909208500335, -26.893923555373512 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0031010295", "cod": 1195, "nome": "R.Ceará", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69881653, -26.89389879 ], [ -48.698706380109059, -26.893902986467292 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0031010295", "cod": 1162.0, "nome": "R.Nossa Senhora de Fátima", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.699077759996605, -26.893551655334154 ], [ -48.69909208500335, -26.893923555373512 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031010295", "cod": 1195.0, "nome": "R.Ceará", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69881653, -26.89389879 ], [ -48.698706380109059, -26.893902986467292 ] ] } }
 ]
 }

@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050390300", "cod": 24, "nome": "R.Carlos Schroeder", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692139948815317, -26.90004557697781 ], [ -48.691785418499279, -26.90005561642506 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0050390300", "cod": 24.0, "nome": "R.Carlos Schroeder", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692139948815317, -26.90004557697781 ], [ -48.691785418499272, -26.90005561642506 ] ] } }
 ]
 }

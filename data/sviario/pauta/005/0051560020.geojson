@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0051560020", "cod": 910, "nome": "R.Das Petúnias", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695235217676263, -26.916463910654397 ], [ -48.694855842561672, -26.916484855837282 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0051560020", "cod": 910.0, "nome": "R.Das Petúnias", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695235217676263, -26.916463910654397 ], [ -48.694855842561672, -26.916484855837282 ] ] } }
 ]
 }

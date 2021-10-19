@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050410035", "cod": 51, "nome": "R.Otávio Cesário Pereira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.690588256104768, -26.900798834947473 ], [ -48.690590808720593, -26.901106202668014 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0050410035", "cod": 51.0, "nome": "R.Otávio Cesário Pereira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.690588256104768, -26.900798834947473 ], [ -48.690590808720593, -26.901106202668014 ] ] } }
 ]
 }

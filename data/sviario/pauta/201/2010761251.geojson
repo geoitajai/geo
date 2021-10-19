@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010761251", "cod": 265, "nome": "Av.Ver.Abrahão João Francisco", "ptotalvia": 29.4, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.662582959050582, -26.914135282977597 ], [ -48.662336345018268, -26.913996520632196 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010761251", "cod": 374, "nome": "R.José Paulo da Silva", "ptotalvia": 9.5, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.662496633244942, -26.913718549579187 ], [ -48.662775730811525, -26.91395171486338 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2010761251", "cod": 265.0, "nome": "Av.Ver.Abrahão João Francisco", "ptotalvia": 29.4, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.662582959050582, -26.914135282977597 ], [ -48.662336345018268, -26.913996520632192 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010761251", "cod": 374.0, "nome": "R.José Paulo da Silva", "ptotalvia": 9.5, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.662496633244942, -26.913718549579187 ], [ -48.662775730811532, -26.913951714863391 ] ] } }
 ]
 }

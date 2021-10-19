@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0053020280", "cod": 107, "nome": "R.Profª.Erotides da Silva Fontes", "ptotalvia": 20.0, "ppasseio1": 3.5, "ppasseio2": 3.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698908487589136, -26.909273164907969 ], [ -48.69920289, -26.90926509 ], [ -48.699209878567096, -26.909264898282469 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0053020280", "cod": 153, "nome": "R.Acedilo Monteiro de Lima", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.699202752439547, -26.909262499702745 ], [ -48.69920289, -26.90926509 ], [ -48.699229419660249, -26.90975830319973 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0053020280", "cod": 107.0, "nome": "R.Profª.Erotides da Silva Fontes", "ptotalvia": 20.0, "ppasseio1": 3.5, "ppasseio2": 3.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698908487589136, -26.909273164907969 ], [ -48.69920289, -26.90926509 ], [ -48.699209878567096, -26.909264898282469 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0053020280", "cod": 153.0, "nome": "R.Acedilo Monteiro de Lima", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.699202752439547, -26.909262499702745 ], [ -48.69920289, -26.90926509 ], [ -48.699229419660249, -26.90975830319973 ] ] } }
 ]
 }

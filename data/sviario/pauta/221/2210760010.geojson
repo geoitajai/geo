@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2210760010", "cod": 566, "nome": "R.São Gonçalo", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68206439418136, -26.921447286863458 ], [ -48.68206796, -26.9216512 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2210760010", "cod": 566, "nome": "R.São Gonçalo", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68206796, -26.9216512 ], [ -48.682071052590729, -26.92182823142565 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2210760010", "cod": 566.0, "nome": "R.São Gonçalo", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68206439418136, -26.921447286863458 ], [ -48.68206796, -26.9216512 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210760010", "cod": 566.0, "nome": "R.São Gonçalo", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68206796, -26.9216512 ], [ -48.682071052590729, -26.921828231425653 ] ] } }
 ]
 }

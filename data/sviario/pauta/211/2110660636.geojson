@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110660636", "cod": 549, "nome": "R.Miguel Kunifas", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67506979689351, -26.918858356961085 ], [ -48.67509305, -26.91922068 ], [ -48.675093877836957, -26.919232853621619 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110660636", "cod": 577, "nome": "R.Jacob Ardigó", "ptotalvia": 21.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675467441519707, -26.919173874214291 ], [ -48.675059368185593, -26.919224062848169 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2110660636", "cod": 549.0, "nome": "R.Miguel Kunifas", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67506979689351, -26.918858356961085 ], [ -48.67509305, -26.91922068 ], [ -48.675093877836957, -26.919232853621619 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110660636", "cod": 577.0, "nome": "R.Jacob Ardigó", "ptotalvia": 21.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675467441519707, -26.919173874214291 ], [ -48.675059368185593, -26.919224062848169 ] ] } }
 ]
 }

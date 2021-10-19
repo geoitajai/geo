@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040190109", "cod": 641, "nome": "R.Profª.Maria Marly Pitz", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.653628001787567, -26.91774987768169 ], [ -48.65398071038495, -26.918009101917047 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040190109", "cod": 642, "nome": "R.João Luiz Medeiros", "ptotalvia": 6.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.653733218415127, -26.918205164551985 ], [ -48.653469244361034, -26.918010741312656 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2040190109", "cod": 641.0, "nome": "R.Profª.Maria Marly Pitz", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.653628001787567, -26.91774987768169 ], [ -48.65398071038495, -26.918009101917047 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040190109", "cod": 642.0, "nome": "R.João Luiz Medeiros", "ptotalvia": 6.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.653733218415127, -26.918205164551985 ], [ -48.653469244361041, -26.918010741312656 ] ] } }
 ]
 }

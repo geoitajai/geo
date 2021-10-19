@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050550815", "cod": 47, "nome": "R.José de Alencar", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692348570312085, -26.898815039691691 ], [ -48.691964740265981, -26.898826782660272 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0050550815", "cod": 46, "nome": "R.Dr.Ivo Stein Ferreira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692338468497852, -26.89853486095711 ], [ -48.691955340245507, -26.898545881627516 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0050550815", "cod": 47.0, "nome": "R.José de Alencar", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692348570312085, -26.898815039691687 ], [ -48.691964740265981, -26.898826782660272 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050550815", "cod": 46.0, "nome": "R.Dr.Ivo Stein Ferreira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692338468497852, -26.89853486095711 ], [ -48.691955340245507, -26.898545881627516 ] ] } }
 ]
 }

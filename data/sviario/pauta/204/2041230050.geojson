@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2041230050", "cod": 885, "nome": "Trav.Arvoredo", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.686000138224834, -26.933046155414075 ], [ -48.68597755, -26.93307167 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2041230050", "cod": 884, "nome": "R.Ten.Antônio Quintas Maia", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.686344286636192, -26.933315070429583 ], [ -48.68597755, -26.93307167 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2041230050", "cod": 890, "nome": "R.Sol.Abelardo Mendonça Sobrinho", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.685978518254508, -26.933051650094015 ], [ -48.68597755, -26.93307167 ], [ -48.685935529034047, -26.93357462501903 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2041230050", "cod": 885.0, "nome": "Trav.Arvoredo", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.686000138224834, -26.933046155414075 ], [ -48.68597755, -26.93307167 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2041230050", "cod": 884.0, "nome": "R.Ten.Antônio Quintas Maia", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.686344286636185, -26.933315070429583 ], [ -48.68597755, -26.93307167 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2041230050", "cod": 890.0, "nome": "R.Sol.Abelardo Mendonça Sobrinho", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.685978518254508, -26.933051650094015 ], [ -48.68597755, -26.93307167 ], [ -48.685935529034047, -26.933574625019045 ] ] } }
 ]
 }

@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010810350", "cod": 370, "nome": "R.Paulo Caramuru da Silva", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.658043831368211, -26.910727941205678 ], [ -48.65773398, -26.91049284 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010810350", "cod": 276, "nome": "Av.7 de Setembro", "ptotalvia": 18.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.657897224241154, -26.910087011696568 ], [ -48.65773398, -26.91049284 ], [ -48.657702229735754, -26.910569874137714 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2010810350", "cod": 370.0, "nome": "R.Paulo Caramuru da Silva", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.658043831368204, -26.910727941205678 ], [ -48.65773398, -26.91049284 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010810350", "cod": 276.0, "nome": "Av.7 de Setembro", "ptotalvia": 18.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.657897224241154, -26.910087011696564 ], [ -48.65773398, -26.91049284 ], [ -48.657702229735754, -26.910569874137714 ] ] } }
 ]
 }

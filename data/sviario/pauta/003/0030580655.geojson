@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0030580655", "cod": 1139, "nome": "R.Galdino de Borba", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696353406785619, -26.888206624658487 ], [ -48.69638588, -26.88802043 ], [ -48.696381264206636, -26.887882145217592 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0030580655", "cod": 1187, "nome": "R.Santa Catarina", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696944546675965, -26.888007487772072 ], [ -48.69690807, -26.88800848 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0030580655", "cod": 1139.0, "nome": "R.Galdino de Borba", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696353406785619, -26.888206624658487 ], [ -48.69638588, -26.88802043 ], [ -48.696381264206636, -26.887882145217592 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0030580655", "cod": 1187.0, "nome": "R.Santa Catarina", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696944546675965, -26.888007487772072 ], [ -48.69690807, -26.88800848 ] ] } }
 ]
 }

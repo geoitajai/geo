@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010330962", "cod": 276, "nome": "Av.7 de Setembro", "ptotalvia": 18.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.657565051220523, -26.910899502915665 ], [ -48.657282177483978, -26.911569431844811 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010330962", "cod": 264, "nome": "Av.Joca Brandão", "ptotalvia": 26.4, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.657291370605279, -26.911584813330052 ], [ -48.6584135387629, -26.911992675166687 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2010330962", "cod": 276.0, "nome": "Av.7 de Setembro", "ptotalvia": 18.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.657565051220523, -26.910899502915662 ], [ -48.657282177483978, -26.911569431844814 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010330962", "cod": 264.0, "nome": "Av.Joca Brandão", "ptotalvia": 26.4, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.657291370605279, -26.911584813330052 ], [ -48.6584135387629, -26.911992675166687 ] ] } }
 ]
 }

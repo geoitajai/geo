@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2120850191", "cod": 419, "nome": "R.Paraguai", "ptotalvia": 9.5, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.683333124531465, -26.891563966946137 ], [ -48.68352988, -26.89186903 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2120850191", "cod": 420, "nome": "Trav.Marcos Castellain", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.683597528145, -26.891836461670312 ], [ -48.68352988, -26.89186903 ], [ -48.683168611946783, -26.892053594184929 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2120850191", "cod": 419.0, "nome": "R.Paraguai", "ptotalvia": 9.5, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.683333124531465, -26.891563966946141 ], [ -48.68352988, -26.89186903 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2120850191", "cod": 420.0, "nome": "Trav.Marcos Castellain", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.683597528145, -26.891836461670309 ], [ -48.68352988, -26.89186903 ], [ -48.683168611946783, -26.892053594184929 ] ] } }
 ]
 }

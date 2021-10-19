@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040460138", "cod": 266, "nome": "R.Uruguai", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656149426969648, -26.918931661970163 ], [ -48.655950208198064, -26.91907760982194 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2040460138", "cod": 266.0, "nome": "R.Uruguai", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656149426969648, -26.918931661970163 ], [ -48.655950208198064, -26.919077609821944 ] ] } }
 ]
 }

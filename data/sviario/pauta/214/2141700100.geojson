@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2141700100", "cod": 788, "nome": "R.Rosalina Linhares Cabral", "ptotalvia": 9.5, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.64445059, -26.95677484 ], [ -48.64519647645259, -26.956719726062097 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2141700100", "cod": 785, "nome": "R.Suécia", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.644594496030507, -26.957348639116866 ], [ -48.64455939, -26.95724653 ], [ -48.64445059, -26.95677484 ], [ -48.644434352056422, -26.956710088825997 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2141700100", "cod": 787, "nome": "R.Exp.Pedro Amaro Pereira", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.645348502271403, -26.957211856597677 ], [ -48.64455939, -26.95724653 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2141700100", "cod": 788.0, "nome": "R.Rosalina Linhares Cabral", "ptotalvia": 9.5, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.64445059, -26.95677484 ], [ -48.64519647645259, -26.956719726062097 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2141700100", "cod": 785.0, "nome": "R.Suécia", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.644594496030507, -26.957348639116866 ], [ -48.64455939, -26.95724653 ], [ -48.64445059, -26.95677484 ], [ -48.644434352056422, -26.956710088825997 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2141700100", "cod": 787.0, "nome": "R.Exp.Pedro Amaro Pereira", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.645348502271403, -26.957211856597677 ], [ -48.64455939, -26.95724653 ] ] } }
 ]
 }

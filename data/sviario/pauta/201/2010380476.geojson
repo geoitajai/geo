@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010380476", "cod": 293, "nome": "R.Dr.José Bonifácio Malburg", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.660562369921387, -26.905765553622711 ], [ -48.659891552295086, -26.905372346107214 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010380476", "cod": 275, "nome": "R.Cônego Tomaz Fontes", "ptotalvia": 13.2, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.659641114549238, -26.905884660946128 ], [ -48.659865327136799, -26.905379058025456 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2010380476", "cod": 293.0, "nome": "R.Dr.José Bonifácio Malburg", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.660562369921387, -26.905765553622707 ], [ -48.659891552295086, -26.905372346107214 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010380476", "cod": 275.0, "nome": "R.Cônego Tomaz Fontes", "ptotalvia": 13.2, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.659641114549238, -26.905884660946128 ], [ -48.659865327136799, -26.905379058025456 ] ] } }
 ]
 }

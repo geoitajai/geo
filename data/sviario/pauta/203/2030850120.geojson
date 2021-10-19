@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2030850120", "cod": 1081, "nome": "R.José Carlos Felício", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695656909124757, -26.877228847220799 ], [ -48.69556751, -26.87723601 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2030850120", "cod": 1088, "nome": "R.Romualdo Manoel Fagundes", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695561596734329, -26.87708875988757 ], [ -48.69556751, -26.87723601 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2030850120", "cod": 1088, "nome": "R.Romualdo Manoel Fagundes", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69556751, -26.87723601 ], [ -48.695572222115864, -26.877415926740984 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2030850120", "cod": 1081.0, "nome": "R.José Carlos Felício", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695656909124757, -26.877228847220803 ], [ -48.69556751, -26.87723601 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2030850120", "cod": 1088.0, "nome": "R.Romualdo Manoel Fagundes", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695561596734329, -26.87708875988757 ], [ -48.69556751, -26.87723601 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2030850120", "cod": 1088.0, "nome": "R.Romualdo Manoel Fagundes", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69556751, -26.87723601 ], [ -48.695572222115864, -26.877415926740991 ] ] } }
 ]
 }

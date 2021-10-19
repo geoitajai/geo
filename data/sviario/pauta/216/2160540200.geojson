@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2160540200", "cod": 1413, "nome": "Av.Itaipava", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.747579513386803, -26.947135445657324 ], [ -48.74706744, -26.94667154 ], [ -48.747055013017828, -26.946660462455977 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2160540200", "cod": 1452, "nome": "R.Luis Rousch", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.746955616588245, -26.947609529832327 ], [ -48.7469599, -26.94709571 ], [ -48.74698699, -26.94689371 ], [ -48.74705103, -26.94679052 ], [ -48.74706744, -26.94667154 ], [ -48.747066578974774, -26.946658256341703 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2160540200", "cod": 1413.0, "nome": "Av.Itaipava", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.747579513386803, -26.947135445657324 ], [ -48.74706744, -26.94667154 ], [ -48.747055013017828, -26.946660462455981 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2160540200", "cod": 1452.0, "nome": "R.Luis Rousch", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.746955616588245, -26.947609529832327 ], [ -48.7469599, -26.94709571 ], [ -48.74698699, -26.94689371 ], [ -48.74705103, -26.94679052 ], [ -48.74706744, -26.94667154 ], [ -48.747066578974774, -26.946658256341703 ] ] } }
 ]
 }

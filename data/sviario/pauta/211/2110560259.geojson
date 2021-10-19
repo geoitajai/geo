@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110560259", "cod": 272, "nome": "R.Maria Zelandia Dias Costa", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.668560248671156, -26.917717774751377 ], [ -48.66857301, -26.91777195 ], [ -48.668433684116287, -26.918009502355297 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2110560259", "cod": 272.0, "nome": "R.Maria Zelandia Dias Costa", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.668560248671156, -26.917717774751381 ], [ -48.66857301, -26.91777195 ], [ -48.668433684116287, -26.918009502355297 ] ] } }
 ]
 }

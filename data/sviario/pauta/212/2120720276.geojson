@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2120720276", "cod": 472, "nome": "R.Newton Prado Baião", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.672915549873949, -26.885613369310917 ], [ -48.672656160447147, -26.885875202405412 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2120720276", "cod": 472.0, "nome": "R.Newton Prado Baião", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.672915549873949, -26.885613369310917 ], [ -48.672656160447147, -26.885875202405412 ] ] } }
 ]
 }

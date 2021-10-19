@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2210200150", "cod": 522, "nome": "R.Abdon David Schmitt", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.684236788181437, -26.911710651516625 ], [ -48.683860106709552, -26.911670229572483 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2210200150", "cod": 522.0, "nome": "R.Abdon David Schmitt", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.684236788181437, -26.911710651516625 ], [ -48.683860106709552, -26.911670229572483 ] ] } }
 ]
 }

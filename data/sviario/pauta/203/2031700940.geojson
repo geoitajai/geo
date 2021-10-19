@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2031700940", "cod": 1040, "nome": "R.Valdecir Bastos", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697964406233346, -26.870436776017552 ], [ -48.697984604488752, -26.870720193140738 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2031700940", "cod": 1040.0, "nome": "R.Valdecir Bastos", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697964406233346, -26.870436776017556 ], [ -48.697984604488752, -26.870720193140738 ] ] } }
 ]
 }

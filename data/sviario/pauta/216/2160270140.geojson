@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2160270140", "cod": 1471, "nome": "R.Francisco Daligni", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.710320041141046, -26.942337242477699 ], [ -48.710334323923092, -26.942660956120562 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2160270140", "cod": 1471.0, "nome": "R.Francisco Daligni", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.710320041141046, -26.942337242477702 ], [ -48.710334323923092, -26.942660956120566 ] ] } }
 ]
 }

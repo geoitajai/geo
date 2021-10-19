@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0030080420", "cod": 1118, "nome": "R.João Magalhães", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691118124593203, -26.888315141122526 ], [ -48.691141844778862, -26.888648545254743 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0030080420", "cod": 1118.0, "nome": "R.João Magalhães", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691118124593203, -26.888315141122529 ], [ -48.691141844778862, -26.888648545254743 ] ] } }
 ]
 }

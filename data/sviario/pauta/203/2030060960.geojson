@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2030060960", "cod": 1112, "nome": "R.Santo Agostinho", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693953346803184, -26.883590637597713 ], [ -48.69395109, -26.88355312 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2030060960", "cod": 1111, "nome": "Av.Dr.Reinaldo Schmithausen", "ptotalvia": 27.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.694007165368824, -26.883567988469544 ], [ -48.69395109, -26.88355312 ], [ -48.693746997860089, -26.883581455847931 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2030060960", "cod": 1112.0, "nome": "R.Santo Agostinho", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693953346803184, -26.883590637597713 ], [ -48.69395109, -26.88355312 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2030060960", "cod": 1111.0, "nome": "Av.Dr.Reinaldo Schmithausen", "ptotalvia": 27.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.694007165368824, -26.883567988469544 ], [ -48.69395109, -26.88355312 ], [ -48.693746997860089, -26.883581455847931 ] ] } }
 ]
 }

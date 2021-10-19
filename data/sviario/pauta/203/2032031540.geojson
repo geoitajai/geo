@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2032031540", "cod": 1175, "nome": "Av.Marginal Leste", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.722740585653149, -26.886215602886146 ], [ -48.722916762632273, -26.885797626811971 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2032031540", "cod": 1175.0, "nome": "Av.Marginal Leste", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.722740585653149, -26.886215602886146 ], [ -48.722916762632273, -26.885797626811971 ] ] } }
 ]
 }

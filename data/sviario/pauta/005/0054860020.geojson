@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0054860020", "cod": 939, "nome": "R.José Domingos Mafra", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.704487419152223, -26.922839779020109 ], [ -48.70424299993266, -26.922645618812762 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0054860020", "cod": 939.0, "nome": "R.José Domingos Mafra", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.704487419152223, -26.922839779020105 ], [ -48.70424299993266, -26.922645618812762 ] ] } }
 ]
 }

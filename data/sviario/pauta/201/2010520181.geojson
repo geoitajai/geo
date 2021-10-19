@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010520181", "cod": 357, "nome": "Trav.Santo Inácio de Loyola", "ptotalvia": 5.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.661862241408791, -26.911132940796431 ], [ -48.66167012, -26.91096798 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2010520181", "cod": 357.0, "nome": "Trav.Santo Inácio de Loyola", "ptotalvia": 5.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.661862241408791, -26.911132940796428 ], [ -48.66167012, -26.91096798 ] ] } }
 ]
 }

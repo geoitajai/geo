@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020610216", "cod": 186, "nome": "R.Otto Praum", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67755995152217, -26.900901585094619 ], [ -48.67739359, -26.900919219999988 ], [ -48.677237296144583, -26.901156358231503 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020610216", "cod": 227, "nome": "R.Indaial", "ptotalvia": 17.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677602948429104, -26.900956604368044 ], [ -48.67761110815001, -26.90122307628123 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2020610216", "cod": 186.0, "nome": "R.Otto Praum", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67755995152217, -26.900901585094623 ], [ -48.67739359, -26.90091922 ], [ -48.677237296144583, -26.901156358231503 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020610216", "cod": 227.0, "nome": "R.Indaial", "ptotalvia": 17.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677602948429104, -26.900956604368037 ], [ -48.67761110815001, -26.901223076281234 ] ] } }
 ]
 }

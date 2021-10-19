@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2160451700", "cod": 1435, "nome": "R.Edmundo Wippel", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.719043763938572, -26.94313987449037 ], [ -48.71900023, -26.94324896 ], [ -48.719056162737829, -26.943266351076677 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2160451700", "cod": 1235, "nome": "Rod.Dep.Antônio Heil", "ptotalvia": 30.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.719507802443928, -26.945620880016705 ], [ -48.719399166424765, -26.945603146874877 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2160451700", "cod": 1435.0, "nome": "R.Edmundo Wippel", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.719043763938572, -26.94313987449037 ], [ -48.71900023, -26.94324896 ], [ -48.719056162737829, -26.943266351076677 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2160451700", "cod": 1235.0, "nome": "Rod.Dep.Antônio Heil", "ptotalvia": 30.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.719507802443928, -26.945620880016708 ], [ -48.719399166424765, -26.945603146874873 ] ] } }
 ]
 }

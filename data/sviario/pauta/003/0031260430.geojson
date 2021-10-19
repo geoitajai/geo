@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0031260430", "cod": 1166, "nome": "R.Eredes Serpa", "ptotalvia": 12.5, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.701802422192557, -26.893167043619176 ], [ -48.701806, -26.89323228 ], [ -48.70182102027907, -26.893480659564815 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0031260430", "cod": 1203, "nome": "R.Osvaldo Cruz", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702169791973112, -26.893215691500963 ], [ -48.701806, -26.89323228 ], [ -48.701744001381584, -26.89323505839598 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0031260430", "cod": 1166.0, "nome": "R.Eredes Serpa", "ptotalvia": 12.5, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.701802422192557, -26.893167043619176 ], [ -48.701806, -26.89323228 ], [ -48.70182102027907, -26.893480659564815 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031260430", "cod": 1203.0, "nome": "R.Osvaldo Cruz", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702169791973112, -26.893215691500963 ], [ -48.701806, -26.89323228 ], [ -48.701744001381584, -26.89323505839598 ] ] } }
 ]
 }

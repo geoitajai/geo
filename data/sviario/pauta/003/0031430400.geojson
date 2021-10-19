@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0031430400", "cod": 1169, "nome": "R.Selso Duarte Moreira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.704487238465006, -26.897698784538612 ], [ -48.704506190961894, -26.898024089265142 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0031430400", "cod": 1169.0, "nome": "R.Selso Duarte Moreira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.704487238465006, -26.897698784538612 ], [ -48.704506190961894, -26.898024089265142 ] ] } }
 ]
 }

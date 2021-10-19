@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0051360075", "cod": 898, "nome": "R.Das Orquídeas", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.690891077369884, -26.918665508861693 ], [ -48.69091279, -26.9189914 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0051360075", "cod": 919, "nome": "R.Das Acácias", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.690970623498082, -26.918725162330013 ], [ -48.6908953, -26.91872893 ], [ -48.690579471395736, -26.9187476939173 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0051360075", "cod": 898.0, "nome": "R.Das Orquídeas", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.690891077369884, -26.91866550886169 ], [ -48.69091279, -26.9189914 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0051360075", "cod": 919.0, "nome": "R.Das Acácias", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.690970623498082, -26.918725162330013 ], [ -48.6908953, -26.91872893 ], [ -48.690579471395736, -26.918747693917297 ] ] } }
 ]
 }

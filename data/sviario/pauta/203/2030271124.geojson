@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2030271124", "cod": 1102, "nome": "R.Américo Meinicke", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.704583657974581, -26.886994049178551 ], [ -48.704601988849952, -26.887334107478832 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2030271124", "cod": 1102.0, "nome": "R.Américo Meinicke", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.704583657974581, -26.886994049178551 ], [ -48.704601988849952, -26.887334107478832 ] ] } }
 ]
 }

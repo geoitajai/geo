@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050140310", "cod": 53, "nome": "R.Ver.Airton de Souza", "ptotalvia": 14.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692487258606775, -26.897470053901205 ], [ -48.692118316592129, -26.897479767532005 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0050140310", "cod": 53.0, "nome": "R.Ver.Airton de Souza", "ptotalvia": 14.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692487258606775, -26.897470053901205 ], [ -48.692118316592129, -26.897479767532005 ] ] } }
 ]
 }

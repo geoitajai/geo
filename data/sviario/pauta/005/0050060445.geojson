@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050060445", "cod": 27, "nome": "R.João Olegário Dutra", "ptotalvia": 8.5, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.688414666983853, -26.900557550753049 ], [ -48.688025167305412, -26.900562164604661 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0050060445", "cod": 27.0, "nome": "R.João Olegário Dutra", "ptotalvia": 8.5, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.688414666983853, -26.900557550753049 ], [ -48.688025167305412, -26.900562164604658 ] ] } }
 ]
 }

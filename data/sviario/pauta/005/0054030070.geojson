@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0054030070", "cod": 150, "nome": "R.Waldemar Kumm", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.707170151953569, -26.914179564845391 ], [ -48.706812178256811, -26.914190531769883 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0054030070", "cod": 150.0, "nome": "R.Waldemar Kumm", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.707170151953569, -26.914179564845391 ], [ -48.706812178256811, -26.914190531769883 ] ] } }
 ]
 }

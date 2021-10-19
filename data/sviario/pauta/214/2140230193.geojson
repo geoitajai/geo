@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140230193", "cod": 754, "nome": "R.Mar.Floriano Peixoto", "ptotalvia": 8.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.632806631443309, -26.92900722324136 ], [ -48.63249314639976, -26.929344542605737 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2140230193", "cod": 766, "nome": "R.Paulo Herbst", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.63221246, -26.9286458 ], [ -48.63276254, -26.92905376 ], [ -48.632825787320215, -26.929106121844089 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2140230193", "cod": 763, "nome": "R.Juvêncio Tavares D'Amaral", "ptotalvia": 12.4, "ppasseio1": 4.4, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.631897756555325, -26.928862416584877 ], [ -48.63221246, -26.9286458 ], [ -48.63227451524633, -26.928582716203429 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2140230193", "cod": 754.0, "nome": "R.Mar.Floriano Peixoto", "ptotalvia": 8.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.632806631443302, -26.929007223241356 ], [ -48.63249314639976, -26.929344542605737 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140230193", "cod": 766.0, "nome": "R.Paulo Herbst", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.63221246, -26.9286458 ], [ -48.63276254, -26.92905376 ], [ -48.632825787320215, -26.929106121844089 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140230193", "cod": 763.0, "nome": "R.Juvêncio Tavares D'Amaral", "ptotalvia": 12.4, "ppasseio1": 4.4, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.631897756555325, -26.928862416584877 ], [ -48.63221246, -26.9286458 ], [ -48.632274515246323, -26.928582716203429 ] ] } }
 ]
 }

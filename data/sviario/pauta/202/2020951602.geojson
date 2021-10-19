@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020951602", "cod": 233, "nome": "R.Teodoro Luiz Pereira", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67955847, -26.9043983 ], [ -48.679427447676204, -26.904405639287049 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020951602", "cod": 237, "nome": "R.Emília dos Santos", "ptotalvia": 12.5, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.679327946166076, -26.904223904037405 ], [ -48.67955847, -26.9043983 ], [ -48.679600495630794, -26.904430936362761 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2020951602", "cod": 233.0, "nome": "R.Teodoro Luiz Pereira", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67955847, -26.9043983 ], [ -48.679427447676204, -26.904405639287052 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020951602", "cod": 237.0, "nome": "R.Emília dos Santos", "ptotalvia": 12.5, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.679327946166076, -26.904223904037405 ], [ -48.67955847, -26.9043983 ], [ -48.679600495630794, -26.904430936362761 ] ] } }
 ]
 }

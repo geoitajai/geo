@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0031740600", "cod": 1202, "nome": "R.Theodoro Benassi", "ptotalvia": 4.5, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696983696067051, -26.892705590447978 ], [ -48.69701302, -26.89315582 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0031740600", "cod": 1202.0, "nome": "R.Theodoro Benassi", "ptotalvia": 4.5, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696983696067051, -26.892705590447978 ], [ -48.69701302, -26.89315582 ] ] } }
 ]
 }

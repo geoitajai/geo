@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2150530110", "cod": 1360, "nome": "R.Fermino Vieira Cordeiro", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.743043942131933, -26.891200879284568 ], [ -48.743192724793047, -26.891514401721349 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2150530110", "cod": 1360.0, "nome": "R.Fermino Vieira Cordeiro", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.743043942131926, -26.891200879284568 ], [ -48.743192724793047, -26.891514401721349 ] ] } }
 ]
 }

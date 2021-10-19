@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0052970090", "cod": 957, "nome": "R.Emanoel José Rebello", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698019751608825, -26.921566044793799 ], [ -48.69804011, -26.92161918 ], [ -48.698158494680349, -26.92186183033899 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0052970090", "cod": 892, "nome": "Av.Ver.Nilo Simas", "ptotalvia": 20.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698263133586849, -26.921280231532393 ], [ -48.69807404, -26.92156762 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0052970090", "cod": 892, "nome": "Av.Ver.Nilo Simas", "ptotalvia": 20.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69807404, -26.92156762 ], [ -48.69804011, -26.92161918 ], [ -48.69800866485626, -26.92166260383302 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0052970090", "cod": 957.0, "nome": "R.Emanoel José Rebello", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698019751608825, -26.921566044793796 ], [ -48.69804011, -26.92161918 ], [ -48.698158494680349, -26.92186183033899 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0052970090", "cod": 892.0, "nome": "Av.Ver.Nilo Simas", "ptotalvia": 20.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698263133586849, -26.921280231532393 ], [ -48.69807404, -26.92156762 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0052970090", "cod": 892.0, "nome": "Av.Ver.Nilo Simas", "ptotalvia": 20.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69807404, -26.92156762 ], [ -48.69804011, -26.92161918 ], [ -48.69800866485626, -26.921662603833017 ] ] } }
 ]
 }

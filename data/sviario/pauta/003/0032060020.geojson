@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0032060020", "cod": 1150, "nome": "R.Amapá", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.701464018812892, -26.895957165945234 ], [ -48.701108472977516, -26.895973136281757 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0032060020", "cod": 1150.0, "nome": "R.Amapá", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.701464018812892, -26.895957165945234 ], [ -48.701108472977516, -26.895973136281757 ] ] } }
 ]
 }

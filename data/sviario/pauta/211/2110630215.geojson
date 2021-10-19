@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110630215", "cod": 551, "nome": "R.Guilherme Albani", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67354462357288, -26.917269573468491 ], [ -48.673565796827987, -26.91761268181817 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110630215", "cod": 487, "nome": "R.Aristides Francisco Palumbo", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.673879060740454, -26.917257342341532 ], [ -48.67389868121078, -26.91759261457868 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2110630215", "cod": 551.0, "nome": "R.Guilherme Albani", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67354462357288, -26.917269573468491 ], [ -48.673565796827987, -26.91761268181817 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110630215", "cod": 487.0, "nome": "R.Aristides Francisco Palumbo", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.673879060740454, -26.917257342341532 ], [ -48.67389868121078, -26.917592614578684 ] ] } }
 ]
 }

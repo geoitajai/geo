@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020110888", "cod": 285, "nome": "R.Cap.Adolfo Germano de Andrade", "ptotalvia": 13.8, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.667043960789321, -26.902541596266406 ], [ -48.66705322, -26.90262611 ], [ -48.667077167320627, -26.902848999647205 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020110888", "cod": 311, "nome": "R.Olegário Souza Júnior", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.667513979110197, -26.90259561259883 ], [ -48.66705322, -26.90262611 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2020110888", "cod": 285.0, "nome": "R.Cap.Adolfo Germano de Andrade", "ptotalvia": 13.8, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.667043960789321, -26.902541596266406 ], [ -48.66705322, -26.90262611 ], [ -48.667077167320627, -26.902848999647208 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020110888", "cod": 311.0, "nome": "Trav.Olegário Souza Júnior", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.667513979110197, -26.90259561259883 ], [ -48.66705322, -26.90262611 ] ] } }
 ]
 }

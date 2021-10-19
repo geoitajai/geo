@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2150880380", "cod": 1398, "nome": "R.Insp.Francisco Vechani", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.762107130621573, -26.893309375364868 ], [ -48.76193908, -26.89323895 ], [ -48.761700174645803, -26.893207736142038 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2150880380", "cod": 1398.0, "nome": "R.Insp.Francisco Vechani", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.762107130621573, -26.893309375364872 ], [ -48.76193908, -26.89323895 ], [ -48.761700174645803, -26.893207736142038 ] ] } }
 ]
 }

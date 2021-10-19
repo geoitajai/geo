@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2041540115", "cod": 873, "nome": "R.Primo Uller", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.671642398289841, -26.933807848447024 ], [ -48.671664707630612, -26.934144202148364 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2041540115", "cod": 873.0, "nome": "R.Primo Uller", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.671642398289841, -26.933807848447028 ], [ -48.671664707630612, -26.934144202148364 ] ] } }
 ]
 }

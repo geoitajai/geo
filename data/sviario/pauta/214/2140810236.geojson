@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140810236", "cod": 782, "nome": "R.Delfim Mário Pádua Peixoto", "ptotalvia": 20.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.629964961490373, -26.942107224559596 ], [ -48.629920738028659, -26.941786665482987 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2140810236", "cod": 782.0, "nome": "R.Delfim Mário Pádua Peixoto", "ptotalvia": 20.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.629964961490373, -26.942107224559596 ], [ -48.629920738028659, -26.941786665482987 ] ] } }
 ]
 }

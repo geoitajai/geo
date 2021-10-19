@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020610237", "cod": 186, "nome": "R.Otto Praum", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677375891501356, -26.900946073266194 ], [ -48.67713977, -26.90130433 ], [ -48.677128182420169, -26.901317491111435 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020610237", "cod": 227, "nome": "R.Indaial", "ptotalvia": 17.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677604200442794, -26.900997491340785 ], [ -48.677618205027301, -26.90145483922409 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020610237", "cod": 209, "nome": "R.José Quirino", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677098406714656, -26.90127120047832 ], [ -48.67713977, -26.90130433 ], [ -48.677260259490481, -26.901393873683663 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2020610237", "cod": 186.0, "nome": "R.Otto Praum", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677375891501356, -26.900946073266198 ], [ -48.67713977, -26.90130433 ], [ -48.677128182420169, -26.901317491111435 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020610237", "cod": 227.0, "nome": "R.Indaial", "ptotalvia": 17.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677604200442794, -26.900997491340785 ], [ -48.677618205027301, -26.901454839224094 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020610237", "cod": 209.0, "nome": "R.José Quirino", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677098406714656, -26.901271200478316 ], [ -48.67713977, -26.90130433 ], [ -48.677260259490481, -26.901393873683659 ] ] } }
 ]
 }

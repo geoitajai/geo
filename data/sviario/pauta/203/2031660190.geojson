@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2031660190", "cod": 1067, "nome": "R.Santo Rampelotti", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.703093387369549, -26.87429754478671 ], [ -48.703110156356587, -26.874619911962419 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2031660190", "cod": 1067.0, "nome": "R.Santo Rampelotti", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.703093387369549, -26.87429754478671 ], [ -48.703110156356587, -26.874619911962419 ] ] } }
 ]
 }

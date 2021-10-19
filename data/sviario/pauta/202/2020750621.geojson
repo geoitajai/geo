@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020750621", "cod": 229, "nome": "Trav.Valdemar Cordoni", "ptotalvia": 9.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.680338756281579, -26.90433306471634 ], [ -48.680257884988833, -26.904711786773372 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020750621", "cod": 239, "nome": "Serv.Laudelino dos Santos", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.680654258165006, -26.904487430567475 ], [ -48.68065007, -26.904505039999989 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2020750621", "cod": 229.0, "nome": "Trav.Valdemar Cordoni", "ptotalvia": 9.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.680338756281579, -26.904333064716344 ], [ -48.680257884988833, -26.904711786773372 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020750621", "cod": 239.0, "nome": "Serv.Laudelino dos Santos", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.680654258165006, -26.904487430567475 ], [ -48.68065007, -26.90450504 ] ] } }
 ]
 }

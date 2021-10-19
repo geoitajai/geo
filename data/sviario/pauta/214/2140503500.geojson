@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140503500", "cod": 735, "nome": "R.Tereza Francisca Pereira", "ptotalvia": 13.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.640506445184698, -26.935255557801796 ], [ -48.64118918, -26.93589123 ], [ -48.641804506789796, -26.936419157899454 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2140503500", "cod": 586, "nome": "Av.Osvaldo Reis", "ptotalvia": 34.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.641807326415403, -26.936442696339572 ], [ -48.64159173, -26.93691727 ], [ -48.641557116050464, -26.936977633060611 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2140503500", "cod": 735.0, "nome": "R.Tereza Francisca Pereira", "ptotalvia": 13.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.640506445184691, -26.935255557801796 ], [ -48.64118918, -26.93589123 ], [ -48.641804506789796, -26.936419157899451 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140503500", "cod": 586.0, "nome": "Av.Osvaldo Reis", "ptotalvia": 34.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.641807326415396, -26.936442696339572 ], [ -48.64159173, -26.93691727 ], [ -48.641557116050464, -26.936977633060611 ] ] } }
 ]
 }

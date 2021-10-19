@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140360855", "cod": 756, "nome": "R.Dr.José Menescau do Monte", "ptotalvia": 17.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.635957773357212, -26.928015078772255 ], [ -48.63570244116611, -26.928328676185696 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2140360855", "cod": 756.0, "nome": "R.Dr.José Menescau do Monte", "ptotalvia": 17.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.635957773357212, -26.928015078772255 ], [ -48.63570244116611, -26.928328676185696 ] ] } }
 ]
 }

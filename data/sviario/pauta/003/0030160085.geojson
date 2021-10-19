@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0030160085", "cod": 1117, "nome": "R.Erminio Machado", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6916798796222, -26.890125888115978 ], [ -48.691698987024807, -26.890470578820239 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0030160085", "cod": 1116, "nome": "R.Jovito Anacleto", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691983750737641, -26.890118571480343 ], [ -48.692001729024902, -26.890452601447084 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0030160085", "cod": 1117.0, "nome": "R.Erminio Machado", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6916798796222, -26.890125888115982 ], [ -48.691698987024807, -26.890470578820239 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0030160085", "cod": 1116.0, "nome": "R.Jovito Anacleto", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691983750737641, -26.890118571480336 ], [ -48.692001729024902, -26.89045260144708 ] ] } }
 ]
 }

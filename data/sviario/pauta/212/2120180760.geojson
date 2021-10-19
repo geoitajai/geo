@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2120180760", "cod": 158, "nome": "R.Albino Gugelmin", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.681225694991397, -26.893582936277646 ], [ -48.680936069204762, -26.89359470571048 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2120180760", "cod": 158.0, "nome": "R.Albino Gugelmin", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.681225694991397, -26.893582936277646 ], [ -48.680936069204762, -26.893594705710484 ] ] } }
 ]
 }

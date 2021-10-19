@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2031902247", "cod": 1106, "nome": "R.Profº.Cosme Buzarello", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70183919, -26.87935132 ], [ -48.70185231, -26.87953561 ], [ -48.701853107608315, -26.879550786699532 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2031902247", "cod": 1107, "nome": "R.Valmir Olívio dos Santos", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702138789295326, -26.87951879075743 ], [ -48.70185231, -26.87953561 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2031902247", "cod": 1106.0, "nome": "R.Profº.Cosme Buzarello", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70183919, -26.87935132 ], [ -48.70185231, -26.87953561 ], [ -48.701853107608315, -26.879550786699529 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2031902247", "cod": 1107.0, "nome": "R.Valmir Olívio dos Santos", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702138789295326, -26.879518790757434 ], [ -48.70185231, -26.87953561 ] ] } }
 ]
 }

@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2150110490", "cod": 1377, "nome": "R.Valdemar Oliveira da Silva", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.736465347812135, -26.892966461861132 ], [ -48.73652462, -26.89298416 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2150110490", "cod": 1373, "nome": "R.Irineu Maria", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.736498988453988, -26.892662252829282 ], [ -48.736526787915231, -26.893011378234917 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2150110490", "cod": 1377.0, "nome": "R.Valdemar Oliveira da Silva", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.736465347812135, -26.892966461861132 ], [ -48.73652462, -26.89298416 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2150110490", "cod": 1373.0, "nome": "R.Irineu Maria", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.736498988453988, -26.892662252829282 ], [ -48.736526787915231, -26.893011378234924 ] ] } }
 ]
 }

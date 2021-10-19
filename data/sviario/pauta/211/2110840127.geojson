@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110840127", "cod": 583, "nome": "R.Vitor Zaguini", "ptotalvia": 11.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676293456500815, -26.921088229161455 ], [ -48.67629463, -26.92110764 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110840127", "cod": 545, "nome": "R.José Gall", "ptotalvia": 15.6, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676314151348308, -26.921115479330801 ], [ -48.67629463, -26.92110764 ], [ -48.675961539507369, -26.920969188980607 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2110840127", "cod": 583.0, "nome": "R.Vitor Zaguini", "ptotalvia": 11.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676293456500815, -26.921088229161455 ], [ -48.67629463, -26.92110764 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110840127", "cod": 545.0, "nome": "R.José Gall", "ptotalvia": 15.6, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676314151348308, -26.921115479330805 ], [ -48.67629463, -26.92110764 ], [ -48.675961539507369, -26.920969188980607 ] ] } }
 ]
 }

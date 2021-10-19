@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2161000320", "cod": 1655, "nome": "R. Maurino Mafra", "ptotalvia": 13.5, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.717921378296161, -26.977610687345042 ], [ -48.71824524054805, -26.977712701028597 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2161000320", "cod": 1655.0, "nome": "R. Maurino Mafra", "ptotalvia": 13.5, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.717921378296161, -26.977610687345045 ], [ -48.71824524054805, -26.977712701028597 ] ] } }
 ]
 }

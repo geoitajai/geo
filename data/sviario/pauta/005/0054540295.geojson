@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0054540295", "cod": 988, "nome": "Av.Maria Marques Werner", "ptotalvia": 22.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702140477443194, -26.92799304522347 ], [ -48.70199574, -26.92813714 ], [ -48.701915133728072, -26.928212492743913 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0054540295", "cod": 1011, "nome": "R.Olivia Benedita Batistoti", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70199574, -26.92813714 ], [ -48.702050280659179, -26.928182505357029 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0054540295", "cod": 988.0, "nome": "Av.Maria Marques Werner", "ptotalvia": 22.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702140477443194, -26.92799304522347 ], [ -48.70199574, -26.92813714 ], [ -48.701915133728072, -26.928212492743913 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054540295", "cod": 1011.0, "nome": "R.Olivia Benedita Batistoti", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70199574, -26.92813714 ], [ -48.702050280659179, -26.928182505357029 ] ] } }
 ]
 }

@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050181000", "cod": 47, "nome": "R.José de Alencar", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.689730607743876, -26.898888333434741 ], [ -48.689318084319389, -26.898897547631112 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0050181000", "cod": 47.0, "nome": "R.José de Alencar", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.689730607743876, -26.898888333434741 ], [ -48.689318084319389, -26.898897547631112 ] ] } }
 ]
 }

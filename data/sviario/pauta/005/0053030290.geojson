@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0053030290", "cod": 107, "nome": "R.Profª.Erotides da Silva Fontes", "ptotalvia": 20.0, "ppasseio1": 3.5, "ppasseio2": 3.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697925081121738, -26.909291279448716 ], [ -48.69794986, -26.9092903 ], [ -48.698278299947681, -26.909286139522386 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0053030290", "cod": 155, "nome": "R.Eudoro Silveira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69794941411552, -26.909281574826633 ], [ -48.69794986, -26.9092903 ], [ -48.697975552028105, -26.909811245881631 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0053030290", "cod": 107.0, "nome": "R.Profª.Erotides da Silva Fontes", "ptotalvia": 20.0, "ppasseio1": 3.5, "ppasseio2": 3.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697925081121738, -26.909291279448716 ], [ -48.69794986, -26.9092903 ], [ -48.698278299947681, -26.909286139522383 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0053030290", "cod": 155.0, "nome": "R.Eudoro Silveira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69794941411552, -26.909281574826633 ], [ -48.69794986, -26.9092903 ], [ -48.697975552028105, -26.909811245881631 ] ] } }
 ]
 }

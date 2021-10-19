@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010650877", "cod": 318, "nome": "Serv.Manoel Fermino do Nascimento", "ptotalvia": 3.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.667007567721306, -26.908006971736313 ], [ -48.66700548, -26.90800667 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010650877", "cod": 321, "nome": "R.Joaquim Lopes Corrêa", "ptotalvia": 6.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.666667436998573, -26.907825818950609 ], [ -48.666694504508662, -26.908252983903271 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2010650877", "cod": 318.0, "nome": "Serv.Manoel Fermino do Nascimento", "ptotalvia": 3.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.667007567721306, -26.908006971736313 ], [ -48.66700548, -26.90800667 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010650877", "cod": 321.0, "nome": "R.Joaquim Lopes Corrêa", "ptotalvia": 6.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.666667436998573, -26.907825818950609 ], [ -48.666694504508662, -26.908252983903271 ] ] } }
 ]
 }

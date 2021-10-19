@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2041640010", "cod": 869, "nome": "R.Aristides Estevão da Silva", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67563996, -26.92950149 ], [ -48.675325311109731, -26.929497297681632 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2041640010", "cod": 543, "nome": "R.José Siqueira", "ptotalvia": 25.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67591152, -26.929217 ], [ -48.67563996, -26.92950149 ], [ -48.675555736338815, -26.929584086715717 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2041640010", "cod": 543, "nome": "R.José Siqueira", "ptotalvia": 25.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675929005083781, -26.929198683737201 ], [ -48.67591152, -26.929217 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2041640010", "cod": 869.0, "nome": "R.Aristides Estevão da Silva", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67563996, -26.92950149 ], [ -48.675325311109731, -26.929497297681628 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2041640010", "cod": 543.0, "nome": "R.José Siqueira", "ptotalvia": 25.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67591152, -26.929217 ], [ -48.67563996, -26.92950149 ], [ -48.675555736338815, -26.929584086715714 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2041640010", "cod": 543.0, "nome": "R.José Siqueira", "ptotalvia": 25.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675929005083781, -26.929198683737201 ], [ -48.67591152, -26.929217 ] ] } }
 ]
 }

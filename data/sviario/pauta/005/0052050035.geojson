@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0052050035", "cod": 49, "nome": "R.Saul Schead dos Santos", "ptotalvia": 13.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693147401217331, -26.911060960741509 ], [ -48.69259515215623, -26.911070642581606 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0052050035", "cod": 49.0, "nome": "R.Saul Schead dos Santos", "ptotalvia": 13.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693147401217331, -26.911060960741505 ], [ -48.69259515215623, -26.911070642581606 ] ] } }
 ]
 }

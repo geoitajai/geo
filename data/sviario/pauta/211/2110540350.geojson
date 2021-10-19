@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110540350", "cod": 269, "nome": "R.Pedro José João", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.669423358617259, -26.916040501571803 ], [ -48.669455509234695, -26.916389873312465 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2110540350", "cod": 269.0, "nome": "R.Pedro José João", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.669423358617259, -26.916040501571803 ], [ -48.669455509234695, -26.916389873312465 ] ] } }
 ]
 }

@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0052880650", "cod": 152, "nome": "R.Concórdia", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.699960603776567, -26.91158263839306 ], [ -48.699979630990349, -26.911924218824065 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0052880650", "cod": 152.0, "nome": "R.Concórdia", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.699960603776567, -26.91158263839306 ], [ -48.699979630990349, -26.911924218824069 ] ] } }
 ]
 }

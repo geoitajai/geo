@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0030040715", "cod": 1126, "nome": "R.Rachel Liberato Meyer", "ptotalvia": 7.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.687533182783007, -26.890098859011029 ], [ -48.687559077457585, -26.890452984257188 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0030040715", "cod": 1126.0, "nome": "R.Rachel Liberato Meyer", "ptotalvia": 7.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.687533182783007, -26.890098859011029 ], [ -48.687559077457585, -26.890452984257188 ] ] } }
 ]
 }

@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0031541000", "cod": 1173, "nome": "R.Agostinho Alves Ramos", "ptotalvia": 20.4, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.711635920098367, -26.906985203665716 ], [ -48.710003865287796, -26.905990185474892 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0031541000", "cod": 1177, "nome": "R.Francisco Reis", "ptotalvia": 20.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.711872031139784, -26.904865336543672 ], [ -48.712005596762204, -26.906534013166251 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0031541000", "cod": 1173.0, "nome": "R.Agostinho Alves Ramos", "ptotalvia": 20.4, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.711635920098367, -26.906985203665712 ], [ -48.710003865287796, -26.905990185474892 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031541000", "cod": 1177.0, "nome": "R.Francisco Reis", "ptotalvia": 20.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.711872031139784, -26.904865336543672 ], [ -48.712005596762204, -26.906534013166251 ] ] } }
 ]
 }

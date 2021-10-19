@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0030091220", "cod": 1127, "nome": "R.Serafim Franklin Pereira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6908355621594, -26.892712052948777 ], [ -48.690856903393652, -26.893034762800035 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0030091220", "cod": 1127.0, "nome": "R.Serafim Franklin Pereira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6908355621594, -26.892712052948777 ], [ -48.690856903393652, -26.893034762800042 ] ] } }
 ]
 }

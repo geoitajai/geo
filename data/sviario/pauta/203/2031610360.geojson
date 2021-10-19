@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2031610360", "cod": 1064, "nome": "R.Dorval José de Aragão", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700303870980719, -26.875125437725696 ], [ -48.69995597, -26.87515453 ], [ -48.699892481617525, -26.875150991357931 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2031610360", "cod": 1063, "nome": "R.Lídia Puel Peixer", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.699937239281731, -26.874837041771968 ], [ -48.69995597, -26.87515453 ], [ -48.699957678168715, -26.875187507716273 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2031610360", "cod": 1064.0, "nome": "R.Dorval José de Aragão", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700303870980719, -26.875125437725696 ], [ -48.69995597, -26.87515453 ], [ -48.699892481617532, -26.875150991357931 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2031610360", "cod": 1063.0, "nome": "R.Lídia Puel Peixer", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.699937239281731, -26.874837041771961 ], [ -48.69995597, -26.87515453 ], [ -48.699957678168715, -26.875187507716273 ] ] } }
 ]
 }

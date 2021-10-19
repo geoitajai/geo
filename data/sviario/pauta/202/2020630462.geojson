@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020630462", "cod": 206, "nome": "R.Aurora Tabalipa", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.679405570460275, -26.901814993682404 ], [ -48.679035591316918, -26.901830640071072 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020630462", "cod": 205, "nome": "R.Fridolim Erthal Júnior", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67942707764719, -26.90209075745268 ], [ -48.679041680494947, -26.902114614107759 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2020630462", "cod": 206.0, "nome": "R.Aurora Tabalipa", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.679405570460275, -26.901814993682407 ], [ -48.679035591316918, -26.901830640071069 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020630462", "cod": 205.0, "nome": "R.Fridolim Erthal Júnior", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67942707764719, -26.902090757452676 ], [ -48.679041680494947, -26.902114614107759 ] ] } }
 ]
 }

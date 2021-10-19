@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0051941890", "cod": 927, "nome": "R.Mauro Carlos Bertemes", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70645161, -26.91903264 ], [ -48.706400237896858, -26.91899060277041 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0051941890", "cod": 927.0, "nome": "R.Mauro Carlos Bertemes", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70645161, -26.91903264 ], [ -48.706400237896858, -26.918990602770407 ] ] } }
 ]
 }

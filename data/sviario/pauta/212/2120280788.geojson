@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2120280788", "cod": 444, "nome": "R.Luiz José Bento da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.680615549552527, -26.889405561738144 ], [ -48.68061906, -26.88940831 ], [ -48.680782816906245, -26.88971848954823 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2120280788", "cod": 444.0, "nome": "R.Luiz José Bento da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.680615549552527, -26.88940556173814 ], [ -48.68061906, -26.88940831 ], [ -48.680782816906245, -26.889718489548226 ] ] } }
 ]
 }

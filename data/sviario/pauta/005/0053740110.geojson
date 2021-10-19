@@ -2,6 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0053740110", "cod": 977, "nome": "R.Milton Jaques", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695122355858217, -26.927414672568467 ], [ -48.694802419759064, -26.927587348845883 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0053740110", "cod": 977.0, "nome": "R.Milton Jaques", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695122355858217, -26.927414672568467 ], [ -48.694802419759064, -26.927587348845883 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0053740110", "cod": 977.0, "nome": "R.Milton Jaques", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695122355858217, -26.927414672568467 ], [ -48.694802419759064, -26.927587348845883 ] ] } }
 ]
 }

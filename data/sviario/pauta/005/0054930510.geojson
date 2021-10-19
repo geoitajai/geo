@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0054930510", "cod": 128, "nome": "R.Maria Odília dos Santos Domingues", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702676529587869, -26.908234443227716 ], [ -48.702339367526136, -26.908253280085209 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0054930510", "cod": 33, "nome": "R.Jaziel José Rosa", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702670458670831, -26.907984865572093 ], [ -48.70268094302736, -26.90822332173871 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0054930510", "cod": 128.0, "nome": "R.Maria Odília dos Santos Domingues", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702676529587869, -26.908234443227713 ], [ -48.702339367526136, -26.908253280085209 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054930510", "cod": 33.0, "nome": "R.Jaziel José Rosa", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702670458670831, -26.907984865572093 ], [ -48.70268094302736, -26.90822332173871 ] ] } }
 ]
 }

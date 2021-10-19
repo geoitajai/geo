@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2160570300", "cod": 1452, "nome": "R.Luis Rousch", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.746904257498137, -26.944153982758074 ], [ -48.74688601, -26.94387246 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2160570300", "cod": 1458, "nome": "R.Aristides Pedroni", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.746924906974506, -26.943846656097264 ], [ -48.74688601, -26.94387246 ], [ -48.746493097860416, -26.944109171172521 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2160570300", "cod": 1452.0, "nome": "R.Luis Rousch", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.746904257498137, -26.944153982758074 ], [ -48.74688601, -26.94387246 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2160570300", "cod": 1458.0, "nome": "R.Aristides Pedroni", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.746924906974506, -26.943846656097264 ], [ -48.74688601, -26.94387246 ], [ -48.746493097860416, -26.944109171172521 ] ] } }
 ]
 }

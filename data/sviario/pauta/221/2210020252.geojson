@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2210020252", "cod": 526, "nome": "R.Carolina Vailati", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.680153748704342, -26.910106998969571 ], [ -48.679610187059424, -26.910141473025035 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2210020252", "cod": 527, "nome": "R.Francisco Ferreira Filho", "ptotalvia": 6.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.680157706197363, -26.909718482778523 ], [ -48.68013851, -26.90971921 ], [ -48.679594076014297, -26.909751571120378 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2210020252", "cod": 1617, "nome": "R.Anete Helena Marés Flores", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.680146433223221, -26.909694027117538 ], [ -48.68013851, -26.90971921 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2210020252", "cod": 526.0, "nome": "R.Carolina Vailati", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.680153748704342, -26.910106998969571 ], [ -48.679610187059424, -26.910141473025035 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210020252", "cod": 527.0, "nome": "R.Francisco Ferreira Filho", "ptotalvia": 6.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.680157706197363, -26.909718482778519 ], [ -48.68013851, -26.90971921 ], [ -48.679594076014297, -26.909751571120378 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210020252", "cod": 1617.0, "nome": "R.Anete Helena Marés Flores", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.680146433223221, -26.909694027117538 ], [ -48.68013851, -26.90971921 ] ] } }
 ]
 }

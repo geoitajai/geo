@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0031480450", "cod": 1172, "nome": "R.Enedina D'Avila Ferreira", "ptotalvia": 15.0, "ppasseio1": 3.5, "ppasseio2": 3.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.706037953780907, -26.892400152247006 ], [ -48.70607152, -26.89305241 ], [ -48.706073533186597, -26.893087676856688 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0031480450", "cod": 1203, "nome": "R.Osvaldo Cruz", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70607152, -26.89305241 ], [ -48.705584632212158, -26.893065772079353 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0031480450", "cod": 1182, "nome": "R.Rosa Orsi Dalcóquio", "ptotalvia": 15.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.706114896081921, -26.893050347752489 ], [ -48.70607152, -26.89305241 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0031480450", "cod": 1172.0, "nome": "R.Enedina D'Avila Ferreira", "ptotalvia": 15.0, "ppasseio1": 3.5, "ppasseio2": 3.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.706037953780907, -26.892400152247006 ], [ -48.70607152, -26.89305241 ], [ -48.706073533186597, -26.893087676856688 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031480450", "cod": 1203.0, "nome": "R.Osvaldo Cruz", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70607152, -26.89305241 ], [ -48.705584632212158, -26.893065772079357 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031480450", "cod": 1182.0, "nome": "R.Rosa Orsi Dalcóquio", "ptotalvia": 15.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.706114896081921, -26.893050347752489 ], [ -48.70607152, -26.89305241 ] ] } }
 ]
 }

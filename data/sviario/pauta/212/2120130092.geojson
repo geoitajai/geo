@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2120130092", "cod": 161, "nome": "Av.Irineu Bornhausen", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676597111913104, -26.895013048162468 ], [ -48.676436960081709, -26.895175075574798 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2120130092", "cod": 166, "nome": "R.Hebert Kremer", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676185532327779, -26.894802671536105 ], [ -48.676561157927047, -26.894788372835272 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2120130092", "cod": 161.0, "nome": "Av.Irineu Bornhausen", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676597111913104, -26.895013048162472 ], [ -48.676436960081709, -26.895175075574802 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2120130092", "cod": 166.0, "nome": "R.Hebert Kremer", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676185532327779, -26.894802671536109 ], [ -48.676561157927047, -26.894788372835272 ] ] } }
 ]
 }

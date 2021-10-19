@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010851741", "cod": 284, "nome": "R.Alm.Barroso", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.665265198149932, -26.907194094060092 ], [ -48.664916151131983, -26.906912879884786 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2010851741", "cod": 284.0, "nome": "R.Alm.Barroso", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.665265198149932, -26.907194094060092 ], [ -48.664916151131983, -26.906912879884786 ] ] } }
 ]
 }

@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050900130", "cod": 95, "nome": "R.Érico Veríssimo", "ptotalvia": 14.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696633979923355, -26.906846370801791 ], [ -48.69665716, -26.90721582 ], [ -48.696660008923843, -26.907257035677482 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0050900130", "cod": 102, "nome": "R.Dom  Jaime de Barros Câmara", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69665716, -26.90721582 ], [ -48.69634346486886, -26.907229261827172 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0050900130", "cod": 95.0, "nome": "R.Érico Veríssimo", "ptotalvia": 14.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696633979923355, -26.906846370801791 ], [ -48.69665716, -26.90721582 ], [ -48.696660008923843, -26.907257035677489 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050900130", "cod": 102.0, "nome": "R.Dom  Jaime de Barros Câmara", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69665716, -26.90721582 ], [ -48.69634346486886, -26.907229261827169 ] ] } }
 ]
 }

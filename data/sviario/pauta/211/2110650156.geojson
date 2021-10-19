@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110650156", "cod": 550, "nome": "R.Acyr Cunha", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674458197998156, -26.917849026288586 ], [ -48.674479384028658, -26.918183866024179 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2110650156", "cod": 550.0, "nome": "R.Acyr Cunha", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674458197998156, -26.917849026288586 ], [ -48.674479384028658, -26.918183866024176 ] ] } }
 ]
 }

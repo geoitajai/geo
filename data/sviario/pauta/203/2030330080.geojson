@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2030330080", "cod": 1070, "nome": "R.Emília Máxima dos Santos", "ptotalvia": 10.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.707478835740744, -26.875341777079075 ], [ -48.707496431037669, -26.875692296704582 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2030330080", "cod": 1070.0, "nome": "R.Emília Máxima dos Santos", "ptotalvia": 10.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.707478835740744, -26.875341777079075 ], [ -48.707496431037669, -26.875692296704578 ] ] } }
 ]
 }

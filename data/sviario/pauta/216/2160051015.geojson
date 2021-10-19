@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2160051015", "cod": 1425, "nome": "R.Guilherme May", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.738321104865882, -26.949038940544501 ], [ -48.73832983, -26.94913092 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2160051015", "cod": 1572, "nome": "R.Anna Custódio", "ptotalvia": 20.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.738615780049948, -26.949503315970368 ], [ -48.73825963833449, -26.949515471241178 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2160051015", "cod": 1425.0, "nome": "R.Guilherme May", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.738318649220112, -26.949013053366304 ], [ -48.73832983, -26.94913092 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2160051015", "cod": 1572.0, "nome": "R.Anna Custódio", "ptotalvia": 20.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.738615788626554, -26.949503315677628 ], [ -48.738259606368359, -26.949515472332152 ] ] } }
 ]
 }

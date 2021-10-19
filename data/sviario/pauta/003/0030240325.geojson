@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0030240325", "cod": 1116, "nome": "R.Jovito Anacleto", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692082304483357, -26.891848042837655 ], [ -48.692104379118156, -26.892202427013249 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0030240325", "cod": 1116.0, "nome": "R.Jovito Anacleto", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692082304483357, -26.891848042837651 ], [ -48.692104379118156, -26.892202427013245 ] ] } }
 ]
 }

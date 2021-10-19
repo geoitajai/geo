@@ -2,8 +2,10 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0031520825", "cod": 1184, "nome": "R.Victor Pezzini", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.706822359523308, -26.890404274877895 ], [ -48.706841181593241, -26.890802531005924 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0031520825", "cod": 1182, "nome": "R.Rosa Orsi Dalcóquio", "ptotalvia": 15.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.707963039859663, -26.893419331804374 ], [ -48.707310973898338, -26.893248352237091 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0031520825", "cod": 1111, "nome": "Av.Dr.Reinaldo Schmithausen", "ptotalvia": 27.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.707716983776905, -26.888663273064427 ], [ -48.707212443573518, -26.888400993775985 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0031520825", "cod": 1184.0, "nome": "R.Victor Pezzini", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.706822359508507, -26.890404274564773 ], [ -48.706841181594307, -26.890802531028392 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031520825", "cod": 1182.0, "nome": "R.Rosa Orsi Dalcóquio", "ptotalvia": 15.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.707963039859663, -26.893419331804374 ], [ -48.707311239737933, -26.893248421944151 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031520825", "cod": 1229.0, "nome": "R.Jaime Fernandes Vieira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70815114859964, -26.896585239255259 ], [ -48.70751564814357, -26.89661461391896 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031520825", "cod": 1178.0, "nome": "Av.Mário Uriarte", "ptotalvia": 30.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.708302241613907, -26.900173435454754 ], [ -48.707699554212269, -26.900095721188794 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031520825", "cod": 1111.0, "nome": "Av.Dr.Reinaldo Schmithausen", "ptotalvia": 27.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.707716983776912, -26.888663273064427 ], [ -48.707212443805361, -26.888400993896511 ] ] } }
 ]
 }

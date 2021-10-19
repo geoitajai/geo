@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040280046", "cod": 625, "nome": "R.Manoel Dono Morgado", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.655480633960373, -26.911972827848448 ], [ -48.655315867921203, -26.912350407229628 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2040280046", "cod": 625.0, "nome": "R.Manoel Dono Morgado", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.655480633960373, -26.911972827848448 ], [ -48.655315867921203, -26.912350407229624 ] ] } }
 ]
 }

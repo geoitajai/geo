@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0051320040", "cod": 907, "nome": "R.Dos Jasmins", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68961655923011, -26.917249689099823 ], [ -48.68933991, -26.91726401 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0051320040", "cod": 893, "nome": "R.Otto Hoier", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.689432390582063, -26.917336166000947 ], [ -48.68933991, -26.91726401 ], [ -48.689246407488831, -26.917268643408594 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0051320040", "cod": 907.0, "nome": "R.Dos Jasmins", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68961655923011, -26.917249689099819 ], [ -48.68933991, -26.91726401 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0051320040", "cod": 893.0, "nome": "R.Otto Hoier", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.689432390582063, -26.91733616600095 ], [ -48.68933991, -26.91726401 ], [ -48.689246407488831, -26.917268643408594 ] ] } }
 ]
 }

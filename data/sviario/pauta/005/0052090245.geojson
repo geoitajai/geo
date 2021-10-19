@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0052090245", "cod": 41, "nome": "R.Biguaçú", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697942562153031, -26.903851981294185 ], [ -48.697960582851834, -26.904182793852229 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0052090245", "cod": 41.0, "nome": "R.Biguaçú", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697942562153031, -26.903851981294185 ], [ -48.697960582851834, -26.904182793852229 ] ] } }
 ]
 }

@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2150090380", "cod": 1381, "nome": "R.Manoel Generoso de Souza", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.743022897191167, -26.893677950669566 ], [ -48.7429118, -26.89368314 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2150090380", "cod": 1382, "nome": "R.Cypriano Nunes dos Santos", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.742896025949612, -26.893468244571277 ], [ -48.7429118, -26.89368314 ], [ -48.742917668415544, -26.893827084011466 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2150090380", "cod": 1381.0, "nome": "R.Manoel Generoso de Souza", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.743022897191167, -26.893677950669566 ], [ -48.7429118, -26.89368314 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2150090380", "cod": 1382.0, "nome": "R.Cypriano Nunes dos Santos", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.742896025949612, -26.893468244571281 ], [ -48.7429118, -26.89368314 ], [ -48.742917668415544, -26.89382708401147 ] ] } }
 ]
 }

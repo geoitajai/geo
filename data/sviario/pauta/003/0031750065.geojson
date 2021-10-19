@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0031750065", "cod": 1141, "nome": "R.Laudelina Dionísio", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695731051968096, -26.893535374421887 ], [ -48.695712425214033, -26.893192233688126 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0031750065", "cod": 1142, "nome": "R.Lausimar Laus", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696028097215489, -26.893180948638083 ], [ -48.696047286355856, -26.893519846317684 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0031750065", "cod": 1141.0, "nome": "R.Laudelina Dionísio", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695731051968096, -26.893535374421887 ], [ -48.695712425214033, -26.893192233688122 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031750065", "cod": 1142.0, "nome": "R.Lausimar Laus", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696028097215489, -26.893180948638079 ], [ -48.696047286355856, -26.893519846317687 ] ] } }
 ]
 }

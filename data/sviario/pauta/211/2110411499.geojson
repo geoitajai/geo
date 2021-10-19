@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110411499", "cod": 163, "nome": "R.Alberto Werner", "ptotalvia": 13.2, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.670296314287334, -26.916072815816296 ], [ -48.67031966, -26.91627544 ], [ -48.670311476354975, -26.916443784907617 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110411499", "cod": 268, "nome": "R.Brusque", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.669851948958424, -26.916258726036869 ], [ -48.670080840845692, -26.916524622631151 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2110411499", "cod": 163.0, "nome": "R.Alberto Werner", "ptotalvia": 13.2, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.670296314287334, -26.916072815816293 ], [ -48.67031966, -26.91627544 ], [ -48.670311476354975, -26.916443784907621 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110411499", "cod": 268.0, "nome": "R.Brusque", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.669851948958424, -26.916258726036869 ], [ -48.670080840845692, -26.916524622631147 ] ] } }
 ]
 }

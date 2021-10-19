@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050530400", "cod": 50, "nome": "R.Luiz Lopes Gonzaga", "ptotalvia": 13.2, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693705942464589, -26.897382270275354 ], [ -48.69372231, -26.89743753 ], [ -48.693731162416924, -26.897717884448518 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0050530400", "cod": 53, "nome": "R.Ver.Airton de Souza", "ptotalvia": 14.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.694098722024023, -26.897434487986899 ], [ -48.69372231, -26.89743753 ], [ -48.693656056294465, -26.897439275003691 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0050530400", "cod": 50.0, "nome": "R.Luiz Lopes Gonzaga", "ptotalvia": 13.2, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693705942464589, -26.897382270275362 ], [ -48.69372231, -26.89743753 ], [ -48.693731162416924, -26.897717884448525 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050530400", "cod": 53.0, "nome": "R.Ver.Airton de Souza", "ptotalvia": 14.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.694098722024023, -26.897434487986896 ], [ -48.69372231, -26.89743753 ], [ -48.693656056294472, -26.897439275003691 ] ] } }
 ]
 }

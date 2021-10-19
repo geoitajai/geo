@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2041924463", "cod": 612, "nome": "R.Antônio de Meneses Vasconcelos de Drumond", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.660689154781494, -26.918535886468906 ], [ -48.66057732, -26.91848326 ], [ -48.6605938, -26.91829221 ], [ -48.660622575916499, -26.918189571674279 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2041924463", "cod": 612.0, "nome": "R.Antônio de Meneses Vasconcelos de Drumond", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.660689154781494, -26.918535886468906 ], [ -48.66057732, -26.91848326 ], [ -48.6605938, -26.91829221 ], [ -48.660622575916499, -26.918189571674279 ] ] } }
 ]
 }

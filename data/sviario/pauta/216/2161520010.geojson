@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2161520010", "cod": 1251, "nome": "R.Mineral", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.842023879890903, -27.046630672575951 ], [ -48.84203379, -27.04658379 ], [ -48.84214907621142, -27.046223929509846 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2161520010", "cod": 1252, "nome": "R.Maria do Carmo Cugik", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.84203379, -27.04658379 ], [ -48.842443392098112, -27.046561702374106 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2161520010", "cod": 1251.0, "nome": "R.Mineral", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.842027665831566, -27.046612762117658 ], [ -48.84203379, -27.04658379 ], [ -48.842156261032784, -27.046201502338448 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2161520010", "cod": 1252.0, "nome": "R.Maria do Carmo Cugik", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.84203379, -27.04658379 ], [ -48.842432261244809, -27.046562302616774 ] ] } }
 ]
 }

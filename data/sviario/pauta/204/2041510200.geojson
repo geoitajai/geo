@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2041510200", "cod": 871, "nome": "R.Alfredo Labes", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.672597655687596, -26.931781782313085 ], [ -48.67253348, -26.93178385 ], [ -48.671840955182255, -26.931796328809895 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2041510200", "cod": 874, "nome": "R.Leopoldo Zarling", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67253348, -26.93178385 ], [ -48.67255113530603, -26.932127795764462 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2041510200", "cod": 871.0, "nome": "R.Alfredo Labes", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.672597655687596, -26.931781782313081 ], [ -48.67253348, -26.93178385 ], [ -48.671840955182255, -26.931796328809895 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2041510200", "cod": 874.0, "nome": "R.Leopoldo Zarling", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67253348, -26.93178385 ], [ -48.67255113530603, -26.932127795764462 ] ] } }
 ]
 }

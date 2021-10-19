@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0030510140", "cod": 1147, "nome": "R.Iolando Benvenutti Júnior", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695421410168542, -26.894711568110225 ], [ -48.695442667712904, -26.895048077738839 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0030510140", "cod": 1147.0, "nome": "R.Iolando Benvenutti Júnior", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695421410168542, -26.894711568110221 ], [ -48.695442667712904, -26.895048077738856 ] ] } }
 ]
 }

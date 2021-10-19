@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2150410090", "cod": 1407, "nome": "R.Vicente Cândido Pereira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.719429065899178, -26.909770584569511 ], [ -48.71943205, -26.90986195 ], [ -48.71942184458581, -26.91010421379146 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2150410090", "cod": 1407.0, "nome": "R.Vicente Cândido Pereira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.719429065899185, -26.909770584569511 ], [ -48.71943205, -26.90986195 ], [ -48.71942184458581, -26.91010421379146 ] ] } }
 ]
 }

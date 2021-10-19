@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040710248", "cod": 686, "nome": "R.Antônio Foes", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.655340871633783, -26.924467041090537 ], [ -48.655597886208255, -26.924679582615841 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2040710248", "cod": 686.0, "nome": "R.Antônio Foes", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.655340871633783, -26.924467041090537 ], [ -48.655597886208255, -26.924679582615841 ] ] } }
 ]
 }

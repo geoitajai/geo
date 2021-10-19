@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2150120390", "cod": 1374, "nome": "R.Ademar Barbi", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.735892280374784, -26.89170372457632 ], [ -48.735916729317367, -26.892012217274971 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2150120390", "cod": 1374.0, "nome": "R.Ademar Barbi", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.735892280374784, -26.89170372457632 ], [ -48.735916729317367, -26.892012217274971 ] ] } }
 ]
 }

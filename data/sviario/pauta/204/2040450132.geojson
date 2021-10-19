@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040450132", "cod": 622, "nome": "R.Sem denominação oficial", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656919687544267, -26.917971067593676 ], [ -48.65665603, -26.91773913 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040450132", "cod": 619, "nome": "Serv.Joanico", "ptotalvia": 4.8, "ppasseio1": 0.65, "ppasseio2": 0.65 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656245966968932, -26.917691421626138 ], [ -48.65635849, -26.91778343 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2040450132", "cod": 622.0, "nome": "R.Sem denominação oficial", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656919687544267, -26.917971067593673 ], [ -48.65665603, -26.91773913 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040450132", "cod": 619.0, "nome": "Serv.Joanico", "ptotalvia": 4.8, "ppasseio1": 0.65, "ppasseio2": 0.65 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656245966968932, -26.917691421626138 ], [ -48.65635849, -26.91778343 ] ] } }
 ]
 }

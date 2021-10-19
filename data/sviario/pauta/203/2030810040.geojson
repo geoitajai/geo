@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2030810040", "cod": 1271, "nome": "R.João Vieira Ramos", "ptotalvia": 8.5, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.723371287793576, -26.851113313757295 ], [ -48.722997863260204, -26.851129186114555 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2030810040", "cod": 1271.0, "nome": "R.João Vieira Ramos", "ptotalvia": 8.5, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.723371287793576, -26.851113313757292 ], [ -48.722997863260204, -26.851129186114559 ] ] } }
 ]
 }

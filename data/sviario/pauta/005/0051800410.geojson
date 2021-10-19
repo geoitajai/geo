@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0051800410", "cod": 981, "nome": "R.Dr.Nelly Piccoli", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700151183463234, -26.925407412658164 ], [ -48.70010376, -26.92545168 ], [ -48.69989128947126, -26.925662057427061 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0051800410", "cod": 946, "nome": "R.Otília Damasceno", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69997286, -26.92534844 ], [ -48.70010376, -26.92545168 ], [ -48.700160556456105, -26.925498374777099 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0051800410", "cod": 946, "nome": "R.Otília Damasceno", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.699818859308799, -26.925226975140308 ], [ -48.69997286, -26.92534844 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0051800410", "cod": 981.0, "nome": "R.Dr.Nelly Piccoli", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700151183463234, -26.92540741265816 ], [ -48.70010376, -26.92545168 ], [ -48.69989128947126, -26.925662057427061 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0051800410", "cod": 946.0, "nome": "R.Otília Damasceno", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69997286, -26.92534844 ], [ -48.70010376, -26.92545168 ], [ -48.700160556456105, -26.925498374777089 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0051800410", "cod": 946.0, "nome": "R.Otília Damasceno", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.699818859308799, -26.925226975140305 ], [ -48.69997286, -26.92534844 ] ] } }
 ]
 }

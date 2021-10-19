@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050570130", "cod": 24, "nome": "R.Carlos Schroeder", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69391734048628, -26.900008573922999 ], [ -48.69384897, -26.90000964 ], [ -48.693414620816682, -26.900018586868764 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0050570130", "cod": 50, "nome": "R.Luiz Lopes Gonzaga", "ptotalvia": 13.2, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693837663087784, -26.899702076453913 ], [ -48.69384897, -26.90000964 ], [ -48.693849897079538, -26.900074236544157 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0050570130", "cod": 24.0, "nome": "R.Carlos Schroeder", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69391734048628, -26.900008573922999 ], [ -48.69384897, -26.90000964 ], [ -48.693414620816682, -26.900018586868768 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050570130", "cod": 50.0, "nome": "R.Luiz Lopes Gonzaga", "ptotalvia": 13.2, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693837663087784, -26.899702076453913 ], [ -48.69384897, -26.90000964 ], [ -48.693849897079538, -26.900074236544157 ] ] } }
 ]
 }

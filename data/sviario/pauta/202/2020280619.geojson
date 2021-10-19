@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020280619", "cod": 220, "nome": "R.Max", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67054197, -26.89921365 ], [ -48.671664440504955, -26.900076563886884 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020280619", "cod": 157, "nome": "R.Blumenau", "ptotalvia": 14.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.670788987979648, -26.898890559899328 ], [ -48.67054197, -26.89921365 ], [ -48.670508033950483, -26.8992576714293 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2020280619", "cod": 220.0, "nome": "R.Max", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67054197, -26.89921365 ], [ -48.671664440504955, -26.900076563886884 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020280619", "cod": 157.0, "nome": "R.Blumenau", "ptotalvia": 14.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.670788987979648, -26.898890559899332 ], [ -48.67054197, -26.89921365 ], [ -48.670508033950483, -26.8992576714293 ] ] } }
 ]
 }

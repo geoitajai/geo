@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2160420580", "cod": 1467, "nome": "R.Francisco Pigoretti", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.710522343875517, -26.93608396446346 ], [ -48.710440573444053, -26.936413208507989 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2160420580", "cod": 1467.0, "nome": "R.Francisco Pigoretti", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.710522343875517, -26.936083964463464 ], [ -48.710440573444053, -26.936413208507993 ] ] } }
 ]
 }

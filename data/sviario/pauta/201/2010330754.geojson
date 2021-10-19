@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010330754", "cod": 369, "nome": "Serv.Hermínio José Ferreira Neto", "ptotalvia": 8.5, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.657957065301964, -26.911042792013575 ], [ -48.658260040767587, -26.911289391530467 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2010330754", "cod": 369.0, "nome": "Serv.Hermínio José Ferreira Neto", "ptotalvia": 8.5, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.657957065301964, -26.911042792013575 ], [ -48.658260040767587, -26.911289391530467 ] ] } }
 ]
 }

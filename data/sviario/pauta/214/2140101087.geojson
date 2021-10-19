@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140101087", "cod": 750, "nome": "R.Dep.Francisco Evaristo Canziani", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.646080385620799, -26.918438867698875 ], [ -48.64599726, -26.91841328 ], [ -48.645442972582345, -26.918208432913374 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2140101087", "cod": 750.0, "nome": "R.Dep.Francisco Evaristo Canziani", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.646080385620799, -26.918438867698875 ], [ -48.64599726, -26.91841328 ], [ -48.645442972582345, -26.918208432913378 ] ] } }
 ]
 }

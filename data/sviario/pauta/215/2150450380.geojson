@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2150450380", "cod": 1360, "nome": "R.Fermino Vieira Cordeiro", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.734772620075866, -26.89700878488788 ], [ -48.73474526, -26.89698884 ], [ -48.7343936, -26.89672171 ], [ -48.734379401427105, -26.896710549806162 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2150450380", "cod": 1371, "nome": "R.Marcelo Antônio Cordeiro", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.734744345952201, -26.896923059498338 ], [ -48.73474526, -26.89698884 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2150450380", "cod": 1372, "nome": "R.Manoel Rodolfo Cordeiro", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.7343936, -26.89672171 ], [ -48.73439057, -26.89699094 ], [ -48.73440958, -26.89721464 ], [ -48.734430450142419, -26.897334485250344 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2150450380", "cod": 1360.0, "nome": "R.Fermino Vieira Cordeiro", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.734754247271113, -26.896995391522417 ], [ -48.73474526, -26.89698884 ], [ -48.7343936, -26.89672171 ], [ -48.734359896154146, -26.896695218497221 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2150450380", "cod": 1371.0, "nome": "R.Marcelo Antônio Cordeiro", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.734744867353385, -26.896960582717679 ], [ -48.73474526, -26.89698884 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2150450380", "cod": 1372.0, "nome": "R.Manoel Rodolfo Cordeiro", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.73436152, -26.89669691 ], [ -48.73437257, -26.8969855 ], [ -48.73440958, -26.89721464 ], [ -48.734426476787434, -26.89733571238537 ] ] } }
 ]
 }

@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110300264", "cod": 498, "nome": "R.Willy Henning", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676130736124726, -26.913927699799913 ], [ -48.676498347224495, -26.913908910264233 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110300264", "cod": 497, "nome": "R.Ciriaco Meirinho", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676485955322782, -26.913626894208679 ], [ -48.67648164, -26.9136271 ], [ -48.676104771768102, -26.913646213274447 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110300264", "cod": 509, "nome": "R.Gervasio Antônio Klock", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676482039390841, -26.913619798867401 ], [ -48.67648164, -26.9136271 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2110300264", "cod": 498.0, "nome": "R.Willy Henning", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676130736124726, -26.91392769979991 ], [ -48.676498347224495, -26.913908910264229 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110300264", "cod": 497.0, "nome": "R.Ciriaco Meirinho", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676485955322782, -26.913626894208676 ], [ -48.67648164, -26.9136271 ], [ -48.676104771768102, -26.913646213274447 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110300264", "cod": 509.0, "nome": "R.Gervasio Antônio Klock", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676482039390841, -26.913619798867401 ], [ -48.67648164, -26.9136271 ] ] } }
 ]
 }

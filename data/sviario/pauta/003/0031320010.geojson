@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0031320010", "cod": 1229, "nome": "R.Jaime Fernandes Vieira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.703652435222438, -26.896789689238616 ], [ -48.703233222826249, -26.896805493711877 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0031320010", "cod": 1229.0, "nome": "R.Jaime Fernandes Vieira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.703652435222438, -26.896789689238613 ], [ -48.703233222826249, -26.896805493711877 ] ] } }
 ]
 }

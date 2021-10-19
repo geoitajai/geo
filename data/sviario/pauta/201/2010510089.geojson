@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010510089", "cod": 354, "nome": "R.Carlos Hugo Praun", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66117912771692, -26.91183020731053 ], [ -48.660829582033649, -26.911537391983245 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2010510089", "cod": 354.0, "nome": "R.Carlos Hugo Praun", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66117912771692, -26.91183020731053 ], [ -48.660829582033649, -26.911537391983245 ] ] } }
 ]
 }

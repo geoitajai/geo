@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110320090", "cod": 500, "nome": "R.José Tedeo", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674441665883364, -26.914972154280534 ], [ -48.674811629193421, -26.914954108290811 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2110320090", "cod": 500.0, "nome": "R.José Tedeo", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674441665883364, -26.914972154280534 ], [ -48.674811629193421, -26.914954108290811 ] ] } }
 ]
 }

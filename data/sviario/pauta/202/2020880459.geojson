@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020880459", "cod": 253, "nome": "R.Luiz Bonifácio Pinto", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.681917525411819, -26.907146030631949 ], [ -48.681564419798285, -26.90715775771752 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2020880459", "cod": 253.0, "nome": "R.Luiz Bonifácio Pinto", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.681917525411819, -26.907146030631946 ], [ -48.681564419798285, -26.90715775771752 ] ] } }
 ]
 }

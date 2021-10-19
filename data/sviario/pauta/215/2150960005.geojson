@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2150960005", "cod": 1316, "nome": "R.Mariângela Rocha Fabeni", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.747835987487079, -26.884474682791897 ], [ -48.74787314, -26.88491131 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2150960005", "cod": 1341, "nome": "Av.Demostenes Feminella Filho", "ptotalvia": 26.0, "ppasseio1": 5.0, "ppasseio2": 5.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.747878609132009, -26.88491169436794 ], [ -48.74787314, -26.88491131 ], [ -48.74769706, -26.88491528 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2150960005", "cod": 1341, "nome": "Av.Demostenes Feminella Filho", "ptotalvia": 26.0, "ppasseio1": 5.0, "ppasseio2": 5.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.74769706, -26.88491528 ], [ -48.747632535484826, -26.884916736979498 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2150960005", "cod": 1316.0, "nome": "R.Mariângela Rocha Fabeni", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.747835987487079, -26.884474682791897 ], [ -48.74787314, -26.88491131 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2150960005", "cod": 1341.0, "nome": "Av.Demostenes Feminella Filho", "ptotalvia": 26.0, "ppasseio1": 5.0, "ppasseio2": 5.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.747878609132009, -26.88491169436794 ], [ -48.74787314, -26.88491131 ], [ -48.74769706, -26.88491528 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2150960005", "cod": 1341.0, "nome": "Av.Demostenes Feminella Filho", "ptotalvia": 26.0, "ppasseio1": 5.0, "ppasseio2": 5.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.74769706, -26.88491528 ], [ -48.747632535484826, -26.884916736979498 ] ] } }
 ]
 }

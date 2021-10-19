@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2151070010", "cod": 1318, "nome": "R.José Francisco Reis", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.748564882427303, -26.881185426594456 ], [ -48.74859503, -26.88156568 ], [ -48.748598057727762, -26.881602046852063 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2151070010", "cod": 1340, "nome": "Av.José João Corrêa", "ptotalvia": 18.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.748663691350281, -26.881561277465796 ], [ -48.74859503, -26.88156568 ], [ -48.748303650048804, -26.881585852544575 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2151070010", "cod": 1318.0, "nome": "R.José Francisco Reis", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.748564882427303, -26.88118542659446 ], [ -48.74859503, -26.88156568 ], [ -48.748598057727762, -26.881602046852063 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2151070010", "cod": 1340.0, "nome": "Av.José João Corrêa", "ptotalvia": 18.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.748663691350281, -26.881561277465792 ], [ -48.74859503, -26.88156568 ], [ -48.748303650048804, -26.881585852544575 ] ] } }
 ]
 }

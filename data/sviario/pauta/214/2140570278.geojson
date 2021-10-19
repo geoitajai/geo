@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140570278", "cod": 723, "nome": "R.Osni Melo", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.646523893963696, -26.929787506620531 ], [ -48.64618665, -26.929558339999989 ], [ -48.646120533004343, -26.929510141224306 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2140570278", "cod": 725, "nome": "R.José Estevão Pacheco", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.64622356799476, -26.929485601772335 ], [ -48.64618665, -26.929558339999989 ], [ -48.646013634624325, -26.929789717746747 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2140570278", "cod": 723.0, "nome": "R.Osni Melo", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.646523893963696, -26.929787506620531 ], [ -48.64618665, -26.929558339999989 ], [ -48.646120533004343, -26.929510141224306 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140570278", "cod": 725.0, "nome": "R.José Estevão Pacheco", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.64622356799476, -26.929485601772338 ], [ -48.64618665, -26.929558339999989 ], [ -48.646013634624325, -26.929789717746747 ] ] } }
 ]
 }

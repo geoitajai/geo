@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040450515", "cod": 619, "nome": "Serv.Joanico", "ptotalvia": 4.8, "ppasseio1": 0.65, "ppasseio2": 0.65 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65612045407655, -26.91758879136917 ], [ -48.65635849, -26.91778343 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2040450515", "cod": 619.0, "nome": "Serv.Joanico", "ptotalvia": 4.8, "ppasseio1": 0.65, "ppasseio2": 0.65 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65612045407655, -26.91758879136917 ], [ -48.65635849, -26.91778343 ] ] } }
 ]
 }

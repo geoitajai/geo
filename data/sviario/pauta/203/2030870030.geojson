@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2030870030", "cod": 1088, "nome": "R.Romualdo Manoel Fagundes", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695726656768073, -26.881617691995114 ], [ -48.695738709786959, -26.881958728132126 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2030870030", "cod": 1088.0, "nome": "R.Romualdo Manoel Fagundes", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695726656768073, -26.881617691995114 ], [ -48.695738709786959, -26.881958728132126 ] ] } }
 ]
 }

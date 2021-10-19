@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010140161", "cod": 295, "nome": "R.XV de Novembro", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656653330270402, -26.905705448051968 ], [ -48.656533460910609, -26.906075348437994 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2010140161", "cod": 295.0, "nome": "R.XV de Novembro", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656653330270402, -26.905705448051968 ], [ -48.656533460910609, -26.906075348437998 ] ] } }
 ]
 }

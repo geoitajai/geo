@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020961400", "cod": 248, "nome": "R.Jaime Sebastião Cardoso", "ptotalvia": 6.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.672546318406049, -26.905573458870769 ], [ -48.672578846124011, -26.905225062178051 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2020961400", "cod": 248.0, "nome": "R.Jaime Sebastião Cardoso", "ptotalvia": 6.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.672546318406049, -26.905573458870766 ], [ -48.672578846124011, -26.905225062178051 ] ] } }
 ]
 }

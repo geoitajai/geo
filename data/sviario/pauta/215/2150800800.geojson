@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2150800800", "cod": 1343, "nome": "Rod.Jorge Lacerda", "ptotalvia": 43.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.753085632473883, -26.887677250353725 ], [ -48.75237658, -26.88749212 ], [ -48.751614689484697, -26.88724958227316 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2150800800", "cod": 1343.0, "nome": "Rod.Jorge Lacerda", "ptotalvia": 43.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.753085632473883, -26.887677250353729 ], [ -48.75237658, -26.88749212 ], [ -48.751614689484697, -26.887249582273164 ] ] } }
 ]
 }

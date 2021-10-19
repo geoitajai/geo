@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110830299", "cod": 549, "nome": "R.Miguel Kunifas", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675246347665507, -26.921585405573889 ], [ -48.67527416430827, -26.922049356247616 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110830299", "cod": 548, "nome": "R.Manoel Anibal Pereira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675801495509184, -26.921690580382993 ], [ -48.6758141, -26.92187683 ], [ -48.675883186477357, -26.92196307410882 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2110830299", "cod": 549.0, "nome": "R.Miguel Kunifas", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675246347665514, -26.921585405573889 ], [ -48.67527416430827, -26.922049356247616 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110830299", "cod": 548.0, "nome": "R.Manoel Anibal Pereira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675801495509184, -26.92169058038299 ], [ -48.6758141, -26.92187683 ], [ -48.675883186477357, -26.92196307410882 ] ] } }
 ]
 }

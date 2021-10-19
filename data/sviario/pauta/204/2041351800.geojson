@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2041351800", "cod": 866, "nome": "R.Valdevino Vieira Cordeiro", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676481075406237, -26.928907314361268 ], [ -48.676071736171671, -26.928892541363602 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2041351800", "cod": 543, "nome": "R.José Siqueira", "ptotalvia": 25.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676119956798253, -26.928504084023878 ], [ -48.676057071606465, -26.928842205026704 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2041351800", "cod": 866.0, "nome": "R.Valdevino Vieira Cordeiro", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676481075406237, -26.928907314361265 ], [ -48.676071736171671, -26.928892541363602 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2041351800", "cod": 543.0, "nome": "R.José Siqueira", "ptotalvia": 25.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676119956798253, -26.928504084023878 ], [ -48.676057071606465, -26.928842205026719 ] ] } }
 ]
 }

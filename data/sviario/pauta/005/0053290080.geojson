@@ -2,7 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0053290080", "cod": 947, "nome": "R.Maria Verena Heil", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.694935460655742, -26.921458864583823 ], [ -48.69460871946837, -26.92157586867458 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0053290080", "cod": 947, "nome": "R.Maria Verena Heil", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.694935460655742, -26.921458864583823 ], [ -48.69460871946837, -26.92157586867458 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0053290080", "cod": 947.0, "nome": "R.Maria Verena Heil", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.694935460655742, -26.921458864583819 ], [ -48.69460871946837, -26.92157586867458 ] ] } }
 ]
 }

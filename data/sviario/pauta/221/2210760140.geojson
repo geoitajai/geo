@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2210760140", "cod": 567, "nome": "R.Jorge Santos de Macedo", "ptotalvia": 12.0, "ppasseio1": 5.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.681459571753329, -26.921975471984606 ], [ -48.68146088, -26.92204967 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2210760140", "cod": 567, "nome": "R.Jorge Santos de Macedo", "ptotalvia": 12.0, "ppasseio1": 5.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68146088, -26.92204967 ], [ -48.68146579, -26.92232806 ], [ -48.681465790004623, -26.922396439965325 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2210760140", "cod": 566, "nome": "R.São Gonçalo", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.681777302318224, -26.922326198150976 ], [ -48.68146579, -26.92232806 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2210760140", "cod": 567.0, "nome": "R.Jorge Santos de Macedo", "ptotalvia": 12.0, "ppasseio1": 5.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.681459571753329, -26.921975471984606 ], [ -48.68146088, -26.92204967 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210760140", "cod": 567.0, "nome": "R.Jorge Santos de Macedo", "ptotalvia": 12.0, "ppasseio1": 5.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68146088, -26.92204967 ], [ -48.68146579, -26.92232806 ], [ -48.681465790004623, -26.922396439965325 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210760140", "cod": 566.0, "nome": "R.São Gonçalo", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.681777302318224, -26.92232619815098 ], [ -48.68146579, -26.92232806 ] ] } }
 ]
 }

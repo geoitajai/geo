@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0030060815", "cod": 1119, "nome": "R.Pedro Camilo Vicente", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68963693, -26.88688325 ], [ -48.689688774526552, -26.887490753256877 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0030060815", "cod": 1111, "nome": "Av.Dr.Reinaldo Schmithausen", "ptotalvia": 27.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.689658752791217, -26.886863662935873 ], [ -48.68963693, -26.88688325 ], [ -48.689291407373823, -26.887176749515479 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0030060815", "cod": 1119.0, "nome": "R.Pedro Camilo Vicente", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68963693, -26.88688325 ], [ -48.689688774526552, -26.887490753256877 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0030060815", "cod": 1111.0, "nome": "Av.Dr.Reinaldo Schmithausen", "ptotalvia": 27.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.689658752791217, -26.886863662935873 ], [ -48.68963693, -26.88688325 ], [ -48.689291407373823, -26.887176749515479 ] ] } }
 ]
 }

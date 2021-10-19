@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0054730120", "cod": 923, "nome": "R.Aldo Silva", "ptotalvia": 14.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698420065990774, -26.917775451319603 ], [ -48.69842589, -26.91786151 ], [ -48.69846279, -26.91859182 ], [ -48.698467684156292, -26.918645065437104 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0054730120", "cod": 924, "nome": "R.Maria Claudia Adriano Soares", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697986434795475, -26.917776084434653 ], [ -48.69799054, -26.91788344 ], [ -48.69842589, -26.91786151 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0054730120", "cod": 925, "nome": "R.Antônio José Marcos", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69846279, -26.91859182 ], [ -48.69806925, -26.91860718 ], [ -48.698071886457072, -26.918682959306715 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0054730120", "cod": 923.0, "nome": "R.Aldo Silva", "ptotalvia": 14.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698420065990774, -26.917775451319603 ], [ -48.69842589, -26.91786151 ], [ -48.69846279, -26.91859182 ], [ -48.698467684156292, -26.918645065437104 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054730120", "cod": 924.0, "nome": "R.Maria Claudia Adriano Soares", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697986434795475, -26.917776084434653 ], [ -48.69799054, -26.91788344 ], [ -48.69842589, -26.91786151 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054730120", "cod": 925.0, "nome": "R.Antônio José Marcos", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69846279, -26.91859182 ], [ -48.69806925, -26.91860718 ], [ -48.698071886457072, -26.918682959306711 ] ] } }
 ]
 }

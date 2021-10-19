@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050910080", "cod": 115, "nome": "R.Urubici", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696141065484376, -26.907763753102422 ], [ -48.695769933036914, -26.907785008244268 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0050910080", "cod": 115.0, "nome": "R.Urubici", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696141065484376, -26.907763753102422 ], [ -48.695769933036914, -26.907785008244268 ] ] } }
 ]
 }

@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2210020929", "cod": 527, "nome": "R.Francisco Ferreira Filho", "ptotalvia": 6.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.680254551311528, -26.90971481389472 ], [ -48.68013851, -26.90971921 ], [ -48.679788338968784, -26.909740024387578 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2210020929", "cod": 528, "nome": "Trav.Maurício Furtado", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.680180793202084, -26.909483256999263 ], [ -48.679820624895676, -26.909497034232754 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2210020929", "cod": 1617, "nome": "R.Anete Helena Marés Flores", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.680208859021164, -26.909495614784451 ], [ -48.68013851, -26.90971921 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2210020929", "cod": 527.0, "nome": "R.Francisco Ferreira Filho", "ptotalvia": 6.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.680254551311528, -26.909714813894723 ], [ -48.68013851, -26.90971921 ], [ -48.679788338968784, -26.909740024387578 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210020929", "cod": 528.0, "nome": "Trav.Maurício Furtado", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.680180793202084, -26.909483256999263 ], [ -48.679820624895676, -26.909497034232757 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210020929", "cod": 1617.0, "nome": "R.Anete Helena Marés Flores", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.680208859021164, -26.909495614784447 ], [ -48.68013851, -26.90971921 ] ] } }
 ]
 }

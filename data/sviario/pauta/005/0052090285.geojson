@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0052090285", "cod": 41, "nome": "R.Biguaçú", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697989741597844, -26.904718070467553 ], [ -48.69800653, -26.90502626 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0052090285", "cod": 154, "nome": "R.Satyro Loureiro", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69834969, -26.90501152 ], [ -48.698351569574001, -26.90504433476238 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0052090285", "cod": 15, "nome": "R.Arq.Nilson Edson dos Santos", "ptotalvia": 21.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698403989190751, -26.905009012355208 ], [ -48.69800653, -26.90502626 ], [ -48.697958907729493, -26.90502732791909 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0052090285", "cod": 41.0, "nome": "R.Biguaçú", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697989741597844, -26.904718070467553 ], [ -48.69800653, -26.90502626 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0052090285", "cod": 154.0, "nome": "R.Satyro Loureiro", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69834969, -26.90501152 ], [ -48.698351569574001, -26.90504433476238 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0052090285", "cod": 15.0, "nome": "R.Arq.Nilson Edson dos Santos", "ptotalvia": 21.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698403989190751, -26.905009012355208 ], [ -48.69800653, -26.90502626 ], [ -48.697958907729493, -26.90502732791909 ] ] } }
 ]
 }

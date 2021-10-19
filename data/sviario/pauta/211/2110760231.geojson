@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110760231", "cod": 487, "nome": "R.Aristides Francisco Palumbo", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674000402161198, -26.919330799624468 ], [ -48.67400265, -26.91936921 ], [ -48.674020555473305, -26.919761570583496 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110760231", "cod": 577, "nome": "R.Jacob Ardigó", "ptotalvia": 21.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674381679693504, -26.919312063115761 ], [ -48.67400265, -26.91936921 ], [ -48.673935820824369, -26.919387895168779 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2110760231", "cod": 487.0, "nome": "R.Aristides Francisco Palumbo", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674000402161198, -26.919330799624468 ], [ -48.67400265, -26.91936921 ], [ -48.674020555473305, -26.9197615705835 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110760231", "cod": 577.0, "nome": "R.Jacob Ardigó", "ptotalvia": 21.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674381679693504, -26.919312063115761 ], [ -48.67400265, -26.91936921 ], [ -48.673935820824376, -26.919387895168779 ] ] } }
 ]
 }

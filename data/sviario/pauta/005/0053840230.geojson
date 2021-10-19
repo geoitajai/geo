@@ -2,6 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0053840230", "cod": 970, "nome": "R.Anastácio José Mendes", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692680563834443, -26.926160606203045 ], [ -48.692869042424341, -26.926434327079221 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0053840230", "cod": 970.0, "nome": "R.Anastácio José Mendes", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692680563834443, -26.926160606203041 ], [ -48.692869042424341, -26.926434327079221 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0053840230", "cod": 970.0, "nome": "R.Anastácio José Mendes", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692680563834443, -26.926160606203041 ], [ -48.692869042424341, -26.926434327079221 ] ] } }
 ]
 }

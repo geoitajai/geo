@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0051850220", "cod": 1017, "nome": "R.Francisco Delvan", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696055945882044, -26.927761526331039 ], [ -48.696221673253369, -26.927901977258543 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0051850220", "cod": 926, "nome": "Av.Min.Luiz Gallotti", "ptotalvia": 17.2, "ppasseio1": 3.25, "ppasseio2": 3.25 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695975551523325, -26.927734465224365 ], [ -48.695741158342706, -26.927959943385591 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0051850220", "cod": 1017.0, "nome": "R.Francisco Delvan", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696055945882044, -26.927761526331039 ], [ -48.696221673253369, -26.927901977258546 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0051850220", "cod": 926.0, "nome": "Av.Min.Luiz Gallotti", "ptotalvia": 17.2, "ppasseio1": 3.25, "ppasseio2": 3.25 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695975551523325, -26.927734465224365 ], [ -48.695741158342706, -26.927959943385591 ] ] } }
 ]
 }

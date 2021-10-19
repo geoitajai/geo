@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010740899", "cod": 380, "nome": "R.Juvenal Garcia", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66406765926309, -26.913630314501809 ], [ -48.663755846928275, -26.913385835161961 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2010740899", "cod": 380.0, "nome": "R.Juvenal Garcia", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66406765926309, -26.913630314501809 ], [ -48.663755846928275, -26.913385835161961 ] ] } }
 ]
 }

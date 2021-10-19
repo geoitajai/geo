@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110220198", "cod": 509, "nome": "R.Gervasio Antônio Klock", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676528172034857, -26.912573409853568 ], [ -48.67652399, -26.91264471 ], [ -48.67652271, -26.91268512 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110220198", "cod": 490, "nome": "R.Corifeu de Azevedo Marques", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676590506580929, -26.9126513589034 ], [ -48.676166032483572, -26.91261400609222 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110220198", "cod": 509, "nome": "R.Gervasio Antônio Klock", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67652271, -26.91268512 ], [ -48.676514945486566, -26.912930944752613 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2110220198", "cod": 509.0, "nome": "R.Gervasio Antônio Klock", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676528172034857, -26.912573409853568 ], [ -48.67652399, -26.91264471 ], [ -48.67652271, -26.91268512 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110220198", "cod": 490.0, "nome": "R.Corifeu de Azevedo Marques", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676590506580929, -26.9126513589034 ], [ -48.676166032483579, -26.912614006092223 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110220198", "cod": 509.0, "nome": "R.Gervasio Antônio Klock", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67652271, -26.91268512 ], [ -48.676514945486566, -26.912930944752613 ] ] } }
 ]
 }

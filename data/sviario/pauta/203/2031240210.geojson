@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2031240210", "cod": 1024, "nome": "R.Theodoro Lino Régis", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.701992045502379, -26.867342209312799 ], [ -48.70234302, -26.86747309 ], [ -48.70244894417506, -26.867518113380864 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2031240210", "cod": 1036, "nome": "R.Alexandre D´Ávila Baptista", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70234302, -26.86747309 ], [ -48.702360300005026, -26.867769039920901 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2031240210", "cod": 1024.0, "nome": "R.Theodoro Lino Régis", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.701992045502379, -26.867342209312795 ], [ -48.70234302, -26.86747309 ], [ -48.70244894417506, -26.867518113380864 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2031240210", "cod": 1036.0, "nome": "R.Alexandre D´Ávila Baptista", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70234302, -26.86747309 ], [ -48.702360300005026, -26.867769039920898 ] ] } }
 ]
 }

@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140360570", "cod": 760, "nome": "R.João Bauer Júnior", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.637607505772266, -26.929119317571708 ], [ -48.63743779, -26.92899015 ], [ -48.637212272881953, -26.928818507812263 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2140360570", "cod": 1669, "nome": "R.\"D\"", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.63743779, -26.92899015 ], [ -48.63745779928572, -26.928877627338586 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2140360570", "cod": 760.0, "nome": "R.João Bauer Júnior", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.637607505772266, -26.929119317571708 ], [ -48.63743779, -26.92899015 ], [ -48.637212272881953, -26.928818507812267 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140360570", "cod": 1669.0, "nome": "R.\"D\"", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.63743779, -26.92899015 ], [ -48.63745779928572, -26.928877627338586 ] ] } }
 ]
 }

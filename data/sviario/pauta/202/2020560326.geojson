@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020560326", "cod": 189, "nome": "R.Manoel Mello", "ptotalvia": 5.2, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675446883044124, -26.898472523703191 ], [ -48.675753774002942, -26.89871581020931 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2020560326", "cod": 189.0, "nome": "R.Manoel Mello", "ptotalvia": 5.2, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675446883044124, -26.898472523703191 ], [ -48.675753774002942, -26.89871581020931 ] ] } }
 ]
 }

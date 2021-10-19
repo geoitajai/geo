@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2030100399", "cod": 1086, "nome": "R.Luiz José Medeiros", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697032331966604, -26.884339887771684 ], [ -48.697044250272135, -26.88467533973942 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2030100399", "cod": 1086.0, "nome": "R.Luiz José Medeiros", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697032331966604, -26.884339887771688 ], [ -48.697044250272135, -26.884675339739431 ] ] } }
 ]
 }

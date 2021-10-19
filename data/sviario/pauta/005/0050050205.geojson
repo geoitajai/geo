@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050050205", "cod": 60, "nome": "R.Estefano José Vanolli", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.688687029925802, -26.90016783400856 ], [ -48.688685305869086, -26.900469373300588 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0050050205", "cod": 60.0, "nome": "R.Estefano José Vanolli", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.688687029925802, -26.900167834008556 ], [ -48.688685305869086, -26.900469373300592 ] ] } }
 ]
 }

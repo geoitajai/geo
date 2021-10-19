@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2041260035", "cod": 889, "nome": "R.Marcus Gustavo Heusi", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.686677219901476, -26.935047937803837 ], [ -48.686454228968664, -26.935314073091167 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2041260035", "cod": 889.0, "nome": "R.Marcus Gustavo Heusi", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.686677219901469, -26.935047937803837 ], [ -48.686454228968664, -26.935314073091167 ] ] } }
 ]
 }

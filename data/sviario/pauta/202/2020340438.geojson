@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020340438", "cod": 214, "nome": "R.Felício Maes", "ptotalvia": 7.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674367297783377, -26.89979589246553 ], [ -48.674473811293403, -26.899881108934693 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020340438", "cod": 218, "nome": "R.Austergilio Angelino", "ptotalvia": 13.2, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.673967524413797, -26.900055583533469 ], [ -48.674236420584151, -26.900267144329227 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2020340438", "cod": 214.0, "nome": "R.Felício Maes", "ptotalvia": 7.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674367297783377, -26.89979589246553 ], [ -48.674473811293403, -26.899881108934693 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020340438", "cod": 218.0, "nome": "R.Austergilio Angelino", "ptotalvia": 13.2, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.673967524413797, -26.900055583533472 ], [ -48.674236420584151, -26.900267144329227 ] ] } }
 ]
 }

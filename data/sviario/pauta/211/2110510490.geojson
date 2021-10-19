@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110510490", "cod": 1667, "nome": "R.Sem denominação oficial", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66697325160132, -26.916605097832459 ], [ -48.6669148, -26.91666724 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2110510490", "cod": 1667.0, "nome": "R.Sem denominação oficial", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66697325160132, -26.916605097832459 ], [ -48.6669148, -26.91666724 ] ] } }
 ]
 }

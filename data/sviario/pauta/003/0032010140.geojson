@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0032010140", "cod": 1211, "nome": "Trav.Recife", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.701623725274658, -26.897955746012379 ], [ -48.70162766, -26.89802943 ], [ -48.701651711069928, -26.898425025425581 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0032010140", "cod": 1214, "nome": "R.Vitória", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70162766, -26.89802943 ], [ -48.701326616689386, -26.898044999041005 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0032010140", "cod": 1211.0, "nome": "Trav.Recife", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.701623725274658, -26.897955746012379 ], [ -48.70162766, -26.89802943 ], [ -48.701651711069928, -26.898425025425581 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0032010140", "cod": 1214.0, "nome": "R.Vitória", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70162766, -26.89802943 ], [ -48.701326616689386, -26.898044999041005 ] ] } }
 ]
 }

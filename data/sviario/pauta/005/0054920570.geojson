@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0054920570", "cod": 121, "nome": "R.Genelio Heleodoro Luiz", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70252886, -26.90532642 ], [ -48.702260248739904, -26.905332759348212 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0054920570", "cod": 33, "nome": "R.Jaziel José Rosa", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702524027065365, -26.905253926089788 ], [ -48.70252886, -26.90532642 ], [ -48.702542543042881, -26.905653770888289 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0054920570", "cod": 121.0, "nome": "R.Genelio Heleodoro Luiz", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70252886, -26.90532642 ], [ -48.702260248739904, -26.905332759348212 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054920570", "cod": 33.0, "nome": "R.Jaziel José Rosa", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702524027065365, -26.905253926089784 ], [ -48.70252886, -26.90532642 ], [ -48.702542543042881, -26.905653770888286 ] ] } }
 ]
 }

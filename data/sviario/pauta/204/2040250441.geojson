@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040250441", "cod": 626, "nome": "R.Laguna", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.655973652360537, -26.912781375359131 ], [ -48.655639581898036, -26.912674489865733 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2040250441", "cod": 626.0, "nome": "R.Laguna", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.655973652360537, -26.912781375359128 ], [ -48.655639581898036, -26.912674489865733 ] ] } }
 ]
 }

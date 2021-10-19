@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040710048", "cod": 686, "nome": "R.Antônio Foes", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656817958743723, -26.925688520807888 ], [ -48.6571022, -26.92592357 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040710048", "cod": 690, "nome": "R.Videira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.657308610447345, -26.925710906290803 ], [ -48.65708561, -26.92594029 ], [ -48.657051837584021, -26.925973989389945 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2040710048", "cod": 686.0, "nome": "R.Antônio Foes", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656817958743716, -26.925688520807892 ], [ -48.6571022, -26.92592357 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040710048", "cod": 690.0, "nome": "R.Videira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.657308610447345, -26.925710906290806 ], [ -48.65708561, -26.92594029 ], [ -48.657051837584021, -26.925973989389945 ] ] } }
 ]
 }

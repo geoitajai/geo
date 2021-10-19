@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0052790060", "cod": 65, "nome": "R.Santa Cecília", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.683738579101167, -26.894896204010642 ], [ -48.683473991276571, -26.895137047117633 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0052790060", "cod": 65.0, "nome": "R.Santa Cecília", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.683738579101167, -26.894896204010642 ], [ -48.683473991276571, -26.895137047117633 ] ] } }
 ]
 }

@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020310405", "cod": 219, "nome": "R.João Ladislau Tabalipa", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.671570128986133, -26.898865174306007 ], [ -48.671871064385833, -26.899105528046938 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2020310405", "cod": 219.0, "nome": "R.João Ladislau Tabalipa", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.671570128986133, -26.898865174306007 ], [ -48.671871064385833, -26.899105528046938 ] ] } }
 ]
 }

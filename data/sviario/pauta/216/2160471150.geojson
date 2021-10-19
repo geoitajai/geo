@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2160471150", "cod": 1413, "nome": "Av.Itaipava", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.726201222118682, -26.940475093390795 ], [ -48.72598597, -26.94041375 ], [ -48.72573967000001, -26.94042692 ], [ -48.725382571290417, -26.940522094022612 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2160471150", "cod": 1438, "nome": "R.Érica Erbani", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.72598597, -26.94041375 ], [ -48.7260145, -26.94070169 ], [ -48.72599969, -26.94099797 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2160471150", "cod": 1413.0, "nome": "Av.Itaipava", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.726201222118682, -26.940475093390798 ], [ -48.72598597, -26.94041375 ], [ -48.72573967000001, -26.94042692 ], [ -48.725382571290417, -26.940522094022612 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2160471150", "cod": 1438.0, "nome": "R.Érica Erbani", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.72598597, -26.94041375 ], [ -48.7260145, -26.94070169 ], [ -48.72599969, -26.94099797 ] ] } }
 ]
 }

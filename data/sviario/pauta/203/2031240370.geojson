@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2031240370", "cod": 1037, "nome": "R.Germano Bastos", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.701822589310602, -26.86794753210674 ], [ -48.701839907667257, -26.86825657355967 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2031240370", "cod": 1037.0, "nome": "R.Germano Bastos", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.701822589310602, -26.86794753210674 ], [ -48.701839907667257, -26.868256573559673 ] ] } }
 ]
 }

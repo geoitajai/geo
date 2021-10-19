@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2031620300", "cod": 1063, "nome": "R.Lídia Puel Peixer", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.699992585373636, -26.875861421333813 ], [ -48.700009894964531, -26.876195597154183 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2031620300", "cod": 1063.0, "nome": "R.Lídia Puel Peixer", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.699992585373636, -26.875861421333813 ], [ -48.700009894964531, -26.876195597154183 ] ] } }
 ]
 }

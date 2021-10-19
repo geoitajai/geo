@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020840155", "cod": 240, "nome": "R.Joaquim José de Freitas", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67576715167209, -26.905668233187846 ], [ -48.67580942, -26.905667 ], [ -48.676138958110592, -26.905656732553783 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020840155", "cod": 251, "nome": "Trav.Antônio Carlos da Silva", "ptotalvia": 13.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67580942, -26.905667 ], [ -48.675807771038215, -26.905721841853428 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2020840155", "cod": 240.0, "nome": "R.Joaquim José de Freitas", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67576715167209, -26.905668233187846 ], [ -48.67580942, -26.905667 ], [ -48.676138958110592, -26.90565673255378 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020840155", "cod": 251.0, "nome": "Trav.Antônio Carlos da Silva", "ptotalvia": 13.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67580942, -26.905667 ], [ -48.675807771038215, -26.905721841853428 ] ] } }
 ]
 }

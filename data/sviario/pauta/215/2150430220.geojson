@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2150430220", "cod": 1406, "nome": "R.Antônio José Cuco", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.721705436564847, -26.902959840323874 ], [ -48.72175874, -26.90290462 ], [ -48.72179518, -26.90280609 ], [ -48.72176967, -26.90260373 ], [ -48.721729243867948, -26.90253863609389 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2150430220", "cod": 1406.0, "nome": "R.Antônio José Cuco", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.721705436564847, -26.902959840323874 ], [ -48.72175874, -26.90290462 ], [ -48.72179518, -26.90280609 ], [ -48.72176967, -26.90260373 ], [ -48.721729243867948, -26.90253863609389 ] ] } }
 ]
 }

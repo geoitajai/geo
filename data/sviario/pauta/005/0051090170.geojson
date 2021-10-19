@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0051090170", "cod": 42, "nome": "R.Nova Trento", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697068789316589, -26.900024440793278 ], [ -48.697098918313451, -26.900370766125324 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0051090170", "cod": 42.0, "nome": "R.Nova Trento", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697068789316589, -26.900024440793278 ], [ -48.697098918313451, -26.900370766125324 ] ] } }
 ]
 }

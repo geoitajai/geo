@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020180311", "cod": 225, "nome": "Trav.Esc.Julio Cesar Medeiros", "ptotalvia": 10.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.670143119180885, -26.902803538411511 ], [ -48.670204296299822, -26.90313139419586 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2020180311", "cod": 225.0, "nome": "Trav.Esc.Julio Cesar Medeiros", "ptotalvia": 10.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.670143119180885, -26.902803538411515 ], [ -48.670204296299822, -26.903131394195867 ] ] } }
 ]
 }

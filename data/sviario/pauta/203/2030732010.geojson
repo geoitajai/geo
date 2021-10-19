@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2030732010", "cod": 1276, "nome": "R.Antônio Vinotti", "ptotalvia": 4.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.729179312110787, -26.868034951113316 ], [ -48.728763083086918, -26.868048251638971 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2030732010", "cod": 1276.0, "nome": "R.Antônio Vinotti", "ptotalvia": 4.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.729179312110787, -26.868034951113316 ], [ -48.728763083086918, -26.868048251638974 ] ] } }
 ]
 }

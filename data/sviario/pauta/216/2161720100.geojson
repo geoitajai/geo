@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2161720100", "cod": 1259, "nome": "R.Anselmo Knihs", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.847077660844654, -27.040922985543858 ], [ -48.846674229881422, -27.040944127592926 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2161720100", "cod": 1259.0, "nome": "R.Anselmo Knihs", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.847077660844654, -27.040922985543855 ], [ -48.846674229881422, -27.040944127592926 ] ] } }
 ]
 }

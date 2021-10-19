@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2151910085", "cod": 1555, "nome": "R.Agenor Cesario de Aragão", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.742708116833093, -26.878046445911497 ], [ -48.742678773916765, -26.877731329580133 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2151910085", "cod": 1555.0, "nome": "R.Agenor Cesario de Aragão", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.742708116833093, -26.878046445911497 ], [ -48.742678773916765, -26.877731329580129 ] ] } }
 ]
 }

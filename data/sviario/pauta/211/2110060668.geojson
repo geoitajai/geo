@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110060668", "cod": 504, "nome": "R.Santo Antônio", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675412277797435, -26.908553694043984 ], [ -48.675080796549231, -26.908449223076897 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2110060668", "cod": 504.0, "nome": "R.Santo Antônio", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675412277797435, -26.908553694043984 ], [ -48.675080796549231, -26.908449223076897 ] ] } }
 ]
 }

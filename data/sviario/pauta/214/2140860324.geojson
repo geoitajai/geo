@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140860324", "cod": 831, "nome": "R.Renato Melim Cunha", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.629483335981845, -26.943284306412441 ], [ -48.62953057749197, -26.943620769347895 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2140860324", "cod": 833, "nome": "R.Demétrio Izidoro Cardoso", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.629540803749691, -26.94333778428782 ], [ -48.629031295496326, -26.943401144404078 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2140860324", "cod": 833.0, "nome": "R.Demétrio Izidoro Cardoso", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.629540803749691, -26.94333778428782 ], [ -48.629031295496326, -26.943401144404078 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140860324", "cod": 831.0, "nome": "R.Renato Melim Cunha", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.629483335981845, -26.943284306412441 ], [ -48.62953057749197, -26.943620769347895 ] ] } }
 ]
 }

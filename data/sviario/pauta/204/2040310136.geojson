@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040310136", "cod": 281, "nome": "R.Camboriú", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.655835202130106, -26.913576009681105 ], [ -48.655716858138732, -26.913868921174029 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2040310136", "cod": 281.0, "nome": "R.Camboriú", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.655835202130106, -26.913576009681105 ], [ -48.655716858138732, -26.913868921174025 ] ] } }
 ]
 }

@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010100392", "cod": 275, "nome": "R.Cônego Tomaz Fontes", "ptotalvia": 13.2, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.660700377627123, -26.903319010800978 ], [ -48.660817391595465, -26.903037261667144 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2010100392", "cod": 275.0, "nome": "R.Cônego Tomaz Fontes", "ptotalvia": 13.2, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.660700377627123, -26.903319010800978 ], [ -48.660817391595465, -26.903037261667144 ] ] } }
 ]
 }

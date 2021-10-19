@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0031350445", "cod": 1168, "nome": "R.José Lopes", "ptotalvia": 14.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.703485017139592, -26.892145303321762 ], [ -48.70350989154835, -26.892517598316598 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0031350445", "cod": 1168.0, "nome": "R.José Lopes", "ptotalvia": 14.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.703485017139592, -26.892145303321758 ], [ -48.70350989154835, -26.892517598316594 ] ] } }
 ]
 }

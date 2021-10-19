@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050430310", "cod": 20, "nome": "R.Manoel Francisco Coelho", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69097332226616, -26.902205622278395 ], [ -48.69069638, -26.90220895 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0050430310", "cod": 20, "nome": "R.Manoel Francisco Coelho", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69069638, -26.90220895 ], [ -48.69061921, -26.90220988 ], [ -48.690545427448825, -26.902211253979587 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0050430310", "cod": 51, "nome": "R.Otávio Cesário Pereira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69062210428865, -26.902155987864525 ], [ -48.69061921, -26.90220988 ], [ -48.690625908527842, -26.902600300600774 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0050430310", "cod": 20.0, "nome": "R.Manoel Francisco Coelho", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69097332226616, -26.902205622278398 ], [ -48.69069638, -26.90220895 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050430310", "cod": 20.0, "nome": "R.Manoel Francisco Coelho", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69069638, -26.90220895 ], [ -48.69061921, -26.90220988 ], [ -48.690545427448832, -26.902211253979587 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050430310", "cod": 51.0, "nome": "R.Otávio Cesário Pereira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69062210428865, -26.902155987864525 ], [ -48.69061921, -26.90220988 ], [ -48.690625908527842, -26.902600300600774 ] ] } }
 ]
 }

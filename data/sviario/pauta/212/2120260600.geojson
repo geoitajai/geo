@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2120260600", "cod": 485, "nome": "R.Antenor Fantoni", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67648546, -26.89133584 ], [ -48.676421110999144, -26.891287654107174 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2120260600", "cod": 157, "nome": "R.Blumenau", "ptotalvia": 14.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676567394998493, -26.891238953502995 ], [ -48.67648546, -26.89133584 ], [ -48.676270318319276, -26.891598845075134 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2120260600", "cod": 485.0, "nome": "R.Antenor Fantoni", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67648546, -26.89133584 ], [ -48.676421110999144, -26.89128765410717 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2120260600", "cod": 157.0, "nome": "R.Blumenau", "ptotalvia": 14.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676567394998493, -26.891238953502992 ], [ -48.67648546, -26.89133584 ], [ -48.676270318319276, -26.891598845075119 ] ] } }
 ]
 }

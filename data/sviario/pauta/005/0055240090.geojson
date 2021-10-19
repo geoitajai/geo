@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0055240090", "cod": 142, "nome": "R.Hygina de Andrade Corrêa", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.709329070415279, -26.910308226191162 ], [ -48.708964901135531, -26.910322547496314 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0055240090", "cod": 1293, "nome": "R.Leopoldo Cristiano de Miranda", "ptotalvia": 20.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.709337859425979, -26.910545135674024 ], [ -48.709105251952714, -26.910644700922116 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0055240090", "cod": 142.0, "nome": "R.Hygina de Andrade Corrêa", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.709329070415279, -26.910308226191162 ], [ -48.708964901135531, -26.910322547496314 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0055240090", "cod": 1293.0, "nome": "R.Leopoldo Cristiano de Miranda", "ptotalvia": 20.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.709337859425979, -26.910545135674024 ], [ -48.709105251952714, -26.910644700922113 ] ] } }
 ]
 }

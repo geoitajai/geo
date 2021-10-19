@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2031690010", "cod": 1064, "nome": "R.Dorval José de Aragão", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.703042749557724, -26.875006324497388 ], [ -48.7028066, -26.875015329999989 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2031690010", "cod": 1064.0, "nome": "R.Dorval José de Aragão", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.703042749557724, -26.875006324497392 ], [ -48.7028066, -26.875015329999989 ] ] } }
 ]
 }

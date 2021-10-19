@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2210480463", "cod": 534, "nome": "R.Antônio de Souza Cunha", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.681189865170076, -26.924943826445322 ], [ -48.680783374801663, -26.924977012928462 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2210480463", "cod": 534.0, "nome": "R.Antônio de Souza Cunha", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.681189865170076, -26.924943826445322 ], [ -48.680783374801663, -26.924977012928458 ] ] } }
 ]
 }

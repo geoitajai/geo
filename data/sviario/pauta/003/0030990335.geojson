@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0030990335", "cod": 1162, "nome": "R.Nossa Senhora de Fátima", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698985191670964, -26.891020992881359 ], [ -48.698998246737894, -26.891379502422325 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0030990335", "cod": 1199, "nome": "R.Sergipe", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69864639, -26.89120339 ], [ -48.698549091750614, -26.891207479466217 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0030990335", "cod": 1162.0, "nome": "R.Nossa Senhora de Fátima", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698985191670964, -26.891020992881355 ], [ -48.698998246737894, -26.891379502422325 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0030990335", "cod": 1199.0, "nome": "R.Sergipe", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69864639, -26.89120339 ], [ -48.698549091750614, -26.891207479466217 ] ] } }
 ]
 }

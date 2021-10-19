@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010230228", "cod": 290, "nome": "R.Hercílio Luz", "ptotalvia": 13.2, "ppasseio1": 3.5, "ppasseio2": 3.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.657424211159032, -26.905568129624601 ], [ -48.657096384028272, -26.905467444557029 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2010230228", "cod": 290.0, "nome": "R.Hercílio Luz", "ptotalvia": 13.2, "ppasseio1": 3.5, "ppasseio2": 3.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.657424211159032, -26.905568129624601 ], [ -48.657096384028272, -26.905467444557026 ] ] } }
 ]
 }

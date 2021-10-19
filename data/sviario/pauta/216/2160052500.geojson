@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2160052500", "cod": 1423, "nome": "R.Erminia Alves", "ptotalvia": 6.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.738601447237158, -26.947930904275555 ], [ -48.73861555, -26.94815607 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2160052500", "cod": 1425, "nome": "R.Guilherme May", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.738193338945585, -26.947890436076992 ], [ -48.73820914, -26.94803531 ], [ -48.738237631058908, -26.948257050369399 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2160052500", "cod": 1423.0, "nome": "R.Erminia Alves", "ptotalvia": 6.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.738601585069347, -26.947933104915869 ], [ -48.73861555, -26.94815607 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2160052500", "cod": 1425.0, "nome": "R.Guilherme May", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.738195404631576, -26.947909375588388 ], [ -48.73820914, -26.94803531 ], [ -48.738235981174263, -26.948244209654955 ] ] } }
 ]
 }

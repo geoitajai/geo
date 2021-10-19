@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110340254", "cod": 486, "nome": "R.Francisco de Paula Seara", "ptotalvia": 11.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676572570708807, -26.915968979788715 ], [ -48.676205575601898, -26.915987164113368 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2110340254", "cod": 486.0, "nome": "R.Francisco de Paula Seara", "ptotalvia": 11.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676572570708807, -26.915968979788719 ], [ -48.676205575601898, -26.915987164113368 ] ] } }
 ]
 }

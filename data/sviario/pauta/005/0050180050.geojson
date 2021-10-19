@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050180050", "cod": 25, "nome": "R.Rodolfo Kucker", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.689429176124079, -26.899477891545132 ], [ -48.689066415306186, -26.899482984532572 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0050180050", "cod": 25.0, "nome": "R.Rodolfo Kucker", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.689429176124079, -26.899477891545132 ], [ -48.689066415306186, -26.899482984532575 ] ] } }
 ]
 }

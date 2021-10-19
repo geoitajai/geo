@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040060307", "cod": 678, "nome": "R.Fritz Schneider", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.650021681450532, -26.920679011345594 ], [ -48.650178282711074, -26.920981672864173 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2040060307", "cod": 678.0, "nome": "R.Fritz Schneider", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.650021681450532, -26.920679011345594 ], [ -48.650178282711074, -26.920981672864169 ] ] } }
 ]
 }

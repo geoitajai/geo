@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040441121", "cod": 618, "nome": "R.Esmeraldo Braga", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.657168033336625, -26.917851666271289 ], [ -48.656916729163278, -26.917642602089046 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2040441121", "cod": 618.0, "nome": "R.Esmeraldo Braga", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.657168033336625, -26.917851666271289 ], [ -48.656916729163278, -26.917642602089046 ] ] } }
 ]
 }

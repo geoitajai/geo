@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0052480390", "cod": 985, "nome": "R.Ivana Werner", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.703421291131001, -26.925948113712856 ], [ -48.703006163694937, -26.925880253945703 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0052480390", "cod": 987, "nome": "R.Andrelino Werner", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70339772, -26.92594419 ], [ -48.703332304782791, -26.926007366699519 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0052480390", "cod": 985.0, "nome": "R.Ivana Werner", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.703421291131001, -26.925948113712852 ], [ -48.703006163694937, -26.925880253945703 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0052480390", "cod": 987.0, "nome": "R.Andrelino Werner", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70339772, -26.92594419 ], [ -48.703332304782791, -26.926007366699519 ] ] } }
 ]
 }

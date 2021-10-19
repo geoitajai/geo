@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050890090", "cod": 114, "nome": "R.Taió", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696201485467881, -26.906727685051017 ], [ -48.695834079082417, -26.906742923883574 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0050890090", "cod": 114.0, "nome": "R.Taió", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696201485467881, -26.906727685051013 ], [ -48.695834079082424, -26.906742923883574 ] ] } }
 ]
 }

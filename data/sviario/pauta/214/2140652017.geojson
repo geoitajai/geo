@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140652017", "cod": 740, "nome": "R.Lair Paulo", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.640406418203376, -26.933581759985675 ], [ -48.63986455, -26.93358962 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2140652017", "cod": 740.0, "nome": "R.Lair Paulo", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.640406418203376, -26.933581759985675 ], [ -48.63986455, -26.93358962 ] ] } }
 ]
 }

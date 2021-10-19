@@ -2,9 +2,9 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110500532", "cod": 380, "nome": "R.Juvenal Garcia", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67017912, -26.91663879 ], [ -48.669657620693613, -26.916667871711009 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110500532", "cod": 268, "nome": "R.Brusque", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67017912, -26.91663879 ], [ -48.670362651146803, -26.916849687827433 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110500532", "cod": 267, "nome": "Trav.André Barbi", "ptotalvia": 18.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67025133725059, -26.916605191652497 ], [ -48.67017912, -26.91663879 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110500532", "cod": 268, "nome": "R.Brusque", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.670034121104592, -26.916470349884168 ], [ -48.67017912, -26.91663879 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2110500532", "cod": 380.0, "nome": "R.Juvenal Garcia", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67017912, -26.91663879 ], [ -48.669657620693613, -26.916667871711009 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110500532", "cod": 268.0, "nome": "R.Brusque", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67017912, -26.91663879 ], [ -48.670362651146796, -26.916849687827437 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110500532", "cod": 267.0, "nome": "Trav.André Barbi", "ptotalvia": 18.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67025133725059, -26.916605191652501 ], [ -48.67017912, -26.91663879 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110500532", "cod": 268.0, "nome": "R.Brusque", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.670034121104592, -26.916470349884168 ], [ -48.67017912, -26.91663879 ] ] } }
 ]
 }

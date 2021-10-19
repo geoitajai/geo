@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050430140", "cod": 19, "nome": "R.Alfredo Kleis", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692281813939104, -26.902701699197838 ], [ -48.69222508, -26.9027012 ], [ -48.691794774373619, -26.902715030884202 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0050430140", "cod": 10, "nome": "R.Antônio Ayres dos Santos", "ptotalvia": 13.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692225654308167, -26.90274727345944 ], [ -48.69222508, -26.9027012 ], [ -48.692222508691259, -26.902417035075597 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0050430140", "cod": 19.0, "nome": "R.Alfredo Kleis", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692281813939104, -26.902701699197838 ], [ -48.69222508, -26.9027012 ], [ -48.691794774373619, -26.902715030884202 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050430140", "cod": 10.0, "nome": "R.Antônio Ayres dos Santos", "ptotalvia": 13.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692225654308167, -26.90274727345944 ], [ -48.69222508, -26.9027012 ], [ -48.692222508691259, -26.902417035075597 ] ] } }
 ]
 }

@@ -2,9 +2,9 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110540034", "cod": 385, "nome": "R.Manoel Correa", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.667592014586099, -26.916822721756105 ], [ -48.66754428, -26.91678436 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110540034", "cod": 385, "nome": "R.Manoel Correa", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66754428, -26.91678436 ], [ -48.667344635244817, -26.916630483710438 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110540034", "cod": 388, "nome": "Bc.Aldo", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66754428, -26.91678436 ], [ -48.667486899283077, -26.916827728020198 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110540034", "cod": 380, "nome": "R.Juvenal Garcia", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.667834008025054, -26.91653768514016 ], [ -48.667571151951257, -26.916363787369107 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2110540034", "cod": 385.0, "nome": "R.Manoel Correa", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.667592014586099, -26.916822721756105 ], [ -48.66754428, -26.91678436 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110540034", "cod": 385.0, "nome": "R.Manoel Correa", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66754428, -26.91678436 ], [ -48.667344635244817, -26.916630483710438 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110540034", "cod": 388.0, "nome": "Bc.Aldo", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66754428, -26.91678436 ], [ -48.667486899283077, -26.916827728020198 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110540034", "cod": 380.0, "nome": "R.Juvenal Garcia", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.667834008025054, -26.91653768514016 ], [ -48.66757115195125, -26.916363787369104 ] ] } }
 ]
 }

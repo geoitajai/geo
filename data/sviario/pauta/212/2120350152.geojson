@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2120350152", "cod": 157, "nome": "R.Blumenau", "ptotalvia": 14.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675043373611494, -26.893069272119046 ], [ -48.67495993, -26.89317035 ], [ -48.674737378919069, -26.893446587523737 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2120350152", "cod": 158, "nome": "R.Albino Gugelmin", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675020757352122, -26.893210384753388 ], [ -48.67495993, -26.89317035 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2120350152", "cod": 157.0, "nome": "R.Blumenau", "ptotalvia": 14.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675043373611494, -26.893069272119046 ], [ -48.67495993, -26.89317035 ], [ -48.674737378919069, -26.893446587523734 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2120350152", "cod": 158.0, "nome": "R.Albino Gugelmin", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675020757352122, -26.893210384753385 ], [ -48.67495993, -26.89317035 ] ] } }
 ]
 }

@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2151350010", "cod": 1323, "nome": "R.Luiz Castro", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.749531862887046, -26.871862950633016 ], [ -48.74956231, -26.87223222 ], [ -48.749564796382103, -26.872260820923604 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2151350010", "cod": 1327, "nome": "Av.Lauro José Pereira", "ptotalvia": 18.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.749609401888513, -26.872229226579119 ], [ -48.74956231, -26.87223222 ], [ -48.749131068993066, -26.872269102138841 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2151350010", "cod": 1323.0, "nome": "R.Luiz Castro", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.749531862887046, -26.871862950633016 ], [ -48.74956231, -26.87223222 ], [ -48.749564796382103, -26.872260820923604 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2151350010", "cod": 1327.0, "nome": "Av.Lauro José Pereira", "ptotalvia": 18.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.749609401888513, -26.872229226579119 ], [ -48.74956231, -26.87223222 ], [ -48.749131068993066, -26.872269102138841 ] ] } }
 ]
 }

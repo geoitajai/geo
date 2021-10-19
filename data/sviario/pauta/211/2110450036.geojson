@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110450036", "cod": 163, "nome": "R.Alberto Werner", "ptotalvia": 13.2, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.669817781585692, -26.91214913312502 ], [ -48.66985521144256, -26.912517929653706 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110450036", "cod": 333, "nome": "R.Etelvina de Brito", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66937747, -26.91236522 ], [ -48.669330419087544, -26.912420835388801 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110450036", "cod": 336, "nome": "R.Carlos Santana", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.669602628335106, -26.912546871686597 ], [ -48.66937747, -26.91236522 ], [ -48.669343892947438, -26.912300900617723 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2110450036", "cod": 163.0, "nome": "R.Alberto Werner", "ptotalvia": 13.2, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.669817781585692, -26.91214913312502 ], [ -48.669854915026065, -26.912515009066574 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110450036", "cod": 333.0, "nome": "R.Etelvina de Brito", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66937747, -26.91236522 ], [ -48.669330419096227, -26.912420835378544 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110450036", "cod": 336.0, "nome": "R.Carlos Santana", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.669582078420092, -26.912530292605577 ], [ -48.66937747, -26.91236522 ], [ -48.669343892947438, -26.912300900617723 ] ] } }
 ]
 }

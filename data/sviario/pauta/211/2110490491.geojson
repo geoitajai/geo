@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110490491", "cod": 392, "nome": "R.Abercio Werner", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.666897011627135, -26.915500848304681 ], [ -48.6667194, -26.91570346 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110490491", "cod": 380, "nome": "R.Juvenal Garcia", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66698096929732, -26.915913639017891 ], [ -48.6667194, -26.91570346 ], [ -48.66665146769229, -26.915651352879308 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2110490491", "cod": 392.0, "nome": "R.Abercio Werner", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.666897011627135, -26.915500848304678 ], [ -48.6667194, -26.91570346 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110490491", "cod": 380.0, "nome": "R.Juvenal Garcia", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66698096929732, -26.915913639017887 ], [ -48.6667194, -26.91570346 ], [ -48.66665146769229, -26.915651352879312 ] ] } }
 ]
 }

@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2041280015", "cod": 887, "nome": "R.Emanuel dos Santos", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.686402630135056, -26.935485848505362 ], [ -48.68631205, -26.93548376 ], [ -48.686027299356873, -26.9354785445252 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2041280015", "cod": 889, "nome": "R.Marcus Gustavo Heusi", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.686355588348206, -26.935431798185135 ], [ -48.68631205, -26.93548376 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2041280015", "cod": 887.0, "nome": "R.Emanuel dos Santos", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.686402630135056, -26.935485848505362 ], [ -48.68631205, -26.93548376 ], [ -48.686027299356873, -26.9354785445252 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2041280015", "cod": 889.0, "nome": "R.Marcus Gustavo Heusi", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.686355588348206, -26.935431798185132 ], [ -48.68631205, -26.93548376 ] ] } }
 ]
 }

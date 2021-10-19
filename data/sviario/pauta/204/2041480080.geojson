@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2041480080", "cod": 877, "nome": "R.Ricardo Gabriel Bauer", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67504351871407, -26.932533857939092 ], [ -48.675055807002835, -26.932884443089485 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2041480080", "cod": 877.0, "nome": "R.Ricardo Gabriel Bauer", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67504351871407, -26.932533857939092 ], [ -48.675055807002835, -26.932884443089481 ] ] } }
 ]
 }

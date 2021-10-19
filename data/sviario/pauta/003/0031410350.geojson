@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0031410350", "cod": 1170, "nome": "R.Ver.Nestor dos Santos", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.704760636752319, -26.891992270308435 ], [ -48.704779751535135, -26.892328529881784 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0031410350", "cod": 1170.0, "nome": "R.Ver.Nestor dos Santos", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.704760636752319, -26.891992270308435 ], [ -48.704779751535135, -26.892328529881784 ] ] } }
 ]
 }

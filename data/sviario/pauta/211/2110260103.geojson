@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110260103", "cod": 488, "nome": "Av.Duque de Caxias", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67362335, -26.913766679999988 ], [ -48.673574283918121, -26.913414997545761 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110260103", "cod": 497, "nome": "R.Ciriaco Meirinho", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.673658602015315, -26.913763224066169 ], [ -48.67362335, -26.913766679999988 ], [ -48.673098918081799, -26.913795428252495 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2110260103", "cod": 488.0, "nome": "Av.Duque de Caxias", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67362335, -26.913766679999988 ], [ -48.673574283918121, -26.913414997545758 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110260103", "cod": 497.0, "nome": "R.Ciriaco Meirinho", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.673658602015315, -26.913763224066169 ], [ -48.67362335, -26.913766679999988 ], [ -48.673098918081799, -26.913795428252502 ] ] } }
 ]
 }

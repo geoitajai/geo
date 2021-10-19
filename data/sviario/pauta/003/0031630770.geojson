@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0031630770", "cod": 1174, "nome": "R.Henrique Michels Júnior", "ptotalvia": 15.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.717494150828799, -26.897961795838224 ], [ -48.717519896581983, -26.898340582816552 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0031630770", "cod": 1288, "nome": "Rod.BR-101", "ptotalvia": 40.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.7179511093698, -26.898272605031959 ], [ -48.717957702512962, -26.898257044770062 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0031630770", "cod": 1174.0, "nome": "R.Henrique Michels Júnior", "ptotalvia": 15.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.717494150828799, -26.897961795838224 ], [ -48.717519896581983, -26.898340582816552 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031630770", "cod": 1288.0, "nome": "Rod.BR-101", "ptotalvia": 40.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.7179511093698, -26.898272605031959 ], [ -48.717957702512962, -26.898257044770062 ] ] } }
 ]
 }

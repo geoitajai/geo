@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0030710060", "cod": 1629, "nome": "R.\"25\" Loteamento Costa Cavalcanti", "ptotalvia": 5.9, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69781201, -26.896641689999989 ], [ -48.697812443026919, -26.896655896465369 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0030710060", "cod": 1218, "nome": "R.Amazonas", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698166592870116, -26.896634133656523 ], [ -48.69781201, -26.896641689999989 ], [ -48.697805239958477, -26.896641834394721 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0030710060", "cod": 1629.0, "nome": "R.\"25\" Loteamento Costa Cavalcanti", "ptotalvia": 5.9, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69781201, -26.89664169 ], [ -48.697812443026919, -26.896655896465372 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0030710060", "cod": 1218.0, "nome": "R.Amazonas", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698166592870116, -26.896634133656519 ], [ -48.69781201, -26.89664169 ], [ -48.697805239958477, -26.896641834394721 ] ] } }
 ]
 }

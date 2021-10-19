@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2030660136", "cod": 1269, "nome": "R.César Augusto Dalsóquio", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.725223834433372, -26.875626683814321 ], [ -48.724698991684583, -26.876187276819145 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2030660136", "cod": 1269.0, "nome": "R.César Augusto Dalsóquio", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.725223834433365, -26.875626683814321 ], [ -48.724698991684583, -26.876187276819145 ] ] } }
 ]
 }

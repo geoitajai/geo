@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050290215", "cod": 51, "nome": "R.Otávio Cesário Pereira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.690674280626475, -26.905932454759768 ], [ -48.69067569, -26.90598982 ], [ -48.690679847162095, -26.906290282125582 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0050290215", "cod": 98, "nome": "R.Alberto Ramos Filho", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.690734022887959, -26.905987571553158 ], [ -48.69067569, -26.90598982 ], [ -48.690240967824217, -26.906002429657505 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0050290215", "cod": 51.0, "nome": "R.Otávio Cesário Pereira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.690674280626475, -26.905932454759768 ], [ -48.69067569, -26.90598982 ], [ -48.690679847162095, -26.906290282125582 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050290215", "cod": 98.0, "nome": "R.Alberto Ramos Filho", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.690734022887959, -26.905987571553158 ], [ -48.69067569, -26.90598982 ], [ -48.690240967824217, -26.906002429657509 ] ] } }
 ]
 }

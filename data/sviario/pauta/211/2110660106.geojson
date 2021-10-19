@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110660106", "cod": 548, "nome": "R.Manoel Anibal Pereira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675582374526336, -26.918416227354015 ], [ -48.675601579215254, -26.918752344766727 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2110660106", "cod": 548.0, "nome": "R.Manoel Anibal Pereira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675582374526336, -26.918416227354015 ], [ -48.675601579215254, -26.918752344766727 ] ] } }
 ]
 }

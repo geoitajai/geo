@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0051110080", "cod": 43, "nome": "R.Antônio Carlos Pereira Leão Filho", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696627865280568, -26.902725470579433 ], [ -48.69664102, -26.90298157 ], [ -48.69664164, -26.90301416 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0051110080", "cod": 30, "nome": "R.Araquari", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697119676395793, -26.902955435239456 ], [ -48.69664102, -26.90298157 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0051110080", "cod": 43, "nome": "R.Antônio Carlos Pereira Leão Filho", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69664164, -26.90301416 ], [ -48.696641734409006, -26.903019080129333 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0051110080", "cod": 43.0, "nome": "R.Antônio Carlos Pereira Leão Filho", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696627865280568, -26.902725470579433 ], [ -48.69664102, -26.90298157 ], [ -48.69664164, -26.90301416 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0051110080", "cod": 30.0, "nome": "R.Araquari", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697119676395793, -26.902955435239456 ], [ -48.69664102, -26.90298157 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0051110080", "cod": 43.0, "nome": "R.Antônio Carlos Pereira Leão Filho", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69664164, -26.90301416 ], [ -48.696641734409006, -26.903019080129333 ] ] } }
 ]
 }

@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0030080130", "cod": 1118, "nome": "R.João Magalhães", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69129287233811, -26.890914571811393 ], [ -48.69131402, -26.89124307 ], [ -48.69131877687402, -26.891311555153631 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0030080130", "cod": 1129, "nome": "R.Henrique Borba dos Santos", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6913641, -26.89124045 ], [ -48.690935319871372, -26.891267459746796 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0030080130", "cod": 1129, "nome": "R.Henrique Borba dos Santos", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691397486946308, -26.891238346996317 ], [ -48.6913641, -26.89124045 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0030080130", "cod": 1118.0, "nome": "R.João Magalhães", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69129287233811, -26.890914571811393 ], [ -48.69131402, -26.89124307 ], [ -48.691318776874013, -26.891311555153635 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0030080130", "cod": 1129.0, "nome": "R.Henrique Borba dos Santos", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6913641, -26.89124045 ], [ -48.690935319871372, -26.891267459746796 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0030080130", "cod": 1129.0, "nome": "R.Henrique Borba dos Santos", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691397486946308, -26.891238346996317 ], [ -48.6913641, -26.89124045 ] ] } }
 ]
 }

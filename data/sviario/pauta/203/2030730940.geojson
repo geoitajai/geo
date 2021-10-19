@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2030730940", "cod": 1275, "nome": "R.Mathias Chrispim Ferreira", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.729729744831666, -26.867746097176102 ], [ -48.729316888338076, -26.867768103148411 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2030730940", "cod": 1275.0, "nome": "R.Mathias Chrispim Ferreira", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.729729744831666, -26.867746097176106 ], [ -48.729316888338076, -26.867768103148411 ] ] } }
 ]
 }

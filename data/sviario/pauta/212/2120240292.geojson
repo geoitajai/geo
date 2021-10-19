@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2120240292", "cod": 429, "nome": "R.Dr.Carlos Paulo Pfelsticker", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676756497752706, -26.892620707192474 ], [ -48.676531491148097, -26.892894934703964 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2120240292", "cod": 1546, "nome": "R.João Honorio de Miranda", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676331931520203, -26.89234348880882 ], [ -48.6761064634847, -26.892613955224199 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2120240292", "cod": 429.0, "nome": "R.Dr.Carlos Paulo Pfelsticker", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676756497752706, -26.892620707192478 ], [ -48.676531491148097, -26.892894934703964 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2120240292", "cod": 1546.0, "nome": "R.João Honorio de Miranda", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676331931520203, -26.892343488808823 ], [ -48.6761064634847, -26.892613955224203 ] ] } }
 ]
 }

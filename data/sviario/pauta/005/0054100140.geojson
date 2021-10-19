@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0054100140", "cod": 1289, "nome": "R.Antero Antônio Cardoso", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.704843190764038, -26.913134449901939 ], [ -48.704482947666669, -26.913147456383676 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0054100140", "cod": 1289.0, "nome": "R.Antero Antônio Cardoso", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.704843190764038, -26.913134449901939 ], [ -48.704482947666669, -26.913147456383676 ] ] } }
 ]
 }

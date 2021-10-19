@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0031660085", "cod": 1112, "nome": "R.Santo Agostinho", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69454714, -26.89416749 ], [ -48.694522508287825, -26.893733119371827 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0031660085", "cod": 1148, "nome": "R.Max Tavares D´Amaral", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69474846, -26.89414547 ], [ -48.694754280994687, -26.894227115904581 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0031660085", "cod": 1145, "nome": "R.Antônio Müller Reis", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695008956128923, -26.89411727894133 ], [ -48.69454714, -26.89416749 ], [ -48.694487982996051, -26.894174697188362 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0031660085", "cod": 1112.0, "nome": "R.Santo Agostinho", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69454714, -26.89416749 ], [ -48.694522508287825, -26.893733119371831 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031660085", "cod": 1148.0, "nome": "R.Max Tavares D´Amaral", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69474846, -26.89414547 ], [ -48.694754280994687, -26.894227115904581 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031660085", "cod": 1145.0, "nome": "R.Antônio Müller Reis", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695008956128923, -26.89411727894133 ], [ -48.69454714, -26.89416749 ], [ -48.694487982996051, -26.894174697188362 ] ] } }
 ]
 }

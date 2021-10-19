@@ -2,6 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0053750070", "cod": 976, "nome": "R.Gélio Hercílio Corrêa", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695117943827448, -26.926889469559995 ], [ -48.69479556697911, -26.927065237972183 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0053750070", "cod": 976.0, "nome": "R.Gélio Hercílio Corrêa", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695117943827448, -26.926889469559995 ], [ -48.69479556697911, -26.927065237972187 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0053750070", "cod": 976.0, "nome": "R.Gélio Hercílio Corrêa", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695117943827448, -26.926889469559995 ], [ -48.69479556697911, -26.927065237972187 ] ] } }
 ]
 }

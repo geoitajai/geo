@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2210250196", "cod": 511, "nome": "R.Gervásio Vieira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.679881027435407, -26.915064919833409 ], [ -48.679504914670716, -26.915089171381808 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2210250196", "cod": 512, "nome": "R.Ângelo Rodi", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67974243, -26.91507447 ], [ -48.67974685090595, -26.915159426908673 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2210250196", "cod": 511.0, "nome": "R.Gervásio Vieira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.679881027321692, -26.915064919840741 ], [ -48.679504914670716, -26.915089171381805 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210250196", "cod": 512.0, "nome": "R.Ângelo Rodi", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67974243, -26.91507447 ], [ -48.67974685090595, -26.915159426908673 ] ] } }
 ]
 }

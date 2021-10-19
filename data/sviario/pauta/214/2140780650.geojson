@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140780650", "cod": 836, "nome": "Serv.Benedita Prata Alves", "ptotalvia": 6.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6363434, -26.94729513 ], [ -48.63621652, -26.94639755 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2140780650", "cod": 817, "nome": "R.CaboPM Antonio Rudolf", "ptotalvia": 18.5, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.637861435823723, -26.947299080799191 ], [ -48.6375007, -26.9473282 ], [ -48.63695172, -26.947229 ], [ -48.6363434, -26.94729513 ], [ -48.636244086373843, -26.947313768220525 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2140780650", "cod": 836.0, "nome": "Serv.Benedita Prata Alves", "ptotalvia": 6.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6363434, -26.94729513 ], [ -48.63621652, -26.94639755 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140780650", "cod": 817.0, "nome": "R.CaboPM Antonio Rudolf", "ptotalvia": 18.5, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.637861435823723, -26.947299080799191 ], [ -48.6375007, -26.9473282 ], [ -48.63695172, -26.947229 ], [ -48.6363434, -26.94729513 ], [ -48.636244086373843, -26.947313768220525 ] ] } }
 ]
 }

@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2210760050", "cod": 567, "nome": "R.Jorge Santos de Macedo", "ptotalvia": 12.0, "ppasseio1": 5.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.681454078797188, -26.921663936921146 ], [ -48.68146088, -26.92204967 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2210760050", "cod": 567, "nome": "R.Jorge Santos de Macedo", "ptotalvia": 12.0, "ppasseio1": 5.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68146088, -26.92204967 ], [ -48.681462883876307, -26.922163286723613 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2210760050", "cod": 567.0, "nome": "R.Jorge Santos de Macedo", "ptotalvia": 12.0, "ppasseio1": 5.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.681454078797188, -26.921663936921142 ], [ -48.68146088, -26.92204967 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210760050", "cod": 567.0, "nome": "R.Jorge Santos de Macedo", "ptotalvia": 12.0, "ppasseio1": 5.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68146088, -26.92204967 ], [ -48.681462883876314, -26.922163286723613 ] ] } }
 ]
 }

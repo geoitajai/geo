@@ -2,7 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0053960230", "cod": 956, "nome": "R.Aprígio José Pinto", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69074575, -26.92678647 ], [ -48.690684021819784, -26.926820462795362 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0053960230", "cod": 973, "nome": "R.Nelson Manoel Simão", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.690598243613202, -26.92657192130482 ], [ -48.69074575, -26.92678647 ], [ -48.69078605948048, -26.92684327387019 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0053960230", "cod": 956.0, "nome": "R.Aprígio José Pinto", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69074575, -26.92678647 ], [ -48.690684021819784, -26.926820462795369 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0053960230", "cod": 973.0, "nome": "R.Nelson Manoel Simão", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.690598243613202, -26.92657192130482 ], [ -48.69074575, -26.92678647 ], [ -48.69078605948048, -26.92684327387019 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0053960230", "cod": 973.0, "nome": "R.Nelson Manoel Simão", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.690598243613202, -26.92657192130482 ], [ -48.69074575, -26.92678647 ], [ -48.69078605948048, -26.92684327387019 ] ] } }
 ]
 }

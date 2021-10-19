@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2030080501", "cod": 1094, "nome": "R.Luiz Leôncio Buchele", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69745350860449, -26.87962691567412 ], [ -48.697456362070248, -26.879944540229111 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2030080501", "cod": 1094.0, "nome": "R.Luiz Leôncio Buchele", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69745350860449, -26.879626915674116 ], [ -48.697456362070248, -26.879944540229111 ] ] } }
 ]
 }

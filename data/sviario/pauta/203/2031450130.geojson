@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2031450130", "cod": 1025, "nome": "R.Antônio Tironi", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.699242358330771, -26.871845362159913 ], [ -48.69885127, -26.87186446 ], [ -48.698802751578107, -26.871866918203345 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2031450130", "cod": 1039, "nome": "R.Orlandina Amália Pires Corrêa", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698848749620915, -26.871814131083958 ], [ -48.69885127, -26.87186446 ], [ -48.698867487140802, -26.872141019953375 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2031450130", "cod": 1025.0, "nome": "R.Antônio Tironi", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.699242358330771, -26.871845362159913 ], [ -48.69885127, -26.87186446 ], [ -48.698802751578107, -26.871866918203349 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2031450130", "cod": 1039.0, "nome": "R.Orlandina Amália Pires Corrêa", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698848749620915, -26.871814131083958 ], [ -48.69885127, -26.87186446 ], [ -48.698867487140802, -26.872141019953379 ] ] } }
 ]
 }

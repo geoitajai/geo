@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050080380", "cod": 84, "nome": "R.São Vicente", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.687244876095704, -26.906629268455507 ], [ -48.68727705, -26.90668816 ], [ -48.687233941721281, -26.906948322598808 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0050080380", "cod": 99, "nome": "R.Dr.Félix Malburg", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.687694509020652, -26.906676969294072 ], [ -48.68727705, -26.90668816 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0050080380", "cod": 84.0, "nome": "R.São Vicente", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.687244876095704, -26.906629268455511 ], [ -48.68727705, -26.90668816 ], [ -48.687233941721281, -26.906948322598808 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050080380", "cod": 99.0, "nome": "R.Dr.Félix Malburg", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.687694509020652, -26.906676969294072 ], [ -48.68727705, -26.90668816 ] ] } }
 ]
 }

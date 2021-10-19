@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2141340044", "cod": 591, "nome": "R.Flamboyant", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.630189953188257, -26.95754871223863 ], [ -48.63016961, -26.95761173 ], [ -48.630081213218119, -26.957869121250624 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2141340044", "cod": 594, "nome": "R.Pelicano", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.63016961, -26.95761173 ], [ -48.630104164055524, -26.957594977923794 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2141340044", "cod": 591.0, "nome": "R.Flamboyant", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.630189953188257, -26.957548712238633 ], [ -48.63016961, -26.95761173 ], [ -48.630081213218119, -26.957869121250624 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2141340044", "cod": 594.0, "nome": "R.Pelicano", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.63016961, -26.95761173 ], [ -48.630104164055524, -26.957594977923794 ] ] } }
 ]
 }

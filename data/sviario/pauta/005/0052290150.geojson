@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0052290150", "cod": 943, "nome": "R.Luiz Bela Cruz", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700099895097253, -26.921749644309628 ], [ -48.699902451396383, -26.921473197203536 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0052290150", "cod": 943.0, "nome": "R.Luiz Bela Cruz", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700099895097253, -26.921749644309628 ], [ -48.699902451396383, -26.921473197203536 ] ] } }
 ]
 }

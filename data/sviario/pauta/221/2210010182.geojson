@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2210010182", "cod": 527, "nome": "R.Francisco Ferreira Filho", "ptotalvia": 6.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.681678547641745, -26.909660859437277 ], [ -48.680959409369585, -26.909688109009892 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2210010182", "cod": 160, "nome": "R.Heitor Liberato", "ptotalvia": 15.5, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.681667329691223, -26.909579583144797 ], [ -48.68106879661363, -26.909388141722761 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2210010182", "cod": 527.0, "nome": "R.Francisco Ferreira Filho", "ptotalvia": 6.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.681678547641745, -26.909660859437277 ], [ -48.680959409369585, -26.909688109009892 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210010182", "cod": 160.0, "nome": "R.Heitor Liberato", "ptotalvia": 15.5, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.681667329691223, -26.909579583144797 ], [ -48.68106879661363, -26.909388141722761 ] ] } }
 ]
 }

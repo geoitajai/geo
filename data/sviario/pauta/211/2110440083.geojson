@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110440083", "cod": 332, "nome": "R.Hilda Breitenbauch", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.668962588617049, -26.91369301059478 ], [ -48.668730748550907, -26.913983450682579 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2110440083", "cod": 332.0, "nome": "R.Hilda Breitenbauch", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.668962588617049, -26.913693010594784 ], [ -48.668730748550907, -26.913983450682579 ] ] } }
 ]
 }

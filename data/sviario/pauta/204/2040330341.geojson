@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040330341", "cod": 623, "nome": "R.Lages", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.655418573064132, -26.915872835629017 ], [ -48.65546022, -26.91588927 ], [ -48.655883267054989, -26.916043263320667 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040330341", "cod": 276, "nome": "Av.7 de Setembro", "ptotalvia": 18.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.655560319847382, -26.915649803159965 ], [ -48.65546022, -26.91588927 ], [ -48.655437998750791, -26.91594194228049 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040330341", "cod": 265, "nome": "Av.Ver.Abrahão João Francisco", "ptotalvia": 29.4, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656031248234243, -26.915869336630987 ], [ -48.655985813409636, -26.91598379374166 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2040330341", "cod": 623.0, "nome": "R.Lages", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.655418573064132, -26.91587283562902 ], [ -48.65546022, -26.91588927 ], [ -48.655883267054989, -26.916043263320663 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040330341", "cod": 276.0, "nome": "Av.7 de Setembro", "ptotalvia": 18.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.655560319847382, -26.915649803159965 ], [ -48.65546022, -26.91588927 ], [ -48.655437998750791, -26.91594194228049 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040330341", "cod": 265.0, "nome": "Av.Ver.Abrahão João Francisco", "ptotalvia": 29.4, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656031248234243, -26.91586933663099 ], [ -48.655985813409629, -26.915983793741656 ] ] } }
 ]
 }

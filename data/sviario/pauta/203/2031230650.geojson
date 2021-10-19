@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2031230650", "cod": 1037, "nome": "R.Germano Bastos", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702078773360924, -26.872459175083659 ], [ -48.70209788, -26.87281538 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2031230650", "cod": 1061, "nome": "R.José Luiz Marcelino", "ptotalvia": 10.2, "ppasseio1": 1.6, "ppasseio2": 1.6 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702523023155457, -26.872764132232454 ], [ -48.70209788, -26.87281538 ], [ -48.702052482740584, -26.872820209335778 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2031230650", "cod": 1037.0, "nome": "R.Germano Bastos", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702078773360924, -26.872459175083662 ], [ -48.70209788, -26.87281538 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2031230650", "cod": 1061.0, "nome": "R.José Luiz Marcelino", "ptotalvia": 10.2, "ppasseio1": 1.6, "ppasseio2": 1.6 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702523023155457, -26.872764132232454 ], [ -48.70209788, -26.87281538 ], [ -48.702052482740584, -26.872820209335778 ] ] } }
 ]
 }

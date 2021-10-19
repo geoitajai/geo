@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110680561", "cod": 583, "nome": "R.Vitor Zaguini", "ptotalvia": 11.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676112449383417, -26.918182645745613 ], [ -48.676134690170713, -26.918517546433623 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2110680561", "cod": 583.0, "nome": "R.Vitor Zaguini", "ptotalvia": 11.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676112449383417, -26.91818264574561 ], [ -48.676134690170713, -26.918517546433623 ] ] } }
 ]
 }

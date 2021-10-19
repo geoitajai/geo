@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2042010010", "cod": 853, "nome": "R.João Bertoldo da Rosa", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.670368270003586, -26.920437953325543 ], [ -48.670025, -26.92047886 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2042010010", "cod": 850, "nome": "R.Wilson Cordeiro", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67001149811869, -26.920385152259296 ], [ -48.670054050351808, -26.920695211544761 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2042010010", "cod": 853.0, "nome": "R.João Bertoldo da Rosa", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.670368270003586, -26.920437953325543 ], [ -48.670025, -26.92047886 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2042010010", "cod": 850.0, "nome": "R.Wilson Cordeiro", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67001149811869, -26.920385152259296 ], [ -48.670054050351808, -26.920695211544761 ] ] } }
 ]
 }

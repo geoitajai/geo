@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110110211", "cod": 492, "nome": "R.Carlos Seara", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67069544844334, -26.907586415640747 ], [ -48.670733809110608, -26.907913317624025 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110110211", "cod": 1692, "nome": "R.Ana Ferreira Figueiredo", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.670214109527059, -26.907787250640794 ], [ -48.67032253, -26.90777528 ], [ -48.670303046002118, -26.907616508049852 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2110110211", "cod": 492.0, "nome": "R.Carlos Seara", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67069544844334, -26.90758641564075 ], [ -48.670733809110608, -26.907913317624025 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110110211", "cod": 1692.0, "nome": "R.Ana Ferreira Figueiredo", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.670214109527059, -26.907787250640794 ], [ -48.67032253, -26.90777528 ], [ -48.670303046002118, -26.907616508049848 ] ] } }
 ]
 }

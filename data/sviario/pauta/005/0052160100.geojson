@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0052160100", "cod": 36, "nome": "R.Ararangua", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700803511948649, -26.902864084229652 ], [ -48.700785258332999, -26.902530532699018 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0052160100", "cod": 36.0, "nome": "R.Ararangua", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700803511948649, -26.902864084229652 ], [ -48.700785258332999, -26.902530532699014 ] ] } }
 ]
 }

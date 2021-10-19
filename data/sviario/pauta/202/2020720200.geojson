@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020720200", "cod": 205, "nome": "R.Fridolim Erthal Júnior", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.681940402084216, -26.901970933895072 ], [ -48.681562080146691, -26.901984397288054 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2020720200", "cod": 205.0, "nome": "R.Fridolim Erthal Júnior", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.681940402084216, -26.901970933895072 ], [ -48.681562080146691, -26.901984397288054 ] ] } }
 ]
 }

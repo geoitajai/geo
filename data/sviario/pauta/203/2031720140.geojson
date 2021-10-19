@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2031720140", "cod": 1089, "nome": "R.Silvestro Moser", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.694589586661472, -26.880747866760771 ], [ -48.694607036751677, -26.88110768637527 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2031720140", "cod": 1089.0, "nome": "R.Silvestro Moser", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.694589586661472, -26.880747866760771 ], [ -48.69460703675167, -26.88110768637527 ] ] } }
 ]
 }

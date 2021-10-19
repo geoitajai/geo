@@ -2,9 +2,9 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2030220593", "cod": 1103, "nome": "R.Henrique Bianchini", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.703983463343853, -26.887283950951783 ], [ -48.704022727739662, -26.888031849763458 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2030220593", "cod": 1104, "nome": "R.Abílio Corrêa Mello", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.703469621871804, -26.887311147861851 ], [ -48.703506982007916, -26.888047729392486 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2030220593", "cod": 1169, "nome": "R.Selso Duarte Moreira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70391253, -26.88805031 ], [ -48.703912783883901, -26.888052155930353 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2030220593", "cod": 1111, "nome": "Av.Dr.Reinaldo Schmithausen", "ptotalvia": 27.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.704000886230958, -26.888041071602448 ], [ -48.70391253, -26.88805031 ], [ -48.70351498323835, -26.888050310368556 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2030220593", "cod": 1103.0, "nome": "R.Henrique Bianchini", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.703983463343853, -26.88728395095178 ], [ -48.704022727739655, -26.888031849763458 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2030220593", "cod": 1104.0, "nome": "R.Abílio Corrêa Mello", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.703469621871804, -26.887311147861851 ], [ -48.703506982007916, -26.888047729392486 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2030220593", "cod": 1169.0, "nome": "R.Selso Duarte Moreira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70391253, -26.88805031 ], [ -48.703912783883901, -26.888052155930353 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2030220593", "cod": 1111.0, "nome": "Av.Dr.Reinaldo Schmithausen", "ptotalvia": 27.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.704000886230958, -26.888041071602444 ], [ -48.70391253, -26.88805031 ], [ -48.70351498323835, -26.888050310368556 ] ] } }
 ]
 }

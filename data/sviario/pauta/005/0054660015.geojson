@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0054660015", "cod": 1012, "nome": "R.Rivo Lafaiéte de Oliveira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.701794755576422, -26.928514534476907 ], [ -48.702065744912005, -26.928740732874367 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0054660015", "cod": 1012.0, "nome": "R.Rivo Lafaiéte de Oliveira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.701794755576422, -26.928514534476903 ], [ -48.702065744912005, -26.92874073287437 ] ] } }
 ]
 }

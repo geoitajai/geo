@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140100652", "cod": 749, "nome": "R.Santa Beatriz", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.64654731584961, -26.920199257733714 ], [ -48.64653635, -26.92018602 ], [ -48.64643249, -26.91996994 ], [ -48.646437325606989, -26.91983410821371 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2140100652", "cod": 750, "nome": "R.Dep.Francisco Evaristo Canziani", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.646966800914107, -26.920101690818129 ], [ -48.646900588129618, -26.919760583304267 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2140100652", "cod": 749.0, "nome": "R.Santa Beatriz", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.64654731584961, -26.920199257733714 ], [ -48.64653635, -26.92018602 ], [ -48.64643249, -26.91996994 ], [ -48.646437325606989, -26.919834108213706 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140100652", "cod": 750.0, "nome": "R.Dep.Francisco Evaristo Canziani", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.646966800914107, -26.920101690818129 ], [ -48.646900588129618, -26.919760583304264 ] ] } }
 ]
 }

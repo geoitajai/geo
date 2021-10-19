@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010671729", "cod": 268, "nome": "R.Brusque", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.666741917802376, -26.912576118071161 ], [ -48.66695662, -26.91281543 ], [ -48.666981975914204, -26.912845614098096 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010671729", "cod": 327, "nome": "R.Umbelino Damasio de Brito", "ptotalvia": 11.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66729602599537, -26.912376983387926 ], [ -48.66695662, -26.91281543 ], [ -48.66693126886242, -26.912844502727872 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2010671729", "cod": 268.0, "nome": "R.Brusque", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.666741917802376, -26.912576118071165 ], [ -48.66695662, -26.91281543 ], [ -48.666981975914204, -26.912845614098096 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010671729", "cod": 327.0, "nome": "R.Umbelino Damasio de Brito", "ptotalvia": 11.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.667296025995363, -26.912376983387929 ], [ -48.66695662, -26.91281543 ], [ -48.66693126886242, -26.912844502727872 ] ] } }
 ]
 }

@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2120710301", "cod": 482, "nome": "R.Wilson Manoel da Rosa", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.672376073673668, -26.885453672331405 ], [ -48.672096476430454, -26.885724128128501 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2120710301", "cod": 482.0, "nome": "R.Wilson Manoel da Rosa", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.672376073673668, -26.885453672331405 ], [ -48.672096476430454, -26.885724128128501 ] ] } }
 ]
 }

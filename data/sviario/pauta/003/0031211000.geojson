@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0031211000", "cod": 1166, "nome": "R.Eredes Serpa", "ptotalvia": 12.5, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70151194, -26.88787043 ], [ -48.701540716396728, -26.888395141308319 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0031211000", "cod": 1111, "nome": "Av.Dr.Reinaldo Schmithausen", "ptotalvia": 27.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.701552062685472, -26.887875187676713 ], [ -48.70151194, -26.88787043 ], [ -48.701277605241934, -26.887846583240645 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0031211000", "cod": 1166.0, "nome": "R.Eredes Serpa", "ptotalvia": 12.5, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70151194, -26.88787043 ], [ -48.701540716396728, -26.888395141308319 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031211000", "cod": 1111.0, "nome": "Av.Dr.Reinaldo Schmithausen", "ptotalvia": 27.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.701552062685472, -26.887875187676713 ], [ -48.70151194, -26.88787043 ], [ -48.701277605241934, -26.887846583240648 ] ] } }
 ]
 }

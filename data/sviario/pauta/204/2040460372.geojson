@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040460372", "cod": 631, "nome": "R.Miguel Wanderhec", "ptotalvia": 5.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65540764, -26.91815624 ], [ -48.655594881217283, -26.918335447787417 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040460372", "cod": 632, "nome": "R.Arnaldo José de Oliveira", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.655527208537407, -26.917880816326761 ], [ -48.65540764, -26.91815624 ], [ -48.655384205332517, -26.91821319188006 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2040460372", "cod": 631.0, "nome": "R.Miguel Wanderhec", "ptotalvia": 5.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65540764, -26.91815624 ], [ -48.655594881217283, -26.91833544778742 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040460372", "cod": 632.0, "nome": "R.Arnaldo José de Oliveira", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.655527208537407, -26.917880816326761 ], [ -48.65540764, -26.91815624 ], [ -48.655384205332517, -26.91821319188006 ] ] } }
 ]
 }

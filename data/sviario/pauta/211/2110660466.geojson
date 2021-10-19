@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110660466", "cod": 549, "nome": "R.Miguel Kunifas", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674976811891966, -26.917409483207685 ], [ -48.674998096336125, -26.917741134431541 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2110660466", "cod": 549.0, "nome": "R.Miguel Kunifas", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674976811891966, -26.917409483207685 ], [ -48.674998096336125, -26.917741134431541 ] ] } }
 ]
 }

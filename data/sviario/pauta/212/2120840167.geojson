@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2120840167", "cod": 419, "nome": "R.Paraguai", "ptotalvia": 9.5, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.683101894815266, -26.891147479442797 ], [ -48.6832721, -26.89146935 ], [ -48.683300568482373, -26.891513489661673 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2120840167", "cod": 421, "nome": "Trav.Vitor Ribeiro da Luz", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.683329378967045, -26.891442726345193 ], [ -48.6832721, -26.89146935 ], [ -48.682806407985993, -26.891704035184027 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2120840167", "cod": 419.0, "nome": "R.Paraguai", "ptotalvia": 9.5, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.683101894815266, -26.8911474794428 ], [ -48.6832721, -26.89146935 ], [ -48.68330056848238, -26.891513489661666 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2120840167", "cod": 421.0, "nome": "Trav.Vitor Ribeiro da Luz", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.683329378967038, -26.891442726345197 ], [ -48.6832721, -26.89146935 ], [ -48.682806407985993, -26.891704035184027 ] ] } }
 ]
 }

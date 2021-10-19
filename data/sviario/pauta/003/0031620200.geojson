@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0031620200", "cod": 1111, "nome": "Av.Dr.Reinaldo Schmithausen", "ptotalvia": 27.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.720243970715941, -26.890491531828374 ], [ -48.718285801304681, -26.89091084393845 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0031620200", "cod": 1175, "nome": "Av.Marginal Leste", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.720647348258915, -26.890796964418147 ], [ -48.72039053, -26.89185689 ], [ -48.720294522004721, -26.89209166971456 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0031620200", "cod": 1111.0, "nome": "Av.Dr.Reinaldo Schmithausen", "ptotalvia": 27.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.720243970715941, -26.890491531828374 ], [ -48.718285801304681, -26.89091084393845 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031620200", "cod": 1175.0, "nome": "Av.Marginal Leste", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.720647348258915, -26.890796964418147 ], [ -48.72039053, -26.89185689 ], [ -48.720294522004721, -26.892091669714564 ] ] } }
 ]
 }

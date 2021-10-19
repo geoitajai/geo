@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0055260100", "cod": 140, "nome": "R.Viladino Liberato Nunes", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.708824793890841, -26.909419002881521 ], [ -48.70846632738278, -26.909436056334702 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0055260100", "cod": 140.0, "nome": "R.Viladino Liberato Nunes", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.708824793890841, -26.909419002881521 ], [ -48.70846632738278, -26.909436056334702 ] ] } }
 ]
 }

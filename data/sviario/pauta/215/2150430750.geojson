@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2150430750", "cod": 1360, "nome": "R.Fermino Vieira Cordeiro", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.720097986527946, -26.896366822700013 ], [ -48.71992772, -26.89630094 ], [ -48.71916534, -26.89590738 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2150430750", "cod": 1176, "nome": "Av.Marginal Oeste", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.719174920553613, -26.895884570823316 ], [ -48.71916534, -26.89590738 ], [ -48.718853013545591, -26.896588222364759 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2150430750", "cod": 1360.0, "nome": "R.Fermino Vieira Cordeiro", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.720097986527946, -26.896366822700013 ], [ -48.71992772, -26.89630094 ], [ -48.71916534, -26.89590738 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2150430750", "cod": 1176.0, "nome": "Av.Marginal Oeste", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.719174920553613, -26.89588457082332 ], [ -48.71916534, -26.89590738 ], [ -48.718853013545591, -26.896588222364759 ] ] } }
 ]
 }

@@ -2,9 +2,9 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2210520087", "cod": 846, "nome": "R.Odílio Pereira", "ptotalvia": 8.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.684353681756974, -26.928702134788594 ], [ -48.68410021, -26.92852773 ], [ -48.684036584074292, -26.928487569465464 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2210520087", "cod": 847, "nome": "R.Sebastião Procópio Nunes", "ptotalvia": 8.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.684153611616026, -26.92846532329991 ], [ -48.68410021, -26.92852773 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2210520087", "cod": 265, "nome": "Av.Ver.Abrahão João Francisco", "ptotalvia": 29.4, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.684103544639576, -26.928947872466242 ], [ -48.68392251, -26.92882097 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2210520087", "cod": 265, "nome": "Av.Ver.Abrahão João Francisco", "ptotalvia": 29.4, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.683968622494454, -26.928903741307085 ], [ -48.68392251, -26.92882097 ], [ -48.683838948342228, -26.928765810234204 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2210520087", "cod": 846.0, "nome": "R.Odílio Pereira", "ptotalvia": 8.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.684353681756974, -26.928702134788594 ], [ -48.68410021, -26.92852773 ], [ -48.684036584074292, -26.928487569465467 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210520087", "cod": 847.0, "nome": "R.Sebastião Procópio Nunes", "ptotalvia": 8.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.684153611616026, -26.92846532329991 ], [ -48.68410021, -26.92852773 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210520087", "cod": 265.0, "nome": "Av.Ver.Abrahão João Francisco", "ptotalvia": 29.4, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.684103544639576, -26.928947872466242 ], [ -48.68392251, -26.92882097 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210520087", "cod": 265.0, "nome": "Av.Ver.Abrahão João Francisco", "ptotalvia": 29.4, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.683968622494454, -26.928903741307089 ], [ -48.68392251, -26.92882097 ], [ -48.683838948342228, -26.928765810234204 ] ] } }
 ]
 }

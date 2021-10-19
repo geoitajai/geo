@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050870130", "cod": 95, "nome": "R.Érico Veríssimo", "ptotalvia": 14.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69652639, -26.90510369 ], [ -48.696555723724352, -26.905516001090717 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0050870130", "cod": 15, "nome": "R.Arq.Nilson Edson dos Santos", "ptotalvia": 21.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69656353344115, -26.905101381037703 ], [ -48.69652639, -26.90510369 ], [ -48.696241799446767, -26.905119302707853 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0050870130", "cod": 95.0, "nome": "R.Érico Veríssimo", "ptotalvia": 14.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69652639, -26.90510369 ], [ -48.696555723724352, -26.905516001090717 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050870130", "cod": 15.0, "nome": "R.Arq.Nilson Edson dos Santos", "ptotalvia": 21.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69656353344115, -26.905101381037703 ], [ -48.69652639, -26.90510369 ], [ -48.696241799446774, -26.905119302707849 ] ] } }
 ]
 }

@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0051170200", "cod": 893, "nome": "R.Otto Hoier", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.686913202862556, -26.917315815943827 ], [ -48.68666996, -26.91724748 ], [ -48.686428101188199, -26.917108502099204 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0051170200", "cod": 893, "nome": "R.Otto Hoier", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.688155717113069, -26.917322809238943 ], [ -48.687834024697196, -26.917338798727464 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0051170200", "cod": 60, "nome": "R.Estefano José Vanolli", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.688081683904066, -26.918096244172659 ], [ -48.687786465140057, -26.918149309113971 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0051170200", "cod": 893.0, "nome": "R.Otto Hoier", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.686913202862556, -26.917315815943827 ], [ -48.68666996, -26.91724748 ], [ -48.686428101188199, -26.9171085020992 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0051170200", "cod": 893.0, "nome": "R.Otto Hoier", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.688155717113069, -26.917322809238946 ], [ -48.687834024697196, -26.917338798727467 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0051170200", "cod": 60.0, "nome": "R.Estefano José Vanolli", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.688081683904066, -26.918096244172663 ], [ -48.687786465140057, -26.918149309113971 ] ] } }
 ]
 }

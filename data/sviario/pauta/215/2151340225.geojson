@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2151340225", "cod": 1321, "nome": "R.Waldemar da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.748902614284553, -26.8706219255379 ], [ -48.748931953678806, -26.870951586904514 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2151340225", "cod": 1321.0, "nome": "R.Waldemar da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.748902614284553, -26.8706219255379 ], [ -48.748931953678806, -26.870951586904511 ] ] } }
 ]
 }

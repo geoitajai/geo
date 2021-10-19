@@ -2,7 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2156302400", "cod": 1402, "nome": "R.Domingos Rampelotti", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.754541013852332, -26.909785192219555 ], [ -48.75417327, -26.90991552 ], [ -48.753740528325629, -26.910073236749312 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2156302400", "cod": 1409, "nome": "R.Carlos Bacca", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.754167565552677, -26.909826896800702 ], [ -48.75417327, -26.90991552 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2156302400", "cod": 1402.0, "nome": "R.Domingos Rampelotti", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.754541013852332, -26.909785192219552 ], [ -48.75417327, -26.90991552 ], [ -48.753740528325629, -26.910073236749312 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2156302400", "cod": 1409.0, "nome": "R.Carlos Bacca", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.754167565552677, -26.909826896800702 ], [ -48.75417327, -26.90991552 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2156302400", "cod": 1409.0, "nome": "R.Carlos Bacca", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.754054116458946, -26.908161928287385 ], [ -48.75404742, -26.90804035 ], [ -48.754032158970766, -26.90780898603041 ] ] } }
 ]
 }

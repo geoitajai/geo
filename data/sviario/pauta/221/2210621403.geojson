@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2210621403", "cod": 228, "nome": "Serv.César Gaboardi", "ptotalvia": 5.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.678659262273058, -26.908573225019914 ], [ -48.6786453, -26.90864121 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2210621403", "cod": 503, "nome": "R.José Manoel da Silva", "ptotalvia": 6.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.678812932876241, -26.908991164891198 ], [ -48.678314758919406, -26.909013043279863 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2210621403", "cod": 160, "nome": "R.Heitor Liberato", "ptotalvia": 15.5, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.678844435269809, -26.908706300535076 ], [ -48.6786453, -26.90864121 ], [ -48.678415671242703, -26.908568659687624 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2210621403", "cod": 228.0, "nome": "Serv.César Gaboardi", "ptotalvia": 5.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.678659262273058, -26.908573225019914 ], [ -48.6786453, -26.90864121 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210621403", "cod": 503.0, "nome": "R.José Manoel da Silva", "ptotalvia": 6.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.678812932876241, -26.908991164891198 ], [ -48.678314758919406, -26.909013043279867 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210621403", "cod": 160.0, "nome": "R.Heitor Liberato", "ptotalvia": 15.5, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.678844435269809, -26.908706300535073 ], [ -48.6786453, -26.90864121 ], [ -48.678415671242703, -26.908568659687628 ] ] } }
 ]
 }

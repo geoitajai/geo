@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0052641250", "cod": 84, "nome": "R.São Vicente", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.687041178720143, -26.900905313149124 ], [ -48.68703645, -26.90091876 ], [ -48.687037945065988, -26.901656674872562 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0052641250", "cod": 84.0, "nome": "R.São Vicente", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.687041178720143, -26.900905313149124 ], [ -48.68703645, -26.90091876 ], [ -48.687037945065988, -26.901656674872559 ] ] } }
 ]
 }

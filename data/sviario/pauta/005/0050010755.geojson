@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050010755", "cod": 63, "nome": "R.Caçador", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.686822565169763, -26.895911982915248 ], [ -48.68673427, -26.89588839 ], [ -48.68649346, -26.89582818 ], [ -48.686419514684793, -26.895829602207847 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0050010755", "cod": 74, "nome": "R.Anastácio Antônio Nascimento", "ptotalvia": 5.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68673427, -26.89588839 ], [ -48.686731869250266, -26.89596101822481 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0050010755", "cod": 63.0, "nome": "R.Caçador", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.686822565169763, -26.895911982915244 ], [ -48.68673427, -26.89588839 ], [ -48.68649346, -26.89582818 ], [ -48.686419514684793, -26.895829602207844 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050010755", "cod": 74.0, "nome": "R.Anastácio Antônio Nascimento", "ptotalvia": 5.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68673427, -26.89588839 ], [ -48.686731869250266, -26.895961018224813 ] ] } }
 ]
 }

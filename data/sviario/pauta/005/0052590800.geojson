@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0052590800", "cod": 1002, "nome": "R.Salvador Joaquim Nunes", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69372065, -26.92990116 ], [ -48.693738017218237, -26.929915369084895 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0052590800", "cod": 1003, "nome": "R.Peter Wallner", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69411911, -26.92952837 ], [ -48.694136080039762, -26.929542464905222 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0052590800", "cod": 926, "nome": "Av.Min.Luiz Gallotti", "ptotalvia": 17.2, "ppasseio1": 3.25, "ppasseio2": 3.25 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.694143279154375, -26.92950452260515 ], [ -48.69411911, -26.92952837 ], [ -48.693702239152188, -26.929917056837443 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0052590800", "cod": 1002.0, "nome": "R.Salvador Joaquim Nunes", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69372065, -26.92990116 ], [ -48.693738017218237, -26.929915369084895 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0052590800", "cod": 1003.0, "nome": "R.Peter Wallner", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69411911, -26.92952837 ], [ -48.694136080039762, -26.929542464905222 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0052590800", "cod": 926.0, "nome": "Av.Min.Luiz Gallotti", "ptotalvia": 17.2, "ppasseio1": 3.25, "ppasseio2": 3.25 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.694143279154375, -26.929504522605157 ], [ -48.69411911, -26.92952837 ], [ -48.693702239152188, -26.929917056837443 ] ] } }
 ]
 }

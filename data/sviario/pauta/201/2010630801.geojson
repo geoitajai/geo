@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010630801", "cod": 326, "nome": "R.Hermann Bachmann", "ptotalvia": 4.2, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66875654, -26.9075433 ], [ -48.668796229819151, -26.907892261030533 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010630801", "cod": 314, "nome": "R.Alfredo Trompowisky", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.668851865687841, -26.907534761144348 ], [ -48.66875654, -26.9075433 ], [ -48.66848189960583, -26.907573886765963 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2010630801", "cod": 326.0, "nome": "R.Hermann Bachmann", "ptotalvia": 4.2, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66875654, -26.9075433 ], [ -48.668796229819151, -26.907892261030533 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010630801", "cod": 314.0, "nome": "R.Alfredo Trompowisky", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.668851865687841, -26.907534761144351 ], [ -48.66875654, -26.9075433 ], [ -48.66848189960583, -26.90757388676596 ] ] } }
 ]
 }

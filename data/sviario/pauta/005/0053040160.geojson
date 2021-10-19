@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0053040160", "cod": 31, "nome": "R.Israel de Almeida", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.703981062354003, -26.914237016155031 ], [ -48.703997262991471, -26.91460423692202 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0053040160", "cod": 32, "nome": "R.Dr.João Américo Watzko", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.703478124020755, -26.914621550426379 ], [ -48.703460086784048, -26.91426047677799 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0053040160", "cod": 1292, "nome": "R.Analina Régis", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.704075347955445, -26.914525749359701 ], [ -48.70399396, -26.91452933 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0053040160", "cod": 31.0, "nome": "R.Israel de Almeida", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.703981284912373, -26.914242060900026 ], [ -48.703997448882447, -26.91460845052168 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0053040160", "cod": 32.0, "nome": "R.Dr.João Américo Watzko", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.703478376577287, -26.91462660615899 ], [ -48.703460296620278, -26.914264677331925 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0053040160", "cod": 1292.0, "nome": "R.Analina Régis", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.704076268757049, -26.91452570884902 ], [ -48.70399396, -26.91452933 ] ] } }
 ]
 }

@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140361700", "cod": 735, "nome": "R.Tereza Francisca Pereira", "ptotalvia": 13.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.636885009922935, -26.92965056259569 ], [ -48.63707105, -26.92980347 ], [ -48.637478400565591, -26.930204165193977 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2140361700", "cod": 769, "nome": "R.José Pedro Teixeira", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.63707105, -26.92980347 ], [ -48.637010366354026, -26.929889445194153 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2140361700", "cod": 735.0, "nome": "R.Tereza Francisca Pereira", "ptotalvia": 13.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.636885009922935, -26.929650562595693 ], [ -48.63707105, -26.92980347 ], [ -48.637478400565591, -26.930204165193977 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140361700", "cod": 769.0, "nome": "R.José Pedro Teixeira", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.63707105, -26.92980347 ], [ -48.637010366354019, -26.929889445194156 ] ] } }
 ]
 }

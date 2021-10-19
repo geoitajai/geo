@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140490318", "cod": 600, "nome": "Av.Dr.José Medeiros Vieira (Norte)", "ptotalvia": 0.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.627197699010765, -26.932681953110482 ], [ -48.627138800967572, -26.932344316304548 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2140490318", "cod": 771, "nome": "R.Ver.Hermínio Gervásio", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -48.629553332037005, -26.93229868504573 ], [ -48.62939421, -26.93214983 ], [ -48.62911065, -26.93198717 ], [ -48.629064930605551, -26.931963941314322 ] ], [ [ -48.627869494990946, -26.932178908644712 ], [ -48.62784675, -26.9321949 ], [ -48.62762694, -26.93222429 ], [ -48.627618755676622, -26.932223996037454 ] ] ] } }
-]
-}

@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2150700010", "cod": 1350, "nome": "R.Pedro Olegário Rebelo", "ptotalvia": 26.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.735841719703707, -26.885833271521872 ], [ -48.73581159, -26.88583999 ], [ -48.735506909832679, -26.885905166275137 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2150700010", "cod": 1352, "nome": "R.Antônio José Rebello", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.735774030505539, -26.885437667595706 ], [ -48.73581159, -26.88583999 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2150700010", "cod": 1350.0, "nome": "R.Pedro Olegário Rebelo", "ptotalvia": 26.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.735841719703707, -26.885833271521875 ], [ -48.73581159, -26.88583999 ], [ -48.735506909832679, -26.885905166275133 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2150700010", "cod": 1352.0, "nome": "R.Antônio José Rebello", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.735774030505539, -26.885437667595706 ], [ -48.73581159, -26.88583999 ] ] } }
 ]
 }

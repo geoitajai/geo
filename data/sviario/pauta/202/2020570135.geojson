@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020570135", "cod": 190, "nome": "R.José Cândido", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677174456414519, -26.900445624451951 ], [ -48.676846236852292, -26.900181052325095 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020570135", "cod": 1682, "nome": "Serv.João Joaquim da Costa", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676780670690512, -26.90053343081636 ], [ -48.67679156, -26.90052229 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2020570135", "cod": 190.0, "nome": "R.José Cândido", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677174456414519, -26.900445624451951 ], [ -48.676846236852292, -26.900181052325099 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020570135", "cod": 1682.0, "nome": "Serv.João Joaquim da Costa", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676780670690512, -26.90053343081636 ], [ -48.67679156, -26.90052229 ] ] } }
 ]
 }

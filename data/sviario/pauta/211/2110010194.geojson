@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110010194", "cod": 262, "nome": "Av.José Eugênio Muller", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.669761255888531, -26.905746211539711 ], [ -48.66976973, -26.90581437 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110010194", "cod": 160, "nome": "R.Heitor Liberato", "ptotalvia": 15.5, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.669841321509807, -26.905837948806788 ], [ -48.66976973, -26.90581437 ], [ -48.669312402265284, -26.90566658889373 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110010194", "cod": 262, "nome": "Av.José Eugênio Muller", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66976973, -26.90581437 ], [ -48.669814180864499, -26.906178136159543 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2110010194", "cod": 262.0, "nome": "Av.José Eugênio Muller", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.669761255888531, -26.905746211539707 ], [ -48.66976973, -26.90581437 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110010194", "cod": 160.0, "nome": "R.Heitor Liberato", "ptotalvia": 15.5, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.669841321509807, -26.905837948806791 ], [ -48.66976973, -26.90581437 ], [ -48.669312402265284, -26.90566658889373 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110010194", "cod": 262.0, "nome": "Av.José Eugênio Muller", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66976973, -26.90581437 ], [ -48.669814180864499, -26.906178136159543 ] ] } }
 ]
 }

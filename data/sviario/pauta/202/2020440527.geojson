@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020440527", "cod": 175, "nome": "R.Eugênio José Reichert", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675135085252059, -26.895961062990825 ], [ -48.67542536, -26.8961882 ], [ -48.675444867697529, -26.896203433755158 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020440527", "cod": 161, "nome": "Av.Irineu Bornhausen", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675697696440949, -26.895917680996423 ], [ -48.67542536, -26.8961882 ], [ -48.675391221848841, -26.896222873878784 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2020440527", "cod": 175.0, "nome": "R.Eugênio José Reichert", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675135085252059, -26.895961062990825 ], [ -48.67542536, -26.8961882 ], [ -48.675444867697529, -26.896203433755158 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020440527", "cod": 161.0, "nome": "Av.Irineu Bornhausen", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675697696440949, -26.895917680996419 ], [ -48.67542536, -26.8961882 ], [ -48.675391221848841, -26.896222873878788 ] ] } }
 ]
 }

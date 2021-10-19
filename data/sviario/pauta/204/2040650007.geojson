@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040650007", "cod": 690, "nome": "R.Videira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656057688190586, -26.926951237909517 ], [ -48.65605501, -26.926953659999988 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040650007", "cod": 690, "nome": "R.Videira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65605501, -26.926953659999988 ], [ -48.655867473081436, -26.927123236586457 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2040650007", "cod": 690.0, "nome": "R.Videira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656057688190586, -26.92695123790952 ], [ -48.65605501, -26.926953659999988 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040650007", "cod": 690.0, "nome": "R.Videira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65605501, -26.926953659999988 ], [ -48.655867473081436, -26.927123236586453 ] ] } }
 ]
 }

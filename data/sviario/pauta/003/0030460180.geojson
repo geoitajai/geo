@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0030460180", "cod": 1141, "nome": "R.Laudelina Dionísio", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695692381171334, -26.892822983121359 ], [ -48.69568958, -26.89277138 ], [ -48.695675304397412, -26.89246728914128 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0030460180", "cod": 1130, "nome": "R.Francisco Olegário dos Santos", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695751302870093, -26.892769660684593 ], [ -48.69568958, -26.89277138 ], [ -48.695311024814195, -26.892784492282114 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0030460180", "cod": 1141.0, "nome": "R.Laudelina Dionísio", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695692381171334, -26.892822983121363 ], [ -48.69568958, -26.89277138 ], [ -48.695675304397412, -26.89246728914128 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0030460180", "cod": 1130.0, "nome": "R.Francisco Olegário dos Santos", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695751302870093, -26.892769660684593 ], [ -48.69568958, -26.89277138 ], [ -48.695311024814195, -26.892784492282114 ] ] } }
 ]
 }

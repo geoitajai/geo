@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2030910230", "cod": 1088, "nome": "R.Romualdo Manoel Fagundes", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695603651832329, -26.878615975112179 ], [ -48.6956045, -26.87864836 ], [ -48.695616231110442, -26.87892942768141 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2030910230", "cod": 1078, "nome": "R.Zulmira Leopoldina Machado", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696047168475779, -26.878640048261214 ], [ -48.6956045, -26.87864836 ], [ -48.695559534278694, -26.878650638847521 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2030910230", "cod": 1088.0, "nome": "R.Romualdo Manoel Fagundes", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695603651832322, -26.878615975112179 ], [ -48.6956045, -26.87864836 ], [ -48.695616231110442, -26.87892942768141 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2030910230", "cod": 1078.0, "nome": "R.Zulmira Leopoldina Machado", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696047168475779, -26.878640048261214 ], [ -48.6956045, -26.87864836 ], [ -48.695559534278694, -26.878650638847521 ] ] } }
 ]
 }

@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140980300", "cod": 808, "nome": "R.Hildebrando Jorge da Silva", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.630579351900082, -26.946581111853508 ], [ -48.63051047, -26.94658942 ], [ -48.630193174768863, -26.946624779947971 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2140980300", "cod": 782, "nome": "R.Delfim Mário Pádua Peixoto", "ptotalvia": 20.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.630514212569452, -26.946663643465097 ], [ -48.63051047, -26.94658942 ], [ -48.630500219435291, -26.946229834400157 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2140980300", "cod": 808.0, "nome": "R.Hildebrando Jorge Silva", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.630579351900082, -26.946581111853508 ], [ -48.63051047, -26.94658942 ], [ -48.630193174768863, -26.946624779947967 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140980300", "cod": 782.0, "nome": "R.Delfim Mário Pádua Peixoto", "ptotalvia": 20.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.630514212569452, -26.946663643465097 ], [ -48.63051047, -26.94658942 ], [ -48.630500219435291, -26.946229834400157 ] ] } }
 ]
 }

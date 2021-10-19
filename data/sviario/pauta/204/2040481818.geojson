@@ -2,9 +2,9 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040481818", "cod": 634, "nome": "R.Gregório Chaves", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.654193294411741, -26.922042583836255 ], [ -48.65405619, -26.92223416 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040481818", "cod": 645, "nome": "R.Antônio Manoel Moreira", "ptotalvia": 13.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.653190767194531, -26.921177302472042 ], [ -48.65323725, -26.92121759 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040481818", "cod": 684, "nome": "R.José Gopertino Chaves", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65326314, -26.92115578 ], [ -48.654388361280525, -26.921563401468962 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040481818", "cod": 276, "nome": "Av.7 de Setembro", "ptotalvia": 18.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65328242048848, -26.921114166464225 ], [ -48.65326314, -26.92115578 ], [ -48.65323725, -26.92121759 ], [ -48.652849905138467, -26.922142245622581 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2040481818", "cod": 634.0, "nome": "R.Gregório Chaves", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.654193294411741, -26.922042583836259 ], [ -48.65405619, -26.92223416 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040481818", "cod": 645.0, "nome": "R.Antônio Manoel Moreira", "ptotalvia": 13.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.653190767194531, -26.921177302472039 ], [ -48.65323725, -26.92121759 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040481818", "cod": 684.0, "nome": "R.José Gopertino Chaves", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65326314, -26.92115578 ], [ -48.654388361280525, -26.921563401468962 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040481818", "cod": 276.0, "nome": "Av.7 de Setembro", "ptotalvia": 18.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.653282420488488, -26.921114166464228 ], [ -48.65326314, -26.92115578 ], [ -48.65323725, -26.92121759 ], [ -48.652849905138467, -26.922142245622581 ] ] } }
 ]
 }

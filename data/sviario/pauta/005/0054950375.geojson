@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0054950375", "cod": 33, "nome": "R.Jaziel José Rosa", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70273771871922, -26.90938591076597 ], [ -48.70274782, -26.90960832 ], [ -48.702751577563994, -26.909685411912303 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0054950375", "cod": 1304, "nome": "R.Veneranda Rocha Junkes", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70274782, -26.90960832 ], [ -48.702672603918167, -26.90961179996798 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0054950375", "cod": 33.0, "nome": "R.Jaziel José Rosa", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70273771871922, -26.90938591076597 ], [ -48.70274782, -26.90960832 ], [ -48.702751577563994, -26.909685411912303 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054950375", "cod": 1304.0, "nome": "R.Veneranda Rocha Junkes", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70274782, -26.90960832 ], [ -48.702672603918167, -26.90961179996798 ] ] } }
 ]
 }

@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020620538", "cod": 1751, "nome": "Serv.José Vieira", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67817831557096, -26.901150467453551 ], [ -48.678179729769923, -26.901515673083765 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020620538", "cod": 207, "nome": "Trav.Genelicio Pedro de Souza", "ptotalvia": 5.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677820523303275, -26.901164151609787 ], [ -48.677813775785403, -26.901502439264046 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2020620538", "cod": 1751.0, "nome": "Serv.José Vieira", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67817831557096, -26.901150467453551 ], [ -48.678179729769923, -26.901515673083765 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020620538", "cod": 207.0, "nome": "Trav.Genelicio Pedro de Souza", "ptotalvia": 5.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677820523303275, -26.901164151609787 ], [ -48.677813775785403, -26.901502439264043 ] ] } }
 ]
 }

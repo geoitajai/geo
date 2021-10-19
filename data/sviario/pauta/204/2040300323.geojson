@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040300323", "cod": 624, "nome": "R.Antônio Cabral", "ptotalvia": 3.5, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65686678, -26.91253215 ], [ -48.656869997219751, -26.91253463172718 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040300323", "cod": 276, "nome": "Av.7 de Setembro", "ptotalvia": 18.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65686837587068, -26.912528470968162 ], [ -48.65686678, -26.91253215 ], [ -48.656723102514718, -26.912865570334851 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040300323", "cod": 281, "nome": "R.Camboriú", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656290969821491, -26.912128431947369 ], [ -48.656200617692079, -26.912537565976475 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2040300323", "cod": 624.0, "nome": "R.Antônio Cabral", "ptotalvia": 3.5, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65686678, -26.91253215 ], [ -48.656869997219751, -26.912534631727183 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040300323", "cod": 276.0, "nome": "Av.7 de Setembro", "ptotalvia": 18.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65686837587068, -26.912528470968162 ], [ -48.65686678, -26.91253215 ], [ -48.656723102514718, -26.912865570334848 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040300323", "cod": 281.0, "nome": "R.Camboriú", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656290969821491, -26.912128431947369 ], [ -48.656200617692079, -26.912537565976479 ] ] } }
 ]
 }

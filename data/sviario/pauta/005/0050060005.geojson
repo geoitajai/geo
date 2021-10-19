@@ -2,9 +2,9 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050060005", "cod": 60, "nome": "R.Estefano José Vanolli", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.688705211815581, -26.90190538482879 ], [ -48.68870919169931, -26.902220247912595 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0050060005", "cod": 29, "nome": "R.Antônio Cyrilo Dutra", "ptotalvia": 17.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68867246333825, -26.902240748612037 ], [ -48.688341298455768, -26.902198900636705 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0050060005", "cod": 29, "nome": "R.Antônio Cyrilo Dutra", "ptotalvia": 17.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.688374727461053, -26.902203124962089 ], [ -48.68801593414338, -26.902157784876355 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0050060005", "cod": 29, "nome": "R.Antônio Cyrilo Dutra", "ptotalvia": 17.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.688492447544618, -26.902218000838957 ], [ -48.688209449262018, -26.90218223916111 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0050060005", "cod": 60.0, "nome": "R.Estefano José Vanolli", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.688705211815581, -26.90190538482879 ], [ -48.68870919169931, -26.902220247912595 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050060005", "cod": 29.0, "nome": "R.Antônio Cyrilo Dutra", "ptotalvia": 17.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68867246333825, -26.902240748612037 ], [ -48.688341298455768, -26.902198900636705 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050060005", "cod": 29.0, "nome": "R.Antônio Cyrilo Dutra", "ptotalvia": 17.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.688374727461053, -26.902203124962089 ], [ -48.68801593414338, -26.902157784876351 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050060005", "cod": 29.0, "nome": "R.Antônio Cyrilo Dutra", "ptotalvia": 17.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.688492447544618, -26.902218000838957 ], [ -48.688209449262018, -26.902182239161107 ] ] } }
 ]
 }

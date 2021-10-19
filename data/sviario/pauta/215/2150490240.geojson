@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2150490240", "cod": 1390, "nome": "R.José Gottardi", "ptotalvia": 7.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.743595446175583, -26.902310247945863 ], [ -48.743740260009282, -26.902678736256131 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2150490240", "cod": 1390.0, "nome": "R.José Gottardi", "ptotalvia": 7.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.743596805343039, -26.902313706447401 ], [ -48.743741593198621, -26.90268212863328 ] ] } }
 ]
 }

@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2141270060", "cod": 592, "nome": "R.Albatroz", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.629983067149766, -26.956894399213112 ], [ -48.629519956385487, -26.956959186205754 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2141270060", "cod": 587, "nome": "Av.Carlos Drumond de Andrade (Praia Brava)", "ptotalvia": 20.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.629887224128929, -26.95653945350853 ], [ -48.62961063, -26.95657116 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2141270060", "cod": 599, "nome": "Av.Dr.José Medeiros Vieira (Sul)", "ptotalvia": 0.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.629506691832603, -26.956945260831006 ], [ -48.62961063, -26.95657116 ], [ -48.629612559761043, -26.956557207390361 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2141270060", "cod": 592.0, "nome": "R.Albatroz", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.629983067149766, -26.956894399213112 ], [ -48.629519956385487, -26.956959186205754 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2141270060", "cod": 587.0, "nome": "Av.Carlos Drumond de Andrade (Praia Brava)", "ptotalvia": 20.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.629887224128929, -26.95653945350853 ], [ -48.62961063, -26.95657116 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2141270060", "cod": 599.0, "nome": "Av.Dr.José Medeiros Vieira (Sul)", "ptotalvia": 0.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.629506691832603, -26.956945260831006 ], [ -48.62961063, -26.95657116 ], [ -48.629612559761043, -26.956557207390361 ] ] } }
 ]
 }

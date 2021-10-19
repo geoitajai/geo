@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2120350633", "cod": 485, "nome": "R.Antenor Fantoni", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676351977226396, -26.891235885200665 ], [ -48.676048279442654, -26.891008468621756 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2120350633", "cod": 485.0, "nome": "R.Antenor Fantoni", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676351977226396, -26.891235885200665 ], [ -48.676048279442647, -26.891008468621756 ] ] } }
 ]
 }

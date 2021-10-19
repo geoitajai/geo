@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0054820120", "cod": 939, "nome": "R.José Domingos Mafra", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.703708493547246, -26.922191058141465 ], [ -48.70359317, -26.92208613 ], [ -48.703513404136849, -26.922159896126782 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0054820120", "cod": 937, "nome": "R.Anatolio José da Silva", "ptotalvia": 9.2, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.703627992318623, -26.921811018782197 ], [ -48.703462, -26.92196677 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0054820120", "cod": 1561, "nome": "R.Proj.Assent.Mariquinha Brasil", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.703462, -26.92196677 ], [ -48.70359317, -26.92208613 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0054820120", "cod": 939.0, "nome": "R.José Domingos Mafra", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.703708493547246, -26.922191058141465 ], [ -48.70359317, -26.92208613 ], [ -48.703513404136849, -26.922159896126775 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054820120", "cod": 937.0, "nome": "R.Anatolio José da Silva", "ptotalvia": 9.2, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.703627992318623, -26.921811018782201 ], [ -48.703462, -26.92196677 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054820120", "cod": 1561.0, "nome": "R.Proj.Assent.Mariquinha Brasil", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.703462, -26.92196677 ], [ -48.70359317, -26.92208613 ] ] } }
 ]
 }

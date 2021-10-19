@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0051440160", "cod": 905, "nome": "R.Dr.Hermes Atílio Mariani", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69351418271755, -26.916049490468566 ], [ -48.69345157, -26.91605248 ], [ -48.692648011681399, -26.91609850755837 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0051440160", "cod": 904, "nome": "R.Sidney Schulze", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693123976615752, -26.915576645444716 ], [ -48.692617751650936, -26.915603297416016 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0051440160", "cod": 894, "nome": "R.Agílio Cunha", "ptotalvia": 15.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693426698477694, -26.915697596867133 ], [ -48.69345157, -26.91605248 ], [ -48.693454280652723, -26.916122561662519 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0051440160", "cod": 905.0, "nome": "R.Dr.Hermes Atílio Mariani", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69351418271755, -26.916049490468566 ], [ -48.69345157, -26.91605248 ], [ -48.692648011681399, -26.916098507558374 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0051440160", "cod": 904.0, "nome": "R.Sidney Schulze", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693123976615752, -26.915576645444716 ], [ -48.692617751650936, -26.915603297416023 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0051440160", "cod": 894.0, "nome": "R.Agílio Cunha", "ptotalvia": 15.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693426698477694, -26.915697596867133 ], [ -48.69345157, -26.91605248 ], [ -48.693454280652723, -26.916122561662519 ] ] } }
 ]
 }

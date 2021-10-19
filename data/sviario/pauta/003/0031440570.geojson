@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0031440570", "cod": 1173, "nome": "R.Agostinho Alves Ramos", "ptotalvia": 20.4, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.705070515847488, -26.903023090851477 ], [ -48.70496365052832, -26.902962276668624 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0031440570", "cod": 1170, "nome": "R.Ver.Nestor dos Santos", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.705342746797854, -26.902660537337034 ], [ -48.705361927992008, -26.902999650153223 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0031440570", "cod": 1173.0, "nome": "R.Agostinho Alves Ramos", "ptotalvia": 20.4, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.705070515847488, -26.903023090851477 ], [ -48.70496365052832, -26.902962276668621 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031440570", "cod": 1170.0, "nome": "R.Ver.Nestor dos Santos", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.705342746797854, -26.902660537337031 ], [ -48.705361927992008, -26.902999650153227 ] ] } }
 ]
 }

@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2030190474", "cod": 1103, "nome": "R.Henrique Bianchini", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.703527882511985, -26.87900170739276 ], [ -48.703546323023517, -26.879349095526454 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2030190474", "cod": 1103.0, "nome": "R.Henrique Bianchini", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.703527882511985, -26.87900170739276 ], [ -48.703546323023517, -26.879349095526454 ] ] } }
 ]
 }

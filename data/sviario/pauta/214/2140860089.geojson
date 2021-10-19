@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140860089", "cod": 599, "nome": "Av.Dr.José Medeiros Vieira (Sul)", "ptotalvia": 0.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.628895350090595, -26.943913541829001 ], [ -48.62885975434618, -26.943575827247276 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2140860089", "cod": 599.0, "nome": "Av.Dr.José Medeiros Vieira (Sul)", "ptotalvia": 0.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.628895350090595, -26.943913541829001 ], [ -48.62885975434618, -26.943575827247273 ] ] } }
 ]
 }

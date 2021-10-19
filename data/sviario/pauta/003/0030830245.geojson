@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0030830245", "cod": 1199, "nome": "R.Sergipe", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698127602142591, -26.891224865477025 ], [ -48.697763490524906, -26.891234349109606 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0030830245", "cod": 1199.0, "nome": "R.Sergipe", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698127602142591, -26.891224865477028 ], [ -48.697763490524906, -26.89123434910961 ] ] } }
 ]
 }

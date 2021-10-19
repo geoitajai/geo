@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2120840098", "cod": 421, "nome": "Trav.Vitor Ribeiro da Luz", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.683026556752992, -26.891593091681369 ], [ -48.682698859217403, -26.891758233946121 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2120840098", "cod": 421.0, "nome": "Trav.Vitor Ribeiro da Luz", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.683026556752992, -26.891593091681365 ], [ -48.682698859217403, -26.891758233946121 ] ] } }
 ]
 }

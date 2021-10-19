@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2120910216", "cod": 411, "nome": "Trav.Paulo Malburg", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.686240862789042, -26.892878360901705 ], [ -48.685980853790028, -26.893137690645222 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2120910216", "cod": 411.0, "nome": "Trav.Paulo Malburg", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.686240862789042, -26.892878360901705 ], [ -48.685980853790028, -26.893137690645226 ] ] } }
 ]
 }

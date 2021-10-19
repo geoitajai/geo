@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0054811165", "cod": 898, "nome": "R.Das Orquídeas", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691046642890107, -26.920415407343736 ], [ -48.69105421, -26.92049897 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0054811165", "cod": 898, "nome": "R.Das Orquídeas", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69120131, -26.92075728 ], [ -48.691220659459738, -26.920848068688016 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0054811165", "cod": 917, "nome": "R.Arnoldo Corrêa de Mello", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691213186177244, -26.920472607566548 ], [ -48.69105421, -26.92049897 ], [ -48.690738900450327, -26.920547400033126 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0054811165", "cod": 898.0, "nome": "R.Das Orquídeas", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691046642890107, -26.920415407343736 ], [ -48.69105421, -26.92049897 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054811165", "cod": 898.0, "nome": "R.Das Orquídeas", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69120131, -26.92075728 ], [ -48.691220659459738, -26.920848068688016 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054811165", "cod": 917.0, "nome": "R.Arnoldo Corrêa de Mello", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691213186177244, -26.920472607566548 ], [ -48.69105421, -26.92049897 ], [ -48.690738900450327, -26.920547400033126 ] ] } }
 ]
 }

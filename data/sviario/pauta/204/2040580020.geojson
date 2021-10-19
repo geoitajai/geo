@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040580020", "cod": 705, "nome": "R.João Cunha", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65036348, -26.92768967 ], [ -48.650615924522789, -26.927867976099467 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040580020", "cod": 707, "nome": "R.João Fernandes Vieira Junior", "ptotalvia": 10.5, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.650339020481844, -26.927573725186569 ], [ -48.65036348, -26.92768967 ], [ -48.650389808704993, -26.927834945806907 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2040580020", "cod": 705.0, "nome": "R.João Cunha", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65036348, -26.92768967 ], [ -48.650615924522789, -26.927867976099467 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040580020", "cod": 707.0, "nome": "R.João Fernandes Vieira Junior", "ptotalvia": 10.5, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.650339020481844, -26.92757372518658 ], [ -48.65036348, -26.92768967 ], [ -48.650389808704993, -26.927834945806907 ] ] } }
 ]
 }

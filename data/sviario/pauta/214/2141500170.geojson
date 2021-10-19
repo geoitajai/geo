@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2141500170", "cod": 712, "nome": "R.Profª.Clotilde Ramos Chaves", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.648256426015067, -26.928002183904468 ], [ -48.64827978, -26.92801507 ], [ -48.64856004, -26.92830316 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2141500170", "cod": 726, "nome": "R.Profª.Olindina Francisca da Silva", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.648613183360609, -26.928236072551918 ], [ -48.64860181, -26.92825043 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2141500170", "cod": 726, "nome": "R.Profª.Olindina Francisca da Silva", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.64860181, -26.92825043 ], [ -48.64856004, -26.92830316 ], [ -48.648410932497384, -26.928540746050828 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2141500170", "cod": 712.0, "nome": "R.Profª.Clotilde Ramos Chaves", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.648256426015067, -26.928002183904468 ], [ -48.64827978, -26.92801507 ], [ -48.64856004, -26.92830316 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2141500170", "cod": 726.0, "nome": "R.Profª.Olindina Francisca da Silva", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.648613183360609, -26.928236072551915 ], [ -48.64860181, -26.92825043 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2141500170", "cod": 726.0, "nome": "R.Profª.Olindina Francisca da Silva", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.64860181, -26.92825043 ], [ -48.64856004, -26.92830316 ], [ -48.648410932497384, -26.928540746050832 ] ] } }
 ]
 }

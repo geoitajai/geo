@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2041800003", "cod": 702, "nome": "R.Júlio Joaquim Fernandes", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.652364289121863, -26.92842939096748 ], [ -48.652640331720441, -26.928660557968794 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2041800003", "cod": 702.0, "nome": "R.Júlio Joaquim Fernandes", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.652364289121863, -26.92842939096748 ], [ -48.652640331720441, -26.928660557968794 ] ] } }
 ]
 }

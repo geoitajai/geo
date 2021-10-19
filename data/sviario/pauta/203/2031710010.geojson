@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2031710010", "cod": 1089, "nome": "R.Silvestro Moser", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.694675795837071, -26.88247680756605 ], [ -48.69468967, -26.8827513 ], [ -48.694738381220411, -26.882842328549632 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2031710010", "cod": 1090, "nome": "R.Elizabeth Montibeller dos Santos", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69468967, -26.8827513 ], [ -48.694616874899495, -26.882759415945898 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2031710010", "cod": 1089.0, "nome": "R.Silvestro Moser", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.694675795837071, -26.882476807566047 ], [ -48.69468967, -26.8827513 ], [ -48.694738381220411, -26.882842328549632 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2031710010", "cod": 1090.0, "nome": "R.Elizabeth Montibeller dos Santos", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69468967, -26.8827513 ], [ -48.694616874899495, -26.882759415945895 ] ] } }
 ]
 }

@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040351214", "cod": 1680, "nome": "R.Marcos Francisco Santana", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.658042597334756, -26.913105374903608 ], [ -48.65799163, -26.91306648 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040351214", "cod": 681, "nome": "R.Domingos José Cabral", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.657961334285993, -26.91311521082612 ], [ -48.65799163, -26.91306648 ], [ -48.657774663618667, -26.912899087956777 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040351214", "cod": 264, "nome": "Av.Joca Brandão", "ptotalvia": 26.4, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.658364437833065, -26.911974829246404 ], [ -48.658453455593289, -26.912007183074643 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2040351214", "cod": 1680.0, "nome": "R.Marcos Francisco Santana", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.658042597334756, -26.913105374903612 ], [ -48.65799163, -26.91306648 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040351214", "cod": 681.0, "nome": "R.Domingos José Cabral", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.657961334285993, -26.91311521082612 ], [ -48.65799163, -26.91306648 ], [ -48.657774663618667, -26.912899087956781 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040351214", "cod": 264.0, "nome": "Av.Joca Brandão", "ptotalvia": 26.4, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.658364437833065, -26.911974829246397 ], [ -48.658453455593289, -26.912007183074639 ] ] } }
 ]
 }

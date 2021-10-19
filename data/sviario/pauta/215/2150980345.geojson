@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2150980345", "cod": 1317, "nome": "R.Arq.Luiz Augusto Trojan", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.748100089688201, -26.881675318406241 ], [ -48.748127531665574, -26.881995113019432 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2150980345", "cod": 1317.0, "nome": "R.Arq.Luiz Augusto Trojan", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.748100089688201, -26.881675318406245 ], [ -48.748127531665574, -26.881995113019428 ] ] } }
 ]
 }

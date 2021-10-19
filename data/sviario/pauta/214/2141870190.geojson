@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2141870190", "cod": 835, "nome": "R.José Manoel da Silva (Praia Brava)", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.62982302, -26.94107834 ], [ -48.629516853068147, -26.941104216067551 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2141870190", "cod": 782, "nome": "R.Delfim Mário Pádua Peixoto", "ptotalvia": 20.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.629826942530734, -26.941106773242645 ], [ -48.62982302, -26.94107834 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2141870190", "cod": 835.0, "nome": "R.José Manoel da Silva (Praia Brava)", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.62982302, -26.94107834 ], [ -48.629511358902683, -26.941104680407346 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2141870190", "cod": 782.0, "nome": "R.Delfim Mário Pádua Peixoto", "ptotalvia": 20.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.629827084132707, -26.94110779967248 ], [ -48.62982302, -26.94107834 ], [ -48.629776100302401, -26.94068729482963 ] ] } }
 ]
 }

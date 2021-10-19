@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2041890955", "cod": 660, "nome": "R.José Patrocinio Zaguini", "ptotalvia": 12.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.658159101791576, -26.921463948161119 ], [ -48.65809587, -26.92151845 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2041890955", "cod": 661, "nome": "R.Esmerentina dos Santos Chaves", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.658362482942231, -26.921738942603952 ], [ -48.65809587, -26.92151845 ], [ -48.658051798512922, -26.921479155110983 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2041890955", "cod": 660.0, "nome": "R.José Patrocinio Zaguini", "ptotalvia": 12.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.658159101791576, -26.921463948161119 ], [ -48.65809587, -26.92151845 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2041890955", "cod": 661.0, "nome": "R.Esmerentina dos Santos Chaves", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.658362482942231, -26.921738942603952 ], [ -48.65809587, -26.92151845 ], [ -48.658051798512922, -26.921479155110983 ] ] } }
 ]
 }

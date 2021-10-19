@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0054200090", "cod": 130, "nome": "Av.Nilo Bittencourt", "ptotalvia": 20.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.705183609103301, -26.910538359520849 ], [ -48.705197638344202, -26.910831130982803 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0054200090", "cod": 130.0, "nome": "Av.Nilo Bittencourt", "ptotalvia": 20.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.705183609103301, -26.910538359520849 ], [ -48.705197638344202, -26.9108311309828 ] ] } }
 ]
 }

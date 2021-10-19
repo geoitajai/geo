@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2120260415", "cod": 431, "nome": "R.Serafim Manoel Inácio", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677562263064033, -26.89007041586606 ], [ -48.677820955325124, -26.890260746263959 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2120260415", "cod": 157, "nome": "R.Blumenau", "ptotalvia": 14.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677543362512907, -26.890066158143696 ], [ -48.677322935064304, -26.890333840592064 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2120260415", "cod": 431.0, "nome": "R.Serafim Manoel Inácio", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677562263064033, -26.89007041586606 ], [ -48.677820955325124, -26.890260746263962 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2120260415", "cod": 157.0, "nome": "R.Blumenau", "ptotalvia": 14.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677543362512907, -26.890066158143696 ], [ -48.677322935064304, -26.890333840592064 ] ] } }
 ]
 }

@@ -2,9 +2,9 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110410020", "cod": 262, "nome": "Av.José Eugênio Muller", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67102801, -26.91626212 ], [ -48.67103554202729, -26.916328686887709 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110410020", "cod": 486, "nome": "R.Francisco de Paula Seara", "ptotalvia": 11.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.671086244699168, -26.91622374336659 ], [ -48.67102486, -26.91622597 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110410020", "cod": 267, "nome": "Trav.André Barbi", "ptotalvia": 18.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67102801, -26.91626212 ], [ -48.670502073247476, -26.916493521970008 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110410020", "cod": 262, "nome": "Av.José Eugênio Muller", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.670993160364681, -26.915956027708813 ], [ -48.67102486, -26.91622597 ], [ -48.67102801, -26.91626212 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2110410020", "cod": 262.0, "nome": "Av.José Eugênio Muller", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67102801, -26.91626212 ], [ -48.67103554202729, -26.916328686887709 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110410020", "cod": 486.0, "nome": "R.Francisco de Paula Seara", "ptotalvia": 11.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.671086244699168, -26.91622374336659 ], [ -48.67102486, -26.91622597 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110410020", "cod": 267.0, "nome": "Trav.André Barbi", "ptotalvia": 18.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67102801, -26.91626212 ], [ -48.670502073247476, -26.916493521970008 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110410020", "cod": 262.0, "nome": "Av.José Eugênio Muller", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.670993160364681, -26.915956027708813 ], [ -48.67102486, -26.91622597 ], [ -48.67102801, -26.91626212 ] ] } }
 ]
 }

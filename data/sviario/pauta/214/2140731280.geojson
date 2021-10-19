@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140731280", "cod": 789, "nome": "R.Olímpio Manoel Cabral", "ptotalvia": 7.5, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.646199207004784, -26.956026441622893 ], [ -48.6462693, -26.95601588 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2140731280", "cod": 1665, "nome": "R.Sem denominação oficial", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.64644449, -26.95598272 ], [ -48.6462693, -26.95601588 ], [ -48.64630877, -26.95608528 ], [ -48.646311613506413, -26.956097438218492 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2140731280", "cod": 789.0, "nome": "R.Olímpio Manoel Cabral", "ptotalvia": 7.5, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.646199207004784, -26.956026441622893 ], [ -48.6462693, -26.95601588 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140731280", "cod": 1665.0, "nome": "R.Sem denominação oficial", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.64644449, -26.95598272 ], [ -48.6462693, -26.95601588 ], [ -48.64630877, -26.95608528 ], [ -48.646311613506413, -26.956097438218492 ] ] } }
 ]
 }

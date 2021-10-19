@@ -2,8 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0053410010", "cod": 947, "nome": "R.Maria Verena Heil", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693592687230712, -26.921940432769976 ], [ -48.69323652, -26.92207005 ], [ -48.69316642901093, -26.922094787170195 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0053410010", "cod": 947, "nome": "R.Maria Verena Heil", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693592687230712, -26.921940432769976 ], [ -48.69323652, -26.92207005 ], [ -48.69316642901093, -26.922094787170195 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0053410010", "cod": 961, "nome": "R.Roza Grimes", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69323652, -26.92207005 ], [ -48.693341584083448, -26.92231505209303 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0053410010", "cod": 947.0, "nome": "R.Maria Verena Heil", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693592687230712, -26.921940432769976 ], [ -48.69323652, -26.92207005 ], [ -48.69316642901093, -26.922094787170195 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0053410010", "cod": 961.0, "nome": "R.Roza Grimes", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69323652, -26.92207005 ], [ -48.693341584083448, -26.92231505209303 ] ] } }
 ]
 }

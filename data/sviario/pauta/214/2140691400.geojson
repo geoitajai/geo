@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140691400", "cod": 816, "nome": "R.Odinei Linhares", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.64195019, -26.94778744 ], [ -48.641953853986493, -26.947866475772308 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2140691400", "cod": 816.0, "nome": "R.Odinei Linhares", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.64195019, -26.94778744 ], [ -48.641953853986493, -26.947866475772308 ] ] } }
 ]
 }

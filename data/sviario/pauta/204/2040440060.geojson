@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040440060", "cod": 617, "nome": "R.Hilda Bella Cruz da Silva", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65775912, -26.91777631 ], [ -48.657432706415719, -26.917504629721723 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040440060", "cod": 266, "nome": "R.Uruguai", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.657806326727723, -26.917732244784691 ], [ -48.65775912, -26.91777631 ], [ -48.65750477580405, -26.917951626868412 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2040440060", "cod": 617.0, "nome": "R.Hilda Bella Cruz da Silva", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65775912, -26.91777631 ], [ -48.657432706415719, -26.917504629721723 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040440060", "cod": 266.0, "nome": "R.Uruguai", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.657806326727723, -26.917732244784691 ], [ -48.65775912, -26.91777631 ], [ -48.65750477580405, -26.917951626868408 ] ] } }
 ]
 }

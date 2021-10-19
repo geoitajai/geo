@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2120240367", "cod": 1546, "nome": "R.João Honorio de Miranda", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675878580056626, -26.892887317306212 ], [ -48.675652381762944, -26.893158656177899 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2120240367", "cod": 1546.0, "nome": "R.João Honorio de Miranda", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675878580056626, -26.892887317306215 ], [ -48.675652381762944, -26.893158656177896 ] ] } }
 ]
 }

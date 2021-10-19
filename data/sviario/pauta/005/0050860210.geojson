@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050860210", "cod": 45, "nome": "R.Olavo Bilac", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695454747589672, -26.904834513562442 ], [ -48.69547348, -26.90516145 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0050860210", "cod": 15, "nome": "R.Arq.Nilson Edson dos Santos", "ptotalvia": 21.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695533547726974, -26.90515815504919 ], [ -48.69547348, -26.90516145 ], [ -48.695038897734896, -26.905192645369699 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0050860210", "cod": 45.0, "nome": "R.Olavo Bilac", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695454747589672, -26.904834513562438 ], [ -48.69547348, -26.90516145 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050860210", "cod": 15.0, "nome": "R.Arq.Nilson Edson dos Santos", "ptotalvia": 21.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695533547726974, -26.90515815504919 ], [ -48.69547348, -26.90516145 ], [ -48.695038897734896, -26.905192645369699 ] ] } }
 ]
 }

@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020450374", "cod": 171, "nome": "R.Manoel Zeferino Teixeira", "ptotalvia": 13.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674604856442876, -26.894969513309768 ], [ -48.674301946253578, -26.894732708727339 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020450374", "cod": 170, "nome": "R.Anísio Costa", "ptotalvia": 7.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674910623264388, -26.894682931942931 ], [ -48.674606420157019, -26.894442268089961 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2020450374", "cod": 171.0, "nome": "R.Manoel Zeferino Teixeira", "ptotalvia": 13.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674604856442876, -26.894969513309768 ], [ -48.674301946253578, -26.894732708727339 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020450374", "cod": 170.0, "nome": "R.Anísio Costa", "ptotalvia": 7.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674910623264388, -26.894682931942935 ], [ -48.674606420157019, -26.894442268089957 ] ] } }
 ]
 }

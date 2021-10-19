@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0055230110", "cod": 143, "nome": "R.Alice dos Santos Bittencourt", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.709202623227412, -26.910765970383764 ], [ -48.708836478441846, -26.910783718603493 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0055230110", "cod": 1293, "nome": "R.Leopoldo Cristiano de Miranda", "ptotalvia": 20.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70902767456856, -26.910677906999339 ], [ -48.708848075760052, -26.910754781888901 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0055230110", "cod": 143.0, "nome": "R.Alice dos Santos Bittencourt", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.709202623227412, -26.910765970383764 ], [ -48.708836478441846, -26.910783718603493 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0055230110", "cod": 1293.0, "nome": "R.Leopoldo Cristiano de Miranda", "ptotalvia": 20.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70902767456856, -26.910677906999343 ], [ -48.708848075760059, -26.910754781888897 ] ] } }
 ]
 }

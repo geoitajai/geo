@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0032130290", "cod": 1183, "nome": "R.Arnaldo Emílio Dalçóquio", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70885371, -26.89362077 ], [ -48.708875464854664, -26.893990243962939 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0032130290", "cod": 1182, "nome": "R.Rosa Orsi Dalcóquio", "ptotalvia": 15.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.708946335442398, -26.893633302313432 ], [ -48.708592519908649, -26.893583616106884 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0032130290", "cod": 1183.0, "nome": "R.Arnaldo Emílio Dalçóquio", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70885371, -26.89362077 ], [ -48.708875464854664, -26.893990243962936 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0032130290", "cod": 1182.0, "nome": "R.Rosa Orsi Dalcóquio", "ptotalvia": 15.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.708946335442398, -26.893633302313432 ], [ -48.708592519908649, -26.893583616106884 ] ] } }
 ]
 }

@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0052680110", "cod": 68, "nome": "R.Bernardina da Rocha", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.684956515489965, -26.895767326218355 ], [ -48.68487241, -26.89584911 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0052680110", "cod": 76, "nome": "R.Luiz Roberto Casas", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68487241, -26.89584911 ], [ -48.68487839440678, -26.896199308784901 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0052680110", "cod": 58, "nome": "R.Osvaldo Becker", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.685193540706187, -26.895845374193087 ], [ -48.68487241, -26.89584911 ], [ -48.684800661022727, -26.895850670422909 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0052680110", "cod": 68.0, "nome": "R.Bernardina da Rocha", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.684956515489965, -26.895767326218355 ], [ -48.68487241, -26.89584911 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0052680110", "cod": 76.0, "nome": "R.Luiz Roberto Casas", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68487241, -26.89584911 ], [ -48.68487839440678, -26.896199308784897 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0052680110", "cod": 58.0, "nome": "R.Osvaldo Becker", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.685193540706187, -26.89584537419309 ], [ -48.68487241, -26.89584911 ], [ -48.684800661022727, -26.895850670422909 ] ] } }
 ]
 }

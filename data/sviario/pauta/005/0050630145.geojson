@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050630145", "cod": 17, "nome": "R.Jovita da Costa Ramos", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693906529685023, -26.903764164307116 ], [ -48.69385658, -26.9037657 ], [ -48.693448041553843, -26.903776613641011 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0050630145", "cod": 50, "nome": "R.Luiz Lopes Gonzaga", "ptotalvia": 13.2, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69385658, -26.9037657 ], [ -48.693857064511846, -26.903795119475248 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0050630145", "cod": 50, "nome": "R.Luiz Lopes Gonzaga", "ptotalvia": 13.2, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69385119919199, -26.903465777840065 ], [ -48.69385658, -26.9037657 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0050630145", "cod": 17.0, "nome": "R.Jovita da Costa Ramos", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693906529685023, -26.903764164307116 ], [ -48.69385658, -26.9037657 ], [ -48.693448041553843, -26.903776613641007 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050630145", "cod": 50.0, "nome": "R.Luiz Lopes Gonzaga", "ptotalvia": 13.2, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69385658, -26.9037657 ], [ -48.693857064511846, -26.903795119475248 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050630145", "cod": 50.0, "nome": "R.Luiz Lopes Gonzaga", "ptotalvia": 13.2, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69385119919199, -26.903465777840065 ], [ -48.69385658, -26.9037657 ] ] } }
 ]
 }

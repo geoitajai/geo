@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0051840360", "cod": 1017, "nome": "R.Francisco Delvan", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696886013430408, -26.928464988285516 ], [ -48.697138410280616, -26.928678885994529 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0051840360", "cod": 1017.0, "nome": "R.Francisco Delvan", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696886013430408, -26.928464988285516 ], [ -48.697138410280616, -26.928678885994529 ] ] } }
 ]
 }

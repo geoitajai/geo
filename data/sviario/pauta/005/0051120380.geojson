@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0051120380", "cod": 114, "nome": "R.Taió", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69662543, -26.9067101 ], [ -48.696572514062019, -26.906712295002244 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0051120380", "cod": 95, "nome": "R.Érico Veríssimo", "ptotalvia": 14.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696611585272883, -26.906443768699937 ], [ -48.69662543, -26.9067101 ], [ -48.69662901739872, -26.906767276866741 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0051120380", "cod": 114.0, "nome": "R.Taió", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69662543, -26.9067101 ], [ -48.696572514062019, -26.906712295002244 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0051120380", "cod": 95.0, "nome": "R.Érico Veríssimo", "ptotalvia": 14.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696611585272883, -26.906443768699937 ], [ -48.69662543, -26.9067101 ], [ -48.69662901739872, -26.906767276866738 ] ] } }
 ]
 }

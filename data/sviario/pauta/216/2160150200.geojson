@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2160150200", "cod": 1573, "nome": "R.Antonia Apollinário", "ptotalvia": 20.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.685942704564184, -26.967968110932194 ], [ -48.6859332, -26.96797084 ], [ -48.68568549, -26.9680158 ], [ -48.68540555, -26.96800809 ], [ -48.685388707158907, -26.96800873651004 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2160150200", "cod": 1573.0, "nome": "R.Antonia Apollinário", "ptotalvia": 20.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.685942704564184, -26.967968110932194 ], [ -48.6859332, -26.96797084 ], [ -48.68568549, -26.9680158 ], [ -48.68540555, -26.96800809 ], [ -48.685388707158907, -26.96800873651004 ] ] } }
 ]
 }

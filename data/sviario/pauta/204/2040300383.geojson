@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040300383", "cod": 281, "nome": "R.Camboriú", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656210492320831, -26.912492851691695 ], [ -48.65613535, -26.91283311 ], [ -48.656115256516053, -26.912882843989724 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040300383", "cod": 626, "nome": "R.Laguna", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656507711847503, -26.912959041158473 ], [ -48.65613535, -26.91283311 ], [ -48.656085083281589, -26.912817027349128 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2040300383", "cod": 281.0, "nome": "R.Camboriú", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656210492320831, -26.912492851691699 ], [ -48.65613535, -26.91283311 ], [ -48.656115256516053, -26.912882843989724 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040300383", "cod": 626.0, "nome": "R.Laguna", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656507711847503, -26.912959041158473 ], [ -48.65613535, -26.91283311 ], [ -48.656085083281589, -26.912817027349131 ] ] } }
 ]
 }

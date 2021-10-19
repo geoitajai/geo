@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0032130700", "cod": 1172, "nome": "R.Enedina D'Avila Ferreira", "ptotalvia": 15.0, "ppasseio1": 3.5, "ppasseio2": 3.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.706094036634624, -26.893446854377181 ], [ -48.706119566300252, -26.893894079710627 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0032130700", "cod": 1172.0, "nome": "R.Enedina D'Avila Ferreira", "ptotalvia": 15.0, "ppasseio1": 3.5, "ppasseio2": 3.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.706094036634624, -26.893446854377181 ], [ -48.706119566300252, -26.893894079710627 ] ] } }
 ]
 }

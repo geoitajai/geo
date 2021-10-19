@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0031200380", "cod": 1165, "nome": "R.Fioravante Russi", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.701003165198415, -26.891815598630224 ], [ -48.701024029263984, -26.892172771261272 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0031200380", "cod": 1165.0, "nome": "R.Fioravante Russi", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.701003165198415, -26.891815598630224 ], [ -48.701024029263984, -26.892172771261272 ] ] } }
 ]
 }

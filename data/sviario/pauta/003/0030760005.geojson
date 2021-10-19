@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0030760005", "cod": 1187, "nome": "R.Santa Catarina", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698178088018906, -26.8879655902807 ], [ -48.69786488, -26.88798245 ], [ -48.697824734951709, -26.887983542276285 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0030760005", "cod": 1161, "nome": "Av.Independência", "ptotalvia": 18.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697835159221412, -26.887600430746279 ], [ -48.69785852, -26.887954069999989 ], [ -48.697860434817308, -26.88802635550017 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0030760005", "cod": 1187.0, "nome": "R.Santa Catarina", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698178088018906, -26.887965590280697 ], [ -48.69786488, -26.88798245 ], [ -48.697824734951709, -26.887983542276285 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0030760005", "cod": 1161.0, "nome": "Av.Independência", "ptotalvia": 18.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697835159221412, -26.887600430746279 ], [ -48.69785852, -26.887954069999989 ], [ -48.697860434817308, -26.88802635550017 ] ] } }
 ]
 }

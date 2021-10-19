@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040120141", "cod": 694, "nome": "R.Amaro Jaques", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65169796, -26.92373708 ], [ -48.651721102420147, -26.92375629212496 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040120141", "cod": 276, "nome": "Av.7 de Setembro", "ptotalvia": 18.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.651721932154075, -26.923722043644013 ], [ -48.65169796, -26.92373708 ], [ -48.651419645098052, -26.923891021433143 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2040120141", "cod": 694.0, "nome": "R.Amaro Jaques", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65169796, -26.92373708 ], [ -48.651721102420147, -26.923756292124956 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040120141", "cod": 276.0, "nome": "Av.7 de Setembro", "ptotalvia": 18.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.651721932154075, -26.923722043644009 ], [ -48.65169796, -26.92373708 ], [ -48.651419645098052, -26.923891021433143 ] ] } }
 ]
 }

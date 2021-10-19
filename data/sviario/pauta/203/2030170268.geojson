@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2030170268", "cod": 1095, "nome": "R.Ver.Telêmaco de Oliveira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700652026883553, -26.887269174499881 ], [ -48.7006752894562, -26.887767813322334 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2030170268", "cod": 1111, "nome": "Av.Dr.Reinaldo Schmithausen", "ptotalvia": 27.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700646840242662, -26.887775159382244 ], [ -48.700395892670521, -26.887738450546177 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2030170268", "cod": 1095.0, "nome": "R.Ver.Telêmaco de Oliveira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700652026883553, -26.887269174499881 ], [ -48.7006752894562, -26.887767813322334 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2030170268", "cod": 1111.0, "nome": "Av.Dr.Reinaldo Schmithausen", "ptotalvia": 27.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700646840242662, -26.887775159382244 ], [ -48.700395892670521, -26.887738450546181 ] ] } }
 ]
 }

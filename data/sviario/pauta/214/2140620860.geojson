@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140620860", "cod": 727, "nome": "R.Artur Torquato Batista", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.646089270286289, -26.932339768651051 ], [ -48.64607319694791, -26.932396164450314 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2140620860", "cod": 732, "nome": "R.Ernestina Lapa de Macedo", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.645565665489237, -26.932411452142578 ], [ -48.645820257389758, -26.932626568257426 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2140620860", "cod": 727.0, "nome": "R.Artur Torquato Batista", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.646089270286289, -26.932339768651051 ], [ -48.64607319694791, -26.932396164450314 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140620860", "cod": 732.0, "nome": "R.Ernestina Lapa de Macedo", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.645565665489237, -26.932411452142574 ], [ -48.645820257389758, -26.932626568257422 ] ] } }
 ]
 }

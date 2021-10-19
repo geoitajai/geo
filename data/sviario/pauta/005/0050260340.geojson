@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050260340", "cod": 18, "nome": "R.Exp.Olímpio José Borges", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.689310627357322, -26.903335584846236 ], [ -48.688947002613858, -26.903346376329292 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0050260340", "cod": 18.0, "nome": "R.Exp.Olímpio José Borges", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.689310627357322, -26.903335584846232 ], [ -48.688947002613858, -26.903346376329289 ] ] } }
 ]
 }

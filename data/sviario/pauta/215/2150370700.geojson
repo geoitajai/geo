@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2150370700", "cod": 1306, "nome": "R.Amaro Belmiro Coelho", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.72499016, -26.84703383 ], [ -48.72465727, -26.84676432 ], [ -48.72427506, -26.846197799999988 ], [ -48.724136793192677, -26.846028907748963 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2150370700", "cod": 1308, "nome": "R.Joaquim Geraldino de Bittencourt", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.725670275456224, -26.846655963914106 ], [ -48.72499016, -26.84703383 ], [ -48.724917552874309, -26.847087891148281 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2150370700", "cod": 1306.0, "nome": "R.Amaro Belmiro Coelho", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.72499016, -26.84703383 ], [ -48.72465727, -26.84676432 ], [ -48.72427506, -26.846197799999988 ], [ -48.724136793192677, -26.846028907748952 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2150370700", "cod": 1308.0, "nome": "R.Joaquim Geraldino de Bittencourt", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.725670275456224, -26.846655963914102 ], [ -48.72499016, -26.84703383 ], [ -48.724917552874309, -26.847087891148281 ] ] } }
 ]
 }

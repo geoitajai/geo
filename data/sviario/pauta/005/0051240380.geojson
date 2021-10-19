@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0051240380", "cod": 905, "nome": "R.Dr.Hermes Atílio Mariani", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.688114339826264, -26.916319244226912 ], [ -48.687732554328988, -26.916338549459894 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0051240380", "cod": 905.0, "nome": "R.Dr.Hermes Atílio Mariani", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.688114339826264, -26.916319244226916 ], [ -48.687732554328988, -26.916338549459894 ] ] } }
 ]
 }

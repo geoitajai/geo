@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0031510270", "cod": 1178, "nome": "Av.Mário Uriarte", "ptotalvia": 30.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.706095994900835, -26.89984191298884 ], [ -48.706046535549248, -26.899833219991052 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0031510270", "cod": 1172, "nome": "R.Enedina D'Avila Ferreira", "ptotalvia": 15.0, "ppasseio1": 3.5, "ppasseio2": 3.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.706427795586578, -26.899404349245263 ], [ -48.706452140521847, -26.899848826543892 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0031510270", "cod": 1178.0, "nome": "Av.Mário Uriarte", "ptotalvia": 30.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.706095994900835, -26.89984191298884 ], [ -48.706046535549248, -26.899833219991056 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031510270", "cod": 1172.0, "nome": "R.Enedina D'Avila Ferreira", "ptotalvia": 15.0, "ppasseio1": 3.5, "ppasseio2": 3.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.706427795586578, -26.899404349245266 ], [ -48.706452140521847, -26.899848826543892 ] ] } }
 ]
 }

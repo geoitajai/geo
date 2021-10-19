@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050930120", "cod": 117, "nome": "R.Agrolândia", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696683977337237, -26.908767939485774 ], [ -48.696323031330046, -26.908785536979245 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0050930120", "cod": 117.0, "nome": "R.Agrolândia", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696683977337237, -26.908767939485777 ], [ -48.696323031330046, -26.908785536979245 ] ] } }
 ]
 }

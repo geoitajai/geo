@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0054830020", "cod": 936, "nome": "R.João Galvão Fernandes", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70443965, -26.92159855 ], [ -48.704203875456393, -26.92181030304782 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0054830020", "cod": 932, "nome": "R.Oscar Silva Justino", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.704390796091701, -26.921554989116085 ], [ -48.70443965, -26.92159855 ], [ -48.704627076762726, -26.921751289196312 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0054830020", "cod": 936.0, "nome": "R.João Galvão Fernandes", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70443965, -26.92159855 ], [ -48.704203875456393, -26.921810303047824 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054830020", "cod": 932.0, "nome": "R.Oscar Silva Justino", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.704390796091701, -26.921554989116085 ], [ -48.70443965, -26.92159855 ], [ -48.704627076762726, -26.921751289196312 ] ] } }
 ]
 }

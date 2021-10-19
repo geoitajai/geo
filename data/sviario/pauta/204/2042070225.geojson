@@ -2,8 +2,9 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2042070225", "cod": 1641, "nome": "Serv. Anatália da Silva", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.652589717268157, -26.933972277029753 ], [ -48.65278794, -26.93389714 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2042070225", "cod": 705, "nome": "R.João Cunha", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6526801229532, -26.933619367113 ], [ -48.65268138, -26.93363057 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2042070225", "cod": 707, "nome": "R.João Fernandes Vieira Junior", "ptotalvia": 10.5, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.652041640279599, -26.933634999388293 ], [ -48.652080840000011, -26.93374848 ], [ -48.652188854382445, -26.933926917486058 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2042070225", "cod": 1641.0, "nome": "Serv. Anatália da Silva", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.652589717268157, -26.933972277029756 ], [ -48.65278794, -26.93389714 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2042070225", "cod": 1758.0, "nome": "Serv.\"F\"", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65261955, -26.93396097 ], [ -48.652664812117287, -26.934038165766502 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2042070225", "cod": 705.0, "nome": "R.João Cunha", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.652707272543338, -26.93362162784824 ], [ -48.65271246, -26.93364064 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2042070225", "cod": 705.0, "nome": "R.João Cunha", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.652707272543338, -26.93362162784824 ], [ -48.65271246, -26.93364064 ] ] } }
 ]
 }

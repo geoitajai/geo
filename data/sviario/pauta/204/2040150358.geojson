@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040150358", "cod": 647, "nome": "R.Agostinho Fernandes Vieira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.651784568629239, -26.921549897045015 ], [ -48.65129422, -26.9218125 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040150358", "cod": 648, "nome": "R.Onze de Junho", "ptotalvia": 13.2, "ppasseio1": 1.9, "ppasseio2": 1.9 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.651107348206544, -26.921479307407484 ], [ -48.65120976, -26.92167106 ], [ -48.65129422, -26.9218125 ], [ -48.651308721187313, -26.921842262140604 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040150358", "cod": 677, "nome": "R.Jorge S.Filho", "ptotalvia": 2.4, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65120976, -26.92167106 ], [ -48.651136926344584, -26.921701799787403 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2040150358", "cod": 647.0, "nome": "R.Agostinho Fernandes Vieira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.651784568629239, -26.921549897045015 ], [ -48.65129422, -26.9218125 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040150358", "cod": 648.0, "nome": "R.Onze de Junho", "ptotalvia": 13.2, "ppasseio1": 1.9, "ppasseio2": 1.9 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.651107348206544, -26.921479307407488 ], [ -48.65120976, -26.92167106 ], [ -48.65129422, -26.9218125 ], [ -48.651308721187313, -26.921842262140608 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040150358", "cod": 677.0, "nome": "R.Jorge S.Filho", "ptotalvia": 2.4, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65120976, -26.92167106 ], [ -48.651136926344584, -26.921701799787403 ] ] } }
 ]
 }

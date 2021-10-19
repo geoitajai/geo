@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0051060170", "cod": 7, "nome": "R.Rio Negrinho", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69664919, -26.90340763 ], [ -48.696165076561485, -26.903437782342781 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0051060170", "cod": 43, "nome": "R.Antônio Carlos Pereira Leão Filho", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696644105102841, -26.903142629088915 ], [ -48.69664919, -26.90340763 ], [ -48.696652166713008, -26.903467311291756 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0051060170", "cod": 7.0, "nome": "R.Rio Negrinho", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69664919, -26.90340763 ], [ -48.696165076561485, -26.903437782342781 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0051060170", "cod": 43.0, "nome": "R.Antônio Carlos Pereira Leão Filho", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696644105102841, -26.903142629088912 ], [ -48.69664919, -26.90340763 ], [ -48.696652166713008, -26.903467311291756 ] ] } }
 ]
 }

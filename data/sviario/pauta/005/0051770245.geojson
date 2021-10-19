@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0051770245", "cod": 980, "nome": "R.Paulo Aridio de França", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700506034775714, -26.924155758112846 ], [ -48.700239691243645, -26.924415848587255 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0051770245", "cod": 980.0, "nome": "R.Paulo Aridio de França", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700506034775707, -26.92415575811285 ], [ -48.700239691243645, -26.924415848587255 ] ] } }
 ]
 }

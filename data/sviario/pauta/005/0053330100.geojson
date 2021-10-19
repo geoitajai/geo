@@ -2,7 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0053330100", "cod": 952, "nome": "R.Peterson André Machado", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695517311392557, -26.923234217732013 ], [ -48.695169022375701, -26.923357504291182 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0053330100", "cod": 952, "nome": "R.Peterson André Machado", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695517311392557, -26.923234217732013 ], [ -48.695169022375701, -26.923357504291182 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0053330100", "cod": 952.0, "nome": "R.Peterson André Machado", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695517311392557, -26.923234217732013 ], [ -48.695169022375701, -26.923357504291179 ] ] } }
 ]
 }

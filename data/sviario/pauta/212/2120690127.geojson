@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2120690127", "cod": 473, "nome": "Trav.Pedro Rita dos Passos", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.672369117986875, -26.884717541348465 ], [ -48.67210608289092, -26.88497130149668 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2120690127", "cod": 473.0, "nome": "Trav.Pedro Rita dos Passos", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.672369117986875, -26.884717541348465 ], [ -48.67210608289092, -26.88497130149668 ] ] } }
 ]
 }

@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050950130", "cod": 48, "nome": "R.Pedro Cristiano de Miranda", "ptotalvia": 13.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695147653949533, -26.910769974997201 ], [ -48.6951566, -26.911011689999984 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0050950130", "cod": 49, "nome": "R.Saul Schead dos Santos", "ptotalvia": 13.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6951566, -26.911011689999984 ], [ -48.695086403732084, -26.911013761119197 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0050950130", "cod": 48.0, "nome": "R.Pedro Cristiano de Miranda", "ptotalvia": 13.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695147653949533, -26.910769974997201 ], [ -48.6951566, -26.911011689999988 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050950130", "cod": 49.0, "nome": "R.Saul Schead dos Santos", "ptotalvia": 13.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6951566, -26.911011689999988 ], [ -48.695086403732084, -26.9110137611192 ] ] } }
 ]
 }

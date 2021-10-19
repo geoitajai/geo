@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0054960170", "cod": 891, "nome": "R.Mônica Gizele Elisio", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691880482504779, -26.931203334843261 ], [ -48.692170300617214, -26.93135556444437 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0054960170", "cod": 926, "nome": "Av.Min.Luiz Gallotti", "ptotalvia": 17.2, "ppasseio1": 3.25, "ppasseio2": 3.25 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692186226064443, -26.931378051477623 ], [ -48.69195355955074, -26.931589623641411 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0054960170", "cod": 891.0, "nome": "R.Mônica Gizele Elisio", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691880482504779, -26.931203334843261 ], [ -48.692170300617214, -26.93135556444437 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054960170", "cod": 926.0, "nome": "Av.Min.Luiz Gallotti", "ptotalvia": 17.2, "ppasseio1": 3.25, "ppasseio2": 3.25 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692186226064443, -26.931378051477623 ], [ -48.69195355955074, -26.931589623641411 ] ] } }
 ]
 }

@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0030960070", "cod": 1209, "nome": "R.Salvador", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.699883120130195, -26.898683431915664 ], [ -48.69980147, -26.89868695 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0030960070", "cod": 1210, "nome": "R.Minas Gerais", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69980147, -26.89868695 ], [ -48.699511644120712, -26.898760338634006 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0030960070", "cod": 1213, "nome": "Trav.Terezinha", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.699783228038321, -26.898368052375744 ], [ -48.69980147, -26.89868695 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0030960070", "cod": 1209.0, "nome": "R.Salvador", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.699883120130195, -26.898683431915664 ], [ -48.69980147, -26.89868695 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0030960070", "cod": 1210.0, "nome": "R.Minas Gerais", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69980147, -26.89868695 ], [ -48.699511644120712, -26.898760338634009 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0030960070", "cod": 1213.0, "nome": "Trav.Teresina ", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.699783228038321, -26.898368052375748 ], [ -48.69980147, -26.89868695 ] ] } }
 ]
 }

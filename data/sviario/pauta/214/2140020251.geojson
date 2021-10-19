@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140020251", "cod": 667, "nome": "R.Antônio Bonanomi", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.647783895223789, -26.921499756468197 ], [ -48.64774356, -26.92183544 ], [ -48.647647793105349, -26.92191241010066 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2140020251", "cod": 667.0, "nome": "R.Antônio Bonanomi", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.647783895223789, -26.921499756468201 ], [ -48.64774356, -26.92183544 ], [ -48.647647793105349, -26.92191241010066 ] ] } }
 ]
 }

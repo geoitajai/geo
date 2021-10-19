@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010750289", "cod": 374, "nome": "R.José Paulo da Silva", "ptotalvia": 9.5, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.663570243410291, -26.914609067871211 ], [ -48.663854862276636, -26.914823988371705 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2010750289", "cod": 374.0, "nome": "R.José Paulo da Silva", "ptotalvia": 9.5, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.663570243410291, -26.914609067871211 ], [ -48.663854862276636, -26.914823988371708 ] ] } }
 ]
 }

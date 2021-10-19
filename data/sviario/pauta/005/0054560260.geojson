@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0054560260", "cod": 986, "nome": "R.Arlindo Werner", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702276438205985, -26.926303978014602 ], [ -48.702043497571246, -26.926531145812927 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0054560260", "cod": 986.0, "nome": "R.Arlindo Werner", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702276438205985, -26.926303978014602 ], [ -48.702043497571246, -26.926531145812927 ] ] } }
 ]
 }

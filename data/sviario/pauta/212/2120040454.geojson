@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2120040454", "cod": 196, "nome": "R.Antônio Ramos", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.681797859989693, -26.899256288916678 ], [ -48.681428687971078, -26.899276330529535 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2120040454", "cod": 196.0, "nome": "R.Antônio Ramos", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.681797859989693, -26.899256288916678 ], [ -48.681428687971078, -26.899276330529535 ] ] } }
 ]
 }

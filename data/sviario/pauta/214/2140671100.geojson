@@ -2,8 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140671100", "cod": 1729, "nome": "Serv.Servidão Particular", "ptotalvia": 12.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.64575454, -26.93705937 ], [ -48.64517145, -26.93707188 ], [ -48.64505917, -26.93698511 ], [ -48.645015646290936, -26.936948189056057 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2140671100", "cod": 586, "nome": "Av.Osvaldo Reis", "ptotalvia": 34.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.641194505646993, -26.937578413318167 ], [ -48.641133549934807, -26.93775960732669 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2140671100", "cod": 1653, "nome": "R.Nelson João da Cunha", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.642727425751673, -26.937109961932041 ], [ -48.6428299, -26.9371032 ], [ -48.64344729, -26.9370402 ], [ -48.64371453, -26.93697363 ], [ -48.643739308386529, -26.936966074574219 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2140671100", "cod": 1729.0, "nome": "Serv.Servidão Particular", "ptotalvia": 12.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.64575454, -26.93705937 ], [ -48.64517145, -26.93707188 ], [ -48.64505917, -26.93698511 ], [ -48.644939618936625, -26.936883695346747 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140671100", "cod": 1653.0, "nome": "R.Nelson João da Cunha", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.642933681279935, -26.937092610097601 ], [ -48.64344729, -26.9370402 ], [ -48.64371453, -26.93697363 ], [ -48.643829578709592, -26.936938549300255 ] ] } }
 ]
 }

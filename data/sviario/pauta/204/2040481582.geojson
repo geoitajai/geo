@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040481582", "cod": 634, "nome": "R.Gregório Chaves", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.654444726876207, -26.921691258062221 ], [ -48.65426827, -26.92193782 ], [ -48.654242290432073, -26.921974121433443 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040481582", "cod": 1618, "nome": "R.Margarida Tavares", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65426827, -26.92193782 ], [ -48.654357601171974, -26.921982659502866 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2040481582", "cod": 634.0, "nome": "R.Gregório Chaves", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6544447268762, -26.921691258062221 ], [ -48.65426827, -26.92193782 ], [ -48.654242290432087, -26.921974121433404 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040481582", "cod": 1618.0, "nome": "R.Margarida Tavares", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65426827, -26.92193782 ], [ -48.654357601171952, -26.921982659502856 ] ] } }
 ]
 }

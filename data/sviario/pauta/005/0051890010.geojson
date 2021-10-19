@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0051890010", "cod": 1003, "nome": "R.Peter Wallner", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.694225983293663, -26.929617136288009 ], [ -48.694497094160809, -26.92984231325395 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0051890010", "cod": 1003.0, "nome": "R.Peter Wallner", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.694225983293663, -26.929617136288005 ], [ -48.694497094160809, -26.92984231325395 ] ] } }
 ]
 }

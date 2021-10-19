@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010750754", "cod": 374, "nome": "R.José Paulo da Silva", "ptotalvia": 9.5, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.661538915871375, -26.912918436834538 ], [ -48.661758933579513, -26.913102249328389 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010750754", "cod": 266, "nome": "R.Uruguai", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.661730287002733, -26.912638835139077 ], [ -48.661532171379086, -26.912906566685809 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2010750754", "cod": 374.0, "nome": "R.José Paulo da Silva", "ptotalvia": 9.5, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.661538915871375, -26.912918436834534 ], [ -48.661758933579513, -26.913102249328393 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010750754", "cod": 266.0, "nome": "R.Uruguai", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.661730287002733, -26.912638835139074 ], [ -48.661532171379086, -26.912906566685812 ] ] } }
 ]
 }

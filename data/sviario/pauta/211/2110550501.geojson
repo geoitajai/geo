@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110550501", "cod": 265, "nome": "Av.Ver.Abrahão João Francisco", "ptotalvia": 29.4, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.667489616921614, -26.917509669714075 ], [ -48.667242842574808, -26.917342198970942 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110550501", "cod": 1545, "nome": "R.Lauro Coninck", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.667617323193198, -26.917101121894575 ], [ -48.667242642775335, -26.917340794143108 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2110550501", "cod": 265.0, "nome": "Av.Ver.Abrahão João Francisco", "ptotalvia": 29.4, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.667489616921614, -26.917509669714072 ], [ -48.667242842574801, -26.917342198970946 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110550501", "cod": 1545.0, "nome": "R.Lauro Coninck", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.667617323193198, -26.917101121894575 ], [ -48.667242642775335, -26.917340794143104 ] ] } }
 ]
 }

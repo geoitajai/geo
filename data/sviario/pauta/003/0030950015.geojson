@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0030950015", "cod": 1208, "nome": "R.Goiás", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698817819736888, -26.898243736414845 ], [ -48.698459856967837, -26.898255162918378 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0030950015", "cod": 1208.0, "nome": "R.Goiás", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698817819736888, -26.898243736414845 ], [ -48.698459856967837, -26.898255162918378 ] ] } }
 ]
 }

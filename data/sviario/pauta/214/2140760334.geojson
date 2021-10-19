@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140760334", "cod": 803, "nome": "R.Valdir Martins", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.63959472446416, -26.954405400205804 ], [ -48.63932889, -26.95443322 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2140760334", "cod": 791, "nome": "R.Theodoro Lino Martins", "ptotalvia": 7.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.639557684806149, -26.954123524747928 ], [ -48.63952136, -26.95412636 ], [ -48.639161532564053, -26.954153661818744 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2140760334", "cod": 803.0, "nome": "R.Valdir Martins", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.63959472446416, -26.954405400205808 ], [ -48.63932889, -26.95443322 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140760334", "cod": 791.0, "nome": "R.Theodoro Lino Martins", "ptotalvia": 7.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.639557684806149, -26.954123524747928 ], [ -48.63952136, -26.95412636 ], [ -48.639161532564053, -26.954153661818744 ] ] } }
 ]
 }

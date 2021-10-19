@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050120040", "cod": 107, "nome": "R.Profª.Erotides da Silva Fontes", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68604146, -26.909672219999987 ], [ -48.686491231681856, -26.909655911251608 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0050120040", "cod": 111, "nome": "R.Ver.Sabino Anastácio Paulo", "ptotalvia": 8.5, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68595454, -26.90989161 ], [ -48.685874252598175, -26.909892505094657 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0050120040", "cod": 84, "nome": "R.São Vicente", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.686071774307379, -26.909597785690469 ], [ -48.68604146, -26.909672219999987 ], [ -48.685908284948866, -26.909998303987528 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0050120040", "cod": 107.0, "nome": "R.Profª.Erotides da Silva Fontes", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68604146, -26.909672219999987 ], [ -48.686491231681856, -26.909655911251608 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050120040", "cod": 111.0, "nome": "R.Ver.Sabino Anastácio Paulo", "ptotalvia": 8.5, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68595454, -26.90989161 ], [ -48.685874252598175, -26.909892505094657 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050120040", "cod": 84.0, "nome": "R.São Vicente", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.686071774307379, -26.909597785690465 ], [ -48.68604146, -26.909672219999987 ], [ -48.685908284948866, -26.909998303987528 ] ] } }
 ]
 }

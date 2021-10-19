@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2151740010", "cod": 1326, "nome": "R.João Ardigó", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.751979870632809, -26.882672745656571 ], [ -48.75201432, -26.8829915 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2151740010", "cod": 1322, "nome": "R.Marcos Antônio Müller", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.75225774, -26.88297687 ], [ -48.75201432, -26.8829915 ], [ -48.751960653036427, -26.882995408387483 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2151740010", "cod": 1326.0, "nome": "R.João Ardigó", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.751979870632809, -26.882672745656571 ], [ -48.75201432, -26.8829915 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2151740010", "cod": 1322.0, "nome": "R.Marcos Antônio Müller", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.75225774, -26.88297687 ], [ -48.75201432, -26.8829915 ], [ -48.751960653036427, -26.882995408387483 ] ] } }
 ]
 }

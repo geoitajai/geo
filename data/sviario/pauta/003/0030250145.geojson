@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0030250145", "cod": 1116, "nome": "R.Jovito Anacleto", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692209242148252, -26.894058317604522 ], [ -48.69221588, -26.89418544 ], [ -48.69222990794033, -26.894417183773438 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0030250145", "cod": 1128, "nome": "R.Boa Vista", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69221588, -26.89418544 ], [ -48.692117873221427, -26.894189044739811 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0030250145", "cod": 1116.0, "nome": "R.Jovito Anacleto", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692209242148252, -26.894058317604525 ], [ -48.69221588, -26.89418544 ], [ -48.69222990794033, -26.894417183773438 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0030250145", "cod": 1128.0, "nome": "R.Boa Vista", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69221588, -26.89418544 ], [ -48.692117873221427, -26.894189044739811 ] ] } }
 ]
 }

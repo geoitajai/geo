@@ -2,9 +2,9 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010470063", "cod": 360, "nome": "R.Treze de Maio", "ptotalvia": 13.6, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66202241, -26.90910909 ], [ -48.662076736590961, -26.909150932540403 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010470063", "cod": 361, "nome": "R.Profª.Zélia de Souza e Silva", "ptotalvia": 4.2, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66181266, -26.90936686 ], [ -48.661852406560762, -26.909398783443493 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010470063", "cod": 365, "nome": "R.Marcilio Dias", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.661418100394904, -26.909172960969116 ], [ -48.66181266, -26.90936686 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010470063", "cod": 353, "nome": "R.João Bauer", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.662077431897913, -26.909037722194334 ], [ -48.66202241, -26.90910909 ], [ -48.661782505838012, -26.909403719942944 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2010470063", "cod": 360.0, "nome": "R.Treze de Maio", "ptotalvia": 13.6, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66202241, -26.90910909 ], [ -48.662076736590961, -26.909150932540403 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010470063", "cod": 361.0, "nome": "R.Profª.Zélia de Souza e Silva", "ptotalvia": 4.2, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66181266, -26.90936686 ], [ -48.661852406560762, -26.909398783443496 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010470063", "cod": 365.0, "nome": "R.Marcilio Dias", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.661418100394904, -26.909172960969126 ], [ -48.66181266, -26.90936686 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010470063", "cod": 353.0, "nome": "R.João Bauer", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.662077431897913, -26.909037722194331 ], [ -48.66202241, -26.90910909 ], [ -48.661782505838012, -26.909403719942947 ] ] } }
 ]
 }

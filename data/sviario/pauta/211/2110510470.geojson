@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110510470", "cod": 385, "nome": "R.Manoel Correa", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.667330237819321, -26.916619386861889 ], [ -48.667321832158009, -26.916612908177648 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110510470", "cod": 388, "nome": "Bc.Aldo", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.667231418699679, -26.916950044402817 ], [ -48.6672123, -26.91667545 ], [ -48.667276724080764, -26.916592481105695 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2110510470", "cod": 385.0, "nome": "R.Manoel Correa", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.667330237819321, -26.916619386861889 ], [ -48.667321832158009, -26.916612908177648 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110510470", "cod": 388.0, "nome": "Bc.Aldo", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.667231418699679, -26.916950044402814 ], [ -48.6672123, -26.91667545 ], [ -48.667276724080764, -26.916592481105695 ] ] } }
 ]
 }

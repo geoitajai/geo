@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2030210349", "cod": 1104, "nome": "R.Abílio Corrêa Mello", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.703249102663847, -26.883170297370267 ], [ -48.7032535, -26.88324368 ], [ -48.70326814332774, -26.883510415865967 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2030210349", "cod": 1110, "nome": "R.Sebastião Romeu Soares", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.703636428070034, -26.883230487939013 ], [ -48.7032535, -26.88324368 ], [ -48.703169395748368, -26.883247017940043 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2030210349", "cod": 1104.0, "nome": "R.Abílio Corrêa Mello", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.703249102663847, -26.883170297370267 ], [ -48.7032535, -26.88324368 ], [ -48.70326814332774, -26.883510415865967 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2030210349", "cod": 1110.0, "nome": "R.Sebastião Romeu Soares", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.703636428070041, -26.883230487939013 ], [ -48.7032535, -26.88324368 ], [ -48.703169395748368, -26.88324701794004 ] ] } }
 ]
 }

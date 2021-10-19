@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2120160466", "cod": 165, "nome": "R.Jassão dos Santos", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.678897021533579, -26.894098496296255 ], [ -48.67845176865525, -26.894112571107833 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2120160466", "cod": 165.0, "nome": "R.Jassão dos Santos", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.678897021533579, -26.894098496296255 ], [ -48.67845176865525, -26.894112571107833 ] ] } }
 ]
 }

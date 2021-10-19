@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2151470030", "cod": 1312, "nome": "R.Alberto Dagnoni", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.746346158146373, -26.877659210377928 ], [ -48.74637719, -26.87801117 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2151470030", "cod": 1331, "nome": "R.Dalva Santos Estanislau", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.746456114387364, -26.878004475656194 ], [ -48.74637719, -26.87801117 ], [ -48.74606020149961, -26.878025626527705 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2151470030", "cod": 1312.0, "nome": "R.Alberto Dagnoni", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.746346158146373, -26.877659210377928 ], [ -48.74637719, -26.87801117 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2151470030", "cod": 1331.0, "nome": "R.Dalva Santos Estanislau", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.746456114387364, -26.878004475656194 ], [ -48.74637719, -26.87801117 ], [ -48.74606020149961, -26.878025626527702 ] ] } }
 ]
 }

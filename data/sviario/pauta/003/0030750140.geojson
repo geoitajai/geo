@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0030750140", "cod": 1162, "nome": "R.Nossa Senhora de Fátima", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698887016626237, -26.888376666770998 ], [ -48.698898706007469, -26.888735125211184 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0030750140", "cod": 1188, "nome": "R.Paraná", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69856184, -26.88849127 ], [ -48.698432548565272, -26.888494954266136 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0030750140", "cod": 1162.0, "nome": "R.Nossa Senhora de Fátima", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698887016626237, -26.888376666770995 ], [ -48.698898706007469, -26.888735125211188 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0030750140", "cod": 1188.0, "nome": "R.Paraná", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69856184, -26.88849127 ], [ -48.698432548565272, -26.88849495426614 ] ] } }
 ]
 }

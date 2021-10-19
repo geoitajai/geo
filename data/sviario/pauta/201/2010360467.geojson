@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010360467", "cod": 296, "nome": "R.Gil Stein Ferreira", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.661115502704256, -26.907723744511234 ], [ -48.660754893128001, -26.907613070787598 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2010360467", "cod": 296.0, "nome": "R.Gil Stein Ferreira", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.661115502704256, -26.907723744511234 ], [ -48.660754893128001, -26.907613070787598 ] ] } }
 ]
 }

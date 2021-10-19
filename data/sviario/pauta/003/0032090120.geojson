@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0032090120", "cod": 1225, "nome": "R.Campo Grande", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.701221027283871, -26.893819345921891 ], [ -48.70113043, -26.89382017 ], [ -48.700852497486622, -26.893837457539149 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0032090120", "cod": 1165, "nome": "R.Fioravante Russi", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.701125012999029, -26.893749558530754 ], [ -48.70113043, -26.89382017 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0032090120", "cod": 1225.0, "nome": "R.Campo Grande", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.701221027283871, -26.893819345921891 ], [ -48.70113043, -26.89382017 ], [ -48.700852497486622, -26.893837457539149 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0032090120", "cod": 1165.0, "nome": "R.Fioravante Russi", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.701125012999029, -26.893749558530754 ], [ -48.70113043, -26.89382017 ] ] } }
 ]
 }

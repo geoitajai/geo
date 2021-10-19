@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050340105", "cod": 108, "nome": "R.Alvina Ramos", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.690207615609935, -26.909954703901775 ], [ -48.689827315065351, -26.909966272091896 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0050340105", "cod": 108.0, "nome": "R.Alvina Ramos", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.690207615609935, -26.909954703901775 ], [ -48.689827315065351, -26.909966272091896 ] ] } }
 ]
 }

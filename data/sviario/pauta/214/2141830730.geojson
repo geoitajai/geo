@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2141830730", "cod": 822, "nome": "R.Luci Canziani", "ptotalvia": 26.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.63698296568429, -26.944188419469153 ], [ -48.636711893793809, -26.944230542616335 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2141830730", "cod": 825, "nome": "R.Argemiro Mendonça", "ptotalvia": 5.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.637085733139187, -26.944279901964673 ], [ -48.637114744145421, -26.944456809362318 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2141830730", "cod": 822.0, "nome": "R.Luci Canziani", "ptotalvia": 26.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.63698296568429, -26.944188419469157 ], [ -48.636711893793809, -26.944230542616339 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2141830730", "cod": 825.0, "nome": "R.Argemiro Mendonça", "ptotalvia": 5.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.637085733139187, -26.944279901964673 ], [ -48.637114744145421, -26.944456809362318 ] ] } }
 ]
 }

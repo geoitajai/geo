@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010890607", "cod": 393, "nome": "R.José Joaquim dos Santos", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.663273803375418, -26.912421347724507 ], [ -48.662930533786671, -26.912143862389868 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2010890607", "cod": 393.0, "nome": "R.José Joaquim dos Santos", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.663273803375418, -26.912421347724507 ], [ -48.662930533786671, -26.912143862389865 ] ] } }
 ]
 }

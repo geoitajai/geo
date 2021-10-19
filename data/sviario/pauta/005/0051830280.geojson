@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0051830280", "cod": 894, "nome": "R.Agílio Cunha", "ptotalvia": 15.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696672165484834, -26.927565456798167 ], [ -48.69692722516853, -26.927777264145526 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0051830280", "cod": 894.0, "nome": "R.Agílio Cunha", "ptotalvia": 15.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696672165484834, -26.92756545679817 ], [ -48.69692722516853, -26.927777264145526 ] ] } }
 ]
 }

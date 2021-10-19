@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0030081190", "cod": 1119, "nome": "R.Pedro Camilo Vicente", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.689878621449431, -26.889715309456548 ], [ -48.689912471037729, -26.890111941474345 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0030081190", "cod": 1119.0, "nome": "R.Pedro Camilo Vicente", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.689878621449431, -26.889715309456548 ], [ -48.689912471037729, -26.890111941474348 ] ] } }
 ]
 }

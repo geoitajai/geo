@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2031120230", "cod": 1101, "nome": "R.José Francisco Mateus", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70481105481695, -26.880836337485174 ], [ -48.70481454, -26.88090165 ], [ -48.704834016798252, -26.881236067976307 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2031120230", "cod": 1108, "nome": "R.Eurípedes Amorim Leal", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.705161254371056, -26.880884989411449 ], [ -48.70481454, -26.88090165 ], [ -48.70474242178642, -26.880905333991628 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2031120230", "cod": 1101.0, "nome": "R.José Francisco Mateus", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70481105481695, -26.880836337485174 ], [ -48.70481454, -26.88090165 ], [ -48.704834016798252, -26.88123606797631 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2031120230", "cod": 1108.0, "nome": "R.Eurípedes Amorim Leal", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.705161254371056, -26.880884989411449 ], [ -48.70481454, -26.88090165 ], [ -48.70474242178642, -26.880905333991628 ] ] } }
 ]
 }

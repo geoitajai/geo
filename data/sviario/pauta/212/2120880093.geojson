@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2120880093", "cod": 407, "nome": "Trav.Bubi Kobar", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.684833698686262, -26.891477667545157 ], [ -48.684578676141534, -26.891728556832501 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2120880093", "cod": 408, "nome": "Trav.Paulo Fuck", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.685225073764521, -26.891785294333623 ], [ -48.684975178001153, -26.892035563600281 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2120880093", "cod": 407.0, "nome": "Trav.Bubi Kobar", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.684833698686262, -26.891477667545153 ], [ -48.684578676141534, -26.891728556832501 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2120880093", "cod": 408.0, "nome": "Trav.Paulo Fuck", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.685225073764521, -26.891785294333619 ], [ -48.684975178001153, -26.892035563600277 ] ] } }
 ]
 }

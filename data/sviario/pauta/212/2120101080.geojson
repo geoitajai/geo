@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2120101080", "cod": 170.0, "nome": "R.Anísio Costa", "ptotalvia": 7.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676674494585207, -26.896084024393001 ], [ -48.676350251205655, -26.895822918815387 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2120101080", "cod": 168.0, "nome": "R.João Melquíades Fernandes", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676835013535374, -26.895798251580111 ], [ -48.676353611584616, -26.895814563379098 ] ] } }
+]
+}

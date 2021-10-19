@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110310766", "cod": 487, "nome": "R.Aristides Francisco Palumbo", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.673693091568708, -26.914158765087553 ], [ -48.67371697, -26.91450822 ], [ -48.673720723233096, -26.914581122663684 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110310766", "cod": 499, "nome": "R.Rosendo Claudino de Freitas", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.673628330721911, -26.914512743184318 ], [ -48.67371697, -26.91450822 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110310766", "cod": 499, "nome": "R.Rosendo Claudino de Freitas", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67371697, -26.91450822 ], [ -48.674009624999321, -26.914492811454174 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2110310766", "cod": 487.0, "nome": "R.Aristides Francisco Palumbo", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.673693091568708, -26.914158765087553 ], [ -48.67371697, -26.91450822 ], [ -48.673720723233096, -26.914581122663684 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110310766", "cod": 499.0, "nome": "R.Rosendo Claudino de Freitas", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.673628330721904, -26.914512743184314 ], [ -48.67371697, -26.91450822 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110310766", "cod": 499.0, "nome": "R.Rosendo Claudino de Freitas", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67371697, -26.91450822 ], [ -48.674009624999321, -26.914492811454174 ] ] } }
 ]
 }

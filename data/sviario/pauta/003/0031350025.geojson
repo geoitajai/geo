@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0031350025", "cod": 1169, "nome": "R.Selso Duarte Moreira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.704095355760153, -26.890686221333755 ], [ -48.70409946, -26.89075104 ], [ -48.704118347904974, -26.891058592870888 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0031350025", "cod": 1231, "nome": "R.Hermes Guedes da Fonseca", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.704163149846615, -26.890749408347638 ], [ -48.70409946, -26.89075104 ], [ -48.703681370787478, -26.890773300097639 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0031350025", "cod": 1169.0, "nome": "R.Selso Duarte Moreira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.704095355760153, -26.890686221333755 ], [ -48.70409946, -26.89075104 ], [ -48.704118347904974, -26.891058592870884 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031350025", "cod": 1231.0, "nome": "R.Hermes Guedes da Fonseca", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.704163149846615, -26.890749408347634 ], [ -48.70409946, -26.89075104 ], [ -48.703681370787478, -26.890773300097639 ] ] } }
 ]
 }

@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0052920550", "cod": 107, "nome": "R.Profª.Erotides da Silva Fontes", "ptotalvia": 20.0, "ppasseio1": 3.5, "ppasseio2": 3.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.701608754621638, -26.909187435849638 ], [ -48.70199154, -26.90916765 ], [ -48.702021685372323, -26.90916608151371 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0052920550", "cod": 118, "nome": "R.Joaçaba", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.701990928128595, -26.90915559914172 ], [ -48.70199154, -26.90916765 ], [ -48.70200670853793, -26.909454364564198 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0052920550", "cod": 107.0, "nome": "R.Profª.Erotides da Silva Fontes", "ptotalvia": 20.0, "ppasseio1": 3.5, "ppasseio2": 3.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.701608754621638, -26.909187435849638 ], [ -48.70199154, -26.90916765 ], [ -48.702021685372323, -26.909166081513717 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0052920550", "cod": 118.0, "nome": "R.Joaçaba", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.701990928128595, -26.909155599141723 ], [ -48.70199154, -26.90916765 ], [ -48.702006708537922, -26.909454364564201 ] ] } }
 ]
 }

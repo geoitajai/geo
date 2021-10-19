@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0053130045", "cod": 31, "nome": "R.Israel de Almeida", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.703656082524404, -26.908337816798717 ], [ -48.703674960108017, -26.908697733468255 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0053130045", "cod": 31.0, "nome": "R.Israel de Almeida", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.703656082524404, -26.908337816798717 ], [ -48.703674960108017, -26.908697733468255 ] ] } }
 ]
 }

@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040130817", "cod": 649, "nome": "R.Dr.Francisco Rangel", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65193287, -26.92206783 ], [ -48.6520812, -26.92223865 ], [ -48.651956921049475, -26.922580059451509 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2040130817", "cod": 649.0, "nome": "R.Dr.Francisco Rangel", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65193287, -26.92206783 ], [ -48.6520812, -26.92223865 ], [ -48.651956921049475, -26.922580059451512 ] ] } }
 ]
 }

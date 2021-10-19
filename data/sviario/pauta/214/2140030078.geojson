@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140030078", "cod": 666, "nome": "R.Antônio Rocha D´Andrade", "ptotalvia": 12.8, "ppasseio1": 2.3, "ppasseio2": 2.3 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.648119449448579, -26.922760662146029 ], [ -48.64801549, -26.9225408 ], [ -48.6479507260727, -26.922464712204814 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2140030078", "cod": 668, "nome": "R.Leopoldo Ternes", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.648184705424121, -26.922379346593686 ], [ -48.64801549, -26.9225408 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2140030078", "cod": 666.0, "nome": "R.Antônio Rocha D´Andrade", "ptotalvia": 12.8, "ppasseio1": 2.3, "ppasseio2": 2.3 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.648119449448579, -26.922760662146029 ], [ -48.64801549, -26.9225408 ], [ -48.6479507260727, -26.92246471220481 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140030078", "cod": 668.0, "nome": "R.Leopoldo Ternes", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.648184705424121, -26.922379346593686 ], [ -48.64801549, -26.9225408 ] ] } }
 ]
 }

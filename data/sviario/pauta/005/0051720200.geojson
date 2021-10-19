@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0051720200", "cod": 926, "nome": "Av.Min.Luiz Gallotti", "ptotalvia": 17.2, "ppasseio1": 3.25, "ppasseio2": 3.25 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.701760145127622, -26.922180861624216 ], [ -48.70172423, -26.922216989999988 ], [ -48.701502543926793, -26.922429663276361 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0051720200", "cod": 941, "nome": "R.Fabiano e Silva Marques", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702031431309067, -26.922478931619931 ], [ -48.701695475196111, -26.922191948532092 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0051720200", "cod": 926.0, "nome": "Av.Min.Luiz Gallotti", "ptotalvia": 17.2, "ppasseio1": 3.25, "ppasseio2": 3.25 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.701760145127622, -26.922180861624216 ], [ -48.70172423, -26.92221699 ], [ -48.701502543926793, -26.922429663276365 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0051720200", "cod": 941.0, "nome": "R.Fabiano e Silva Marques", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702031431309067, -26.922478931619928 ], [ -48.701695475196111, -26.922191948532095 ] ] } }
 ]
 }

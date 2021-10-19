@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2141070256", "cod": 793, "nome": "R.Duílio Furlan", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.629968105289343, -26.947412276421932 ], [ -48.62991596, -26.94741569 ], [ -48.62945448764237, -26.947463117146953 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2141070256", "cod": 794, "nome": "R.Dr.Lauro Mussi", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.62991596, -26.94741569 ], [ -48.629938087023149, -26.947713195609413 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2141070256", "cod": 793.0, "nome": "R.Duílio Furlan", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.629968105289343, -26.947412276421932 ], [ -48.62991596, -26.94741569 ], [ -48.62945448764237, -26.947463117146953 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2141070256", "cod": 794.0, "nome": "R.Dr.Lauro Mussi", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.62991596, -26.94741569 ], [ -48.629938087023149, -26.94771319560941 ] ] } }
 ]
 }

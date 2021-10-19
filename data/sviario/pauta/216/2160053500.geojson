@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2160053500", "cod": 1552, "nome": "R.Alexandre Moser", "ptotalvia": 20.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.733520434474372, -26.947385763915211 ], [ -48.73362409360719, -26.948457995667059 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2160053500", "cod": 1552.0, "nome": "R.Alexandre Moser", "ptotalvia": 20.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.733520434474372, -26.947385763915211 ], [ -48.73362409360719, -26.948457995667059 ] ] } }
 ]
 }

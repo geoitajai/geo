@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2031810095", "cod": 1049, "nome": "R.Agostinho Soares", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692010876846496, -26.869506228528529 ], [ -48.691653096144584, -26.869511924922154 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2031810095", "cod": 1049.0, "nome": "R.Agostinho Soares", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692010876846496, -26.869506228528529 ], [ -48.691653096144584, -26.869511924922151 ] ] } }
 ]
 }

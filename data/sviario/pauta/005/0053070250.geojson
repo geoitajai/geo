@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0053070250", "cod": 31, "nome": "R.Israel de Almeida", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.703848241563719, -26.911830166773267 ], [ -48.703866795694026, -26.912171785140337 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0053070250", "cod": 1294, "nome": "R.Luiza Pereira Cardoso", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.704365621495107, -26.911858038825692 ], [ -48.70428581, -26.91186163 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0053070250", "cod": 31.0, "nome": "R.Israel de Almeida", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.703848241563719, -26.911830166773267 ], [ -48.703866795694026, -26.912171785140334 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0053070250", "cod": 1294.0, "nome": "R.Luiza Pereira Cardoso", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.704365621495107, -26.911858038825695 ], [ -48.70428581, -26.91186163 ] ] } }
 ]
 }

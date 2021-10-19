@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2030910060", "cod": 1087, "nome": "R.João Emiliano da Silva", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69629725710103, -26.880419060254134 ], [ -48.696310519798608, -26.880758428936975 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2030910060", "cod": 1087.0, "nome": "R.João Emiliano da Silva", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69629725710103, -26.880419060254134 ], [ -48.696310519798608, -26.880758428936975 ] ] } }
 ]
 }

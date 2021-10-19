@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0031360870", "cod": 1203, "nome": "R.Osvaldo Cruz", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70406129653945, -26.893112237940937 ], [ -48.70395432, -26.89311902 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0031360870", "cod": 1203, "nome": "R.Osvaldo Cruz", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70395432, -26.89311902 ], [ -48.703632819777233, -26.89313940238042 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0031360870", "cod": 1203.0, "nome": "R.Osvaldo Cruz", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70406129653945, -26.893112237940937 ], [ -48.70395432, -26.89311902 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031360870", "cod": 1203.0, "nome": "R.Osvaldo Cruz", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70395432, -26.89311902 ], [ -48.703632819777233, -26.89313940238042 ] ] } }
 ]
 }

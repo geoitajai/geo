@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020460278", "cod": 176, "nome": "R.Altino Werner", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674820829756037, -26.896217354516295 ], [ -48.67513982, -26.89647822 ], [ -48.675183812423583, -26.896514361539555 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020460278", "cod": 161, "nome": "Av.Irineu Bornhausen", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675324063634307, -26.896291085911596 ], [ -48.67513982, -26.89647822 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020460278", "cod": 161, "nome": "Av.Irineu Bornhausen", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67513982, -26.89647824 ], [ -48.675088570289297, -26.896531560961513 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2020460278", "cod": 176.0, "nome": "R.Altino Werner", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674820829756037, -26.896217354516292 ], [ -48.67513982, -26.89647822 ], [ -48.675183812423583, -26.896514361539555 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020460278", "cod": 161.0, "nome": "Av.Irineu Bornhausen", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675324063634307, -26.896291085911596 ], [ -48.67513982, -26.89647822 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020460278", "cod": 161.0, "nome": "Av.Irineu Bornhausen", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67513982, -26.89647824 ], [ -48.675088570289304, -26.89653156096151 ] ] } }
 ]
 }

@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2150940245", "cod": 1341, "nome": "Av.Demostenes Feminella Filho", "ptotalvia": 26.0, "ppasseio1": 5.0, "ppasseio2": 5.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.748993813187319, -26.885040868621399 ], [ -48.74888222, -26.88501514 ], [ -48.748514909522363, -26.884965213560044 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2150940245", "cod": 1318, "nome": "R.José Francisco Reis", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.748878463828476, -26.884970025084762 ], [ -48.74888222, -26.88501514 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2150940245", "cod": 1341.0, "nome": "Av.Demostenes Feminella Filho", "ptotalvia": 26.0, "ppasseio1": 5.0, "ppasseio2": 5.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.748993813187319, -26.885040868621395 ], [ -48.74888222, -26.88501514 ], [ -48.748514909522363, -26.884965213560051 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2150940245", "cod": 1318.0, "nome": "R.José Francisco Reis", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.748878463828476, -26.884970025084765 ], [ -48.74888222, -26.88501514 ] ] } }
 ]
 }

@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0052220120", "cod": 91, "nome": "R.Idalino João de Oliveira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.685307555298508, -26.904669534464336 ], [ -48.684945513227689, -26.904655192393687 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0052220120", "cod": 91.0, "nome": "R.Idalino João de Oliveira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.685307555298508, -26.904669534464336 ], [ -48.684945513227689, -26.904655192393687 ] ] } }
 ]
 }

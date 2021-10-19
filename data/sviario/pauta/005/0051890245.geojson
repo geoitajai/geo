@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0051890245", "cod": 1003, "nome": "R.Peter Wallner", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69411911, -26.92952837 ], [ -48.694413202744116, -26.929772635577475 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0051890245", "cod": 926, "nome": "Av.Min.Luiz Gallotti", "ptotalvia": 17.2, "ppasseio1": 3.25, "ppasseio2": 3.25 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.694317022120082, -26.929333092206925 ], [ -48.69411911, -26.92952837 ], [ -48.694073021169274, -26.929571343036351 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0051890245", "cod": 1003.0, "nome": "R.Peter Wallner", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69411911, -26.92952837 ], [ -48.694413202744116, -26.929772635577475 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0051890245", "cod": 926.0, "nome": "Av.Min.Luiz Gallotti", "ptotalvia": 17.2, "ppasseio1": 3.25, "ppasseio2": 3.25 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.694317022120082, -26.929333092206925 ], [ -48.69411911, -26.92952837 ], [ -48.694073021169274, -26.929571343036358 ] ] } }
 ]
 }

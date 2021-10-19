@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2030340313", "cod": 1069, "nome": "R.Altino de Souza", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.705784688422888, -26.872718203939751 ], [ -48.70580919, -26.87324494 ], [ -48.705810397437091, -26.8732706153659 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2030340313", "cod": 1646, "nome": "R.Aloísio Kormann", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70580919, -26.87324494 ], [ -48.705864537108255, -26.873242606064132 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2030340313", "cod": 1069.0, "nome": "R.Altino de Souza", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.705784688422888, -26.872718203939751 ], [ -48.70580919, -26.87324494 ], [ -48.705810397437091, -26.873270615365897 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2030340313", "cod": 1646.0, "nome": "R.Aloísio Kormann", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70580919, -26.87324494 ], [ -48.705864537108255, -26.873242606064128 ] ] } }
 ]
 }

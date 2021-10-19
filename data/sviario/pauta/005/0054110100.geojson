@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0054110100", "cod": 146, "nome": "R.Maria Nunes da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.706443887123456, -26.912413063747707 ], [ -48.7063361, -26.91241699 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0054110100", "cod": 146, "nome": "R.Maria Nunes da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.7063361, -26.91241699 ], [ -48.706097749640747, -26.91242567380413 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0054110100", "cod": 146.0, "nome": "R.Maria Nunes da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.706443887123456, -26.912413063747707 ], [ -48.7063361, -26.91241699 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054110100", "cod": 146.0, "nome": "R.Maria Nunes da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.7063361, -26.91241699 ], [ -48.706097749640747, -26.91242567380413 ] ] } }
 ]
 }

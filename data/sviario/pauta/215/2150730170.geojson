@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2150730170", "cod": 1351, "nome": "R.Pedro Reis", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.735537650360044, -26.877262243572606 ], [ -48.735569338746735, -26.877600053722499 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2150730170", "cod": 1351.0, "nome": "R.Pedro Reis", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.735537650360044, -26.877262243572606 ], [ -48.735569338746735, -26.877600053722499 ] ] } }
 ]
 }

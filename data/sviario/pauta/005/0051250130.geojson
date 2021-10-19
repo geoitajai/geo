@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0051250130", "cod": 893, "nome": "R.Otto Hoier", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.688045716659417, -26.917328276815233 ], [ -48.68768013025381, -26.917346447677126 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0051250130", "cod": 893.0, "nome": "R.Otto Hoier", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.688045716659417, -26.917328276815233 ], [ -48.68768013025381, -26.917346447677122 ] ] } }
 ]
 }

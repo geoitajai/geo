@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2160660030", "cod": 1497, "nome": "R.Mansueto Felizardo Vieira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.75287383, -26.96006091 ], [ -48.75266349, -26.96035768 ], [ -48.752567765917192, -26.960531833689025 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2160660030", "cod": 1429, "nome": "R.Ver.Germano Luiz Vieira", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.753237966271747, -26.960348951447845 ], [ -48.75316201, -26.96032271 ], [ -48.75287383, -26.96006091 ], [ -48.752870755639506, -26.960046935053807 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2160660030", "cod": 1497.0, "nome": "R.Mansueto Felizardo Vieira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.75287383, -26.96006091 ], [ -48.75266349, -26.96035768 ], [ -48.752567765917192, -26.960531833689025 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2160660030", "cod": 1429.0, "nome": "R.Ver.Germano Luiz Vieira", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.753237966271747, -26.960348951447845 ], [ -48.75316201, -26.96032271 ], [ -48.75287383, -26.96006091 ], [ -48.752870755639506, -26.960046935053807 ] ] } }
 ]
 }

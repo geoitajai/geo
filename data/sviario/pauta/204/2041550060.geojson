@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2041550060", "cod": 875, "nome": "R.Elias Brick Adaime", "ptotalvia": 20.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.673842074642153, -26.93384339226283 ], [ -48.67384219402296, -26.934113207647137 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2041550060", "cod": 875.0, "nome": "R.Elias Brick Adaime", "ptotalvia": 20.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.673842074642153, -26.93384339226283 ], [ -48.67384219402296, -26.934113207647137 ] ] } }
 ]
 }

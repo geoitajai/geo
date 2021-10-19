@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040650222", "cod": 694, "nome": "R.Amaro Jaques", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.654668114861778, -26.926191851772536 ], [ -48.654941534229707, -26.926418474524962 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2040650222", "cod": 694.0, "nome": "R.Amaro Jaques", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.654668114861778, -26.92619185177254 ], [ -48.654941534229707, -26.926418474524962 ] ] } }
 ]
 }

@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110380545", "cod": 499, "nome": "R.Rosendo Claudino de Freitas", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67116950674562, -26.914638192360215 ], [ -48.671568310090898, -26.914617848361399 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2110380545", "cod": 499.0, "nome": "R.Rosendo Claudino de Freitas", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67116950674562, -26.914638192360211 ], [ -48.671568310090898, -26.914617848361399 ] ] } }
 ]
 }

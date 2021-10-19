@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0055170010", "cod": 149, "nome": "R.Genésio Tavares", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.707965665601336, -26.913705840783482 ], [ -48.70771905, -26.91371758 ], [ -48.70762594, -26.91372092 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0055170010", "cod": 149, "nome": "R.Genésio Tavares", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70762594, -26.91372092 ], [ -48.707619787026495, -26.913721141072184 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0055170010", "cod": 149.0, "nome": "R.Genésio Tavares", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.707965665601336, -26.913705840783482 ], [ -48.70771905, -26.91371758 ], [ -48.70762594, -26.91372092 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0055170010", "cod": 149.0, "nome": "R.Genésio Tavares", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70762594, -26.91372092 ], [ -48.707619787026495, -26.91372114107218 ] ] } }
 ]
 }

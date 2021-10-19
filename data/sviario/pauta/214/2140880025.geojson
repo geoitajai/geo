@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140880025", "cod": 832, "nome": "R.Eliziário da Rosa", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.63027308, -26.94436298 ], [ -48.629838580427645, -26.94441895691401 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2140880025", "cod": 782, "nome": "R.Delfim Mário Pádua Peixoto", "ptotalvia": 20.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.630332961000747, -26.944727362619837 ], [ -48.63027308, -26.94436298 ], [ -48.630264993808701, -26.944303149549754 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2140880025", "cod": 832.0, "nome": "R.Eliziário da Rosa", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.63027308, -26.94436298 ], [ -48.629838580427645, -26.94441895691401 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140880025", "cod": 782.0, "nome": "R.Delfim Mário Pádua Peixoto", "ptotalvia": 20.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.630332961000747, -26.944727362619837 ], [ -48.63027308, -26.94436298 ], [ -48.630264993808701, -26.94430314954975 ] ] } }
 ]
 }

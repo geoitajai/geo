@@ -2,9 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0053300005", "cod": 948, "nome": "R.Oscar Martins da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69570487346661, -26.921706246996834 ], [ -48.695566868549292, -26.92175469211492 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0053300005", "cod": 948, "nome": "R.Oscar Martins da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69570487346661, -26.921706246996834 ], [ -48.695566868549292, -26.92175469211492 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0053300005", "cod": 958, "nome": "R.Francisco de Mattos Dultra", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695735227889941, -26.921706521900251 ], [ -48.695883376173974, -26.922001425025254 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0053300005", "cod": 958, "nome": "R.Francisco de Mattos Dultra", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695735227889941, -26.921706521900251 ], [ -48.695883376173974, -26.922001425025254 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0053300005", "cod": 948.0, "nome": "R.Oscar Martins da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69570487346661, -26.921706246996838 ], [ -48.695566868549299, -26.92175469211492 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0053300005", "cod": 958.0, "nome": "R.Francisco de Mattos Dultra", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695735227889934, -26.921706521900251 ], [ -48.695883376173974, -26.922001425025258 ] ] } }
 ]
 }

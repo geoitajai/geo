@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2160260440", "cod": 1475, "nome": "R.Clair Brun da Silva", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.709745301120492, -26.94145439444004 ], [ -48.709755282466602, -26.941793244392603 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2160260440", "cod": 1475.0, "nome": "R.Clair Brun da Silva", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.709745301120492, -26.94145439444004 ], [ -48.709755282466602, -26.941793244392603 ] ] } }
 ]
 }

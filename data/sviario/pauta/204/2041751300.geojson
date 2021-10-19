@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2041751300", "cod": 605, "nome": "R.José Marçal Dutra", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.658586281099154, -26.914267622606353 ], [ -48.658078995328275, -26.913878814063988 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2041751300", "cod": 1680, "nome": "R.Marcos Francisco Santana", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65866077, -26.91357712 ], [ -48.658643543417973, -26.913563973993014 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2041751300", "cod": 265, "nome": "Av.Ver.Abrahão João Francisco", "ptotalvia": 29.4, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.658851948555231, -26.91349742195623 ], [ -48.65866077, -26.91357712 ], [ -48.658114489557484, -26.913814482367012 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2041751300", "cod": 605.0, "nome": "R.José Marçal Dutra", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.658586281099147, -26.914267622606353 ], [ -48.658078995328275, -26.913878814063985 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2041751300", "cod": 1680.0, "nome": "R.Marcos Francisco Santana", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65866077, -26.91357712 ], [ -48.658643543417973, -26.913563973993014 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2041751300", "cod": 265.0, "nome": "Av.Ver.Abrahão João Francisco", "ptotalvia": 29.4, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.658851948555231, -26.91349742195623 ], [ -48.65866077, -26.91357712 ], [ -48.658114489557484, -26.913814482367009 ] ] } }
 ]
 }

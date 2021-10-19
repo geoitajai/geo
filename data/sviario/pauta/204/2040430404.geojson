@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040430404", "cod": 611, "nome": "R.Luiz de Gregório", "ptotalvia": 7.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656732273259024, -26.916338561614307 ], [ -48.656438999235398, -26.916105176432517 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2040430404", "cod": 611.0, "nome": "R.Luiz de Gregório", "ptotalvia": 7.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656732273259024, -26.916338561614303 ], [ -48.656438999235391, -26.916105176432517 ] ] } }
 ]
 }

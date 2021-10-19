@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010590168", "cod": 316, "nome": "R.Pereira Neto", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.667051524040502, -26.905903432128749 ], [ -48.667090286699398, -26.906222025112044 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2010590168", "cod": 316.0, "nome": "R.Pereira Neto", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.667051524040502, -26.905903432128749 ], [ -48.667090286699391, -26.906222025112044 ] ] } }
 ]
 }

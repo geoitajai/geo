@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0054970110", "cod": 996, "nome": "R.Marcelino Ponciano", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69176905, -26.9304272 ], [ -48.691719134019586, -26.930360128263466 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0054970110", "cod": 892, "nome": "Av.Ver.Nilo Simas", "ptotalvia": 20.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692020424296565, -26.930065714832569 ], [ -48.69176905, -26.9304272 ], [ -48.691658705199821, -26.930585875553174 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0054970110", "cod": 996.0, "nome": "R.Marcelino Ponciano", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69176905, -26.9304272 ], [ -48.691719134019586, -26.930360128263466 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054970110", "cod": 892.0, "nome": "Av.Ver.Nilo Simas", "ptotalvia": 20.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692020424296565, -26.930065714832573 ], [ -48.69176905, -26.9304272 ], [ -48.691658705199821, -26.93058587555317 ] ] } }
 ]
 }

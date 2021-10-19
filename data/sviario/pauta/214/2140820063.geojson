@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140820063", "cod": 835, "nome": "R.José Manoel da Silva (Praia Brava)", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.629007869722138, -26.941150494272197 ], [ -48.62858834, -26.9411949 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2140820063", "cod": 599, "nome": "Av.Dr.José Medeiros Vieira (Sul)", "ptotalvia": 0.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.628632380187064, -26.941584056483521 ], [ -48.628581190726749, -26.941129040846654 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2140820063", "cod": 835.0, "nome": "R.José Manoel da Silva (Praia Brava)", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.629007888935277, -26.941150492238524 ], [ -48.62858834, -26.9411949 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140820063", "cod": 599.0, "nome": "Av.Dr.José Medeiros Vieira (Sul)", "ptotalvia": 0.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.628647260572244, -26.941695424013425 ], [ -48.628585383954182, -26.941126877744473 ] ] } }
 ]
 }

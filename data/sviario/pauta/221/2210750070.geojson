@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2210750070", "cod": 564, "nome": "R.Henry Pedro Deitos", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.683023743437687, -26.921328752453167 ], [ -48.68296146, -26.92133247 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2210750070", "cod": 565, "nome": "R.Antero Chaves", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.682568347801052, -26.921132077215745 ], [ -48.68292025, -26.92112307 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2210750070", "cod": 564.0, "nome": "R.Henry Pedro Deitos", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.683023743437687, -26.921328752453167 ], [ -48.68296146, -26.92133247 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210750070", "cod": 565.0, "nome": "R.Antero Chaves", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.682568347801052, -26.921132077215745 ], [ -48.68292025, -26.92112307 ] ] } }
 ]
 }

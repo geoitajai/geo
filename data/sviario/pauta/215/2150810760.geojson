@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2150810760", "cod": 1342, "nome": "R.Solange Peirão", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.754372831289231, -26.887040063702155 ], [ -48.7542191, -26.88730222 ], [ -48.754193596386834, -26.887341058899981 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2150810760", "cod": 1342.0, "nome": "R.Solange Peirão", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.754372831289231, -26.887040063702155 ], [ -48.7542191, -26.88730222 ], [ -48.754193596386834, -26.887341058899981 ] ] } }
 ]
 }

@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050080090", "cod": 102, "nome": "R.Dom  Jaime de Barros Câmara", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68828659236258, -26.907531164891083 ], [ -48.687929390969167, -26.907546762618725 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0050080090", "cod": 102.0, "nome": "R.Dom  Jaime de Barros Câmara", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68828659236258, -26.907531164891086 ], [ -48.687929390969167, -26.907546762618725 ] ] } }
 ]
 }

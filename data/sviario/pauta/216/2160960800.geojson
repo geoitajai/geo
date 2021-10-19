@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2160960800", "cod": 1768.0, "nome": "R.Sem denominação oficial", "ptotalvia": 11.0, "ppasseio1": null, "ppasseio2": null }, "geometry": { "type": "LineString", "coordinates": [ [ -48.72455437, -26.97324789 ], [ -48.72482304, -26.97317484 ], [ -48.72518818, -26.97302799 ], [ -48.72573677, -26.97282836 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2160960800", "cod": 1496.0, "nome": "R.Marcos Albino", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.724523804303388, -26.973222503019052 ], [ -48.72471254, -26.97337854 ], [ -48.724785551289081, -26.973479687489686 ] ] } }
+]
+}

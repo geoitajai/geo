@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050271310", "cod": 15, "nome": "R.Arq.Nilson Edson dos Santos", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.690462857218343, -26.905367877570082 ], [ -48.690097348331619, -26.905379167032955 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0050271310", "cod": 15.0, "nome": "R.Arq.Nilson Edson dos Santos", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.690462857218343, -26.905367877570082 ], [ -48.690097348331619, -26.905379167032955 ] ] } }
 ]
 }

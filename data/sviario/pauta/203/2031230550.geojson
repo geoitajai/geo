@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2031230550", "cod": 1025, "nome": "R.Antônio Tironi", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70227971, -26.87169456 ], [ -48.701987399928733, -26.871708566182363 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2031230550", "cod": 1037, "nome": "R.Germano Bastos", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702020859268941, -26.871406471225004 ], [ -48.70203838, -26.87170612 ], [ -48.702040082719549, -26.871737863924771 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2031230550", "cod": 1025.0, "nome": "R.Antônio Tironi", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70227971, -26.87169456 ], [ -48.701987399928733, -26.871708566182363 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2031230550", "cod": 1037.0, "nome": "R.Germano Bastos", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702020859268941, -26.871406471225004 ], [ -48.70203838, -26.87170612 ], [ -48.702040082719549, -26.871737863924768 ] ] } }
 ]
 }

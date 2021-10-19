@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020920210", "cod": 228, "nome": "Serv.César Gaboardi", "ptotalvia": 5.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67874944, -26.90813413 ], [ -48.6786453, -26.90864121 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020920210", "cod": 160, "nome": "R.Heitor Liberato", "ptotalvia": 15.5, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.678972512310558, -26.908748164372067 ], [ -48.6786453, -26.90864121 ], [ -48.678546792817961, -26.908610087095084 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2020920210", "cod": 228.0, "nome": "Serv.César Gaboardi", "ptotalvia": 5.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67874944, -26.90813413 ], [ -48.6786453, -26.90864121 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020920210", "cod": 160.0, "nome": "R.Heitor Liberato", "ptotalvia": 15.5, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.678972512310558, -26.908748164372067 ], [ -48.6786453, -26.90864121 ], [ -48.678546792817961, -26.908610087095084 ] ] } }
 ]
 }

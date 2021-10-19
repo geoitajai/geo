@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040440994", "cod": 623, "nome": "R.Lages", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656394990281633, -26.916712740694045 ], [ -48.65638706, -26.9167233 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040440994", "cod": 618, "nome": "R.Esmeraldo Braga", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656229062943197, -26.917070514979343 ], [ -48.65594371, -26.91683312 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040440994", "cod": 632, "nome": "R.Arnaldo José de Oliveira", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656100088392499, -26.916481414203691 ], [ -48.65594371, -26.91683312 ], [ -48.655904854517438, -26.916932764496067 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2040440994", "cod": 623.0, "nome": "R.Lages", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656394990281633, -26.916712740694045 ], [ -48.65638706, -26.9167233 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040440994", "cod": 618.0, "nome": "R.Esmeraldo Braga", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656229062943197, -26.917070514979343 ], [ -48.65594371, -26.91683312 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040440994", "cod": 632.0, "nome": "R.Arnaldo José de Oliveira", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656100088392499, -26.916481414203691 ], [ -48.65594371, -26.91683312 ], [ -48.655904854517438, -26.91693276449606 ] ] } }
 ]
 }

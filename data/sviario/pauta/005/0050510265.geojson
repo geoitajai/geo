@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050510265", "cod": 104, "nome": "R.Padre Paulo Condla", "ptotalvia": 15.0, "ppasseio1": 3.5, "ppasseio2": 3.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691788345127129, -26.908658104659402 ], [ -48.691448749961616, -26.908667677791929 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0050510265", "cod": 106, "nome": "R.José Santangelo", "ptotalvia": 6.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691811802717467, -26.909029124914461 ], [ -48.691441790416363, -26.909037600742874 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0050510265", "cod": 104.0, "nome": "R.Padre Paulo Condla", "ptotalvia": 15.0, "ppasseio1": 3.5, "ppasseio2": 3.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691788345127129, -26.908658104659402 ], [ -48.691448749961616, -26.908667677791929 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050510265", "cod": 106.0, "nome": "R.José Santangelo", "ptotalvia": 6.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691811802717467, -26.909029124914458 ], [ -48.69144179041637, -26.90903760074287 ] ] } }
 ]
 }

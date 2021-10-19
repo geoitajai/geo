@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050101185", "cod": 103, "nome": "R.Com.Germano Rauert", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68788990306237, -26.908115609155271 ], [ -48.687509472840567, -26.908129177802152 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0050101185", "cod": 103.0, "nome": "R.Com.Germano Rauert", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68788990306237, -26.908115609155271 ], [ -48.687509472840567, -26.908129177802152 ] ] } }
 ]
 }

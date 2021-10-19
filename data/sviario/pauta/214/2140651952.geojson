@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140651952", "cod": 742, "nome": "R.Profª.Inésia Novelleto", "ptotalvia": 7.5, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.639792578240957, -26.93430266049311 ], [ -48.639392470304387, -26.93430942007376 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2140651952", "cod": 742.0, "nome": "R.Profª.Inésia Novelleto", "ptotalvia": 7.5, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.639792578240957, -26.93430266049311 ], [ -48.639392470304387, -26.93430942007376 ] ] } }
 ]
 }

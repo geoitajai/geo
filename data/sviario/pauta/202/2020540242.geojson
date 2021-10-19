@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020540242", "cod": 188, "nome": "R.Stringari", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675680925344672, -26.898337207917411 ], [ -48.676001278142124, -26.898594931181066 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020540242", "cod": 189, "nome": "R.Manoel Mello", "ptotalvia": 5.2, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675498261075099, -26.898513253533928 ], [ -48.675832082637612, -26.898777888784092 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2020540242", "cod": 188.0, "nome": "R.Stringari", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675680925344672, -26.898337207917411 ], [ -48.676001278142124, -26.898594931181066 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020540242", "cod": 189.0, "nome": "R.Manoel Mello", "ptotalvia": 5.2, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675498261075099, -26.898513253533928 ], [ -48.675832082637612, -26.898777888784092 ] ] } }
 ]
 }

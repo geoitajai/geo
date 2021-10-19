@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010580699", "cod": 313, "nome": "Serv.Pedro Coschela", "ptotalvia": 5.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66612909, -26.90465909 ], [ -48.666120882318197, -26.904575563809441 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010580699", "cod": 160, "nome": "R.Heitor Liberato", "ptotalvia": 15.5, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.666318624763058, -26.904722473144005 ], [ -48.66612909, -26.90465909 ], [ -48.665958253320021, -26.904607169098014 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2010580699", "cod": 313.0, "nome": "Serv.Pedro Coschela", "ptotalvia": 5.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66612909, -26.90465909 ], [ -48.666120882318197, -26.904575563809441 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010580699", "cod": 160.0, "nome": "R.Heitor Liberato", "ptotalvia": 15.5, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.666318624763058, -26.904722473144009 ], [ -48.66612909, -26.90465909 ], [ -48.665958253320021, -26.904607169098014 ] ] } }
 ]
 }

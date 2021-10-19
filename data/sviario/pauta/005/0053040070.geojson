@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0053040070", "cod": 31, "nome": "R.Israel de Almeida", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.704028935685777, -26.915322162899798 ], [ -48.704051321757817, -26.915829588092162 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0053040070", "cod": 32, "nome": "R.Dr.João Américo Watzko", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.703538952055794, -26.915839216656149 ], [ -48.703514488076976, -26.915349493139228 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0053040070", "cod": 31.0, "nome": "R.Israel de Almeida", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.704034838370454, -26.915455959129126 ], [ -48.70405132176397, -26.915829588231546 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0053040070", "cod": 32.0, "nome": "R.Dr.João Américo Watzko", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.703538952057833, -26.915839216697027 ], [ -48.703521178052057, -26.915483414133284 ] ] } }
 ]
 }

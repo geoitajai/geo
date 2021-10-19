@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050011370", "cod": 58, "nome": "R.Osvaldo Becker", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.682989949669128, -26.895882898808178 ], [ -48.68289602, -26.89588577 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0050011370", "cod": 61, "nome": "R.São Francisco do Sul", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.682888925583342, -26.89571376446791 ], [ -48.68289602, -26.89588577 ], [ -48.682899796115585, -26.896062275368966 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0050011370", "cod": 58.0, "nome": "R.Osvaldo Becker", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.682989949669128, -26.895882898808178 ], [ -48.68289602, -26.89588577 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050011370", "cod": 61.0, "nome": "R.São Francisco do Sul", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.682888925583342, -26.89571376446791 ], [ -48.68289602, -26.89588577 ], [ -48.682899796115585, -26.896062275368962 ] ] } }
 ]
 }

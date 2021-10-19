@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140580078", "cod": 727, "nome": "R.Artur Torquato Batista", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.647161618255105, -26.930114062287743 ], [ -48.646904322049508, -26.930399117802516 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2140580078", "cod": 723, "nome": "R.Osni Melo", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6471016, -26.93018007 ], [ -48.647026892317037, -26.930129304837205 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2140580078", "cod": 727.0, "nome": "R.Artur Torquato Batista", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.647161618255105, -26.930114062287743 ], [ -48.646904322049508, -26.930399117802516 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140580078", "cod": 723.0, "nome": "R.Osni Melo", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6471016, -26.93018007 ], [ -48.647026892317037, -26.930129304837209 ] ] } }
 ]
 }

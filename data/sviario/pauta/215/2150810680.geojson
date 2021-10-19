@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2150810680", "cod": 1310.0, "nome": "R.Bruno Vicente da Luz", "ptotalvia": 26.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -48.760312910248444, -26.884536295075986 ], [ -48.760296023588104, -26.88482244847021 ] ], [ [ -48.760288251616458, -26.884849111623144 ], [ -48.760230180117397, -26.885030406404294 ] ] ] } }
+]
+}

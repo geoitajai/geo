@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2150320750", "cod": 1347, "nome": "R.Francisco Pontiolli", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.7324962852719, -26.873336937866281 ], [ -48.73170636496824, -26.873342651337616 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2150320750", "cod": 1346, "nome": "R.Bertholino Serpa", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.732540211377653, -26.872142314026615 ], [ -48.731765648657877, -26.872159453844738 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2150320750", "cod": 1347.0, "nome": "R.Francisco Pontiolli", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.7324962852719, -26.873336937866284 ], [ -48.73170636496824, -26.873342651337616 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2150320750", "cod": 1346.0, "nome": "R.Bertholino Serpa", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.732540211377653, -26.872142314026615 ], [ -48.731765648657877, -26.872159453844741 ] ] } }
 ]
 }

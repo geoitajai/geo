@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2210140270", "cod": 523, "nome": "R.Antônio Adão Dias", "ptotalvia": 13.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.681684289092708, -26.911056398457575 ], [ -48.681324727180034, -26.911071143555912 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2210140270", "cod": 523.0, "nome": "R.Antônio Adão Dias", "ptotalvia": 13.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.681684289092708, -26.911056398457575 ], [ -48.681324727180034, -26.911071143555912 ] ] } }
 ]
 }

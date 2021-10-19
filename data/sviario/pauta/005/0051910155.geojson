@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0051910155", "cod": 1001, "nome": "R.Valério Cadore", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693551043171944, -26.930409034002878 ], [ -48.69382201997761, -26.930633092104792 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0051910155", "cod": 1001.0, "nome": "R.Valério Cadore", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693551043171944, -26.930409034002878 ], [ -48.69382201997761, -26.930633092104792 ] ] } }
 ]
 }

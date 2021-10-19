@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0031970060", "cod": 1180, "nome": "Trav.Natal", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.701763403650112, -26.900333212853539 ], [ -48.70176699, -26.90040519 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0031970060", "cod": 1181, "nome": "R.Maceió", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70176699, -26.90040519 ], [ -48.701458210109159, -26.90041449669388 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0031970060", "cod": 1180.0, "nome": "Trav.Natal", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.701763403650112, -26.900333212853539 ], [ -48.70176699, -26.90040519 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031970060", "cod": 1181.0, "nome": "R.Maceió", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70176699, -26.90040519 ], [ -48.701458210109159, -26.900414496693884 ] ] } }
 ]
 }

@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020540387", "cod": 188, "nome": "R.Stringari", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674581198544665, -26.897452070338094 ], [ -48.67484765125937, -26.897666597279141 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020540387", "cod": 189, "nome": "R.Manoel Mello", "ptotalvia": 5.2, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674379103883737, -26.897625583322593 ], [ -48.6743916, -26.89763594 ], [ -48.674667693215063, -26.897854816885051 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020540387", "cod": 161, "nome": "Av.Irineu Bornhausen", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674424171133488, -26.897567941969719 ], [ -48.6743916, -26.89763594 ], [ -48.674352994780506, -26.897706922582881 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2020540387", "cod": 188.0, "nome": "R.Stringari", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674581198544665, -26.897452070338094 ], [ -48.67484765125937, -26.897666597279141 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020540387", "cod": 189.0, "nome": "R.Manoel Mello", "ptotalvia": 5.2, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674379103883737, -26.897625583322586 ], [ -48.6743916, -26.89763594 ], [ -48.674667693215063, -26.897854816885047 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020540387", "cod": 161.0, "nome": "Av.Irineu Bornhausen", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674424171133488, -26.897567941969719 ], [ -48.6743916, -26.89763594 ], [ -48.674352994780506, -26.897706922582881 ] ] } }
 ]
 }

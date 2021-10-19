@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040811040", "cod": 850, "nome": "R.Wilson Cordeiro", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.670142094186865, -26.921203669604765 ], [ -48.67018897, -26.92147013 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2040811040", "cod": 850.0, "nome": "R.Wilson Cordeiro", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.670141989921476, -26.92120307691852 ], [ -48.67018897, -26.92147013 ] ] } }
 ]
 }

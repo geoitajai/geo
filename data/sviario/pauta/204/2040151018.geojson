@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040151018", "cod": 663, "nome": "Serv.João Manuel Francisco", "ptotalvia": 3.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.650943906733993, -26.920790558327241 ], [ -48.651263327903898, -26.920679058453945 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2040151018", "cod": 663.0, "nome": "Serv.João Manuel Francisco", "ptotalvia": 3.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.650943906733993, -26.920790558327241 ], [ -48.651263327903898, -26.920679058453945 ] ] } }
 ]
 }

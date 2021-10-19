@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050350070", "cod": 52, "nome": "R.Pedro Batista da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691055609640436, -26.898073114387234 ], [ -48.690683889078038, -26.898083780637084 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0050350070", "cod": 52.0, "nome": "R.Pedro Batista da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691055609640436, -26.898073114387234 ], [ -48.690683889078038, -26.898083780637084 ] ] } }
 ]
 }

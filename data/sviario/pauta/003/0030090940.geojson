@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0030090940", "cod": 1121, "nome": "R.Sem denominação oficial", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69018055, -26.89367742 ], [ -48.690083193659355, -26.893671909770919 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0030090940", "cod": 1119, "nome": "R.Pedro Camilo Vicente", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.690172030591583, -26.893555552153739 ], [ -48.69018055, -26.89367742 ], [ -48.690196443601721, -26.893880667454397 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0030090940", "cod": 1121.0, "nome": "R.Sem denominação oficial", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69018055, -26.89367742 ], [ -48.690083193659355, -26.893671909770923 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0030090940", "cod": 1119.0, "nome": "R.Pedro Camilo Vicente", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.690172030591583, -26.893555552153739 ], [ -48.69018055, -26.89367742 ], [ -48.690196443601721, -26.893880667454397 ] ] } }
 ]
 }

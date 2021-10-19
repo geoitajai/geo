@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2150090420", "cod": 1382, "nome": "R.Cypriano Nunes dos Santos", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.74287192, -26.89313984 ], [ -48.742896227191039, -26.893470986156363 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2150090420", "cod": 1382.0, "nome": "R.Cypriano Nunes dos Santos", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.74287192, -26.89313984 ], [ -48.742896227191039, -26.893470986156359 ] ] } }
 ]
 }

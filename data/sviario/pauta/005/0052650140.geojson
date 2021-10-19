@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0052650140", "cod": 79, "nome": "R.Herval do Oeste", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.685589760478415, -26.897230427808655 ], [ -48.685202953952682, -26.897236990861742 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0052650140", "cod": 79.0, "nome": "R.Herval do Oeste", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.685589760478415, -26.897230427808655 ], [ -48.685202953952682, -26.897236990861742 ] ] } }
 ]
 }

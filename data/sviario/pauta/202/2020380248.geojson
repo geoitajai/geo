@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020380248", "cod": 188, "nome": "R.Stringari", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674221848574668, -26.897166233130076 ], [ -48.67450793, -26.89739308 ], [ -48.674513372821082, -26.897397462154679 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020380248", "cod": 189, "nome": "R.Manoel Mello", "ptotalvia": 5.2, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674030179436457, -26.897336396476522 ], [ -48.674329292038799, -26.89758429965055 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020380248", "cod": 161, "nome": "Av.Irineu Bornhausen", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674531541100819, -26.897350124614746 ], [ -48.67450793, -26.89739308 ], [ -48.674472123423527, -26.897467832863502 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2020380248", "cod": 188.0, "nome": "R.Stringari", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674221848574668, -26.897166233130076 ], [ -48.67450793, -26.89739308 ], [ -48.674513372821082, -26.897397462154682 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020380248", "cod": 189.0, "nome": "R.Manoel Mello", "ptotalvia": 5.2, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674030179436457, -26.897336396476522 ], [ -48.674329292038799, -26.89758429965055 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020380248", "cod": 161.0, "nome": "Av.Irineu Bornhausen", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674531541100819, -26.89735012461475 ], [ -48.67450793, -26.89739308 ], [ -48.674472123423527, -26.897467832863502 ] ] } }
 ]
 }

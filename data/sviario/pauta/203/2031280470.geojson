@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2031280470", "cod": 1025, "nome": "R.Antônio Tironi", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70350152469571, -26.871622352492558 ], [ -48.70310386, -26.87164182 ], [ -48.703066179273584, -26.871644138946127 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2031280470", "cod": 1033, "nome": "R.Ismael Orlando Evaristo", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.703088877637569, -26.871348469502426 ], [ -48.70310386, -26.87164182 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2031280470", "cod": 1025.0, "nome": "R.Antônio Tironi", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70350152469571, -26.871622352492562 ], [ -48.70310386, -26.87164182 ], [ -48.703066179273584, -26.871644138946124 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2031280470", "cod": 1033.0, "nome": "R.Ismael Orlando Evaristo", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.703088877637569, -26.871348469502426 ], [ -48.70310386, -26.87164182 ] ] } }
 ]
 }

@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2151670005", "cod": 1314, "nome": "R.Ver.Pedro João de Souza Filho", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.745715002620528, -26.862898610997579 ], [ -48.74573929, -26.86320893 ], [ -48.745744383793046, -26.863276508629188 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2151670005", "cod": 1599, "nome": "R.João Santos da Silva", "ptotalvia": 18.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.7460053, -26.86318671 ], [ -48.74573929, -26.86320893 ], [ -48.745650938320352, -26.863215993726627 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2151670005", "cod": 1314.0, "nome": "R.Ver.Pedro João de Souza Filho", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.745715002620528, -26.862898610997579 ], [ -48.74573929, -26.86320893 ], [ -48.745744383793046, -26.863276508629184 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2151670005", "cod": 1599.0, "nome": "R.João Santos da Silva", "ptotalvia": 18.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.7460053, -26.86318671 ], [ -48.74573929, -26.86320893 ], [ -48.745650938320352, -26.86321599372663 ] ] } }
 ]
 }

@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110450823", "cod": 336, "nome": "R.Carlos Santana", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.669097350511421, -26.912053252170274 ], [ -48.668837596165289, -26.911847683360051 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2110450823", "cod": 336.0, "nome": "R.Carlos Santana", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.669097350511421, -26.912053252170274 ], [ -48.668837596165289, -26.911847683360051 ] ] } }
 ]
 }

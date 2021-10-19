@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2041403393", "cod": 855, "nome": "R.Adolfo Cugnier", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675013950002871, -26.92726127760745 ], [ -48.674636919121035, -26.927206136553554 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2041403393", "cod": 855.0, "nome": "R.Adolfo Cugnier", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675013950002871, -26.92726127760745 ], [ -48.674636919121035, -26.927206136553554 ] ] } }
 ]
 }

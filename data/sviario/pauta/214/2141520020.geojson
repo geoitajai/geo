@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2141520020", "cod": 708, "nome": "R.Jorge Fernandes", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.647576993402247, -26.928943288005595 ], [ -48.64798963, -26.92916521 ], [ -48.648051705140468, -26.929199517773576 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2141520020", "cod": 726, "nome": "R.Profª.Olindina Francisca da Silva", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.648221314003571, -26.928829289299475 ], [ -48.64798963, -26.92916521 ], [ -48.647945734404111, -26.929216864166087 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2141520020", "cod": 708.0, "nome": "R.Jorge Fernandes", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.647576993402247, -26.928943288005588 ], [ -48.64798963, -26.92916521 ], [ -48.648051705140475, -26.929199517773583 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2141520020", "cod": 726.0, "nome": "R.Profª.Olindina Francisca da Silva", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.648221314003571, -26.928829289299475 ], [ -48.64798963, -26.92916521 ], [ -48.647945734404104, -26.92921686416609 ] ] } }
 ]
 }

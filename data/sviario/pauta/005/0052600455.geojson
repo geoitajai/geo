@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0052600455", "cod": 71, "nome": "R.Abelardo Luz", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.687837463121483, -26.896982240525634 ], [ -48.687833199857515, -26.897323396246207 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0052600455", "cod": 72, "nome": "R.Maravilha", "ptotalvia": 4.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.687478939836751, -26.896975437011459 ], [ -48.687472328972312, -26.897325460388679 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0052600455", "cod": 71.0, "nome": "R.Abelardo Luz", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.687837463121483, -26.896982240525638 ], [ -48.687833199857515, -26.897323396246204 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0052600455", "cod": 72.0, "nome": "R.Maravilha", "ptotalvia": 4.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.687478939836751, -26.896975437011463 ], [ -48.687472328972312, -26.897325460388679 ] ] } }
 ]
 }

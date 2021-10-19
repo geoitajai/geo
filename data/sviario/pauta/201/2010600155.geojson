@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010600155", "cod": 315, "nome": "R.Criciúma", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.667649332981945, -26.906017013168533 ], [ -48.66768845719254, -26.906344577928941 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2010600155", "cod": 315.0, "nome": "R.Criciúma", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.667649332981945, -26.906017013168533 ], [ -48.66768845719254, -26.906344577928937 ] ] } }
 ]
 }

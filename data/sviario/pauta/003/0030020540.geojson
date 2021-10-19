@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0030020540", "cod": 1111, "nome": "Av.Dr.Reinaldo Schmithausen", "ptotalvia": 27.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.685994773371668, -26.888169361650547 ], [ -48.68585896, -26.88816877 ], [ -48.68552937, -26.88829601 ], [ -48.68533752, -26.88840569 ], [ -48.68478564436483, -26.888999742496747 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0030020540", "cod": 1111.0, "nome": "Av.Dr.Reinaldo Schmithausen", "ptotalvia": 27.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.685994773371668, -26.888169361650551 ], [ -48.68585896, -26.88816877 ], [ -48.68552937, -26.88829601 ], [ -48.68533752, -26.88840569 ], [ -48.68478564436483, -26.888999742496747 ] ] } }
 ]
 }

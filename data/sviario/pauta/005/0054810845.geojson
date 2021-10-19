@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0054810845", "cod": 921, "nome": "R.Ivo Werner", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69285712795115, -26.920708334238316 ], [ -48.69278327, -26.92073949 ], [ -48.692435661204463, -26.920872991230191 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0054810845", "cod": 896, "nome": "R.Das Hortências", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692699804588379, -26.920497611768511 ], [ -48.69278327, -26.92073949 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0054810845", "cod": 921.0, "nome": "R.Ivo Werner", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692857127951157, -26.92070833423832 ], [ -48.69278327, -26.92073949 ], [ -48.692435661204463, -26.920872991230191 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054810845", "cod": 896.0, "nome": "R.Das Hortências", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692699804588379, -26.920497611768511 ], [ -48.69278327, -26.92073949 ] ] } }
 ]
 }

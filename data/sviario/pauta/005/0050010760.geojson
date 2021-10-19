@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050010760", "cod": 63, "nome": "R.Caçador", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.686661188502086, -26.895870117398729 ], [ -48.68649346, -26.89582818 ], [ -48.68630784, -26.89583175 ], [ -48.686230668013167, -26.895766746010271 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0050010760", "cod": 58, "nome": "R.Osvaldo Becker", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68630784, -26.89583175 ], [ -48.686282448690882, -26.895832242457409 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0050010760", "cod": 63.0, "nome": "R.Caçador", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.686661188502086, -26.895870117398726 ], [ -48.68649346, -26.89582818 ], [ -48.68630784, -26.89583175 ], [ -48.686230668013167, -26.895766746010271 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050010760", "cod": 58.0, "nome": "R.Osvaldo Becker", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68630784, -26.89583175 ], [ -48.686282448690882, -26.895832242457409 ] ] } }
 ]
 }

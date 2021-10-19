@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110690176", "cod": 579, "nome": "R.Leonel Pereira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677258800786497, -26.917840904230388 ], [ -48.67721578, -26.91784298 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110690176", "cod": 227, "nome": "R.Indaial", "ptotalvia": 17.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677210212030154, -26.917593470884505 ], [ -48.6772199, -26.91780991 ], [ -48.677224456724936, -26.917895582470997 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2110690176", "cod": 579.0, "nome": "R.Leonel Pereira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677258800786497, -26.917840904230388 ], [ -48.67721578, -26.917842979999989 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110690176", "cod": 227.0, "nome": "R.Indaial", "ptotalvia": 17.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677210212030154, -26.917593470884508 ], [ -48.6772199, -26.91780991 ], [ -48.677224456724936, -26.917895582470997 ] ] } }
 ]
 }

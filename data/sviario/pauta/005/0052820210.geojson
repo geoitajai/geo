@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0052820210", "cod": 54, "nome": "R.Marcelino Ramos", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.690107890093401, -26.895176785255508 ], [ -48.689671520702902, -26.89518906213446 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0052820210", "cod": 54.0, "nome": "R.Marcelino Ramos", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.690107890093401, -26.895176785255508 ], [ -48.689671520702902, -26.89518906213446 ] ] } }
 ]
 }

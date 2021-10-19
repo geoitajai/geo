@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040330225", "cod": 276, "nome": "Av.7 de Setembro", "ptotalvia": 18.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.655921121070072, -26.914786655720434 ], [ -48.655809193170285, -26.91505442333532 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040330225", "cod": 265, "nome": "Av.Ver.Abrahão João Francisco", "ptotalvia": 29.4, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65648542079078, -26.915016348980359 ], [ -48.656338744943142, -26.915242019598896 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2040330225", "cod": 276.0, "nome": "Av.7 de Setembro", "ptotalvia": 18.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.655921121070072, -26.914786655720434 ], [ -48.655809193170285, -26.915054423335313 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040330225", "cod": 265.0, "nome": "Av.Ver.Abrahão João Francisco", "ptotalvia": 29.4, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65648542079078, -26.915016348980359 ], [ -48.656338744943142, -26.915242019598896 ] ] } }
 ]
 }

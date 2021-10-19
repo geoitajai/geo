@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2151160425", "cod": 1318, "nome": "R.José Francisco Reis", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.748151616849611, -26.876263537244217 ], [ -48.748180500923922, -26.876591166940472 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2151160425", "cod": 1318.0, "nome": "R.José Francisco Reis", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.748151616849611, -26.876263537244217 ], [ -48.748180500923922, -26.876591166940472 ] ] } }
 ]
 }

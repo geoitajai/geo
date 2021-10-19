@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040830390", "cod": 867, "nome": "R.Oswaldo Espíndola", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676836664709462, -26.929520377687901 ], [ -48.67631821, -26.92949832 ], [ -48.67619523, -26.92930535 ], [ -48.676148857903748, -26.929274694949285 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040830390", "cod": 869, "nome": "R.Aristides Estevão da Silva", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67563996, -26.92950149 ], [ -48.67552939715619, -26.929500016962958 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040830390", "cod": 543, "nome": "R.José Siqueira", "ptotalvia": 25.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675778568970635, -26.92935628158957 ], [ -48.67563996, -26.92950149 ], [ -48.675442507715104, -26.929695127821919 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2040830390", "cod": 867.0, "nome": "R.Oswaldo Espíndola", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676836664709462, -26.929520377687901 ], [ -48.67631821, -26.92949832 ], [ -48.67619523, -26.92930535 ], [ -48.676148857903748, -26.929274694949285 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040830390", "cod": 869.0, "nome": "R.Aristides Estevão da Silva", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67563996, -26.92950149 ], [ -48.67552939715619, -26.929500016962958 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040830390", "cod": 543.0, "nome": "R.José Siqueira", "ptotalvia": 25.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675778568970635, -26.92935628158957 ], [ -48.67563996, -26.92950149 ], [ -48.675442507715104, -26.929695127821915 ] ] } }
 ]
 }

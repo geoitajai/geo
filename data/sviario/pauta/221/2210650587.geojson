@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2210650587", "cod": 520, "nome": "R.Pedro Joaquim Vieira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.681050066107424, -26.912153208831636 ], [ -48.68074438, -26.9121667 ], [ -48.680667880190228, -26.912170586769804 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2210650587", "cod": 521, "nome": "R.Luciano Pinheiro da Silva", "ptotalvia": 13.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68075307, -26.9124288 ], [ -48.680756868868457, -26.91254346338313 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2210650587", "cod": 521, "nome": "R.Luciano Pinheiro da Silva", "ptotalvia": 13.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.680743321084421, -26.912101804962976 ], [ -48.68074438, -26.9121667 ], [ -48.68075307, -26.9124288 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2210650587", "cod": 520.0, "nome": "R.Pedro Joaquim Vieira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.681050066107424, -26.912153208831636 ], [ -48.68074438, -26.9121667 ], [ -48.680667880190228, -26.912170586769808 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210650587", "cod": 521.0, "nome": "R.Luciano Pinheiro da Silva", "ptotalvia": 13.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68075307, -26.9124288 ], [ -48.680756868868457, -26.91254346338313 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210650587", "cod": 521.0, "nome": "R.Luciano Pinheiro da Silva", "ptotalvia": 13.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.680743321084421, -26.912101804962976 ], [ -48.68074438, -26.9121667 ], [ -48.68075307, -26.9124288 ] ] } }
 ]
 }

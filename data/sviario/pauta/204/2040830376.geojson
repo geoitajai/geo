@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040830376", "cod": 543, "nome": "R.José Siqueira", "ptotalvia": 25.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675609977806552, -26.929530893049154 ], [ -48.67543394, -26.92970353 ], [ -48.675295068466923, -26.929802123954595 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2040830376", "cod": 543.0, "nome": "R.José Siqueira", "ptotalvia": 25.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675609977806552, -26.929530893049151 ], [ -48.67543394, -26.92970353 ], [ -48.675295068466923, -26.929802123954598 ] ] } }
 ]
 }

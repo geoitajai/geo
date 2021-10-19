@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2151860590", "cod": 1557, "nome": "R.Antônio Carlos Figueredo", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.744676601959405, -26.881644787508343 ], [ -48.744649546283483, -26.881345133034866 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2151860590", "cod": 1557.0, "nome": "R.Antônio Carlos Figueredo", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.744676601959405, -26.881644787508343 ], [ -48.744649546283483, -26.881345133034866 ] ] } }
 ]
 }

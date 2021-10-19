@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2031250190", "cod": 1024, "nome": "R.Theodoro Lino Régis", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702507546218953, -26.867543022303082 ], [ -48.70290053, -26.86771006 ], [ -48.702989454054652, -26.867746594820307 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2031250190", "cod": 1033, "nome": "R.Ismael Orlando Evaristo", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70290053, -26.86771006 ], [ -48.702911623150946, -26.867921549899346 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2031250190", "cod": 1024.0, "nome": "R.Theodoro Lino Régis", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702507546218953, -26.867543022303064 ], [ -48.70290053, -26.86771006 ], [ -48.702989454054652, -26.867746594820311 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2031250190", "cod": 1033.0, "nome": "R.Ismael Orlando Evaristo", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70290053, -26.86771006 ], [ -48.702911623150953, -26.867921549899343 ] ] } }
 ]
 }

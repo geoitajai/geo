@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140691385", "cod": 815, "nome": "Av.Braulio Werner", "ptotalvia": 24.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.641870186376345, -26.948327432388329 ], [ -48.64147469179219, -26.94835213700971 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2140691385", "cod": 815.0, "nome": "Av.Braulio Werner", "ptotalvia": 24.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.641870186376345, -26.948327432388329 ], [ -48.64147469179219, -26.94835213700971 ] ] } }
 ]
 }

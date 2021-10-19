@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0031800240", "cod": 1170, "nome": "R.Ver.Nestor dos Santos", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.705025190157087, -26.896646131988525 ], [ -48.70502646, -26.89666847 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0031800240", "cod": 1170, "nome": "R.Ver.Nestor dos Santos", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70502646, -26.89666847 ], [ -48.70502865, -26.89670691 ], [ -48.705042895143151, -26.89699742274987 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0031800240", "cod": 1229, "nome": "R.Jaime Fernandes Vieira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.705436981417279, -26.89669780702604 ], [ -48.70502865, -26.89670691 ], [ -48.704957514375749, -26.896711673803388 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0031800240", "cod": 1170.0, "nome": "R.Ver.Nestor dos Santos", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.705025190157087, -26.896646131988529 ], [ -48.70502646, -26.89666847 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031800240", "cod": 1170.0, "nome": "R.Ver.Nestor dos Santos", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70502646, -26.89666847 ], [ -48.70502865, -26.89670691 ], [ -48.705042895143151, -26.896997422749866 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031800240", "cod": 1229.0, "nome": "R.Jaime Fernandes Vieira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.705436981417279, -26.89669780702604 ], [ -48.70502865, -26.89670691 ], [ -48.704957514375749, -26.896711673803388 ] ] } }
 ]
 }

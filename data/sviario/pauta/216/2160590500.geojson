@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2160590500", "cod": 1453, "nome": "R.Antônio Bento da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.748952045866695, -26.948064089614657 ], [ -48.748952609465142, -26.948275696457831 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2160590500", "cod": 1235, "nome": "Rod.Dep.Antônio Heil", "ptotalvia": 30.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.750064976237375, -26.948675268095243 ], [ -48.749875427889897, -26.948612442827127 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2160590500", "cod": 1453.0, "nome": "R.Antônio Bento da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.748952045866695, -26.948064089614657 ], [ -48.748952609465142, -26.948275696457824 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2160590500", "cod": 1235.0, "nome": "Rod.Dep.Antônio Heil", "ptotalvia": 30.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.750064976237375, -26.94867526809524 ], [ -48.749875427889897, -26.948612442827127 ] ] } }
 ]
 }

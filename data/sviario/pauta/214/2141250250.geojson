@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2141250250", "cod": 780, "nome": "R.Carola Coelho", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.631764403602823, -26.955689216381508 ], [ -48.6316925, -26.95569754 ], [ -48.631340633021644, -26.95574184904611 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2141250250", "cod": 782, "nome": "R.Delfim Mário Pádua Peixoto", "ptotalvia": 20.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.631700450063278, -26.955761820743788 ], [ -48.6316925, -26.95569754 ], [ -48.631637072523212, -26.955302295268595 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2141250250", "cod": 780.0, "nome": "R.Carola Coelho", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.631764403602823, -26.955689216381511 ], [ -48.6316925, -26.95569754 ], [ -48.631340633021644, -26.95574184904611 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2141250250", "cod": 782.0, "nome": "R.Delfim Mário Pádua Peixoto", "ptotalvia": 20.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.631700450063278, -26.955761820743788 ], [ -48.6316925, -26.95569754 ], [ -48.631637072523212, -26.955302295268591 ] ] } }
 ]
 }

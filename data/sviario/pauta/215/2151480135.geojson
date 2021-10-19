@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2151480135", "cod": 1311, "nome": "R.Marcos Aurélio Seára", "ptotalvia": 28.7, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.745688236014409, -26.876950631722746 ], [ -48.745706390622836, -26.877177552392212 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2151480135", "cod": 1311.0, "nome": "R.Marcos Aurélio Seára", "ptotalvia": 28.7, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.745688236014409, -26.876950631722746 ], [ -48.745706390622836, -26.877177552392212 ] ] } }
 ]
 }

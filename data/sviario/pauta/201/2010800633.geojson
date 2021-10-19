@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010800633", "cod": 377, "nome": "R.Jorge Mattos", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66515611249072, -26.915165719867328 ], [ -48.66536383, -26.91533341 ], [ -48.665438747021753, -26.915389746141408 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010800633", "cod": 377, "nome": "R.Jorge Mattos", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66536383, -26.91533341 ], [ -48.66528393, -26.91541481 ], [ -48.665368163989946, -26.915479795768228 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2010800633", "cod": 377.0, "nome": "R.Jorge Mattos", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66515611249072, -26.915165719867328 ], [ -48.66536383, -26.91533341 ], [ -48.665438747021753, -26.915389746141411 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010800633", "cod": 377.0, "nome": "R.Jorge Mattos", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66536383, -26.91533341 ], [ -48.66528393, -26.91541481 ], [ -48.665368163989953, -26.915479795768231 ] ] } }
 ]
 }

@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040380154", "cod": 605, "nome": "R.José Marçal Dutra", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.659084506228929, -26.91465463390065 ], [ -48.658800525652346, -26.91443241499983 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2040380154", "cod": 605.0, "nome": "R.José Marçal Dutra", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.659084506228929, -26.91465463390065 ], [ -48.658800525652346, -26.914432414999833 ] ] } }
 ]
 }

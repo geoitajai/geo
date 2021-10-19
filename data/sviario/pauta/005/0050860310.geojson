@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050860310", "cod": 45, "nome": "R.Olavo Bilac", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69539205287532, -26.903740299450476 ], [ -48.695411290370352, -26.904076053161809 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0050860310", "cod": 45.0, "nome": "R.Olavo Bilac", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69539205287532, -26.903740299450476 ], [ -48.695411290370352, -26.904076053161809 ] ] } }
 ]
 }

@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2153001000", "cod": 1598, "nome": "Av.Projetada K", "ptotalvia": 18.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.74621831, -26.86626769 ], [ -48.746067852642391, -26.866277402675131 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2153001000", "cod": 1598.0, "nome": "Av.Projetada K", "ptotalvia": 18.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.74621831, -26.86626769 ], [ -48.746067852642391, -26.866277402675131 ] ] } }
 ]
 }

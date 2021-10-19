@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2160872800", "cod": 1514, "nome": "R.Raul José Lamim", "ptotalvia": 20.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.78367032683262, -27.034415180600952 ], [ -48.78352846, -27.03446572 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2160872800", "cod": 1698, "nome": "R.Sem denominação oficial", "ptotalvia": 10.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.783979588596431, -27.035564418927187 ], [ -48.78394953, -27.03558093 ], [ -48.78385092, -27.03566399 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2160872800", "cod": 1514.0, "nome": "R.Raul José Lamim", "ptotalvia": 20.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.783840249300546, -27.034434160787132 ], [ -48.78383337, -27.03443408 ], [ -48.78369072, -27.03443957 ], [ -48.78353502, -27.03449008 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2160872800", "cod": 1698.0, "nome": "R.Sem denominação oficial", "ptotalvia": 10.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -48.78411407903647, -27.035509254743797 ], [ -48.78408037, -27.03550906 ], [ -48.78392937, -27.035576249999988 ], [ -48.78380828, -27.03564122 ], [ -48.78363623, -27.03573468 ], [ -48.78346587, -27.03584762 ], [ -48.783418233547401, -27.035877877975928 ] ], [ [ -48.783359323272833, -27.035915296871629 ], [ -48.78331552, -27.03594312 ], [ -48.78323668, -27.03599764 ], [ -48.78319252, -27.03612606 ], [ -48.78316569, -27.03618489 ], [ -48.78314068, -27.03625432 ], [ -48.78308687, -27.03643395 ], [ -48.78305153, -27.03652889 ] ] ] } }
 ]
 }

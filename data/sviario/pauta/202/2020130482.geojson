@@ -2,9 +2,9 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020130482", "cod": 286, "nome": "R.Tijucas", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.667566295160377, -26.901675604003884 ], [ -48.667188382968646, -26.90189377722529 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020130482", "cod": 308, "nome": "R.Constantino Lucas Pereira", "ptotalvia": 4.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6681505, -26.90254479 ], [ -48.668160371890842, -26.902628566205923 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020130482", "cod": 310, "nome": "Trav.Kobarg", "ptotalvia": 5.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66785439, -26.90257308 ], [ -48.667863986175476, -26.902661328905982 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020130482", "cod": 311, "nome": "R.Olegário Souza Júnior", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66825718046659, -26.902528400175587 ], [ -48.6681505, -26.90254479 ], [ -48.66785439, -26.90257308 ], [ -48.667711167851891, -26.902582560313171 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2020130482", "cod": 286.0, "nome": "R.Tijucas", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.667566295160377, -26.901675604003884 ], [ -48.667188382968646, -26.90189377722529 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020130482", "cod": 308.0, "nome": "R.Constantino Lucas Pereira", "ptotalvia": 4.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6681505, -26.90254479 ], [ -48.668160371890842, -26.90262856620593 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020130482", "cod": 310.0, "nome": "Trav.Kobarg", "ptotalvia": 5.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66785439, -26.90257308 ], [ -48.667863986175476, -26.902661328905985 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020130482", "cod": 311.0, "nome": "Trav.Olegário Souza Júnior", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66825718046659, -26.902528400175587 ], [ -48.6681505, -26.90254479 ], [ -48.66785439, -26.90257308 ], [ -48.667711167851891, -26.902582560313174 ] ] } }
 ]
 }

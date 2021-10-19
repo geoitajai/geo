@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2210370121", "cod": 513, "nome": "R.Anibal César", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677978642196457, -26.917627873962108 ], [ -48.67794461, -26.91723597 ], [ -48.677940463221532, -26.917169594590881 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2210370121", "cod": 580, "nome": "R.Antônio Manoel Correia", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.678022549424306, -26.917231785794904 ], [ -48.67794461, -26.91723597 ], [ -48.67794291, -26.91723609 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2210370121", "cod": 580, "nome": "R.Antônio Manoel Correia", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67794291, -26.91723609 ], [ -48.677615172593434, -26.917258239540399 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2210370121", "cod": 513.0, "nome": "R.Anibal César", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677978642196457, -26.917627873962108 ], [ -48.67794461, -26.91723597 ], [ -48.677940463221532, -26.917169594590874 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210370121", "cod": 580.0, "nome": "R.Antônio Manoel Correia", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.678022549424306, -26.9172317857949 ], [ -48.67794461, -26.91723597 ], [ -48.67794291, -26.91723609 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210370121", "cod": 580.0, "nome": "R.Antônio Manoel Correia", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67794291, -26.91723609 ], [ -48.677615172593434, -26.917258239540402 ] ] } }
 ]
 }

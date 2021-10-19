@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0030040980", "cod": 1125, "nome": "R.Adão Vandal", "ptotalvia": 17.6, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68710399305035, -26.890920988189908 ], [ -48.687129184467622, -26.89126350306196 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0030040980", "cod": 1126, "nome": "R.Rachel Liberato Meyer", "ptotalvia": 7.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.687367384051221, -26.890912908223662 ], [ -48.687384528414619, -26.891246402856247 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0030040980", "cod": 1125.0, "nome": "R.Adão Vandal", "ptotalvia": 17.6, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68710399305035, -26.890920988189908 ], [ -48.687129184467622, -26.891263503061957 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0030040980", "cod": 1126.0, "nome": "R.Rachel Liberato Meyer", "ptotalvia": 7.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.687367384051221, -26.890912908223658 ], [ -48.687384528414619, -26.891246402856247 ] ] } }
 ]
 }

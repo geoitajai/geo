@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2120670321", "cod": 476, "nome": "R.Maria Edith Gonçalves da Rosa", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.670636714097526, -26.884199346248256 ], [ -48.670389441348561, -26.884434848832523 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2120670321", "cod": 476.0, "nome": "R.Maria Edith Gonçalves da Rosa", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.670636714097526, -26.884199346248256 ], [ -48.670389441348561, -26.884434848832523 ] ] } }
 ]
 }

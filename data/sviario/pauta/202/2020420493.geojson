@@ -2,9 +2,9 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020420493", "cod": 172, "nome": "Trav.Herta Thieme", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -48.673530012560647, -26.893389071692049 ], [ -48.673255931876923, -26.893181147420723 ] ], [ [ -48.673144219935459, -26.893096399668366 ], [ -48.6730556, -26.89302917 ] ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020420493", "cod": 446, "nome": "Av.Leodegario Pedro da Silva", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.673110813221101, -26.892961457414156 ], [ -48.6730556, -26.89302917 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020420493", "cod": 173, "nome": "R.Francisco Czarneski", "ptotalvia": 7.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.672815593615091, -26.894094221829409 ], [ -48.67239298, -26.89373538 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020420493", "cod": 172, "nome": "Trav.Herta Thieme", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6730556, -26.89302917 ], [ -48.672688643968669, -26.89272707746391 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2020420493", "cod": 172.0, "nome": "Trav.Herta Thieme", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -48.673530012560647, -26.893389071692049 ], [ -48.673255931876923, -26.893181147420723 ] ], [ [ -48.673144219935459, -26.893096399668362 ], [ -48.6730556, -26.89302917 ] ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020420493", "cod": 446.0, "nome": "Av.Leodegario Pedro da Silva", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.673110813221101, -26.892961457414156 ], [ -48.6730556, -26.89302917 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020420493", "cod": 173.0, "nome": "R.Francisco Czarneski", "ptotalvia": 7.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.672815593615091, -26.894094221829409 ], [ -48.67239298, -26.89373538 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020420493", "cod": 172.0, "nome": "Trav.Herta Thieme", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6730556, -26.89302917 ], [ -48.672688643968669, -26.89272707746391 ] ] } }
 ]
 }

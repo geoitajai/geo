@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2150630480", "cod": 1353, "nome": "R.Oswaldo Leal", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.734561076915426, -26.883674790250534 ], [ -48.73459104119862, -26.883997482620646 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2150630480", "cod": 1353.0, "nome": "R.Oswaldo Leal", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.734561076915426, -26.883674790250538 ], [ -48.734591041198613, -26.883997482620643 ] ] } }
 ]
 }

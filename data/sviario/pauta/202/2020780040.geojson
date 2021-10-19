@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020780040", "cod": 236, "nome": "R.Ver.Claudino José Francisco Pacheco", "ptotalvia": 10.8, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.671798046795736, -26.903339768120286 ], [ -48.67184622, -26.90337927 ], [ -48.672185812850309, -26.903379270049506 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2020780040", "cod": 236.0, "nome": "R.Ver.Claudino José Francisco Pacheco", "ptotalvia": 10.8, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.671798046795736, -26.903339768120286 ], [ -48.67184622, -26.90337927 ], [ -48.672185812850309, -26.903379270049506 ] ] } }
 ]
 }

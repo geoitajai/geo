@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0054790160", "cod": 921, "nome": "R.Ivo Werner", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692923546291389, -26.920680316704981 ], [ -48.69278327, -26.92073949 ], [ -48.69227113, -26.92093618 ], [ -48.691806287124969, -26.921114695754788 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0054790160", "cod": 1630, "nome": "Serv.Dilcéa Faria Pereira Façanha", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692247718741065, -26.920835126062038 ], [ -48.69227113, -26.92093618 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0054790160", "cod": 896, "nome": "R.Das Hortências", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692749395809429, -26.920641324550516 ], [ -48.69278327, -26.92073949 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0054790160", "cod": 921.0, "nome": "R.Ivo Werner", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692923546291389, -26.920680316704985 ], [ -48.69278327, -26.92073949 ], [ -48.69227113, -26.92093618 ], [ -48.691806287124969, -26.921114695754788 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054790160", "cod": 1630.0, "nome": "Serv.Dilcéa Faria Pereira Façanha", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692247718741065, -26.920835126062023 ], [ -48.69227113, -26.92093618 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054790160", "cod": 896.0, "nome": "R.Das Hortências", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692749395809429, -26.92064132455052 ], [ -48.69278327, -26.92073949 ] ] } }
 ]
 }

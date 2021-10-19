@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050260040", "cod": 17, "nome": "R.Jovita da Costa Ramos", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.689435898868943, -26.903896181823889 ], [ -48.689088960140246, -26.903906977395661 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0050260040", "cod": 17.0, "nome": "R.Jovita da Costa Ramos", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.689435898868943, -26.903896181823892 ], [ -48.689088960140246, -26.903906977395661 ] ] } }
 ]
 }

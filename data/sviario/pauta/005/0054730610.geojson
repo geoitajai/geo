@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0054730610", "cod": 925, "nome": "R.Antônio José Marcos", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698079771578563, -26.918909600298971 ], [ -48.698090788080719, -26.919226246342944 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0054730610", "cod": 925.0, "nome": "R.Antônio José Marcos", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698079771578563, -26.918909600298971 ], [ -48.698090788080719, -26.919226246342948 ] ] } }
 ]
 }

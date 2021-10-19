@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2120310521", "cod": 445, "nome": "R.Henrique Vigarani", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677968015323934, -26.887668089640265 ], [ -48.67803696, -26.88772451 ], [ -48.678371111383029, -26.887991761367175 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2120310521", "cod": 484, "nome": "R.Ver.Antônio José Peixer", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.678236644474275, -26.887485207008634 ], [ -48.67803696, -26.88772451 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2120310521", "cod": 445.0, "nome": "R.Henrique Vigarani", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677968015323934, -26.887668089640265 ], [ -48.67803696, -26.88772451 ], [ -48.678371111383029, -26.887991761367172 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2120310521", "cod": 484.0, "nome": "R.Ver.Antônio José Peixer", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.678236644474275, -26.887485207008634 ], [ -48.67803696, -26.88772451 ] ] } }
 ]
 }

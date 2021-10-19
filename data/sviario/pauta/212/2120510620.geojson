@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2120510620", "cod": 456, "nome": "Trav.Cambé", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.671601954377351, -26.887388486378232 ], [ -48.671400713699391, -26.887624726104075 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2120510620", "cod": 456.0, "nome": "Trav.Cambé", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.671601954377358, -26.887388486378239 ], [ -48.671400713699391, -26.887624726104079 ] ] } }
 ]
 }

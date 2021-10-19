@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140220212", "cod": 754, "nome": "R.Mar.Floriano Peixoto", "ptotalvia": 8.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.633631268884365, -26.928119532160803 ], [ -48.63362803, -26.92812336 ], [ -48.63338247246098, -26.928387593455017 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2140220212", "cod": 758, "nome": "R.Quintino Bocaiuva", "ptotalvia": 6.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.633637932599399, -26.928130965210158 ], [ -48.63362803, -26.92812336 ], [ -48.63310599, -26.92773745 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2140220212", "cod": 763, "nome": "R.Juvêncio Tavares D'Amaral", "ptotalvia": 12.4, "ppasseio1": 4.4, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.632855558858459, -26.927992036927296 ], [ -48.63310599, -26.92773745 ], [ -48.6331162836426, -26.927723946160725 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2140220212", "cod": 754.0, "nome": "R.Mar.Floriano Peixoto", "ptotalvia": 8.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.633631268884365, -26.928119532160807 ], [ -48.63362803, -26.92812336 ], [ -48.63338247246098, -26.928387593455025 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140220212", "cod": 758.0, "nome": "R.Quintino Bocaiuva", "ptotalvia": 6.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.633637932599399, -26.928130965210158 ], [ -48.63362803, -26.92812336 ], [ -48.63310599, -26.92773745 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140220212", "cod": 763.0, "nome": "R.Juvêncio Tavares D'Amaral", "ptotalvia": 12.4, "ppasseio1": 4.4, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.632855558858459, -26.927992036927296 ], [ -48.63310599, -26.92773745 ], [ -48.6331162836426, -26.927723946160729 ] ] } }
 ]
 }

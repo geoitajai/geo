@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050330500", "cod": 106, "nome": "R.José Santangelo", "ptotalvia": 6.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.689814959453585, -26.909077160981624 ], [ -48.689448780714123, -26.909086477686429 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0050330500", "cod": 106.0, "nome": "R.José Santangelo", "ptotalvia": 6.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.689814959453585, -26.909077160981621 ], [ -48.689448780714123, -26.909086477686429 ] ] } }
 ]
 }

@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2152050515", "cod": 1565, "nome": "R.João Antônio Martins", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.742464942070114, -26.864999963798144 ], [ -48.742430010543401, -26.864602582910063 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2152050515", "cod": 1565.0, "nome": "R.João Antônio Martins", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.742464942070114, -26.864999963798144 ], [ -48.742430010543401, -26.864602582910063 ] ] } }
 ]
 }

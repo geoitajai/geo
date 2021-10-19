@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020750251", "cod": 159, "nome": "R.José Pereira Liberato", "ptotalvia": 12.5, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.682683417379153, -26.904523119538137 ], [ -48.68256407, -26.90489037 ], [ -48.68254342504779, -26.904962040049977 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020750251", "cod": 232, "nome": "R.Hidelbrando José da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6825676, -26.90489042 ], [ -48.682172395692518, -26.904907054951423 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2020750251", "cod": 159.0, "nome": "R.José Pereira Liberato", "ptotalvia": 12.5, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.682683417379153, -26.904523119538133 ], [ -48.68256407, -26.90489037 ], [ -48.68254342504779, -26.904962040049977 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020750251", "cod": 232.0, "nome": "R.Hidelbrando José da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6825676, -26.90489042 ], [ -48.682172395692518, -26.904907054951423 ] ] } }
 ]
 }

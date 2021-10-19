@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0030960065", "cod": 1210, "nome": "R.Minas Gerais", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69976513553636, -26.898696150516692 ], [ -48.69949521, -26.8987645 ], [ -48.699393141860817, -26.898766791400998 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0030960065", "cod": 1210.0, "nome": "R.Minas Gerais", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69976513553636, -26.898696150516692 ], [ -48.69949521, -26.8987645 ], [ -48.699393141860824, -26.898766791401002 ] ] } }
 ]
 }

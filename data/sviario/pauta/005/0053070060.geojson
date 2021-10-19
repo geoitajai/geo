@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0053070060", "cod": 31, "nome": "R.Israel de Almeida", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.703724319362507, -26.909603595610545 ], [ -48.703759690935939, -26.910235717406863 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0053070060", "cod": 141, "nome": "R.Domingos Antônio Borba", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.704295167229745, -26.91006633496492 ], [ -48.70416622, -26.91007365 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0053070060", "cod": 140, "nome": "R.Viladino Liberato Nunes", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.704231134900191, -26.909603165499185 ], [ -48.70414561, -26.90960696 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0053070060", "cod": 31.0, "nome": "R.Israel de Almeida", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.703724319362507, -26.909603595610548 ], [ -48.703759690935939, -26.910235717406863 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0053070060", "cod": 141.0, "nome": "R.Domingos Antônio Borba", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.704295167229745, -26.91006633496492 ], [ -48.70416622, -26.91007365 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0053070060", "cod": 140.0, "nome": "R.Viladino Liberato Nunes", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.704231134900191, -26.909603165499181 ], [ -48.70414561, -26.90960696 ] ] } }
 ]
 }

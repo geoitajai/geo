@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0031590050", "cod": 1178, "nome": "Av.Mário Uriarte", "ptotalvia": 30.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.714186213173285, -26.900951743599521 ], [ -48.71302018, -26.90079399 ], [ -48.712318141531597, -26.900699005588073 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0031590050", "cod": 1642, "nome": "R.\"B\"", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.71302018, -26.90079399 ], [ -48.71301653391123, -26.90073816009496 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0031590050", "cod": 1178.0, "nome": "Av.Mário Uriarte", "ptotalvia": 30.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.714186213173285, -26.900951743599521 ], [ -48.71302018, -26.90079399 ], [ -48.712318141531597, -26.900699005588073 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031590050", "cod": 1642.0, "nome": "R.\"B\"", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.71302018, -26.90079399 ], [ -48.71301653391123, -26.90073816009496 ] ] } }
 ]
 }

@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0030660320", "cod": 1196, "nome": "Av.Guanabara", "ptotalvia": 18.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697411295394701, -26.8915457659655 ], [ -48.697423671421774, -26.89184195320955 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0030660320", "cod": 1200, "nome": "R.Alagoas", "ptotalvia": 11.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697462313840703, -26.89178209851702 ], [ -48.69742136, -26.89178339 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0030660320", "cod": 1196.0, "nome": "Av.Guanabara", "ptotalvia": 18.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697411295394701, -26.8915457659655 ], [ -48.697423671421767, -26.89184195320955 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0030660320", "cod": 1200.0, "nome": "R.Alagoas", "ptotalvia": 11.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697462313840703, -26.89178209851702 ], [ -48.69742136, -26.89178339 ] ] } }
 ]
 }

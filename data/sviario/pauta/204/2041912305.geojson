@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2041912305", "cod": 655, "nome": "R.Oscar Praun Rodrigues", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.658119100617952, -26.918646749218826 ], [ -48.65834583, -26.91881759 ], [ -48.65838153, -26.91885945 ], [ -48.65841667, -26.91890518 ], [ -48.658421770290325, -26.918919877042015 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2041912305", "cod": 1673, "nome": "R.Maria da Costa Martins", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65834583, -26.91881759 ], [ -48.65807639484251, -26.919090833079089 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2041912305", "cod": 655.0, "nome": "R.Oscar Praun Rodrigues", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.658119100617952, -26.918646749218826 ], [ -48.65834583, -26.918817589999989 ], [ -48.65838153, -26.91885945 ], [ -48.65841667, -26.91890518 ], [ -48.658421770290325, -26.918919877042015 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2041912305", "cod": 1673.0, "nome": "R.Maria da Costa Martins", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65834583, -26.918817589999989 ], [ -48.658076394842517, -26.919090833079089 ] ] } }
 ]
 }

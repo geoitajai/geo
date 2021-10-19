@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0054970090", "cod": 1009, "nome": "R.Carlos Bernardes", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69250075, -26.93010988 ], [ -48.69240747, -26.93032646 ], [ -48.69232488, -26.93042349 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0054970090", "cod": 1008, "nome": "R.P.Gilberto Mafra", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692592461001105, -26.930141728970877 ], [ -48.69250075, -26.93010988 ], [ -48.692199901609889, -26.930040496280863 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0054970090", "cod": 1009.0, "nome": "R.Carlos Bernardes", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69250075, -26.93010988 ], [ -48.69240747, -26.93032646 ], [ -48.69232488, -26.93042349 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054970090", "cod": 1008.0, "nome": "R.P.Gilberto Mafra", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692592461001105, -26.930141728970877 ], [ -48.69250075, -26.93010988 ], [ -48.692199901609889, -26.930040496280863 ] ] } }
 ]
 }

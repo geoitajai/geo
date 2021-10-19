@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2030150430", "cod": 1092, "nome": "R.Christiane do Nascimento", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69857409241547, -26.881984208165736 ], [ -48.698593535323376, -26.882312431673405 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2030150430", "cod": 1092.0, "nome": "R.Christiane do Nascimento", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69857409241547, -26.881984208165736 ], [ -48.698593535323376, -26.882312431673405 ] ] } }
 ]
 }

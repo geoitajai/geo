@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020590715", "cod": 215, "nome": "R.Antônio Borba", "ptotalvia": 8.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675297922900015, -26.900701021930242 ], [ -48.67508902, -26.90093794 ], [ -48.67509352548818, -26.901012455661576 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020590715", "cod": 218, "nome": "R.Austergilio Angelino", "ptotalvia": 13.2, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675026539531778, -26.90088878296007 ], [ -48.67508902, -26.90093794 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2020590715", "cod": 215.0, "nome": "R.Antônio Borba", "ptotalvia": 8.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675297922900015, -26.900701021930246 ], [ -48.67508902, -26.90093794 ], [ -48.67509352548818, -26.901012455661576 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020590715", "cod": 218.0, "nome": "R.Austergilio Angelino", "ptotalvia": 13.2, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675026539531778, -26.90088878296007 ], [ -48.67508902, -26.90093794 ] ] } }
 ]
 }

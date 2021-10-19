@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040921300", "cod": 1633, "nome": "R.Ver.José Carlos Mendonça", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.684285448835965, -26.934289393021221 ], [ -48.68426023, -26.93482049 ], [ -48.68483078093481, -26.934845323878054 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2040921300", "cod": 1633.0, "nome": "R.Ver.José Carlos Mendonça", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.684285448835965, -26.934289393021217 ], [ -48.68426023, -26.93482049 ], [ -48.68483078093481, -26.934845323878054 ] ] } }
 ]
 }

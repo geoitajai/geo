@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2160190500", "cod": 1411, "nome": "R.Ari Zermiani", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -48.727323272700893, -26.939093514225771 ], [ -48.72734755, -26.93921788 ], [ -48.727380997857168, -26.939637269974792 ] ], [ [ -48.72741203724118, -26.940026459577872 ], [ -48.727480449115255, -26.940884241999552 ] ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2160190500", "cod": 1413, "nome": "Av.Itaipava", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.727460723011639, -26.940893692098872 ], [ -48.72718795, -26.94075629 ], [ -48.72598597, -26.94041375 ], [ -48.725827901759871, -26.940422202176403 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2160190500", "cod": 1438, "nome": "R.Érica Erbani", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.72598597, -26.94041375 ], [ -48.725994196625258, -26.940496777588859 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2160190500", "cod": 1411.0, "nome": "R.Ari Zermiani", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -48.727323272700893, -26.939093514225771 ], [ -48.72734755, -26.93921788 ], [ -48.727380997857168, -26.939637269974792 ] ], [ [ -48.72741203724118, -26.940026459577869 ], [ -48.727480449115248, -26.940884241999555 ] ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2160190500", "cod": 1413.0, "nome": "Av.Itaipava", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.727460723011639, -26.940893692098872 ], [ -48.72718795, -26.94075629 ], [ -48.72598597, -26.94041375 ], [ -48.725827901759871, -26.940422202176403 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2160190500", "cod": 1438.0, "nome": "R.Érica Erbani", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.72598597, -26.94041375 ], [ -48.725994196625258, -26.940496777588859 ] ] } }
 ]
 }

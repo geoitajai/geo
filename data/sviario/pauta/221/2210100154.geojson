@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2210100154", "cod": 521, "nome": "R.Luciano Pinheiro da Silva", "ptotalvia": 13.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.680726182473656, -26.911283970747661 ], [ -48.68073614, -26.91166213 ], [ -48.680736829436114, -26.911704314247579 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2210100154", "cod": 522, "nome": "R.Abdon David Schmitt", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.680785531029549, -26.911658922863147 ], [ -48.68040513200625, -26.911679141633829 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2210100154", "cod": 521.0, "nome": "R.Luciano Pinheiro da Silva", "ptotalvia": 13.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.680726182473656, -26.911283970747661 ], [ -48.68073614, -26.91166213 ], [ -48.680736829436114, -26.911704314247579 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210100154", "cod": 522.0, "nome": "R.Abdon David Schmitt", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.680785531029549, -26.911658922863147 ], [ -48.68040513200625, -26.911679141633826 ] ] } }
 ]
 }

@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110690325", "cod": 582, "nome": "R.Olga Mussi Dietrich", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67715909, -26.91654395 ], [ -48.676804860596938, -26.916562342306836 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110690325", "cod": 581, "nome": "R.Germano Montibeller", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677224354576808, -26.916743124735788 ], [ -48.67717231, -26.9167467 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110690325", "cod": 227, "nome": "R.Indaial", "ptotalvia": 17.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677158125221069, -26.91648880266904 ], [ -48.67715909, -26.91654395 ], [ -48.67717231, -26.9167467 ], [ -48.677178471711912, -26.91688435917029 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2110690325", "cod": 582.0, "nome": "R.Olga Mussi Dietrich", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67715909, -26.91654395 ], [ -48.676804860596938, -26.916562342306836 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110690325", "cod": 581.0, "nome": "R.Germano Montibeller", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677224354576808, -26.916743124735788 ], [ -48.67717231, -26.9167467 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110690325", "cod": 227.0, "nome": "R.Indaial", "ptotalvia": 17.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677158125221069, -26.916488802669036 ], [ -48.67715909, -26.91654395 ], [ -48.67717231, -26.9167467 ], [ -48.677178471711912, -26.91688435917029 ] ] } }
 ]
 }

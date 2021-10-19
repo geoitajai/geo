@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2151420030", "cod": 1314, "nome": "R.Ver.Pedro João de Souza Filho", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.747148298490636, -26.881283927122745 ], [ -48.74717598, -26.88165269 ], [ -48.74717907398535, -26.881691885894039 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2151420030", "cod": 1340, "nome": "Av.José João Corrêa", "ptotalvia": 18.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.747235533803064, -26.881649830893416 ], [ -48.74717598, -26.88165269 ], [ -48.746864696444739, -26.881674582295854 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2151420030", "cod": 1314.0, "nome": "R.Ver.Pedro João de Souza Filho", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.747148298490636, -26.881283927122745 ], [ -48.74717598, -26.88165269 ], [ -48.74717907398535, -26.881691885894039 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2151420030", "cod": 1340.0, "nome": "Av.José João Corrêa", "ptotalvia": 18.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.747235533803064, -26.881649830893416 ], [ -48.74717598, -26.88165269 ], [ -48.746864696444739, -26.881674582295854 ] ] } }
 ]
 }

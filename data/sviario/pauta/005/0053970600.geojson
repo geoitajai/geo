@@ -2,6 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0053970600", "cod": 955, "nome": "R.Acelino Alves dos Santos", "ptotalvia": 8.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691370839228171, -26.927952030860229 ], [ -48.691671451558101, -26.927768496442614 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0053970600", "cod": 955.0, "nome": "R.Acelino Alves dos Santos", "ptotalvia": 8.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691360916384596, -26.927958089083877 ], [ -48.691672064628349, -26.927768122140318 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0053970600", "cod": 955.0, "nome": "R.Acelino Alves dos Santos", "ptotalvia": 8.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691360916384596, -26.927958089083877 ], [ -48.691672064628349, -26.927768122140318 ] ] } }
 ]
 }

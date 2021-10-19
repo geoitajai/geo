@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2150821400", "cod": 1398, "nome": "R.Insp.Francisco Vechani", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.759377767567834, -26.891410257918551 ], [ -48.75934012, -26.89135609 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2150821400", "cod": 1343, "nome": "Rod.Jorge Lacerda", "ptotalvia": 43.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.761602282446333, -26.89165240162832 ], [ -48.76087177, -26.89159026 ], [ -48.75980509, -26.89147318 ], [ -48.75934012, -26.89135609 ], [ -48.75890524, -26.89115118 ], [ -48.758359345534245, -26.89080066025506 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2150821400", "cod": 1398.0, "nome": "R.Insp.Francisco Vechani", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.759377767567827, -26.89141025791854 ], [ -48.75934012, -26.89135609 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2150821400", "cod": 1343.0, "nome": "Rod.Jorge Lacerda", "ptotalvia": 43.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.761602282446333, -26.89165240162832 ], [ -48.76087177, -26.89159026 ], [ -48.75980509, -26.89147318 ], [ -48.75934012, -26.89135609 ], [ -48.75890524, -26.89115118 ], [ -48.758359345534245, -26.890800660255064 ] ] } }
 ]
 }

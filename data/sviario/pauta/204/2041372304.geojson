@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2041372304", "cod": 861, "nome": "R.Thadeu Kock", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674929148333284, -26.92575385791973 ], [ -48.674541596571828, -26.925697199304032 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2041372304", "cod": 861.0, "nome": "R.Thadeu Kock", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674929148333284, -26.925753857919727 ], [ -48.674541596571828, -26.925697199304032 ] ] } }
 ]
 }

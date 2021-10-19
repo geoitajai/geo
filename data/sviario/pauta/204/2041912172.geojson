@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2041912172", "cod": 622, "nome": "R.Sem denominação oficial", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65719333, -26.91817236 ], [ -48.657105001068153, -26.918121861704975 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2041912172", "cod": 655, "nome": "R.Oscar Praun Rodrigues", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65719333, -26.91817236 ], [ -48.657456321618028, -26.918393183358663 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2041912172", "cod": 266, "nome": "R.Uruguai", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.657271610722759, -26.918115945228021 ], [ -48.65719333, -26.91817236 ], [ -48.656957746793708, -26.918345887061374 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2041912172", "cod": 622.0, "nome": "R.Sem denominação oficial", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65719333, -26.91817236 ], [ -48.657105001068153, -26.918121861704975 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2041912172", "cod": 655.0, "nome": "R.Oscar Praun Rodrigues", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65719333, -26.91817236 ], [ -48.657456321618028, -26.918393183358663 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2041912172", "cod": 266.0, "nome": "R.Uruguai", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.657271610722759, -26.918115945228021 ], [ -48.65719333, -26.91817236 ], [ -48.656957746793708, -26.918345887061374 ] ] } }
 ]
 }

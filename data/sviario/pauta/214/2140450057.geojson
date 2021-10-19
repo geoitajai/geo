@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140450057", "cod": 776, "nome": "R.Benjamim Constant", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.635163065258439, -26.932162747836806 ], [ -48.634800947835515, -26.931862617164274 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2140450057", "cod": 776.0, "nome": "R.Benjamim Constant", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.635163065076242, -26.932162747685791 ], [ -48.634800948160638, -26.931862617433744 ] ] } }
 ]
 }

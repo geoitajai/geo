@@ -2,7 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0053330130", "cod": 959, "nome": "R.Pantaleão Francisco Casas", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695064608230723, -26.923428938978947 ], [ -48.695190285596325, -26.923709802770468 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0053330130", "cod": 959, "nome": "R.Pantaleão Francisco Casas", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695064608230723, -26.923428938978947 ], [ -48.695190285596325, -26.923709802770468 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0053330130", "cod": 959.0, "nome": "R.Pantaleão Francisco Casas", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695064608230723, -26.923428938978951 ], [ -48.695190285596325, -26.923709802770468 ] ] } }
 ]
 }

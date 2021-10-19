@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0055010050", "cod": 133, "nome": "R.Laudelino João da Veiga", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.707820769438875, -26.906122701144835 ], [ -48.707462110072015, -26.906137924408352 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0055010050", "cod": 133.0, "nome": "R.Laudelino João da Veiga", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.707820769438875, -26.906122701144835 ], [ -48.707462110072015, -26.906137924408352 ] ] } }
 ]
 }

@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2210900160", "cod": 537, "nome": "R.Pres.João Goulart", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.678623825549849, -26.924056074205591 ], [ -48.678246913714297, -26.924087222728726 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2210900160", "cod": 537.0, "nome": "R.Pres.João Goulart", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.678623825549849, -26.924056074205591 ], [ -48.678246913714297, -26.924087222728726 ] ] } }
 ]
 }

@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010871155", "cod": 340, "nome": "R.Anita Garibaldi", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.665957242528407, -26.908856199122582 ], [ -48.665644169493156, -26.908609336426906 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2010871155", "cod": 340.0, "nome": "R.Anita Garibaldi", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.665957242528407, -26.908856199122575 ], [ -48.665644169493163, -26.90860933642692 ] ] } }
 ]
 }

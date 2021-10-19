@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0031940140", "cod": 1178, "nome": "Av.Mário Uriarte", "ptotalvia": 30.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700165857488599, -26.899340279613988 ], [ -48.700012315331193, -26.899348880394417 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0031940140", "cod": 1178.0, "nome": "Av.Mário Uriarte", "ptotalvia": 30.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700165857488614, -26.899340279613988 ], [ -48.700012315331172, -26.899348880394413 ] ] } }
 ]
 }

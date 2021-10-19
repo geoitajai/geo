@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2152020350", "cod": 1315, "nome": "R.Maria Marques Rampelotti", "ptotalvia": 18.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.742275367149951, -26.870872393590705 ], [ -48.74209985, -26.870883 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2152020350", "cod": 1555, "nome": "R.Agenor Cesario de Aragão", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.742104702800674, -26.870939628902004 ], [ -48.74209985, -26.870883 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2152020350", "cod": 1602, "nome": "R.Euclides Alberto Melies", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.742281644530543, -26.870191951366703 ], [ -48.742322672729166, -26.870727436343977 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2152020350", "cod": 1315.0, "nome": "R.Maria Marques Rampelotti", "ptotalvia": 18.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.742275367149951, -26.870872393590709 ], [ -48.74209985, -26.870883 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2152020350", "cod": 1555.0, "nome": "R.Agenor Cesario de Aragão", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.742104702800674, -26.870939628902008 ], [ -48.74209985, -26.870883 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2152020350", "cod": 1602.0, "nome": "R.Euclides Alberto Melies", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.742281644530543, -26.870191951366703 ], [ -48.742322672729166, -26.870727436343977 ] ] } }
 ]
 }

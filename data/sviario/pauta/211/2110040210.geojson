@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110040210", "cod": 488, "nome": "Av.Duque de Caxias", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.672744404605488, -26.90721366614099 ], [ -48.6727391, -26.90717476 ], [ -48.672563095282065, -26.906737218111829 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110040210", "cod": 314, "nome": "R.Alfredo Trompowisky", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.672893163464572, -26.90715796215445 ], [ -48.6727391, -26.90717476 ], [ -48.672697244474627, -26.907178725816003 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110040210", "cod": 160, "nome": "R.Heitor Liberato", "ptotalvia": 15.5, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.672929477418343, -26.906824337748265 ], [ -48.67258863656145, -26.906713877330233 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2110040210", "cod": 488.0, "nome": "Av.Duque de Caxias", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.672744404605488, -26.907213666140986 ], [ -48.6727391, -26.90717476 ], [ -48.672563095282065, -26.906737218111829 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110040210", "cod": 314.0, "nome": "R.Alfredo Trompowisky", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.672893163464572, -26.90715796215445 ], [ -48.6727391, -26.90717476 ], [ -48.672697244474627, -26.907178725815999 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110040210", "cod": 160.0, "nome": "R.Heitor Liberato", "ptotalvia": 15.5, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.672929477418336, -26.906824337748265 ], [ -48.67258863656145, -26.906713877330233 ] ] } }
 ]
 }

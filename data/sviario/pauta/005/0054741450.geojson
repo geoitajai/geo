@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0054741450", "cod": 914, "nome": "R.Das Azaléias", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69598896, -26.91919989 ], [ -48.695580674628957, -26.919269482327241 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0054741450", "cod": 915, "nome": "R.Conegunda Tomazina Bosco", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695975999035092, -26.919039878595644 ], [ -48.69598684, -26.91917375 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0054741450", "cod": 915, "nome": "R.Conegunda Tomazina Bosco", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69598684, -26.91917375 ], [ -48.69598896, -26.91919989 ], [ -48.695992971303589, -26.919273558610264 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0054741450", "cod": 914.0, "nome": "R.Das Azaléias", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69598896, -26.91919989 ], [ -48.695580674628957, -26.919269482327245 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054741450", "cod": 915.0, "nome": "R.Conegunda Tomazina Bosco", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695975999035092, -26.919039878595644 ], [ -48.69598684, -26.91917375 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054741450", "cod": 915.0, "nome": "R.Conegunda Tomazina Bosco", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69598684, -26.91917375 ], [ -48.69598896, -26.91919989 ], [ -48.695992971303589, -26.919273558610264 ] ] } }
 ]
 }

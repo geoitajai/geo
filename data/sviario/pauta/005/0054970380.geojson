@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0054970380", "cod": 998, "nome": "R.Hercílio Trainotti", "ptotalvia": 6.5, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692247728097421, -26.930992688072024 ], [ -48.691929098010107, -26.930844562601276 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0054970380", "cod": 998.0, "nome": "R.Hercílio Trainotti", "ptotalvia": 6.5, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692247728097421, -26.930992688072024 ], [ -48.691929098010107, -26.930844562601276 ] ] } }
 ]
 }

@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0031260355", "cod": 1166, "nome": "R.Eredes Serpa", "ptotalvia": 12.5, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.701850254061533, -26.89396407652146 ], [ -48.701870325556342, -26.894295982810579 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0031260355", "cod": 1166.0, "nome": "R.Eredes Serpa", "ptotalvia": 12.5, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.701850254061533, -26.89396407652146 ], [ -48.701870325556342, -26.894295982810579 ] ] } }
 ]
 }

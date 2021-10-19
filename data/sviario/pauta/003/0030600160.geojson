@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0030600160", "cod": 1186, "nome": "R.Rio Grande do Sul", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697676453438703, -26.88743946659331 ], [ -48.697306233048529, -26.887456787552761 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0030600160", "cod": 1186.0, "nome": "R.Rio Grande do Sul", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697676453438703, -26.88743946659331 ], [ -48.697306233048529, -26.887456787552765 ] ] } }
 ]
 }

@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0052640130", "cod": 62, "nome": "R.São Joaquim", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.684823380606431, -26.897691646279345 ], [ -48.684449520529959, -26.897694847394373 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0052640130", "cod": 62.0, "nome": "R.São Joaquim", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.684823380606431, -26.897691646279341 ], [ -48.684449520529959, -26.897694847394373 ] ] } }
 ]
 }

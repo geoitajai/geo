@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2210661548", "cod": 159, "nome": "R.José Pereira Liberato", "ptotalvia": 12.5, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.682291859114436, -26.913302410032546 ], [ -48.68227853, -26.91335308 ], [ -48.68225077, -26.91366782 ], [ -48.682250770643044, -26.913667827643586 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2210661548", "cod": 516, "nome": "R.Bernadette Dell'Agnolo Bozzano", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.682324476932436, -26.913350728488314 ], [ -48.68227853, -26.91335308 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2210661548", "cod": 159.0, "nome": "R.José Pereira Liberato", "ptotalvia": 12.5, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.682291859114436, -26.913302410032546 ], [ -48.68227853, -26.91335308 ], [ -48.68225077, -26.91366782 ], [ -48.682250770643044, -26.913667827643586 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210661548", "cod": 516.0, "nome": "R.Bernadette Dell'Agnolo Bozzano", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.682324476932436, -26.913350728488314 ], [ -48.68227853, -26.91335308 ] ] } }
 ]
 }

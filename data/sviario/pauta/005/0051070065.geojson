@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0051070065", "cod": 44, "nome": "R.Manoel José dos Santos", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696072930695159, -26.904687922939331 ], [ -48.696089518149591, -26.905017667846732 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0051070065", "cod": 44.0, "nome": "R.Manoel José dos Santos", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696072930695159, -26.904687922939331 ], [ -48.696089518149591, -26.905017667846732 ] ] } }
 ]
 }

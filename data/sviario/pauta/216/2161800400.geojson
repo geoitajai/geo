@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2161800400", "cod": 1746.0, "nome": "R.Jose Felisberto dos Santos", "ptotalvia": 20.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.85758993, -27.03921102 ], [ -48.857695425354066, -27.039182516318323 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2161800400", "cod": 1238.0, "nome": "R.Sorocaba", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.85722041753089, -27.038523621707018 ], [ -48.85736756, -27.03867311 ], [ -48.85743041, -27.03876261 ], [ -48.85748853, -27.03888192 ], [ -48.85757258, -27.03916393 ], [ -48.857663517420349, -27.039572017388522 ] ] } }
+]
+}

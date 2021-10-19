@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0055260090", "cod": 135, "nome": "R.José Pezzini", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.708381388867409, -26.909372928317101 ], [ -48.70838532, -26.90943991 ], [ -48.708404922522668, -26.909779610035713 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0055260090", "cod": 140, "nome": "R.Viladino Liberato Nunes", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.708724510313047, -26.909423773800071 ], [ -48.70838532, -26.90943991 ], [ -48.708315510251225, -26.909442556419947 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0055260090", "cod": 135.0, "nome": "R.José Pezzini", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.708381388867409, -26.909372928317111 ], [ -48.70838532, -26.90943991 ], [ -48.708404922522668, -26.909779610035713 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0055260090", "cod": 140.0, "nome": "R.Viladino Liberato Nunes", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70872451031304, -26.909423773800068 ], [ -48.70838532, -26.90943991 ], [ -48.708315510251225, -26.90944255641995 ] ] } }
 ]
 }

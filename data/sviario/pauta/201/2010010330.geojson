@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010010330", "cod": 280, "nome": "Av.Min.Victor Konder", "ptotalvia": 20.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.654154008883793, -26.908931945047563 ], [ -48.65409269101859, -26.909211646123612 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2010010330", "cod": 280.0, "nome": "Av.Min.Victor Konder", "ptotalvia": 20.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.654154008883793, -26.908931945047559 ], [ -48.65409269101859, -26.909211646123616 ] ] } }
 ]
 }

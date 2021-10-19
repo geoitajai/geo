@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0031650370", "cod": 1156, "nome": "R.Topázio", "ptotalvia": 7.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69502615295545, -26.891921073743134 ], [ -48.69477834, -26.89193057 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0031650370", "cod": 1156.0, "nome": "R.Topázio", "ptotalvia": 7.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69502615295545, -26.891921073743138 ], [ -48.69477834, -26.89193057 ] ] } }
 ]
 }

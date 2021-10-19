@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050960030", "cod": 97, "nome": "R.Orleans", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695652790884864, -26.909593513373935 ], [ -48.695670619394306, -26.909925439031717 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0050960030", "cod": 97.0, "nome": "R.Orleans", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695652790884864, -26.909593513373935 ], [ -48.695670619394306, -26.909925439031717 ] ] } }
 ]
 }

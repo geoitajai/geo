@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110390553", "cod": 498, "nome": "R.Willy Henning", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.671086251530753, -26.914197680534031 ], [ -48.671476789900062, -26.914175894068908 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2110390553", "cod": 498.0, "nome": "R.Willy Henning", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.671086251530753, -26.914197680534031 ], [ -48.671476789900062, -26.914175894068908 ] ] } }
 ]
 }

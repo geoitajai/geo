@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2120820260", "cod": 421, "nome": "Trav.Vitor Ribeiro da Luz", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.682383368695213, -26.891917223305548 ], [ -48.6822965, -26.891961 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2120820260", "cod": 159, "nome": "R.José Pereira Liberato", "ptotalvia": 12.5, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.681741845515951, -26.891818711875676 ], [ -48.681760375907771, -26.892269679136678 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2120820260", "cod": 418, "nome": "R.Bolívia", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.682284683446049, -26.891696651066422 ], [ -48.6822965, -26.891961 ], [ -48.682300839475126, -26.892253259595314 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2120820260", "cod": 421.0, "nome": "Trav.Vitor Ribeiro da Luz", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.682383368695213, -26.891917223305548 ], [ -48.6822965, -26.891961 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2120820260", "cod": 159.0, "nome": "R.José Pereira Liberato", "ptotalvia": 12.5, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.681741845515951, -26.891818711875676 ], [ -48.681760375907771, -26.892269679136678 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2120820260", "cod": 418.0, "nome": "R.Bolívia", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.682284683446049, -26.891696651066425 ], [ -48.6822965, -26.891961 ], [ -48.682300839475126, -26.892253259595311 ] ] } }
 ]
 }

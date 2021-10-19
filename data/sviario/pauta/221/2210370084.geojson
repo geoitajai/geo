@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2210370084", "cod": 513, "nome": "R.Anibal César", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67799707578267, -26.917848149361436 ], [ -48.67799406000001, -26.91780542 ], [ -48.677958722642806, -26.917398486891315 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2210370084", "cod": 579, "nome": "R.Leonel Pereira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67804746513707, -26.917802122179996 ], [ -48.67799406000001, -26.91780542 ], [ -48.67798796, -26.91780572 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2210370084", "cod": 579, "nome": "R.Leonel Pereira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67798796, -26.91780572 ], [ -48.677653406640346, -26.917821863726829 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2210370084", "cod": 513.0, "nome": "R.Anibal César", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67799707578267, -26.917848149361436 ], [ -48.67799406000001, -26.91780542 ], [ -48.677958722642806, -26.917398486891312 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210370084", "cod": 579.0, "nome": "R.Leonel Pereira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67804746513707, -26.917802122179996 ], [ -48.67799406000001, -26.91780542 ], [ -48.67798796, -26.91780572 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210370084", "cod": 579.0, "nome": "R.Leonel Pereira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67798796, -26.91780572 ], [ -48.677653406640346, -26.917821863726829 ] ] } }
 ]
 }

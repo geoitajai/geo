@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020170183", "cod": 240, "nome": "R.Joaquim José de Freitas", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67239218, -26.90578154 ], [ -48.672488357053709, -26.905770577412312 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020170183", "cod": 241, "nome": "R.Izaura Dalago", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67239044, -26.90578072 ], [ -48.672011307094245, -26.90578709271389 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020170183", "cod": 223, "nome": "R.Benjamin Franklin Pereira", "ptotalvia": 15.2, "ppasseio1": 1.9, "ppasseio2": 1.9 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67229711743505, -26.905676920095519 ], [ -48.67239044, -26.90578072 ], [ -48.67243425570895, -26.906035840996847 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2020170183", "cod": 240.0, "nome": "R.Joaquim José de Freitas", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67239218, -26.90578154 ], [ -48.672488357053709, -26.905770577412312 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020170183", "cod": 241.0, "nome": "R.Izaura Dalago", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67239044, -26.90578072 ], [ -48.672011307094245, -26.90578709271389 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020170183", "cod": 223.0, "nome": "R.Benjamin Franklin Pereira", "ptotalvia": 15.2, "ppasseio1": 1.9, "ppasseio2": 1.9 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67229711743505, -26.905676920095519 ], [ -48.67239044, -26.90578072 ], [ -48.67243425570895, -26.906035840996847 ] ] } }
 ]
 }

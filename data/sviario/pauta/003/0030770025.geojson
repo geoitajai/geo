@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0030770025", "cod": 1188, "nome": "R.Paraná", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698406320006136, -26.888495701656069 ], [ -48.698047189034838, -26.888505934698244 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0030770025", "cod": 1188.0, "nome": "R.Paraná", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698406320006136, -26.888495701656066 ], [ -48.698047189034831, -26.888505934698234 ] ] } }
 ]
 }

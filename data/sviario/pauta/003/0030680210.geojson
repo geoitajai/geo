@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0030680210", "cod": 1196, "nome": "Av.Guanabara", "ptotalvia": 18.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697516328484326, -26.894396678027313 ], [ -48.69751589, -26.89449114 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0030680210", "cod": 1205, "nome": "R.Piauí", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697663155887646, -26.894484738293812 ], [ -48.69751589, -26.89449114 ], [ -48.697300644307191, -26.894494459215547 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0030680210", "cod": 1196.0, "nome": "Av.Guanabara", "ptotalvia": 18.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697516328484326, -26.894396678027309 ], [ -48.69751589, -26.89449114 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0030680210", "cod": 1205.0, "nome": "R.Piauí", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697663155887646, -26.894484738293812 ], [ -48.69751589, -26.89449114 ], [ -48.697300644307191, -26.894494459215547 ] ] } }
 ]
 }

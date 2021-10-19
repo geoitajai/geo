@@ -2,8 +2,9 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140470473", "cod": 763, "nome": "R.Juvêncio Tavares D'Amaral", "ptotalvia": 12.4, "ppasseio1": 4.4, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.63058917, -26.92946939 ], [ -48.630613253903206, -26.929468507866478 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2140470473", "cod": 765, "nome": "R.Samuel Heusi Júnior", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.63058917, -26.92946939 ], [ -48.630376244825449, -26.929465390673929 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2140470473", "cod": 779, "nome": "R.DonaMaria Flora Caldeira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.63058917, -26.92946939 ], [ -48.630710499670016, -26.929575767654693 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2140470473", "cod": 1769.0, "nome": "Serv.(PASSAGEM FORÇADA)", "ptotalvia": 5.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.63042613, -26.92978755 ], [ -48.63065864, -26.9295303 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140470473", "cod": 763.0, "nome": "R.Juvêncio Tavares D'Amaral", "ptotalvia": 12.4, "ppasseio1": 4.4, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.63058917, -26.92946939 ], [ -48.630647298743554, -26.929467260881516 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140470473", "cod": 765.0, "nome": "R.Samuel Heusi Júnior", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.63058917, -26.92946939 ], [ -48.630372396563608, -26.929465318389926 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140470473", "cod": 779.0, "nome": "R.DonaMaria Flora Caldeira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.63058917, -26.92946939 ], [ -48.630755714433967, -26.929615410320082 ] ] } }
 ]
 }

@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2121150495", "cod": 426, "nome": "R.Alfredo Eicke", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.678131126394817, -26.891915537073135 ], [ -48.67799868, -26.89194744 ], [ -48.677558326913378, -26.892051983681178 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2121150495", "cod": 428, "nome": "R.Eliziário Pereira", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.678315062489752, -26.89157170283795 ], [ -48.67799868, -26.89194744 ], [ -48.677934414430773, -26.892024838253629 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2121150495", "cod": 426.0, "nome": "R.Alfredo Eicke", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.678131126394817, -26.891915537073135 ], [ -48.67799868, -26.89194744 ], [ -48.677558326913378, -26.892051983681178 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2121150495", "cod": 428.0, "nome": "R.Eliziário Pereira", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.678315062489752, -26.89157170283795 ], [ -48.67799868, -26.89194744 ], [ -48.677934414430773, -26.892024838253629 ] ] } }
 ]
 }

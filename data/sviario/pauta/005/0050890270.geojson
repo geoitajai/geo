@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050890270", "cod": 113, "nome": "R.Timbó", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695317851163189, -26.906255505948142 ], [ -48.694951577118729, -26.906278234858686 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0050890270", "cod": 113.0, "nome": "R.Timbó", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695317851163189, -26.906255505948138 ], [ -48.694951577118729, -26.906278234858686 ] ] } }
 ]
 }

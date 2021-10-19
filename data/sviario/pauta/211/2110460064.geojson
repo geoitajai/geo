@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110460064", "cod": 333, "nome": "R.Etelvina de Brito", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.669375047429419, -26.912368083542574 ], [ -48.669366562385854, -26.912378113087147 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110460064", "cod": 336, "nome": "R.Carlos Santana", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.669377099343173, -26.912364509979227 ], [ -48.66929716, -26.91221138 ], [ -48.669134659902134, -26.912082778613588 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2110460064", "cod": 333.0, "nome": "R.Etelvina de Brito", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.669375047429419, -26.912368083542574 ], [ -48.669366562385854, -26.912378113087147 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110460064", "cod": 336.0, "nome": "R.Carlos Santana", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.669377099343173, -26.912364509979227 ], [ -48.66929716, -26.91221138 ], [ -48.669134659902134, -26.912082778613588 ] ] } }
 ]
 }

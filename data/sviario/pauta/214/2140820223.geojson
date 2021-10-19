@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140820223", "cod": 831, "nome": "R.Renato Melim Cunha", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.629292086043876, -26.941960277567158 ], [ -48.62933786, -26.94224819 ], [ -48.629344182434977, -26.942293220251244 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2140820223", "cod": 834, "nome": "R.Richard Galm", "ptotalvia": 15.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.62939475023672, -26.94224038860002 ], [ -48.628902554933603, -26.94231024911856 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2140820223", "cod": 834.0, "nome": "R.Richard Galm", "ptotalvia": 15.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.62939475023672, -26.94224038860002 ], [ -48.628902554933603, -26.942310249118556 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140820223", "cod": 831.0, "nome": "R.Renato Melim Cunha", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.629292086043876, -26.941960277567162 ], [ -48.62933786, -26.94224819 ], [ -48.629344182434977, -26.942293220251244 ] ] } }
 ]
 }

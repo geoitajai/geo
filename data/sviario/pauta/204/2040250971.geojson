@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040250971", "cod": 628, "nome": "R.Bento Adriano Pereira", "ptotalvia": 5.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.655057038780193, -26.91359986041595 ], [ -48.65470284, -26.91332521 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040250971", "cod": 282, "nome": "R.Lauro Muller", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.654234272793033, -26.913013019387055 ], [ -48.654097385432308, -26.913767858749821 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2040250971", "cod": 628.0, "nome": "R.Bento Adriano Pereira", "ptotalvia": 5.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.655057038780193, -26.91359986041595 ], [ -48.65470284, -26.91332521 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040250971", "cod": 282.0, "nome": "R.Lauro Muller", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.654234272793033, -26.913013019387055 ], [ -48.654097385432308, -26.913767858749825 ] ] } }
 ]
 }

@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2030710260", "cod": 1175, "nome": "Av.Marginal Leste", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.728671762824291, -26.872117000166519 ], [ -48.728780674569364, -26.871854181925535 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2030710260", "cod": 1278, "nome": "R.Olívio Francisco Borges", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.72834583, -26.87191057 ], [ -48.728181261603233, -26.871910330052192 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2030710260", "cod": 1175.0, "nome": "Av.Marginal Leste", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.728671762824291, -26.872117000166519 ], [ -48.728780674569364, -26.871854181925535 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2030710260", "cod": 1278.0, "nome": "R.Olívio Francisco Borges", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.72834583, -26.87191057 ], [ -48.728181261603233, -26.871910330052192 ] ] } }
 ]
 }

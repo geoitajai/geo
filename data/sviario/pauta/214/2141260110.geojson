@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2141260110", "cod": 780, "nome": "R.Carola Coelho", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.630229091882313, -26.955881814421769 ], [ -48.629820948649211, -26.955933205547726 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2141260110", "cod": 780.0, "nome": "R.Carola Coelho", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.630229091882313, -26.955881814421769 ], [ -48.629820948649211, -26.95593320554773 ] ] } }
 ]
 }

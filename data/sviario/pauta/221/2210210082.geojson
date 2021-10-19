@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2210210082", "cod": 530, "nome": "R.São Francisco de Assis", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.683658246571753, -26.911594167129422 ], [ -48.6836483, -26.9116475 ], [ -48.683599123918619, -26.911933917742324 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2210210082", "cod": 522, "nome": "R.Abdon David Schmitt", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.684055422518803, -26.911691189172529 ], [ -48.6836483, -26.9116475 ], [ -48.683606673749935, -26.91164388205997 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2210210082", "cod": 530.0, "nome": "R.São Francisco de Assis", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.683658246571753, -26.911594167129426 ], [ -48.6836483, -26.9116475 ], [ -48.683599123918619, -26.911933917742324 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210210082", "cod": 522.0, "nome": "R.Abdon David Schmitt", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.684055422518803, -26.911691189172526 ], [ -48.6836483, -26.9116475 ], [ -48.683606673749935, -26.911643882059973 ] ] } }
 ]
 }

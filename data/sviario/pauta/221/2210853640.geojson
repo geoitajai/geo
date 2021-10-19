@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2210853640", "cod": 564, "nome": "R.Henry Pedro Deitos", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.683880002901368, -26.921277641581863 ], [ -48.683444649764105, -26.921303628847635 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2210853640", "cod": 564.0, "nome": "R.Henry Pedro Deitos", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.683880002901368, -26.92127764158186 ], [ -48.683444649764105, -26.921303628847635 ] ] } }
 ]
 }

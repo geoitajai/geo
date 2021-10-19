@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020770186", "cod": 233, "nome": "R.Teodoro Luiz Pereira", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.679342390988332, -26.904410403717929 ], [ -48.678972921295525, -26.904431098875449 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2020770186", "cod": 233.0, "nome": "R.Teodoro Luiz Pereira", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.679342390988332, -26.904410403717929 ], [ -48.678972921295525, -26.904431098875449 ] ] } }
 ]
 }

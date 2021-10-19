@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110100163", "cod": 492, "nome": "R.Carlos Seara", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67080124923713, -26.908488025925692 ], [ -48.670861636047668, -26.909002624285105 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2110100163", "cod": 492.0, "nome": "R.Carlos Seara", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67080124923713, -26.908488025925692 ], [ -48.670861636047668, -26.909002624285105 ] ] } }
 ]
 }

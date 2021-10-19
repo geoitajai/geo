@@ -2,9 +2,9 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110300082", "cod": 489, "nome": "R.Fiuza Lima", "ptotalvia": 13.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67455449, -26.91371017 ], [ -48.674543489187471, -26.913632309800199 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110300082", "cod": 498, "nome": "R.Willy Henning", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674321442201297, -26.914020163286697 ], [ -48.674696042438278, -26.914001021366751 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110300082", "cod": 497, "nome": "R.Ciriaco Meirinho", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67467963187282, -26.913705558799386 ], [ -48.67455449, -26.91371017 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110300082", "cod": 497, "nome": "R.Ciriaco Meirinho", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67455449, -26.91371017 ], [ -48.674308780221828, -26.913724585462379 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2110300082", "cod": 489.0, "nome": "R.Fiuza Lima", "ptotalvia": 13.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67455449, -26.91371017 ], [ -48.674543489187464, -26.913632309800199 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110300082", "cod": 498.0, "nome": "R.Willy Henning", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674321442201297, -26.914020163286697 ], [ -48.674696042438278, -26.914001021366751 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110300082", "cod": 497.0, "nome": "R.Ciriaco Meirinho", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67467963187282, -26.913705558799386 ], [ -48.67455449, -26.91371017 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110300082", "cod": 497.0, "nome": "R.Ciriaco Meirinho", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67455449, -26.91371017 ], [ -48.674308780221828, -26.913724585462386 ] ] } }
 ]
 }

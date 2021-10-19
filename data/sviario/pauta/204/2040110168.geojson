@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040110168", "cod": 586, "nome": "Av.Osvaldo Reis", "ptotalvia": 34.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.649967217699604, -26.924563600370753 ], [ -48.64976088, -26.92466078 ], [ -48.649403650104112, -26.924773196791474 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040110168", "cod": 673, "nome": "R.Galdino Jerônimo Vieira", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.649970001532388, -26.924512120484835 ], [ -48.649396117584722, -26.924312009169025 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2040110168", "cod": 586.0, "nome": "Av.Osvaldo Reis", "ptotalvia": 34.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.649967217699604, -26.924563600370753 ], [ -48.64976088, -26.92466078 ], [ -48.649403650104112, -26.92477319679147 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040110168", "cod": 673.0, "nome": "R.Galdino Jerônimo Vieira", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.649970001532388, -26.924512120484835 ], [ -48.649396117584722, -26.924312009169025 ] ] } }
 ]
 }

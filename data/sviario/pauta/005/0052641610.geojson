@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0052641610", "cod": 86, "nome": "R.João Camilo Vicente", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.684070470442009, -26.898587941503845 ], [ -48.68374161, -26.89858975 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0052641610", "cod": 86.0, "nome": "R.João Camilo Vicente", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.684070470442009, -26.898587941503845 ], [ -48.68374161, -26.89858975 ] ] } }
 ]
 }

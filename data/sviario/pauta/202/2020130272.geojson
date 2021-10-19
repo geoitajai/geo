@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020130272", "cod": 286, "nome": "R.Tijucas", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.667702663025963, -26.901596681949378 ], [ -48.66766552, -26.90161832 ], [ -48.667363912959168, -26.901792441904895 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020130272", "cod": 161, "nome": "Av.Irineu Bornhausen", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.668050107751199, -26.90206550474975 ], [ -48.66766552, -26.90161832 ], [ -48.66764439962909, -26.901594643478074 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2020130272", "cod": 286.0, "nome": "R.Tijucas", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.667702663025963, -26.901596681949378 ], [ -48.66766552, -26.90161832 ], [ -48.667363912959168, -26.901792441904892 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020130272", "cod": 161.0, "nome": "Av.Irineu Bornhausen", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.668050107751206, -26.902065504749746 ], [ -48.66766552, -26.90161832 ], [ -48.66764439962909, -26.901594643478074 ] ] } }
 ]
 }

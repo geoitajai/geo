@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050270520", "cod": 1305, "nome": "R.Pedro Bento Reis", "ptotalvia": 3.5, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69311366688688, -26.904224129765478 ], [ -48.69309988, -26.9042249 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0050270520", "cod": 10, "nome": "R.Antônio Ayres dos Santos", "ptotalvia": 13.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692254946075323, -26.904494181375131 ], [ -48.692248898592084, -26.904113766385478 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0050270520", "cod": 1305.0, "nome": "R.Pedro Bento Reis", "ptotalvia": 3.5, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69311366688688, -26.904224129765478 ], [ -48.69309988, -26.9042249 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050270520", "cod": 10.0, "nome": "R.Antônio Ayres dos Santos", "ptotalvia": 13.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692254946075323, -26.904494181375131 ], [ -48.692248898592084, -26.904113766385475 ] ] } }
 ]
 }

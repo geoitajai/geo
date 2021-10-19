@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0031450460", "cod": 1170, "nome": "R.Ver.Nestor dos Santos", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.704668192648292, -26.890418135544156 ], [ -48.70468922, -26.89073593 ], [ -48.704692298627805, -26.890790088399875 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0031450460", "cod": 1231, "nome": "R.Hermes Guedes da Fonseca", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70468922, -26.89073593 ], [ -48.704621597437338, -26.890737662655635 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0031450460", "cod": 1170.0, "nome": "R.Ver.Nestor dos Santos", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.704668192648292, -26.890418135544159 ], [ -48.70468922, -26.89073593 ], [ -48.704692298627805, -26.890790088399875 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031450460", "cod": 1231.0, "nome": "R.Hermes Guedes da Fonseca", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70468922, -26.89073593 ], [ -48.704621597437338, -26.890737662655635 ] ] } }
 ]
 }

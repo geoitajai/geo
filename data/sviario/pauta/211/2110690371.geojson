@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110690371", "cod": 546, "nome": "R.Manoel Joaquim Coelho", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676553172123157, -26.916600315392881 ], [ -48.676574111008513, -26.916937393172603 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2110690371", "cod": 546.0, "nome": "R.Manoel Joaquim Coelho", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676553172123157, -26.916600315392881 ], [ -48.676574111008513, -26.916937393172603 ] ] } }
 ]
 }

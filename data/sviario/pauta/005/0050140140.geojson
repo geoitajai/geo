@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050140140", "cod": 51, "nome": "R.Otávio Cesário Pereira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.690521130739825, -26.897228198924182 ], [ -48.6905275, -26.89752164 ], [ -48.690528303884939, -26.897579030626556 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0050140140", "cod": 53, "nome": "R.Ver.Airton de Souza", "ptotalvia": 14.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.690586287539951, -26.897520092951993 ], [ -48.6905275, -26.89752164 ], [ -48.690130006133593, -26.897532836578542 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0050140140", "cod": 51.0, "nome": "R.Otávio Cesário Pereira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.690521130739825, -26.897228198924182 ], [ -48.6905275, -26.89752164 ], [ -48.690528303884939, -26.897579030626552 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050140140", "cod": 53.0, "nome": "R.Ver.Airton de Souza", "ptotalvia": 14.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.690586287539951, -26.897520092951989 ], [ -48.6905275, -26.89752164 ], [ -48.690130006133593, -26.897532836578538 ] ] } }
 ]
 }

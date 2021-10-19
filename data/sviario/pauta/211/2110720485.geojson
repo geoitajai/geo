@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110720485", "cod": 546, "nome": "R.Manoel Joaquim Coelho", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676703882625681, -26.919026462680453 ], [ -48.67670408, -26.91902964 ], [ -48.676723624862454, -26.919373854881702 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110720485", "cod": 577, "nome": "R.Jacob Ardigó", "ptotalvia": 21.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676711993644766, -26.919028843734839 ], [ -48.67670408, -26.91902964 ], [ -48.676338622049641, -26.919064827177316 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2110720485", "cod": 546.0, "nome": "R.Manoel Joaquim Coelho", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676703882625681, -26.919026462680453 ], [ -48.67670408, -26.91902964 ], [ -48.676723624862454, -26.919373854881702 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110720485", "cod": 577.0, "nome": "R.Jacob Ardigó", "ptotalvia": 21.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676711993644766, -26.919028843734839 ], [ -48.67670408, -26.91902964 ], [ -48.676338622049641, -26.919064827177316 ] ] } }
 ]
 }

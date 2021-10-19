@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2160150170", "cod": 1479, "nome": "R.João Thomaz Pinto", "ptotalvia": 25.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.684925113522347, -26.967909844577186 ], [ -48.68514763, -26.96801799 ], [ -48.685257104923416, -26.968056905587165 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2160150170", "cod": 1573, "nome": "R.Antonia Apollinário", "ptotalvia": 20.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.685289651019232, -26.968012538724736 ], [ -48.68514763, -26.96801799 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2160150170", "cod": 1479.0, "nome": "R.João Thomaz Pinto", "ptotalvia": 25.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.684925113522347, -26.967909844577186 ], [ -48.68514763, -26.96801799 ], [ -48.685257104923416, -26.968056905587162 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2160150170", "cod": 1573.0, "nome": "R.Antonia Apollinário", "ptotalvia": 20.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.685289651019232, -26.968012538724736 ], [ -48.68514763, -26.96801799 ] ] } }
 ]
 }

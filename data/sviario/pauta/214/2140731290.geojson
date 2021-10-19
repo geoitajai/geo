@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140731290", "cod": 789, "nome": "R.Olímpio Manoel Cabral", "ptotalvia": 7.5, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.64553585930468, -26.956189885114629 ], [ -48.64555951, -26.95618352 ], [ -48.645738023456026, -26.956136904372606 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2140731290", "cod": 1611, "nome": "R.Eunice Cristina da Silva", "ptotalvia": 6.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.645633928429113, -26.956446456067006 ], [ -48.64563745, -26.95627644 ], [ -48.64555951, -26.95618352 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2140731290", "cod": 1664, "nome": "R.Sem denominação oficial", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.645863365296478, -26.956432491214599 ], [ -48.64586338, -26.95638658 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2140731290", "cod": 789.0, "nome": "R.Olímpio Manoel Cabral", "ptotalvia": 7.5, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.64553585930468, -26.956189885114629 ], [ -48.64555951, -26.95618352 ], [ -48.645738023456026, -26.956136904372606 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140731290", "cod": 1611.0, "nome": "R.Eunice Cristina da Silva", "ptotalvia": 6.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.645633928429113, -26.956446456067006 ], [ -48.64563745, -26.95627644 ], [ -48.64555951, -26.95618352 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140731290", "cod": 1664.0, "nome": "R.Sem denominação oficial", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.645863365296478, -26.956432491214599 ], [ -48.64586338, -26.95638658 ] ] } }
 ]
 }

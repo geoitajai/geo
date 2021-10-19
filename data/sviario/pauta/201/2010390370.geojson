@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010390370", "cod": 291, "nome": "R.Samuel Heusi", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.661733796805294, -26.905404943962139 ], [ -48.66165524, -26.90535777 ], [ -48.661285146536358, -26.905130791982479 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010390370", "cod": 304, "nome": "Trav.Antônio Deola", "ptotalvia": 7.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66165524, -26.90535777 ], [ -48.661696832750891, -26.905301278267899 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2010390370", "cod": 291.0, "nome": "R.Samuel Heusi", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.661733796805294, -26.905404943962132 ], [ -48.66165524, -26.90535777 ], [ -48.661285146536358, -26.905130791982479 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010390370", "cod": 304.0, "nome": "Trav.Antônio Deola", "ptotalvia": 7.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66165524, -26.90535777 ], [ -48.661696832750891, -26.905301278267896 ] ] } }
 ]
 }

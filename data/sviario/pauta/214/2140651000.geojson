@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140651000", "cod": 743, "nome": "R.Lauro Anastácio Pereira", "ptotalvia": 3.4, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.640835282252993, -26.934715922802717 ], [ -48.6405575, -26.93478943 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2140651000", "cod": 735, "nome": "R.Tereza Francisca Pereira", "ptotalvia": 13.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.640209079955156, -26.934985229229927 ], [ -48.64022312, -26.934991759999988 ], [ -48.640457134124347, -26.935209645489625 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2140651000", "cod": 743.0, "nome": "R.Lauro Anastácio Pereira", "ptotalvia": 3.4, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.640835282252986, -26.934715922802717 ], [ -48.6405575, -26.93478943 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140651000", "cod": 735.0, "nome": "R.Tereza Francisca Pereira", "ptotalvia": 13.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.640209079955156, -26.934985229229927 ], [ -48.64022312, -26.934991759999985 ], [ -48.640457134124347, -26.935209645489628 ] ] } }
 ]
 }

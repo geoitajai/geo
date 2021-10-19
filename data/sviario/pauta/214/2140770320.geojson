@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140770320", "cod": 791, "nome": "R.Theodoro Lino Martins", "ptotalvia": 7.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.639963856948391, -26.954091821231604 ], [ -48.639578038970157, -26.954121936044672 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2140770320", "cod": 791.0, "nome": "R.Theodoro Lino Martins", "ptotalvia": 7.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.639963856948391, -26.954091821231604 ], [ -48.639578038970157, -26.954121936044672 ] ] } }
 ]
 }

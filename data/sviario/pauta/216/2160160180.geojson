@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2160160180", "cod": 1479, "nome": "R.João Thomaz Pinto", "ptotalvia": 25.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.687250526252029, -26.969236332276289 ], [ -48.68736169, -26.96930907 ], [ -48.687636937120679, -26.969390842049663 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2160160180", "cod": 1479.0, "nome": "R.João Thomaz Pinto", "ptotalvia": 25.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.687250526252029, -26.969236332276289 ], [ -48.68736169, -26.96930907 ], [ -48.687636937120679, -26.969390842049663 ] ] } }
 ]
 }

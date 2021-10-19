@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0030140040", "cod": 1117, "nome": "R.Erminio Machado", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691882679353711, -26.89392994710807 ], [ -48.691901116952742, -26.894263808545716 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0030140040", "cod": 1118, "nome": "R.João Magalhães", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691502175834046, -26.893951939403973 ], [ -48.69152063, -26.89421762 ], [ -48.691524433156992, -26.89428207426764 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0030140040", "cod": 1128, "nome": "R.Boa Vista", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69197958058799, -26.894194131097585 ], [ -48.69189777, -26.89419714 ], [ -48.69152063, -26.89421762 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0030140040", "cod": 1117.0, "nome": "R.Erminio Machado", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691882679353711, -26.89392994710807 ], [ -48.691901116952742, -26.894263808545713 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0030140040", "cod": 1118.0, "nome": "R.João Magalhães", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691502175834046, -26.893951939403973 ], [ -48.69152063, -26.89421762 ], [ -48.691524433156992, -26.89428207426764 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0030140040", "cod": 1128.0, "nome": "R.Boa Vista", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69197958058799, -26.894194131097581 ], [ -48.69189777, -26.89419714 ], [ -48.69152063, -26.89421762 ] ] } }
 ]
 }

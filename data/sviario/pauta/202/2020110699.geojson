@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020110699", "cod": 310, "nome": "Trav.Kobarg", "ptotalvia": 5.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.667950969648835, -26.903461247361804 ], [ -48.6679813, -26.90374017 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2020110699", "cod": 310.0, "nome": "Trav.Kobarg", "ptotalvia": 5.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.667950969648835, -26.9034612473618 ], [ -48.6679813, -26.90374017 ] ] } }
 ]
 }

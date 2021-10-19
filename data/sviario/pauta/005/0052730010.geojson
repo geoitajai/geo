@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0052730010", "cod": 81, "nome": "R.Mafra", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68426301, -26.89632331 ], [ -48.683945584088718, -26.896328015475838 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0052730010", "cod": 80, "nome": "R.Porto União", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.684253033077326, -26.895976313706683 ], [ -48.68426301, -26.89632331 ], [ -48.684263952193831, -26.896378219562145 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0052730010", "cod": 81.0, "nome": "R.Mafra", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68426301, -26.89632331 ], [ -48.683945584088718, -26.896328015475838 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0052730010", "cod": 80.0, "nome": "R.Porto União", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.684253033077326, -26.895976313706683 ], [ -48.68426301, -26.89632331 ], [ -48.684263952193831, -26.896378219562145 ] ] } }
 ]
 }

@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2150330320", "cod": 1176, "nome": "Av.Marginal Oeste", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.730412584044345, -26.866569805609817 ], [ -48.73043393, -26.86667973 ], [ -48.730444811331964, -26.86721199265051 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2150330320", "cod": 1176.0, "nome": "Av.Marginal Oeste", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.730412584044345, -26.866569805609817 ], [ -48.73043393, -26.86667973 ], [ -48.730444811331964, -26.867211992650496 ] ] } }
 ]
 }

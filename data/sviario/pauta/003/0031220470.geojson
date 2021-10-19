@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0031220470", "cod": 1166, "nome": "R.Eredes Serpa", "ptotalvia": 12.5, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702031213313283, -26.897004320680885 ], [ -48.70204498, -26.8972494 ], [ -48.702047486766915, -26.897325456510153 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0031220470", "cod": 1676, "nome": "R.\"Rua 06\" - Jardim São Fancisco", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70204498, -26.8972494 ], [ -48.702102799582619, -26.897247232370965 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0031220470", "cod": 1166.0, "nome": "R.Eredes Serpa", "ptotalvia": 12.5, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702031213313283, -26.897004320680885 ], [ -48.70204498, -26.8972494 ], [ -48.702047486766915, -26.897325456510153 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031220470", "cod": 1676.0, "nome": "R.\"Rua 06\" - Jardim São Fancisco", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70204498, -26.8972494 ], [ -48.702102799582619, -26.897247232370965 ] ] } }
 ]
 }

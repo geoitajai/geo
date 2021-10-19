@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2160200200", "cod": 1413, "nome": "Av.Itaipava", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.731743144768565, -26.943162278363477 ], [ -48.73078404, -26.94266001 ], [ -48.730026209285136, -26.942259193153763 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2160200200", "cod": 1442, "nome": "R.Leonardo Severo Pereira", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.73078404, -26.94266001 ], [ -48.73078743115893, -26.94273464101332 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2160200200", "cod": 1413.0, "nome": "Av.Itaipava", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.731743144768565, -26.943162278363477 ], [ -48.73078404, -26.94266001 ], [ -48.730026209285136, -26.942259193153763 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2160200200", "cod": 1442.0, "nome": "R.Leonardo Severo Pereira", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.73078404, -26.94266001 ], [ -48.73078743115893, -26.94273464101332 ] ] } }
 ]
 }

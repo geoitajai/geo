@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040380060", "cod": 605, "nome": "R.José Marçal Dutra", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.659620997490414, -26.915253175466798 ], [ -48.65932206420608, -26.915034575441798 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040380060", "cod": 606, "nome": "R.Dr.Leoberto Leal", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.659368976462183, -26.915490386266139 ], [ -48.659091812050782, -26.915270258951331 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2040380060", "cod": 605.0, "nome": "R.José Marçal Dutra", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.659620997490414, -26.915253175466798 ], [ -48.65932206420608, -26.915034575441801 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040380060", "cod": 606.0, "nome": "R.Dr.Leoberto Leal", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.659368976462183, -26.915490386266139 ], [ -48.659091812050782, -26.915270258951335 ] ] } }
 ]
 }

@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020570488", "cod": 191, "nome": "Serv.Nilo Prazeres", "ptotalvia": 4.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67592656, -26.8996955 ], [ -48.67572503197146, -26.899533431728376 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2020570488", "cod": 191.0, "nome": "Serv.Nilo Prazeres", "ptotalvia": 4.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67592656, -26.8996955 ], [ -48.675725031971467, -26.89953343172839 ] ] } }
 ]
 }

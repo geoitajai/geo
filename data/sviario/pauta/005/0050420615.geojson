@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050420615", "cod": 22, "nome": "R.Jaci Ramos", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691213874879786, -26.901141158105862 ], [ -48.690839287979038, -26.901147024762931 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0050420615", "cod": 22.0, "nome": "R.Jaci Ramos", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691213874879786, -26.901141158105862 ], [ -48.690839287979038, -26.901147024762931 ] ] } }
 ]
 }

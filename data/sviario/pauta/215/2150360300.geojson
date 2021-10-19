@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2150360300", "cod": 1176.0, "nome": "Av.Marginal Oeste", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.726743775995672, -26.852088500804406 ], [ -48.72678603, -26.85220204 ], [ -48.72704793, -26.85303237 ], [ -48.727072132488793, -26.853140845036556 ] ] } }
+]
+}

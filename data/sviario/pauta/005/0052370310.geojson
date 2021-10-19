@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0052370310", "cod": 898, "nome": "R.Das Orquídeas", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69101388, -26.92005361 ], [ -48.691044054233018, -26.920386821108352 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0052370310", "cod": 914, "nome": "R.Das Azaléias", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691290400120074, -26.920006346654578 ], [ -48.69101388, -26.92005361 ], [ -48.690930660580882, -26.920066799436793 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0052370310", "cod": 898.0, "nome": "R.Das Orquídeas", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69101388, -26.92005361 ], [ -48.691044054233018, -26.920386821108348 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0052370310", "cod": 914.0, "nome": "R.Das Azaléias", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691290400120074, -26.920006346654578 ], [ -48.69101388, -26.92005361 ], [ -48.690930660580882, -26.920066799436793 ] ] } }
 ]
 }

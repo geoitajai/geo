@@ -2,9 +2,9 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010460179", "cod": 274, "nome": "Av.Cel.Marcos Konder", "ptotalvia": 30.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.661007088067642, -26.908401171761245 ], [ -48.660826894326149, -26.908830312105895 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010460179", "cod": 364, "nome": "R.DomJoaquim Domingues de Oliveira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.661618006726769, -26.908476725901817 ], [ -48.66159248, -26.90854548 ], [ -48.66135982, -26.90914432 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010460179", "cod": 365, "nome": "R.Marcilio Dias", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.660821030748572, -26.908876434127361 ], [ -48.66135982, -26.90914432 ], [ -48.661385711039976, -26.909157043742631 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010460179", "cod": 1550, "nome": "R.Côn.Dr.Raulino Reitz", "ptotalvia": 10.5, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66159248, -26.90854548 ], [ -48.661046991271533, -26.908361420263468 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2010460179", "cod": 274.0, "nome": "Av.Cel.Marcos Konder", "ptotalvia": 30.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.661007088067642, -26.908401171761245 ], [ -48.660826894326149, -26.908830312105895 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010460179", "cod": 364.0, "nome": "R.DomJoaquim Domingues de Oliveira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.661618006726769, -26.908476725901817 ], [ -48.66159248, -26.90854548 ], [ -48.66135982, -26.90914432 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010460179", "cod": 365.0, "nome": "R.Marcilio Dias", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.660821030748572, -26.908876434127365 ], [ -48.66135982, -26.90914432 ], [ -48.661385711039962, -26.909157043742642 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010460179", "cod": 1550.0, "nome": "R.Côn.Dr.Raulino Reitz", "ptotalvia": 10.5, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66159248, -26.90854548 ], [ -48.661046991271533, -26.908361420263471 ] ] } }
 ]
 }

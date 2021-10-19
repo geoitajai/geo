@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0030840075", "cod": 1197, "nome": "R.Pernambuco", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698474263820813, -26.892284979438958 ], [ -48.69819646, -26.89229931 ], [ -48.698114707248308, -26.892302607860572 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0030840075", "cod": 1201, "nome": "Trav.Curitiba", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698177206878398, -26.891906879550557 ], [ -48.69819646, -26.89229931 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0030840075", "cod": 1197.0, "nome": "R.Pernambuco", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698474263820813, -26.892284979438958 ], [ -48.69819646, -26.89229931 ], [ -48.698114707248308, -26.892302607860572 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0030840075", "cod": 1201.0, "nome": "Trav.Curitiba", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698177206878398, -26.891906879550557 ], [ -48.69819646, -26.89229931 ] ] } }
 ]
 }

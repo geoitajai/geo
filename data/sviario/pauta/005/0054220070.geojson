@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0054220070", "cod": 141, "nome": "R.Domingos Antônio Borba", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.704978607579775, -26.910027562149402 ], [ -48.704625081239961, -26.910047618761102 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0054220070", "cod": 141.0, "nome": "R.Domingos Antônio Borba", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.704978607579775, -26.910027562149402 ], [ -48.704625081239961, -26.910047618761102 ] ] } }
 ]
 }

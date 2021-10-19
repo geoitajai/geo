@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010700881", "cod": 400, "nome": "Serv.João Melo", "ptotalvia": 9.3, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.664875940183705, -26.911016842600542 ], [ -48.66464651, -26.91121989 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010700881", "cod": 401, "nome": "R.Ricardo Keunecke", "ptotalvia": 3.2, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.664602340875767, -26.910803783549305 ], [ -48.66444029, -26.91093345 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2010700881", "cod": 400.0, "nome": "Serv.João Melo", "ptotalvia": 9.3, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.664875940183705, -26.911016842600542 ], [ -48.66464651, -26.91121989 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010700881", "cod": 401.0, "nome": "R.Ricardo Keunecke", "ptotalvia": 3.2, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.664602340875767, -26.910803783549301 ], [ -48.66444029, -26.91093345 ] ] } }
 ]
 }

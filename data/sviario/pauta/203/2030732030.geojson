@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2030732030", "cod": 1269, "nome": "R.César Augusto Dalsóquio", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.728495400965983, -26.867939747055498 ], [ -48.7284799, -26.8680573 ], [ -48.728433066113091, -26.868454196296121 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2030732030", "cod": 1276, "nome": "R.Antônio Vinotti", "ptotalvia": 4.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.729049436583828, -26.868039101395439 ], [ -48.7284799, -26.8680573 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2030732030", "cod": 1269.0, "nome": "R.César Augusto Dalsóquio", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.728495400965983, -26.867939747055498 ], [ -48.7284799, -26.8680573 ], [ -48.728433066113091, -26.868454196296124 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2030732030", "cod": 1276.0, "nome": "R.Antônio Vinotti", "ptotalvia": 4.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.729049436583828, -26.868039101395439 ], [ -48.7284799, -26.8680573 ] ] } }
 ]
 }

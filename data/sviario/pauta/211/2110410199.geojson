@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110410199", "cod": 499, "nome": "R.Rosendo Claudino de Freitas", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67084099, -26.91465495 ], [ -48.670878777677267, -26.914653022489887 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110410199", "cod": 262, "nome": "Av.José Eugênio Muller", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.670808178986363, -26.914412083708857 ], [ -48.67084099, -26.91465495 ], [ -48.670848637391529, -26.914713837648026 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2110410199", "cod": 499.0, "nome": "R.Rosendo Claudino de Freitas", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67084099, -26.91465495 ], [ -48.670878777677267, -26.914653022489883 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110410199", "cod": 262.0, "nome": "Av.José Eugênio Muller", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67080817898637, -26.914412083708857 ], [ -48.67084099, -26.91465495 ], [ -48.670848637391529, -26.91471383764803 ] ] } }
 ]
 }

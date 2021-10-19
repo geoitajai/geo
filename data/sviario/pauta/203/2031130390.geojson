@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2031130390", "cod": 1100, "nome": "R.Gercino José Correa", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70503589313001, -26.87705994335888 ], [ -48.705054753987859, -26.877371573335441 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2031130390", "cod": 1100.0, "nome": "R.Gercino José Correa", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70503589313001, -26.87705994335888 ], [ -48.705054753987859, -26.877371573335441 ] ] } }
 ]
 }

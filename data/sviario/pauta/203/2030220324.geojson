@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2030220324", "cod": 1185, "nome": "R.Eduvigens Theodoro da Cunha", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.703846063874373, -26.885582868637915 ], [ -48.703445425305794, -26.88559203103452 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2030220324", "cod": 1185.0, "nome": "R.Eduvigens Theodoro da Cunha", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.703846063874373, -26.885582868637915 ], [ -48.703445425305794, -26.88559203103452 ] ] } }
 ]
 }

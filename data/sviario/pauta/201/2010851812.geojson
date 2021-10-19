@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010851812", "cod": 325, "nome": "Trav.Jacó Moleri", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.664369713520237, -26.906451630579738 ], [ -48.6643679, -26.90647117 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010851812", "cod": 284, "nome": "R.Alm.Barroso", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.664671939019584, -26.906716125996894 ], [ -48.6643679, -26.90647117 ], [ -48.664352583934892, -26.906458614335964 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2010851812", "cod": 325.0, "nome": "Trav.Jacó Moleri", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.664369713520237, -26.906451630579738 ], [ -48.6643679, -26.90647117 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010851812", "cod": 284.0, "nome": "R.Alm.Barroso", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.664671939019584, -26.906716125996894 ], [ -48.6643679, -26.90647117 ], [ -48.664352583934892, -26.906458614335964 ] ] } }
 ]
 }

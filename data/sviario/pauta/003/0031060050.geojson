@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0031060050", "cod": 1162, "nome": "R.Nossa Senhora de Fátima", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698924698479587, -26.889513000629375 ], [ -48.698941601934557, -26.889882425119975 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0031060050", "cod": 1189, "nome": "R.Rio de Janeiro", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69892744, -26.8895663 ], [ -48.698851889824958, -26.889568646742713 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0031060050", "cod": 1162.0, "nome": "R.Nossa Senhora de Fátima", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698924698479587, -26.889513000629375 ], [ -48.698941601934557, -26.889882425119971 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031060050", "cod": 1189.0, "nome": "R.Rio de Janeiro", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69892744, -26.8895663 ], [ -48.698851889824958, -26.889568646742713 ] ] } }
 ]
 }

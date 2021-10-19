@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2150580270", "cod": 1353, "nome": "R.Oswaldo Leal", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.733874801838965, -26.876282834712605 ], [ -48.73388062, -26.8763465 ], [ -48.733908414867386, -26.876645852202206 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2150580270", "cod": 1359, "nome": "R.Francisca Casas Ramos", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.733951632861995, -26.876340833198903 ], [ -48.73388062, -26.8763465 ], [ -48.733496711846826, -26.876375804080162 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2150580270", "cod": 1353.0, "nome": "R.Oswaldo Leal", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.733874801838965, -26.876282834712601 ], [ -48.73388062, -26.8763465 ], [ -48.733908414867386, -26.876645852202202 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2150580270", "cod": 1359.0, "nome": "R.Francisca Casas Ramos", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.733951632861995, -26.876340833198903 ], [ -48.73388062, -26.8763465 ], [ -48.733496711846826, -26.876375804080162 ] ] } }
 ]
 }

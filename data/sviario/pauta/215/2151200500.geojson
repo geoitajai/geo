@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2151200500", "cod": 1323, "nome": "R.Luiz Castro", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.749991346858991, -26.877324139819557 ], [ -48.75007463, -26.87836228 ], [ -48.75007742792581, -26.878395675140769 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2151200500", "cod": 1324, "nome": "R.Augusto Cugnier", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.750485378324235, -26.877290246206293 ], [ -48.75058541, -26.87832935 ], [ -48.750588136396743, -26.878363514230386 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2151200500", "cod": 1334, "nome": "Av.Domingos de Almeida", "ptotalvia": 26.0, "ppasseio1": 5.0, "ppasseio2": 5.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.750639417043146, -26.878325388557585 ], [ -48.75058541, -26.87832935 ], [ -48.75007463, -26.87836228 ], [ -48.75001143341008, -26.878365488577327 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2151200500", "cod": 1323.0, "nome": "R.Luiz Castro", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.749991346858991, -26.877324139819557 ], [ -48.75007463, -26.87836228 ], [ -48.75007742792581, -26.878395675140766 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2151200500", "cod": 1324.0, "nome": "R.Augusto Cugnier", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.750485378324235, -26.877290246206293 ], [ -48.75058541, -26.87832935 ], [ -48.750588136396743, -26.878363514230386 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2151200500", "cod": 1334.0, "nome": "Av.Domingos de Almeida", "ptotalvia": 26.0, "ppasseio1": 5.0, "ppasseio2": 5.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.750639417043146, -26.878325388557585 ], [ -48.75058541, -26.87832935 ], [ -48.75007463, -26.87836228 ], [ -48.75001143341008, -26.878365488577327 ] ] } }
 ]
 }

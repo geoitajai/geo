@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2141830580", "cod": 826, "nome": "R.Jovita Rodrigues Machado", "ptotalvia": 5.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.636610132489253, -26.944790286620112 ], [ -48.63664609, -26.94502717 ], [ -48.636226576847584, -26.945087115732537 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2141830580", "cod": 826.0, "nome": "R.Jovita Rodrigues Machado", "ptotalvia": 5.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.636610132489253, -26.944790286620112 ], [ -48.63664609, -26.94502717 ], [ -48.636226576847584, -26.945087115732537 ] ] } }
 ]
 }

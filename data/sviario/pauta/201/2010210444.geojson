@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010210444", "cod": 277, "nome": "R.Alm.Tamandaré", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656200098290441, -26.90906597024026 ], [ -48.65575965, -26.90893505 ], [ -48.655709276846416, -26.9089208970972 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010210444", "cod": 295, "nome": "R.XV de Novembro", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.655832451255769, -26.90857850973784 ], [ -48.65575965, -26.90893505 ], [ -48.6557473541828, -26.908995777050006 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2010210444", "cod": 277.0, "nome": "R.Alm.Tamandaré", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656200098290441, -26.90906597024026 ], [ -48.65575965, -26.90893505 ], [ -48.655709276846416, -26.908920897097197 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010210444", "cod": 295.0, "nome": "R.XV de Novembro", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.655832451255769, -26.908578509737843 ], [ -48.65575965, -26.90893505 ], [ -48.6557473541828, -26.908995777050009 ] ] } }
 ]
 }

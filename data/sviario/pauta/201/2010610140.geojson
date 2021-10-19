@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010610140", "cod": 283, "nome": "R.José Russi", "ptotalvia": 7.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.668183278342319, -26.905374960686771 ], [ -48.66844766, -26.9075777 ], [ -48.66845315381417, -26.907620010188161 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010610140", "cod": 314, "nome": "R.Alfredo Trompowisky", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.668525636953298, -26.907569015764423 ], [ -48.66844766, -26.9075777 ], [ -48.668173297412942, -26.907590450474217 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2010610140", "cod": 283.0, "nome": "R.José Russi", "ptotalvia": 7.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.668183278342319, -26.905374960686771 ], [ -48.66844766, -26.9075777 ], [ -48.66845315381417, -26.907620010188161 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010610140", "cod": 314.0, "nome": "R.Alfredo Trompowisky", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.668525636953298, -26.907569015764423 ], [ -48.66844766, -26.9075777 ], [ -48.668173297412942, -26.90759045047422 ] ] } }
 ]
 }

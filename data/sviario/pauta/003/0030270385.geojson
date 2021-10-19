@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0030270385", "cod": 1115, "nome": "R.Adolfo José de Assis", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692341558454586, -26.886970371134158 ], [ -48.692361975379256, -26.887310298173258 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0030270385", "cod": 1115.0, "nome": "R.Adolfo José de Assis", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692341558454586, -26.886970371134161 ], [ -48.692361975379256, -26.887310298173261 ] ] } }
 ]
 }

@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140680295", "cod": 821, "nome": "R.Inácio Rogério Kuster Nunes", "ptotalvia": 8.5, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.641816939086738, -26.944471497658309 ], [ -48.641427337810363, -26.944524328987871 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2140680295", "cod": 821.0, "nome": "R.Inácio Rogério Kuster Nunes", "ptotalvia": 8.5, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.641816939086745, -26.944471497658313 ], [ -48.641427337810363, -26.944524328987871 ] ] } }
 ]
 }

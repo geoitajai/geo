@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2160380090", "cod": 1472, "nome": "R.Doutel de Andrade", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.7097388672017, -26.946057953811067 ], [ -48.70975039, -26.94636292 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2160380090", "cod": 1472.0, "nome": "R.Doutel de Andrade", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.7097388672017, -26.946057953811067 ], [ -48.70975039, -26.94636292 ] ] } }
 ]
 }

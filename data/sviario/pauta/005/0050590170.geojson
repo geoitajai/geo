@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050590170", "cod": 22, "nome": "R.Jaci Ramos", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693796618143807, -26.901080539080887 ], [ -48.693586107149429, -26.901086533247643 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0050590170", "cod": 50, "nome": "R.Luiz Lopes Gonzaga", "ptotalvia": 13.2, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693850436286027, -26.900742445740857 ], [ -48.693834117594619, -26.901066434296837 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0050590170", "cod": 22.0, "nome": "R.Jaci Ramos", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693796618143807, -26.901080539080887 ], [ -48.693586107149429, -26.901086533247643 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050590170", "cod": 50.0, "nome": "R.Luiz Lopes Gonzaga", "ptotalvia": 13.2, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693850436286027, -26.900742445740857 ], [ -48.693834117594619, -26.901066434296837 ] ] } }
 ]
 }

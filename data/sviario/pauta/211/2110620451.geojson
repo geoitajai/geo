@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110620451", "cod": 551, "nome": "R.Guilherme Albani", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.673602124179347, -26.918201357515319 ], [ -48.673622824401122, -26.918536798478549 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2110620451", "cod": 551.0, "nome": "R.Guilherme Albani", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.673602124179347, -26.918201357515315 ], [ -48.673622824401122, -26.918536798478549 ] ] } }
 ]
 }

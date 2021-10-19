@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2210380217", "cod": 578, "nome": "R.Imbituba", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677681092858307, -26.918342449600289 ], [ -48.67724899, -26.91835684 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2210380217", "cod": 227, "nome": "R.Indaial", "ptotalvia": 17.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677234641157881, -26.918087063194001 ], [ -48.67724899, -26.91835684 ], [ -48.6772514969092, -26.91841517875768 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2210380217", "cod": 578.0, "nome": "R.Imbituba", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677681092858307, -26.918342449600289 ], [ -48.67724899, -26.91835684 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210380217", "cod": 227.0, "nome": "R.Indaial", "ptotalvia": 17.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677234641157881, -26.918087063193997 ], [ -48.67724899, -26.91835684 ], [ -48.6772514969092, -26.91841517875768 ] ] } }
 ]
 }

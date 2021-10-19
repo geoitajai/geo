@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040460632", "cod": 632, "nome": "R.Arnaldo José de Oliveira", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65502781643427, -26.919079294272979 ], [ -48.654866669349744, -26.919470911514193 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2040460632", "cod": 632.0, "nome": "R.Arnaldo José de Oliveira", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65502781643427, -26.919079294272979 ], [ -48.654866669349737, -26.919470911514196 ] ] } }
 ]
 }

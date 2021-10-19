@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020550246", "cod": 190, "nome": "R.José Cândido", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674404916894467, -26.898213086216103 ], [ -48.67417744, -26.89802971 ], [ -48.67413519812159, -26.897995588018002 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020550246", "cod": 161, "nome": "Av.Irineu Bornhausen", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674365121724044, -26.897684625045482 ], [ -48.67417744, -26.89802971 ], [ -48.674144532188244, -26.898092302520666 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2020550246", "cod": 190.0, "nome": "R.José Cândido", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674404916894467, -26.898213086216103 ], [ -48.67417744, -26.89802971 ], [ -48.67413519812159, -26.897995588017999 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020550246", "cod": 161.0, "nome": "Av.Irineu Bornhausen", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674365121724044, -26.897684625045482 ], [ -48.67417744, -26.89802971 ], [ -48.674144532188244, -26.898092302520666 ] ] } }
 ]
 }

@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2030540216", "cod": 1270, "nome": "Av.Pres.Castelo Branco", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.714048043252653, -26.885204000563149 ], [ -48.714042255515764, -26.884748143066098 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2030540216", "cod": 1270.0, "nome": "Av.Pres.Castelo Branco", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.714048043012433, -26.885203981642565 ], [ -48.71404225525955, -26.884748122886347 ] ] } }
 ]
 }

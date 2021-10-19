@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2030300160", "cod": 1074, "nome": "R.Tiradentes", "ptotalvia": 9.5, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.709146511038909, -26.87615535031485 ], [ -48.708859916125348, -26.875948250229612 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2030300160", "cod": 1074.0, "nome": "R.Tiradentes", "ptotalvia": 9.5, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.709146511038917, -26.876155350314846 ], [ -48.708859916125348, -26.875948250229609 ] ] } }
 ]
 }

@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010490045", "cod": 366, "nome": "R.Mascarenhas Passos", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.660874617049338, -26.909561503895766 ], [ -48.661212844742309, -26.909725200429985 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2010490045", "cod": 366.0, "nome": "R.Mascarenhas Passos", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.660874617049338, -26.909561503895766 ], [ -48.661212844742309, -26.909725200429985 ] ] } }
 ]
 }

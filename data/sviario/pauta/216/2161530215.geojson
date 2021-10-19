@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2161530215", "cod": 1556, "nome": "R.Francisco de Assis Berti", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.845580499894005, -27.045944279098808 ], [ -48.845171165628898, -27.045965347541294 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2161530215", "cod": 1556.0, "nome": "R.Francisco de Assis Berti", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.845601792976574, -27.045943183110488 ], [ -48.84513311238031, -27.045967306081529 ] ] } }
 ]
 }

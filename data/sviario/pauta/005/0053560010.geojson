@@ -2,8 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0053560010", "cod": 964, "nome": "R.Olivia Rautenberg", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691159315947232, -26.92519527980415 ], [ -48.69119012, -26.92526747 ], [ -48.691330639801684, -26.925583367034122 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0053560010", "cod": 953, "nome": "R.José Domingos Machado", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691271429709246, -26.925238192327871 ], [ -48.69119012, -26.92526747 ], [ -48.690914366535182, -26.925372323791635 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0053560010", "cod": 953, "nome": "R.José Domingos Machado", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691271429709246, -26.925238192327871 ], [ -48.69119012, -26.92526747 ], [ -48.690914366535182, -26.925372323791635 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0053560010", "cod": 964.0, "nome": "R.Olivia Rautenberg", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691159315947232, -26.92519527980415 ], [ -48.69119012, -26.92526747 ], [ -48.691330639801684, -26.925583367034125 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0053560010", "cod": 953.0, "nome": "R.José Domingos Machado", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691271429709246, -26.925238192327871 ], [ -48.69119012, -26.92526747 ], [ -48.690914366535189, -26.925372323791635 ] ] } }
 ]
 }

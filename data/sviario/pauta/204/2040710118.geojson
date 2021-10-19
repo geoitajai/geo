@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040710118", "cod": 685, "nome": "R.Ivo Atanasio Veiga", "ptotalvia": 5.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656668886171197, -26.925014077608001 ], [ -48.65665956, -26.92502108 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040710118", "cod": 686, "nome": "R.Antônio Foes", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65630102389742, -26.925261045213073 ], [ -48.656562056612842, -26.925476904974712 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2040710118", "cod": 685.0, "nome": "Serv.Ivo Atanasio Veiga", "ptotalvia": 5.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656668886171197, -26.925014077608001 ], [ -48.65665956, -26.92502108 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040710118", "cod": 686.0, "nome": "R.Antônio Foes", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656301023897427, -26.925261045213073 ], [ -48.656562056612842, -26.925476904974712 ] ] } }
 ]
 }

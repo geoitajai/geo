@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0054130095", "cod": 143, "nome": "R.Alice dos Santos Bittencourt", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70625196, -26.910885089999987 ], [ -48.706131661568293, -26.910889935754362 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0054130095", "cod": 143, "nome": "R.Alice dos Santos Bittencourt", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.706477583101922, -26.910871007001916 ], [ -48.70625196, -26.910885089999987 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0054130095", "cod": 143.0, "nome": "R.Alice dos Santos Bittencourt", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70625196, -26.91088509 ], [ -48.706131661568293, -26.910889935754369 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054130095", "cod": 143.0, "nome": "R.Alice dos Santos Bittencourt", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.706477583101915, -26.910871007001923 ], [ -48.70625196, -26.91088509 ] ] } }
 ]
 }

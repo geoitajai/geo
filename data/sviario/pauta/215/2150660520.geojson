@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2150660520", "cod": 1353, "nome": "R.Oswaldo Leal", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.73360377, -26.87331702 ], [ -48.733636511451081, -26.873675304009112 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2150660520", "cod": 1347, "nome": "R.Francisco Pontiolli", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.73399740580269, -26.873308860971147 ], [ -48.73360377, -26.87331702 ], [ -48.73354826532389, -26.873319061727788 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2150660520", "cod": 1353.0, "nome": "R.Oswaldo Leal", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.73360377, -26.87331702 ], [ -48.733636511451081, -26.873675304009112 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2150660520", "cod": 1347.0, "nome": "R.Francisco Pontiolli", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.73399740580269, -26.873308860971147 ], [ -48.73360377, -26.87331702 ], [ -48.73354826532389, -26.873319061727784 ] ] } }
 ]
 }

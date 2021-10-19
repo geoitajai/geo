@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2120020278", "cod": 185, "nome": "R.Pedro Rangel", "ptotalvia": 12.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68114173897709, -26.900744297310151 ], [ -48.680751751035018, -26.900758954667246 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2120020278", "cod": 185.0, "nome": "R.Pedro Rangel", "ptotalvia": 12.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68114173897709, -26.900744297310155 ], [ -48.680751751035018, -26.900758954667246 ] ] } }
 ]
 }

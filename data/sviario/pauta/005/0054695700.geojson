@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0054695700", "cod": 1410, "nome": "R.José Natal Cugik", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.724066753875654, -26.922703463690048 ], [ -48.723243260083194, -26.923516033743681 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0054695700", "cod": 1410.0, "nome": "R.José Natal Cugik", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.724066753875654, -26.922703463690045 ], [ -48.723243260083194, -26.923516033743681 ] ] } }
 ]
 }

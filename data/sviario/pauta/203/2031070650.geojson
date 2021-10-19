@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2031070650", "cod": 1047, "nome": "R.Annanias Caetano da Silva", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.690987971556218, -26.870314357491662 ], [ -48.69099723, -26.8704568 ], [ -48.690997230007525, -26.870974762141405 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2031070650", "cod": 1051, "nome": "R.Alex Ciro Vicente", "ptotalvia": 14.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691054567719739, -26.870455695890293 ], [ -48.69099723, -26.8704568 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2031070650", "cod": 1047.0, "nome": "R.Annanias Caetano da Silva", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.690987971556218, -26.870314357491658 ], [ -48.69099723, -26.870456799999989 ], [ -48.690997230007525, -26.870974762141405 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2031070650", "cod": 1051.0, "nome": "R.Alex Ciro Vicente", "ptotalvia": 14.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691054567719739, -26.870455695890293 ], [ -48.69099723, -26.870456799999989 ] ] } }
 ]
 }

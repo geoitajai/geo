@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020300304", "cod": 218, "nome": "R.Austergilio Angelino", "ptotalvia": 13.2, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.673223691016503, -26.899470533398308 ], [ -48.67326265, -26.899501 ], [ -48.673622420687941, -26.899784062702256 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020300304", "cod": 161, "nome": "Av.Irineu Bornhausen", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67302538, -26.8997486 ], [ -48.672947540611332, -26.899829817753307 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020300304", "cod": 161, "nome": "Av.Irineu Bornhausen", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.673293260720335, -26.899468196913865 ], [ -48.67326265, -26.899501 ], [ -48.67302538, -26.8997486 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2020300304", "cod": 218.0, "nome": "R.Austergilio Angelino", "ptotalvia": 13.2, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.673223691016503, -26.899470533398311 ], [ -48.67326265, -26.899501 ], [ -48.673622420687941, -26.899784062702256 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020300304", "cod": 161.0, "nome": "Av.Irineu Bornhausen", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67302538, -26.8997486 ], [ -48.672947540611332, -26.899829817753311 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020300304", "cod": 161.0, "nome": "Av.Irineu Bornhausen", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.673293260720335, -26.899468196913865 ], [ -48.67326265, -26.899501 ], [ -48.67302538, -26.8997486 ] ] } }
 ]
 }

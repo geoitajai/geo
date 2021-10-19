@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020940350", "cod": 263, "nome": "Serv.Francisco Pedroni", "ptotalvia": 6.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.685364085628969, -26.906284823797346 ], [ -48.685773509319851, -26.906230397198087 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2020940350", "cod": 263.0, "nome": "Serv.Francisco Pedroni", "ptotalvia": 6.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.685364085628969, -26.906284823797346 ], [ -48.685773509319851, -26.90623039719809 ] ] } }
 ]
 }

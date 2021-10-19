@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0051560125", "cod": 911, "nome": "R.Camélias, das", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.694656235238071, -26.917004645593437 ], [ -48.694287855892469, -26.917024281898073 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0051560125", "cod": 911.0, "nome": "R.Camélias, das", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.694656235238071, -26.917004645593437 ], [ -48.694287855892469, -26.917024281898073 ] ] } }
 ]
 }

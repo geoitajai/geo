@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140490122", "cod": 600, "nome": "Av.Dr.José Medeiros Vieira (Norte)", "ptotalvia": 0.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.627498988454953, -26.934409089568103 ], [ -48.6274391132212, -26.934065859114714 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2140490122", "cod": 771, "nome": "R.Ver.Hermínio Gervásio", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.631076359928528, -26.933758160519776 ], [ -48.63106256, -26.93374697 ], [ -48.63078121, -26.93346673 ], [ -48.630775377797185, -26.933462108227545 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2140490122", "cod": 600.0, "nome": "Av.Dr.José Medeiros Vieira (Norte)", "ptotalvia": 0.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.627498988454953, -26.934409089568103 ], [ -48.6274391132212, -26.93406585911471 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140490122", "cod": 771.0, "nome": "R.Ver.Hermínio Gervásio", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.631076359928528, -26.93375816051978 ], [ -48.63106256, -26.93374697 ], [ -48.63078121, -26.93346673 ], [ -48.630775377797185, -26.933462108227545 ] ] } }
 ]
 }

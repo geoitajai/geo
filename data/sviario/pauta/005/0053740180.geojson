@@ -2,6 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0053740180", "cod": 974, "nome": "R.João Ascendino Lamim", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695032575167872, -26.927981426962525 ], [ -48.694728894659676, -26.928150604836574 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0053740180", "cod": 974.0, "nome": "R.João Ascendino Lamim", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695032575167872, -26.927981426962525 ], [ -48.694728894659676, -26.928150604836574 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0053740180", "cod": 974.0, "nome": "R.João Ascendino Lamim", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695032575167872, -26.927981426962525 ], [ -48.694728894659676, -26.928150604836574 ] ] } }
 ]
 }

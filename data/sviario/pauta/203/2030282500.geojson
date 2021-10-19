@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2030282500", "cod": 1287, "nome": "R.Teporti - Terminal Portuário de Itajaí", "ptotalvia": 20.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.708877583627022, -26.885881940224831 ], [ -48.70899089, -26.88633283 ], [ -48.70940632, -26.88698919 ], [ -48.709604495479212, -26.887216651686323 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2030282500", "cod": 1287.0, "nome": "R.Teporti - Terminal Portuário de Itajaí", "ptotalvia": 20.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.708877583627022, -26.885881940224831 ], [ -48.70899089, -26.88633283 ], [ -48.70940632, -26.88698919 ], [ -48.709604495479205, -26.887216651686323 ] ] } }
 ]
 }

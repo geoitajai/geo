@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140440284", "cod": 774, "nome": "R.Arnoldo Pollhein", "ptotalvia": 10.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.634557972875115, -26.931595273445389 ], [ -48.63450405, -26.93165237 ], [ -48.634309314221717, -26.931846096028391 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2140440284", "cod": 776, "nome": "R.Benjamim Constant", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.634562606443573, -26.93169351831736 ], [ -48.63450405, -26.93165237 ], [ -48.634194197188172, -26.93144672919852 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2140440284", "cod": 774.0, "nome": "R.Arnoldo Pollhein", "ptotalvia": 10.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.634557972875115, -26.931595273445385 ], [ -48.63450405, -26.93165237 ], [ -48.634309314221717, -26.931846096028391 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140440284", "cod": 776.0, "nome": "R.Benjamim Constant", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.634562606443573, -26.931693518317349 ], [ -48.63450405, -26.93165237 ], [ -48.634194197188172, -26.93144672919852 ] ] } }
 ]
 }

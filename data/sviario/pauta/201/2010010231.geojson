@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010010231", "cod": 277, "nome": "R.Alm.Tamandaré", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.654825474161825, -26.908668905607993 ], [ -48.654447713392464, -26.908554207530035 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2010010231", "cod": 277.0, "nome": "R.Alm.Tamandaré", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.654825474161832, -26.908668905607993 ], [ -48.654447713392464, -26.908554207530038 ] ] } }
 ]
 }

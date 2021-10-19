@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2151170230", "cod": 1318, "nome": "R.José Francisco Reis", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.748073608926752, -26.875376664149087 ], [ -48.74807534, -26.87539833 ], [ -48.748109045452168, -26.87578065139958 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2151170230", "cod": 1328, "nome": "Av.José Sasdelli", "ptotalvia": 18.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.748379624037014, -26.87537804083696 ], [ -48.74807534, -26.87539833 ], [ -48.748029486868447, -26.875401173003311 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2151170230", "cod": 1318.0, "nome": "R.José Francisco Reis", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.748073608926752, -26.875376664149087 ], [ -48.74807534, -26.87539833 ], [ -48.748109045452168, -26.87578065139958 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2151170230", "cod": 1328.0, "nome": "Av.José Sasdelli", "ptotalvia": 18.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.748379624037014, -26.875378040836964 ], [ -48.74807534, -26.87539833 ], [ -48.748029486868447, -26.875401173003311 ] ] } }
 ]
 }

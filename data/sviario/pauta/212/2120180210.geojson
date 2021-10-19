@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2120180210", "cod": 165, "nome": "R.Jassão dos Santos", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67998492153805, -26.89415734852523 ], [ -48.67997889, -26.89414827 ], [ -48.67992423, -26.89406602 ], [ -48.679651447935157, -26.894074645030265 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2120180210", "cod": 1626, "nome": "Serv.Jassão dos Santos (Serv.)", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67997889, -26.89414827 ], [ -48.680009216293023, -26.894147867564797 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2120180210", "cod": 165.0, "nome": "R.Jassão dos Santos", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67998492153805, -26.89415734852523 ], [ -48.67997889, -26.89414827 ], [ -48.67992423, -26.89406602 ], [ -48.679651447935157, -26.894074645030265 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2120180210", "cod": 1626.0, "nome": "Serv.Jassão dos Santos (Serv.)", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67997889, -26.89414827 ], [ -48.680009216293023, -26.894147867564794 ] ] } }
 ]
 }

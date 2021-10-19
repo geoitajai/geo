@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2210030269", "cod": 518, "nome": "R.Egon Schauffert", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67948357, -26.91069156 ], [ -48.67948674756574, -26.910753875290183 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2210030269", "cod": 524, "nome": "R.Bel.Clito César Rebello", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.679803234817768, -26.910672279448697 ], [ -48.67948357, -26.91069156 ], [ -48.6794234945881, -26.910694942830819 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2210030269", "cod": 518.0, "nome": "R.Egon Schauffert", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67948357, -26.91069156 ], [ -48.67948674756574, -26.910753875290183 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210030269", "cod": 524.0, "nome": "R.Bel.Clito César Rebello", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.679803234817768, -26.910672279448697 ], [ -48.67948357, -26.91069156 ], [ -48.6794234945881, -26.910694942830819 ] ] } }
 ]
 }

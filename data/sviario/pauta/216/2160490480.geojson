@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2160490480", "cod": 1441, "nome": "R.Augusto Cardoso Pereira", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.728872758987002, -26.94285543532899 ], [ -48.728933838708805, -26.943211211368148 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2160490480", "cod": 1441.0, "nome": "R.Augusto Cardoso Pereira", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.728872758987002, -26.942855435328994 ], [ -48.728933838708805, -26.943211211368148 ] ] } }
 ]
 }

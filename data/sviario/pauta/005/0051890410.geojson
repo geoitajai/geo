@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0051890410", "cod": 1004, "nome": "R.Nilton de Andrade", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695426055462704, -26.929941549446578 ], [ -48.695687227751819, -26.930157946960861 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0051890410", "cod": 1004.0, "nome": "R.Nilton de Andrade", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695426055462704, -26.929941549446582 ], [ -48.695687227751819, -26.930157946960861 ] ] } }
 ]
 }

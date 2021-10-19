@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2160380340", "cod": 1473, "nome": "R.Emerson Schneider", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.710352348636142, -26.945110105426799 ], [ -48.709951669326294, -26.945122312214203 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2160380340", "cod": 1473.0, "nome": "R.Emerson Schneider", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.710352348636142, -26.945110105426799 ], [ -48.709951669326294, -26.945122312214199 ] ] } }
 ]
 }

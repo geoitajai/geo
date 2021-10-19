@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040340540", "cod": 624, "nome": "R.Antônio Cabral", "ptotalvia": 3.5, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656969603433339, -26.912611466754846 ], [ -48.657274725098006, -26.912846832870454 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2040340540", "cod": 624.0, "nome": "R.Antônio Cabral", "ptotalvia": 3.5, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656969603433339, -26.912611466754846 ], [ -48.657274725098006, -26.912846832870454 ] ] } }
 ]
 }

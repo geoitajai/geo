@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0054310200", "cod": 131, "nome": "R.Gervásio Francisco Régis", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.705435995965878, -26.905314347706241 ], [ -48.70506715802933, -26.905331262851696 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0054310200", "cod": 131.0, "nome": "R.Gervásio Francisco Régis", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.705435995965878, -26.905314347706245 ], [ -48.70506715802933, -26.905331262851696 ] ] } }
 ]
 }

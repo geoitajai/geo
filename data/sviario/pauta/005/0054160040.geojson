@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0054160040", "cod": 140, "nome": "R.Viladino Liberato Nunes", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70751754411306, -26.909472804072156 ], [ -48.70738336, -26.90947789 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0054160040", "cod": 140, "nome": "R.Viladino Liberato Nunes", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70738336, -26.90947789 ], [ -48.707154096361705, -26.909486581072542 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0054160040", "cod": 140.0, "nome": "R.Viladino Liberato Nunes", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70751754411306, -26.909472804072156 ], [ -48.70738336, -26.90947789 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054160040", "cod": 140.0, "nome": "R.Viladino Liberato Nunes", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70738336, -26.90947789 ], [ -48.707154096361705, -26.909486581072542 ] ] } }
 ]
 }

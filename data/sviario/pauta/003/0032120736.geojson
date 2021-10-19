@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0032120736", "cod": 1173, "nome": "R.Agostinho Alves Ramos", "ptotalvia": 20.4, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.706725330704764, -26.903991248350472 ], [ -48.70667167, -26.90395853 ], [ -48.706609154262338, -26.903923787194572 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0032120736", "cod": 1172, "nome": "R.Enedina D'Avila Ferreira", "ptotalvia": 15.0, "ppasseio1": 3.5, "ppasseio2": 3.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.706655714315296, -26.903659729016837 ], [ -48.70667167, -26.90395853 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0032120736", "cod": 1173.0, "nome": "R.Agostinho Alves Ramos", "ptotalvia": 20.4, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.706725330704764, -26.903991248350469 ], [ -48.70667167, -26.90395853 ], [ -48.706609154262338, -26.903923787194572 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0032120736", "cod": 1172.0, "nome": "R.Enedina D'Avila Ferreira", "ptotalvia": 15.0, "ppasseio1": 3.5, "ppasseio2": 3.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.706655714315296, -26.903659729016834 ], [ -48.70667167, -26.90395853 ] ] } }
 ]
 }

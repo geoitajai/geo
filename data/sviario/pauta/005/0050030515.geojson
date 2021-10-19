@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050030515", "cod": 92, "nome": "R.Antônio Perão", "ptotalvia": 13.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68661872, -26.90517923 ], [ -48.685856014078176, -26.905143071959952 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0050030515", "cod": 94, "nome": "R.Osni José Jacinto", "ptotalvia": 6.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.686712989132431, -26.905252648964833 ], [ -48.68663458, -26.90524996 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0050030515", "cod": 84, "nome": "R.São Vicente", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.686626719512169, -26.90512215282757 ], [ -48.68661872, -26.90517923 ], [ -48.68663458, -26.90524996 ], [ -48.686704640555746, -26.905486469049578 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0050030515", "cod": 92.0, "nome": "R.Antônio Perão", "ptotalvia": 13.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68661872, -26.90517923 ], [ -48.685856014078176, -26.905143071959952 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050030515", "cod": 94.0, "nome": "R.Osni José Jacinto", "ptotalvia": 6.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.686712989132431, -26.905252648964836 ], [ -48.68663458, -26.90524996 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050030515", "cod": 84.0, "nome": "R.São Vicente", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.686626719512169, -26.90512215282757 ], [ -48.68661872, -26.90517923 ], [ -48.68663458, -26.90524996 ], [ -48.686704640555746, -26.905486469049574 ] ] } }
 ]
 }

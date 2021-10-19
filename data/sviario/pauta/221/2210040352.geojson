@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2210040352", "cod": 525, "nome": "R.Aguinaldo Deola", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67805776, -26.91077184 ], [ -48.678035620620705, -26.911111425773495 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2210040352", "cod": 524, "nome": "R.Bel.Clito César Rebello", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.678353271754219, -26.9107552024578 ], [ -48.67805776, -26.91077184 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2210040352", "cod": 525.0, "nome": "R.Aguinaldo Deola", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67805776, -26.91077184 ], [ -48.678035620620705, -26.911111425773495 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210040352", "cod": 524.0, "nome": "R.Bel.Clito César Rebello", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.678353271754219, -26.910755202457803 ], [ -48.67805776, -26.91077184 ] ] } }
 ]
 }

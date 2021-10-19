@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040510264", "cod": 695, "nome": "R.Lúcio Correia de Mendonça", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.652513657968129, -26.925168981315679 ], [ -48.6525527, -26.9252004 ], [ -48.652812781722446, -26.925415114123734 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040510264", "cod": 704, "nome": "R.Abraão Bernardino Rocha", "ptotalvia": 13.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.652582634197678, -26.925172813261049 ], [ -48.65223615950292, -26.925484728202001 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2040510264", "cod": 695.0, "nome": "R.Lúcio Correia de Mendonça", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.652513657968129, -26.925168981315682 ], [ -48.6525527, -26.9252004 ], [ -48.652812781722446, -26.92541511412373 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040510264", "cod": 704.0, "nome": "R.Abraão Bernardino Rocha", "ptotalvia": 13.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.652582634197678, -26.925172813261046 ], [ -48.65223615950292, -26.925484728202001 ] ] } }
 ]
 }

@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2031580190", "cod": 1042, "nome": "R.Pr.Anôr Nagel Júnior", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696372028759399, -26.868718880935884 ], [ -48.69639157, -26.86905479 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2031580190", "cod": 1044, "nome": "R.Áurea da Silva Simas", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696297670839655, -26.869058704170918 ], [ -48.69639157, -26.86905479 ], [ -48.696695294926165, -26.869038201844859 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2031580190", "cod": 1042.0, "nome": "R.Pr.Anôr Nagel Júnior", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696372028759399, -26.868718880935884 ], [ -48.69639157, -26.86905479 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2031580190", "cod": 1044.0, "nome": "R.Áurea da Silva Simas", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696297670839655, -26.869058704170918 ], [ -48.69639157, -26.86905479 ], [ -48.696695294926165, -26.869038201844859 ] ] } }
 ]
 }

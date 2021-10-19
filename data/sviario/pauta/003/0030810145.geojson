@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0030810145", "cod": 1190, "nome": "R.Espírito Santo", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698480791821893, -26.890126896323565 ], [ -48.69811696346602, -26.890139682969451 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0030810145", "cod": 1190.0, "nome": "R.Espírito Santo", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698480791821893, -26.890126896323565 ], [ -48.69811696346602, -26.890139682969448 ] ] } }
 ]
 }

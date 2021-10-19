@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2160071750", "cod": 1420, "nome": "R.Venceslau Raulino", "ptotalvia": 20.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.721092915868148, -26.953304242288514 ], [ -48.72108942, -26.95356809 ], [ -48.721084986171206, -26.953602624237362 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2160071750", "cod": 1714, "nome": "R.Sem denominação oficial", "ptotalvia": 25.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.721049832120357, -26.953280575324879 ], [ -48.72099399, -26.95352813 ], [ -48.72068473, -26.95349239 ], [ -48.720669603998488, -26.953582292393556 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2160071750", "cod": 1420.0, "nome": "R.Venceslau Raulino", "ptotalvia": 20.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.721092915868148, -26.953304242288514 ], [ -48.72108942, -26.95356809 ], [ -48.721084986171206, -26.953602624237362 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2160071750", "cod": 1714.0, "nome": "R.Sem denominação oficial", "ptotalvia": 25.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.721049832120357, -26.953280575324875 ], [ -48.72099399, -26.95352813 ], [ -48.72068473, -26.95349239 ], [ -48.720669603998488, -26.953582292393556 ] ] } }
 ]
 }

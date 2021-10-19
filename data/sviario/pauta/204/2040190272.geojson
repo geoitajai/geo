@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040190272", "cod": 640, "nome": "R.Pedro Rebello", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.654235394629524, -26.917894134876725 ], [ -48.654528945023905, -26.918115043962374 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040190272", "cod": 641, "nome": "R.Profª.Maria Marly Pitz", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.653972185285447, -26.918002836393214 ], [ -48.65447405, -26.91837168 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040190272", "cod": 276, "nome": "Av.7 de Setembro", "ptotalvia": 18.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.654555123738291, -26.918178902084495 ], [ -48.65447405, -26.91837168 ], [ -48.654474037805223, -26.918371708224907 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2040190272", "cod": 640.0, "nome": "R.Pedro Rebello", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.654235394629524, -26.917894134876729 ], [ -48.654528945023905, -26.918115043962374 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040190272", "cod": 641.0, "nome": "R.Profª.Maria Marly Pitz", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.653972185285447, -26.918002836393214 ], [ -48.65447405, -26.91837168 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040190272", "cod": 276.0, "nome": "Av.7 de Setembro", "ptotalvia": 18.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.654555123738291, -26.918178902084495 ], [ -48.65447405, -26.91837168 ], [ -48.654474037805223, -26.918371708224907 ] ] } }
 ]
 }

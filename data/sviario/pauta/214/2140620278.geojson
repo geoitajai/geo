@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140620278", "cod": 731, "nome": "R.José Correia", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.645475348259801, -26.931582501574933 ], [ -48.645206928750788, -26.931359703581098 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2140620278", "cod": 731.0, "nome": "R.José Correia", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.645475348259801, -26.93158250157493 ], [ -48.645206928750788, -26.931359703581098 ] ] } }
 ]
 }

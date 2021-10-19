@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2161690290", "cod": 1251, "nome": "R.Mineral", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.84756967991725, -27.038154903517999 ], [ -48.84804396, -27.03797363 ], [ -48.848073178991264, -27.037959384832476 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2161690290", "cod": 1264, "nome": "R.Luiz Sétimo Trainotti", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.84801781, -27.0379846 ], [ -48.848043276317256, -27.038310424407989 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2161690290", "cod": 1251.0, "nome": "R.Mineral", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.84756967991725, -27.038154903518002 ], [ -48.84804396, -27.03797363 ], [ -48.848073178991264, -27.037959384832476 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2161690290", "cod": 1264.0, "nome": "R.Luiz Sétimo Trainotti", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.84801781, -27.0379846 ], [ -48.848043276317256, -27.038310424407992 ] ] } }
 ]
 }

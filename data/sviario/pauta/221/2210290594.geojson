@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2210290594", "cod": 502, "nome": "R.Adolfo Batschauer", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.681552202379436, -26.915732280433069 ], [ -48.681174707900382, -26.91575058921244 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2210290594", "cod": 502.0, "nome": "R.Adolfo Batschauer", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.681552202379436, -26.915732280433076 ], [ -48.681174707900382, -26.915750589212436 ] ] } }
 ]
 }

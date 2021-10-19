@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110860030", "cod": 547, "nome": "R.José Darcy da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675860913294294, -26.922228081398927 ], [ -48.67580586, -26.92244626 ], [ -48.675808216372921, -26.922519099712417 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2110860030", "cod": 547.0, "nome": "R.José Darcy da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675860913294294, -26.922228081398927 ], [ -48.67580586, -26.92244626 ], [ -48.675808216372921, -26.922519099712417 ] ] } }
 ]
 }

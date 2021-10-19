@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2160878200", "cod": 1429, "nome": "R.Ver.Germano Luiz Vieira", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.769393583720444, -26.967645197553558 ], [ -48.769101644139496, -26.967514159974588 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2160878200", "cod": 1429.0, "nome": "R.Ver.Germano Luiz Vieira", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.769393583720444, -26.967645197553558 ], [ -48.769101644139496, -26.967514159974588 ] ] } }
 ]
 }

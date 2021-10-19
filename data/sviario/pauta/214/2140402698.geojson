@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140402698", "cod": 774, "nome": "R.Arnoldo Pollhein", "ptotalvia": 10.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.634215354620899, -26.931939568074625 ], [ -48.63414356, -26.93201099 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2140402698", "cod": 775, "nome": "R.Paulo Irineu Werner", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.63414356, -26.93201099 ], [ -48.633935939646371, -26.931860533900778 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2140402698", "cod": 774.0, "nome": "R.Arnoldo Pollhein", "ptotalvia": 10.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.634215354620899, -26.931939568074622 ], [ -48.63414356, -26.93201099 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140402698", "cod": 775.0, "nome": "R.Paulo Irineu Werner", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.63414356, -26.93201099 ], [ -48.633935939646371, -26.931860533900778 ] ] } }
 ]
 }

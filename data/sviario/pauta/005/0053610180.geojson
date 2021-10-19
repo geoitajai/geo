@@ -2,6 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0053610180", "cod": 992, "nome": "R.Alfredo Fantini", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696661365478313, -26.924544972266197 ], [ -48.696857894366808, -26.924825101137753 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0053610180", "cod": 992.0, "nome": "R.Alfredo Fantini", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696661365478313, -26.924544972266201 ], [ -48.696857894366808, -26.924825101137753 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0053610180", "cod": 992.0, "nome": "R.Alfredo Fantini", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696661365478313, -26.924544972266201 ], [ -48.696857894366808, -26.924825101137753 ] ] } }
 ]
 }

@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2160310160", "cod": 1474, "nome": "R.Arlindo Mafra", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.71254195, -26.94335921 ], [ -48.712526748465514, -26.943359590930577 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2160310160", "cod": 1477, "nome": "R.Germano Dagnoni", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.712530847779888, -26.94306849935003 ], [ -48.712542269552131, -26.943365073459475 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2160310160", "cod": 1474.0, "nome": "R.Arlindo Mafra", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.71254195, -26.94335921 ], [ -48.712526748465514, -26.943359590930577 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2160310160", "cod": 1477.0, "nome": "R.Germano Dagnoni", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.712530847779888, -26.943068499350034 ], [ -48.712542269552131, -26.943365073459475 ] ] } }
 ]
 }

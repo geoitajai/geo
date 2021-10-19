@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0031060860", "cod": 1163, "nome": "R.Romualdo Sedrez", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.699635893626009, -26.891007740870094 ], [ -48.69965712, -26.89132708 ], [ -48.69965999311448, -26.891380271099528 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0031060860", "cod": 1232, "nome": "R.Eduardo Pessoa Lins", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.699722547993545, -26.891323377040347 ], [ -48.69965712, -26.89132708 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0031060860", "cod": 1163.0, "nome": "R.Romualdo Sedrez", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.699635893626009, -26.891007740870098 ], [ -48.69965712, -26.89132708 ], [ -48.69965999311448, -26.891380271099528 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031060860", "cod": 1232.0, "nome": "R.Eduardo Pessoa Lins", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.699722547993545, -26.891323377040344 ], [ -48.69965712, -26.89132708 ] ] } }
 ]
 }

@@ -2,7 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0053510070", "cod": 948, "nome": "R.Oscar Martins da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69245900877543, -26.922874008121617 ], [ -48.692118740137396, -26.922996772448663 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0053510070", "cod": 948, "nome": "R.Oscar Martins da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69245900877543, -26.922874008121617 ], [ -48.692118740137396, -26.922996772448663 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0053510070", "cod": 948.0, "nome": "R.Oscar Martins da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69245900877543, -26.922874008121617 ], [ -48.692118740137396, -26.922996772448663 ] ] } }
 ]
 }

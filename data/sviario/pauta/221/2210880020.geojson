@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2210880020", "cod": 536, "nome": "R.Exp.Carlos Costa", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.678795877402393, -26.924621323176218 ], [ -48.678384198034692, -26.924659623583054 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2210880020", "cod": 536.0, "nome": "R.Exp.Carlos Costa", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.678795877402393, -26.924621323176225 ], [ -48.678384198034692, -26.924659623583057 ] ] } }
 ]
 }

@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110290089", "cod": 497, "nome": "R.Ciriaco Meirinho", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67656899516637, -26.913622934136288 ], [ -48.67648164, -26.9136271 ], [ -48.676139390982435, -26.913644457566509 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110290089", "cod": 509, "nome": "R.Gervasio Antônio Klock", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676498762764616, -26.913314082900328 ], [ -48.67648164, -26.9136271 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2110290089", "cod": 497.0, "nome": "R.Ciriaco Meirinho", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67656899516637, -26.913622934136288 ], [ -48.67648164, -26.9136271 ], [ -48.676139390982435, -26.913644457566509 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110290089", "cod": 509.0, "nome": "R.Gervasio Antônio Klock", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676498762764616, -26.913314082900328 ], [ -48.67648164, -26.9136271 ] ] } }
 ]
 }

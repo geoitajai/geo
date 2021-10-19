@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140652090", "cod": 738, "nome": "R.Antônio Valenza", "ptotalvia": 8.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.641513945300368, -26.93285777751144 ], [ -48.64138453, -26.93275774 ], [ -48.64122957, -26.9327401 ], [ -48.641096950113131, -26.932743935520442 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2140652090", "cod": 738.0, "nome": "R.Antônio Valenza", "ptotalvia": 8.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.641513945300368, -26.93285777751144 ], [ -48.64138453, -26.93275774 ], [ -48.64122957, -26.9327401 ], [ -48.641096950113131, -26.932743935520442 ] ] } }
 ]
 }

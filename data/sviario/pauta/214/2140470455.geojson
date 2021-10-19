@@ -2,6 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140470455", "cod": 765, "nome": "R.Samuel Heusi Júnior", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.630572114647308, -26.929469069664961 ], [ -48.630168430981136, -26.929461487042868 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2140470455", "cod": 1769.0, "nome": "Serv.(PASSAGEM FORÇADA)", "ptotalvia": 5.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.63042613, -26.92978755 ], [ -48.630616700066092, -26.929576702633526 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140470455", "cod": 765.0, "nome": "R.Samuel Heusi Júnior", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.630572114647308, -26.929469069664957 ], [ -48.630168430981136, -26.929461487042868 ] ] } }
 ]
 }

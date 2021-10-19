@@ -2,6 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2160878300", "cod": 1429, "nome": "R.Ver.Germano Luiz Vieira", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.770357357871198, -26.968035814546027 ], [ -48.77014799, -26.96798381 ], [ -48.769154122537493, -26.967537715058324 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2160878300", "cod": 1429.0, "nome": "R.Ver.Germano Luiz Vieira", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.770357357871198, -26.968035814546027 ], [ -48.77014799, -26.96798381 ], [ -48.769154122537493, -26.967537715058324 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2160878300", "cod": 1698.0, "nome": "R.Sem denominação oficial", "ptotalvia": 10.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.785787602183838, -27.034885720074058 ], [ -48.78582343, -27.03497037 ], [ -48.78579775, -27.03507419 ], [ -48.7857339, -27.03512346 ], [ -48.78566002, -27.03520497 ], [ -48.785636054590384, -27.035270029273445 ] ] } }
 ]
 }

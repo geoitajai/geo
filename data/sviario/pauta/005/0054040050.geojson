@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0054040050", "cod": 149, "nome": "R.Genésio Tavares", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.707544782830503, -26.913723835900552 ], [ -48.707192339615972, -26.913736498307635 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0054040050", "cod": 149.0, "nome": "R.Genésio Tavares", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.707544782830503, -26.913723835900544 ], [ -48.707192339615972, -26.913736498307635 ] ] } }
 ]
 }

@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2160680120", "cod": 1485, "nome": "R.Natanael Alexandre Cagnetti", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.757506393921709, -26.961096234998202 ], [ -48.75753238, -26.96140568 ], [ -48.757538234832161, -26.961465845814409 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2160680120", "cod": 1485.0, "nome": "R.Natanael Alexandre Cagnetti", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.757506393921702, -26.961096234998202 ], [ -48.75753238, -26.96140568 ], [ -48.757538234832161, -26.961465845814413 ] ] } }
 ]
 }

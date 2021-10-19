@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2041912190", "cod": 655, "nome": "R.Oscar Praun Rodrigues", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.657259086187445, -26.918227572915967 ], [ -48.657599577161946, -26.918513468663779 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2041912190", "cod": 655.0, "nome": "R.Oscar Praun Rodrigues", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.657259086187445, -26.918227572915967 ], [ -48.657599577161946, -26.918513468663779 ] ] } }
 ]
 }

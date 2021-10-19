@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140810063", "cod": 835, "nome": "R.José Manoel da Silva (Praia Brava)", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.629632932444075, -26.941094405559323 ], [ -48.62916077, -26.94113431 ], [ -48.629111535072418, -26.941139521464311 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2140810063", "cod": 831, "nome": "R.Renato Melim Cunha", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.62916077, -26.94113431 ], [ -48.629201087339993, -26.941387903861415 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2140810063", "cod": 835.0, "nome": "R.José Manoel da Silva (Praia Brava)", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.629632932444075, -26.941094405559319 ], [ -48.62916077, -26.94113431 ], [ -48.629111535072418, -26.941139521464308 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140810063", "cod": 831.0, "nome": "R.Renato Melim Cunha", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.629153918162338, -26.941076257249115 ], [ -48.62916077, -26.94113431 ], [ -48.629201087339993, -26.941387903861411 ] ] } }
 ]
 }

@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0052940400", "cod": 118, "nome": "R.Joaçaba", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702086970237673, -26.910971458885879 ], [ -48.702101877224919, -26.911253227302812 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0052940400", "cod": 1299, "nome": "R.Jacob Eugênio Lamin", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702521983155876, -26.911141213246093 ], [ -48.70241764, -26.911145929999986 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0052940400", "cod": 118.0, "nome": "R.Joaçaba", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702086970237673, -26.910971458885882 ], [ -48.702101877224919, -26.911253227302812 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0052940400", "cod": 1299.0, "nome": "R.Jacob Eugênio Lamin", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702521983155876, -26.911141213246093 ], [ -48.70241764, -26.911145929999986 ] ] } }
 ]
 }

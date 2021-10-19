@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2151030165", "cod": 1324, "nome": "R.Augusto Cugnier", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.750828479749103, -26.881375192739068 ], [ -48.75083156, -26.88141379 ], [ -48.750858749981106, -26.881745754347708 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2151030165", "cod": 1340, "nome": "Av.José João Corrêa", "ptotalvia": 18.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.750887512332007, -26.881409536348954 ], [ -48.75083156, -26.88141379 ], [ -48.750466175528359, -26.881437688934799 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2151030165", "cod": 1324.0, "nome": "R.Augusto Cugnier", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.750828479749103, -26.881375192739068 ], [ -48.75083156, -26.88141379 ], [ -48.750858749981106, -26.881745754347705 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2151030165", "cod": 1340.0, "nome": "Av.José João Corrêa", "ptotalvia": 18.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.750887512332007, -26.881409536348961 ], [ -48.75083156, -26.88141379 ], [ -48.750466175528359, -26.881437688934799 ] ] } }
 ]
 }

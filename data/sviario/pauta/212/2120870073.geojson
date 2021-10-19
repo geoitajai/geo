@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2120870073", "cod": 406, "nome": "Trav.Penha", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.684609867233824, -26.890992671122451 ], [ -48.68435080474719, -26.891244902622422 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2120870073", "cod": 406.0, "nome": "Trav.Penha", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.684609867233824, -26.890992671122454 ], [ -48.68435080474719, -26.891244902622429 ] ] } }
 ]
 }

@@ -2,7 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0052590230", "cod": 974, "nome": "R.João Ascendino Lamim", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693140010002367, -26.929023069171169 ], [ -48.692822936955444, -26.929180859345983 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0052590230", "cod": 1006, "nome": "R.Adelso Leonel de Amorim", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69307676128463, -26.929450034137162 ], [ -48.69321665, -26.92932119 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0052590230", "cod": 974.0, "nome": "R.João Ascendino Lamim", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693140010002359, -26.929023069171169 ], [ -48.692822936955444, -26.92918085934598 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0052590230", "cod": 974.0, "nome": "R.João Ascendino Lamim", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693140010002359, -26.929023069171169 ], [ -48.692822936955444, -26.92918085934598 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0052590230", "cod": 1006.0, "nome": "R.Adelso Leonel de Amorim", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69307676128463, -26.929450034137165 ], [ -48.69321665, -26.92932119 ] ] } }
 ]
 }

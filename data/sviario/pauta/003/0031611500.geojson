@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0031611500", "cod": 1672, "nome": "R.José de Souza", "ptotalvia": 15.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.715949526885417, -26.898651314715412 ], [ -48.713232980855594, -26.898256260223398 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0031611500", "cod": 1672.0, "nome": "R.José de Souza", "ptotalvia": 15.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.715949526885417, -26.898651314715405 ], [ -48.713232980855594, -26.898256260223398 ] ] } }
 ]
 }

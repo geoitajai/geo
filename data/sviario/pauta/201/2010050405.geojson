@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010050405", "cod": 290, "nome": "R.Hercílio Luz", "ptotalvia": 13.2, "ppasseio1": 3.5, "ppasseio2": 3.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.655736135462305, -26.905062777468491 ], [ -48.6547995, -26.90479604 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010050405", "cod": 282, "nome": "R.Lauro Muller", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.655741551811005, -26.905081825984276 ], [ -48.655601194172426, -26.905490379026912 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010050405", "cod": 288, "nome": "Av.Pref.Paulo Bauer", "ptotalvia": 14.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.654897742823422, -26.90472853938293 ], [ -48.6547995, -26.90479604 ], [ -48.654587515410228, -26.905217999244236 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2010050405", "cod": 290.0, "nome": "R.Hercílio Luz", "ptotalvia": 13.2, "ppasseio1": 3.5, "ppasseio2": 3.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.655736135462305, -26.90506277746848 ], [ -48.6547995, -26.90479604 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010050405", "cod": 282.0, "nome": "R.Lauro Muller", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.655741551811005, -26.905081825984265 ], [ -48.655601194172426, -26.905490379026908 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010050405", "cod": 288.0, "nome": "Av.Pref.Paulo Bauer", "ptotalvia": 14.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.654897742823422, -26.904728539382926 ], [ -48.6547995, -26.90479604 ], [ -48.654587515410228, -26.90521799924424 ] ] } }
 ]
 }

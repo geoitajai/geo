@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2141250010", "cod": 781, "nome": "R.Doca Rebello", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.631686777908833, -26.95519593671218 ], [ -48.63162326, -26.9552038 ], [ -48.631260670691979, -26.95524563008027 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2141250010", "cod": 782, "nome": "R.Delfim Mário Pádua Peixoto", "ptotalvia": 20.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.631668527504871, -26.955526596103599 ], [ -48.63162326, -26.9552038 ], [ -48.631615098552686, -26.955151702989273 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2141250010", "cod": 781.0, "nome": "R.Doca Rebello", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.631686777908833, -26.95519593671218 ], [ -48.63162326, -26.9552038 ], [ -48.631260670691979, -26.95524563008027 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2141250010", "cod": 782.0, "nome": "R.Delfim Mário Pádua Peixoto", "ptotalvia": 20.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.631668527504871, -26.955526596103599 ], [ -48.63162326, -26.9552038 ], [ -48.631615098552686, -26.955151702989273 ] ] } }
 ]
 }

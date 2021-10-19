@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050480060", "cod": 101, "nome": "R.Nelson Raul Rebello", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691566686394388, -26.907109180369257 ], [ -48.69118440629066, -26.90712119816709 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0050480060", "cod": 102, "nome": "R.Dom  Jaime de Barros Câmara", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69156538956404, -26.907415094175235 ], [ -48.691205997665499, -26.90742808308757 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0050480060", "cod": 101.0, "nome": "R.Nelson Raul Rebello", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691566686394388, -26.907109180369257 ], [ -48.69118440629066, -26.90712119816709 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050480060", "cod": 102.0, "nome": "R.Dom  Jaime de Barros Câmara", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69156538956404, -26.907415094175239 ], [ -48.691205997665499, -26.90742808308757 ] ] } }
 ]
 }

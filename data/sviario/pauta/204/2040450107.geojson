@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040450107", "cod": 622, "nome": "R.Sem denominação oficial", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65719333, -26.91817236 ], [ -48.65706531, -26.91809917 ], [ -48.65670879784453, -26.917785549593503 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040450107", "cod": 655, "nome": "R.Oscar Praun Rodrigues", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65719333, -26.91817236 ], [ -48.657227219908741, -26.918200816049858 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040450107", "cod": 266, "nome": "R.Uruguai", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.657252439033556, -26.918129761748752 ], [ -48.65719333, -26.91817236 ], [ -48.656989933942825, -26.918322178546504 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2040450107", "cod": 622.0, "nome": "R.Sem denominação oficial", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65719333, -26.91817236 ], [ -48.65706531, -26.91809917 ], [ -48.65670879784453, -26.917785549593503 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040450107", "cod": 655.0, "nome": "R.Oscar Praun Rodrigues", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65719333, -26.91817236 ], [ -48.657227219908741, -26.918200816049858 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040450107", "cod": 266.0, "nome": "R.Uruguai", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.657252439033556, -26.918129761748748 ], [ -48.65719333, -26.91817236 ], [ -48.656989933942825, -26.918322178546504 ] ] } }
 ]
 }

@@ -2,8 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0053250020", "cod": 950, "nome": "R.Raul de Souza", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697428339838012, -26.922066584473377 ], [ -48.69708880918634, -26.922190338965809 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0053250020", "cod": 950, "nome": "R.Raul de Souza", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697428339838012, -26.922066584473377 ], [ -48.69708880918634, -26.922190338965809 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0053250020", "cod": 892, "nome": "Av.Ver.Nilo Simas", "ptotalvia": 20.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697535429981883, -26.92232730741021 ], [ -48.69747023678466, -26.92242454178519 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0053250020", "cod": 950.0, "nome": "R.Raul de Souza", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697428339838012, -26.922066584473377 ], [ -48.697088809186347, -26.922190338965809 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0053250020", "cod": 892.0, "nome": "Av.Ver.Nilo Simas", "ptotalvia": 20.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697535429981883, -26.9223273074102 ], [ -48.69747023678466, -26.92242454178519 ] ] } }
 ]
 }

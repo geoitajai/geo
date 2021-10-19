@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0030720025", "cod": 1629, "nome": "R.\"25\" Loteamento Costa Cavalcanti", "ptotalvia": 5.9, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697818763609803, -26.896863258151765 ], [ -48.69782878, -26.89719187 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0030720025", "cod": 1216, "nome": "R.Rondônia", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697829765399419, -26.897191841114324 ], [ -48.69782878, -26.89719187 ], [ -48.697473663121116, -26.897202276133481 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0030720025", "cod": 1629.0, "nome": "R.\"25\" Loteamento Costa Cavalcanti", "ptotalvia": 5.9, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697818763609803, -26.896863258151765 ], [ -48.69782878, -26.89719187 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0030720025", "cod": 1216.0, "nome": "R.Rondônia", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697829765399419, -26.897191841114324 ], [ -48.69782878, -26.89719187 ], [ -48.697473663121116, -26.897202276133484 ] ] } }
 ]
 }

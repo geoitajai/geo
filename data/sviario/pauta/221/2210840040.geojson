@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2210840040", "cod": 540, "nome": "R.Reinaldo Pereira da Silva", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.681152966992535, -26.92378032666581 ], [ -48.68115954, -26.92385232 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2210840040", "cod": 537, "nome": "R.Pres.João Goulart", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.681423529897202, -26.923830271259938 ], [ -48.68115954, -26.92385232 ], [ -48.681054126429402, -26.923861863673178 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2210840040", "cod": 540.0, "nome": "R.Reinaldo Pereira da Silva", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.681152966992535, -26.923780326665813 ], [ -48.68115954, -26.92385232 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210840040", "cod": 537.0, "nome": "R.Pres.João Goulart", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.681423529897202, -26.923830271259941 ], [ -48.68115954, -26.92385232 ], [ -48.681054126429402, -26.923861863673181 ] ] } }
 ]
 }

@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0052630475", "cod": 63, "nome": "R.Caçador", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.686668216219353, -26.895871874544049 ], [ -48.68649346, -26.89582818 ], [ -48.68630784, -26.89583175 ], [ -48.686236088340401, -26.895771311697803 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0052630475", "cod": 75, "nome": "R.Ademar Garcia da Silva", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68622328, -26.89583339 ], [ -48.686227337293715, -26.896115287533586 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0052630475", "cod": 58, "nome": "R.Osvaldo Becker", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68630784, -26.89583175 ], [ -48.68622328, -26.89583339 ], [ -48.686174893152831, -26.89583395329873 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0052630475", "cod": 63.0, "nome": "R.Caçador", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.686668216219353, -26.895871874544049 ], [ -48.68649346, -26.89582818 ], [ -48.68630784, -26.89583175 ], [ -48.686236088340401, -26.895771311697803 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0052630475", "cod": 75.0, "nome": "R.Ademar Garcia da Silva", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68622328, -26.89583339 ], [ -48.686227337293715, -26.896115287533583 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0052630475", "cod": 58.0, "nome": "R.Osvaldo Becker", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68630784, -26.89583175 ], [ -48.68622328, -26.89583339 ], [ -48.686174893152831, -26.895833953298734 ] ] } }
 ]
 }

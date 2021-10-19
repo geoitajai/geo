@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2160340290", "cod": 1474, "nome": "R.Arlindo Mafra", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.711144045140777, -26.943400706291445 ], [ -48.71076231411633, -26.94341394312762 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2160340290", "cod": 1468, "nome": "R.Francisco Boaventura da Silva", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.711088633872109, -26.943358377708588 ], [ -48.71108984, -26.9434025 ], [ -48.71110498627408, -26.943819157099419 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2160340290", "cod": 1474.0, "nome": "R.Arlindo Mafra", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.711144045140777, -26.943400706291449 ], [ -48.71076231411633, -26.94341394312762 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2160340290", "cod": 1468.0, "nome": "R.Francisco Boaventura da Silva", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.711088633872109, -26.943358377708584 ], [ -48.71108984, -26.9434025 ], [ -48.71110498627408, -26.943819157099419 ] ] } }
 ]
 }

@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0051740200", "cod": 926, "nome": "Av.Min.Luiz Gallotti", "ptotalvia": 17.2, "ppasseio1": 3.25, "ppasseio2": 3.25 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.701006368384327, -26.922902423646413 ], [ -48.70095683, -26.92294946 ], [ -48.700740147889711, -26.923152693570692 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0051740200", "cod": 943, "nome": "R.Luiz Bela Cruz", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.701276261288598, -26.923215537882854 ], [ -48.70095683, -26.92294946 ], [ -48.700932013637058, -26.922914714284726 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0051740200", "cod": 926.0, "nome": "Av.Min.Luiz Gallotti", "ptotalvia": 17.2, "ppasseio1": 3.25, "ppasseio2": 3.25 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.701006368384327, -26.922902423646413 ], [ -48.70095683, -26.92294946 ], [ -48.700740147889711, -26.923152693570692 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0051740200", "cod": 943.0, "nome": "R.Luiz Bela Cruz", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.701276261288598, -26.92321553788285 ], [ -48.70095683, -26.92294946 ], [ -48.700932013637065, -26.922914714284726 ] ] } }
 ]
 }

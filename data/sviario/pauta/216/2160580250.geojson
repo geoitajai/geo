@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2160580250", "cod": 1453, "nome": "R.Antônio Bento da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.748839721099394, -26.946563308621954 ], [ -48.74884723, -26.9466489 ], [ -48.748896271303892, -26.947076695919161 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2160580250", "cod": 1454, "nome": "R.Sebastiana Correa Teixeira", "ptotalvia": 7.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.748938989977319, -26.946634627004357 ], [ -48.74884723, -26.9466489 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2160580250", "cod": 1453.0, "nome": "R.Antônio Bento da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.748839721099394, -26.946563308621958 ], [ -48.74884723, -26.9466489 ], [ -48.748896271303892, -26.947076695919169 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2160580250", "cod": 1454.0, "nome": "R.Sebastiana Correa Teixeira", "ptotalvia": 7.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.748938989977319, -26.946634627004357 ], [ -48.74884723, -26.9466489 ] ] } }
 ]
 }

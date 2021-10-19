@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140390262", "cod": 768, "nome": "R.Jorn.Roberto Mello de Faria", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.635635265079763, -26.929508473173943 ], [ -48.635939614392058, -26.929753675264198 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2140390262", "cod": 768.0, "nome": "R.Jorn.Roberto Mello de Faria", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.635635265079763, -26.929508473173943 ], [ -48.635939614392058, -26.929753675264198 ] ] } }
 ]
 }

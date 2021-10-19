@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020981538", "cod": 250, "nome": "R.Maria da Glória", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677019209368474, -26.907118011414024 ], [ -48.67668245384548, -26.90701183931229 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2020981538", "cod": 250.0, "nome": "R.Maria da Glória", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677019209368481, -26.907118011414017 ], [ -48.676682453845487, -26.90701183931229 ] ] } }
 ]
 }

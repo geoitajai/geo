@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050030630", "cod": 92, "nome": "R.Antônio Perão", "ptotalvia": 13.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.685580747261909, -26.90513002121228 ], [ -48.685183338127835, -26.905111178593501 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0050030630", "cod": 92.0, "nome": "R.Antônio Perão", "ptotalvia": 13.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.685580747261909, -26.90513002121228 ], [ -48.685183338127835, -26.905111178593501 ] ] } }
 ]
 }

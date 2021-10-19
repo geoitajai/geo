@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2151990020", "cod": 1565, "nome": "R.João Antônio Martins", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.742706565544466, -26.867754415742883 ], [ -48.74267796, -26.86740957 ], [ -48.7428938, -26.86739314 ], [ -48.742883573783175, -26.867290608483717 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2151990020", "cod": 1605, "nome": "R.Rotariano João Esper dos Santos", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.74267796, -26.86740957 ], [ -48.742574053325598, -26.867416499766854 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2151990020", "cod": 1565.0, "nome": "R.João Antônio Martins", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.742706565544466, -26.86775441574288 ], [ -48.74267796, -26.86740957 ], [ -48.7428938, -26.86739314 ], [ -48.742883573783175, -26.867290608483714 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2151990020", "cod": 1605.0, "nome": "R.Rotariano João Esper dos Santos", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.74267796, -26.86740957 ], [ -48.742574053325598, -26.867416499766854 ] ] } }
 ]
 }

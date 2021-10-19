@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2141840329", "cod": 729, "nome": "R.Maria Sedrez", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.647275906031894, -26.931726960814537 ], [ -48.646999700194769, -26.931503547359736 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2141840329", "cod": 729.0, "nome": "R.Maria Sedrez", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.647275906031894, -26.931726960814537 ], [ -48.646999700194769, -26.931503547359736 ] ] } }
 ]
 }

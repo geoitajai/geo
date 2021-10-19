@@ -2,8 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2160053000", "cod": 1427, "nome": "R.José Carlos de Andrade", "ptotalvia": 20.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.73780027, -26.94852274 ], [ -48.737814351168332, -26.948615332639417 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2160053000", "cod": 1426, "nome": "R.José Hermindo Rosa", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.737994573898057, -26.94852725152991 ], [ -48.73780027, -26.94852274 ], [ -48.73759337, -26.94852054 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2160053000", "cod": 1572, "nome": "R.Anna Custódio", "ptotalvia": 20.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.737782049362799, -26.949531770138435 ], [ -48.7376833, -26.94953514 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2160053000", "cod": 1762.0, "nome": "R.Sem denominação oficial", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.7368442, -26.94853124 ], [ -48.736847622078926, -26.948605711626136 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2160053000", "cod": 1426.0, "nome": "R.José Hermindo Rosa", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.737139938406798, -26.948522812548958 ], [ -48.73676392, -26.94852524 ], [ -48.73655305, -26.94851098 ] ] } }
 ]
 }

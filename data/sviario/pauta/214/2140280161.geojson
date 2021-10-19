@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140280161", "cod": 752, "nome": "R.Jeremias Caldeira", "ptotalvia": 8.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.635496308144049, -26.926391154003053 ], [ -48.63522055, -26.92620081 ], [ -48.635147397792949, -26.926147733401869 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2140280161", "cod": 754, "nome": "R.Mar.Floriano Peixoto", "ptotalvia": 8.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.635260053080145, -26.926126328187561 ], [ -48.63522055, -26.92620081 ], [ -48.634998991290324, -26.926470955738228 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2140280161", "cod": 752.0, "nome": "R.Jeremias Caldeira", "ptotalvia": 8.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.635496308144049, -26.926391154003056 ], [ -48.63522055, -26.92620081 ], [ -48.635147397792949, -26.926147733401869 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140280161", "cod": 754.0, "nome": "R.Mar.Floriano Peixoto", "ptotalvia": 8.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.635260053080145, -26.926126328187561 ], [ -48.63522055, -26.92620081 ], [ -48.634998991290324, -26.926470955738232 ] ] } }
 ]
 }

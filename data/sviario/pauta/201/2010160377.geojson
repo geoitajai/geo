@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010160377", "cod": 278, "nome": "R.Joinville", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.654836603993296, -26.907384411220079 ], [ -48.65446281, -26.90727172 ], [ -48.654420862149763, -26.907259376416828 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010160377", "cod": 279, "nome": "R.Felix Busso Asseburg", "ptotalvia": 20.0, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.654490374512278, -26.907059237542789 ], [ -48.65446281, -26.90727172 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010160377", "cod": 280, "nome": "Av.Min.Victor Konder", "ptotalvia": 20.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65446281, -26.90727172 ], [ -48.654451759744433, -26.907335191120044 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2010160377", "cod": 278.0, "nome": "R.Joinville", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.654836603993296, -26.907384411220079 ], [ -48.65446281, -26.90727172 ], [ -48.654420862149763, -26.907259376416832 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010160377", "cod": 279.0, "nome": "R.Felix Busso Asseburg", "ptotalvia": 20.0, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.654490374512278, -26.907059237542789 ], [ -48.65446281, -26.90727172 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010160377", "cod": 280.0, "nome": "Av.Min.Victor Konder", "ptotalvia": 20.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65446281, -26.90727172 ], [ -48.654451759744433, -26.907335191120044 ] ] } }
 ]
 }

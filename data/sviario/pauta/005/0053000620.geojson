@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0053000620", "cod": 155, "nome": "R.Eudoro Silveira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69788512136418, -26.908023475718622 ], [ -48.697901937864948, -26.908352546486114 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0053000620", "cod": 155.0, "nome": "R.Eudoro Silveira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69788512136418, -26.908023475718622 ], [ -48.697901937864948, -26.908352546486114 ] ] } }
 ]
 }

@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140020280", "cod": 666, "nome": "R.Antônio Rocha D´Andrade", "ptotalvia": 12.8, "ppasseio1": 2.3, "ppasseio2": 2.3 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.647664992722319, -26.92212901734759 ], [ -48.64754853, -26.92199219 ], [ -48.647506639003844, -26.921945155876603 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2140020280", "cod": 667, "nome": "R.Antônio Bonanomi", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.647752306536432, -26.92176264856008 ], [ -48.64774356, -26.92183544 ], [ -48.64754853, -26.92199219 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2140020280", "cod": 666.0, "nome": "R.Antônio Rocha D´Andrade", "ptotalvia": 12.8, "ppasseio1": 2.3, "ppasseio2": 2.3 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.647664992722319, -26.92212901734759 ], [ -48.64754853, -26.92199219 ], [ -48.647506639003844, -26.921945155876603 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140020280", "cod": 667.0, "nome": "R.Antônio Bonanomi", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.647752306536432, -26.921762648560083 ], [ -48.64774356, -26.92183544 ], [ -48.64754853, -26.92199219 ] ] } }
 ]
 }

@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0054980005", "cod": 1007, "nome": "R.Benta Evarista da Silva", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692978255907661, -26.930040658917459 ], [ -48.69280417, -26.93021525 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0054980005", "cod": 1008, "nome": "R.P.Gilberto Mafra", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693032839029357, -26.930419373659781 ], [ -48.69280417, -26.93021525 ], [ -48.692765109427242, -26.930201685309378 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0054980005", "cod": 1007.0, "nome": "R.Benta Evarista da Silva", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692978255907661, -26.930040658917456 ], [ -48.69280417, -26.93021525 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054980005", "cod": 1008.0, "nome": "R.P.Gilberto Mafra", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693032839029357, -26.930419373659781 ], [ -48.69280417, -26.93021525 ], [ -48.692765109427242, -26.930201685309378 ] ] } }
 ]
 }

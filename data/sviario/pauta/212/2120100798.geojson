@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2120100798", "cod": 168, "nome": "R.João Melquíades Fernandes", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.679413970191519, -26.895710838216026 ], [ -48.679043037215365, -26.895723413854814 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2120100798", "cod": 168.0, "nome": "R.João Melquíades Fernandes", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.679413970191519, -26.895710838216026 ], [ -48.679043037215365, -26.895723413854817 ] ] } }
 ]
 }

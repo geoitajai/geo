@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2031590110", "cod": 1042, "nome": "R.Pr.Anôr Nagel Júnior", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696341054507464, -26.868186439925754 ], [ -48.696359585174093, -26.868504978463228 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2031590110", "cod": 1042.0, "nome": "R.Pr.Anôr Nagel Júnior", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696341054507464, -26.868186439925754 ], [ -48.696359585174093, -26.868504978463228 ] ] } }
 ]
 }

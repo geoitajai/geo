@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140671000", "cod": 586, "nome": "Av.Osvaldo Reis", "ptotalvia": 34.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.641224258982248, -26.937489969740188 ], [ -48.641146586979495, -26.937720854094508 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2140671000", "cod": 1653, "nome": "R.Nelson João da Cunha", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.64146405, -26.93713993 ], [ -48.64205426, -26.93715438 ], [ -48.6428299, -26.9371032 ], [ -48.643014531434439, -26.93708436004583 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2140671000", "cod": 586, "nome": "Av.Osvaldo Reis", "ptotalvia": 34.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.641495672646194, -26.937084783652875 ], [ -48.64146405, -26.93713993 ], [ -48.641242875461209, -26.937457980169661 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2140671000", "cod": 586.0, "nome": "Av.Osvaldo Reis", "ptotalvia": 34.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.641224258939275, -26.937489969867908 ], [ -48.641155909072133, -26.937693143713808 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140671000", "cod": 1653.0, "nome": "R.Nelson João da Cunha", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.64146405, -26.93713993 ], [ -48.64205426, -26.93715438 ], [ -48.6428299, -26.93710320000001 ], [ -48.643226035994871, -26.937062777626682 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140671000", "cod": 586.0, "nome": "Av.Osvaldo Reis", "ptotalvia": 34.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.641491695001172, -26.937091720223155 ], [ -48.64146405, -26.93713993 ], [ -48.641242875745725, -26.937457979760534 ] ] } }
 ]
 }

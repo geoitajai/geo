@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050041270", "cod": 84, "nome": "R.São Vicente", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.686619559260009, -26.908545043273069 ], [ -48.68642836, -26.90885485 ], [ -48.686327534247589, -26.909032169304741 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0050041270", "cod": 104, "nome": "R.Padre Paulo Condla", "ptotalvia": 15.0, "ppasseio1": 3.5, "ppasseio2": 3.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.686533074693735, -26.90885078421838 ], [ -48.68642836, -26.90885485 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0050041270", "cod": 84.0, "nome": "R.São Vicente", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.686619559260009, -26.908545043273069 ], [ -48.68642836, -26.90885485 ], [ -48.686327534247589, -26.909032169304744 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050041270", "cod": 104.0, "nome": "R.Padre Paulo Condla", "ptotalvia": 15.0, "ppasseio1": 3.5, "ppasseio2": 3.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.686533074693735, -26.90885078421838 ], [ -48.68642836, -26.90885485 ] ] } }
 ]
 }

@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0031311695", "cod": 1167, "nome": "R.José Rosa", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702958689829416, -26.896483691278071 ], [ -48.70297787, -26.89681512 ], [ -48.702980843968248, -26.896867563009835 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0031311695", "cod": 1229, "nome": "R.Jaime Fernandes Vieira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.7034860994779, -26.896795960312069 ], [ -48.70297787, -26.89681512 ], [ -48.702921035270037, -26.896817582301853 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0031311695", "cod": 1167.0, "nome": "R.José Rosa", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702958689829416, -26.896483691278068 ], [ -48.70297787, -26.89681512 ], [ -48.702980843968248, -26.896867563009835 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031311695", "cod": 1229.0, "nome": "R.Jaime Fernandes Vieira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.7034860994779, -26.896795960312065 ], [ -48.70297787, -26.89681512 ], [ -48.702921035270037, -26.896817582301853 ] ] } }
 ]
 }

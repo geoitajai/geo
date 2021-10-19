@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2152090015", "cod": 1602, "nome": "R.Euclides Alberto Melies", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.74166702, -26.86312392 ], [ -48.741686685343609, -26.863297242988125 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2152090015", "cod": 1602.0, "nome": "R.Euclides Alberto Melies", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.74166702, -26.86312392 ], [ -48.741686685343609, -26.863297242988125 ] ] } }
 ]
 }

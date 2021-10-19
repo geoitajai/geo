@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020320367", "cod": 219, "nome": "R.João Ladislau Tabalipa", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67109719, -26.89848744 ], [ -48.671164251626976, -26.898541002068722 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020320367", "cod": 157, "nome": "R.Blumenau", "ptotalvia": 14.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.671235906169116, -26.898296161854347 ], [ -48.67109719, -26.89848744 ], [ -48.670963593643897, -26.898662180881495 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2020320367", "cod": 219.0, "nome": "R.João Ladislau Tabalipa", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67109719, -26.89848744 ], [ -48.671164251626976, -26.898541002068718 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020320367", "cod": 157.0, "nome": "R.Blumenau", "ptotalvia": 14.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.671235906169116, -26.898296161854347 ], [ -48.67109719, -26.89848744 ], [ -48.670963593643897, -26.898662180881495 ] ] } }
 ]
 }

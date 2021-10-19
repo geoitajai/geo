@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050990195", "cod": 44, "nome": "R.Manoel José dos Santos", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695734220094181, -26.899177501630898 ], [ -48.69573883, -26.89923424 ], [ -48.695759587427403, -26.899507105431454 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0050990195", "cod": 25, "nome": "R.Rodolfo Kucker", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695796558192932, -26.899230760280798 ], [ -48.69568463, -26.89923789 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0050990195", "cod": 25, "nome": "R.Rodolfo Kucker", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69568463, -26.89923789 ], [ -48.695297181789329, -26.899262569393017 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0050990195", "cod": 44.0, "nome": "R.Manoel José dos Santos", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695734220094181, -26.899177501630895 ], [ -48.69573883, -26.89923424 ], [ -48.695759587427403, -26.899507105431454 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050990195", "cod": 25.0, "nome": "R.Rodolfo Kucker", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695796558192939, -26.899230760280801 ], [ -48.69568463, -26.89923789 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050990195", "cod": 25.0, "nome": "R.Rodolfo Kucker", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69568463, -26.89923789 ], [ -48.695297181789329, -26.899262569393013 ] ] } }
 ]
 }

@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140630610", "cod": 1742, "nome": "R.João Luiz Coelho", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.64608605415502, -26.933709108284944 ], [ -48.64615372, -26.93375894 ], [ -48.64620366, -26.93373151 ], [ -48.64635807, -26.93352826 ], [ -48.64646358, -26.93353708 ], [ -48.646695189529822, -26.933749777367137 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2140630610", "cod": 1742.0, "nome": "R.João Luiz Coelho", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.64608605415502, -26.93370910828494 ], [ -48.64615372, -26.93375894 ], [ -48.64620366, -26.93373151 ], [ -48.64635807, -26.93352826 ], [ -48.64646358, -26.93353708 ], [ -48.646695189529822, -26.933749777367137 ] ] } }
 ]
 }

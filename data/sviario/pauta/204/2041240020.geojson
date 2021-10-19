@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2041240020", "cod": 886, "nome": "R.José Henrique Flores", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.686359540158477, -26.934507313824941 ], [ -48.68623335, -26.93465634 ], [ -48.686132305826682, -26.934770708383674 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2041240020", "cod": 888, "nome": "R.Pe.João Rodrigues de Almeida", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68623335, -26.93465634 ], [ -48.68630192702058, -26.934704673058491 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2041240020", "cod": 890, "nome": "R.Sol.Abelardo Mendonça Sobrinho", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68588449404556, -26.934262310540351 ], [ -48.685872209900779, -26.934618841475082 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2041240020", "cod": 886.0, "nome": "R.José Henrique Flores", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.686359540158477, -26.934507313824938 ], [ -48.68623335, -26.93465634 ], [ -48.686132305826682, -26.934770708383674 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2041240020", "cod": 888.0, "nome": "R.Pe.João Rodrigues de Almeida", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68623335, -26.93465634 ], [ -48.68630192702058, -26.934704673058491 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2041240020", "cod": 890.0, "nome": "R.Sol.Abelardo Mendonça Sobrinho", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68588449404556, -26.934262310540348 ], [ -48.685872209900779, -26.934618841475086 ] ] } }
 ]
 }

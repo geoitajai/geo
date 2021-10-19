@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0030920050", "cod": 1218, "nome": "R.Amazonas", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.699222628410034, -26.896602066028045 ], [ -48.69892871, -26.89661148 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0030920050", "cod": 1218, "nome": "R.Amazonas", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69892871, -26.89661148 ], [ -48.698864718056065, -26.896613529240852 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0030920050", "cod": 1218.0, "nome": "R.Amazonas", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.699222628410034, -26.896602066028045 ], [ -48.69892871, -26.89661148 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0030920050", "cod": 1218.0, "nome": "R.Amazonas", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69892871, -26.89661148 ], [ -48.698864718056065, -26.896613529240852 ] ] } }
 ]
 }

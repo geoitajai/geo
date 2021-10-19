@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0054940630", "cod": 33, "nome": "R.Jaziel José Rosa", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702756091176965, -26.90977801524572 ], [ -48.702769079827199, -26.910044496126147 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0054940630", "cod": 1303, "nome": "R.Olaria Pereira", "ptotalvia": 8.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702768911260435, -26.910044914753851 ], [ -48.702428910742547, -26.910053478055822 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0054940630", "cod": 33.0, "nome": "R.Jaziel José Rosa", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702756091176965, -26.90977801524572 ], [ -48.702769079827199, -26.910044496126147 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054940630", "cod": 1303.0, "nome": "R.Olaria Pereira", "ptotalvia": 8.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702768911260435, -26.910044914753851 ], [ -48.702428910742547, -26.910053478055822 ] ] } }
 ]
 }

@@ -2,7 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2163000260", "cod": 1577, "nome": "R.Pedro João Pinto", "ptotalvia": 20.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.694140077618137, -26.974225399460945 ], [ -48.69423498, -26.97409723 ], [ -48.694427980351662, -26.9736240028768 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2163000260", "cod": 1577, "nome": "R.Pedro João Pinto", "ptotalvia": 20.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693898473460841, -26.974489101544012 ], [ -48.69401914, -26.97438873 ], [ -48.69423498, -26.97409723 ], [ -48.694265922342659, -26.974021361252959 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2163000260", "cod": 1577.0, "nome": "R.Pedro João Pinto", "ptotalvia": 20.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693848708529501, -26.974528805926681 ], [ -48.69385843, -26.97452241 ], [ -48.69401914, -26.97438873 ], [ -48.694209163441364, -26.974132096332127 ] ] } }
 ]
 }

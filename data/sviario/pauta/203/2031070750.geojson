@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2031070750", "cod": 1047, "nome": "R.Annanias Caetano da Silva", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.690999789018242, -26.871210278684313 ], [ -48.69100461, -26.87157576 ], [ -48.691004610027129, -26.871882376227255 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2031070750", "cod": 1053, "nome": "R.Ver.Airton Teixeira de Mello", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691089133626896, -26.871574215017173 ], [ -48.69100461, -26.87157576 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2031070750", "cod": 1047.0, "nome": "R.Annanias Caetano da Silva", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.690999789018242, -26.871210278684309 ], [ -48.69100461, -26.87157576 ], [ -48.691004610027129, -26.871882376227259 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2031070750", "cod": 1053.0, "nome": "R.Ver.Airton Teixeira de Mello", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691089133626896, -26.871574215017176 ], [ -48.69100461, -26.87157576 ] ] } }
 ]
 }

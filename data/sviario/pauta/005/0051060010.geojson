@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0051060010", "cod": 44, "nome": "R.Manoel José dos Santos", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695936854484103, -26.901987721385982 ], [ -48.69594167, -26.90205818 ], [ -48.695962250172393, -26.902320827668476 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0051060010", "cod": 20, "nome": "R.Manoel Francisco Coelho", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696378649835786, -26.902031088055416 ], [ -48.69594167, -26.90205818 ], [ -48.69588941, -26.90206121 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0051060010", "cod": 20, "nome": "R.Manoel Francisco Coelho", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69588941, -26.90206121 ], [ -48.695873731363761, -26.90206212015762 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0051060010", "cod": 44.0, "nome": "R.Manoel José dos Santos", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695936854484103, -26.901987721385982 ], [ -48.69594167, -26.90205818 ], [ -48.695962250172393, -26.902320827668468 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0051060010", "cod": 20.0, "nome": "R.Manoel Francisco Coelho", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696378649835786, -26.902031088055416 ], [ -48.69594167, -26.90205818 ], [ -48.69588941, -26.90206121 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0051060010", "cod": 20.0, "nome": "R.Manoel Francisco Coelho", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69588941, -26.90206121 ], [ -48.695873731363761, -26.90206212015762 ] ] } }
 ]
 }

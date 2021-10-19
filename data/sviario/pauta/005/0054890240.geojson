@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0054890240", "cod": 34, "nome": "R.Cingapura", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702014620717051, -26.904229303338372 ], [ -48.702030434843053, -26.904520197018275 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0054890240", "cod": 34.0, "nome": "R.Cingapura", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702014620717051, -26.904229303338372 ], [ -48.702030434843053, -26.904520197018275 ] ] } }
 ]
 }

@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010630168", "cod": 283, "nome": "R.José Russi", "ptotalvia": 7.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.668621320223302, -26.908915120160145 ], [ -48.668665338120491, -26.909254114381895 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2010630168", "cod": 283.0, "nome": "R.José Russi", "ptotalvia": 7.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.668621320223302, -26.908915120160142 ], [ -48.668665338120491, -26.909254114381891 ] ] } }
 ]
 }

@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2141220781", "cod": 782, "nome": "R.Delfim Mário Pádua Peixoto", "ptotalvia": 20.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.631604078772519, -26.955081360309656 ], [ -48.631512569389152, -26.954497224947445 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2141220781", "cod": 599, "nome": "Av.Dr.José Medeiros Vieira (Sul)", "ptotalvia": 0.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6297222746404, -26.955264328049147 ], [ -48.629737380627155, -26.954780464125729 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2141220781", "cod": 782.0, "nome": "R.Delfim Mário Pádua Peixoto", "ptotalvia": 20.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.631604078772519, -26.955081360309656 ], [ -48.631512569389152, -26.954497224947445 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2141220781", "cod": 599.0, "nome": "Av.Dr.José Medeiros Vieira (Sul)", "ptotalvia": 0.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6297222746404, -26.955264328049147 ], [ -48.629737380627155, -26.954780464125729 ] ] } }
 ]
 }

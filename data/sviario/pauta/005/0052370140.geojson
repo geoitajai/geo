@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0052370140", "cod": 917, "nome": "R.Arnoldo Corrêa de Mello", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692636509736531, -26.920237396043671 ], [ -48.692287586202823, -26.920295074246795 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0052370140", "cod": 896, "nome": "R.Das Hortências", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692645319175433, -26.920155649388022 ], [ -48.692648062801361, -26.920198046351338 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0052370140", "cod": 917.0, "nome": "R.Arnoldo Corrêa de Mello", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692636509736531, -26.920237396043671 ], [ -48.692287586202823, -26.920295074246795 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0052370140", "cod": 896.0, "nome": "R.Das Hortências", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692645319175433, -26.920155649388022 ], [ -48.692648062801361, -26.920198046351334 ] ] } }
 ]
 }

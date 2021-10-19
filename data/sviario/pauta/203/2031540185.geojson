@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2031540185", "cod": 1041, "nome": "R.Domingos Braz Sedrez", "ptotalvia": 11.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696871379767153, -26.8689648752935 ], [ -48.69687366, -26.86902846 ], [ -48.696885567795128, -26.869279434780196 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2031540185", "cod": 1044, "nome": "R.Áurea da Silva Simas", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696807300292548, -26.869032084424397 ], [ -48.69687366, -26.86902846 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2031540185", "cod": 1041.0, "nome": "R.Domingos Braz Sedrez", "ptotalvia": 11.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696871379767153, -26.868964875293504 ], [ -48.69687366, -26.86902846 ], [ -48.696885567795128, -26.869279434780204 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2031540185", "cod": 1044.0, "nome": "R.Áurea da Silva Simas", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696807300292548, -26.869032084424397 ], [ -48.69687366, -26.86902846 ] ] } }
 ]
 }

@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140170181", "cod": 754, "nome": "R.Mar.Floriano Peixoto", "ptotalvia": 8.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.635328703735773, -26.92464880555173 ], [ -48.635470342016561, -26.924956940562904 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2140170181", "cod": 763, "nome": "R.Juvêncio Tavares D'Amaral", "ptotalvia": 12.4, "ppasseio1": 4.4, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.634879030979633, -26.924932914656694 ], [ -48.635062381659424, -26.92457095446921 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2140170181", "cod": 754.0, "nome": "R.Mar.Floriano Peixoto", "ptotalvia": 8.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.635328703735773, -26.92464880555173 ], [ -48.635470342016561, -26.924956940562907 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140170181", "cod": 763.0, "nome": "R.Juvêncio Tavares D'Amaral", "ptotalvia": 12.4, "ppasseio1": 4.4, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.634879030979633, -26.924932914656697 ], [ -48.635062381659424, -26.92457095446921 ] ] } }
 ]
 }

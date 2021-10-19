@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040520373", "cod": 696, "nome": "R.Marciano Marquetti", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.651148674017797, -26.924815109719457 ], [ -48.651426203674752, -26.925045222077912 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2040520373", "cod": 696.0, "nome": "R.Marciano Marquetti", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.651148674017797, -26.924815109719457 ], [ -48.651426203674752, -26.925045222077916 ] ] } }
 ]
 }

@@ -2,6 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0053910290", "cod": 972, "nome": "R.Nancy Patino Reiser", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692725044003282, -26.927937226555745 ], [ -48.692910648956087, -26.928211052766201 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0053910290", "cod": 972.0, "nome": "R.Nancy Patino Reiser", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692725044003282, -26.927937226555745 ], [ -48.692910648956087, -26.928211052766201 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0053910290", "cod": 972.0, "nome": "R.Nancy Patino Reiser", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692725044003282, -26.927937226555745 ], [ -48.692910648956087, -26.928211052766201 ] ] } }
 ]
 }

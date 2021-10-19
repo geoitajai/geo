@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110650631", "cod": 582, "nome": "R.Olga Mussi Dietrich", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674998837126829, -26.916649821913676 ], [ -48.67492824, -26.91665264 ], [ -48.674524285116711, -26.916673816622843 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110650631", "cod": 549, "nome": "R.Miguel Kunifas", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67492824, -26.91665264 ], [ -48.67494531976849, -26.916918775985131 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2110650631", "cod": 582.0, "nome": "R.Olga Mussi Dietrich", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674998837126829, -26.916649821913676 ], [ -48.67492824, -26.91665264 ], [ -48.674524285116711, -26.916673816622847 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110650631", "cod": 549.0, "nome": "R.Miguel Kunifas", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67492824, -26.91665264 ], [ -48.67494531976849, -26.916918775985135 ] ] } }
 ]
 }

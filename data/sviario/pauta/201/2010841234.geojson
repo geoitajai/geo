@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010841234", "cod": 266, "nome": "R.Uruguai", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.665794697561509, -26.908060344579482 ], [ -48.66572576, -26.90812079 ], [ -48.665343512733969, -26.908275603396234 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010841234", "cod": 339, "nome": "R.Dr.Alexandre Fleming", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.665958519413969, -26.908301952344399 ], [ -48.665645799644096, -26.908058557434451 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010841234", "cod": 340, "nome": "R.Anita Garibaldi", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.665617895272327, -26.908588618739781 ], [ -48.665304345942332, -26.908341378631608 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2010841234", "cod": 266.0, "nome": "R.Uruguai", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.665794697561509, -26.908060344579479 ], [ -48.66572576, -26.90812079 ], [ -48.665343512733962, -26.908275603396234 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010841234", "cod": 339.0, "nome": "R.Dr.Alexandre Fleming", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.665958519413969, -26.908301952344399 ], [ -48.665645799644096, -26.908058557434451 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010841234", "cod": 340.0, "nome": "R.Anita Garibaldi", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.665617895272327, -26.908588618739785 ], [ -48.665304345942332, -26.908341378631611 ] ] } }
 ]
 }

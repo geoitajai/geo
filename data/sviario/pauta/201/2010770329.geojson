@@ -2,9 +2,9 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010770329", "cod": 353, "nome": "R.João Bauer", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65980858, -26.91183919 ], [ -48.65973984, -26.91187849 ], [ -48.659697696373556, -26.911883074130103 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010770329", "cod": 368, "nome": "R.Arlécio de Souza Flor", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65980858, -26.91183919 ], [ -48.660130454112, -26.912058912563069 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010770329", "cod": 353, "nome": "R.João Bauer", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.659848221822159, -26.911791132211711 ], [ -48.65981035, -26.91183762 ], [ -48.659409750128269, -26.912290102294939 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010770329", "cod": 264, "nome": "Av.Joca Brandão", "ptotalvia": 26.4, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.659452152104151, -26.912370527979544 ], [ -48.659698581116437, -26.912461154834023 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2010770329", "cod": 353.0, "nome": "R.João Bauer", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65980858, -26.91183919 ], [ -48.65973984, -26.91187849 ], [ -48.659697696373556, -26.911883074130103 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010770329", "cod": 368.0, "nome": "R.Arlécio de Souza Flor", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65980858, -26.91183919 ], [ -48.660130454112, -26.912058912563069 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010770329", "cod": 353.0, "nome": "R.João Bauer", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.659848221822159, -26.911791132211711 ], [ -48.65981035, -26.91183762 ], [ -48.659409750128269, -26.912290102294939 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010770329", "cod": 264.0, "nome": "Av.Joca Brandão", "ptotalvia": 26.4, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.659452152104151, -26.912370527979544 ], [ -48.659698581116437, -26.912461154834023 ] ] } }
 ]
 }

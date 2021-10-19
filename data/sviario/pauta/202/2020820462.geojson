@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020820462", "cod": 234, "nome": "R.Bernardo Petter", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67659537816845, -26.904158339754304 ], [ -48.676237110841562, -26.904177857946806 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2020820462", "cod": 234.0, "nome": "R.Bernardo Petter", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67659537816845, -26.904158339754304 ], [ -48.676237110841562, -26.904177857946806 ] ] } }
 ]
 }

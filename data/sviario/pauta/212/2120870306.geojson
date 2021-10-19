@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2120870306", "cod": 407, "nome": "Trav.Bubi Kobar", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.685244505824208, -26.891073515043249 ], [ -48.684992923747103, -26.891321022270688 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2120870306", "cod": 407.0, "nome": "Trav.Bubi Kobar", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.685244505824215, -26.891073515043246 ], [ -48.684992923747103, -26.891321022270688 ] ] } }
 ]
 }

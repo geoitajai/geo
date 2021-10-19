@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2210800100", "cod": 571, "nome": "R.Alois Wippel", "ptotalvia": 12.0, "ppasseio1": 5.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.678924768029475, -26.921843021803252 ], [ -48.67893161, -26.92215466 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2210800100", "cod": 545, "nome": "R.José Gall", "ptotalvia": 15.6, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67931344895144, -26.9223270690383 ], [ -48.67893161, -26.92215466 ], [ -48.67886152472974, -26.922130071749596 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2210800100", "cod": 571.0, "nome": "R.Alois Wippel", "ptotalvia": 12.0, "ppasseio1": 5.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.678924768029475, -26.921843021803255 ], [ -48.67893161, -26.92215466 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210800100", "cod": 545.0, "nome": "R.José Gall", "ptotalvia": 15.6, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67931344895144, -26.922327069038296 ], [ -48.67893161, -26.92215466 ], [ -48.67886152472974, -26.922130071749596 ] ] } }
 ]
 }

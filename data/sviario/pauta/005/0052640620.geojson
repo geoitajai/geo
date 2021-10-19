@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0052640620", "cod": 85, "nome": "R.Cecília Meirelles", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.686613968762273, -26.898237516315483 ], [ -48.686248797884225, -26.898247505163845 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0052640620", "cod": 85.0, "nome": "R.Cecília Meirelles", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.686613968762273, -26.898237516315486 ], [ -48.686248797884225, -26.898247505163841 ] ] } }
 ]
 }

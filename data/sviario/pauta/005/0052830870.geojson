@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0052830870", "cod": 57, "nome": "R.Rui Vieira", "ptotalvia": 8.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691415145663591, -26.896942321173082 ], [ -48.691059881085195, -26.896954410310411 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0052830870", "cod": 57.0, "nome": "R.Rui Vieira", "ptotalvia": 8.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691415145663591, -26.896942321173082 ], [ -48.691059881085202, -26.896954410310411 ] ] } }
 ]
 }

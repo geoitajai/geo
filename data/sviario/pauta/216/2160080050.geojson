@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2160080050", "cod": 1731, "nome": "Av.Marginal Sul", "ptotalvia": 30.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.716916583855784, -26.94474670300929 ], [ -48.716640050682003, -26.944624514044026 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2160080050", "cod": 1731.0, "nome": "Av.Marginal Sul", "ptotalvia": 30.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.716916583855784, -26.944746703009287 ], [ -48.716640050682003, -26.94462451404403 ] ] } }
 ]
 }

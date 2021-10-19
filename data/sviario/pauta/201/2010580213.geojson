@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010580213", "cod": 266, "nome": "R.Uruguai", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.666056, -26.90783123 ], [ -48.666052752586516, -26.907834077398437 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010580213", "cod": 314, "nome": "R.Alfredo Trompowisky", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66636065406361, -26.907780525222314 ], [ -48.66622091, -26.907774029999988 ], [ -48.666056, -26.90783123 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010580213", "cod": 284, "nome": "R.Alm.Barroso", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.666058593215176, -26.90783329483207 ], [ -48.665867228599453, -26.907679122463236 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2010580213", "cod": 266.0, "nome": "R.Uruguai", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.666056, -26.90783123 ], [ -48.666052752586516, -26.907834077398437 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010580213", "cod": 314.0, "nome": "R.Alfredo Trompowisky", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66636065406361, -26.907780525222318 ], [ -48.66622091, -26.907774029999985 ], [ -48.666056, -26.90783123 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010580213", "cod": 284.0, "nome": "R.Alm.Barroso", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.666058593215169, -26.90783329483207 ], [ -48.665867228599453, -26.907679122463239 ] ] } }
 ]
 }

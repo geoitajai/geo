@@ -2,9 +2,9 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140521120", "cod": 675, "nome": "R.Lila Heusi", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.646053349702136, -26.925988906274807 ], [ -48.6460183, -26.92603186 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2140521120", "cod": 718, "nome": "R.Sem denominação oficial", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.64565622, -26.92590655 ], [ -48.64560058, -26.925819829999988 ], [ -48.645595421776029, -26.925816013845804 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2140521120", "cod": 717, "nome": "R.José Carlos Câmara Bastos", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6460183, -26.92603186 ], [ -48.64565622, -26.92590655 ], [ -48.645508000629945, -26.925873047290459 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2140521120", "cod": 675, "nome": "R.Lila Heusi", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6460183, -26.92603186 ], [ -48.6457628840094, -26.926354077870116 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2140521120", "cod": 675.0, "nome": "R.Lila Heusi", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.646053349702136, -26.92598890627481 ], [ -48.6460183, -26.92603186 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140521120", "cod": 718.0, "nome": "R.Sem denominação oficial", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.64565622, -26.92590655 ], [ -48.64560058, -26.92581983 ], [ -48.645595421776029, -26.925816013845807 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140521120", "cod": 717.0, "nome": "R.José Carlos Câmara Bastos", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6460183, -26.92603186 ], [ -48.64565622, -26.92590655 ], [ -48.645508000629945, -26.925873047290459 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140521120", "cod": 675.0, "nome": "R.Lila Heusi", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6460183, -26.92603186 ], [ -48.6457628840094, -26.926354077870116 ] ] } }
 ]
 }

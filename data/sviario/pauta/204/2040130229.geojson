@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040130229", "cod": 646, "nome": "R.Sebastião Bonifácio Cardoso", "ptotalvia": 3.5, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65258387, -26.92112183 ], [ -48.652514559621082, -26.921064744252302 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040130229", "cod": 647, "nome": "R.Agostinho Fernandes Vieira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.652662431208512, -26.921080440363834 ], [ -48.65258387, -26.92112183 ], [ -48.652360117531074, -26.921241661781444 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040130229", "cod": 276, "nome": "Av.7 de Setembro", "ptotalvia": 18.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.653131693658217, -26.921469572052473 ], [ -48.653032450942781, -26.921706481124332 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2040130229", "cod": 646.0, "nome": "R.Sebastião Bonifácio Cardoso", "ptotalvia": 3.5, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65258387, -26.92112183 ], [ -48.652514559621082, -26.921064744252302 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040130229", "cod": 647.0, "nome": "R.Agostinho Fernandes Vieira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.652662431208505, -26.921080440363834 ], [ -48.65258387, -26.92112183 ], [ -48.652360117531074, -26.921241661781444 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040130229", "cod": 276.0, "nome": "Av.7 de Setembro", "ptotalvia": 18.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.653131693658217, -26.921469572052473 ], [ -48.653032450942781, -26.921706481124332 ] ] } }
 ]
 }

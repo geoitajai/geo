@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2160220575", "cod": 1413, "nome": "Av.Itaipava", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.739772909648053, -26.945238461118183 ], [ -48.73965604, -26.94522899 ], [ -48.738950042057397, -26.945160568527943 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2160220575", "cod": 1451, "nome": "R.Carlos Rogge Neto", "ptotalvia": 4.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.73965604, -26.94522899 ], [ -48.739646573508516, -26.945307442491078 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2160220575", "cod": 1413.0, "nome": "Av.Itaipava", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.739772909648053, -26.945238461118183 ], [ -48.73965604, -26.94522899 ], [ -48.738950042057397, -26.945160568527943 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2160220575", "cod": 1451.0, "nome": "R.Carlos Rogge Neto", "ptotalvia": 4.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.73965604, -26.94522899 ], [ -48.739646573508516, -26.945307442491078 ] ] } }
 ]
 }

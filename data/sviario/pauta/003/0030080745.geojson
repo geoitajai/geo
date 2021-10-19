@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0030080745", "cod": 1118, "nome": "R.João Magalhães", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691007890689107, -26.886765713404799 ], [ -48.691083481466599, -26.887828205680833 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0030080745", "cod": 1111, "nome": "Av.Dr.Reinaldo Schmithausen", "ptotalvia": 27.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.690664334256496, -26.885897808102953 ], [ -48.69041416, -26.88618564 ], [ -48.690181202076765, -26.886394734966398 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0030080745", "cod": 1118.0, "nome": "R.João Magalhães", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691007890689107, -26.886765713404795 ], [ -48.691083481466599, -26.887828205680833 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0030080745", "cod": 1111.0, "nome": "Av.Dr.Reinaldo Schmithausen", "ptotalvia": 27.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.690664334256489, -26.885897808102953 ], [ -48.69041416, -26.88618564 ], [ -48.690181202076765, -26.886394734966402 ] ] } }
 ]
 }

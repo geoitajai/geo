@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110020032", "cod": 314, "nome": "R.Alfredo Trompowisky", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.670503070166561, -26.907375631879777 ], [ -48.67027604, -26.90739644 ], [ -48.670198965528719, -26.907403502071016 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110020032", "cod": 1692, "nome": "R.Ana Ferreira Figueiredo", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.670281739071307, -26.907442880965814 ], [ -48.67027604, -26.90739644 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2110020032", "cod": 314.0, "nome": "R.Alfredo Trompowisky", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.670503070166561, -26.907375631879773 ], [ -48.67027604, -26.90739644 ], [ -48.670198965528719, -26.907403502071016 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110020032", "cod": 1692.0, "nome": "R.Ana Ferreira Figueiredo", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.670281739071307, -26.907442880965817 ], [ -48.67027604, -26.90739644 ] ] } }
 ]
 }

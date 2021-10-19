@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2120750419", "cod": 463, "nome": "R.Carlos Alberto Mayr", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674965876767736, -26.886680476205544 ], [ -48.67474885, -26.88649635 ], [ -48.674684808530252, -26.886443604680967 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2120750419", "cod": 466, "nome": "R.Manoel Moacir Werner", "ptotalvia": 6.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675027243547113, -26.886227171270882 ], [ -48.67478878, -26.88645774 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2120750419", "cod": 466, "nome": "R.Manoel Moacir Werner", "ptotalvia": 6.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67478878, -26.88645774 ], [ -48.67474885, -26.88649635 ], [ -48.674691492028472, -26.886552894267687 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2120750419", "cod": 463.0, "nome": "R.Carlos Alberto Mayr", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674965876767743, -26.886680476205541 ], [ -48.67474885, -26.88649635 ], [ -48.674684808530252, -26.886443604680967 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2120750419", "cod": 466.0, "nome": "R.Manoel Moacir Werner", "ptotalvia": 6.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675027243547113, -26.886227171270878 ], [ -48.67478878, -26.88645774 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2120750419", "cod": 466.0, "nome": "R.Manoel Moacir Werner", "ptotalvia": 6.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67478878, -26.88645774 ], [ -48.67474885, -26.88649635 ], [ -48.674691492028472, -26.886552894267687 ] ] } }
 ]
 }

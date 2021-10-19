@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110090144", "cod": 491, "nome": "Av.Getúlio Vargas", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.671975967848176, -26.908677746416721 ], [ -48.671936239225765, -26.908380247607862 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2110090144", "cod": 491.0, "nome": "Av.Getúlio Vargas", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.671975967848176, -26.908677746416721 ], [ -48.671936239225772, -26.908380247607859 ] ] } }
 ]
 }

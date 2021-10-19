@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2150470485", "cod": 1387, "nome": "R.João Gottardi", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.741206536611244, -26.898415958715685 ], [ -48.74126256, -26.89843892 ], [ -48.74162364, -26.8986997 ], [ -48.741626433245912, -26.898702878230999 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2150470485", "cod": 1387.0, "nome": "R.João Gottardi", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.741206536611244, -26.898415958715681 ], [ -48.74126256, -26.89843892 ], [ -48.74162364, -26.8986997 ], [ -48.741626433245905, -26.898702878231003 ] ] } }
 ]
 }

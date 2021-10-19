@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2210410940", "cod": 585, "nome": "R.Ernesto Polydorio Ferreira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68730511, -26.91863479 ], [ -48.687008267716344, -26.918657664269915 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2210410940", "cod": 577, "nome": "R.Jacob Ardigó", "ptotalvia": 21.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.687301843175078, -26.918243784694301 ], [ -48.68715777, -26.9182731 ], [ -48.687003223124684, -26.918284524152284 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2210410940", "cod": 585.0, "nome": "R.Ernesto Polydorio Ferreira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68730511, -26.91863479 ], [ -48.687008267716344, -26.918657664269919 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210410940", "cod": 577.0, "nome": "R.Jacob Ardigó", "ptotalvia": 21.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.687301843175078, -26.918243784694297 ], [ -48.68715777, -26.9182731 ], [ -48.687003223124684, -26.918284524152284 ] ] } }
 ]
 }

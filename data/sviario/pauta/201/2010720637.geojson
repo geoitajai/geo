@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010720637", "cod": 395, "nome": "R.Olga de Lemos Lira", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.666258476935127, -26.912677680032626 ], [ -48.6661727, -26.91275513 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010720637", "cod": 268, "nome": "R.Brusque", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.666735642813016, -26.912569123806893 ], [ -48.66695662, -26.91281543 ], [ -48.666991904631821, -26.91285743340184 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010720637", "cod": 327, "nome": "R.Umbelino Damasio de Brito", "ptotalvia": 11.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.666993866975027, -26.912767314363524 ], [ -48.66695662, -26.91281543 ], [ -48.66680117, -26.9129937 ], [ -48.66658734, -26.91323129 ], [ -48.66645265, -26.913415 ], [ -48.666256229287242, -26.913594623965633 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2010720637", "cod": 395.0, "nome": "R.Olga de Lemos Lira", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66625847693512, -26.912677680032626 ], [ -48.6661727, -26.91275513 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010720637", "cod": 268.0, "nome": "R.Brusque", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.666735642813016, -26.912569123806893 ], [ -48.66695662, -26.91281543 ], [ -48.666991904631821, -26.91285743340184 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010720637", "cod": 327.0, "nome": "R.Umbelino Damasio de Brito", "ptotalvia": 11.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.666993866975027, -26.912767314363517 ], [ -48.66695662, -26.91281543 ], [ -48.66680117, -26.9129937 ], [ -48.66658734, -26.91323129 ], [ -48.66645265, -26.913415 ], [ -48.666256229287242, -26.913594623965622 ] ] } }
 ]
 }

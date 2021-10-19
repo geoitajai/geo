@@ -2,7 +2,9 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0053750010", "cod": 977, "nome": "R.Milton Jaques", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695937548206061, -26.926974335126719 ], [ -48.69593086, -26.9269783 ], [ -48.695420276621014, -26.92725387726577 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0053750010", "cod": 894, "nome": "R.Agílio Cunha", "ptotalvia": 15.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695659668721746, -26.926754875579665 ], [ -48.69593086, -26.9269783 ], [ -48.695939628247835, -26.926985689226786 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0053750010", "cod": 977.0, "nome": "R.Milton Jaques", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695937548206061, -26.926974335126722 ], [ -48.69593086, -26.9269783 ], [ -48.695420276621014, -26.92725387726577 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0053750010", "cod": 977.0, "nome": "R.Milton Jaques", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695937548206061, -26.926974335126722 ], [ -48.69593086, -26.9269783 ], [ -48.695420276621014, -26.92725387726577 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0053750010", "cod": 894.0, "nome": "R.Agílio Cunha", "ptotalvia": 15.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695659668721746, -26.926754875579661 ], [ -48.69593086, -26.9269783 ], [ -48.695939628247835, -26.926985689226782 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0053750010", "cod": 894.0, "nome": "R.Agílio Cunha", "ptotalvia": 15.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695659668721746, -26.926754875579661 ], [ -48.69593086, -26.9269783 ], [ -48.695939628247835, -26.926985689226782 ] ] } }
 ]
 }

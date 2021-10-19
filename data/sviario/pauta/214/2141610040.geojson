@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2141610040", "cod": 590, "nome": "R.Pedro Corrêa da Silva", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.631677280284684, -26.956780954683559 ], [ -48.63138098, -26.9567046 ], [ -48.63128380335656, -26.956715123793117 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2141610040", "cod": 587, "nome": "Av.Carlos Drumond de Andrade (Praia Brava)", "ptotalvia": 20.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.631758457118828, -26.956322746801092 ], [ -48.631382433769346, -26.956367280178736 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2141610040", "cod": 590.0, "nome": "R.Pedro Corrêa da Silva", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.631677280284684, -26.956780954683559 ], [ -48.63138098, -26.9567046 ], [ -48.63128380335656, -26.956715123793117 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2141610040", "cod": 587.0, "nome": "Av.Carlos Drumond de Andrade (Praia Brava)", "ptotalvia": 20.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.631758457118828, -26.956322746801089 ], [ -48.631382433769346, -26.956367280178736 ] ] } }
 ]
 }

@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010881340", "cod": 351, "nome": "R.Silvio Tolentino de Souza", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.664221114585402, -26.907977019645962 ], [ -48.66428713, -26.90787467 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010881340", "cod": 340, "nome": "R.Anita Garibaldi", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.664691700733059, -26.907865124785602 ], [ -48.664382090202906, -26.907624690993305 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2010881340", "cod": 351.0, "nome": "R.Silvio Tolentino de Souza", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.664221114585402, -26.907977019645966 ], [ -48.66428713, -26.90787467 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010881340", "cod": 340.0, "nome": "R.Anita Garibaldi", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.664691700733059, -26.907865124785602 ], [ -48.664382090202906, -26.907624690993305 ] ] } }
 ]
 }

@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110610470", "cod": 551, "nome": "R.Guilherme Albani", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67351086, -26.91672244 ], [ -48.673516070696969, -26.916806878661284 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110610470", "cod": 582, "nome": "R.Olga Mussi Dietrich", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.673646256315877, -26.916717155238011 ], [ -48.67351086, -26.91672244 ], [ -48.673263994437278, -26.916739738515467 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2110610470", "cod": 551.0, "nome": "R.Guilherme Albani", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67351086, -26.91672244 ], [ -48.673516070696969, -26.916806878661287 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110610470", "cod": 582.0, "nome": "R.Olga Mussi Dietrich", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.673646256315877, -26.916717155238015 ], [ -48.67351086, -26.91672244 ], [ -48.673263994437278, -26.916739738515464 ] ] } }
 ]
 }

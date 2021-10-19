@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0030690025", "cod": 1193, "nome": "R.Pará", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697715807834484, -26.895563171106428 ], [ -48.697358181606667, -26.895575931900193 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0030690025", "cod": 1193.0, "nome": "R.Pará", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697715807834484, -26.895563171106421 ], [ -48.697358181606667, -26.89557593190019 ] ] } }
 ]
 }

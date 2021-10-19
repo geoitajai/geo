@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040880180", "cod": 857, "nome": "R.Pedro Pereira Mafra", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675112923389634, -26.924423428401223 ], [ -48.674728754945058, -26.924373837563778 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2040880180", "cod": 857.0, "nome": "R.Pedro Pereira Mafra", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675112923389634, -26.924423428401223 ], [ -48.674728754945058, -26.924373837563774 ] ] } }
 ]
 }

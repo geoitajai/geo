@@ -2,9 +2,9 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2031270120", "cod": 1025, "nome": "R.Antônio Tironi", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.703416285089425, -26.871626525456794 ], [ -48.70310386, -26.87164182 ], [ -48.702858537819473, -26.871656917427174 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2031270120", "cod": 1033, "nome": "R.Ismael Orlando Evaristo", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.703099676278299, -26.871559903925956 ], [ -48.70310386, -26.87164182 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2031270120", "cod": 1067, "nome": "R.Santo Rampelotti", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70301081, -26.87271007 ], [ -48.703013274933241, -26.872757456257371 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2031270120", "cod": 1061, "nome": "R.José Luiz Marcelino", "ptotalvia": 10.2, "ppasseio1": 1.6, "ppasseio2": 1.6 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.703473882316338, -26.872635894232481 ], [ -48.70301081, -26.87271007 ], [ -48.702928824303761, -26.872718894329907 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2031270120", "cod": 1025.0, "nome": "R.Antônio Tironi", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.703416285089418, -26.871626525456794 ], [ -48.70310386, -26.87164182 ], [ -48.702858537819473, -26.871656917427174 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2031270120", "cod": 1033.0, "nome": "R.Ismael Orlando Evaristo", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.703099676278299, -26.871559903925959 ], [ -48.70310386, -26.87164182 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2031270120", "cod": 1067.0, "nome": "R.Santo Rampelotti", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70301081, -26.87271007 ], [ -48.703013274933241, -26.872757456257368 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2031270120", "cod": 1061.0, "nome": "R.José Luiz Marcelino", "ptotalvia": 10.2, "ppasseio1": 1.6, "ppasseio2": 1.6 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.703473882316338, -26.872635894232481 ], [ -48.70301081, -26.87271007 ], [ -48.702928824303761, -26.872718894329907 ] ] } }
 ]
 }

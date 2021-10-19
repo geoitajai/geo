@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2120330174", "cod": 432, "nome": "R.Rio Jurua", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677155027810052, -26.889768696060997 ], [ -48.67698342, -26.88964152 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2120330174", "cod": 432.0, "nome": "R.Rio Jurua", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677155027810052, -26.889768696061001 ], [ -48.67698342, -26.88964152 ] ] } }
 ]
 }

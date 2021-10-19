@@ -2,9 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0053470010", "cod": 962, "nome": "R.Arthur José Rebelo", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693680415538942, -26.924299619388027 ], [ -48.69371368, -26.92436834 ], [ -48.693839171882935, -26.924679882783622 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0053470010", "cod": 962, "nome": "R.Arthur José Rebelo", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693680415538942, -26.924299619388027 ], [ -48.69371368, -26.92436834 ], [ -48.693839171882935, -26.924679882783622 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0053470010", "cod": 953, "nome": "R.José Domingos Machado", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693777510439851, -26.924346307251582 ], [ -48.69371368, -26.92436834 ], [ -48.693420960778965, -26.924471507244284 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0053470010", "cod": 953, "nome": "R.José Domingos Machado", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693777510439851, -26.924346307251582 ], [ -48.69371368, -26.92436834 ], [ -48.693420960778965, -26.924471507244284 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0053470010", "cod": 962.0, "nome": "R.Arthur José Rebelo", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693680415538942, -26.924299619388027 ], [ -48.69371368, -26.92436834 ], [ -48.693839171882935, -26.924679882783625 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0053470010", "cod": 953.0, "nome": "R.José Domingos Machado", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693777510439851, -26.924346307251579 ], [ -48.69371368, -26.92436834 ], [ -48.693420960778965, -26.924471507244284 ] ] } }
 ]
 }

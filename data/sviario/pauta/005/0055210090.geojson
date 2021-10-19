@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0055210090", "cod": 145, "nome": "R.Artilha Pezzini Gelasco", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.708857140683527, -26.911863572348224 ], [ -48.70851055, -26.91188183 ], [ -48.708441807427505, -26.911885266288753 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0055210090", "cod": 135, "nome": "R.José Pezzini", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.708505968672952, -26.911809320329255 ], [ -48.70851055, -26.91188183 ], [ -48.708526265721055, -26.912211151120022 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0055210090", "cod": 145.0, "nome": "R.Artilha Pezzini Gelasco", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.708857140683527, -26.911863572348224 ], [ -48.70851055, -26.91188183 ], [ -48.708441807427505, -26.911885266288753 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0055210090", "cod": 135.0, "nome": "R.José Pezzini", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.708505968672952, -26.911809320329251 ], [ -48.70851055, -26.91188183 ], [ -48.708526265721055, -26.912211151120015 ] ] } }
 ]
 }

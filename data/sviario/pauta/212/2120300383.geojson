@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2120300383", "cod": 439, "nome": "R.Curt Hering", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.680860802342593, -26.888654757315017 ], [ -48.681004615424129, -26.888945904498218 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2120300383", "cod": 439.0, "nome": "R.Curt Hering", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.680860802342593, -26.88865475731502 ], [ -48.681004615424129, -26.888945904498215 ] ] } }
 ]
 }

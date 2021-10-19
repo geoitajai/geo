@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2031862175", "cod": 1098, "nome": "R.Hamilton Pimentel", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70154248, -26.87952942 ], [ -48.701544864481072, -26.879566261290798 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2031862175", "cod": 1106, "nome": "R.Profº.Cosme Buzarello", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70183919, -26.87935132 ], [ -48.701851026850512, -26.87951758626043 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2031862175", "cod": 1098.0, "nome": "R.Hamilton Pimentel", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70154248, -26.87952942 ], [ -48.701544864481079, -26.879566261290801 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2031862175", "cod": 1106.0, "nome": "R.Profº.Cosme Buzarello", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70183919, -26.87935132 ], [ -48.701851026850512, -26.879517586260434 ] ] } }
 ]
 }

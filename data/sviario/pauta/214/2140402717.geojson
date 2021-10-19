@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140402717", "cod": 775, "nome": "R.Paulo Irineu Werner", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.634052502845861, -26.931945003758159 ], [ -48.63359375060174, -26.931612558519095 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2140402717", "cod": 775.0, "nome": "R.Paulo Irineu Werner", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.634052502845861, -26.931945003758159 ], [ -48.63359375060174, -26.931612558519095 ] ] } }
 ]
 }

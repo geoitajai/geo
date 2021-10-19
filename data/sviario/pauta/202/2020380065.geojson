@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020380065", "cod": 189, "nome": "R.Manoel Mello", "ptotalvia": 5.2, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674088209758658, -26.897384491874362 ], [ -48.6743916, -26.89763594 ], [ -48.674458433585627, -26.897688923412613 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020380065", "cod": 161, "nome": "Av.Irineu Bornhausen", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674452351309, -26.897509110765803 ], [ -48.6743916, -26.89763594 ], [ -48.674276150741228, -26.897848213735479 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2020380065", "cod": 189.0, "nome": "R.Manoel Mello", "ptotalvia": 5.2, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674088209758658, -26.897384491874362 ], [ -48.6743916, -26.89763594 ], [ -48.674458433585627, -26.897688923412613 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020380065", "cod": 161.0, "nome": "Av.Irineu Bornhausen", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674452351309, -26.8975091107658 ], [ -48.6743916, -26.89763594 ], [ -48.674276150741228, -26.897848213735479 ] ] } }
 ]
 }

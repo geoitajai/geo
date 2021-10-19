@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020220770", "cod": 225, "nome": "Trav.Esc.Julio Cesar Medeiros", "ptotalvia": 10.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67028061, -26.90213448 ], [ -48.670251382517947, -26.902169518877024 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020220770", "cod": 223, "nome": "R.Benjamin Franklin Pereira", "ptotalvia": 15.2, "ppasseio1": 1.9, "ppasseio2": 1.9 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.670101016981, -26.901982747139542 ], [ -48.67028061, -26.90213448 ], [ -48.670351262597386, -26.902194588214506 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2020220770", "cod": 225.0, "nome": "Trav.Esc.Julio Cesar Medeiros", "ptotalvia": 10.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67028061, -26.90213448 ], [ -48.670251382517947, -26.902169518877024 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020220770", "cod": 223.0, "nome": "R.Benjamin Franklin Pereira", "ptotalvia": 15.2, "ppasseio1": 1.9, "ppasseio2": 1.9 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.670101016981, -26.901982747139542 ], [ -48.67028061, -26.90213448 ], [ -48.670351262597386, -26.902194588214506 ] ] } }
 ]
 }

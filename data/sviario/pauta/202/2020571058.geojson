@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020571058", "cod": 209, "nome": "R.José Quirino", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674626063532187, -26.899307465853919 ], [ -48.674900244142194, -26.899528351380379 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2020571058", "cod": 209.0, "nome": "R.José Quirino", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674626063532187, -26.899307465853919 ], [ -48.674900244142194, -26.899528351380379 ] ] } }
 ]
 }

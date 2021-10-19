@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2030870160", "cod": 1088, "nome": "R.Romualdo Manoel Fagundes", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695785843367275, -26.883292359269586 ], [ -48.69579882, -26.88365953 ], [ -48.695791505639768, -26.883682555511403 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2030870160", "cod": 1110, "nome": "R.Sebastião Romeu Soares", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695853624878801, -26.883654156033753 ], [ -48.69579882, -26.88365953 ], [ -48.695495046559117, -26.883661771287407 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2030870160", "cod": 1088.0, "nome": "R.Romualdo Manoel Fagundes", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695785843367275, -26.883292359269586 ], [ -48.69579882, -26.88365953 ], [ -48.695791505639768, -26.883682555511406 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2030870160", "cod": 1110.0, "nome": "R.Sebastião Romeu Soares", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695853624878801, -26.883654156033753 ], [ -48.69579882, -26.88365953 ], [ -48.695495046559117, -26.883661771287407 ] ] } }
 ]
 }

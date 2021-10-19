@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0032110835", "cod": 1166, "nome": "R.Eredes Serpa", "ptotalvia": 12.5, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.701840964243814, -26.893810457987982 ], [ -48.701861071130843, -26.894142949848131 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0032110835", "cod": 1718, "nome": "R.Macapá", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.701384844850438, -26.893827507368446 ], [ -48.701401739555635, -26.894170750905168 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0032110835", "cod": 1166.0, "nome": "R.Eredes Serpa", "ptotalvia": 12.5, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.701840964243814, -26.893810457987982 ], [ -48.701861071130843, -26.894142949848135 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0032110835", "cod": 1718.0, "nome": "R.Macapá", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.701384844850438, -26.893827507368449 ], [ -48.701401739555635, -26.894170750905168 ] ] } }
 ]
 }

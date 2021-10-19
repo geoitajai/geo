@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2030250576", "cod": 1110, "nome": "R.Sebastião Romeu Soares", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.704157729713579, -26.883205958390821 ], [ -48.70403856, -26.88321205 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2030250576", "cod": 1103, "nome": "R.Henrique Bianchini", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.703746971476036, -26.882950402525715 ], [ -48.70376292, -26.88322613 ], [ -48.703765881202685, -26.883279305557686 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2030250576", "cod": 1110, "nome": "R.Sebastião Romeu Soares", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70403856, -26.88321205 ], [ -48.70376292, -26.88322613 ], [ -48.703699760446611, -26.883228306006679 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2030250576", "cod": 1110.0, "nome": "R.Sebastião Romeu Soares", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.704157729713579, -26.883205958390821 ], [ -48.70403856, -26.88321205 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2030250576", "cod": 1103.0, "nome": "R.Henrique Bianchini", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.703746971476036, -26.882950402525712 ], [ -48.70376292, -26.88322613 ], [ -48.703765881202685, -26.883279305557686 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2030250576", "cod": 1110.0, "nome": "R.Sebastião Romeu Soares", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70403856, -26.88321205 ], [ -48.70376292, -26.88322613 ], [ -48.703699760446611, -26.883228306006679 ] ] } }
 ]
 }

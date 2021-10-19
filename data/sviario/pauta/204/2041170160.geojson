@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2041170160", "cod": 880, "nome": "R.Pedro Manoel Moreira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.688611191560234, -26.932822115411941 ], [ -48.6885749, -26.93286846 ], [ -48.688291220611212, -26.933176548743067 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2041170160", "cod": 882, "nome": "R.Otávio Müller", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.688814552263111, -26.933038579167416 ], [ -48.6885749, -26.93286846 ], [ -48.688519244168454, -26.93282986771645 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2041170160", "cod": 880.0, "nome": "R.Pedro Manoel Moreira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.688611191560234, -26.932822115411941 ], [ -48.6885749, -26.93286846 ], [ -48.688291220611212, -26.933176548743067 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2041170160", "cod": 882.0, "nome": "R.Otávio Müller", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.688814552263111, -26.933038579167413 ], [ -48.6885749, -26.93286846 ], [ -48.688519244168454, -26.93282986771645 ] ] } }
 ]
 }

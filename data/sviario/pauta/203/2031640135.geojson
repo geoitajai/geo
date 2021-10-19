@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2031640135", "cod": 1063, "nome": "R.Lídia Puel Peixer", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700117315419348, -26.878225992189268 ], [ -48.70013446, -26.87854415 ], [ -48.700139343475527, -26.878595456810018 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2031640135", "cod": 1066, "nome": "R.Itamar Bruno de Carvalho", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700194768162497, -26.878540829622956 ], [ -48.70013446, -26.87854415 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2031640135", "cod": 1063.0, "nome": "R.Lídia Puel Peixer", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700117315419348, -26.878225992189268 ], [ -48.70013446, -26.87854415 ], [ -48.700139343475527, -26.878595456810022 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2031640135", "cod": 1066.0, "nome": "R.Itamar Bruno de Carvalho", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700194768162497, -26.878540829622956 ], [ -48.70013446, -26.87854415 ] ] } }
 ]
 }

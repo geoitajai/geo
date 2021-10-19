@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140400877", "cod": 755, "nome": "R.C.Carlos Renaux", "ptotalvia": 8.4, "ppasseio1": 1.2, "ppasseio2": 1.2 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.633659322678419, -26.92902540272793 ], [ -48.633392448293144, -26.929320878173755 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2140400877", "cod": 755.0, "nome": "R.C.Carlos Renaux", "ptotalvia": 8.4, "ppasseio1": 1.2, "ppasseio2": 1.2 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.633659322678419, -26.92902540272793 ], [ -48.633392448293144, -26.929320878173755 ] ] } }
 ]
 }

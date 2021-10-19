@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2120900371", "cod": 409, "nome": "Trav.João Bento", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68603125, -26.8916871 ], [ -48.685533140025029, -26.892192691209686 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2120900371", "cod": 410, "nome": "Trav.Niculau Burgart", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68636439, -26.89205848 ], [ -48.685931721579209, -26.892498280048599 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2120900371", "cod": 409.0, "nome": "Trav.João Bento", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68603125, -26.8916871 ], [ -48.685533140025029, -26.892192691209683 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2120900371", "cod": 410.0, "nome": "Trav.Niculau Burgart", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68636439, -26.89205848 ], [ -48.685931721579209, -26.892498280048603 ] ] } }
 ]
 }

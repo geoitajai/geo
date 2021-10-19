@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2150190110", "cod": 1373, "nome": "R.Irineu Maria", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.73661085507419, -26.894212870900329 ], [ -48.736632708948669, -26.894529484830674 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2150190110", "cod": 1373.0, "nome": "R.Irineu Maria", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.73661085507419, -26.894212870900329 ], [ -48.736632708948669, -26.894529484830677 ] ] } }
 ]
 }

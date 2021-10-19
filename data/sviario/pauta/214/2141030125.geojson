@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2141030125", "cod": 782, "nome": "R.Delfim Mário Pádua Peixoto", "ptotalvia": 20.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.631365186604107, -26.95355642120467 ], [ -48.63136174, -26.95353442 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2141030125", "cod": 783, "nome": "R.Conselheiro Júlio Kumm", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.631303406948611, -26.953247347693953 ], [ -48.630963621888256, -26.953291205257166 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2141030125", "cod": 782, "nome": "R.Delfim Mário Pádua Peixoto", "ptotalvia": 20.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.63136174, -26.95353442 ], [ -48.631320918232127, -26.95327381590845 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2141030125", "cod": 782.0, "nome": "R.Delfim Mário Pádua Peixoto", "ptotalvia": 20.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.631365186604107, -26.953556421204674 ], [ -48.63136174, -26.95353442 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2141030125", "cod": 783.0, "nome": "R.Conselheiro Júlio Kumm", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.631303406948611, -26.953247347693953 ], [ -48.630963621888256, -26.953291205257166 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2141030125", "cod": 782.0, "nome": "R.Delfim Mário Pádua Peixoto", "ptotalvia": 20.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.63136174, -26.95353442 ], [ -48.631320918232127, -26.953273815908442 ] ] } }
 ]
 }

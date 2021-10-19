@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0030260110", "cod": 1115, "nome": "R.Adolfo José de Assis", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692807184302495, -26.895156065966624 ], [ -48.69283182559618, -26.895624360070482 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0030260110", "cod": 1173, "nome": "R.Agostinho Alves Ramos", "ptotalvia": 20.4, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692805220216705, -26.895634481046727 ], [ -48.692409690317291, -26.895397908998781 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0030260110", "cod": 1115.0, "nome": "R.Adolfo José de Assis", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692814624620191, -26.895297465176199 ], [ -48.69283187424741, -26.895625284659111 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0030260110", "cod": 1173.0, "nome": "R.Agostinho Alves Ramos", "ptotalvia": 20.4, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692805836566471, -26.895634849692694 ], [ -48.692401034755029, -26.89539273196144 ] ] } }
 ]
 }

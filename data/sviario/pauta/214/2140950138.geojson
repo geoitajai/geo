@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140950138", "cod": 808, "nome": "R.Hildebrando Jorge da Silva", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.63193636, -26.94641743 ], [ -48.631645533330818, -26.946452510565084 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2140950138", "cod": 808.0, "nome": "R.Hildebrando Jorge Silva", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.63193636, -26.94641743 ], [ -48.631645533330818, -26.946452510565084 ] ] } }
 ]
 }

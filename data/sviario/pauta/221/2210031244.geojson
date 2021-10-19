@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2210031244", "cod": 506, "nome": "R.São Paulo", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67738911, -26.91111455 ], [ -48.67734157497852, -26.91109905879771 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2210031244", "cod": 227, "nome": "R.Indaial", "ptotalvia": 17.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677405446279174, -26.91074952980059 ], [ -48.67738911, -26.91111455 ], [ -48.677386491668386, -26.911166435404525 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2210031244", "cod": 523, "nome": "R.Antônio Adão Dias", "ptotalvia": 13.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677837103433419, -26.911227003161947 ], [ -48.67774874, -26.91121825 ], [ -48.67738911, -26.91111455 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2210031244", "cod": 506.0, "nome": "R.São Paulo", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67738911, -26.91111455 ], [ -48.67734157497852, -26.911099058797706 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210031244", "cod": 227.0, "nome": "R.Indaial", "ptotalvia": 17.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677405446279174, -26.910749529800587 ], [ -48.67738911, -26.91111455 ], [ -48.677386491668386, -26.911166435404525 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210031244", "cod": 523.0, "nome": "R.Antônio Adão Dias", "ptotalvia": 13.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677837103433419, -26.911227003161947 ], [ -48.67774874, -26.91121825 ], [ -48.67738911, -26.91111455 ] ] } }
 ]
 }

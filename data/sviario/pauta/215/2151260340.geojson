@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2151260340", "cod": 1321, "nome": "R.Waldemar da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.749046027491069, -26.872233325132658 ], [ -48.74904983, -26.87227605 ], [ -48.749081795234723, -26.872651178993923 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2151260340", "cod": 1327, "nome": "Av.Lauro José Pereira", "ptotalvia": 18.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.749120294022894, -26.872270023657158 ], [ -48.74904983, -26.87227605 ], [ -48.748752169806714, -26.872296018887148 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2151260340", "cod": 1321.0, "nome": "R.Waldemar da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.749046027491069, -26.872233325132658 ], [ -48.74904983, -26.87227605 ], [ -48.749081795234723, -26.872651178993923 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2151260340", "cod": 1327.0, "nome": "Av.Lauro José Pereira", "ptotalvia": 18.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.749120294022894, -26.872270023657162 ], [ -48.74904983, -26.87227605 ], [ -48.748752169806714, -26.872296018887148 ] ] } }
 ]
 }

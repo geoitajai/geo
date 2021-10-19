@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2041650145", "cod": 869, "nome": "R.Aristides Estevão da Silva", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674053306618177, -26.929480342595475 ], [ -48.67362493, -26.92947463 ], [ -48.673577441320958, -26.929473922442842 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2041650145", "cod": 854, "nome": "R.Ver.Abílio Otávio do Canto", "ptotalvia": 20.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.673625770083468, -26.929418441291777 ], [ -48.67362493, -26.92947463 ], [ -48.673638476045369, -26.929858035323594 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2041650145", "cod": 869.0, "nome": "R.Aristides Estevão da Silva", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674053306618177, -26.929480342595475 ], [ -48.67362493, -26.92947463 ], [ -48.673577441320958, -26.929473922442845 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2041650145", "cod": 854.0, "nome": "R.Ver.Abílio Otávio do Canto", "ptotalvia": 20.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.673625770083468, -26.929418441291777 ], [ -48.67362493, -26.92947463 ], [ -48.673638476045369, -26.929858035323594 ] ] } }
 ]
 }

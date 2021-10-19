@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0030960045", "cod": 1210, "nome": "R.Minas Gerais", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.699148244217334, -26.898772288982105 ], [ -48.69899985, -26.89877562 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0030960045", "cod": 1210, "nome": "R.Minas Gerais", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69899985, -26.89877562 ], [ -48.698780218024169, -26.898780548576724 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0030960045", "cod": 1210.0, "nome": "R.Minas Gerais", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.699148244217334, -26.898772288982109 ], [ -48.69899985, -26.89877562 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0030960045", "cod": 1210.0, "nome": "R.Minas Gerais", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69899985, -26.89877562 ], [ -48.698780218024169, -26.898780548576724 ] ] } }
 ]
 }

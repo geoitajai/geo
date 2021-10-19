@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0052650110", "cod": 79, "nome": "R.Herval do Oeste", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.685227645866938, -26.897236571938979 ], [ -48.68489413, -26.89724223 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0052650110", "cod": 76, "nome": "R.Luiz Roberto Casas", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.684893235817043, -26.897171336576658 ], [ -48.68489413, -26.89724223 ], [ -48.684906969585917, -26.897570282879013 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0052650110", "cod": 79.0, "nome": "R.Herval do Oeste", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.685227645866938, -26.897236571938976 ], [ -48.68489413, -26.89724223 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0052650110", "cod": 76.0, "nome": "R.Luiz Roberto Casas", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.684893235817043, -26.897171336576662 ], [ -48.68489413, -26.89724223 ], [ -48.684906969585917, -26.897570282879016 ] ] } }
 ]
 }

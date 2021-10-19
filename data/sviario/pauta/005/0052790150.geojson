@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0052790150", "cod": 63, "nome": "R.Caçador", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.684513558644262, -26.894272961793781 ], [ -48.68446739, -26.89423279 ], [ -48.684204641453022, -26.893982783596183 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0052790150", "cod": 65, "nome": "R.Santa Cecília", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68446739, -26.89423279 ], [ -48.684240386126454, -26.89443942590367 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0052790150", "cod": 63.0, "nome": "R.Caçador", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.684513558644262, -26.894272961793781 ], [ -48.68446739, -26.89423279 ], [ -48.684204641453022, -26.893982783596183 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0052790150", "cod": 65.0, "nome": "R.Santa Cecília", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68446739, -26.89423279 ], [ -48.684240386126454, -26.89443942590367 ] ] } }
 ]
 }

@@ -2,6 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2165051100", "cod": 1247, "nome": "R.Waldemar Merizio", "ptotalvia": 20.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.864625822125376, -27.03814119471301 ], [ -48.864605814335526, -27.03781276923997 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2165051100", "cod": 1247.0, "nome": "R.Waldemar Merizio", "ptotalvia": 20.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.864625822125376, -27.03814119471301 ], [ -48.864605814335526, -27.03781276923997 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2165051100", "cod": 1534.0, "nome": "R.José Laurentino Júnior", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.86364351147666, -27.036836021005534 ], [ -48.863086115862487, -27.036686187475937 ] ] } }
 ]
 }

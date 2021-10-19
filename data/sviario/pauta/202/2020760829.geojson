@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020760829", "cod": 215, "nome": "R.Antônio Borba", "ptotalvia": 8.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675086473260293, -26.901759211197511 ], [ -48.67508285, -26.90185433 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020760829", "cod": 217, "nome": "R.Profº.Mario Mello", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675221297904166, -26.901846300722255 ], [ -48.67508285, -26.90185433 ], [ -48.674786966699621, -26.901868444936387 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2020760829", "cod": 215.0, "nome": "R.Antônio Borba", "ptotalvia": 8.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675086473260293, -26.901759211197511 ], [ -48.67508285, -26.90185433 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020760829", "cod": 217.0, "nome": "R.Profº.Mario Mello", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675221297904166, -26.901846300722255 ], [ -48.67508285, -26.90185433 ], [ -48.674786966699621, -26.901868444936387 ] ] } }
 ]
 }

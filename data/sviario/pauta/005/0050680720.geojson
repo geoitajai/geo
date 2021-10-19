@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050680720", "cod": 103, "nome": "R.Com.Germano Rauert", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692654285805432, -26.907956847466895 ], [ -48.69231656, -26.90796909 ], [ -48.692254339108523, -26.907971151728383 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0050680720", "cod": 10, "nome": "R.Antônio Ayres dos Santos", "ptotalvia": 13.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692324648252566, -26.908381302362088 ], [ -48.69231656, -26.90796909 ], [ -48.692316037958641, -26.907894626323611 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0050680720", "cod": 103.0, "nome": "R.Com.Germano Rauert", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692654285805432, -26.907956847466895 ], [ -48.69231656, -26.90796909 ], [ -48.692254339108523, -26.907971151728383 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050680720", "cod": 10.0, "nome": "R.Antônio Ayres dos Santos", "ptotalvia": 13.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692324648252566, -26.908381302362091 ], [ -48.69231656, -26.90796909 ], [ -48.692316037958641, -26.907894626323611 ] ] } }
 ]
 }

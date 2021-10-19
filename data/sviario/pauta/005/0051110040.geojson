@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0051110040", "cod": 43, "nome": "R.Antônio Carlos Pereira Leão Filho", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696605454365709, -26.902289168564312 ], [ -48.696621533929275, -26.902602210125938 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0051110040", "cod": 43.0, "nome": "R.Antônio Carlos Pereira Leão Filho", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696605454365709, -26.902289168564312 ], [ -48.696621533929267, -26.902602210125938 ] ] } }
 ]
 }

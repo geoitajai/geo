@@ -2,9 +2,9 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110880900", "cod": 543, "nome": "R.José Siqueira", "ptotalvia": 25.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677104516734161, -26.923215110977395 ], [ -48.67703467, -26.923609039999988 ], [ -48.676996950615667, -26.923756327573003 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110880900", "cod": 538, "nome": "R.Estud.Renato Victorino", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677041597046085, -26.923608494729852 ], [ -48.67703467, -26.923609039999988 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110880900", "cod": 546, "nome": "R.Manoel Joaquim Coelho", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676623729350275, -26.923264845965981 ], [ -48.67655878, -26.92378416 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110880900", "cod": 265, "nome": "Av.Ver.Abrahão João Francisco", "ptotalvia": 29.4, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67664470973628, -26.92384791359418 ], [ -48.67655878, -26.92378416 ], [ -48.676535116197535, -26.92376631925503 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2110880900", "cod": 543.0, "nome": "R.José Siqueira", "ptotalvia": 25.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677104516734161, -26.923215110977395 ], [ -48.67703467, -26.92360904 ], [ -48.676996950615667, -26.923756327573003 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110880900", "cod": 538.0, "nome": "R.Estud.Renato Victorino", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677041597046085, -26.923608494729852 ], [ -48.67703467, -26.92360904 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110880900", "cod": 546.0, "nome": "R.Manoel Joaquim Coelho", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676623729350275, -26.923264845965981 ], [ -48.67655878, -26.92378416 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110880900", "cod": 265.0, "nome": "Av.Ver.Abrahão João Francisco", "ptotalvia": 29.4, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67664470973628, -26.923847913594184 ], [ -48.67655878, -26.92378416 ], [ -48.676535116197535, -26.923766319255027 ] ] } }
 ]
 }

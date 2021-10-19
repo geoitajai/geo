@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2141210066", "cod": 839, "nome": "R.Paulo Batschauer", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.630215812553004, -26.950223659289485 ], [ -48.63014841, -26.95023283 ], [ -48.629695938147982, -26.950286089917078 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2141210066", "cod": 794, "nome": "R.Dr.Lauro Mussi", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.630143650602982, -26.950176181649194 ], [ -48.63014841, -26.95023283 ], [ -48.630173270211557, -26.950518460929793 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2141210066", "cod": 839.0, "nome": "R.Paulo Batschauer", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.630215812553004, -26.950223659289481 ], [ -48.63014841, -26.95023283 ], [ -48.629695938147982, -26.950286089917075 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2141210066", "cod": 794.0, "nome": "R.Dr.Lauro Mussi", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.630143650602982, -26.950176181649191 ], [ -48.63014841, -26.95023283 ], [ -48.630173270211557, -26.950518460929793 ] ] } }
 ]
 }

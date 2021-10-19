@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040840010", "cod": 543, "nome": "R.José Siqueira", "ptotalvia": 25.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67691181635616, -26.924112290527514 ], [ -48.676875149425513, -26.92434941438562 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040840010", "cod": 546, "nome": "R.Manoel Joaquim Coelho", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676561169870439, -26.923765051480412 ], [ -48.67655878, -26.92378416 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040840010", "cod": 265, "nome": "Av.Ver.Abrahão João Francisco", "ptotalvia": 29.4, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676710567973672, -26.923896775519911 ], [ -48.67655878, -26.92378416 ], [ -48.676494309264861, -26.923735553844764 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2040840010", "cod": 543.0, "nome": "R.José Siqueira", "ptotalvia": 25.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67691181635616, -26.924112290527511 ], [ -48.676875149425513, -26.92434941438562 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040840010", "cod": 546.0, "nome": "R.Manoel Joaquim Coelho", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676561169870439, -26.923765051480412 ], [ -48.67655878, -26.92378416 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040840010", "cod": 265.0, "nome": "Av.Ver.Abrahão João Francisco", "ptotalvia": 29.4, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676710567973672, -26.923896775519914 ], [ -48.67655878, -26.92378416 ], [ -48.676494309264861, -26.923735553844764 ] ] } }
 ]
 }

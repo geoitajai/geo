@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2041240090", "cod": 886, "nome": "R.José Henrique Flores", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.686871906893558, -26.933902221066255 ], [ -48.686645654418029, -26.934169420875737 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2041240090", "cod": 886.0, "nome": "R.José Henrique Flores", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.686871906893558, -26.933902221066255 ], [ -48.686645654418029, -26.934169420875737 ] ] } }
 ]
 }

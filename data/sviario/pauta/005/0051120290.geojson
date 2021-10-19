@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0051120290", "cod": 112, "nome": "R.Ibirama", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69656595, -26.90565974 ], [ -48.696492402709602, -26.905664727520527 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0051120290", "cod": 95, "nome": "R.Érico Veríssimo", "ptotalvia": 14.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696552668126699, -26.905473052062767 ], [ -48.69656595, -26.90565974 ], [ -48.69657415393128, -26.905793284232757 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0051120290", "cod": 112.0, "nome": "R.Ibirama", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69656595, -26.90565974 ], [ -48.696492402709602, -26.905664727520527 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0051120290", "cod": 95.0, "nome": "R.Érico Veríssimo", "ptotalvia": 14.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696552668126699, -26.905473052062767 ], [ -48.69656595, -26.90565974 ], [ -48.696574153931273, -26.905793284232757 ] ] } }
 ]
 }

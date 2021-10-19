@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040460096", "cod": 662, "nome": "R.Carlos Gonçalves Dutra", "ptotalvia": 5.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65557262, -26.91935107 ], [ -48.655591646439717, -26.919367476894518 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040460096", "cod": 266, "nome": "R.Uruguai", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.655815011788619, -26.919176420894093 ], [ -48.65557262, -26.91935107 ], [ -48.655556597914547, -26.919361697047929 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2040460096", "cod": 662.0, "nome": "R.Carlos Gonçalves Dutra", "ptotalvia": 5.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65557262, -26.91935107 ], [ -48.655591646439717, -26.919367476894518 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040460096", "cod": 266.0, "nome": "R.Uruguai", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.655815011788619, -26.919176420894093 ], [ -48.65557262, -26.91935107 ], [ -48.655556597914547, -26.919361697047929 ] ] } }
 ]
 }

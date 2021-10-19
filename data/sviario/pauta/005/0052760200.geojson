@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0052760200", "cod": 67, "nome": "R.São Miguel", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.684488807961898, -26.895537849384574 ], [ -48.684178422027927, -26.895837373415532 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0052760200", "cod": 80, "nome": "R.Porto União", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68424979, -26.89586352 ], [ -48.684251434304599, -26.895920708638346 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0052760200", "cod": 58, "nome": "R.Osvaldo Becker", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.684690128150748, -26.895853074260458 ], [ -48.684191223266815, -26.895863923221651 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0052760200", "cod": 67.0, "nome": "R.São Miguel", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.684488807961898, -26.895537849384571 ], [ -48.684178422027927, -26.895837373415532 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0052760200", "cod": 80.0, "nome": "R.Porto União", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68424979, -26.89586352 ], [ -48.684251434304599, -26.895920708638343 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0052760200", "cod": 58.0, "nome": "R.Osvaldo Becker", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.684690128150748, -26.895853074260462 ], [ -48.684191223266815, -26.895863923221651 ] ] } }
 ]
 }

@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110230248", "cod": 510, "nome": "R.Abelardo Costa Filho", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67563813, -26.91256755 ], [ -48.675638777657056, -26.912957512432701 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110230248", "cod": 490, "nome": "R.Corifeu de Azevedo Marques", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675721088443936, -26.912574850581418 ], [ -48.67563813, -26.91256755 ], [ -48.675171949231675, -26.91252575126688 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2110230248", "cod": 510.0, "nome": "R.Abelardo Costa Filho", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67563813, -26.912567549999988 ], [ -48.675638777657056, -26.912957512432701 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110230248", "cod": 490.0, "nome": "R.Corifeu de Azevedo Marques", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675721088443936, -26.912574850581422 ], [ -48.67563813, -26.912567549999988 ], [ -48.675171949231675, -26.91252575126688 ] ] } }
 ]
 }

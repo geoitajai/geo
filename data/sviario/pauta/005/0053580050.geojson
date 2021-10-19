@@ -2,6 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0053580050", "cod": 989, "nome": "R.Lino José da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69842147968091, -26.924531143956241 ], [ -48.698615252933443, -26.924818423285831 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0053580050", "cod": 989.0, "nome": "R.Lino José da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69842147968091, -26.924531143956241 ], [ -48.698615252933443, -26.924818423285831 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0053580050", "cod": 989.0, "nome": "R.Lino José da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69842147968091, -26.924531143956241 ], [ -48.698615252933443, -26.924818423285831 ] ] } }
 ]
 }

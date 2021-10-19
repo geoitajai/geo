@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2150500060", "cod": 1388, "nome": "R.João Maestri", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.745286764708666, -26.901385416840796 ], [ -48.745310932409716, -26.901725333149393 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2150500060", "cod": 1388.0, "nome": "R.João Maestri", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.745286764708666, -26.9013854168408 ], [ -48.745310932409716, -26.901725333149393 ] ] } }
 ]
 }

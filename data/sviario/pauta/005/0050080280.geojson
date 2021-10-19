@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050080280", "cod": 99, "nome": "R.Dr.Félix Malburg", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.688646226618339, -26.906651452231749 ], [ -48.688238698480141, -26.906662379498542 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0050080280", "cod": 99.0, "nome": "R.Dr.Félix Malburg", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.688646226618339, -26.906651452231753 ], [ -48.688238698480141, -26.906662379498542 ] ] } }
 ]
 }

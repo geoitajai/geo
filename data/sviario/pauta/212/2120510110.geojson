@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2120510110", "cod": 451, "nome": "R.Pedro Teixeira de Mello", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6713386825679, -26.887631225131781 ], [ -48.671044367400484, -26.887435993432067 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2120510110", "cod": 451.0, "nome": "R.Pedro Teixeira de Mello", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6713386825679, -26.887631225131781 ], [ -48.671044367400484, -26.887435993432067 ] ] } }
 ]
 }

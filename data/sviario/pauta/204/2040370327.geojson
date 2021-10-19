@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040370327", "cod": 605, "nome": "R.José Marçal Dutra", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.659091071220125, -26.914659771084644 ], [ -48.658801035407464, -26.914432813891811 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040370327", "cod": 1607, "nome": "R.Júlio Willerding", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -48.659379616081779, -26.9142502152718 ], [ -48.65933282, -26.914303 ] ], [ [ -48.65933282, -26.914303 ], [ -48.659381333795771, -26.914345029351981 ] ], [ [ -48.659085923389149, -26.914119497569708 ], [ -48.65933282, -26.914303 ] ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2040370327", "cod": 605.0, "nome": "R.José Marçal Dutra", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.659091071220125, -26.914659771084647 ], [ -48.658801035407464, -26.914432813891807 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040370327", "cod": 1607.0, "nome": "R.Júlio Willerding", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -48.659379616081779, -26.9142502152718 ], [ -48.65933282, -26.914303 ] ], [ [ -48.65933282, -26.914303 ], [ -48.659381333795771, -26.914345029351981 ] ], [ [ -48.659085923389149, -26.914119497569708 ], [ -48.65933282, -26.914303 ] ] ] } }
 ]
 }

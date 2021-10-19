@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2160970800", "cod": 1478, "nome": "R.Benjamim Dagnoni", "ptotalvia": 22.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -48.715438283504461, -26.969337202392559 ], [ -48.715338614266997, -26.969551791966509 ] ], [ [ -48.715246872640769, -26.969760143389493 ], [ -48.715230000630918, -26.969931097977106 ] ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2160970800", "cod": 1478, "nome": "R.Benjamim Dagnoni", "ptotalvia": 22.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.715242978272329, -26.969799602899599 ], [ -48.71521606, -26.97007235 ], [ -48.71530933, -26.97038006 ], [ -48.715314336812149, -26.970387938022576 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2160970800", "cod": 1478.0, "nome": "R.Benjamim Dagnoni", "ptotalvia": 22.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.715649816338271, -26.968776990355629 ], [ -48.71564068, -26.96884488 ], [ -48.71522047, -26.96974594 ], [ -48.71519345, -26.96995438 ], [ -48.7152416, -26.97016162 ], [ -48.71531222, -26.97036447 ], [ -48.715343657768337, -26.970437296759222 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2160970800", "cod": 1496.0, "nome": "R.Marcos Albino", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.71564068, -26.96884488 ], [ -48.717806340666144, -26.969492460227812 ] ] } }
 ]
 }

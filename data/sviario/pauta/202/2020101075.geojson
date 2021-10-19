@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020101075", "cod": 312, "nome": "R.Antônio Bernardo Schauffert", "ptotalvia": 3.6, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.666352083546087, -26.903800411898793 ], [ -48.66637777, -26.90409943 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2020101075", "cod": 312.0, "nome": "R.Antônio Bernardo Schauffert", "ptotalvia": 3.6, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.666352083546087, -26.903800411898789 ], [ -48.66637777, -26.90409943 ] ] } }
 ]
 }

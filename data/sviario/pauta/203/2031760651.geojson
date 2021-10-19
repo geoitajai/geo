@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2031760651", "cod": 1059, "nome": "R.Manoel Pedro Simas", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692923432021921, -26.876121556064355 ], [ -48.692547671594404, -26.876128434474857 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2031760651", "cod": 1059.0, "nome": "R.Manoel Pedro Simas", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692923432021921, -26.876121556064355 ], [ -48.692547671594404, -26.876128434474861 ] ] } }
 ]
 }

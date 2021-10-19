@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0051700060", "cod": 926, "nome": "Av.Min.Luiz Gallotti", "ptotalvia": 17.2, "ppasseio1": 3.25, "ppasseio2": 3.25 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70254287354188, -26.921423008963309 ], [ -48.70249655, -26.92146696 ], [ -48.702285740640143, -26.921664441655022 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0051700060", "cod": 939, "nome": "R.José Domingos Mafra", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702811456477512, -26.921729990103437 ], [ -48.70249655, -26.92146696 ], [ -48.702472798144143, -26.9214335803733 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0051700060", "cod": 926.0, "nome": "Av.Min.Luiz Gallotti", "ptotalvia": 17.2, "ppasseio1": 3.25, "ppasseio2": 3.25 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70254287354188, -26.921423008963306 ], [ -48.70249655, -26.92146696 ], [ -48.702285740640143, -26.921664441655022 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0051700060", "cod": 939.0, "nome": "R.José Domingos Mafra", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702811456477512, -26.921729990103437 ], [ -48.70249655, -26.92146696 ], [ -48.702472798144143, -26.9214335803733 ] ] } }
 ]
 }

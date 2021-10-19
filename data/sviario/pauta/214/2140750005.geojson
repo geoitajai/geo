@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140750005", "cod": 587, "nome": "Av.Carlos Drumond de Andrade (Praia Brava)", "ptotalvia": 20.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.639506363701372, -26.955437803634752 ], [ -48.63870581, -26.95552727 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2140750005", "cod": 784, "nome": "R.Francisca Bernardes", "ptotalvia": 8.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.639513348108608, -26.95491338593849 ], [ -48.63889655, -26.95496299 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2140750005", "cod": 587.0, "nome": "Av.Carlos Drumond de Andrade (Praia Brava)", "ptotalvia": 20.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.639506363701372, -26.955437803634748 ], [ -48.63870581, -26.95552727 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140750005", "cod": 784.0, "nome": "R.Francisca Bernardes", "ptotalvia": 8.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.639513348108608, -26.95491338593849 ], [ -48.63889655, -26.95496299 ] ] } }
 ]
 }

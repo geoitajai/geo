@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2031781376", "cod": 1057, "nome": "R.Adolfo José Fontes Pfeilsticker", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69306249, -26.87512966 ], [ -48.692637156260901, -26.875140642877241 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2031781376", "cod": 1046, "nome": "R.Eugênio Pezzini", "ptotalvia": 13.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693052818225382, -26.874832936917802 ], [ -48.69306249, -26.87512966 ], [ -48.693064534606954, -26.875191313003686 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2031781376", "cod": 1057.0, "nome": "R.Adolfo José Fontes Pfeilsticker", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69306249, -26.87512966 ], [ -48.692637156260894, -26.875140642877245 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2031781376", "cod": 1046.0, "nome": "R.Eugênio Pezzini", "ptotalvia": 13.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693052818225382, -26.874832936917802 ], [ -48.69306249, -26.87512966 ], [ -48.693064534606954, -26.875191313003686 ] ] } }
 ]
 }

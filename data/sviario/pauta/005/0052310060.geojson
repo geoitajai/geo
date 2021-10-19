@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0052310060", "cod": 978, "nome": "R.Luiz Silva", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698872337079258, -26.923535250459469 ], [ -48.69850009, -26.92373676 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0052310060", "cod": 946, "nome": "R.Otília Damasceno", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698335558302531, -26.923516708215192 ], [ -48.69850009, -26.92373676 ], [ -48.698537305412522, -26.923790814621171 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0052310060", "cod": 978.0, "nome": "R.Luiz Silva", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698872337079258, -26.923535250459469 ], [ -48.69850009, -26.92373676 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0052310060", "cod": 946.0, "nome": "R.Otília Damasceno", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698335558302531, -26.923516708215192 ], [ -48.69850009, -26.92373676 ], [ -48.698537305412522, -26.923790814621171 ] ] } }
 ]
 }

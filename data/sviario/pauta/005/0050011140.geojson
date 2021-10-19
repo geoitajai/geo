@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050011140", "cod": 1560, "nome": "R.Manoel Cipriano Furtado", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.683263877317337, -26.893439250868763 ], [ -48.68327149, -26.89342194 ], [ -48.68331484, -26.89335222 ], [ -48.683361, -26.89327424 ], [ -48.683448054245638, -26.893181086791454 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0050011140", "cod": 1560.0, "nome": "R.Manoel Cipriano Furtado", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.683263877317337, -26.893439250868767 ], [ -48.68327149, -26.89342194 ], [ -48.68331484, -26.89335222 ], [ -48.683361, -26.89327424 ], [ -48.683448054245638, -26.893181086791458 ] ] } }
 ]
 }

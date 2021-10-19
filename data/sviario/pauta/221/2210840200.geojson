@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2210840200", "cod": 541, "nome": "R.Ercides Mafra", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68194148, -26.92378701 ], [ -48.681983825164345, -26.924113491675946 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2210840200", "cod": 537, "nome": "R.Pres.João Goulart", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.682018036916084, -26.923781938285089 ], [ -48.68194148, -26.92378701 ], [ -48.681536141791348, -26.923820865630873 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2210840200", "cod": 541.0, "nome": "R.Ercides Mafra", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68194148, -26.92378701 ], [ -48.681983825164345, -26.924113491675946 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210840200", "cod": 537.0, "nome": "R.Pres.João Goulart", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.682018036916084, -26.923781938285089 ], [ -48.68194148, -26.92378701 ], [ -48.681536141791348, -26.923820865630873 ] ] } }
 ]
 }

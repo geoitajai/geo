@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110530368", "cod": 389, "nome": "R.Luiza Soterio Keunecke", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.668182640638264, -26.916144948318902 ], [ -48.667900678152378, -26.915941594270056 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2110530368", "cod": 389.0, "nome": "R.Luiza Soterio Keunecke", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.668182640638264, -26.916144948318902 ], [ -48.667900678152378, -26.915941594270056 ] ] } }
 ]
 }

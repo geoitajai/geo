@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0030980075", "cod": 1207, "nome": "Av.Brasília", "ptotalvia": 18.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698312064812768, -26.898441471868093 ], [ -48.698222044130922, -26.898618850060299 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0030980075", "cod": 1208, "nome": "R.Goiás", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698298307893445, -26.898260319415655 ], [ -48.69793227357669, -26.898272002205108 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0030980075", "cod": 1207.0, "nome": "Av.Brasília", "ptotalvia": 18.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698312064812768, -26.898441471868097 ], [ -48.698222044130922, -26.898618850060299 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0030980075", "cod": 1208.0, "nome": "R.Goiás", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698298307893445, -26.898260319415655 ], [ -48.69793227357669, -26.898272002205108 ] ] } }
 ]
 }

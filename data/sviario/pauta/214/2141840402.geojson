@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2141840402", "cod": 727, "nome": "R.Artur Torquato Batista", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.646212452353296, -26.931336534292985 ], [ -48.64620901, -26.93134284 ], [ -48.64619603699802, -26.931376711482116 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2141840402", "cod": 729, "nome": "R.Maria Sedrez", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.64673751265213, -26.931291471560819 ], [ -48.646438641714823, -26.931049722141516 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2141840402", "cod": 727.0, "nome": "R.Artur Torquato Batista", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.646212452353296, -26.931336534292981 ], [ -48.64620901, -26.93134284 ], [ -48.646196036998028, -26.931376711482116 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2141840402", "cod": 729.0, "nome": "R.Maria Sedrez", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.64673751265213, -26.931291471560815 ], [ -48.646438641714823, -26.931049722141516 ] ] } }
 ]
 }

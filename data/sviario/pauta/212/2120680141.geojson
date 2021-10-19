@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2120680141", "cod": 474, "nome": "R.João José Dias", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.671958836691608, -26.884385848536358 ], [ -48.671694100180638, -26.884646219562356 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2120680141", "cod": 474.0, "nome": "R.João José Dias", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.671958836691608, -26.884385848536358 ], [ -48.671694100180638, -26.884646219562352 ] ] } }
 ]
 }

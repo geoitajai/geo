@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2210420150", "cod": 585, "nome": "R.Ernesto Polydorio Ferreira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.686449514008693, -26.918700719353314 ], [ -48.686109108160821, -26.918726948410438 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2210420150", "cod": 585.0, "nome": "R.Ernesto Polydorio Ferreira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.686449514008693, -26.918700719353314 ], [ -48.686109108160821, -26.918726948410438 ] ] } }
 ]
 }

@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0031760015", "cod": 1146, "nome": "R.Armando de Amorim", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696042879514295, -26.894744213050565 ], [ -48.69606353, -26.89507848 ], [ -48.696067030675032, -26.895133449826716 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0031760015", "cod": 1151, "nome": "R.Maranhão", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69606353, -26.89507848 ], [ -48.696002111867372, -26.895082267577408 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0031760015", "cod": 1151, "nome": "R.Maranhão", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696399500421599, -26.895064806998878 ], [ -48.69606353, -26.89507848 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0031760015", "cod": 1146.0, "nome": "R.Armando de Amorim", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696042879514295, -26.894744213050561 ], [ -48.69606353, -26.89507848 ], [ -48.696067030675032, -26.895133449826716 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031760015", "cod": 1151.0, "nome": "R.Maranhão", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69606353, -26.89507848 ], [ -48.696002111867372, -26.895082267577408 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031760015", "cod": 1151.0, "nome": "R.Maranhão", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696399500421599, -26.895064806998882 ], [ -48.69606353, -26.89507848 ] ] } }
 ]
 }

@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2120120001", "cod": 161, "nome": "Av.Irineu Bornhausen", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676816029716441, -26.894791565451591 ], [ -48.676530511091492, -26.895080429046899 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2120120001", "cod": 167, "nome": "R.Emílio Francisco Rosa", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676951286469063, -26.89526395318196 ], [ -48.67668745, -26.895269 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2120120001", "cod": 167, "nome": "R.Emílio Francisco Rosa", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67668745, -26.895269 ], [ -48.676544921152967, -26.895271724909236 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2120120001", "cod": 161.0, "nome": "Av.Irineu Bornhausen", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676816029716441, -26.894791565451595 ], [ -48.676530511091485, -26.895080429046899 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2120120001", "cod": 167.0, "nome": "R.Emílio Francisco Rosa", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676951286469063, -26.895263953181964 ], [ -48.67668745, -26.895269 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2120120001", "cod": 167.0, "nome": "R.Emílio Francisco Rosa", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67668745, -26.895269 ], [ -48.676544921152967, -26.895271724909239 ] ] } }
 ]
 }

@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0030820005", "cod": 1196, "nome": "Av.Guanabara", "ptotalvia": 18.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697376060751942, -26.890868399199615 ], [ -48.69739868, -26.89124385 ], [ -48.697400984039568, -26.89129899107478 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0030820005", "cod": 1199, "nome": "R.Sergipe", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697719804461833, -26.891235486891198 ], [ -48.69739868, -26.89124385 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0030820005", "cod": 1196.0, "nome": "Av.Guanabara", "ptotalvia": 18.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697376060751942, -26.890868399199626 ], [ -48.69739868, -26.89124385 ], [ -48.697400984039568, -26.89129899107478 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0030820005", "cod": 1199.0, "nome": "R.Sergipe", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697719804461833, -26.891235486891198 ], [ -48.69739868, -26.89124385 ] ] } }
 ]
 }

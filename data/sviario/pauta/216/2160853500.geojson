@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2160853500", "cod": 1541, "nome": "R.Eduardo Vicente de Mello", "ptotalvia": 25.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.727980555447196, -27.004777370032766 ], [ -48.7280649, -27.00479039 ], [ -48.72837041, -27.00494834 ], [ -48.72877894, -27.00517965 ], [ -48.728911822815164, -27.005235376857385 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2160853500", "cod": 1715, "nome": "R.Sem denominação oficial", "ptotalvia": 10.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.72803497, -27.00478579 ], [ -48.729739872426357, -27.00262279254467 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2160853500", "cod": 1541.0, "nome": "R.Eduardo Vicente de Mello", "ptotalvia": 25.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.727980555447196, -27.004777370032762 ], [ -48.7280649, -27.00479039 ], [ -48.72837041, -27.00494834 ], [ -48.72877894, -27.00517965 ], [ -48.728911822815164, -27.005235376857385 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2160853500", "cod": 1715.0, "nome": "R.Sem denominação oficial", "ptotalvia": 10.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.72803497, -27.00478579 ], [ -48.729739872426357, -27.002622792544674 ] ] } }
 ]
 }

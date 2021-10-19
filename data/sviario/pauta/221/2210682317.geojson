@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2210682317", "cod": 498, "nome": "R.Willy Henning", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677199972385132, -26.913873045734302 ], [ -48.67724899, -26.91387054 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2210682317", "cod": 227, "nome": "R.Indaial", "ptotalvia": 17.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67725018482313, -26.913826377120042 ], [ -48.677235174232287, -26.914204836267331 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2210682317", "cod": 498.0, "nome": "R.Willy Henning", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677199972385132, -26.913873045734306 ], [ -48.67724899, -26.91387054 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210682317", "cod": 227.0, "nome": "R.Indaial", "ptotalvia": 17.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67725018482313, -26.913826377120039 ], [ -48.677235174232287, -26.914204836267334 ] ] } }
 ]
 }

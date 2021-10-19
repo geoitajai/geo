@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2150820200", "cod": 1663, "nome": "R.Egídia dos Santos Evaristo", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.760385673209932, -26.886675465838405 ], [ -48.76047503, -26.88666914 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2150820200", "cod": 1663.0, "nome": "R.Egídia dos Santos Evaristo", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.760385673209932, -26.886675465838405 ], [ -48.76047503, -26.88666914 ] ] } }
 ]
 }

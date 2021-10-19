@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2041342100", "cod": 855, "nome": "R.Adolfo Cugnier", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67716131, -26.92758189 ], [ -48.677078296853693, -26.927569104785132 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2041342100", "cod": 865, "nome": "R.José Cugnier", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677331874262471, -26.927012465155908 ], [ -48.67716131, -26.92758189 ], [ -48.67698722, -26.92813433 ], [ -48.67701182, -26.92833169 ], [ -48.67710529, -26.92858169 ], [ -48.677301279233106, -26.928935530402295 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2041342100", "cod": 866, "nome": "R.Valdevino Vieira Cordeiro", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677279651546215, -26.928936131443255 ], [ -48.677239195065987, -26.928934671656602 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2041342100", "cod": 855.0, "nome": "R.Adolfo Cugnier", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67716131, -26.92758189 ], [ -48.677078296853693, -26.927569104785132 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2041342100", "cod": 865.0, "nome": "R.José Cugnier", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677331874262471, -26.927012465155908 ], [ -48.67716131, -26.92758189 ], [ -48.67698722, -26.928134329999988 ], [ -48.67701182, -26.92833169 ], [ -48.67710529, -26.92858169 ], [ -48.677301279233106, -26.928935530402295 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2041342100", "cod": 866.0, "nome": "R.Valdevino Vieira Cordeiro", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677279651546215, -26.928936131443255 ], [ -48.677239195065987, -26.928934671656602 ] ] } }
 ]
 }

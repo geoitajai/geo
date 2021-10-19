@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110450550", "cod": 329, "nome": "R.Maria Isaura da Silva Muller", "ptotalvia": 4.5, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.669114527710605, -26.911289551692125 ], [ -48.66911671, -26.91142012 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2110450550", "cod": 329.0, "nome": "R.Maria Isaura da Silva Muller", "ptotalvia": 4.5, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.669114527710605, -26.911289551692125 ], [ -48.66911671, -26.91142012 ] ] } }
 ]
 }

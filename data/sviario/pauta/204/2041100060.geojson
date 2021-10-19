@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2041100060", "cod": 882, "nome": "R.Otávio Müller", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.686139099035884, -26.931206665256344 ], [ -48.68607675, -26.93116461 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2041100060", "cod": 890, "nome": "R.Sol.Abelardo Mendonça Sobrinho", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.686091826456654, -26.930932141142783 ], [ -48.68607675, -26.93116461 ], [ -48.686070903718708, -26.93126408825503 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2041100060", "cod": 882.0, "nome": "R.Otávio Müller", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.686139099035884, -26.931206665256344 ], [ -48.68607675, -26.93116461 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2041100060", "cod": 890.0, "nome": "R.Sol.Abelardo Mendonça Sobrinho", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.686091826456654, -26.930932141142787 ], [ -48.68607675, -26.93116461 ], [ -48.686070903718708, -26.93126408825503 ] ] } }
 ]
 }

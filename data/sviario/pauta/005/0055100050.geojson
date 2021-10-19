@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0055100050", "cod": 142, "nome": "R.Hygina de Andrade Corrêa", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.708200654811243, -26.910352267504386 ], [ -48.707839501463951, -26.910365951441172 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0055100050", "cod": 142.0, "nome": "R.Hygina de Andrade Corrêa", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.708200654811243, -26.910352267504383 ], [ -48.707839501463951, -26.910365951441168 ] ] } }
 ]
 }

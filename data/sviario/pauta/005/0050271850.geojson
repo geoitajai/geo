@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050271850", "cod": 9, "nome": "R.Rui Barbosa", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693068737606623, -26.904725908788173 ], [ -48.692691627655947, -26.904738637612919 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0050271850", "cod": 9.0, "nome": "R.Rui Barbosa", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693068737606623, -26.904725908788173 ], [ -48.692691627655947, -26.904738637612915 ] ] } }
 ]
 }

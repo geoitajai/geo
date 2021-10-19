@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0054270190", "cod": 130, "nome": "Av.Nilo Bittencourt", "ptotalvia": 20.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.704992448937894, -26.907079283758641 ], [ -48.70499467, -26.90713476 ], [ -48.705011043110368, -26.907415812677424 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0054270190", "cod": 136, "nome": "R.Bernardino Leonel Félix", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.705413374118308, -26.907117953840459 ], [ -48.70499467, -26.90713476 ], [ -48.704962977920999, -26.907136122963124 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0054270190", "cod": 130.0, "nome": "Av.Nilo Bittencourt", "ptotalvia": 20.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.704992448937894, -26.907079283758645 ], [ -48.70499467, -26.90713476 ], [ -48.705011043110368, -26.907415812677424 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054270190", "cod": 136.0, "nome": "R.Bernardino Leonel Félix", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.705413374118301, -26.907117953840459 ], [ -48.70499467, -26.90713476 ], [ -48.704962977920999, -26.907136122963124 ] ] } }
 ]
 }

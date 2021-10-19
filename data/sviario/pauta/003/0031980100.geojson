@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0031980100", "cod": 1179, "nome": "R.Aracajú", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.701361574175671, -26.899898176228231 ], [ -48.700989018472583, -26.899917251957547 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0031980100", "cod": 1179.0, "nome": "R.Aracajú", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.701361574175671, -26.899898176228227 ], [ -48.700989018472583, -26.89991725195755 ] ] } }
 ]
 }

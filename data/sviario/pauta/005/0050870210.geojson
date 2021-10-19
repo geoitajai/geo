@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050870210", "cod": 112, "nome": "R.Ibirama", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695780687698367, -26.905712989598229 ], [ -48.695414076689893, -26.905737848417253 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0050870210", "cod": 112.0, "nome": "R.Ibirama", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695780687698367, -26.905712989598229 ], [ -48.695414076689893, -26.905737848417253 ] ] } }
 ]
 }

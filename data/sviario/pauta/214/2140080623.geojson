@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140080623", "cod": 666, "nome": "R.Antônio Rocha D´Andrade", "ptotalvia": 12.8, "ppasseio1": 2.3, "ppasseio2": 2.3 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.647956390085042, -26.922471366565539 ], [ -48.647715812973402, -26.922188723880822 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2140080623", "cod": 666.0, "nome": "R.Antônio Rocha D´Andrade", "ptotalvia": 12.8, "ppasseio1": 2.3, "ppasseio2": 2.3 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.647956390085042, -26.922471366565539 ], [ -48.647715812973402, -26.922188723880822 ] ] } }
 ]
 }

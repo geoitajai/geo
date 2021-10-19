@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2161301500", "cod": 1500, "nome": "R.Marcos Antônio da Cunha", "ptotalvia": 20.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.778170395029456, -26.971216787254523 ], [ -48.77817823, -26.97131778 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2161301500", "cod": 1429, "nome": "R.Ver.Germano Luiz Vieira", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.778292154811091, -26.971347068672586 ], [ -48.77817823, -26.97131778 ], [ -48.77689251, -26.97103131 ], [ -48.77614989, -26.9707399 ], [ -48.775399396426252, -26.970396552948202 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2161301500", "cod": 1500.0, "nome": "R.Marcos Antônio da Cunha", "ptotalvia": 20.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.778170395029456, -26.971216787254519 ], [ -48.77817823, -26.97131778 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2161301500", "cod": 1429.0, "nome": "R.Ver.Germano Luiz Vieira", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.778292154811091, -26.971347068672586 ], [ -48.77817823, -26.97131778 ], [ -48.77689251, -26.97103131 ], [ -48.77614989, -26.9707399 ], [ -48.775399396426252, -26.970396552948202 ] ] } }
 ]
 }

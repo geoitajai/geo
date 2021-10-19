@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2160440175", "cod": 1413, "nome": "Av.Itaipava", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.715300230404907, -26.940244608416016 ], [ -48.71486519, -26.94003607 ], [ -48.714674547945691, -26.939897091766753 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2160440175", "cod": 1413.0, "nome": "Av.Itaipava", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.715300230404907, -26.940244608416013 ], [ -48.71486519, -26.94003607 ], [ -48.714674547945691, -26.939897091766753 ] ] } }
 ]
 }

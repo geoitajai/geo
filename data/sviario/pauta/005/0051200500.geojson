@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0051200500", "cod": 164, "nome": "Av.Gov.Adolfo Konder", "ptotalvia": 30.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693437372763128, -26.91336932251707 ], [ -48.693789741642625, -26.913470284919445 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0051200500", "cod": 894, "nome": "R.Agílio Cunha", "ptotalvia": 15.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693317237117377, -26.913405529710303 ], [ -48.693403600000011, -26.91526914 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0051200500", "cod": 894, "nome": "R.Agílio Cunha", "ptotalvia": 15.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693403600000011, -26.91526914 ], [ -48.693409974439163, -26.915406642424809 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0051200500", "cod": 164.0, "nome": "Av.Gov.Adolfo Konder", "ptotalvia": 30.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693437372763128, -26.91336932251707 ], [ -48.69378974164264, -26.913470284919445 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0051200500", "cod": 894.0, "nome": "R.Agílio Cunha", "ptotalvia": 15.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693317237117377, -26.9134055297103 ], [ -48.693403600000011, -26.91526914 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0051200500", "cod": 894.0, "nome": "R.Agílio Cunha", "ptotalvia": 15.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693403600000011, -26.91526914 ], [ -48.693409974439163, -26.915406642424809 ] ] } }
 ]
 }

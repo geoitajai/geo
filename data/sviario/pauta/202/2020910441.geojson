@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020910441", "cod": 254, "nome": "R.Vicente Meirinho", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68238108479563, -26.907746601627721 ], [ -48.681957976933695, -26.907759960370775 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2020910441", "cod": 254.0, "nome": "R.Vicente Meirinho", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68238108479563, -26.907746601627721 ], [ -48.681957976933695, -26.907759960370779 ] ] } }
 ]
 }

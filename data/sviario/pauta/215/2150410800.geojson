@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2150410800", "cod": 1402, "nome": "R.Domingos Rampelotti", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.71970652043759, -26.902172717360049 ], [ -48.71959904, -26.90210465 ], [ -48.719172446292042, -26.901753485688701 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2150410800", "cod": 1407, "nome": "R.Vicente Cândido Pereira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.719167285884986, -26.901755669657224 ], [ -48.719204081916573, -26.902882240027353 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2150410800", "cod": 1402.0, "nome": "R.Domingos Rampelotti", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.71970652043759, -26.902172717360049 ], [ -48.71959904, -26.90210465 ], [ -48.719172446292042, -26.901753485688701 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2150410800", "cod": 1407.0, "nome": "R.Vicente Cândido Pereira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.719167285884986, -26.901755669657224 ], [ -48.719204081916573, -26.902882240027353 ] ] } }
 ]
 }

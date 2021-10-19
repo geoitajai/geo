@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2210510301", "cod": 545, "nome": "R.José Gall", "ptotalvia": 15.6, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.683652111901466, -26.926919326364438 ], [ -48.68361225, -26.92682021 ], [ -48.683413848694869, -26.926243388870564 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2210510301", "cod": 843, "nome": "R.Paulo Hoier", "ptotalvia": 8.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.683692395250198, -26.926814169066972 ], [ -48.68361225, -26.92682021 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2210510301", "cod": 545.0, "nome": "R.José Gall", "ptotalvia": 15.6, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.683652111901466, -26.926919326364438 ], [ -48.68361225, -26.92682021 ], [ -48.683413848694869, -26.92624338887056 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210510301", "cod": 843.0, "nome": "R.Paulo Hoier", "ptotalvia": 8.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.683692395250198, -26.926814169066972 ], [ -48.68361225, -26.92682021 ] ] } }
 ]
 }

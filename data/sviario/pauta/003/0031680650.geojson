@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0031680650", "cod": 1140, "nome": "R.Profª.Yolanda Pinto Cabral", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695758203880786, -26.885352037921148 ], [ -48.695775139056835, -26.88568343361834 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0031680650", "cod": 1140.0, "nome": "R.Profª.Yolanda Pinto Cabral", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695758203880786, -26.885352037921148 ], [ -48.695775139056835, -26.88568343361834 ] ] } }
 ]
 }

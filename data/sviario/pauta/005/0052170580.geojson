@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0052170580", "cod": 35, "nome": "R.Sombrio", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.701298206132179, -26.901850971176568 ], [ -48.701317990516728, -26.902188175398432 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0052170580", "cod": 35.0, "nome": "R.Sombrio", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.701298206132179, -26.901850971176565 ], [ -48.701317990516728, -26.902188175398432 ] ] } }
 ]
 }

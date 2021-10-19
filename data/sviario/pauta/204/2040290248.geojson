@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040290248", "cod": 625, "nome": "R.Manoel Dono Morgado", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.655092781621399, -26.911472139754157 ], [ -48.655457225228666, -26.911602289596235 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040290248", "cod": 264, "nome": "Av.Joca Brandão", "ptotalvia": 26.4, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.655464309105248, -26.9109227182682 ], [ -48.655614830305908, -26.910976960289709 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2040290248", "cod": 625.0, "nome": "R.Manoel Dono Morgado", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.655092781621399, -26.911472139754157 ], [ -48.655457225228666, -26.911602289596235 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040290248", "cod": 264.0, "nome": "Av.Joca Brandão", "ptotalvia": 26.4, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.655464309105248, -26.910922718268196 ], [ -48.655614830305908, -26.910976960289705 ] ] } }
 ]
 }

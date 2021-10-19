@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2120490265", "cod": 450, "nome": "R.Avelino Werner", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.671172660454531, -26.888040963643178 ], [ -48.67111033, -26.88799914 ], [ -48.670843262152694, -26.88782067947264 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2120490265", "cod": 456, "nome": "Trav.Cambé", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.671153774035254, -26.887942632551493 ], [ -48.67111033, -26.88799914 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2120490265", "cod": 450.0, "nome": "R.Avelino Werner", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.671172660454531, -26.888040963643174 ], [ -48.67111033, -26.88799914 ], [ -48.670843262152694, -26.88782067947264 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2120490265", "cod": 456.0, "nome": "Trav.Cambé", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.671153774035254, -26.887942632551496 ], [ -48.67111033, -26.88799914 ] ] } }
 ]
 }

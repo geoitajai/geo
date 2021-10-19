@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040450498", "cod": 619, "nome": "Serv.Joanico", "ptotalvia": 4.8, "ppasseio1": 0.65, "ppasseio2": 0.65 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65576242, -26.91729603 ], [ -48.655986767281171, -26.917479477104145 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040450498", "cod": 632, "nome": "R.Arnaldo José de Oliveira", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.655887038062779, -26.916978454546296 ], [ -48.655755365635024, -26.917316125303174 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2040450498", "cod": 619.0, "nome": "Serv.Joanico", "ptotalvia": 4.8, "ppasseio1": 0.65, "ppasseio2": 0.65 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65576242, -26.91729603 ], [ -48.655986767281171, -26.917479477104145 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040450498", "cod": 632.0, "nome": "R.Arnaldo José de Oliveira", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.655887038062779, -26.916978454546292 ], [ -48.655755365635024, -26.917316125303174 ] ] } }
 ]
 }

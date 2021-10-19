@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0030280465", "cod": 1114, "nome": "R.São Cristóvão", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692994837289483, -26.888957263502547 ], [ -48.69301707, -26.88932321 ], [ -48.693020180826082, -26.88938516258305 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0030280465", "cod": 1132, "nome": "R.Anibal Pereira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69301707, -26.88932321 ], [ -48.692730920303006, -26.889339934865998 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0030280465", "cod": 1114.0, "nome": "R.São Cristóvão", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692994837289483, -26.888957263502547 ], [ -48.69301707, -26.88932321 ], [ -48.693020180826082, -26.889385162583046 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0030280465", "cod": 1132.0, "nome": "R.Anibal Pereira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69301707, -26.88932321 ], [ -48.692730920303006, -26.889339934866001 ] ] } }
 ]
 }

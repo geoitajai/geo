@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020860387", "cod": 232, "nome": "R.Hidelbrando José da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.681417018034814, -26.904938847225065 ], [ -48.681038223838655, -26.904954788349613 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2020860387", "cod": 232.0, "nome": "R.Hidelbrando José da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.681417018034814, -26.904938847225065 ], [ -48.681038223838655, -26.90495478834961 ] ] } }
 ]
 }

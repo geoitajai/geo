@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0055150070", "cod": 135, "nome": "R.José Pezzini", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.708541233234328, -26.912474979361541 ], [ -48.70856142, -26.9127858 ], [ -48.708564375665716, -26.91283556638772 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0055150070", "cod": 147, "nome": "R.Maurina Corrêa Vailatte", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70862178700564, -26.912782378678358 ], [ -48.70856142, -26.9127858 ], [ -48.708175326484408, -26.912800380858666 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0055150070", "cod": 135.0, "nome": "R.José Pezzini", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.708541233234328, -26.912474979361537 ], [ -48.70856142, -26.9127858 ], [ -48.708564375665716, -26.912835566387717 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0055150070", "cod": 147.0, "nome": "R.Maurina Corrêa Vailatte", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70862178700564, -26.912782378678358 ], [ -48.70856142, -26.9127858 ], [ -48.708175326484408, -26.912800380858663 ] ] } }
 ]
 }

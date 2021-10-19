@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0031410270", "cod": 1170, "nome": "R.Ver.Nestor dos Santos", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.704804479902961, -26.892763540459782 ], [ -48.704825400533302, -26.893131566178337 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0031410270", "cod": 1203, "nome": "R.Osvaldo Cruz", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.704880788946156, -26.893081853151465 ], [ -48.70482204, -26.89308312 ], [ -48.704410891114065, -26.893095598045981 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0031410270", "cod": 1170.0, "nome": "R.Ver.Nestor dos Santos", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.704804481911395, -26.892763575791303 ], [ -48.704824850927686, -26.893121897788973 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031410270", "cod": 1203.0, "nome": "R.Osvaldo Cruz", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.704877599621511, -26.893081921925948 ], [ -48.70482204, -26.89308312 ], [ -48.704421608525237, -26.893095272796248 ] ] } }
 ]
 }

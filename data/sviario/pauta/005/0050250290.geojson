@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050250290", "cod": 19, "nome": "R.Alfredo Kleis", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.689844051334092, -26.902773622812099 ], [ -48.689477314492777, -26.902783491488428 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0050250290", "cod": 19.0, "nome": "R.Alfredo Kleis", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.689844051334092, -26.902773622812095 ], [ -48.689477314492777, -26.902783491488428 ] ] } }
 ]
 }

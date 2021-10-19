@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040090135", "cod": 670, "nome": "R.Gumercindo Rocha", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65005777236042, -26.923500901564527 ], [ -48.649642432983796, -26.923356537445144 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2040090135", "cod": 670.0, "nome": "R.Gumercindo Rocha", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65005777236042, -26.923500901564523 ], [ -48.649642432983796, -26.923356537445144 ] ] } }
 ]
 }

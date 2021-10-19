@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050210160", "cod": 22, "nome": "R.Jaci Ramos", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.690658128120234, -26.901149861671634 ], [ -48.69059118, -26.90115091 ], [ -48.690168574265442, -26.901160963473519 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0050210160", "cod": 51, "nome": "R.Otávio Cesário Pereira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69059377, -26.90119401 ], [ -48.690594879303191, -26.901212508771447 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0050210160", "cod": 51, "nome": "R.Otávio Cesário Pereira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6905890549099, -26.900895020666436 ], [ -48.69059118, -26.90115091 ], [ -48.69059377, -26.90119401 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0050210160", "cod": 22.0, "nome": "R.Jaci Ramos", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.690658128120234, -26.901149861671634 ], [ -48.69059118, -26.90115091 ], [ -48.690168574265442, -26.901160963473519 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050210160", "cod": 51.0, "nome": "R.Otávio Cesário Pereira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69059377, -26.90119401 ], [ -48.690594879303191, -26.901212508771447 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050210160", "cod": 51.0, "nome": "R.Otávio Cesário Pereira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6905890549099, -26.900895020666436 ], [ -48.69059118, -26.90115091 ], [ -48.69059377, -26.90119401 ] ] } }
 ]
 }

@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2150760010", "cod": 1351, "nome": "R.Pedro Reis", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.73570068211783, -26.87900021087102 ], [ -48.735734216812219, -26.87935769683035 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2150760010", "cod": 1358, "nome": "Av.Marcos Luís Cabral", "ptotalvia": 26.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.73596081, -26.87934046 ], [ -48.735742229785522, -26.879360004834375 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2150760010", "cod": 1351.0, "nome": "R.Pedro Reis", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.73570068211783, -26.87900021087102 ], [ -48.735734216812219, -26.87935769683035 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2150760010", "cod": 1358.0, "nome": "Av.Marcos Luís Cabral", "ptotalvia": 26.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.73596081, -26.87934046 ], [ -48.735742229785522, -26.879360004834375 ] ] } }
 ]
 }

@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010900674", "cod": 360, "nome": "R.Treze de Maio", "ptotalvia": 13.6, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.662916313436327, -26.909797261956129 ], [ -48.663266437654755, -26.910059952708437 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2010900674", "cod": 360.0, "nome": "R.Treze de Maio", "ptotalvia": 13.6, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.662916313436327, -26.909797261956133 ], [ -48.663266437654755, -26.910059952708437 ] ] } }
 ]
 }

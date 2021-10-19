@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0031910150", "cod": 1216, "nome": "R.Rondônia", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.699997454297673, -26.896945110540148 ], [ -48.6996608, -26.89696239 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0031910150", "cod": 1216, "nome": "R.Rondônia", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -48.6996608, -26.89696239 ], [ -48.699633437828034, -26.896963800804187 ] ], [ [ -48.69963105859437, -26.896969972830188 ], [ -48.69962376, -26.89713925 ], [ -48.699618855816986, -26.897139393757513 ] ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0031910150", "cod": 1216.0, "nome": "R.Rondônia", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.699997454297673, -26.896945110540148 ], [ -48.6996608, -26.89696239 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031910150", "cod": 1216.0, "nome": "R.Rondônia", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -48.6996608, -26.89696239 ], [ -48.699633437828034, -26.896963800804187 ] ], [ [ -48.69963105859437, -26.896969972830185 ], [ -48.69962376, -26.89713925 ], [ -48.699618855816986, -26.897139393757517 ] ] ] } }
 ]
 }

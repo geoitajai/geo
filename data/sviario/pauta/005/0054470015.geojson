@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0054470015", "cod": 1013, "nome": "R.Alcides Esperidião Pereira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698060710738915, -26.929081004777562 ], [ -48.697894263064363, -26.929241668024332 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0054470015", "cod": 1017, "nome": "R.Francisco Delvan", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697870269352819, -26.929298491991389 ], [ -48.698115719404385, -26.929498544474836 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0054470015", "cod": 1013.0, "nome": "R.Alcides Esperidião Pereira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698060710738915, -26.929081004777565 ], [ -48.697894263064363, -26.929241668024336 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054470015", "cod": 1017.0, "nome": "R.Francisco Delvan", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697870269352819, -26.929298491991389 ], [ -48.698115719404377, -26.929498544474836 ] ] } }
 ]
 }

@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2030160042", "cod": 1093, "nome": "R.César Stamm", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69809490565482, -26.883574809014746 ], [ -48.698106898708154, -26.88391349853336 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2030160042", "cod": 1093.0, "nome": "R.César Stamm", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69809490565482, -26.883574809014743 ], [ -48.698106898708154, -26.88391349853336 ] ] } }
 ]
 }

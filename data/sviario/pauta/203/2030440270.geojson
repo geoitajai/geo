@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2030440270", "cod": 1026, "nome": "R.Acylino José Felicio", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700532103065775, -26.867700898089566 ], [ -48.700549529704212, -26.868063106010492 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2030440270", "cod": 1026.0, "nome": "R.Acylino José Felicio", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700532103065775, -26.867700898089566 ], [ -48.700549529704212, -26.868063106010492 ] ] } }
 ]
 }

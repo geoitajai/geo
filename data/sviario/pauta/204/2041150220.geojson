@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2041150220", "cod": 882, "nome": "R.Otávio Müller", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.686641692312385, -26.93154566905319 ], [ -48.686341611208107, -26.931343262026292 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2041150220", "cod": 882.0, "nome": "R.Otávio Müller", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.686641692312385, -26.93154566905319 ], [ -48.686341611208107, -26.931343262026292 ] ] } }
 ]
 }

@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020680286", "cod": 212, "nome": "R.José Pinto d'Amaral", "ptotalvia": 10.0, "ppasseio1": 1.7, "ppasseio2": 1.7 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.680934856128388, -26.902879030609888 ], [ -48.680850179782233, -26.903197002961857 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2020680286", "cod": 212.0, "nome": "R.José Pinto d'Amaral", "ptotalvia": 10.0, "ppasseio1": 1.7, "ppasseio2": 1.7 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.680934856128388, -26.902879030609888 ], [ -48.680850179782233, -26.903197002961857 ] ] } }
 ]
 }

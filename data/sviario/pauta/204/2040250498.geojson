@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040250498", "cod": 627, "nome": "Serv.Henrique Bernadino Maria de Borba", "ptotalvia": 6.2, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.655464584202178, -26.912752169747865 ], [ -48.655334577201764, -26.913091122035311 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2040250498", "cod": 627.0, "nome": "Serv.Henrique Bernadino Maria de Borba", "ptotalvia": 6.2, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.655464584202178, -26.912752169747865 ], [ -48.655334577201764, -26.913091122035311 ] ] } }
 ]
 }

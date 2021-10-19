@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0054370100", "cod": 130, "nome": "Av.Nilo Bittencourt", "ptotalvia": 20.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.704972420571714, -26.906627018392804 ], [ -48.70497701, -26.90669366 ], [ -48.704987464684017, -26.906954790310323 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0054370100", "cod": 134, "nome": "R.Acácio Pereira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.705010655773613, -26.906692217673655 ], [ -48.70497701, -26.90669366 ], [ -48.704545980467124, -26.906704168618035 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0054370100", "cod": 130.0, "nome": "Av.Nilo Bittencourt", "ptotalvia": 20.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.704972420571707, -26.906627018392804 ], [ -48.70497701, -26.90669366 ], [ -48.704987464684017, -26.906954790310323 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054370100", "cod": 134.0, "nome": "R.Acácio Pereira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.705010655773613, -26.906692217673658 ], [ -48.70497701, -26.90669366 ], [ -48.704545980467124, -26.906704168618038 ] ] } }
 ]
 }

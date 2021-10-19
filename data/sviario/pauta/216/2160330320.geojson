@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2160330320", "cod": 1472, "nome": "R.Doutel de Andrade", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.709635142694658, -26.943393269149414 ], [ -48.70963527, -26.94339721 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2160330320", "cod": 1474, "nome": "R.Arlindo Mafra", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.709980286677727, -26.94343587789168 ], [ -48.70963675, -26.9434432 ], [ -48.709581116290551, -26.943445461542925 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2160330320", "cod": 1472, "nome": "R.Doutel de Andrade", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70963527, -26.94339721 ], [ -48.70963675, -26.9434432 ], [ -48.709653136316042, -26.943855390996408 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2160330320", "cod": 1472.0, "nome": "R.Doutel de Andrade", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.709635142694658, -26.943393269149418 ], [ -48.70963527, -26.94339721 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2160330320", "cod": 1474.0, "nome": "R.Arlindo Mafra", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.709980286677727, -26.94343587789168 ], [ -48.70963675, -26.9434432 ], [ -48.709581116290551, -26.943445461542922 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2160330320", "cod": 1472.0, "nome": "R.Doutel de Andrade", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70963527, -26.94339721 ], [ -48.70963675, -26.9434432 ], [ -48.709653136316042, -26.943855390996408 ] ] } }
 ]
 }

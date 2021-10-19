@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2151860300", "cod": 1334, "nome": "Av.Domingos de Almeida", "ptotalvia": 26.0, "ppasseio1": 5.0, "ppasseio2": 5.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.744003538982241, -26.878760385141707 ], [ -48.744240478084436, -26.878739914077112 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2151860300", "cod": 1334.0, "nome": "Av.Domingos de Almeida", "ptotalvia": 26.0, "ppasseio1": 5.0, "ppasseio2": 5.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.744003538982241, -26.878760385141707 ], [ -48.744240478084436, -26.878739914077109 ] ] } }
 ]
 }

@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050120560", "cod": 110, "nome": "R.Orlando Wippel", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.686307539400424, -26.910086346646192 ], [ -48.686770956121329, -26.910074790178832 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0050120560", "cod": 110.0, "nome": "R.Orlando Wippel", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.686307539400424, -26.910086346646192 ], [ -48.686770956121322, -26.910074790178832 ] ] } }
 ]
 }

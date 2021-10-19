@@ -2,8 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0053170010", "cod": 948, "nome": "R.Oscar Martins da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69775237, -26.9209823 ], [ -48.697453184029989, -26.921086171523154 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0053170010", "cod": 948, "nome": "R.Oscar Martins da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69775237, -26.9209823 ], [ -48.697453184029989, -26.921086171523154 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0053170010", "cod": 957, "nome": "R.Emanoel José Rebello", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697715418046478, -26.920903068439969 ], [ -48.69775237, -26.9209823 ], [ -48.697856681889895, -26.921195532312929 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0053170010", "cod": 948.0, "nome": "R.Oscar Martins da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69775237, -26.9209823 ], [ -48.697453184029989, -26.921086171523154 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0053170010", "cod": 957.0, "nome": "R.Emanoel José Rebello", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697715418046478, -26.920903068439969 ], [ -48.69775237, -26.9209823 ], [ -48.697856681889895, -26.921195532312925 ] ] } }
 ]
 }

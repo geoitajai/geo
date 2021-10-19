@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2160412150", "cod": 1415, "nome": "R.Pedro Winter", "ptotalvia": 8.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -48.702468547575563, -26.934147344844316 ], [ -48.70245868, -26.93419952 ], [ -48.702493483231095, -26.934234001346287 ] ], [ [ -48.702423036982104, -26.93453281709467 ], [ -48.70236754, -26.93453989 ], [ -48.702012959825332, -26.934477301906405 ] ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2160412150", "cod": 1415.0, "nome": "R.Pedro Winter", "ptotalvia": 8.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -48.702468547575563, -26.934147344844316 ], [ -48.70245868, -26.93419952 ], [ -48.702493483231095, -26.93423400134629 ] ], [ [ -48.702423036982104, -26.934532817094674 ], [ -48.70236754, -26.93453989 ], [ -48.702012959825332, -26.934477301906401 ] ] ] } }
 ]
 }

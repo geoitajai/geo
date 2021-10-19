@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2030820020", "cod": 1269, "nome": "R.César Augusto Dalsóquio", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.722296854733742, -26.850841911095646 ], [ -48.722232990081835, -26.851035003205446 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2030820020", "cod": 1271, "nome": "R.João Vieira Ramos", "ptotalvia": 8.5, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.722644275607479, -26.851144214390828 ], [ -48.722255191716435, -26.851160750306661 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2030820020", "cod": 1269.0, "nome": "R.César Augusto Dalsóquio", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.722296854733742, -26.850841911095642 ], [ -48.722232990081835, -26.851035003205446 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2030820020", "cod": 1271.0, "nome": "R.João Vieira Ramos", "ptotalvia": 8.5, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.722644275607479, -26.851144214390828 ], [ -48.722255191716435, -26.851160750306661 ] ] } }
 ]
 }

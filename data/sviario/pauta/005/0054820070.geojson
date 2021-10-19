@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0054820070", "cod": 937, "nome": "R.Anatolio José da Silva", "ptotalvia": 9.2, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70388310153357, -26.921571647563805 ], [ -48.703648832171957, -26.921791464622885 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0054820070", "cod": 938, "nome": "R.Roberto Manoel Tomás", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.7036866, -26.9217601 ], [ -48.703630611244357, -26.921714468519642 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0054820070", "cod": 937.0, "nome": "R.Anatolio José da Silva", "ptotalvia": 9.2, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70388310153357, -26.921571647563809 ], [ -48.703648832171957, -26.921791464622885 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054820070", "cod": 938.0, "nome": "R.Roberto Manoel Tomás", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.7036866, -26.9217601 ], [ -48.703630611244364, -26.921714468519639 ] ] } }
 ]
 }

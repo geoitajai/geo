@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2151430010", "cod": 1311, "nome": "R.Marcos Aurélio Seára", "ptotalvia": 28.7, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.746053625383389, -26.881452391753918 ], [ -48.746070229759816, -26.881663643692505 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2151430010", "cod": 1340, "nome": "Av.José João Corrêa", "ptotalvia": 18.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.746473422033368, -26.881701159422644 ], [ -48.746104631359835, -26.8817253328471 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2151430010", "cod": 1311.0, "nome": "R.Marcos Aurélio Seára", "ptotalvia": 28.7, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.746053625383389, -26.881452391753914 ], [ -48.746070229759816, -26.881663643692502 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2151430010", "cod": 1340.0, "nome": "Av.José João Corrêa", "ptotalvia": 18.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.746473422033368, -26.881701159422644 ], [ -48.746104631359835, -26.881725332847097 ] ] } }
 ]
 }

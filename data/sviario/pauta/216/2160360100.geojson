@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2160360100", "cod": 1469, "nome": "R.Chrispim Evaristo", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.711856848116518, -26.944436269732751 ], [ -48.711869216302055, -26.944765632863842 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2160360100", "cod": 1469.0, "nome": "R.Chrispim Evaristo", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.711856848116518, -26.944436269732755 ], [ -48.711869216302055, -26.944765632863842 ] ] } }
 ]
 }

@@ -2,9 +2,9 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020961301", "cod": 240, "nome": "R.Joaquim José de Freitas", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67239218, -26.90578154 ], [ -48.67252834, -26.90576602 ], [ -48.672621099935341, -26.905763939309281 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020961301", "cod": 241, "nome": "R.Izaura Dalago", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67239044, -26.90578072 ], [ -48.672299471040994, -26.905782249158886 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020961301", "cod": 248, "nome": "R.Jaime Sebastião Cardoso", "ptotalvia": 6.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67252834, -26.90576602 ], [ -48.672567365641243, -26.905348027265941 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020961301", "cod": 223, "nome": "R.Benjamin Franklin Pereira", "ptotalvia": 15.2, "ppasseio1": 1.9, "ppasseio2": 1.9 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.672254073806002, -26.905629043870604 ], [ -48.67239044, -26.90578072 ], [ -48.672400949977373, -26.905841915391996 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2020961301", "cod": 240.0, "nome": "R.Joaquim José de Freitas", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67239218, -26.90578154 ], [ -48.67252834, -26.90576602 ], [ -48.672621099935341, -26.905763939309285 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020961301", "cod": 241.0, "nome": "R.Izaura Dalago", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67239044, -26.90578072 ], [ -48.672299471040994, -26.905782249158886 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020961301", "cod": 248.0, "nome": "R.Jaime Sebastião Cardoso", "ptotalvia": 6.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67252834, -26.90576602 ], [ -48.672567365641243, -26.905348027265941 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020961301", "cod": 223.0, "nome": "R.Benjamin Franklin Pereira", "ptotalvia": 15.2, "ppasseio1": 1.9, "ppasseio2": 1.9 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.672254073806002, -26.905629043870604 ], [ -48.67239044, -26.90578072 ], [ -48.672400949977373, -26.905841915391996 ] ] } }
 ]
 }

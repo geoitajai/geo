@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2152020020", "cod": 1602, "nome": "R.Euclides Alberto Melies", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.741820603126286, -26.867361607694097 ], [ -48.74182768, -26.86745567 ], [ -48.74205913, -26.86745084 ], [ -48.742086081707484, -26.867779014649322 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2152020020", "cod": 1605, "nome": "R.Rotariano João Esper dos Santos", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.742117584033302, -26.867446941796945 ], [ -48.74205913, -26.86745084 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2152020020", "cod": 1602.0, "nome": "R.Euclides Alberto Melies", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.741820603126286, -26.867361607694097 ], [ -48.74182768, -26.86745567 ], [ -48.74205913, -26.86745084 ], [ -48.742086081707484, -26.867779014649319 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2152020020", "cod": 1605.0, "nome": "R.Rotariano João Esper dos Santos", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.742117584033302, -26.867446941796945 ], [ -48.74205913, -26.86745084 ] ] } }
 ]
 }

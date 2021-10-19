@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010110054", "cod": 293, "nome": "R.Dr.José Bonifácio Malburg", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.657878463494498, -26.904142872329995 ], [ -48.657589033216738, -26.903972145660465 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2010110054", "cod": 293.0, "nome": "R.Dr.José Bonifácio Malburg", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.657878463494498, -26.904142872329999 ], [ -48.657589033216738, -26.903972145660461 ] ] } }
 ]
 }

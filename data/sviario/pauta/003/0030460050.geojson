@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0030460050", "cod": 1143, "nome": "R.Mário Reis", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695110140631058, -26.891432315380914 ], [ -48.69511248, -26.89149266 ], [ -48.69512991608719, -26.891774468230757 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0030460050", "cod": 1155, "nome": "Trav.Ônix", "ptotalvia": 7.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69511248, -26.89149266 ], [ -48.695049462418439, -26.89149356331118 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0030460050", "cod": 1143.0, "nome": "R.Mário Reis", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695110140631058, -26.891432315380914 ], [ -48.69511248, -26.89149266 ], [ -48.69512991608719, -26.891774468230761 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0030460050", "cod": 1155.0, "nome": "Trav.Ônix", "ptotalvia": 7.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69511248, -26.89149266 ], [ -48.695049462418439, -26.89149356331118 ] ] } }
 ]
 }

@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2031390290", "cod": 1062, "nome": "R.Alberto Buchele", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700477126957274, -26.875941356608472 ], [ -48.700496654356115, -26.876271216828734 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2031390290", "cod": 1062.0, "nome": "R.Alberto Buchele", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700477126957274, -26.875941356608472 ], [ -48.700496654356115, -26.876271216828734 ] ] } }
 ]
 }

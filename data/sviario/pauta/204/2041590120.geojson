@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2041590120", "cod": 705, "nome": "R.João Cunha", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.650972933180768, -26.928681575537304 ], [ -48.65111029, -26.92906175 ], [ -48.651129668817759, -26.929118161047811 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2041590120", "cod": 698, "nome": "R.Iolanda Ardigó", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.651185401752244, -26.929008757667177 ], [ -48.65111029, -26.92906175 ], [ -48.650811505168683, -26.929111395278508 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2041590120", "cod": 705.0, "nome": "R.João Cunha", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.650972933180768, -26.928681575537304 ], [ -48.65111029, -26.92906175 ], [ -48.651129668817759, -26.929118161047811 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2041590120", "cod": 698.0, "nome": "R.Iolanda Ardigó", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.651185401752244, -26.929008757667177 ], [ -48.65111029, -26.92906175 ], [ -48.650811505168683, -26.9291113952785 ] ] } }
 ]
 }

@@ -2,6 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0053980060", "cod": 963, "nome": "R.Arnaldo Lopes", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692458333288215, -26.928408113144698 ], [ -48.692646044328377, -26.92868390578116 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0053980060", "cod": 963.0, "nome": "R.Arnaldo Lopes", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692458333288215, -26.928408113144698 ], [ -48.692646044328377, -26.928683905781156 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0053980060", "cod": 963.0, "nome": "R.Arnaldo Lopes", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692458333288215, -26.928408113144698 ], [ -48.692646044328377, -26.928683905781156 ] ] } }
 ]
 }

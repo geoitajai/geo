@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040600195", "cod": 698, "nome": "R.Iolanda Ardigó", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.652724555533979, -26.927571275123441 ], [ -48.652473253135753, -26.927798855539439 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2040600195", "cod": 698.0, "nome": "R.Iolanda Ardigó", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.652724555533979, -26.927571275123441 ], [ -48.652473253135753, -26.927798855539439 ] ] } }
 ]
 }

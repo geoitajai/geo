@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110230127", "cod": 496, "nome": "R.Matias Klock", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675310273088037, -26.913107793723661 ], [ -48.67485786037183, -26.913097201705622 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2110230127", "cod": 496.0, "nome": "R.Matias Klock", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675310273088037, -26.913107793723665 ], [ -48.67485786037183, -26.913097201705622 ] ] } }
 ]
 }

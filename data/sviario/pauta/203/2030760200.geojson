@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2030760200", "cod": 1175, "nome": "Av.Marginal Leste", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.729322448815637, -26.864597285181517 ], [ -48.72903791, -26.86388655 ], [ -48.728987863340983, -26.863743007775216 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2030760200", "cod": 1269, "nome": "R.César Augusto Dalsóquio", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.728456279829302, -26.863794702588542 ], [ -48.72874553, -26.86454115 ], [ -48.728777449885591, -26.864707624488798 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2030760200", "cod": 1175.0, "nome": "Av.Marginal Leste", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.729322448815637, -26.864597285181521 ], [ -48.72903791, -26.86388655 ], [ -48.728987863340983, -26.86374300777522 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2030760200", "cod": 1269.0, "nome": "R.César Augusto Dalsóquio", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.728456279829302, -26.863794702588542 ], [ -48.72874553, -26.86454115 ], [ -48.728777449885591, -26.864707624488801 ] ] } }
 ]
 }

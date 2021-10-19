@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2210380047", "cod": 578, "nome": "R.Imbituba", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677927701684403, -26.91833423614511 ], [ -48.677547246878717, -26.918346907239513 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2210380047", "cod": 578.0, "nome": "R.Imbituba", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677927701684403, -26.918334236145107 ], [ -48.677547246878717, -26.918346907239513 ] ] } }
 ]
 }

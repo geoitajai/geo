@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140950125", "cod": 1752, "nome": "R.4 \"Lot. Jardim Central\"", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.63158016077719, -26.946510091667815 ], [ -48.63154121, -26.94625992 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2140950125", "cod": 808, "nome": "R.Hildebrando Jorge da Silva", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.63188527563684, -26.9464235920262 ], [ -48.631514796787073, -26.946468280275337 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2140950125", "cod": 1752.0, "nome": "R.4 \"Lot. Jardim Central\"", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.63158016077719, -26.946510091667815 ], [ -48.63154121, -26.94625992 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140950125", "cod": 808.0, "nome": "R.Hildebrando Jorge Silva", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.63188527563684, -26.9464235920262 ], [ -48.631514796787073, -26.946468280275333 ] ] } }
 ]
 }

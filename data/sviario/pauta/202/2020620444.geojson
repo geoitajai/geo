@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020620444", "cod": 185, "nome": "R.Pedro Rangel", "ptotalvia": 12.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.678443399511288, -26.900860690896639 ], [ -48.67812462, -26.90086892 ], [ -48.678051707738014, -26.900872862054456 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020620444", "cod": 195, "nome": "R.Valdir Severino", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.678128594108038, -26.900800730473186 ], [ -48.67812462, -26.90086892 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020620444", "cod": 1751, "nome": "Serv.José Vieira", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67817722, -26.90086756 ], [ -48.678178413257335, -26.901175693479669 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2020620444", "cod": 185.0, "nome": "R.Pedro Rangel", "ptotalvia": 12.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.678443399511288, -26.900860690896639 ], [ -48.67812462, -26.90086892 ], [ -48.678051707738014, -26.900872862054456 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020620444", "cod": 195.0, "nome": "R.Valdir Severino", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.678128594108038, -26.90080073047319 ], [ -48.67812462, -26.90086892 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020620444", "cod": 1751.0, "nome": "Serv.José Vieira", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67817722, -26.90086756 ], [ -48.678178413257335, -26.901175693479669 ] ] } }
 ]
 }

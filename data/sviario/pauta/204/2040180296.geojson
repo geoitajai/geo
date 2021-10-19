@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040180296", "cod": 642, "nome": "R.João Luiz Medeiros", "ptotalvia": 6.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.653325610941337, -26.917904951375341 ], [ -48.65300975, -26.91767231 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040180296", "cod": 654, "nome": "R.Jorge Tzaschel", "ptotalvia": 13.4, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.653084171769002, -26.917614774876437 ], [ -48.65300975, -26.91767231 ], [ -48.652823933507619, -26.917823211059741 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2040180296", "cod": 642.0, "nome": "R.João Luiz Medeiros", "ptotalvia": 6.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.653325610941337, -26.917904951375345 ], [ -48.65300975, -26.91767231 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040180296", "cod": 654.0, "nome": "R.Jorge Tzaschel", "ptotalvia": 13.4, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.653084171769002, -26.917614774876437 ], [ -48.65300975, -26.91767231 ], [ -48.652823933507619, -26.917823211059737 ] ] } }
 ]
 }

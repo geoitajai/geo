@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2141582200", "cod": 800, "nome": "R.DonaNey Vianna Zaguini", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.633132808150293, -26.948408275762606 ], [ -48.63312704, -26.94836314 ], [ -48.63310231, -26.94806335 ], [ -48.633094208097219, -26.947995250213197 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2141582200", "cod": 802, "nome": "R.Verª.Marilda Ultramari Gau", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.63310231, -26.94806335 ], [ -48.633174833858419, -26.948036496836522 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2141582200", "cod": 801, "nome": "R.Walter Ferreira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.632700179944258, -26.948378148738069 ], [ -48.63312704, -26.94836314 ], [ -48.633194178624755, -26.948370932704229 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2141582200", "cod": 800.0, "nome": "R.DonaNey Vianna Zaguini", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.633132808150293, -26.948408275762606 ], [ -48.63312704, -26.94836314 ], [ -48.63310231, -26.94806335 ], [ -48.633094208097219, -26.9479952502132 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2141582200", "cod": 802.0, "nome": "R.Verª.Marilda Ultramari Gau", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.63310231, -26.94806335 ], [ -48.633174833858419, -26.948036496836522 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2141582200", "cod": 801.0, "nome": "R.Walter Ferreira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.632700179944258, -26.948378148738069 ], [ -48.63312704, -26.94836314 ], [ -48.633194178624755, -26.948370932704229 ] ] } }
 ]
 }

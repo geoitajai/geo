@@ -2,9 +2,9 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020150743", "cod": 163, "nome": "R.Alberto Werner", "ptotalvia": 13.2, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.668959477770102, -26.905020664115739 ], [ -48.66901093, -26.90556917 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020150743", "cod": 160, "nome": "R.Heitor Liberato", "ptotalvia": 15.5, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66901093, -26.90556917 ], [ -48.668938214251554, -26.9055470386315 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020150743", "cod": 160, "nome": "R.Heitor Liberato", "ptotalvia": 15.5, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66949165851419, -26.905724514062854 ], [ -48.66901093, -26.90556917 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020150743", "cod": 163, "nome": "R.Alberto Werner", "ptotalvia": 13.2, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66901093, -26.90556917 ], [ -48.669020020434409, -26.905640903864374 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2020150743", "cod": 163.0, "nome": "R.Alberto Werner", "ptotalvia": 13.2, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.668959477770102, -26.905020664115739 ], [ -48.66901093, -26.90556917 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020150743", "cod": 160.0, "nome": "R.Heitor Liberato", "ptotalvia": 15.5, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66901093, -26.90556917 ], [ -48.668938214251554, -26.9055470386315 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020150743", "cod": 160.0, "nome": "R.Heitor Liberato", "ptotalvia": 15.5, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66949165851419, -26.90572451406285 ], [ -48.66901093, -26.90556917 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020150743", "cod": 163.0, "nome": "R.Alberto Werner", "ptotalvia": 13.2, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66901093, -26.90556917 ], [ -48.669020020434409, -26.90564090386437 ] ] } }
 ]
 }

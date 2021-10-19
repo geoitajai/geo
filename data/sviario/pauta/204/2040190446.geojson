@@ -2,9 +2,9 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040190446", "cod": 641, "nome": "R.Profª.Maria Marly Pitz", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.653674442146588, -26.917685857511579 ], [ -48.65362161, -26.91774518 ], [ -48.653688155576141, -26.917794088028714 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040190446", "cod": 642, "nome": "R.João Luiz Medeiros", "ptotalvia": 6.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.653418294978898, -26.917973215738758 ], [ -48.653073113191212, -26.917718979082917 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040190446", "cod": 654, "nome": "R.Jorge Tzaschel", "ptotalvia": 13.4, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.653333800105152, -26.917421787622619 ], [ -48.653037041517912, -26.917651211066293 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040190446", "cod": 652, "nome": "Trav.Ver.José Palmeira Neto", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.653059320302546, -26.91755351402135 ], [ -48.65311333, -26.91759312 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2040190446", "cod": 641.0, "nome": "R.Profª.Maria Marly Pitz", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.653674442146588, -26.917685857511579 ], [ -48.65362161, -26.91774518 ], [ -48.653688155576141, -26.917794088028714 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040190446", "cod": 642.0, "nome": "R.João Luiz Medeiros", "ptotalvia": 6.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.653418294978913, -26.917973215738773 ], [ -48.653073113191212, -26.917718979082917 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040190446", "cod": 654.0, "nome": "R.Jorge Tzaschel", "ptotalvia": 13.4, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.653333800105152, -26.917421787622615 ], [ -48.653037041517912, -26.917651211066296 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040190446", "cod": 652.0, "nome": "Trav.Ver.José Palmeira Neto", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.653059320302546, -26.91755351402135 ], [ -48.65311333, -26.91759312 ] ] } }
 ]
 }

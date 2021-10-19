@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110510278", "cod": 265, "nome": "Av.Ver.Abrahão João Francisco", "ptotalvia": 29.4, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.667313786930244, -26.917390344682467 ], [ -48.66724168, -26.91734141 ], [ -48.667078230469123, -26.917227509434198 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110510278", "cod": 388, "nome": "Bc.Aldo", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66737690814881, -26.916910858529715 ], [ -48.6672361, -26.91701728 ], [ -48.667232974561237, -26.916972390608287 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110510278", "cod": 1545, "nome": "R.Lauro Coninck", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.667597858754732, -26.917113572785613 ], [ -48.66724168, -26.91734141 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2110510278", "cod": 265.0, "nome": "Av.Ver.Abrahão João Francisco", "ptotalvia": 29.4, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.667313786930244, -26.917390344682463 ], [ -48.66724168, -26.91734141 ], [ -48.667078230469123, -26.917227509434198 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110510278", "cod": 388.0, "nome": "Bc.Aldo", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66737690814881, -26.916910858529715 ], [ -48.6672361, -26.91701728 ], [ -48.667232974561237, -26.916972390608287 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110510278", "cod": 1545.0, "nome": "R.Lauro Coninck", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.667597858754732, -26.917113572785617 ], [ -48.66724168, -26.91734141 ] ] } }
 ]
 }

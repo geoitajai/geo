@@ -2,9 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2031800150", "cod": 1055, "nome": "R.Ver.Ver.Lourenço Caliri", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69301235, -26.8735085 ], [ -48.69117847, -26.87354335 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2031800150", "cod": 1547, "nome": "R.Sem denominação oficial", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69302401, -26.87411254 ], [ -48.69057047, -26.87414813 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2031800150", "cod": 1046, "nome": "R.Eugênio Pezzini", "ptotalvia": 13.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693010917939482, -26.873456604412961 ], [ -48.69301235, -26.8735085 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2031800150", "cod": 1046, "nome": "R.Eugênio Pezzini", "ptotalvia": 13.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69301235, -26.8735085 ], [ -48.69302401, -26.87411254 ], [ -48.693026081633334, -26.874160763662296 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2031800150", "cod": 1055.0, "nome": "R.Ver.Ver.Lourenço Caliri", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69301235, -26.8735085 ], [ -48.69117847, -26.87354335 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2031800150", "cod": 1046.0, "nome": "R.Eugênio Pezzini", "ptotalvia": 13.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693010697710278, -26.873448623659808 ], [ -48.69301235, -26.8735085 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2031800150", "cod": 1046.0, "nome": "R.Eugênio Pezzini", "ptotalvia": 13.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69301235, -26.8735085 ], [ -48.69302401, -26.87411254 ], [ -48.693028429563448, -26.87421541898108 ] ] } }
 ]
 }

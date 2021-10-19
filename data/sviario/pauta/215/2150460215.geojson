@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2150460215", "cod": 1569, "nome": "R.Luiz Gottardi", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.740286170696422, -26.899470042845017 ], [ -48.740314409889024, -26.899806654619002 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2150460215", "cod": 1569.0, "nome": "R.Luiz Gottardi", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.740286170696422, -26.899470042845017 ], [ -48.740314409889024, -26.899806654619006 ] ] } }
 ]
 }

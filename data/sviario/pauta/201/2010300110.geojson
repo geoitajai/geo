@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010300110", "cod": 278, "nome": "R.Joinville", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.658112132429409, -26.908340054903096 ], [ -48.657790275079066, -26.908248599280238 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2010300110", "cod": 278.0, "nome": "R.Joinville", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.658112132429409, -26.908340054903096 ], [ -48.657790275079066, -26.908248599280238 ] ] } }
 ]
 }

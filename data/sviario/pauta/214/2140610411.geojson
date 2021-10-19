@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140610411", "cod": 720, "nome": "Serv.Anastácio José Paulo", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.64340541554359, -26.927885439051231 ], [ -48.64301727, -26.92775414 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2140610411", "cod": 720.0, "nome": "Serv.Anastácio José Paulo", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.64340541554359, -26.927885439051234 ], [ -48.64301727, -26.92775414 ] ] } }
 ]
 }

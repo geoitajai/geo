@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0051320070", "cod": 907, "nome": "R.Dos Jasmins", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.689978866816048, -26.917230933217724 ], [ -48.68960765475385, -26.917250150053494 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0051320070", "cod": 907.0, "nome": "R.Dos Jasmins", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.689978866816048, -26.917230933217724 ], [ -48.68960765475385, -26.917250150053498 ] ] } }
 ]
 }

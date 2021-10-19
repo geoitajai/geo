@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2120180782", "cod": 158, "nome": "R.Albino Gugelmin", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.681006435350007, -26.893591846318447 ], [ -48.6807573, -26.89360197 ], [ -48.680621499236445, -26.893606440536892 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2120180782", "cod": 425, "nome": "R.João Maria da Veiga", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6807573, -26.89360197 ], [ -48.680755420166903, -26.8935090151735 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2120180782", "cod": 158.0, "nome": "R.Albino Gugelmin", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.681006435350007, -26.893591846318447 ], [ -48.6807573, -26.89360197 ], [ -48.680621499236445, -26.893606440536892 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2120180782", "cod": 425.0, "nome": "R.João Maria da Veiga", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6807573, -26.89360197 ], [ -48.680755420166903, -26.893509015173496 ] ] } }
 ]
 }

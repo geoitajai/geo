@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040571340", "cod": 715, "nome": "R.Emanuel Pereira de Campos", "ptotalvia": 13.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.649076330523194, -26.92589861547058 ], [ -48.64937496865798, -26.926157103691615 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2040571340", "cod": 715.0, "nome": "R.Emanuel Pereira de Campos", "ptotalvia": 13.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.649076330523194, -26.92589861547058 ], [ -48.64937496865798, -26.926157103691619 ] ] } }
 ]
 }

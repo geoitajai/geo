@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010320158", "cod": 369, "nome": "Serv.Hermínio José Ferreira Neto", "ptotalvia": 8.5, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65762029, -26.91076868 ], [ -48.65764726553293, -26.910790636310235 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010320158", "cod": 276, "nome": "Av.7 de Setembro", "ptotalvia": 18.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.657643847479385, -26.910711523871608 ], [ -48.65762029, -26.91076868 ], [ -48.657519641303161, -26.91100704770583 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2010320158", "cod": 369.0, "nome": "Serv.Hermínio José Ferreira Neto", "ptotalvia": 8.5, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65762029, -26.91076868 ], [ -48.65764726553293, -26.910790636310232 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010320158", "cod": 276.0, "nome": "Av.7 de Setembro", "ptotalvia": 18.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.657643847479385, -26.910711523871612 ], [ -48.65762029, -26.91076868 ], [ -48.657519641303161, -26.91100704770583 ] ] } }
 ]
 }

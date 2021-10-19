@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2161801100", "cod": 1237, "nome": "R.Edmundo Leopoldo Merizio", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.854498560070063, -27.03361312398394 ], [ -48.85485809, -27.03394091 ], [ -48.855273762901341, -27.034516826351624 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2161801100", "cod": 1237.0, "nome": "R.Edmundo Leopoldo Merizio", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.854498560070063, -27.03361312398394 ], [ -48.85485809, -27.03394091 ], [ -48.855273762901341, -27.034516826351624 ] ] } }
 ]
 }

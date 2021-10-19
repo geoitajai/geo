@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020961180", "cod": 249, "nome": "R.Germano Rozza", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67202161, -26.90537048 ], [ -48.671942650939478, -26.905386144206624 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020961180", "cod": 223, "nome": "R.Benjamin Franklin Pereira", "ptotalvia": 15.2, "ppasseio1": 1.9, "ppasseio2": 1.9 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.671763994498228, -26.905081191714686 ], [ -48.67202161, -26.90537048 ], [ -48.672141989595119, -26.905504375498317 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2020961180", "cod": 249.0, "nome": "R.Germano Rozza", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67202161, -26.90537048 ], [ -48.671942650939478, -26.905386144206624 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020961180", "cod": 223.0, "nome": "R.Benjamin Franklin Pereira", "ptotalvia": 15.2, "ppasseio1": 1.9, "ppasseio2": 1.9 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.671763994498228, -26.905081191714689 ], [ -48.67202161, -26.90537048 ], [ -48.672141989595119, -26.905504375498317 ] ] } }
 ]
 }

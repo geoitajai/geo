@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0031620600", "cod": 1111, "nome": "Av.Dr.Reinaldo Schmithausen", "ptotalvia": 27.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.716802005407722, -26.891228555697726 ], [ -48.71675771, -26.89123804 ], [ -48.71577261939828, -26.891441341716774 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0031620600", "cod": 1174, "nome": "R.Henrique Michels Júnior", "ptotalvia": 15.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.71675771, -26.89123804 ], [ -48.717602658843767, -26.892136913072747 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0031620600", "cod": 1361, "nome": "R.Onildo Reis", "ptotalvia": 13.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.716225260301698, -26.892171384132492 ], [ -48.71607535, -26.89181146 ], [ -48.715729913701914, -26.891567979922275 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0031620600", "cod": 1111.0, "nome": "Av.Dr.Reinaldo Schmithausen", "ptotalvia": 27.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.716802005407722, -26.891228555697726 ], [ -48.71675771, -26.89123804 ], [ -48.71577261939828, -26.891441341716774 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031620600", "cod": 1174.0, "nome": "R.Henrique Michels Júnior", "ptotalvia": 15.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.71675771, -26.89123804 ], [ -48.717602658843767, -26.892136913072743 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031620600", "cod": 1361.0, "nome": "R.Onildo Reis", "ptotalvia": 13.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.716225260301698, -26.892171384132485 ], [ -48.71607535, -26.89181146 ], [ -48.715729913701914, -26.891567979922272 ] ] } }
 ]
 }

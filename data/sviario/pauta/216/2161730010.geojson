@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2161730010", "cod": 1259, "nome": "R.Anselmo Knihs", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.846084560247597, -27.040975027489495 ], [ -48.84579672, -27.04099011 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2161730010", "cod": 1258, "nome": "R.Maria Trainotti", "ptotalvia": 20.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.845816764404887, -27.041439376261408 ], [ -48.84579672, -27.04099011 ], [ -48.845794493069178, -27.040979527881309 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2161730010", "cod": 1259.0, "nome": "R.Anselmo Knihs", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.846084560247597, -27.040975027489495 ], [ -48.84579672, -27.04099011 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2161730010", "cod": 1258.0, "nome": "R.Maria Trainotti", "ptotalvia": 20.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.845816764404894, -27.041439376261408 ], [ -48.84579672, -27.04099011 ], [ -48.845794493069178, -27.040979527881312 ] ] } }
 ]
 }

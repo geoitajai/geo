@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2150670110", "cod": 1352, "nome": "R.Antônio José Rebello", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.734797178136603, -26.874883995814262 ], [ -48.734827464632346, -26.875220192208737 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2150670110", "cod": 1352.0, "nome": "R.Antônio José Rebello", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.734797178136603, -26.874883995814262 ], [ -48.734827464632346, -26.875220192208737 ] ] } }
 ]
 }

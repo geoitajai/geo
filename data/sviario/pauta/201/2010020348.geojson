@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010020348", "cod": 278, "nome": "R.Joinville", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.653982583168023, -26.907130407463587 ], [ -48.65393403, -26.90711612 ], [ -48.653670829830901, -26.907049055637032 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010020348", "cod": 288, "nome": "Av.Pref.Paulo Bauer", "ptotalvia": 14.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.653940501155631, -26.907083833753578 ], [ -48.65393403, -26.90711612 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2010020348", "cod": 278.0, "nome": "R.Joinville", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65398258316803, -26.907130407463587 ], [ -48.65393403, -26.90711612 ], [ -48.653670829830901, -26.907049055637032 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010020348", "cod": 288.0, "nome": "Av.Pref.Paulo Bauer", "ptotalvia": 14.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.653940501155631, -26.907083833753582 ], [ -48.65393403, -26.90711612 ] ] } }
 ]
 }

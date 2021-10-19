@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2120740856", "cod": 466, "nome": "R.Manoel Moacir Werner", "ptotalvia": 6.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674640393904866, -26.886603267421396 ], [ -48.674388349678864, -26.886851734717393 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2120740856", "cod": 466.0, "nome": "R.Manoel Moacir Werner", "ptotalvia": 6.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674640393904866, -26.886603267421396 ], [ -48.674388349678864, -26.886851734717393 ] ] } }
 ]
 }

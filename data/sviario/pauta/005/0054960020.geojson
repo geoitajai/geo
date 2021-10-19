@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0054960020", "cod": 997, "nome": "R.Antônia Araujo", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69189562, -26.93164231 ], [ -48.691640863941352, -26.931454601078944 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0054960020", "cod": 926, "nome": "Av.Min.Luiz Gallotti", "ptotalvia": 17.2, "ppasseio1": 3.25, "ppasseio2": 3.25 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691939948227549, -26.931602000876737 ], [ -48.69189562, -26.93164231 ], [ -48.691895620000111, -26.931730840492001 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0054960020", "cod": 997.0, "nome": "R.Antônia Araujo", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69189562, -26.93164231 ], [ -48.691640863941352, -26.931454601078947 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054960020", "cod": 926.0, "nome": "Av.Min.Luiz Gallotti", "ptotalvia": 17.2, "ppasseio1": 3.25, "ppasseio2": 3.25 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691939948227549, -26.931602000876733 ], [ -48.69189562, -26.93164231 ], [ -48.691895620000111, -26.931730840491994 ] ] } }
 ]
 }

@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0030850245", "cod": 1197, "nome": "R.Pernambuco", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69816971847564, -26.892300388743482 ], [ -48.69781039187378, -26.892314883354278 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0030850245", "cod": 1197.0, "nome": "R.Pernambuco", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69816971847564, -26.892300388743482 ], [ -48.69781039187378, -26.892314883354278 ] ] } }
 ]
 }

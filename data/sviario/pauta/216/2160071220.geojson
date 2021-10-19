@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2160071220", "cod": 1430.0, "nome": "R.Manoel Bernardes", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.722957206922089, -26.946019583951319 ], [ -48.72287403, -26.94643162 ], [ -48.72289766, -26.94663369 ], [ -48.723022872910093, -26.947025140184508 ] ] } }
+]
+}

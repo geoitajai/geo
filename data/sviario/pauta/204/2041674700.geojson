@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2041674700", "cod": 1624, "nome": "Serv.Sebastião do Rozário", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.671255661381409, -26.928709928881837 ], [ -48.671242781989491, -26.929107936138994 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2041674700", "cod": 1624.0, "nome": "Serv.Sebastião do Rozário", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.671255661381409, -26.92870992888184 ], [ -48.671242781989491, -26.929107936138994 ] ] } }
 ]
 }

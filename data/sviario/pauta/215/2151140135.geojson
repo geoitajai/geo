@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2151140135", "cod": 1316, "nome": "R.Mariângela Rocha Fabeni", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.747101016804635, -26.875445494671876 ], [ -48.74710184, -26.87545552 ], [ -48.74713820192067, -26.875929161069919 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2151140135", "cod": 1328, "nome": "Av.José Sasdelli", "ptotalvia": 18.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.74690033, -26.87546548 ], [ -48.74685716495614, -26.87546761262222 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2151140135", "cod": 1328, "nome": "Av.José Sasdelli", "ptotalvia": 18.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.747129579526728, -26.875453983625235 ], [ -48.74710184, -26.87545552 ], [ -48.74690033, -26.87546548 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2151140135", "cod": 1316.0, "nome": "R.Mariângela Rocha Fabeni", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.747101016804635, -26.875445494671879 ], [ -48.74710184, -26.87545552 ], [ -48.74713820192067, -26.875929161069916 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2151140135", "cod": 1328.0, "nome": "Av.José Sasdelli", "ptotalvia": 18.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.74690033, -26.87546548 ], [ -48.74685716495614, -26.875467612622217 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2151140135", "cod": 1328.0, "nome": "Av.José Sasdelli", "ptotalvia": 18.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.747129579526728, -26.875453983625231 ], [ -48.74710184, -26.87545552 ], [ -48.74690033, -26.87546548 ] ] } }
 ]
 }

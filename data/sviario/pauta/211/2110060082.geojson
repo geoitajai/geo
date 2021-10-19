@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110060082", "cod": 495, "nome": "R.João Gaya", "ptotalvia": 14.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67461721, -26.90927423 ], [ -48.67456215654439, -26.909285986933561 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110060082", "cod": 505, "nome": "R.Gaspar", "ptotalvia": 13.2, "ppasseio1": 2.6, "ppasseio2": 2.6 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674870199928073, -26.909354684619839 ], [ -48.67461721, -26.90927423 ], [ -48.674552458935047, -26.909251835158635 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2110060082", "cod": 495.0, "nome": "R.João Gaya", "ptotalvia": 14.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67461721, -26.90927423 ], [ -48.67456215654439, -26.909285986933561 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110060082", "cod": 505.0, "nome": "R.Gaspar", "ptotalvia": 13.2, "ppasseio1": 2.6, "ppasseio2": 2.6 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67487019992808, -26.909354684619835 ], [ -48.67461721, -26.90927423 ], [ -48.674552458935047, -26.909251835158631 ] ] } }
 ]
 }

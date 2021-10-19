@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040880160", "cod": 859, "nome": "R.Nivaldo Detoie", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675271716723081, -26.924370466714283 ], [ -48.67525757, -26.9244421 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040880160", "cod": 857, "nome": "R.Pedro Pereira Mafra", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675350694876755, -26.924455805155056 ], [ -48.67525757, -26.9244421 ], [ -48.674975732864603, -26.924405719124181 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2040880160", "cod": 859.0, "nome": "R.Nivaldo Detoie", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675271716723081, -26.924370466714283 ], [ -48.67525757, -26.9244421 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040880160", "cod": 857.0, "nome": "R.Pedro Pereira Mafra", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675350694876755, -26.924455805155056 ], [ -48.67525757, -26.9244421 ], [ -48.674975732864603, -26.924405719124181 ] ] } }
 ]
 }

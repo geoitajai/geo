@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010550165", "cod": 268, "nome": "R.Brusque", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.663629802478816, -26.908942936747046 ], [ -48.663803576582147, -26.909138786614456 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2010550165", "cod": 268.0, "nome": "R.Brusque", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.663629802478816, -26.908942936747046 ], [ -48.663803576582147, -26.909138786614459 ] ] } }
 ]
 }

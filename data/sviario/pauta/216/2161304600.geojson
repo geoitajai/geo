@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2161304600", "cod": 1504.0, "nome": "R.Luiz Adami", "ptotalvia": 20.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.793425466792385, -26.978368276970937 ], [ -48.79344086, -26.97851572 ], [ -48.79353672, -26.97970003 ], [ -48.793571063928837, -26.980146156643727 ] ] } }
+]
+}

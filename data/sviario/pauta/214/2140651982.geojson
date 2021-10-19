@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140651982", "cod": 741, "nome": "R.Henrique Sarmento Vieira", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.640202986644539, -26.933853054435644 ], [ -48.63979861, -26.933863 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2140651982", "cod": 741.0, "nome": "R.Henrique Sarmento Vieira", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.640202986644539, -26.933853054435644 ], [ -48.63979861, -26.933863 ] ] } }
 ]
 }

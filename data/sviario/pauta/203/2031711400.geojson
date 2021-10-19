@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2031711400", "cod": 1091, "nome": "R.Hercília Moser", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695136513682563, -26.881251212558219 ], [ -48.695151297223219, -26.881599622753541 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2031711400", "cod": 1108, "nome": "R.Eurípedes Amorim Leal", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695217254512826, -26.881326499984091 ], [ -48.69513896, -26.881318 ], [ -48.694751834891044, -26.881322343314782 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2031711400", "cod": 1091.0, "nome": "R.Hercília Moser", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695136513682563, -26.881251212558222 ], [ -48.695151297223219, -26.881599622753544 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2031711400", "cod": 1108.0, "nome": "R.Eurípedes Amorim Leal", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695217254512819, -26.881326499984091 ], [ -48.69513896, -26.881318 ], [ -48.694751834891044, -26.881322343314782 ] ] } }
 ]
 }

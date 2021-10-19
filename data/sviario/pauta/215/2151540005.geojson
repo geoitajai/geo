@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2151540005", "cod": 1311, "nome": "R.Marcos Aurélio Seára", "ptotalvia": 28.7, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.74531833279579, -26.872226331416766 ], [ -48.74532399, -26.87230781 ], [ -48.745339017062939, -26.872476285778827 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2151540005", "cod": 1327, "nome": "Av.Lauro José Pereira", "ptotalvia": 18.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.745303771037662, -26.872525448276292 ], [ -48.74495953, -26.87255114 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2151540005", "cod": 1311.0, "nome": "R.Marcos Aurélio Seára", "ptotalvia": 28.7, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.74531833279579, -26.872226331416766 ], [ -48.74532399, -26.87230781 ], [ -48.745339017062939, -26.872476285778827 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2151540005", "cod": 1327.0, "nome": "Av.Lauro José Pereira", "ptotalvia": 18.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.745303771037662, -26.872525448276292 ], [ -48.74495953, -26.87255114 ] ] } }
 ]
 }

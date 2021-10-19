@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0055250010", "cod": 142, "nome": "R.Hygina de Andrade Corrêa", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.708772734139515, -26.910330104265487 ], [ -48.70843283, -26.91034347 ], [ -48.708363598335644, -26.910346093343261 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0055250010", "cod": 135, "nome": "R.José Pezzini", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.708416702928275, -26.910003101567852 ], [ -48.70843283, -26.91034347 ], [ -48.708435779729257, -26.910409612595753 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0055250010", "cod": 142.0, "nome": "R.Hygina de Andrade Corrêa", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.708772734139515, -26.910330104265491 ], [ -48.70843283, -26.91034347 ], [ -48.708363598335652, -26.910346093343261 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0055250010", "cod": 135.0, "nome": "R.José Pezzini", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.708416702928275, -26.910003101567856 ], [ -48.70843283, -26.91034347 ], [ -48.708435779729257, -26.910409612595757 ] ] } }
 ]
 }

@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010720068", "cod": 392, "nome": "R.Abercio Werner", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.667612684839867, -26.914706774184115 ], [ -48.667385997513676, -26.914956027642557 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2010720068", "cod": 392.0, "nome": "R.Abercio Werner", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.667612684839867, -26.914706774184111 ], [ -48.667385997513676, -26.91495602764256 ] ] } }
 ]
 }

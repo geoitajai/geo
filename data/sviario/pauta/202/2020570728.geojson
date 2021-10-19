@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020570728", "cod": 190, "nome": "R.José Cândido", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675309746767581, -26.898942488661518 ], [ -48.674995881311396, -26.898689476748839 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020570728", "cod": 191, "nome": "Serv.Nilo Prazeres", "ptotalvia": 4.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675168319522598, -26.899085575911137 ], [ -48.674852527627642, -26.898830080415497 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2020570728", "cod": 190.0, "nome": "R.José Cândido", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675309746767581, -26.898942488661518 ], [ -48.674995881311396, -26.898689476748839 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020570728", "cod": 191.0, "nome": "Serv.Nilo Prazeres", "ptotalvia": 4.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675168319522591, -26.89908557591114 ], [ -48.674852527627642, -26.898830080415497 ] ] } }
 ]
 }

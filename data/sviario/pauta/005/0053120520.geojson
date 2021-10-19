@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0053120520", "cod": 32, "nome": "R.Dr.João Américo Watzko", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.703116960303831, -26.907780289371406 ], [ -48.703098869054479, -26.907448870687105 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0053120520", "cod": 32.0, "nome": "R.Dr.João Américo Watzko", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.703116960303831, -26.907780289371406 ], [ -48.703098869054479, -26.907448870687102 ] ] } }
 ]
 }

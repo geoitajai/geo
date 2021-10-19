@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0054701100", "cod": 929, "nome": "R.Valério Zaguini", "ptotalvia": 15.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.7047594, -26.91929143 ], [ -48.70480317099198, -26.91932902368449 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0054701100", "cod": 930, "nome": "R.Nahor Cardoso", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70429207, -26.9197432 ], [ -48.704339759909665, -26.91978424606345 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0054701100", "cod": 926, "nome": "Av.Min.Luiz Gallotti", "ptotalvia": 17.2, "ppasseio1": 3.25, "ppasseio2": 3.25 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.704933003291906, -26.919121657220415 ], [ -48.7047594, -26.91929143 ], [ -48.70429207, -26.9197432 ], [ -48.70419938062026, -26.919835318672085 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0054701100", "cod": 929.0, "nome": "R.Valério Zaguini", "ptotalvia": 15.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.7047594, -26.91929143 ], [ -48.704803170991987, -26.91932902368449 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054701100", "cod": 930.0, "nome": "R.Nahor Cardoso", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70429207, -26.9197432 ], [ -48.704339759909665, -26.919784246063447 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054701100", "cod": 926.0, "nome": "Av.Min.Luiz Gallotti", "ptotalvia": 17.2, "ppasseio1": 3.25, "ppasseio2": 3.25 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.704933003291906, -26.919121657220412 ], [ -48.7047594, -26.91929143 ], [ -48.70429207, -26.9197432 ], [ -48.70419938062026, -26.919835318672092 ] ] } }
 ]
 }

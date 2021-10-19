@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2141560024", "cod": 727, "nome": "R.Artur Torquato Batista", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.64753188, -26.92970385 ], [ -48.647206785997099, -26.930064021255912 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2141560024", "cod": 722, "nome": "R.Leonardo Tetto", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.64753188, -26.92970385 ], [ -48.647442330572112, -26.929646935046502 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2141560024", "cod": 726, "nome": "R.Profª.Olindina Francisca da Silva", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.64768464510631, -26.929524093784792 ], [ -48.64753188, -26.92970385 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2141560024", "cod": 727.0, "nome": "R.Artur Torquato Batista", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.64753188, -26.92970385 ], [ -48.647206785997099, -26.930064021255912 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2141560024", "cod": 722.0, "nome": "R.Leonardo Tetto", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.64753188, -26.92970385 ], [ -48.647442330572112, -26.929646935046502 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2141560024", "cod": 726.0, "nome": "R.Profª.Olindina Francisca da Silva", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.64768464510631, -26.929524093784789 ], [ -48.64753188, -26.92970385 ] ] } }
 ]
 }

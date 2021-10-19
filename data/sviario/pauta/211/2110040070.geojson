@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110040070", "cod": 488, "nome": "Av.Duque de Caxias", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.672715376850071, -26.90711578522561 ], [ -48.67259591283738, -26.906818801711264 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110040070", "cod": 314, "nome": "R.Alfredo Trompowisky", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.672679770792179, -26.907180381445702 ], [ -48.672345660143108, -26.907212037968005 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2110040070", "cod": 488.0, "nome": "Av.Duque de Caxias", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.672715376850071, -26.90711578522561 ], [ -48.67259591283738, -26.906818801711264 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110040070", "cod": 314.0, "nome": "R.Alfredo Trompowisky", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.672679770792179, -26.907180381445706 ], [ -48.672345660143108, -26.907212037968005 ] ] } }
 ]
 }

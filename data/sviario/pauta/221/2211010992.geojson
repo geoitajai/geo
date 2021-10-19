@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2211010992", "cod": 564, "nome": "R.Henry Pedro Deitos", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68446107, -26.92136255 ], [ -48.684058448350676, -26.921293062804686 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2211010992", "cod": 159, "nome": "R.José Pereira Liberato", "ptotalvia": 12.5, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.684712868853154, -26.921085809305563 ], [ -48.68446107, -26.92136255 ], [ -48.684401133111542, -26.921429630035853 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2211010992", "cod": 564.0, "nome": "R.Henry Pedro Deitos", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68446107, -26.92136255 ], [ -48.684058448350676, -26.92129306280469 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2211010992", "cod": 159.0, "nome": "R.José Pereira Liberato", "ptotalvia": 12.5, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.684712868853161, -26.921085809305563 ], [ -48.68446107, -26.92136255 ], [ -48.684401133111542, -26.921429630035853 ] ] } }
 ]
 }

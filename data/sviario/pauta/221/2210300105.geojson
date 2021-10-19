@@ -2,6 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2210300105", "cod": 581, "nome": "R.Germano Montibeller", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.679170815933013, -26.916630997084074 ], [ -48.678798534144448, -26.9166501902547 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2210300105", "cod": 581.0, "nome": "R.Germano Montibeller", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.679170815933013, -26.916630997084074 ], [ -48.678798534144448, -26.9166501902547 ] ] } }
 ]
 }

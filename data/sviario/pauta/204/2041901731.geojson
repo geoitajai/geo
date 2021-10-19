@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2041901731", "cod": 658, "nome": "R.Cecília Brandão", "ptotalvia": 12.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.658628910317262, -26.920774211006247 ], [ -48.65876747, -26.92089207 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2041901731", "cod": 660, "nome": "R.José Patrocinio Zaguini", "ptotalvia": 12.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65876747, -26.92089207 ], [ -48.65870585234849, -26.920952077763527 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2041901731", "cod": 658.0, "nome": "R.Cecília Brandão", "ptotalvia": 12.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.658628910317262, -26.920774211006247 ], [ -48.65876747, -26.92089207 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2041901731", "cod": 660.0, "nome": "R.José Patrocinio Zaguini", "ptotalvia": 12.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65876747, -26.92089207 ], [ -48.65870585234849, -26.920952077763527 ] ] } }
 ]
 }
