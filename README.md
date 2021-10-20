@@ -1,2 +1,2 @@
-# Itajaí - SC, Secretaria Municipal de Urbanismo.
+# Itajaí - SC, Secretaria Municipal de Desenvolvimento Urbano e Habitação.
 http://plantacadastral.itajai.sc.gov.br/
