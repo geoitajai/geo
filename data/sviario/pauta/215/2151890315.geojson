@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2151890315", "cod": 1334.0, "nome": "Av.Domingos de Almeida", "ptotalvia": 26.0, "ppasseio1": 5.0, "ppasseio2": 5.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.74252487, -26.87888094 ], [ -48.74276770727294, -26.878844116173777 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2151890315", "cod": 1334.0, "nome": "Av.Domingos de Almeida", "ptotalvia": 26.0, "ppasseio1": 5.0, "ppasseio2": 5.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.74252487, -26.87888094 ], [ -48.74276770727294, -26.878844116173781 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2151890315", "cod": 1555.0, "nome": "R.Agenor Cesario de Aragão", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.742814120213289, -26.879196479272125 ], [ -48.742782790190731, -26.878848584645862 ] ] } }
 ]
 }

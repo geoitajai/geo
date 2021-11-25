@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110150279", "cod": 491.0, "nome": "Av.Getúlio Vargas", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.672461045751128, -26.912372975443315 ], [ -48.67244903, -26.91228832 ], [ -48.672409618507359, -26.91198558504076 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110150279", "cod": 491.0, "nome": "Av.Getúlio Vargas", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.672461045751128, -26.912372975443315 ], [ -48.67244903, -26.91228832 ], [ -48.672409618507359, -26.911985585040767 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2110150279", "cod": 490.0, "nome": "R.Corifeu de Azevedo Marques", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.672803259627692, -26.912321455009604 ], [ -48.67244903, -26.91228832 ], [ -48.672383323978266, -26.912283966028017 ] ] } }
 ]
 }

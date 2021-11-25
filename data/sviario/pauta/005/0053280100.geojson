@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0053280100", "cod": 947.0, "nome": "R.Maria Verena Heil", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696186814404697, -26.921009259333836 ], [ -48.6961267, -26.92103039 ], [ -48.695862786330181, -26.921125754549848 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0053280100", "cod": 947.0, "nome": "R.Maria Verena Heil", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696186814404697, -26.921009259333832 ], [ -48.6961267, -26.92103039 ], [ -48.695862786330181, -26.921125754549852 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "0053280100", "cod": 915.0, "nome": "R.Conegunda Tomazina Bosco", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696122685989288, -26.920979799708622 ], [ -48.6961267, -26.92103039 ] ] } }
 ]
 }

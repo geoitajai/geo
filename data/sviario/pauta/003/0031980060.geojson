@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0031980060", "cod": 1173.0, "nome": "R.Agostinho Alves Ramos", "ptotalvia": 20.4, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700961441273826, -26.900528274814157 ], [ -48.700812306426094, -26.900433835596015 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0031980060", "cod": 1181.0, "nome": "R.Maceió", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.701285568443929, -26.9004196998557 ], [ -48.70089368, -26.90043151 ], [ -48.70085311, -26.90045967 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031980060", "cod": 1173.0, "nome": "R.Agostinho Alves Ramos", "ptotalvia": 20.4, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700961441273826, -26.900528274814157 ], [ -48.700812306426094, -26.900433835596012 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031980060", "cod": 1181.0, "nome": "R.Maceió", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.701285568443929, -26.900419699855696 ], [ -48.70089368, -26.90043151 ], [ -48.70085311, -26.90045967 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "0031980060", "cod": 1164.0, "nome": "R.Gustavo Bernedet", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700829617543882, -26.900182532570717 ], [ -48.700819798048052, -26.900197491659135 ] ] } }
 ]
 }

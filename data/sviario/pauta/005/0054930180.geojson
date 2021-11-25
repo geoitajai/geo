@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0054930180", "cod": 118.0, "nome": "R.Joaçaba", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.701882911675511, -26.907028196900569 ], [ -48.701900111098055, -26.907366943651176 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054930180", "cod": 118.0, "nome": "R.Joaçaba", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.701882911675511, -26.907028196900566 ], [ -48.701900111098055, -26.90736694365118 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "0054930180", "cod": 125.0, "nome": "R.Catarina dos Passos Bosco", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702295490886719, -26.907065696143761 ], [ -48.70218799, -26.90707052 ] ] } }
 ]
 }

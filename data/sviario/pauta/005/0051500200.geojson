@@ -2,9 +2,9 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0051500200", "cod": 899.0, "nome": "R.Dos Hibiscos", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69303661, -26.91811106 ], [ -48.693040287360951, -26.9181635148753 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0051500200", "cod": 909.0, "nome": "R.Das Violetas", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693395382570237, -26.918090431664059 ], [ -48.692938933420791, -26.918116809408222 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0051500200", "cod": 912.0, "nome": "R.dos Crisântemos", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693627734020048, -26.91757055998368 ], [ -48.69354996, -26.91757452 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0051500200", "cod": 899.0, "nome": "R.Dos Hibiscos", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69303661, -26.91811106 ], [ -48.693040287360944, -26.918163514875303 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0051500200", "cod": 909.0, "nome": "R.Das Violetas", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69339538257023, -26.918090431664055 ], [ -48.692938933420791, -26.918116809408222 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0051500200", "cod": 912.0, "nome": "R.dos Crisântemos", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693627734020048, -26.917570559983684 ], [ -48.69354996, -26.91757452 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "0051500200", "cod": 894.0, "nome": "R.Agílio Cunha", "ptotalvia": 15.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69352817, -26.91729406 ], [ -48.69354996, -26.91757452 ], [ -48.693572110025151, -26.917826901511535 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "0051500200", "cod": 894.0, "nome": "R.Agílio Cunha", "ptotalvia": 15.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69351987590948, -26.917187284806662 ], [ -48.69352817, -26.91729406 ] ] } }
 ]

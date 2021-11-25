@@ -2,6 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2156303000", "cod": 1409.0, "nome": "R.Carlos Bacca", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.754241950147218, -26.907766577286321 ], [ -48.75439291, -26.90776541 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2156303000", "cod": 1403.0, "nome": "R.Luiz Moser", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.75772527, -26.92397914 ], [ -48.758090413684684, -26.923972965089732 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2156303000", "cod": null, "nome": "", "ptotalvia": null, "ppasseio1": null, "ppasseio2": null }, "geometry": { "type": "LineString", "coordinates": [ [ -48.75772527, -26.92397914 ], [ -48.75750602, -26.92397566 ], [ -48.757435472150519, -26.923955458656014 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2156303000", "cod": 1409.0, "nome": "R.Carlos Bacca", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.754241950147218, -26.907766577286324 ], [ -48.75439291, -26.90776541 ] ] } }
 ]
 }

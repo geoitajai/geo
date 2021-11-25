@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2611890nan", "cod": 1267.0, "nome": "R.Serafim Gamba", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.79922008, -26.99139641 ], [ -48.79904931, -26.99124905 ], [ -48.79885635, -26.99079206 ], [ -48.79880558, -26.99045723 ], [ -48.79883175020403, -26.990411989896561 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2611890nan", "cod": 1267.0, "nome": "R.Serafim Gamba", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.799388030315889, -26.99147980239438 ], [ -48.7992905, -26.99145718 ], [ -48.79922008, -26.99139641 ] ] } }
+]
+}

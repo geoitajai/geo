@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010890982", "cod": 393.0, "nome": "R.José Joaquim dos Santos", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.664499435619909, -26.913412082370154 ], [ -48.664377099509579, -26.913313193698613 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010890982", "cod": 380.0, "nome": "R.Juvenal Garcia", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.664275702859108, -26.913793432072033 ], [ -48.663975215246651, -26.913557833091996 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2010890982", "cod": 393.0, "nome": "R.José Joaquim dos Santos", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.664499435619902, -26.913412082370147 ], [ -48.664377099509593, -26.913313193698617 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010890982", "cod": 380.0, "nome": "R.Juvenal Garcia", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.664275702859108, -26.91379343207203 ], [ -48.663975215246651, -26.913557833092 ] ] } }
 ]
 }

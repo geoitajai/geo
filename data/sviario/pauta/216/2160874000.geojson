@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2160874000", "cod": 1527.0, "nome": "R.Benta Custodio Vieira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.769898276525709, -26.995872877184286 ], [ -48.769639059825238, -26.996152317770726 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2160874000", "cod": null, "nome": "", "ptotalvia": 22.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.76951615, -26.99581016 ], [ -48.769419778230755, -26.99573578283297 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2160874000", "cod": 1527.0, "nome": "R.Benta Custodio Vieira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.769898276525709, -26.995872877184286 ], [ -48.769639059825238, -26.996152317770722 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2160874000", "cod": null, "nome": "", "ptotalvia": 22.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.76951615, -26.99581016 ], [ -48.769419778230755, -26.995735782832977 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2160874000", "cod": 1585.0, "nome": "R.Maria da Luz", "ptotalvia": 20.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.769370747533664, -26.995952961832348 ], [ -48.76951615, -26.99581016 ] ] } }
 ]
 }

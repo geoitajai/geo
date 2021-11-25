@@ -2,9 +2,9 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010350537", "cod": 278.0, "nome": "R.Joinville", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65856945, -26.90847 ], [ -48.658569359652013, -26.908469974328124 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010350537", "cod": 372.0, "nome": "R.Dr.Aderbal Ramos da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65837644, -26.90893446 ], [ -48.658946783343495, -26.909401772555597 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010350537", "cod": 373.0, "nome": "Av.Dr.Nereu Ramos (Centro)", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.659222116665333, -26.908962481184162 ], [ -48.65856945, -26.90847 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010350537", "cod": 278.0, "nome": "R.Joinville", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65856945, -26.90847 ], [ -48.658569359652013, -26.908469974328128 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010350537", "cod": 372.0, "nome": "R.Dr.Aderbal Ramos da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65837644, -26.90893446 ], [ -48.658946783343495, -26.909401772555601 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010350537", "cod": 373.0, "nome": "Av.Dr.Nereu Ramos (Centro)", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.659222116665333, -26.908962481184165 ], [ -48.65856945, -26.90847 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2010350537", "cod": 276.0, "nome": "Av.7 de Setembro", "ptotalvia": 18.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.658569511218886, -26.908469851935418 ], [ -48.65856945, -26.90847 ], [ -48.65837644, -26.90893446 ], [ -48.658345351176123, -26.909007638440087 ] ] } }
 ]
 }

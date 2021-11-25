@@ -2,9 +2,9 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2041740571", "cod": 265.0, "nome": "Av.Ver.Abrahão João Francisco", "ptotalvia": 29.4, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.661056152287323, -26.913498910017058 ], [ -48.66049974, -26.91337373 ], [ -48.660412411919438, -26.913366230909084 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2041740571", "cod": 1607.0, "nome": "R.Júlio Willerding", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66032079, -26.91366364 ], [ -48.660695342659785, -26.913913465021629 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2041740571", "cod": 1607.0, "nome": "R.Júlio Willerding", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.660295048333474, -26.913646468564078 ], [ -48.66032079, -26.91366364 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2041740571", "cod": 266.0, "nome": "R.Uruguai", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.661064130021359, -26.913519561303008 ], [ -48.660761482244986, -26.913927839033139 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2041740571", "cod": 265.0, "nome": "Av.Ver.Abrahão João Francisco", "ptotalvia": 29.4, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.661056152287323, -26.913498910017058 ], [ -48.66049974, -26.91337373 ], [ -48.660412411919438, -26.91336623090908 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2041740571", "cod": 1607.0, "nome": "R.Júlio Willerding", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66032079, -26.91366364 ], [ -48.660695342659785, -26.913913465021626 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2041740571", "cod": 1607.0, "nome": "R.Júlio Willerding", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.660295048333474, -26.913646468564082 ], [ -48.66032079, -26.91366364 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2041740571", "cod": 266.0, "nome": "R.Uruguai", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.661064130021352, -26.913519561303008 ], [ -48.660761482244986, -26.913927839033139 ] ] } }
 ]
 }

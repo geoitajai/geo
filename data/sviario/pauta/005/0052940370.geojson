@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0052940370", "cod": 118.0, "nome": "R.Joaçaba", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702095549777084, -26.911133627395401 ], [ -48.702110469198693, -26.911415630633098 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0052940370", "cod": 118.0, "nome": "R.Joaçaba", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702095549777084, -26.911133627395401 ], [ -48.702110469198693, -26.911415630633094 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "0052940370", "cod": 1299.0, "nome": "R.Jacob Eugênio Lamin", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702494070633726, -26.911142475018291 ], [ -48.70241764, -26.911145929999986 ] ] } }
 ]
 }

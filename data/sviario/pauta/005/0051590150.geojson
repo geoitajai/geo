@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0051590150", "cod": 909.0, "nome": "R.Das Violetas", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69395075142986, -26.918071707959886 ], [ -48.69359423, -26.91807894 ], [ -48.693541508710013, -26.918081986862905 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0051590150", "cod": 909.0, "nome": "R.Das Violetas", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69395075142986, -26.918071707959886 ], [ -48.69359423, -26.91807894 ], [ -48.693541508710013, -26.918081986862902 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "0051590150", "cod": 894.0, "nome": "R.Agílio Cunha", "ptotalvia": 15.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693589115943105, -26.918020669683152 ], [ -48.69359423, -26.91807894 ], [ -48.693631939169428, -26.918421105320412 ] ] } }
 ]
 }

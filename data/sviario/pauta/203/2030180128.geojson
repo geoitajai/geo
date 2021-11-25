@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2030180128", "cod": 1104.0, "nome": "R.Abílio Corrêa Mello", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.703439541639611, -26.88671809320299 ], [ -48.703468052556516, -26.887280207652267 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2030180128", "cod": 1105.0, "nome": "R.Francisca Machado", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702784166393023, -26.886299178161501 ], [ -48.70278496, -26.88639138 ], [ -48.70275378, -26.88645868 ], [ -48.70276481, -26.88680842 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2030180128", "cod": 1111.0, "nome": "Av.Dr.Reinaldo Schmithausen", "ptotalvia": 27.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.703169236241749, -26.88804378706606 ], [ -48.702732888409336, -26.888009947936361 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2030180128", "cod": 1104.0, "nome": "R.Abílio Corrêa Mello", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.703439541639611, -26.886718093202987 ], [ -48.703468052556516, -26.887280207652267 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2030180128", "cod": 1105.0, "nome": "R.Francisca Machado", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702784166393016, -26.886299178161501 ], [ -48.70278496, -26.88639138 ], [ -48.70275378, -26.88645868 ], [ -48.70276481, -26.88680842 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2030180128", "cod": 1111.0, "nome": "Av.Dr.Reinaldo Schmithausen", "ptotalvia": 27.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.703169236241749, -26.88804378706606 ], [ -48.702732888409336, -26.888009947936364 ] ] } }
 ]
 }

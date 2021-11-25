@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2151020010", "cod": 1321.0, "nome": "R.Waldemar da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.749936849639518, -26.882843516597202 ], [ -48.74996061, -26.88313361 ], [ -48.749967178168987, -26.883208595848217 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2151020010", "cod": 1321.0, "nome": "R.Waldemar da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.749936849639518, -26.882843516597202 ], [ -48.74996061, -26.88313361 ], [ -48.749967178168987, -26.88320859584822 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2151020010", "cod": 1322.0, "nome": "R.Marcos Antônio Müller", "ptotalvia": 12.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.750343226549795, -26.883110745575429 ], [ -48.74996061, -26.88313361 ] ] } }
 ]
 }

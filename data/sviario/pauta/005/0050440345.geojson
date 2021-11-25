@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050440345", "cod": 18.0, "nome": "R.Exp.Olímpio José Borges", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691053433602242, -26.903281397533153 ], [ -48.69063442, -26.90329629 ], [ -48.690564176956642, -26.903298375375456 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050440345", "cod": 18.0, "nome": "R.Exp.Olímpio José Borges", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691053433602242, -26.903281397533149 ], [ -48.69063442, -26.90329629 ], [ -48.690564176956642, -26.903298375375453 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "0050440345", "cod": 51.0, "nome": "R.Otávio Cesário Pereira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6906313084692, -26.903009510613504 ], [ -48.69063442, -26.90329629 ], [ -48.690635482213267, -26.903353099952369 ] ] } }
 ]
 }

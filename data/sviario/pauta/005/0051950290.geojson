@@ -2,7 +2,6 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0051950290", "cod": 1734.0, "nome": "R.Valdemar da Veiga", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.71036485, -26.91008287 ], [ -48.710440862298341, -26.909928196617123 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "0051950290", "cod": 1773.0, "nome": "R.Sem denominação oficial", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.710351078535481, -26.90714712375436 ], [ -48.70997361, -26.90692696 ], [ -48.709827032657387, -26.906832302803551 ] ] } }
 ]
 }

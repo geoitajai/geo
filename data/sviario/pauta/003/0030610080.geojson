@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0030610080", "cod": 1188.0, "nome": "R.Paraná", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697924773398547, -26.888509422587429 ], [ -48.69787327, -26.88851089 ], [ -48.697562949500657, -26.888524446403711 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0030610080", "cod": 1161.0, "nome": "Av.Independência", "ptotalvia": 18.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697863397818907, -26.888138210673368 ], [ -48.69787328, -26.88851127 ], [ -48.697876973457888, -26.88857259661923 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0030610080", "cod": 1188.0, "nome": "R.Paraná", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69792477339854, -26.888509422587433 ], [ -48.69787327, -26.88851089000001 ], [ -48.697562949500657, -26.888524446403718 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0030610080", "cod": 1161.0, "nome": "Av.Independência", "ptotalvia": 18.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697863397818907, -26.888138210673365 ], [ -48.69787328, -26.88851127 ], [ -48.697876973457888, -26.88857259661923 ] ] } }
 ]
 }

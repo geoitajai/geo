@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040750062", "cod": 656.0, "nome": "R.João Matias Heil", "ptotalvia": 12.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.657748224743031, -26.919246410436138 ], [ -48.6578459, -26.919331929999988 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040750062", "cod": 657.0, "nome": "R.Cesário Chaves", "ptotalvia": 12.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6578459, -26.919331929999988 ], [ -48.65796402, -26.91944949 ], [ -48.657672395252639, -26.919728208693787 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040750062", "cod": 1673.0, "nome": "R.Maria da Costa Martins", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.657904081343354, -26.919271081002904 ], [ -48.65784591, -26.91933194 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2040750062", "cod": 656.0, "nome": "R.João Matias Heil", "ptotalvia": 12.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.657748224743031, -26.919246410436138 ], [ -48.6578459, -26.91933193 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040750062", "cod": 657.0, "nome": "R.Cesário Chaves", "ptotalvia": 12.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6578459, -26.91933193 ], [ -48.65796402, -26.91944949 ], [ -48.657672395252639, -26.919728208693787 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040750062", "cod": 1673.0, "nome": "R.Maria da Costa Martins", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.657904081343354, -26.919271081002908 ], [ -48.65784591, -26.91933194 ] ] } }
 ]
 }

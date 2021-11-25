@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2160540100", "cod": 1413.0, "nome": "Av.Itaipava", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.748322031654759, -26.947820317315319 ], [ -48.74830883, -26.94780779 ], [ -48.74774909, -26.94728907 ], [ -48.747377852774726, -26.946952754720087 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2160540100", "cod": 1413.0, "nome": "Av.Itaipava", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.748322031654759, -26.947820317315319 ], [ -48.74830883, -26.94780779 ], [ -48.74774909, -26.94728907 ], [ -48.747377852774726, -26.94695275472009 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2160540100", "cod": 1457.0, "nome": "R.José Carlos da Silva", "ptotalvia": 6.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.747743291758148, -26.947163570875322 ], [ -48.74774909, -26.94728907 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2160540100", "cod": 1456.0, "nome": "R.Gertrudes da Silva Simas", "ptotalvia": 8.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.748327269617576, -26.94777062630806 ], [ -48.74828343, -26.94778425 ], [ -48.748043113365249, -26.947979155736178 ] ] } }
 ]

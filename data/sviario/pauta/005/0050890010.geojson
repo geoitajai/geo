@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050890010", "cod": 114.0, "nome": "R.Taió", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695238788052876, -26.906767612589462 ], [ -48.69490608, -26.90678141 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0050890010", "cod": 48.0, "nome": "R.Pedro Cristiano de Miranda", "ptotalvia": 13.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.694889755066228, -26.906417171025797 ], [ -48.69489373, -26.906469909999988 ], [ -48.69490608, -26.90678141 ], [ -48.694909557553942, -26.906840333687388 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0050890010", "cod": 99.0, "nome": "R.Dr.Félix Malburg", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69489373, -26.906469909999988 ], [ -48.694827815497483, -26.906471793066171 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0050890010", "cod": 114.0, "nome": "R.Taió", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695238788052876, -26.906767612589459 ], [ -48.69490608, -26.90678141 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050890010", "cod": 48.0, "nome": "R.Pedro Cristiano de Miranda", "ptotalvia": 13.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.694889755066228, -26.906417171025797 ], [ -48.69489373, -26.90646991 ], [ -48.69490608, -26.90678141 ], [ -48.694909557553942, -26.906840333687388 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050890010", "cod": 99.0, "nome": "R.Dr.Félix Malburg", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69489373, -26.90646991 ], [ -48.694827815497483, -26.906471793066171 ] ] } }
 ]
 }

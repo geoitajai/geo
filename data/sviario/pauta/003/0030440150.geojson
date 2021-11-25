@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0030440150", "cod": 1113.0, "nome": "R.Odilio Garcia", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693916225909703, -26.89484190494867 ], [ -48.693939006040459, -26.895197645242604 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0030440150", "cod": 1149.0, "nome": "R.Paulo Rodrigues Pereira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.694255575343796, -26.894825272872957 ], [ -48.694276296202538, -26.895179204321295 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0030440150", "cod": 1151.0, "nome": "R.Maranhão", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.694299872571605, -26.895169077356822 ], [ -48.69427512, -26.89516963 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0030440150", "cod": 1113.0, "nome": "R.Odilio Garcia", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693916225909703, -26.894841904948674 ], [ -48.693939006040459, -26.8951976452426 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0030440150", "cod": 1149.0, "nome": "R.Paulo Rodrigues Pereira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.694255575343796, -26.894825272872957 ], [ -48.694276296202538, -26.895179204321298 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0030440150", "cod": 1151.0, "nome": "R.Maranhão", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.694299872571605, -26.895169077356826 ], [ -48.69427512, -26.89516963 ] ] } }
 ]
 }

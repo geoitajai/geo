@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2210420320", "cod": 584.0, "nome": "R.Francisco Bettoni", "ptotalvia": 9.5, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68480213, -26.91935877 ], [ -48.685074513230283, -26.919337747101622 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210420320", "cod": 584.0, "nome": "R.Francisco Bettoni", "ptotalvia": 9.5, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68480213, -26.91935877 ], [ -48.685074513230283, -26.919337747101618 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2210420320", "cod": 159.0, "nome": "R.José Pereira Liberato", "ptotalvia": 12.5, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.684626253555223, -26.919003993079631 ], [ -48.684840186216732, -26.919434990193384 ] ] } }
 ]
 }

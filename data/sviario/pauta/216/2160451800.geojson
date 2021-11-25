@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2160451800", "cod": 1730.0, "nome": "Av.Marginal Norte", "ptotalvia": 30.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.718394159295066, -26.945273429607461 ], [ -48.71834491005778, -26.945243012864754 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2160451800", "cod": 1235.0, "nome": "Rod.Dep.Antônio Heil", "ptotalvia": 30.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -48.718445376735332, -26.945294096896863 ], [ -48.718440493066694, -26.945292338126535 ] ], [ [ -48.718361716441393, -26.945260189871611 ], [ -48.718356440942841, -26.945257804718231 ] ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2160451800", "cod": 1730.0, "nome": "Av.Marginal Norte", "ptotalvia": 30.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.718394159295066, -26.945273429607465 ], [ -48.71834491005778, -26.945243012864761 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2160451800", "cod": 1235.0, "nome": "Rod.Dep.Antônio Heil", "ptotalvia": 30.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -48.718445376735332, -26.945294096896863 ], [ -48.718440493066694, -26.945292338126539 ] ], [ [ -48.718361716441386, -26.945260189871611 ], [ -48.718356440942841, -26.945257804718235 ] ] ] } }
 ]
 }

@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010750366", "cod": 377.0, "nome": "R.Jorge Mattos", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.664116117291172, -26.914329097528242 ], [ -48.66433135, -26.91449941 ], [ -48.664393991874512, -26.914550038358936 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010750366", "cod": 377.0, "nome": "R.Jorge Mattos", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.664116117291172, -26.914329097528245 ], [ -48.66433135, -26.91449941 ], [ -48.664393991874512, -26.914550038358936 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2010750366", "cod": 374.0, "nome": "R.José Paulo da Silva", "ptotalvia": 9.5, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66433135, -26.91449941 ], [ -48.664066768984611, -26.914751685514371 ] ] } }
 ]
 }

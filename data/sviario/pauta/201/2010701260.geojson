@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010701260", "cod": 268.0, "nome": "R.Brusque", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.664105630887221, -26.909479938582862 ], [ -48.664321824244823, -26.909737002019721 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010701260", "cod": 266.0, "nome": "R.Uruguai", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.664083134435757, -26.909480514676936 ], [ -48.663804181531916, -26.909856870478432 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2010701260", "cod": 268.0, "nome": "R.Brusque", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.664105630887221, -26.909479938582862 ], [ -48.664321824244823, -26.909737002019725 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010701260", "cod": 266.0, "nome": "R.Uruguai", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.664083134435757, -26.909480514676932 ], [ -48.663804181531916, -26.909856870478428 ] ] } }
 ]
 }

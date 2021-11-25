@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010530051", "cod": 360.0, "nome": "R.Treze de Maio", "ptotalvia": 13.6, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.662272588272685, -26.909301777813486 ], [ -48.662548683705907, -26.909514425850777 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010530051", "cod": 362.0, "nome": "R.Cruz de Souza", "ptotalvia": 3.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.662633977450341, -26.909063193273514 ], [ -48.662756149560209, -26.909158694190957 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2010530051", "cod": 360.0, "nome": "R.Treze de Maio", "ptotalvia": 13.6, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.662272588272685, -26.909301777813482 ], [ -48.662548683705907, -26.90951442585078 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010530051", "cod": 362.0, "nome": "R.Cruz de Souza", "ptotalvia": 3.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.662633977450341, -26.909063193273511 ], [ -48.662756149560209, -26.909158694190953 ] ] } }
 ]
 }

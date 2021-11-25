@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2160052610", "cod": 1425.0, "nome": "R.Guilherme May", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.738261314454085, -26.948441373158797 ], [ -48.73827318, -26.94853372 ], [ -48.738302727678274, -26.948845209852816 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2160052610", "cod": 1425.0, "nome": "R.Guilherme May", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.738261314454085, -26.948441373158801 ], [ -48.73827318, -26.94853372 ], [ -48.738302727678274, -26.948845209852816 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2160052610", "cod": 1426.0, "nome": "R.José Hermindo Rosa", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.73827318, -26.94853372 ], [ -48.737923572405251, -26.948525706698756 ] ] } }
 ]
 }

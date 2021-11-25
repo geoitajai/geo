@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0030870055", "cod": 1195.0, "nome": "R.Ceará", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698342092267033, -26.893916864411981 ], [ -48.697979796787685, -26.893930665516315 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0030870055", "cod": 1195.0, "nome": "R.Ceará", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698342092267033, -26.893916864411977 ], [ -48.697979796787685, -26.893930665516315 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "0030870055", "cod": 1207.0, "nome": "Av.Brasília", "ptotalvia": 18.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69827711, -26.89391934 ], [ -48.69827976686738, -26.893987675750946 ] ] } }
 ]
 }

@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0054630210", "cod": 988.0, "nome": "Av.Maria Marques Werner", "ptotalvia": 22.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700962294360991, -26.929124421820944 ], [ -48.700805632466974, -26.929281777401691 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0054630210", "cod": 1014.0, "nome": "R.Francisco Molleri", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.701021792113515, -26.929101299196745 ], [ -48.701296315150387, -26.929327409507458 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0054630210", "cod": 988.0, "nome": "Av.Maria Marques Werner", "ptotalvia": 22.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700962294360991, -26.929124421820944 ], [ -48.700805632466974, -26.929281777401695 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054630210", "cod": 1014.0, "nome": "R.Francisco Molleri", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.701021792113515, -26.929101299196748 ], [ -48.701296315150387, -26.929327409507458 ] ] } }
 ]
 }

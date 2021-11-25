@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050580745", "cod": 24.0, "nome": "R.Carlos Schroeder", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692540965561896, -26.900036578648514 ], [ -48.69223589, -26.90004286 ], [ -48.69216200715185, -26.900044952309116 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0050580745", "cod": 10.0, "nome": "R.Antônio Ayres dos Santos", "ptotalvia": 13.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692231588924621, -26.900384713200744 ], [ -48.69223589, -26.90004286 ], [ -48.692233679330563, -26.899983637233515 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0050580745", "cod": 24.0, "nome": "R.Carlos Schroeder", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692540965561896, -26.900036578648514 ], [ -48.69223589, -26.90004286 ], [ -48.69216200715185, -26.90004495230912 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050580745", "cod": 10.0, "nome": "R.Antônio Ayres dos Santos", "ptotalvia": 13.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692231588924621, -26.900384713200747 ], [ -48.69223589, -26.90004286 ], [ -48.692233679330563, -26.899983637233511 ] ] } }
 ]
 }

@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2030460365", "cod": 1024.0, "nome": "R.Theodoro Lino Régis", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696073864802187, -26.867491313841306 ], [ -48.69629811, -26.86744823 ], [ -48.69681463, -26.8673824 ], [ -48.697192095344988, -26.86743228672653 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2030460365", "cod": 1024.0, "nome": "R.Theodoro Lino Régis", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696073864802187, -26.867491313841303 ], [ -48.69629811, -26.86744823 ], [ -48.69681463, -26.8673824 ], [ -48.697192095344988, -26.867432286726533 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2030460365", "cod": 1041.0, "nome": "R.Domingos Braz Sedrez", "ptotalvia": 11.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69681463, -26.8673824 ], [ -48.696817594087435, -26.867465053890506 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2030460365", "cod": 1042.0, "nome": "R.Pr.Anôr Nagel Júnior", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69629811, -26.86744823 ], [ -48.696302906645549, -26.867530683804169 ] ] } }
 ]

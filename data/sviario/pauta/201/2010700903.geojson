@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010700903", "cod": 400.0, "nome": "Serv.João Melo", "ptotalvia": 9.3, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.665055701469072, -26.910857751731854 ], [ -48.66477821258156, -26.911103332388617 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010700903", "cod": 400.0, "nome": "Serv.João Melo", "ptotalvia": 9.3, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.665055701469072, -26.910857751731854 ], [ -48.66477821258156, -26.911103332388613 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2010700903", "cod": 401.0, "nome": "R.Ricardo Keunecke", "ptotalvia": 3.2, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.664819009056664, -26.91063041378429 ], [ -48.664542039700819, -26.910852034130379 ] ] } }
 ]
 }

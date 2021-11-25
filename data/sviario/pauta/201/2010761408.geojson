@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010761408", "cod": 374.0, "nome": "R.José Paulo da Silva", "ptotalvia": 9.5, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.661586395558523, -26.91295810353477 ], [ -48.661783606722288, -26.913122862303513 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010761408", "cod": 266.0, "nome": "R.Uruguai", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66147693, -26.91297481 ], [ -48.66138903, -26.91308282 ], [ -48.661304882301366, -26.91319591908179 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010761408", "cod": 374.0, "nome": "R.José Paulo da Silva", "ptotalvia": 9.5, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.661586395558523, -26.912958103534766 ], [ -48.661783606722288, -26.91312286230351 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010761408", "cod": 266.0, "nome": "R.Uruguai", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66147693, -26.91297481 ], [ -48.66138903, -26.91308282 ], [ -48.661304882301366, -26.913195919081794 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2010761408", "cod": 266.0, "nome": "R.Uruguai", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66150924909131, -26.912935088189002 ], [ -48.66147693, -26.91297481 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2010761408", "cod": 264.0, "nome": "Av.Joca Brandão", "ptotalvia": 26.4, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.661318387856014, -26.913056841772651 ], [ -48.66138903, -26.91308282 ] ] } }
 ]

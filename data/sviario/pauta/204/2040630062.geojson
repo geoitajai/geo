@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040630062", "cod": 695.0, "nome": "R.Lúcio Correia de Mendonça", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65459683613534, -26.926849611191951 ], [ -48.65485245, -26.9270436 ], [ -48.654906459204454, -26.92708942270524 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040630062", "cod": 697.0, "nome": "R.Manoel Bernardo da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.654901135340822, -26.926995741498381 ], [ -48.65485245, -26.9270436 ], [ -48.654526925426936, -26.927360221431467 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2040630062", "cod": 695.0, "nome": "R.Lúcio Correia de Mendonça", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65459683613534, -26.926849611191951 ], [ -48.65485245, -26.9270436 ], [ -48.654906459204454, -26.927089422705237 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040630062", "cod": 697.0, "nome": "R.Manoel Bernardo da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.654901135340822, -26.926995741498381 ], [ -48.65485245, -26.9270436 ], [ -48.654526925426936, -26.927360221431464 ] ] } }
 ]
 }

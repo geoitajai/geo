@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2030550700", "cod": 1111.0, "nome": "Av.Dr.Reinaldo Schmithausen", "ptotalvia": 27.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.716422335109037, -26.891307255101427 ], [ -48.71560061, -26.891476839999989 ], [ -48.715060893721329, -26.891427885694391 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2030550700", "cod": 1270.0, "nome": "Av.Pres.Castelo Branco", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.71412445916193, -26.890868740618437 ], [ -48.714093731491261, -26.888746634623814 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2030550700", "cod": 1111.0, "nome": "Av.Dr.Reinaldo Schmithausen", "ptotalvia": 27.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.716422335109037, -26.891307255101424 ], [ -48.71560061, -26.891476839999989 ], [ -48.715060893721329, -26.891427885694391 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2030550700", "cod": 1270.0, "nome": "Av.Pres.Castelo Branco", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.71412445916193, -26.890868740618433 ], [ -48.714093731491261, -26.888746634623811 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2030550700", "cod": 1361.0, "nome": "R.Onildo Reis", "ptotalvia": 13.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.715608331118069, -26.89148228224964 ], [ -48.71560061, -26.891476839999989 ] ] } }
 ]
 }

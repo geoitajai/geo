@@ -2,6 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0031210365", "cod": 1165.0, "nome": "R.Fioravante Russi", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700946921771646, -26.890868378904301 ], [ -48.700969519539903, -26.891239766805363 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0031210365", "cod": 1165.0, "nome": "R.Fioravante Russi", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700951334291844, -26.89094089748837 ], [ -48.70096974, -26.89124339 ], [ -48.700973665316354, -26.891310587901728 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031210365", "cod": 1232.0, "nome": "R.Eduardo Pessoa Lins", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70096974, -26.89124339 ], [ -48.70089485351042, -26.891248717181725 ] ] } }
 ]
 }

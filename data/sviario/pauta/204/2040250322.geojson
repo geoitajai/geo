@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040250322", "cod": 627.0, "nome": "Serv.Henrique Bernadino Maria de Borba", "ptotalvia": 6.2, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.655340164773136, -26.913076554253003 ], [ -48.65527556, -26.913244989999988 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040250322", "cod": 628.0, "nome": "R.Bento Adriano Pereira", "ptotalvia": 5.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.655514590153359, -26.913954648640178 ], [ -48.654856272047461, -26.9134441834996 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040250322", "cod": 281.0, "nome": "R.Camboriú", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.655861442340594, -26.913511062674349 ], [ -48.655669410667308, -26.913986357216704 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2040250322", "cod": 627.0, "nome": "Serv.Henrique Bernadino Maria de Borba", "ptotalvia": 6.2, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.655340164773136, -26.913076554253003 ], [ -48.65527556, -26.91324499 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040250322", "cod": 628.0, "nome": "R.Bento Adriano Pereira", "ptotalvia": 5.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.655514590153359, -26.913954648640178 ], [ -48.654856272047475, -26.913444183499617 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040250322", "cod": 281.0, "nome": "R.Camboriú", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.655861442340594, -26.913511062674349 ], [ -48.655669410667308, -26.913986357216707 ] ] } }
 ]
 }

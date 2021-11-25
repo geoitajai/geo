@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2120051085", "cod": 200.0, "nome": "R.João Antônio de Azevedo", "ptotalvia": 4.5, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67675458, -26.89883095 ], [ -48.676691549928258, -26.898780778564166 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2120051085", "cod": 197.0, "nome": "R.Ernesto Kobarg", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677096040956997, -26.899016317995592 ], [ -48.676668726333517, -26.899042165882914 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2120051085", "cod": 198.0, "nome": "R.João Vechani", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677049499973045, -26.898664380530679 ], [ -48.67690616, -26.89867219 ], [ -48.67675458, -26.89883095 ], [ -48.676627535398559, -26.898976698257229 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2120051085", "cod": 200.0, "nome": "R.João Antônio de Azevedo", "ptotalvia": 4.5, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67675458, -26.89883095 ], [ -48.676691549928258, -26.89878077856417 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2120051085", "cod": 197.0, "nome": "R.Ernesto Kobarg", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677096040956997, -26.899016317995592 ], [ -48.676668726333517, -26.899042165882918 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2120051085", "cod": 198.0, "nome": "R.João Vechani", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677049499973045, -26.898664380530676 ], [ -48.67690616, -26.89867219 ], [ -48.67675458, -26.89883095 ], [ -48.676627535398559, -26.898976698257229 ] ] } }
 ]
 }

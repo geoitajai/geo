@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010660456", "cod": 339.0, "nome": "R.Dr.Alexandre Fleming", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.668265297514225, -26.91009068252318 ], [ -48.667853471504159, -26.909770037153592 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010660456", "cod": 339.0, "nome": "R.Dr.Alexandre Fleming", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.668265297514225, -26.91009068252318 ], [ -48.667853471504159, -26.909770037153596 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2010660456", "cod": 284.0, "nome": "R.Alm.Barroso", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66856670772701, -26.909784931392753 ], [ -48.66814656309294, -26.909459049144317 ] ] } }
 ]
 }

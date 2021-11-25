@@ -2,9 +2,9 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010050518", "cod": 288.0, "nome": "Av.Pref.Paulo Bauer", "ptotalvia": 14.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.654285677472906, -26.905818806704399 ], [ -48.65413323, -26.90612225 ], [ -48.654127883159731, -26.906148927309026 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010050518", "cod": 279.0, "nome": "R.Felix Busso Asseburg", "ptotalvia": 20.0, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65460222, -26.90619706 ], [ -48.654599769853029, -26.906215947508375 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010050518", "cod": 297.0, "nome": "R.Olímpio Miranda Júnior", "ptotalvia": 13.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.654611746974894, -26.906198407613275 ], [ -48.65460222, -26.90619706 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010050518", "cod": 288.0, "nome": "Av.Pref.Paulo Bauer", "ptotalvia": 14.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.654285677472906, -26.905818806704399 ], [ -48.65413323, -26.90612225 ], [ -48.654127883159731, -26.906148927309015 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010050518", "cod": 279.0, "nome": "R.Felix Busso Asseburg", "ptotalvia": 20.0, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65460222, -26.90619706 ], [ -48.654599769853029, -26.906215947508379 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010050518", "cod": 297.0, "nome": "R.Olímpio Miranda Júnior", "ptotalvia": 13.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.654611746974894, -26.906198407613271 ], [ -48.65460222, -26.90619706 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2010050518", "cod": 297.0, "nome": "R.Olímpio Miranda Júnior", "ptotalvia": 13.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65460222, -26.90619706 ], [ -48.65413323, -26.90612225 ] ] } }
 ]
 }

@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2161635300", "cod": 1727.0, "nome": "R.José Quintino Borba", "ptotalvia": 20.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.847314361899585, -26.983090798231974 ], [ -48.84711092, -26.98307981 ], [ -48.84619448, -26.98304621 ], [ -48.84598095, -26.98301686 ], [ -48.84584325, -26.98296258 ], [ -48.84570335, -26.98284382 ], [ -48.84539399, -26.98253986 ], [ -48.84522648819361, -26.982396320259884 ] ] } }
+]
+}

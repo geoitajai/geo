@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010430153", "cod": 286.0, "nome": "R.Tijucas", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.663441863778587, -26.905780501259489 ], [ -48.66339671, -26.90584441 ], [ -48.663182250886976, -26.906077909632049 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010430153", "cod": 286.0, "nome": "R.Tijucas", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.663441863778587, -26.905780501259489 ], [ -48.66339671, -26.90584441 ], [ -48.663182250886976, -26.906077909632046 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2010430153", "cod": 292.0, "nome": "Trav.João Sandri", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66339671, -26.90584441 ], [ -48.663036967896424, -26.905583825980582 ] ] } }
 ]
 }

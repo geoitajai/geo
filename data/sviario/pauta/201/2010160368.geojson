@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010160368", "cod": 278.0, "nome": "R.Joinville", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65458944225302, -26.907309897159493 ], [ -48.654509501372537, -26.907285796555897 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010160368", "cod": 279.0, "nome": "R.Felix Busso Asseburg", "ptotalvia": 20.0, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.654505450058359, -26.906943026474572 ], [ -48.654464070432574, -26.907262003913928 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2010160368", "cod": 278.0, "nome": "R.Joinville", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65458944225302, -26.907309897159497 ], [ -48.654509501372537, -26.9072857965559 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010160368", "cod": 279.0, "nome": "R.Felix Busso Asseburg", "ptotalvia": 20.0, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.654505450058359, -26.906943026474575 ], [ -48.654464070432574, -26.907262003913917 ] ] } }
 ]
 }

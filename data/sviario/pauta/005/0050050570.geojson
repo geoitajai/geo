@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050050570", "cod": 60.0, "nome": "R.Estefano José Vanolli", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.688619498009039, -26.896814261635853 ], [ -48.68862402, -26.89701402 ], [ -48.6886242736459, -26.897122672252141 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050050570", "cod": 60.0, "nome": "R.Estefano José Vanolli", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.688619498009039, -26.89681426163585 ], [ -48.68862402, -26.89701402 ], [ -48.6886242736459, -26.897122672252141 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "0050050570", "cod": 57.0, "nome": "R.Rui Vieira", "ptotalvia": 8.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.688702183825399, -26.897012322574817 ], [ -48.68862402, -26.89701402 ] ] } }
 ]
 }

@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2210220077", "cod": 159.0, "nome": "R.José Pereira Liberato", "ptotalvia": 12.5, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68271756038046, -26.911229464882105 ], [ -48.68264339, -26.91156016 ], [ -48.682637126460456, -26.911594835374292 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210220077", "cod": 159.0, "nome": "R.José Pereira Liberato", "ptotalvia": 12.5, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.682717560380468, -26.911229464882105 ], [ -48.68264339, -26.91156016 ], [ -48.682637126460456, -26.911594835374292 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2210220077", "cod": 522.0, "nome": "R.Abdon David Schmitt", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68312777708821, -26.911602257925392 ], [ -48.68270937, -26.91156589 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2210220077", "cod": 522.0, "nome": "R.Abdon David Schmitt", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68270937, -26.91156589 ], [ -48.68264339, -26.91156016 ], [ -48.682605080738277, -26.911562196751337 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2210220077", "cod": 522.0, "nome": "R.Abdon David Schmitt", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68270937, -26.91156589 ], [ -48.68264339, -26.91156016 ], [ -48.682605080738277, -26.911562196751333 ] ] } }
 ]
 }

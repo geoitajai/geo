@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010630699", "cod": 283.0, "nome": "R.José Russi", "ptotalvia": 7.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66855775565319, -26.908425588995311 ], [ -48.668571349016148, -26.908530276097558 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010630699", "cod": 283.0, "nome": "R.José Russi", "ptotalvia": 7.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66855775565319, -26.908425588995314 ], [ -48.668571349016148, -26.908530276097558 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2010630699", "cod": 326.0, "nome": "R.Hermann Bachmann", "ptotalvia": 4.2, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.668839488660389, -26.908272600027924 ], [ -48.66885321, -26.90839324 ] ] } }
 ]
 }

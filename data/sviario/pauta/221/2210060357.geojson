@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2210060357", "cod": 518.0, "nome": "R.Egon Schauffert", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.679534783656543, -26.911657523960741 ], [ -48.67953851, -26.911725199999985 ], [ -48.67954965, -26.91197965 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2210060357", "cod": 522.0, "nome": "R.Abdon David Schmitt", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.679605399453521, -26.911721645217529 ], [ -48.67953851, -26.911725199999985 ], [ -48.67912625423304, -26.911743768945655 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2210060357", "cod": 518.0, "nome": "R.Egon Schauffert", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67954965, -26.91197965 ], [ -48.679554671296366, -26.912094380149846 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2210060357", "cod": 518.0, "nome": "R.Egon Schauffert", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.679534783656543, -26.911657523960745 ], [ -48.67953851, -26.911725199999985 ], [ -48.67954965, -26.91197965 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210060357", "cod": 522.0, "nome": "R.Abdon David Schmitt", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.679605399453521, -26.911721645217529 ], [ -48.67953851, -26.911725199999985 ], [ -48.67912625423304, -26.911743768945652 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210060357", "cod": 518.0, "nome": "R.Egon Schauffert", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67954965, -26.91197965 ], [ -48.679554671296358, -26.912094380149846 ] ] } }
 ]
 }

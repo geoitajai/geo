@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110110604", "cod": 492.0, "nome": "R.Carlos Seara", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.670907284332351, -26.909391623257893 ], [ -48.6709426, -26.90969257 ], [ -48.670945838589894, -26.909720425433715 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110110604", "cod": 495.0, "nome": "R.João Gaya", "ptotalvia": 14.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.670981382386394, -26.909688741268273 ], [ -48.6709426, -26.90969257 ], [ -48.670497677381022, -26.909738309641508 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2110110604", "cod": 492.0, "nome": "R.Carlos Seara", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.670907284332351, -26.909391623257893 ], [ -48.6709426, -26.90969257 ], [ -48.670945838589894, -26.909720425433708 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110110604", "cod": 495.0, "nome": "R.João Gaya", "ptotalvia": 14.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.670981382386394, -26.909688741268276 ], [ -48.6709426, -26.90969257 ], [ -48.670497677381022, -26.909738309641508 ] ] } }
 ]
 }

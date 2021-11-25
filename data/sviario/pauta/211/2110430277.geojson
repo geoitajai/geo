@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110430277", "cod": 163.0, "nome": "R.Alberto Werner", "ptotalvia": 13.2, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.669876592590654, -26.912728597529576 ], [ -48.66987946, -26.912756849999987 ], [ -48.669914000342892, -26.91303768540234 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110430277", "cod": 332.0, "nome": "R.Hilda Breitenbauch", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66963883110337, -26.912723137901597 ], [ -48.669351339130969, -26.913080284891226 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110430277", "cod": 336.0, "nome": "R.Carlos Santana", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66987946, -26.912756849999987 ], [ -48.669819574369981, -26.912713274620128 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2110430277", "cod": 163.0, "nome": "R.Alberto Werner", "ptotalvia": 13.2, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.669876592590654, -26.912728597529579 ], [ -48.66987946, -26.91275685 ], [ -48.669914000342892, -26.913037685402344 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110430277", "cod": 332.0, "nome": "R.Hilda Breitenbauch", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66963883110337, -26.912723137901597 ], [ -48.669351339130969, -26.913080284891223 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110430277", "cod": 336.0, "nome": "R.Carlos Santana", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66987946, -26.91275685 ], [ -48.669819574369981, -26.912713274620128 ] ] } }
 ]
 }

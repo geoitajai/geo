@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0054950475", "cod": 33.0, "nome": "R.Jaziel José Rosa", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702773197880752, -26.910108587930893 ], [ -48.70279039, -26.91037574 ], [ -48.702792388209701, -26.910406790653152 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054950475", "cod": 33.0, "nome": "R.Jaziel José Rosa", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702773197880752, -26.910108587930893 ], [ -48.70279039, -26.91037574 ], [ -48.702792388209701, -26.910406790653148 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "0054950475", "cod": 1302.0, "nome": "R.Luiz Carlos Machado", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70279039, -26.91037574 ], [ -48.702734738930367, -26.910375660138843 ] ] } }
 ]
 }

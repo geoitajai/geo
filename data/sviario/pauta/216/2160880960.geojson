@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2160880960", "cod": 1709.0, "nome": "R. Alfonso Dalmolin", "ptotalvia": 22.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69341104, -26.97461041 ], [ -48.69328295, -26.97470996 ], [ -48.693193066901301, -26.974915030762702 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2160880960", "cod": 1577.0, "nome": "R.Pedro João Pinto", "ptotalvia": 20.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69341104, -26.974610389999985 ], [ -48.6936752, -26.97464296 ], [ -48.693701896787907, -26.974625395780766 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2160880960", "cod": 1479.0, "nome": "R.João Thomaz Pinto", "ptotalvia": 25.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693320679867739, -26.974544805676366 ], [ -48.69341104, -26.974610389999985 ], [ -48.693732297159642, -26.974835719034399 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2160880960", "cod": 1709.0, "nome": "R. Alfonso Dalmolin", "ptotalvia": 22.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69341104, -26.97461041 ], [ -48.69328295, -26.97470996 ], [ -48.693193066901301, -26.974915030762709 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2160880960", "cod": 1577.0, "nome": "R.Pedro João Pinto", "ptotalvia": 20.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69341104, -26.974610389999988 ], [ -48.6936752, -26.97464296 ], [ -48.693701896787907, -26.974625395780762 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2160880960", "cod": 1479.0, "nome": "R.João Thomaz Pinto", "ptotalvia": 25.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693320679867739, -26.97454480567637 ], [ -48.69341104, -26.974610389999988 ], [ -48.693732297159642, -26.974835719034399 ] ] } }
 ]
 }

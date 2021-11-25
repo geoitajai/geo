@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050410140", "cod": 22.0, "nome": "R.Jaci Ramos", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692294722381682, -26.901123297703606 ], [ -48.69222227, -26.90112536 ], [ -48.691776709240152, -26.901132341305196 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050410140", "cod": 22.0, "nome": "R.Jaci Ramos", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692294722381682, -26.901123297703606 ], [ -48.69222227, -26.90112536 ], [ -48.691776709240152, -26.901132341305193 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "0050410140", "cod": 10.0, "nome": "R.Antônio Ayres dos Santos", "ptotalvia": 13.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692222713633271, -26.901175435511206 ], [ -48.69222254, -26.90115593 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0050410140", "cod": 10.0, "nome": "R.Antônio Ayres dos Santos", "ptotalvia": 13.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69222254, -26.90115593 ], [ -48.69222227, -26.90112536 ], [ -48.69222556397083, -26.900863567336334 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0050410140", "cod": 10.0, "nome": "R.Antônio Ayres dos Santos", "ptotalvia": 13.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69222254, -26.90115593 ], [ -48.69222227, -26.90112536 ], [ -48.69222556397083, -26.90086356733633 ] ] } }
 ]
 }

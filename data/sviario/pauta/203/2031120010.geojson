@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2031120010", "cod": 1110.0, "nome": "R.Sebastião Romeu Soares", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.705449983658582, -26.883135603408046 ], [ -48.7053961, -26.88313838 ], [ -48.705036135221299, -26.883160199554869 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2031120010", "cod": 1110.0, "nome": "R.Sebastião Romeu Soares", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.705449983658582, -26.883135603408043 ], [ -48.7053961, -26.88313838 ], [ -48.705036135221299, -26.883160199554869 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2031120010", "cod": 1100.0, "nome": "R.Gercino José Correa", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.705376792830833, -26.882800378371297 ], [ -48.7053961, -26.88313838 ], [ -48.705398987598187, -26.883188132178322 ] ] } }
 ]
 }

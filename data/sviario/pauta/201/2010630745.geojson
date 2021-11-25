@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010630745", "cod": 283.0, "nome": "R.José Russi", "ptotalvia": 7.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66851047485688, -26.908061462477296 ], [ -48.668529539453019, -26.90820828602692 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010630745", "cod": 326.0, "nome": "R.Hermann Bachmann", "ptotalvia": 4.2, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.668798585148181, -26.907912969522116 ], [ -48.668842856918467, -26.908302214248238 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2010630745", "cod": 283.0, "nome": "R.José Russi", "ptotalvia": 7.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.668510474856888, -26.908061462477281 ], [ -48.668529539453019, -26.908208286026927 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010630745", "cod": 326.0, "nome": "R.Hermann Bachmann", "ptotalvia": 4.2, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.668798585148181, -26.907912969522112 ], [ -48.668842856918467, -26.908302214248238 ] ] } }
 ]
 }

@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2010562015", "cod": 286.0, "nome": "R.Tijucas", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.663099248880599, -26.906168280514709 ], [ -48.66305565, -26.90621575 ], [ -48.662819307051244, -26.906487734806362 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010562015", "cod": 291.0, "nome": "R.Samuel Heusi", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66305565, -26.90621575 ], [ -48.663001200450687, -26.906182037941253 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010562015", "cod": 339.0, "nome": "R.Dr.Alexandre Fleming", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.663751830658661, -26.906672525376752 ], [ -48.66371655, -26.90665485 ], [ -48.66339532, -26.90650278 ], [ -48.66305565, -26.90621575 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010562015", "cod": 342.0, "nome": "R.Dr.Cacildo Romagnoni", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.663739280244009, -26.906629971964115 ], [ -48.66371655, -26.90665485 ], [ -48.66350438, -26.90694308 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010562015", "cod": 342.0, "nome": "R.Dr.Cacildo Romagnoni", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66350438, -26.90694308 ], [ -48.663436871295964, -26.907034402043188 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010562015", "cod": 340.0, "nome": "R.Anita Garibaldi", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.663569676471084, -26.906993788296397 ], [ -48.66350438, -26.90694308 ] ] } }
+]
+}

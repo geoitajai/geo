@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2030840120", "cod": 1080.0, "nome": "R.Carlos Juvenal Gomes", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695797663203244, -26.876791121649177 ], [ -48.69555002, -26.87680048 ], [ -48.695423425074416, -26.876804554245737 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2030840120", "cod": 1080.0, "nome": "R.Carlos Juvenal Gomes", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695797663203244, -26.876791121649177 ], [ -48.69555002, -26.87680048 ], [ -48.695423425074416, -26.876804554245744 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2030840120", "cod": 1088.0, "nome": "R.Romualdo Manoel Fagundes", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69555002, -26.87680048 ], [ -48.695553880136394, -26.87689660380239 ] ] } }
 ]
 }

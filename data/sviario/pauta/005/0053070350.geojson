@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0053070350", "cod": 31.0, "nome": "R.Israel de Almeida", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70390688701989, -26.912902036157199 ], [ -48.703926630336625, -26.913247820148541 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0053070350", "cod": 31.0, "nome": "R.Israel de Almeida", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70390688701989, -26.912902036157199 ], [ -48.703926630336625, -26.913247820148545 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "0053070350", "cod": 1289.0, "nome": "R.Antero Antônio Cardoso", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.704442856251873, -26.913148903816349 ], [ -48.70430613, -26.91315384 ] ] } }
 ]
 }

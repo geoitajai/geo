@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0030750015", "cod": 1162.0, "nome": "R.Nossa Senhora de Fátima", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698913391130695, -26.889185449655539 ], [ -48.69892252, -26.88946539 ], [ -48.698926299949484, -26.889548000719806 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0030750015", "cod": 1189.0, "nome": "R.Rio de Janeiro", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698877927520627, -26.889567837963305 ], [ -48.698620198170083, -26.889575843305163 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0030750015", "cod": 1233.0, "nome": "R.Áurea de Souza", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6990006625973, -26.889463704577118 ], [ -48.69892252, -26.88946539 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0030750015", "cod": 1162.0, "nome": "R.Nossa Senhora de Fátima", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698913391130695, -26.889185449655535 ], [ -48.69892252, -26.88946539 ], [ -48.698926299949484, -26.889548000719806 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0030750015", "cod": 1189.0, "nome": "R.Rio de Janeiro", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698877927520627, -26.889567837963305 ], [ -48.698620198170076, -26.889575843305163 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0030750015", "cod": 1233.0, "nome": "R.Áurea de Souza", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6990006625973, -26.889463704577114 ], [ -48.69892252, -26.88946539 ] ] } }
 ]
 }

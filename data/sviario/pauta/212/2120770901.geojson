@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2120770901", "cod": 464.0, "nome": "R.João Napoleão de Souza", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676847908419205, -26.887285302452685 ], [ -48.67649585, -26.88731789 ], [ -48.676396621445662, -26.887328259398402 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2120770901", "cod": 464.0, "nome": "R.João Napoleão de Souza", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676847908419205, -26.887285302452682 ], [ -48.67649585, -26.88731789 ], [ -48.676396621445662, -26.887328259398402 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2120770901", "cod": 465.0, "nome": "R.Bernardino Ramos", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676269305716623, -26.887120929483668 ], [ -48.67649585, -26.88731789 ], [ -48.676604568221798, -26.887409802049071 ] ] } }
 ]
 }

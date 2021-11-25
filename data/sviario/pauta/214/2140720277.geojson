@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140720277", "cod": 784.0, "nome": "R.Francisca Bernardes", "ptotalvia": 8.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.64024028, -26.95484135 ], [ -48.640229007676979, -26.954842479643009 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2140720277", "cod": 785.0, "nome": "R.Suécia", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.64065959093255, -26.954973444893106 ], [ -48.6402444553515, -26.95496660563396 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2140720277", "cod": 586.0, "nome": "Av.Osvaldo Reis", "ptotalvia": 34.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.64024786143252, -26.954780929786406 ], [ -48.64024028, -26.95484135 ], [ -48.640227585650209, -26.954923780796808 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2140720277", "cod": 784.0, "nome": "R.Francisca Bernardes", "ptotalvia": 8.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.64024028, -26.95484135 ], [ -48.640229007676979, -26.954842479643006 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140720277", "cod": 785.0, "nome": "R.Suécia", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.640659590932543, -26.95497344489311 ], [ -48.6402444553515, -26.95496660563396 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140720277", "cod": 586.0, "nome": "Av.Osvaldo Reis", "ptotalvia": 34.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.64024786143252, -26.954780929786399 ], [ -48.64024028, -26.95484135 ], [ -48.640227585650209, -26.954923780796808 ] ] } }
 ]
 }

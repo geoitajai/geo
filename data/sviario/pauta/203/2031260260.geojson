@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2031260260", "cod": 1027.0, "nome": "R.Francisco José de Aviz", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702856129855014, -26.869545663392408 ], [ -48.70246518, -26.86956528000001 ], [ -48.702406058892088, -26.869567163972576 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2031260260", "cod": 1036.0, "nome": "R.Alexandre D´Ávila Baptista", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702461601554901, -26.869503993630648 ], [ -48.70246518, -26.86956528000001 ], [ -48.70248161808064, -26.869858145522738 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2031260260", "cod": 1027.0, "nome": "R.Francisco José de Aviz", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702856129855014, -26.869545663392412 ], [ -48.70246518, -26.86956528 ], [ -48.702406058892088, -26.869567163972576 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2031260260", "cod": 1036.0, "nome": "R.Alexandre D´Ávila Baptista", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702461601554901, -26.869503993630644 ], [ -48.70246518, -26.86956528 ], [ -48.702481618080647, -26.869858145522734 ] ] } }
 ]
 }

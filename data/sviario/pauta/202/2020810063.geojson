@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020810063", "cod": 243.0, "nome": "R.Raul Heusi da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674402065451858, -26.904365062978005 ], [ -48.67441873, -26.9046883 ], [ -48.674411814171663, -26.904760885489001 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020810063", "cod": 243.0, "nome": "R.Raul Heusi da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674402065451858, -26.904365062978002 ], [ -48.67441873, -26.9046883 ], [ -48.674411814171656, -26.904760885489001 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2020810063", "cod": 233.0, "nome": "R.Teodoro Luiz Pereira", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674499041137274, -26.904683852086226 ], [ -48.67441873, -26.9046883 ], [ -48.674145773049005, -26.904704451838853 ] ] } }
 ]
 }

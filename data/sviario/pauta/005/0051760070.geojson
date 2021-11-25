@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0051760070", "cod": 982.0, "nome": "R.João Cirilo da Cunha", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.699319553694941, -26.926878896771139 ], [ -48.69926065, -26.92693541 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0051760070", "cod": 982.0, "nome": "R.João Cirilo da Cunha", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.699319553694941, -26.926878896771143 ], [ -48.69926065, -26.92693541 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "0051760070", "cod": 984.0, "nome": "R.Maria Alves Mafra", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.699133823520079, -26.926828611475131 ], [ -48.69926065, -26.92693541 ], [ -48.69938907800848, -26.927040749443648 ] ] } }
 ]
 }

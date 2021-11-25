@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040250066", "cod": 628.0, "nome": "R.Bento Adriano Pereira", "ptotalvia": 5.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65564161, -26.91405314 ], [ -48.655120514140322, -26.91364907982376 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040250066", "cod": 281.0, "nome": "R.Camboriú", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.655691748858345, -26.913931068558082 ], [ -48.655575776812071, -26.914218107169141 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2040250066", "cod": 628.0, "nome": "R.Bento Adriano Pereira", "ptotalvia": 5.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65564161, -26.91405314 ], [ -48.655120514140322, -26.913649079823756 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040250066", "cod": 281.0, "nome": "R.Camboriú", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.655691748858345, -26.913931068558078 ], [ -48.655575776812071, -26.914218107169141 ] ] } }
 ]
 }

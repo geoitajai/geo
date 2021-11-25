@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2041851223", "cod": 659.0, "nome": "R.Aladi Schendroski Bini", "ptotalvia": 12.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.655837158572368, -26.919164870542225 ], [ -48.656103150621497, -26.919392080429088 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2041851223", "cod": 662.0, "nome": "R.Carlos Gonçalves Dutra", "ptotalvia": 5.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.655594194400607, -26.919369674053641 ], [ -48.655886108109868, -26.919621396420595 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2041851223", "cod": 659.0, "nome": "R.Aladi Schendroski Bini", "ptotalvia": 12.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.655837158572368, -26.919164870542229 ], [ -48.656103150621497, -26.919392080429088 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2041851223", "cod": 662.0, "nome": "R.Carlos Gonçalves Dutra", "ptotalvia": 5.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.655594194400607, -26.919369674053645 ], [ -48.655886108109868, -26.919621396420595 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2041851223", "cod": 266.0, "nome": "R.Uruguai", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.655823524865106, -26.919170286999844 ], [ -48.655702210275138, -26.919257697218292 ] ] } }
 ]
 }

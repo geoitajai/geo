@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010300811", "cod": 278.0, "nome": "R.Joinville", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.657296964968346, -26.908108423753408 ], [ -48.656975483721716, -26.908017072813173 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010300811", "cod": 278.0, "nome": "R.Joinville", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.657296964968346, -26.908108423753408 ], [ -48.656975483721716, -26.90801707281317 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2010300811", "cod": 294.0, "nome": "R.Felipe Schmidt", "ptotalvia": 13.0, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656988237145661, -26.907557437267478 ], [ -48.65687286, -26.90782901 ], [ -48.656865664966197, -26.907904847104575 ] ] } }
 ]
 }

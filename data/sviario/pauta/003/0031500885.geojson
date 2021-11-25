@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0031500885", "cod": 1688.0, "nome": "R.5 \"Lot. Jardim Violino\"", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70586486, -26.8963245 ], [ -48.705758424719335, -26.896328118081897 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031500885", "cod": 1688.0, "nome": "R.5 \"Lot. Jardim Violino\"", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70586486, -26.8963245 ], [ -48.705758424719335, -26.896328118081893 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "0031500885", "cod": 1172.0, "nome": "R.Enedina D'Avila Ferreira", "ptotalvia": 15.0, "ppasseio1": 3.5, "ppasseio2": 3.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.706242498312847, -26.896047613324068 ], [ -48.706260887370746, -26.896369753514517 ] ] } }
 ]
 }

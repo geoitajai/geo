@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2210810070", "cod": 565.0, "nome": "R.Antero Chaves", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.678483806822861, -26.921230384500284 ], [ -48.67891122, -26.921225939999985 ], [ -48.678985799435743, -26.921222936606672 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2210810070", "cod": 571.0, "nome": "R.Alois Wippel", "ptotalvia": 12.0, "ppasseio1": 5.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67891122, -26.921225939999985 ], [ -48.678917702724689, -26.921521212627407 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2210810070", "cod": 565.0, "nome": "R.Antero Chaves", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.678483806822868, -26.921230384500284 ], [ -48.67891122, -26.92122594 ], [ -48.678985799435743, -26.921222936606672 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210810070", "cod": 571.0, "nome": "R.Alois Wippel", "ptotalvia": 12.0, "ppasseio1": 5.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67891122, -26.92122594 ], [ -48.678917702724689, -26.921521212627407 ] ] } }
 ]
 }

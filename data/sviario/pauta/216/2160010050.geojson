@@ -2,6 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2160010050", "cod": 1429.0, "nome": "R.Ver.Germano Luiz Vieira", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.751706370927721, -26.951511864437553 ], [ -48.751365186046051, -26.951044721883598 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2160010050", "cod": 1776.0, "nome": "R.Valdir Luís Melsi", "ptotalvia": null, "ppasseio1": null, "ppasseio2": null }, "geometry": { "type": "LineString", "coordinates": [ [ -48.75166093, -26.95144965 ], [ -48.75109331, -26.95174802 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2160010050", "cod": 1429.0, "nome": "R.Ver.Germano Luiz Vieira", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.751706370927721, -26.95151186443757 ], [ -48.751365186046051, -26.951044721883598 ] ] } }
 ]
 }

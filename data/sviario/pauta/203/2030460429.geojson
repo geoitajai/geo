@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2030460429", "cod": 1024.0, "nome": "R.Theodoro Lino Régis", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697430342731387, -26.867463773536613 ], [ -48.69781077, -26.86751405 ], [ -48.697934245254025, -26.867517438729202 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2030460429", "cod": 1024.0, "nome": "R.Theodoro Lino Régis", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697430342731387, -26.86746377353661 ], [ -48.69781077, -26.86751405 ], [ -48.697934245254025, -26.867517438729202 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2030460429", "cod": 1040.0, "nome": "R.Valdecir Bastos", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69781077, -26.86751405 ], [ -48.697814231802091, -26.867586974135914 ] ] } }
 ]
 }

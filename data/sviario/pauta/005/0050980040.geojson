@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050980040", "cod": 46.0, "nome": "R.Dr.Ivo Stein Ferreira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69504617, -26.89842947 ], [ -48.694994251629076, -26.898432793346863 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0050980040", "cod": 45.0, "nome": "R.Olavo Bilac", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695023304931397, -26.898124682693069 ], [ -48.69504914934916, -26.898463018838829 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0050980040", "cod": 46.0, "nome": "R.Dr.Ivo Stein Ferreira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69504617, -26.89842947 ], [ -48.694994251629076, -26.89843279334686 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050980040", "cod": 45.0, "nome": "R.Olavo Bilac", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695023304931389, -26.898124682693069 ], [ -48.69504914934916, -26.898463018838825 ] ] } }
 ]
 }

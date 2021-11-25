@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140790050", "cod": 830.0, "nome": "R.André Luiz Vidal Soares", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.63041651, -26.94544314 ], [ -48.630362152302425, -26.94545027484347 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2140790050", "cod": 830.0, "nome": "R.André Luiz Vidal Soares", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.63041651, -26.94544314 ], [ -48.630362152302425, -26.945450274843473 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2140790050", "cod": 782.0, "nome": "R.Delfim Mário Pádua Peixoto", "ptotalvia": 20.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.630447898723446, -26.945691477614716 ], [ -48.63041651, -26.94544314 ], [ -48.630411747194536, -26.945380880204446 ] ] } }
 ]
 }

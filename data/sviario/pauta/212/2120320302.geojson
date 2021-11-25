@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2120320302", "cod": 464.0, "nome": "R.João Napoleão de Souza", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67823941, -26.88580577 ], [ -48.677987629670888, -26.886109450735653 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2120320302", "cod": 464.0, "nome": "R.João Napoleão de Souza", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67823941, -26.88580577 ], [ -48.677987629670888, -26.886109450735656 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2120320302", "cod": 483.0, "nome": "R.Henrique Dauer", "ptotalvia": 14.4, "ppasseio1": 1.9, "ppasseio2": 1.9 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.678853099526883, -26.88624205867789 ], [ -48.67865842, -26.88607654 ], [ -48.67823941, -26.88580577 ] ] } }
 ]
 }

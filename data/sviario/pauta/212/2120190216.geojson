@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2120190216", "cod": 159.0, "nome": "R.José Pereira Liberato", "ptotalvia": 12.5, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.681761139763964, -26.892288268818181 ], [ -48.6817709, -26.8925258 ], [ -48.681772084877743, -26.892565645156012 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2120190216", "cod": 159.0, "nome": "R.José Pereira Liberato", "ptotalvia": 12.5, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.681761139763964, -26.892288268818184 ], [ -48.6817709, -26.8925258 ], [ -48.681772084877743, -26.892565645156015 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2120190216", "cod": 420.0, "nome": "Trav.Marcos Castellain", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.681814550733989, -26.892523286721282 ], [ -48.6817709, -26.8925258 ] ] } }
 ]
 }

@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010070110", "cod": 288.0, "nome": "Av.Pref.Paulo Bauer", "ptotalvia": 14.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656582584528664, -26.903570895219804 ], [ -48.656177560959065, -26.903849188546399 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2010070110", "cod": 288.0, "nome": "Av.Pref.Paulo Bauer", "ptotalvia": 14.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656582584528664, -26.903570895219804 ], [ -48.656177560959065, -26.903849188546403 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2010070110", "cod": 289.0, "nome": "R.Dr. Pedro Ferreira", "ptotalvia": 14.0, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65690973614285, -26.903919002828307 ], [ -48.656498358307751, -26.904206700162135 ] ] } }
 ]
 }

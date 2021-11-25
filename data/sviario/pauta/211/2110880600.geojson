@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110880600", "cod": 543.0, "nome": "R.José Siqueira", "ptotalvia": 25.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67739704, -26.92156527 ], [ -48.67734037629873, -26.921884859858544 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110880600", "cod": 545.0, "nome": "R.José Gall", "ptotalvia": 15.6, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677403521127587, -26.921567985764028 ], [ -48.67739704, -26.92156527 ], [ -48.677102915906389, -26.921439353126146 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110880600", "cod": 543.0, "nome": "R.José Siqueira", "ptotalvia": 25.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67739704, -26.92156527 ], [ -48.67734037629873, -26.92188485985854 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110880600", "cod": 545.0, "nome": "R.José Gall", "ptotalvia": 15.6, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677403521127587, -26.921567985764028 ], [ -48.67739704, -26.92156527 ], [ -48.677102915906381, -26.921439353126146 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2110880600", "cod": 227.0, "nome": "R.Indaial", "ptotalvia": 17.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677396098573048, -26.921541594058354 ], [ -48.67739704, -26.92156529 ] ] } }
 ]
 }

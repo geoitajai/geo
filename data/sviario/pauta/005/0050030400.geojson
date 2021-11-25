@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050030400", "cod": 84.0, "nome": "R.São Vicente", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68682922541057, -26.905819981582372 ], [ -48.68692541, -26.90604451 ], [ -48.686990178836403, -26.906163064947751 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050030400", "cod": 84.0, "nome": "R.São Vicente", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68682922541057, -26.905819981582376 ], [ -48.68692541, -26.90604451 ], [ -48.686990178836403, -26.906163064947755 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "0050030400", "cod": 100.0, "nome": "R.Yukio Cadóia", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68692541, -26.90604451 ], [ -48.687034618926766, -26.906040258593201 ] ] } }
 ]
 }

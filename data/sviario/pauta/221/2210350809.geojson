@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2210350809", "cod": 580.0, "nome": "R.Antônio Manoel Correia", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.680297235067414, -26.917107412494659 ], [ -48.67986054, -26.9171331 ], [ -48.679789445541971, -26.917136917669886 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2210350809", "cod": 580.0, "nome": "R.Antônio Manoel Correia", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.680297235067414, -26.917107412494659 ], [ -48.67986054, -26.9171331 ], [ -48.679789445541971, -26.917136917669882 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2210350809", "cod": 512.0, "nome": "R.Ângelo Rodi", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.679857454149129, -26.917066141320003 ], [ -48.67986054, -26.9171331 ], [ -48.679885869586194, -26.917511958188324 ] ] } }
 ]
 }

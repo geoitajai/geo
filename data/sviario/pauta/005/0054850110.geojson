@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0054850110", "cod": 939.0, "nome": "R.José Domingos Mafra", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.704382378267731, -26.922756337429067 ], [ -48.704208616697422, -26.922618305589907 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0054850110", "cod": 939.0, "nome": "R.José Domingos Mafra", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.704382378267731, -26.922756337429067 ], [ -48.704208616697422, -26.922618305589904 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "0054850110", "cod": 934.0, "nome": "R.Maria Lucia de Amorim", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.704436418323439, -26.922389957378346 ], [ -48.704201197803329, -26.922603913125549 ] ] } }
 ]
 }

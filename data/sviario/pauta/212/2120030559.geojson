@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2120030559", "cod": 159.0, "nome": "R.José Pereira Liberato", "ptotalvia": 12.5, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.682240422937404, -26.89914633899652 ], [ -48.68225077, -26.8992317 ], [ -48.682280089458416, -26.899457915622637 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2120030559", "cod": 159.0, "nome": "R.José Pereira Liberato", "ptotalvia": 12.5, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.682240422937404, -26.899146338996523 ], [ -48.68225077, -26.8992317 ], [ -48.682280089458409, -26.899457915622637 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2120030559", "cod": 196.0, "nome": "R.Antônio Ramos", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68225077, -26.8992317 ], [ -48.681772516825376, -26.899257664777796 ] ] } }
 ]
 }

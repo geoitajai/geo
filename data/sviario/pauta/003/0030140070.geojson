@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0030140070", "cod": 1117.0, "nome": "R.Erminio Machado", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691866289347935, -26.893633162279389 ], [ -48.691885082643552, -26.893973465051605 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0030140070", "cod": 1117.0, "nome": "R.Erminio Machado", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691866289347935, -26.893633162279389 ], [ -48.691885082643552, -26.893973465051602 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "0030140070", "cod": 1118.0, "nome": "R.João Magalhães", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691481405122893, -26.893652907363773 ], [ -48.691505047233306, -26.89399327834747 ] ] } }
 ]
 }

@@ -2,9 +2,9 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040750286", "cod": 656.0, "nome": "R.João Matias Heil", "ptotalvia": 12.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65682847, -26.91844111 ], [ -48.657054761366688, -26.918639243212006 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040750286", "cod": 656.0, "nome": "R.João Matias Heil", "ptotalvia": 12.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65682847, -26.918441109999989 ], [ -48.657054761366688, -26.918639243212006 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2040750286", "cod": 658.0, "nome": "R.Cecília Brandão", "ptotalvia": 12.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65632348, -26.91880415 ], [ -48.656621793575987, -26.919060110178375 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040750286", "cod": 679.0, "nome": "R.Eduardo Gonçalves Dutra", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65662753, -26.91857784 ], [ -48.656555715295987, -26.918516247426858 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040750286", "cod": 266.0, "nome": "R.Uruguai", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656846259735879, -26.918428006420896 ], [ -48.65682847, -26.91844111 ], [ -48.65662753, -26.91857784 ], [ -48.65632348, -26.91880415 ], [ -48.656307009969794, -26.918816216034763 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2040750286", "cod": 679.0, "nome": "R.Eduardo Gonçalves Dutra", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65662753, -26.91857784 ], [ -48.656555715295987, -26.918516247426862 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040750286", "cod": 266.0, "nome": "R.Uruguai", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656846259735879, -26.918428006420896 ], [ -48.65682847, -26.918441109999989 ], [ -48.65662753, -26.91857784 ], [ -48.65632348, -26.91880415 ], [ -48.656307009969794, -26.918816216034763 ] ] } }
 ]
 }

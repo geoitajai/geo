@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050050835", "cod": 71.0, "nome": "R.Abelardo Luz", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.687838871464919, -26.896869539910348 ], [ -48.687833268904747, -26.897317871003423 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050050835", "cod": 71.0, "nome": "R.Abelardo Luz", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.687838871464919, -26.896869539910345 ], [ -48.687833268904747, -26.897317871003423 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "0050050835", "cod": 70.0, "nome": "R.Dionísio Cerqueira", "ptotalvia": 5.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.688182846612897, -26.896862072504597 ], [ -48.688179226234055, -26.897327937666599 ] ] } }
 ]
 }

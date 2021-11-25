@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050310360", "cod": 103.0, "nome": "R.Com.Germano Rauert", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.690769762366457, -26.908020335927652 ], [ -48.69070745, -26.9080224 ], [ -48.690400294961869, -26.908032182154962 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0050310360", "cod": 51.0, "nome": "R.Otávio Cesário Pereira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69069989, -26.9077142 ], [ -48.69070745, -26.9080224 ], [ -48.690708000312483, -26.90807913321057 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050310360", "cod": 103.0, "nome": "R.Com.Germano Rauert", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.690769762366457, -26.908020335927652 ], [ -48.69070745, -26.9080224 ], [ -48.690400294961869, -26.908032182154965 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050310360", "cod": 51.0, "nome": "R.Otávio Cesário Pereira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69069989, -26.9077142 ], [ -48.69070745, -26.9080224 ], [ -48.690708000312483, -26.908079133210567 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "0050310360", "cod": 51.0, "nome": "R.Otávio Cesário Pereira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.690697133160953, -26.907601745247067 ], [ -48.69069989, -26.9077142 ] ] } }
 ]
 }

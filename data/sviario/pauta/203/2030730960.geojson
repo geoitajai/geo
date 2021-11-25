@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2030730960", "cod": 1175.0, "nome": "Av.Marginal Leste", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.729959086421857, -26.867796940287906 ], [ -48.72997794, -26.86761633 ], [ -48.729973619773958, -26.867479512882408 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2030730960", "cod": 1175.0, "nome": "Av.Marginal Leste", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.729959086421857, -26.867796940287906 ], [ -48.72997794, -26.86761633 ], [ -48.729973619773958, -26.867479512882404 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2030730960", "cod": 1275.0, "nome": "R.Mathias Chrispim Ferreira", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.72976196, -26.86774438 ], [ -48.729568145933506, -26.867754710825082 ] ] } }
 ]
 }

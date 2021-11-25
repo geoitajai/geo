@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0055110070", "cod": 143.0, "nome": "R.Alice dos Santos Bittencourt", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70852207432516, -26.910772808077656 ], [ -48.7084518, -26.9107689 ], [ -48.708063950396522, -26.91078493188505 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0055110070", "cod": 143.0, "nome": "R.Alice dos Santos Bittencourt", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70852207432516, -26.91077280807766 ], [ -48.7084518, -26.9107689 ], [ -48.708063950396522, -26.91078493188505 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "0055110070", "cod": 135.0, "nome": "R.José Pezzini", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.708439775907728, -26.910499219996563 ], [ -48.70845303, -26.91079642 ], [ -48.708454187919465, -26.910838075319219 ] ] } }
 ]
 }

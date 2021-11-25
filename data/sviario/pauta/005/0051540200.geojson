@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0051540200", "cod": 905.0, "nome": "R.Dr.Hermes Atílio Mariani", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693876618776628, -26.916032184902548 ], [ -48.69345157, -26.91605248 ], [ -48.693390066425529, -26.916056003068586 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0051540200", "cod": 905.0, "nome": "R.Dr.Hermes Atílio Mariani", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693876618776628, -26.916032184902544 ], [ -48.69345157, -26.91605248 ], [ -48.693390066425529, -26.916056003068586 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "0051540200", "cod": 894.0, "nome": "R.Agílio Cunha", "ptotalvia": 15.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69343158740395, -26.915767355339284 ], [ -48.69345157, -26.91605248 ], [ -48.693454159716623, -26.916119434960631 ] ] } }
 ]
 }

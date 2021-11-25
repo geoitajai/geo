@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020940250", "cod": 159.0, "nome": "R.José Pereira Liberato", "ptotalvia": 12.5, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.682990143835219, -26.906534580585056 ], [ -48.683174740668456, -26.906892788868166 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020940250", "cod": 263.0, "nome": "Serv.Francisco Pedroni", "ptotalvia": 6.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68302188, -26.90659616 ], [ -48.683740490011253, -26.90650064358266 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2020940250", "cod": 159.0, "nome": "R.José Pereira Liberato", "ptotalvia": 12.5, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.682990143835219, -26.906534580585056 ], [ -48.683174740668456, -26.90689278886817 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020940250", "cod": 263.0, "nome": "Serv.Francisco Pedroni", "ptotalvia": 6.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68302188, -26.90659616 ], [ -48.683740490011253, -26.906500643582664 ] ] } }
 ]
 }

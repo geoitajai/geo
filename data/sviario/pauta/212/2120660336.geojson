@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2120660336", "cod": 475.0, "nome": "R.Mauricio Pacheco", "ptotalvia": 20.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.669928922812417, -26.884078967441553 ], [ -48.66996296, -26.88410734 ], [ -48.670231224270708, -26.884339283744719 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2120660336", "cod": 475.0, "nome": "R.Mauricio Pacheco", "ptotalvia": 20.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.669928922812417, -26.884078967441557 ], [ -48.66996296, -26.88410734 ], [ -48.670231224270687, -26.884339283744715 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2120660336", "cod": 478.0, "nome": "R.Osvaldir Cardoso", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.670206928731652, -26.883872938182371 ], [ -48.66996296, -26.88410734 ] ] } }
 ]
 }

@@ -2,9 +2,9 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2041110010", "cod": 545.0, "nome": "R.José Gall", "ptotalvia": 15.6, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68653421, -26.93065555 ], [ -48.68653390476895, -26.930653433534022 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2041110010", "cod": 882.0, "nome": "R.Otávio Müller", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.686350757954088, -26.931349431596654 ], [ -48.68607675, -26.93116461 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2041110010", "cod": 890.0, "nome": "R.Sol.Abelardo Mendonça Sobrinho", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.686123090167335, -26.930450070739312 ], [ -48.68607675, -26.93116461 ], [ -48.686071679481756, -26.931250888162271 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2041110010", "cod": 265.0, "nome": "Av.Ver.Abrahão João Francisco", "ptotalvia": 29.4, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.686698187964701, -26.930767847318346 ], [ -48.68653421, -26.93065555 ], [ -48.686432462141155, -26.930583259732696 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2041110010", "cod": 545.0, "nome": "R.José Gall", "ptotalvia": 15.6, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68653421, -26.93065555 ], [ -48.68653390476895, -26.930653433534019 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2041110010", "cod": 882.0, "nome": "R.Otávio Müller", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.686350757954088, -26.931349431596658 ], [ -48.68607675, -26.93116461 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2041110010", "cod": 890.0, "nome": "R.Sol.Abelardo Mendonça Sobrinho", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.686123090167335, -26.930450070739308 ], [ -48.68607675, -26.93116461 ], [ -48.686071679481756, -26.931250888162271 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2041110010", "cod": 265.0, "nome": "Av.Ver.Abrahão João Francisco", "ptotalvia": 29.4, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.686698187964701, -26.93076784731835 ], [ -48.68653421, -26.93065555 ], [ -48.686432462141155, -26.930583259732696 ] ] } }
 ]
 }

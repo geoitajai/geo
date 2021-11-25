@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050051230", "cod": 84.0, "nome": "R.São Vicente", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.687282760071035, -26.900256447584002 ], [ -48.68715824, -26.90057243 ], [ -48.687139045458395, -26.900627013018315 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050051230", "cod": 84.0, "nome": "R.São Vicente", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.687282760071035, -26.900256447584006 ], [ -48.68715824, -26.90057243 ], [ -48.687139045458395, -26.900627013018315 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "0050051230", "cod": 27.0, "nome": "R.João Olegário Dutra", "ptotalvia": 8.5, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.687703808891577, -26.900565970472343 ], [ -48.68715824, -26.90057243 ] ] } }
 ]
 }

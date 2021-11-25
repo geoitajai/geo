@@ -2,7 +2,9 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2156302800", "cod": 1402.0, "nome": "R.Domingos Rampelotti", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.756920795081932, -26.911607299352561 ], [ -48.75689136, -26.91158074 ], [ -48.75681161, -26.91141481 ], [ -48.75680164, -26.91059405 ], [ -48.75674848, -26.91032442 ], [ -48.756612757958891, -26.910083900809123 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2156302800", "cod": 1404.0, "nome": "Serv.José Dalsóquio", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.7568069, -26.91102642 ], [ -48.756884499634623, -26.911008889331026 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2156302800", "cod": 1403.0, "nome": "R.Luiz Moser", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.758668593833747, -26.92396318560181 ], [ -48.75897039, -26.92395808 ], [ -48.759371175390484, -26.923950977001844 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2156302800", "cod": null, "nome": "", "ptotalvia": null, "ppasseio1": null, "ppasseio2": null }, "geometry": { "type": "LineString", "coordinates": [ [ -48.757494097805882, -26.923972246088169 ], [ -48.75736441, -26.92393511 ], [ -48.756814695128703, -26.923949515477418 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2156302800", "cod": 1402.0, "nome": "R.Domingos Rampelotti", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.756920795081932, -26.911607299352561 ], [ -48.75689136, -26.91158074 ], [ -48.75681161, -26.91141481 ], [ -48.75680164, -26.91059405 ], [ -48.75674848, -26.91032442 ], [ -48.756612757958884, -26.910083900809127 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2156302800", "cod": 1404.0, "nome": "Serv.José Dalsóquio", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.7568069, -26.91102642 ], [ -48.756884499634623, -26.911008889331029 ] ] } }
 ]
 }

@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0055190010", "cod": 135.0, "nome": "R.José Pezzini", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70857022843154, -26.912934113013293 ], [ -48.70858796, -26.91323267 ], [ -48.708591388371218, -26.913295084757959 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0055190010", "cod": 135.0, "nome": "R.José Pezzini", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70857022843154, -26.912934113013286 ], [ -48.70858796, -26.91323267 ], [ -48.708591388371218, -26.913295084757962 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "0055190010", "cod": 148.0, "nome": "R.Maria Pessoa Espíndola (Dona Continha)", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.708976813191526, -26.913212574923357 ], [ -48.70858796, -26.91323267 ], [ -48.708519539855423, -26.913235204739799 ] ] } }
 ]
 }

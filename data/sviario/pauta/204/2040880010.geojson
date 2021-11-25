@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040880010", "cod": 860.0, "nome": "R.Das Cerejeiras", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67670711, -26.92531729 ], [ -48.676188149492909, -26.925241294106296 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040880010", "cod": 860.0, "nome": "R.Das Cerejeiras", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67670711, -26.92531729 ], [ -48.676188149492909, -26.9252412941063 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2040880010", "cod": 862.0, "nome": "R.Eduardo Teixeira", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67676535949321, -26.925190443207196 ], [ -48.67672771, -26.925185039999988 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040880010", "cod": 543.0, "nome": "R.José Siqueira", "ptotalvia": 25.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676754934561352, -26.925041426834039 ], [ -48.67672771, -26.925185039999988 ], [ -48.67670711, -26.92531729 ], [ -48.676704877008497, -26.925330444172978 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2040880010", "cod": 543.0, "nome": "R.José Siqueira", "ptotalvia": 25.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676754934561352, -26.925041426834035 ], [ -48.67672771, -26.925185039999988 ], [ -48.67670711, -26.92531729 ], [ -48.67670487700849, -26.925330444172978 ] ] } }
 ]
 }

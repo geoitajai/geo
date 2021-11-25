@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2151040020", "cod": 1324.0, "nome": "R.Augusto Cugnier", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.750944523180699, -26.88279295842241 ], [ -48.75096678, -26.88306469 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2151040020", "cod": 1324.0, "nome": "R.Augusto Cugnier", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.750944523180699, -26.882792958422407 ], [ -48.75096678, -26.88306469 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2151040020", "cod": 1322.0, "nome": "R.Marcos Antônio Müller", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.751373554772698, -26.883037530265149 ], [ -48.75121631, -26.88304803 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2151040020", "cod": 1322.0, "nome": "R.Marcos Antônio Müller", "ptotalvia": 12.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.75121631, -26.88304803 ], [ -48.75096678, -26.88306469 ], [ -48.750890947128831, -26.88307053955565 ] ] } }
 ]

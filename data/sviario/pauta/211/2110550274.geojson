@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110550274", "cod": 385.0, "nome": "R.Manoel Correa", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.668687644024388, -26.91717999432937 ], [ -48.668346049617774, -26.917210564601067 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110550274", "cod": 272.0, "nome": "R.Maria Zelandia Dias Costa", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66851748, -26.91753621 ], [ -48.668532588905521, -26.917600351508813 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110550274", "cod": 385.0, "nome": "R.Manoel Correa", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.668687644024388, -26.917179994329366 ], [ -48.668346049617774, -26.917210564601067 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110550274", "cod": 272.0, "nome": "R.Maria Zelandia Dias Costa", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66851748, -26.91753621 ], [ -48.668532588905521, -26.917600351508817 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2110550274", "cod": 273.0, "nome": "R.Gustavo Manoel dos Santos", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.668728701200216, -26.917459303824646 ], [ -48.6686814, -26.91746077 ], [ -48.66851748, -26.91753621 ], [ -48.668473854797142, -26.917590729518782 ] ] } }
 ]
 }

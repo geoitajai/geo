@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0052800005", "cod": 64.0, "nome": "R.Papanduva", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.683285592374638, -26.894653630459583 ], [ -48.682901617099986, -26.895006336405775 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0052800005", "cod": 61.0, "nome": "R.São Francisco do Sul", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.682979385647464, -26.894441107672808 ], [ -48.68292045, -26.89464104000001 ], [ -48.682879217352763, -26.894997565646303 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0052800005", "cod": 64.0, "nome": "R.Papanduva", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.683285592374638, -26.894653630459583 ], [ -48.682901617099986, -26.895006336405778 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0052800005", "cod": 61.0, "nome": "R.São Francisco do Sul", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.682979385647464, -26.894441107672808 ], [ -48.68292045, -26.89464104 ], [ -48.682879217352763, -26.894997565646303 ] ] } }
 ]
 }

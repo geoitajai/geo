@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050590160", "cod": 22.0, "nome": "R.Jaci Ramos", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693914642816985, -26.901077517648744 ], [ -48.69383346, -26.90107949 ], [ -48.693401986344, -26.901091775711883 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0050590160", "cod": 50.0, "nome": "R.Luiz Lopes Gonzaga", "ptotalvia": 13.2, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69383247, -26.90111829 ], [ -48.693831575395528, -26.901153376405681 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0050590160", "cod": 50.0, "nome": "R.Luiz Lopes Gonzaga", "ptotalvia": 13.2, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693845616165149, -26.900838143956612 ], [ -48.69383346, -26.90107949 ], [ -48.69383247, -26.90111829 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0050590160", "cod": 22.0, "nome": "R.Jaci Ramos", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693914642816985, -26.901077517648744 ], [ -48.69383346, -26.901079490000011 ], [ -48.693401986344, -26.901091775711883 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050590160", "cod": 50.0, "nome": "R.Luiz Lopes Gonzaga", "ptotalvia": 13.2, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69383247, -26.90111829 ], [ -48.693831575395528, -26.901153376405677 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0050590160", "cod": 50.0, "nome": "R.Luiz Lopes Gonzaga", "ptotalvia": 13.2, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693845616165149, -26.900838143956616 ], [ -48.69383346, -26.901079490000011 ], [ -48.69383247, -26.90111829 ] ] } }
 ]
 }

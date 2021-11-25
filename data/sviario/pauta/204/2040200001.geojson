@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040200001", "cod": 639.0, "nome": "R.Estados Unidos", "ptotalvia": 8.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.654488145183457, -26.917521791476648 ], [ -48.654748631604335, -26.917733340381986 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040200001", "cod": 276.0, "nome": "Av.7 de Setembro", "ptotalvia": 18.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.654701082373357, -26.917866140315478 ], [ -48.654662226973372, -26.917948423363061 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2040200001", "cod": 639.0, "nome": "R.Estados Unidos", "ptotalvia": 8.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.654488145183457, -26.917521791476652 ], [ -48.654748631604342, -26.917733340381986 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040200001", "cod": 276.0, "nome": "Av.7 de Setembro", "ptotalvia": 18.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.654701082373364, -26.917866140315478 ], [ -48.654662226973365, -26.917948423363061 ] ] } }
 ]
 }

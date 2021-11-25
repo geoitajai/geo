@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020340274", "cod": 214.0, "nome": "R.Felício Maes", "ptotalvia": 7.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.673524944792021, -26.899123219949502 ], [ -48.673577280000011, -26.89916383 ], [ -48.673786933654107, -26.899331566798466 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020340274", "cod": 161.0, "nome": "Av.Irineu Bornhausen", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.673610525021651, -26.899101538102546 ], [ -48.673577280000011, -26.89916383 ], [ -48.67348241, -26.8992655 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020340274", "cod": 214.0, "nome": "R.Felício Maes", "ptotalvia": 7.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.673524944792021, -26.899123219949502 ], [ -48.673577280000011, -26.89916383 ], [ -48.673786933654107, -26.89933156679847 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2020340274", "cod": 161.0, "nome": "Av.Irineu Bornhausen", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.673610525021651, -26.899101538102549 ], [ -48.673577280000011, -26.89916383 ], [ -48.67348241, -26.8992655 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2020340274", "cod": 161.0, "nome": "Av.Irineu Bornhausen", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67348241, -26.8992655 ], [ -48.673403905123102, -26.899349627838596 ] ] } }
 ]
 }

@@ -2,8 +2,8 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2031240010", "cod": 1027.0, "nome": "R.Francisco José de Aviz", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702542071517662, -26.869561421917112 ], [ -48.70246518, -26.86956528000001 ], [ -48.70221036, -26.8695734 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2031240010", "cod": 1036.0, "nome": "R.Alexandre D´Ávila Baptista", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702448066378174, -26.869272182739767 ], [ -48.70246518, -26.86956528000001 ], [ -48.702468495289416, -26.869624346176465 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2031240010", "cod": 1027.0, "nome": "R.Francisco José de Aviz", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70221036, -26.8695734 ], [ -48.702083056907696, -26.869577453931775 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2031240010", "cod": 1027.0, "nome": "R.Francisco José de Aviz", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702542071517662, -26.869561421917112 ], [ -48.70246518, -26.86956528 ], [ -48.70221036, -26.8695734 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2031240010", "cod": 1036.0, "nome": "R.Alexandre D´Ávila Baptista", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702448066378182, -26.869272182739767 ], [ -48.70246518, -26.86956528 ], [ -48.702468495289416, -26.869624346176462 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2031240010", "cod": 1027.0, "nome": "R.Francisco José de Aviz", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70221036, -26.8695734 ], [ -48.702083056907696, -26.869577453931779 ] ] } }
 ]
 }

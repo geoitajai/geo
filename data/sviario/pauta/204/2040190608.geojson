@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040190608", "cod": 642.0, "nome": "R.João Luiz Medeiros", "ptotalvia": 6.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65434979, -26.91865928 ], [ -48.653929963230013, -26.91835007111311 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040190608", "cod": 276.0, "nome": "Av.7 de Setembro", "ptotalvia": 18.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.654424699899259, -26.91848590110742 ], [ -48.65434979, -26.91865928 ], [ -48.654347121137363, -26.918665751081409 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2040190608", "cod": 642.0, "nome": "R.João Luiz Medeiros", "ptotalvia": 6.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65434979, -26.91865928 ], [ -48.653929963230013, -26.918350071113107 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2040190608", "cod": 276.0, "nome": "Av.7 de Setembro", "ptotalvia": 18.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.654424699899266, -26.91848590110742 ], [ -48.65434979, -26.91865928 ], [ -48.654347121137363, -26.918665751081409 ] ] } }
 ]
 }

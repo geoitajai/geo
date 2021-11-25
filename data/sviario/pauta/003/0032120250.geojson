@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0032120250", "cod": 1173.0, "nome": "R.Agostinho Alves Ramos", "ptotalvia": 20.4, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.709000728761197, -26.905378583733825 ], [ -48.707708943720519, -26.904590976479682 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0032120250", "cod": 1173.0, "nome": "R.Agostinho Alves Ramos", "ptotalvia": 20.4, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.709000728761197, -26.905378583733825 ], [ -48.707708943720519, -26.904590976479678 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "0032120250", "cod": 1178.0, "nome": "Av.Mário Uriarte", "ptotalvia": 30.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.708747446779753, -26.900230841275349 ], [ -48.707529004889061, -26.900073729015144 ] ] } }
 ]
 }

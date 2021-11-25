@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2120460030", "cod": 451.0, "nome": "R.Pedro Teixeira de Mello", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.671653529086399, -26.887837999616881 ], [ -48.67137478, -26.88765517 ], [ -48.671324250982515, -26.887621652079677 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2120460030", "cod": 456.0, "nome": "Trav.Cambé", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.671559176698906, -26.887438703908284 ], [ -48.67137478, -26.88765517 ], [ -48.671327983331658, -26.887716038606928 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2120460030", "cod": 451.0, "nome": "R.Pedro Teixeira de Mello", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.671653529086399, -26.887837999616881 ], [ -48.67137478, -26.887655169999988 ], [ -48.671324250982515, -26.88762165207968 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2120460030", "cod": 456.0, "nome": "Trav.Cambé", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.671559176698892, -26.887438703908281 ], [ -48.67137478, -26.887655169999988 ], [ -48.671327983331658, -26.887716038606928 ] ] } }
 ]
 }

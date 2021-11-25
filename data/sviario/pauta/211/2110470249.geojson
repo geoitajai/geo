@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110470249", "cod": 335.0, "nome": "Trav.Reinaldo de Brito", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.668020575030326, -26.911584848548252 ], [ -48.668038266674422, -26.911605599725736 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2110470249", "cod": 335.0, "nome": "Trav.Reinaldo de Brito", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.668020575030326, -26.911584848548248 ], [ -48.668038266674458, -26.911605599725778 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2110470249", "cod": 327.0, "nome": "R.Umbelino Damasio de Brito", "ptotalvia": 11.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.667937255217332, -26.911548627533122 ], [ -48.667716873526238, -26.911833323891369 ] ] } }
 ]
 }

@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0030710140", "cod": 1207.0, "nome": "Av.Brasília", "ptotalvia": 18.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69830630647084, -26.896030222244196 ], [ -48.69830889, -26.896088 ], [ -48.698323522318127, -26.896463247038795 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0030710140", "cod": 1150.0, "nome": "R.Amapá", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698350059237903, -26.896086347852826 ], [ -48.69830889, -26.896088 ], [ -48.697989077645126, -26.896098393767485 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "0030710140", "cod": 1207.0, "nome": "Av.Brasília", "ptotalvia": 18.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69830630647084, -26.896030222244196 ], [ -48.69830889, -26.896088 ], [ -48.698323522318127, -26.896463247038799 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0030710140", "cod": 1150.0, "nome": "R.Amapá", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69835005923791, -26.896086347852826 ], [ -48.69830889, -26.896088 ], [ -48.697989077645126, -26.896098393767485 ] ] } }
 ]
 }
