@@ -47,7 +47,7 @@
 <body>
     <div class='ui-widget'>
         <label for='tags'>Teste pesquisa:</label>
-        <input id='caixaPesquisa' size="62">
+        <input id='caixaPesquisa' placeholder="endereço (rua,número), inscr.imobiliária ou código" size="62">
     </div>
 
     <div>
@@ -100,6 +100,27 @@
                 mapa.flyToBounds(pesquisaQvias.getBounds(), {
                     maxZoom: 19
                 });
+            });
+        };
+
+        //Zoom e destaque para lote
+        let gsResultadoP = (result) => {
+            plantaCadastralDestaque.clearLayers();
+            $.getJSON(`data/divisaolotes/exportTabela/${result.substr(0, 3)}/${result}.geojson`, (
+                data) => {
+                L.geoJson(data[0], {
+                    style: {
+                        weight: 5,
+                        color: '#666',
+                        dashArray: '',
+                        fillOpacity: 0.7
+                    }
+                }).addTo(plantaCadastralDestaque);
+                mapa.flyToBounds(plantaCadastralDestaque.getBounds(), {
+                    maxZoom: 19
+                });
+            }).fail(() => {
+                alert("Não encontrado");
             });
         };
 
@@ -175,9 +196,9 @@
                                 L.geoJson(data, {
                                     style: {
                                         weight: 5,
-                                        color: 'blue',
+                                        color: '#666',
                                         dashArray: '',
-                                        fillOpacity: 0.2
+                                        fillOpacity: 0.7
                                     }
                                 }).addTo(plantaCadastralDestaque);
                                 mapa.flyToBounds(plantaCadastralDestaque.getBounds(), {
@@ -198,6 +219,23 @@
                         };
                     }
                 }).keypress((event, ui) => {
+                    if (event.keyCode == 13) {
+                        event.preventDefault();
+                        if ($("#caixaPesquisa").val().length === 15) {
+                            $.getJSON(`data/pesquisa/inscr/${$("#caixaPesquisa").val().substring(0, 3)}/${$("#caixaPesquisa").val()}.csv`, (data) => {
+                                gsResultadoP(data);
+                            }).fail(() => {
+                                alert("Não encontrado");
+                            });
+                        } else {
+                            $.getJSON(`data/pesquisa/cod/${$("#caixaPesquisa").val().substring(0, 1)}/${$("#caixaPesquisa").val()}.csv`, (data) => {
+                                gsResultadoP(data);
+                            }).fail(() => {
+                                alert("Não encontrado");
+                            });
+                        };
+                        $("#caixaPesquisa").val("");
+                    };
                     if (event.keyCode == 44) {
                         event.preventDefault();
                         let itemcod = data.features.find(e => e.properties.nome === pesquisaval).properties.cod;
@@ -211,7 +249,7 @@
                         });
                         $('#caixaPesquisa').val(`${pesquisaval},`);
                         $('#caixaPesquisa').autocomplete('search', `${pesquisaval},`);
-                    }
+                    };
                 });
             });
         });
