@@ -410,7 +410,7 @@
             conteudoHome();
         });
 
-        $.getJSON('https://script.google.com/macros/s/AKfycbwc0l4GRdh7aMoqczsYIRKUqOP_E26cjxQxhSBh5qfnyB-djSipXLxPjB5MjPi0cxA1/exec', (data) => {
+        $.getJSON('camadas/data/pracas_temp.geojson', (data) => {
             L.geoJson(data, {
                 pointToLayer: function (feature, latlng) {
                     return L.marker(latlng, { icon: iconePraca });
