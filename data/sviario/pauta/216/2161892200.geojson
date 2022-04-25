@@ -2,6 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
+{ "type": "Feature", "properties": { "inscrlig": "2161892200", "cod": 1530.0, "nome": "R.Edmundo Victorino", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.792207916130302, -27.005566371888953 ], [ -48.79204433, -27.00584436 ], [ -48.791787715468281, -27.006188811359195 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2161892200", "cod": 1267.0, "nome": "R.Serafim Gamba", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -48.799897127912494, -26.998357104214598 ], [ -48.79964848, -26.99846788 ], [ -48.799244636405682, -26.998592273266532 ] ], [ [ -48.798949029738829, -26.996277744515677 ], [ -48.79927527, -26.99601113 ], [ -48.799555632928268, -26.995802023615301 ] ] ] } }
 ]
 }

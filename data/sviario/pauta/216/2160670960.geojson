@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2160670960", "cod": null, "nome": "", "ptotalvia": null, "ppasseio1": null, "ppasseio2": null }, "geometry": { "type": "LineString", "coordinates": [ [ -48.760441945073744, -26.964429885643874 ], [ -48.760457016038266, -26.964434870965217 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2160670960", "cod": 1493.0, "nome": "R.João Ciseski", "ptotalvia": 20.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.760260763007359, -26.964423529546998 ], [ -48.76027528, -26.9644999 ] ] } }
+]
+}

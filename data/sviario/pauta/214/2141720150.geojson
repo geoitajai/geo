@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2141720150", "cod": 813.0, "nome": "R.Sem denominação oficial", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.644223583698214, -26.947843111526378 ], [ -48.64421904, -26.94784586 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2141720150", "cod": 1770.0, "nome": "Serv.Servidão \"B\"", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.64422856965345, -26.947846688136401 ], [ -48.6441063, -26.94807737 ], [ -48.64406785, -26.94817459 ], [ -48.64402492, -26.94831322 ], [ -48.64394281, -26.94852283 ], [ -48.64390309, -26.94865327 ], [ -48.643895348695253, -26.948679129618881 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2141720150", "cod": 812.0, "nome": "R.Travessa \"B\"", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.64423394542095, -26.947853727627813 ], [ -48.644237293352106, -26.948091755129287 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2141720150", "cod": 811.0, "nome": "R.Bruno França", "ptotalvia": 7.2, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.64421904, -26.94784588 ], [ -48.64413008, -26.94790228 ], [ -48.6440502, -26.94799884 ], [ -48.64395785, -26.94810482 ], [ -48.64386076, -26.94820818 ], [ -48.64368737, -26.94837668 ], [ -48.643520459428466, -26.948504880106057 ] ] } }
+]
+}

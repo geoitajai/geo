@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2161891450", "cod": 1267.0, "nome": "R.Serafim Gamba", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.816212470350038, -27.007248419690608 ], [ -48.8161968, -27.00725157 ], [ -48.81576266, -27.00718597 ], [ -48.815610569464674, -27.007174280928833 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2161891450", "cod": 1609.0, "nome": "R.Maria de Lourdes Gastaldi", "ptotalvia": 20.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.81655985680927, -27.007652405427987 ], [ -48.81656417, -27.00775344 ], [ -48.81668821, -27.00793705 ], [ -48.816748230281476, -27.008003636981531 ] ] } }
+]
+}

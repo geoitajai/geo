@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0031480020", "cod": 1171.0, "nome": "R.Mário Bento dos Passos", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70511282, -26.8879494 ], [ -48.705140427520213, -26.888392282658774 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031480020", "cod": 1171.0, "nome": "R.Mário Bento dos Passos", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70511282, -26.8879494 ], [ -48.705140427580389, -26.888392282677774 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "0031480020", "cod": 1101.0, "nome": "R.José Francisco Mateus", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.705222170254089, -26.887900431542533 ], [ -48.70522557000001, -26.8879588 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "0031480020", "cod": 1111.0, "nome": "Av.Dr.Reinaldo Schmithausen", "ptotalvia": 27.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.705404471036204, -26.887943079518916 ], [ -48.70522557000001, -26.8879588 ], [ -48.70511282, -26.8879494 ], [ -48.705064872911997, -26.887953691781259 ] ] } }
 ]

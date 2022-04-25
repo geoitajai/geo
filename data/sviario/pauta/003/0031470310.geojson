@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "0031470310", "cod": 1171.0, "nome": "R.Mário Bento dos Passos", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.705602766391877, -26.896380019820665 ], [ -48.70561895, -26.89669375 ], [ -48.705622160904824, -26.896754923554557 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "0031470310", "cod": 1171.0, "nome": "R.Mário Bento dos Passos", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.705602752216102, -26.896380015120055 ], [ -48.70561895, -26.89669375 ], [ -48.705622160904824, -26.896754923554557 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "0031470310", "cod": 1229.0, "nome": "R.Jaime Fernandes Vieira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.705691426007981, -26.8966913389269 ], [ -48.70561895, -26.89669375 ], [ -48.705195770966618, -26.896703184498534 ] ] } }
 ]
 }

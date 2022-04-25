@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2160671500", "cod": 1757.0, "nome": "R.Fortunato Tormena", "ptotalvia": 20.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.759547692505897, -26.963704453991081 ], [ -48.759643078890171, -26.964014700337827 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2160671500", "cod": 1493.0, "nome": "R.João Ciseski", "ptotalvia": 20.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.759617218424289, -26.963680258968267 ], [ -48.75964992, -26.9636972 ], [ -48.75972045, -26.963706449999989 ], [ -48.75983855, -26.96370704 ], [ -48.759842235874778, -26.963707503457243 ] ] } }
+]
+}

@@ -2,6 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2160500580", "cod": 1442.0, "nome": "R.Leonardo Severo Pereira", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.730970837317273, -26.945209440921861 ], [ -48.731012549947586, -26.945837710886718 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2160500580", "cod": 1442.0, "nome": "R.Leonardo Severo Pereira", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.730977897733979, -26.94531578416456 ], [ -48.73101964, -26.9459445 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2160500580", "cod": 1235.0, "nome": "Rod.Dep.Antônio Heil", "ptotalvia": 30.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.731661021401159, -26.946003875977357 ], [ -48.73101964, -26.9459445 ], [ -48.731009679508226, -26.945944413763485 ] ] } }
 ]
 }

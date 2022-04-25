@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2152600100", "cod": 1398.0, "nome": "R.Insp.Francisco Vechani", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.769849899205084, -26.898712075831131 ], [ -48.76978783, -26.89862601 ], [ -48.76967863, -26.89850126 ], [ -48.769615939236246, -26.898433601654858 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2152600100", "cod": 1393.0, "nome": "R.Domingos Clarindo da Cunha", "ptotalvia": 11.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.76978783, -26.89862601 ], [ -48.76972779062114, -26.898691471764934 ] ] } }
+]
+}

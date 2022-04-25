@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2152600450", "cod": 1777.0, "nome": "R.Sem denominação oficial ", "ptotalvia": null, "ppasseio1": null, "ppasseio2": null }, "geometry": { "type": "LineString", "coordinates": [ [ -48.77012531, -26.90106011 ], [ -48.77013259, -26.90101677 ], [ -48.770113965280494, -26.900760847850943 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2152600450", "cod": 1694.0, "nome": "R.Julio José Evaristo", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.770263756167338, -26.901037206326542 ], [ -48.77012531, -26.90106011 ], [ -48.76988307729291, -26.901143828300025 ] ] } }
+]
+}

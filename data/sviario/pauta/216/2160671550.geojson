@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2160671550", "cod": 1757.0, "nome": "R.Fortunato Tormena", "ptotalvia": 20.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.759682715115858, -26.96414831655909 ], [ -48.759776297719604, -26.964499699159095 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2160671550", "cod": null, "nome": "", "ptotalvia": null, "ppasseio1": null, "ppasseio2": null }, "geometry": { "type": "LineString", "coordinates": [ [ -48.759657103526663, -26.964170265288601 ], [ -48.76014678411542, -26.964332249004375 ] ] } }
+]
+}

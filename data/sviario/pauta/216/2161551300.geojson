@@ -2,6 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2161551300", "cod": 1237.0, "nome": "R.Edmundo Leopoldo Merizio", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.852350239980183, -27.032281011524262 ], [ -48.852901468941297, -27.032572734773495 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2161551300", "cod": 1237.0, "nome": "R.Edmundo Leopoldo Merizio", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.852316900974074, -27.032263367628619 ], [ -48.852961493190492, -27.032604500793589 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2161551300", "cod": 1251.0, "nome": "R.Mineral", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.852921725287572, -27.032963567615752 ], [ -48.852949448310042, -27.032934113499103 ] ] } }
 ]
 }

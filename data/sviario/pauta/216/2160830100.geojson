@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "inscrlig": "2160830100", "cod": 1496.0, "nome": "R.Marcos Albino", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.750166239348339, -26.969287147157019 ], [ -48.7502145, -26.9691342 ], [ -48.750297100450062, -26.968664199894882 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2160830100", "cod": 1497.0, "nome": "R.Mansueto Felizardo Vieira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.750338969932187, -26.964380127670694 ], [ -48.75030885, -26.96449902 ], [ -48.75047002, -26.96709166 ], [ -48.75054401, -26.9673742 ], [ -48.750651832099258, -26.967543219132619 ] ] } }
+{ "type": "Feature", "properties": { "inscrlig": "2160830100", "cod": 1496.0, "nome": "R.Marcos Albino", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -48.750112166138017, -26.969403399364367 ], [ -48.75014375, -26.96935842 ], [ -48.7502145, -26.9691342 ], [ -48.750290930354616, -26.968699308170759 ] ], [ [ -48.750293041577081, -26.968687295169936 ], [ -48.75031671, -26.96855262 ], [ -48.750552759108004, -26.968082548594236 ] ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2160830100", "cod": 1497.0, "nome": "R.Mansueto Felizardo Vieira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -48.750485064900808, -26.964136791532614 ], [ -48.75036388, -26.9642818 ], [ -48.75036125728149, -26.96429215268325 ] ], [ [ -48.750350891167137, -26.964333070928863 ], [ -48.75030885, -26.96449902 ], [ -48.75047002, -26.96709166 ], [ -48.75054401, -26.9673742 ], [ -48.750666758387183, -26.967566617151878 ] ] ] } }
 ]
 }

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "inscrlig": "2152600050", "cod": 1398.0, "nome": "R.Insp.Francisco Vechani", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.769489729426013, -26.898298703250337 ], [ -48.76937019, -26.89817858 ], [ -48.76918801, -26.89804552 ], [ -48.76916009556227, -26.898025330076148 ] ] } },
+{ "type": "Feature", "properties": { "inscrlig": "2152600050", "cod": 1394.0, "nome": "Serv.Eugênio de Oliveira", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.769186308116659, -26.897969098367692 ], [ -48.76918801, -26.89804552 ] ] } }
+]
+}

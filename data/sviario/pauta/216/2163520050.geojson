@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2163520050", "cod": 1541.0, "nome": "R.Eduardo Vicente de Mello", "ptotalvia": 25.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.7126538, -26.99486636 ], [ -48.71499912, -26.995072 ], [ -48.71508581865502, -26.995107642659381 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2163520050", "cod": 1478.0, "nome": "R.Benjamim Dagnoni", "ptotalvia": 22.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.712771050597311, -26.993560509871237 ], [ -48.7126538, -26.99486636 ], [ -48.712626720504439, -26.995152757214779 ] ] } }
-]
-}
