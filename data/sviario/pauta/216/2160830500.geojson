@@ -2,6 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
+{ "type": "Feature", "properties": { "inscrlig": "2160830500", "cod": 1783.0, "nome": "Serv.Servidao Particular", "ptotalvia": null, "ppasseio1": null, "ppasseio2": null }, "geometry": { "type": "LineString", "coordinates": [ [ -48.746198921977069, -26.968635250626757 ], [ -48.74607156, -26.9686307 ] ] } },
 { "type": "Feature", "properties": { "inscrlig": "2160830500", "cod": 1422.0, "nome": "R.Henrique Antônio Custódio", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.739788821521842, -26.96506883994898 ], [ -48.73979632, -26.96520292 ] ] } }
 ]
 }
