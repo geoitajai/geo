@@ -34,6 +34,18 @@
     <script src="lib/measure/leaflet.measurecontrol.js"></script>
     <script src="lib/fallback.js"></script>
     <script src="lib/Control.Coordinates.js"></script>
+
+    <!-- Esri Leaflet from CDN -->
+    <script src="https://unpkg.com/esri-leaflet@3.0.8/dist/esri-leaflet.js"
+        integrity="sha512-E0DKVahIg0p1UHR2Kf9NX7x7TUewJb30mxkxEm2qOYTVJObgsAGpEol9F6iK6oefCbkJiA4/i6fnTHzM6H1kEA=="
+        crossorigin=""></script>
+
+    <!-- Esri Leaflet Vector from CDN -->
+    <script src="https://unpkg.com/esri-leaflet-vector@3.1.2/dist/esri-leaflet-vector.js"
+        integrity="sha512-SnA/TobYvMdLwGPv48bsO+9ROk7kqKu/tI9TelKQsDe+KZL0TUUWml56TZIMGcpHcVctpaU6Mz4bvboUQDuU3w=="
+        crossorigin=""></script>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.7.0/mapbox-gl.css" rel="stylesheet">
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-172813797-1"></script>
     <script>
@@ -350,12 +362,23 @@
 
         //#basemaps
         //Mapa base, SMU
-        let tilesmu = new L.TileLayer('tiles/basemap/{z}/{x}/{y}.png', {
-            minZoom: 12,
-            maxZoom: 19,
-            pane: 'fundo',
-            attribution: 'Município de Itajaí/SC, <a href="mailto:jaceguay@itajai.sc.gov.br?Subject=WebGIS" target="_top">SIE</a>'
-        }).addTo(mapa);
+
+        //let tilesmu = new L.TileLayer('tiles/basemap/{z}/{x}/{y}.png', {
+        //    minZoom: 12,
+        //    maxZoom: 19,
+        //    pane: 'fundo',
+        //    attribution: 'Município de Itajaí/SC, <a href="mailto:jaceguay@itajai.sc.gov.br?Subject=WebGIS" target="_top">SIE</a>'
+        //}).addTo(mapa);
+
+        let tilesmu = L.layerGroup().addTo(mapa);
+
+        L.esri.Vector.vectorTileLayer("7a110ef9198540068341e6908c6bf298", {
+            portalUrl: "https://arcgis.itajai.sc.gov.br/portal"
+        }).addTo(tilesmu);
+
+        L.esri.Vector.vectorTileLayer("7618c9d107ef45d58e6dd49d6da7e93e", {
+            portalUrl: "https://arcgis.itajai.sc.gov.br/portal"
+        }).addTo(tilesmu);
 
         //Levantamento Drone
         let droneimg = L.tileLayer.fallback('tiles/drone/{z}/{x}/{y}.png', {
