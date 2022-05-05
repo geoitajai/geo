@@ -343,7 +343,7 @@
                 [-26.3285, -48.3200]
             ],
             center: new L.latLng([-26.9046, -48.6874]),
-            //zoomControl: false,
+            zoomControl: false,
             preferCanvas: true
         });
 
@@ -353,6 +353,9 @@
         mapa.getPane('fundo').style.zIndex = 50;
         mapa.getPane('camadaA').style.zIndex = 690;
         mapa.getPane('camadaB').style.zIndex = 680;
+        mapa.createPane('basemap_numeracao');
+        mapa.getPane('basemap_numeracao').style.zIndex = 401;
+        mapa.getPane('basemap_numeracao').style.pointerEvents = 'none';
 
         //coordenadas no click
         const coordmapa = new L.Control.Coordinates({ promptText: 'Coordenadas para a área de transferência, utilize Ctrl+C', position: 'bottomright' }).addTo(mapa);
@@ -377,7 +380,8 @@
         }).addTo(tilesmu);
 
         L.esri.Vector.vectorTileLayer("7618c9d107ef45d58e6dd49d6da7e93e", {
-            portalUrl: "https://arcgis.itajai.sc.gov.br/portal"
+            portalUrl: "https://arcgis.itajai.sc.gov.br/portal",
+            pane: 'basemap_numeracao'
         }).addTo(tilesmu);
 
         //Levantamento Drone
@@ -388,11 +392,12 @@
         });
         let dronetiles = L.layerGroup([tilesmu, droneimg]);
 
-        //Mapa base, OSM
-        let tileosm = new L.TileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            minZoom: 12,
+        // Mapa ortoimagem 2020
+        let ortoimg2020 = L.esri.tiledMapLayer({
+            url: "https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/Ortoimagem_restitui%C3%A7%C3%A3o_2020/MapServer",
             maxZoom: 19,
-            attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+            maxNativeZoom: 18,
+            attribution: 'Engemap geoinformação 2020, Prefeitura de Itajaí'
         });
 
         //1946
@@ -437,7 +442,7 @@
         //Controle de camadas
         let baseMaps = {
             "SIE.Itajaí": tilesmu,
-            "OSM": tileosm,
+            "Voo2020": ortoimg2020,
             "Satélite": tileesri,
             "Drone": dronetiles
         };
