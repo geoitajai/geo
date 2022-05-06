@@ -158,8 +158,7 @@ $.getJSON("camadas/data/zon2012webtabela.geojson", (data) => {
                 '</tr>' +
                 '</table>'
             )
-        },
-        pane: 'camadaB'
+        }
     }).addTo(plantaZoneamento);
 });
 

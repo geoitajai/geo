@@ -170,46 +170,6 @@
                         <p><small>Estudo conceitual.</small></p>
                     </div>
 
-                    <h3>Rede coletora de esgoto</h3>
-                    <div>
-                        <p>
-                            <font size="2">
-                                <center>
-                                    <strong>
-                                        <a href="http://www.semasaitajai.com.br" target="_blank">
-                                            <font size="2">
-                                                SEMASA
-                                            </font>
-                                        </a>
-                                    </strong>
-                                    <br />
-                                    Serviço Municipal de Água, Saneamento Básico e Infraestrutura
-                                    <p>Legenda:</p>
-                                    <p>
-                                        <small>
-                                            <span style="color:red">█</span> local com rede de coleta em
-                                            funcionamento</br>
-                                        </small>
-                                    </p>
-                                </center>
-                            </font>
-                        <div id="semasaesgoto"></div></br>
-                        <hr>
-                        <a href="http://www.semasaitajai.com.br/?modo=publicacao&tipo=noticia&codigo=2449"
-                            target="_blank">
-                            <font size="2">
-                                Ruas com endereços autorizados a se ligar na rede coletora de esgoto.
-                            </font>
-                        </a>
-                        <hr>
-                        <a href="http://www.semasaitajai.com.br/arquivos/mapa_do_esgoto.kml" target="_blank">
-                            <font size="2">
-                                - download(kml)
-                            </font>
-                        </a>
-                        </p>
-                    </div>
-
                     <h3>Bairros</h3>
                     <div>
                         <p>Secretaria Municipal da Fazenda</p>
@@ -225,40 +185,6 @@
                         <a href="https://drive.google.com/open?id=1udXvwoUP3CIorry6N0T20SClvjgNFZnl" target="_blank">
                             <font size="2">
                                 - relação de vias por bairro
-                            </font>
-                        </a>
-                    </div>
-
-                    <h3>Áreas protegidas</h3>
-                    <div>
-                        <p>
-                            <center>
-                                <font size="2">
-                                    <a href="https://itajai.sc.gov.br/e/meio-ambiente" target="_blank">
-                                        <font size="2">
-                                            INSTITUTO CIDADE SUSTENTÁVEL
-                                        </font>
-                                    </a>
-                                    <br />
-                                    Mapeamento e caracterização de áreas protegidas.
-                                </font>
-                            </center>
-                        </p>
-                        <p>Legenda:</p>
-                        <p>
-                            <small>
-                                <span style="color:#00cc00">█</span>Parque Municipal</br>
-                                <span style="color:#ffff66">█</span>Zona de amortecimento</br>
-                                <span style="color:#99cc00">█</span>APP-Topo de Morro</br>
-                            </small>
-                        </p>
-                        <hr>
-                        <p><small>Clique em uma zona no mapa para visualizar os dados.</small></p>
-                        <hr>
-                        <a href="https://drive.google.com/file/d/1hQhaRpXz2sGMsF6CkOIc40UP8C9xhwVZ/view?usp=sharing"
-                            target="_blank">
-                            <font size="2">
-                                - download(kml)
                             </font>
                         </a>
                     </div>
@@ -283,20 +209,6 @@
                                 - download(kml)
                             </font>
                         </a>
-                        </p>
-                    </div>
-
-                    <h3>Infra(pontes)</h3>
-                    <div>
-                        <p>
-                            <font size="2">
-                                <center>
-                                    <strong>
-                                        SEOSEM - Secretaria de Obras e Serviços Municipais
-                                    </strong>
-                                    <br />
-                                </center>
-                            </font>
                         </p>
                     </div>
                 </div>
@@ -347,12 +259,6 @@
             preferCanvas: true
         });
 
-        mapa.createPane('fundo');
-        mapa.createPane('camadaA');
-        mapa.createPane('camadaB');
-        mapa.getPane('fundo').style.zIndex = 50;
-        mapa.getPane('camadaA').style.zIndex = 690;
-        mapa.getPane('camadaB').style.zIndex = 680;
         mapa.createPane('basemap_numeracao');
         mapa.getPane('basemap_numeracao').style.zIndex = 401;
         mapa.getPane('basemap_numeracao').style.pointerEvents = 'none';
@@ -380,6 +286,7 @@
         let droneimg = L.tileLayer.fallback('tiles/drone/{z}/{x}/{y}.png', {
             minZoom: 12,
             maxZoom: 19,
+            pane: 'basemap_numeracao',
             attribution: 'CODETRAN - Itajaí/SC, <a href="mailto:jaceguay@itajai.sc.gov.br?Subject=WebGIS" target="_top">SIE</a>'
         });
         let dronetiles = L.layerGroup([tilesmu, droneimg]);
@@ -389,6 +296,7 @@
             url: "https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/Ortoimagem_restitui%C3%A7%C3%A3o_2020/MapServer",
             maxZoom: 19,
             maxNativeZoom: 18,
+            pane: 'basemap_numeracao',
             attribution: 'Engemap geoinformação 2020, Prefeitura de Itajaí'
         });
 
@@ -396,6 +304,7 @@
         let tiles1946 = L.tileLayer.fallback('tiles/1946/{z}/{x}/{y}.png', {
             minZoom: 12,
             maxZoom: 19,
+            pane: 'basemap_numeracao',
             attribution: 'Município de Itajaí/SC, <a href="mailto:jaceguay@itajai.sc.gov.br?Subject=WebGIS" target="_top">SIE</a>'
         });
 
@@ -403,6 +312,7 @@
         let tiles1984 = L.tileLayer.fallback('tiles/1984/{z}/{x}/{y}.png', {
             minZoom: 12,
             maxZoom: 19,
+            pane: 'basemap_numeracao',
             attribution: 'Município de Itajaí/SC, <a href="mailto:jaceguay@itajai.sc.gov.br?Subject=WebGIS" target="_top">SIE</a>'
         });
 
@@ -411,6 +321,7 @@
             minZoom: 12,
             maxZoom: 19,
             opacity: 0.6,
+            pane: 'basemap_numeracao',
             attribution: 'Município de Itajaí/SC, <a href="mailto:jaceguay@itajai.sc.gov.br?Subject=WebGIS" target="_top">SIE</a>'
         });
 
@@ -419,6 +330,7 @@
             minZoom: 12,
             maxZoom: 19,
             opacity: 0.6,
+            pane: 'basemap_numeracao',
             attribution: 'Município de Itajaí/SC, <a href="mailto:jaceguay@itajai.sc.gov.br?Subject=WebGIS" target="_top">SIE</a>'
         });
 
@@ -511,9 +423,9 @@
                     }
                 },
                 {
-                    title: 'Nº',
+                    title: 'Cód.',
                     field: 'ncodimov',
-                    width: 50
+                    width: 80
                 }, {
                     title: 'Inscrição imob.',
                     field: 'ninscrao',
@@ -543,11 +455,11 @@
                     field: 'nnomebai',
                     width: 100
                 }, {
-                    title: 'Área terreno',
+                    title: 'Área tributável',
                     field: 'nareater',
                     width: 110
                 }, {
-                    title: 'Cód.contrib.',
+                    title: 'Ano construção',
                     field: 'ncodcont',
                     width: 110
                 }, {
@@ -567,8 +479,9 @@
 
         //estilo destacado, lote
         function pCestiloDestaque(e) {
-            let inscricaoimob = e.target.feature.properties.inscricao;
             plantaCadastralDestaque.clearLayers();
+
+            let inscricaoimob = e.target.feature.properties.inscricao;
             if (e !== undefined) {
                 //origem clique
                 if (e.target.feature.properties.hasOwnProperty('hash') == false) {
@@ -605,16 +518,63 @@
 
             //dados tabela
             let inscricaowhereimovel = `lote_inscricao='${inscricaoimob}'`;
+
+            let objtabela = [];
+
+            let consultapreviap;
+            let linkinfo;
+            //if (data[0].properties.zon2012 === 'conflito') {
+            //    consultapreviap = `https://geoitajai.github.io/geo/consultazoneamentoerro.html#${data[0].properties.inscrlig}`;
+            //    linkinfo = 'regularizar situação cadastral';
+            //} else if (data[0].properties.zon2012 === 'decisaojudicial') {
+            //    linkinfo = 'Suspensão mediante decisão judicial';
+            //    consultapreviap = `https://geoitajai.github.io/geo/consultazoneamentodc0913463.html#${data[0].properties.inscrlig}`;
+            //} else {
+            //    linkinfo = 'clique para abrir';
+            //    consultapreviap = `https://geoitajai.github.io/geo/consultazoneamento.html#${data[0].properties.inscrlig}`;
+            //    consultaalvara = `https://geoitajai.github.io/geo/consultaalvara.html#${data[0].properties.inscrlig}`;
+            //};
+
             let listarimoveis = (feature, layer) => {
-                console.log(feature)
+                console.log(feature.properties.inscrilig)
+                objtabela.push({
+                    'consultaprevia': 'consultapreviap',
+                    'inscrlig': feature.properties.inscrilig,
+                    'ninscrao': feature.properties.aut_inscricao,
+                    'ncodimov': feature.properties.aut_codigo_imovel,
+                    'nmatricu': feature.properties.aut_numero_matricula,
+                    'nrazaoso': feature.properties.nome_contribuinte,
+                    'nlogrado': feature.properties.aut_end_logradouro,
+                    'nnumimov': feature.properties.aut_end_numero,
+                    'ncomplem': feature.properties.aut_end_complemento,
+                    'nnomebai': feature.properties.aut_end_bairro,
+                    'nareater': feature.properties.aut_area_tributavel_terreno,
+                    'ncodcont': feature.properties.aut_ano_construcao,
+                    'nfracaoi': feature.properties.aut_fracao_informada,
+                    'linkinfo': 'linkinfo',
+                    'consultaalvara': 'consultaalvara'
+                })
             };
 
-            L.esri.featureLayer({
-                url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/imoveis_dt/FeatureServer/0/',
+            let dadosTabela = L.esri.featureLayer({
+                url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/cadastroimoveispts/FeatureServer/0/',
                 where: inscricaowhereimovel,
-                fields: ['lote_inscricao', 'objectid'],
+                fields: ['objectid', 'aut_codigo_imovel', 'aut_inscricao', 'aut_numero_matricula',
+                    'nome_contribuinte', 'aut_end_logradouro', 'aut_end_numero', 'aut_end_complemento',
+                    'aut_end_bairro', 'aut_area_tributavel_terreno', 'aut_ano_construcao',
+                    'aut_fracao_informada', 'inscrilig'],
                 onEachFeature: listarimoveis
-            }).addTo(mapa);
+            });
+
+            dadosTabela.on('load', function (e) {
+                if (objtabela.length != 0) {
+                    table.setData([]);
+                    table.setData(objtabela);
+                    objtabela = [];
+                };
+            });
+
+            dadosTabela.addTo(mapa);
         };
 
         //tratar o resultado da pesquisa por código ou nº inscrição imobiliária
@@ -787,7 +747,6 @@
         //L.CircleMarker.mergeOptions(malhacadastralestilo);
 
         const malhaclick = (e) => {
-            console.log(e.target.feature.properties.inscricao);
             pCestiloDestaque(e)
         };
 
@@ -843,7 +802,6 @@
         };
 
         //vias
-        let plantaVias = L.featureGroup();
         $.getJSON("data/sviarioGeom.geojson", (data) => {
             L.geoJson(data, {
                 style: (feature) => {
@@ -853,39 +811,31 @@
                     };
                 },
                 onEachFeature: inteVia,
-                pane: 'camadaA'
-            }).addTo(plantaVias);
+            }).addTo(mapa);
         });
 
         //#camadas, barra lateral
         let detpropostas;
         let plantaZoneamento;
-        let famaiParques;
         let viasciclo;
-        let infra;
-        let esgoto;
         let cadbairros = L.tileLayer.fallback('tiles/bairros/{z}/{x}/{y}.png', {
             minZoom: 12,
             maxZoom: 19,
-            opacity: 0.7
+            opacity: 0.7,
+            pane: 'basemap_numeracao'
         });
 
         //#controle de camadas
         let limparcamadas = () => {
             if (mapa.hasLayer(detpropostas)) mapa.removeLayer(detpropostas);
             if (mapa.hasLayer(viasciclo)) mapa.removeLayer(viasciclo);
-            if (mapa.hasLayer(famaiParques)) mapa.removeLayer(famaiParques);
             if (mapa.hasLayer(cadbairros)) mapa.removeLayer(cadbairros);
             if (mapa.hasLayer(plantaZoneamento)) mapa.removeLayer(plantaZoneamento);
-            if (mapa.hasLayer(infra)) mapa.removeLayer(infra);
-            if (mapa.hasLayer(esgoto)) mapa.removeLayer(esgoto);
         };
         $("#accordion").on("accordionactivate", (event, ui) => {
             if (
                 ui.newHeader["0"].textContent === 'Zoneamento'
             ) {
-                mapa.getPane('camadaA').style.zIndex = 680;
-                mapa.getPane('camadaB').style.zIndex = 690;
                 limparcamadas();
                 if (plantaZoneamento == undefined) {
 
@@ -909,18 +859,6 @@
             ) {
                 limparcamadas();
                 mapa.addLayer(cadbairros);
-            }
-            else if (
-                ui.newHeader["0"].textContent === 'Áreas protegidas'
-            ) {
-                limparcamadas();
-                mapa.getPane('camadaA').style.zIndex = 680;
-                mapa.getPane('camadaB').style.zIndex = 690;
-                if (famaiParques == undefined) {
-                    $.getScript('camadas/famai.js', () => { });
-                } else {
-                    mapa.addLayer(famaiParques);
-                }
             }
             else if (
                 ui.newHeader["0"].textContent === 'Cicloviário'
@@ -948,30 +886,8 @@
                     mapa.addLayer(viasciclo);
                 }
             }
-            else if (
-                ui.newHeader["0"].textContent === 'Infra(pontes)'
-            ) {
-                limparcamadas();
-                if (infra == undefined) {
-                    $.getScript('camadas/sviaspontes.js', () => { });
-                } else {
-                    mapa.addLayer(infra);
-                }
-            }
-            else if (
-                ui.newHeader["0"].textContent === 'Rede coletora de esgoto'
-            ) {
-                limparcamadas();
-                if (infra == undefined) {
-                    $.getScript('camadas/esgotosemasa.js', () => { });
-                } else {
-                    mapa.addLayer(esgoto);
-                }
-            }
             else {
                 limparcamadas();
-                mapa.getPane('camadaA').style.zIndex = 690;
-                mapa.getPane('camadaB').style.zIndex = 680;
             };
         });
 
