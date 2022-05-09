@@ -478,9 +478,12 @@
         let plantaCadastralDestaque = L.featureGroup().addTo(mapa);
 
         //estilo destacado, lote
+        let cadastroimoveispts = L.esri.query({
+            url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/cadastroimoveispts/FeatureServer/0/'
+        });
+
         function pCestiloDestaque(e) {
             plantaCadastralDestaque.clearLayers();
-
             let inscricaoimob = e.target.feature.properties.inscricao;
             if (e !== undefined) {
                 //origem clique
@@ -495,79 +498,48 @@
                         }
                     }).addTo(plantaCadastralDestaque);
                 }
-                //origem hash
-                else if (e.target.feature.properties.hash === true) {
-                    let inscricaowhere = `inscricao='${inscricaoimob}'`;
-                    L.esri.featureLayer({
-                        url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/malhacrs3857/FeatureServer/0/',
-                        where: inscricaowhere,
-                        fields: ['inscricao', 'objectid'],
-                        style: () => {
-                            return {
-                                weight: 5,
-                                color: '#666',
-                                dashArray: '',
-                                fillOpacity: 0.7
-                            }
-                        }
-                    }).addTo(plantaCadastralDestaque);
-                    mapa.flyToBounds(plantaCadastralDestaque.getBounds(), {
-                        maxZoom: 19
+                //dados tabela
+                let inscricaowhereimovel = `lote_inscricao='${inscricaoimob}'`;
+                let objtabela = [];
+                let consultapreviap;
+                let linkinfo;
+                cadastroimoveispts.where(inscricaowhereimovel);
+                cadastroimoveispts.run(function (error, featureCollection, response) {
+                    if (error) {
+                        console.log(error);
+                        return;
+                    }
+                    featureCollection.features.forEach(el => {
+                        if (e.target.feature.properties.zon2012 == 'pend') {
+                            linkinfo = 'consultar secretatira urbanismo';
+                            consultapreviap = `https://geoitajai.github.io/geo/consultazoneamento.html#${el.properties.inscrilig}`;
+                            consultaalvara = `https://geoitajai.github.io/geo/consultaalvara.html#${el.properties.inscrilig}`;
+                        } else {
+                            linkinfo = 'clique para abrir';
+                            consultapreviap = `https://geoitajai.github.io/geo/consultazoneamento.html#${el.properties.inscrilig}`;
+                            consultaalvara = `https://geoitajai.github.io/geo/consultaalvara.html#${el.properties.inscrilig}`;
+                        };
+                        objtabela.push({
+                            'consultaprevia': consultapreviap,
+                            'inscrlig': el.properties.inscrilig,
+                            'ninscrao': el.properties.aut_inscricao,
+                            'ncodimov': el.properties.aut_codigo_imovel,
+                            'nmatricu': el.properties.aut_numero_matricula,
+                            'nrazaoso': el.properties.nome_contribuinte,
+                            'nlogrado': el.properties.aut_end_logradouro,
+                            'nnumimov': el.properties.aut_end_numero,
+                            'ncomplem': el.properties.aut_end_complemento,
+                            'nnomebai': el.properties.aut_end_bairro,
+                            'nareater': el.properties.aut_area_tributavel_terreno,
+                            'ncodcont': el.properties.aut_ano_construcao,
+                            'nfracaoi': el.properties.aut_fracao_informada,
+                            'linkinfo': linkinfo,
+                            'consultaalvara': consultaalvara
+                        });
                     });
-                };
-            };
-
-            //dados tabela
-            let inscricaowhereimovel = `lote_inscricao='${inscricaoimob}'`;
-            let objtabela = [];
-
-            let consultapreviap;
-            let linkinfo;
-
-            let query = L.esri.query({
-                url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/cadastroimoveispts/FeatureServer/0/'
-            });
-
-            query.where(inscricaowhereimovel);
-
-            query.run(function (error, featureCollection, response) {
-                if (error) {
-                    console.log(error);
-                    return;
-                }
-                console.log(featureCollection.features);
-                featureCollection.features.forEach(el => {
-
-                    if (e.target.feature.properties.zon2012 == 'pend') {
-                        linkinfo = 'consultar secretatira urbanismo';
-                        consultapreviap = `https://geoitajai.github.io/geo/consultazoneamento.html#${el.properties.inscrilig}`;
-                        consultaalvara = `https://geoitajai.github.io/geo/consultaalvara.html#${el.properties.inscrilig}`;
-                    } else {
-                        linkinfo = 'clique para abrir';
-                        consultapreviap = `https://geoitajai.github.io/geo/consultazoneamento.html#${el.properties.inscrilig}`;
-                        consultaalvara = `https://geoitajai.github.io/geo/consultaalvara.html#${el.properties.inscrilig}`;
-                    };
-
-                    objtabela.push({
-                        'consultaprevia': consultapreviap,
-                        'inscrlig': el.properties.inscrilig,
-                        'ninscrao': el.properties.aut_inscricao,
-                        'ncodimov': el.properties.aut_codigo_imovel,
-                        'nmatricu': el.properties.aut_numero_matricula,
-                        'nrazaoso': el.properties.nome_contribuinte,
-                        'nlogrado': el.properties.aut_end_logradouro,
-                        'nnumimov': el.properties.aut_end_numero,
-                        'ncomplem': el.properties.aut_end_complemento,
-                        'nnomebai': el.properties.aut_end_bairro,
-                        'nareater': el.properties.aut_area_tributavel_terreno,
-                        'ncodcont': el.properties.aut_ano_construcao,
-                        'nfracaoi': el.properties.aut_fracao_informada,
-                        'linkinfo': linkinfo,
-                        'consultaalvara': consultaalvara
-                    });
+                    table.setData(objtabela);
                 });
-                table.setData(objtabela);
-            });
+            };
         };
 
         //tratar o resultado da pesquisa por código ou nº inscrição imobiliária
@@ -831,7 +803,6 @@
             ) {
                 limparcamadas();
                 if (plantaZoneamento == undefined) {
-
                     $.getScript('camadas/zon2012.js', () => { });
                 } else {
                     mapa.addLayer(plantaZoneamento);
@@ -870,7 +841,6 @@
                             };
                             return t
                         }, { ciclovia: 0, ciclofaixa: 0, compartilhado: 0 })
-
                         document.getElementById("medidaciclo").innerHTML = '<span style="color:#ff4dd2">███</span></br>Ciclovias</br>(' + Math.floor(ciclotab.ciclovia) + ' Km)</br>' + '</br>' +
                             '<span style="color:#e68a00">███</span></br>Ciclofaixas</br>(' + Math.floor(ciclotab.ciclofaixa) + ' Km)</br>' + '</br>' +
                             '<span style="color:#b30059">█ █</span></br>Compartilhadas</br>(' + Math.floor(ciclotab.compartilhado) + ' Km)</br>';
@@ -931,64 +901,6 @@
                 }
             }).addTo(mapa);
         });
-
-        /*
-        hash barra de endereço
-        template:
-        ---------
-
-        #|códigoCadastro|inscriçãoImobiliária|códigoVia|Lat,Lng
-        0 = pula para próximo item
-        inscriçãoImobiliária: sem pontos ou face, ex.:201.011.03.0324.0000.000 ==> 2010110324
-        exemplo:
-        --------
-
-        http://plantacadastral.itajai.sc.gov.br#|271
-        http://plantacadastral.html#|0|2010240430
-        http://plantacadastral.itajai.sc.gov.br#|0|0|675
-        http://plantacadastral.html#|0|0|0|-26.905269,-48.678927
-        */
-        function hashendereco(dados) {
-            //hash código cadastro
-            if (dados[2] !== '0') {
-                let hashinscr = dados.map((d) => {
-                    return {
-                        target: {
-                            feature: {
-                                properties: {
-                                    inscrlig: d,
-                                    hash: true
-                                }
-                            }
-                        }
-                    }
-                });
-                pCestiloDestaque(hashinscr[2]);
-            }
-            //hash via
-            else if (dados[3] !== '0') {
-                let hashvia = dados.map((d) => {
-                    return {
-                        'properties': {
-                            'cod': d
-                        }
-                    }
-                });
-                destaquevia(hashvia[3]);
-            }
-            //hash zoom Latitude,Longitude
-            else if (dados[4] !== '0') {
-                let latlng = L.latLng(dados[4].split(','));
-                //console.log(latlng);
-                L.marker(latlng).addTo(mapa);
-                mapa.flyTo(latlng, 19);
-            };
-        };
-        if (window.location.hash.split('|').length > 1) {
-            hashendereco(window.location.hash.split('|'));
-        } else if (window.location.hash.split('%7C').length > 1) {
-            hashendereco(window.location.hash.split('%7C'));
-        };
     </script>
 </body>
 
