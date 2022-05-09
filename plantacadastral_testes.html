@@ -484,116 +484,80 @@
 
         function pCestiloDestaque(e) {
             plantaCadastralDestaque.clearLayers();
-            let inscricaoimob = e.target.feature.properties.inscricao;
-            if (e !== undefined) {
-                //origem clique
-                table.setData([]);
-                if (e.target.feature.properties.hasOwnProperty('hash') == false) {
-                    L.geoJson(e.target.feature, {
-                        style: {
-                            weight: 5,
-                            color: '#666',
-                            dashArray: '',
-                            fillOpacity: 0.7
-                        }
-                    }).addTo(plantaCadastralDestaque);
+            table.setData([]);
+            let feicao;
+            let inscricaoimob;
+            let zoneamento;
+            let zoomresultado;
+            if (e.target !== undefined) {
+                feicao = e.target.feature;
+                inscricaoimob = e.target.feature.properties.inscricao;
+                zoneamento = e.target.feature.properties.zon2012;
+            } else {
+                feicao = e;
+                inscricaoimob = e.features[0].properties.inscricao;
+                zoneamento = e.features[0].properties.zon2012;
+                zoomresultado = 1;
+            };
+            L.geoJson(feicao, {
+                style: {
+                    weight: 5,
+                    color: '#666',
+                    dashArray: '',
+                    fillOpacity: 0.7
                 }
-                //dados tabela
-                let inscricaowhereimovel = `lote_inscricao='${inscricaoimob}'`;
-                let objtabela = [];
-                let consultapreviap;
-                let linkinfo;
-                cadastroimoveispts.where(inscricaowhereimovel);
-                cadastroimoveispts.run(function (error, featureCollection, response) {
-                    if (error) {
-                        console.log(error);
-                        return;
-                    }
-                    featureCollection.features.forEach(el => {
-                        if (e.target.feature.properties.zon2012 == 'pend') {
-                            linkinfo = 'consultar secretatira urbanismo';
-                            consultapreviap = `https://geoitajai.github.io/geo/consultazoneamento.html#${el.properties.inscrilig}`;
-                            consultaalvara = `https://geoitajai.github.io/geo/consultaalvara.html#${el.properties.inscrilig}`;
-                        } else {
-                            linkinfo = 'clique para abrir';
-                            consultapreviap = `https://geoitajai.github.io/geo/consultazoneamento.html#${el.properties.inscrilig}`;
-                            consultaalvara = `https://geoitajai.github.io/geo/consultaalvara.html#${el.properties.inscrilig}`;
-                        };
-                        objtabela.push({
-                            'consultaprevia': consultapreviap,
-                            'inscrlig': el.properties.inscrilig,
-                            'ninscrao': el.properties.aut_inscricao,
-                            'ncodimov': el.properties.aut_codigo_imovel,
-                            'nmatricu': el.properties.aut_numero_matricula,
-                            'nrazaoso': el.properties.nome_contribuinte,
-                            'nlogrado': el.properties.aut_end_logradouro,
-                            'nnumimov': el.properties.aut_end_numero,
-                            'ncomplem': el.properties.aut_end_complemento,
-                            'nnomebai': el.properties.aut_end_bairro,
-                            'nareater': el.properties.aut_area_tributavel_terreno,
-                            'ncodcont': el.properties.aut_ano_construcao,
-                            'nfracaoi': el.properties.aut_fracao_informada,
-                            'linkinfo': linkinfo,
-                            'consultaalvara': consultaalvara
-                        });
-                    });
-                    table.setData(objtabela);
+            }).addTo(plantaCadastralDestaque);
+            if (zoomresultado !== undefined) {
+                mapa.flyToBounds(plantaCadastralDestaque.getBounds(), {
+                    maxZoom: 19
                 });
             };
+            //dados tabela
+            let inscricaowhereimovel = `lote_inscricao='${inscricaoimob}'`;
+            let objtabela = [];
+            let consultapreviap;
+            let linkinfo;
+            cadastroimoveispts.where(inscricaowhereimovel).returnGeometry(false);
+            cadastroimoveispts.run((error, featureCollection, response) => {
+                if (error) {
+                    console.log(error);
+                    return;
+                };
+                featureCollection.features.forEach(el => {
+                    if (zoneamento == 'pend') {
+                        linkinfo = 'consultar secretatira urbanismo';
+                        consultapreviap = `https://geoitajai.github.io/geo/consultazoneamento.html#${el.properties.inscrilig}`;
+                        consultaalvara = `https://geoitajai.github.io/geo/consultaalvara.html#${el.properties.inscrilig}`;
+                    } else {
+                        linkinfo = 'clique para abrir';
+                        consultapreviap = `https://geoitajai.github.io/geo/consultazoneamento.html#${el.properties.inscrilig}`;
+                        consultaalvara = `https://geoitajai.github.io/geo/consultaalvara.html#${el.properties.inscrilig}`;
+                    };
+                    objtabela.push({
+                        'consultaprevia': consultapreviap,
+                        'inscrlig': el.properties.inscrilig,
+                        'ninscrao': el.properties.aut_inscricao,
+                        'ncodimov': el.properties.aut_codigo_imovel,
+                        'nmatricu': el.properties.aut_numero_matricula,
+                        'nrazaoso': el.properties.nome_contribuinte,
+                        'nlogrado': el.properties.aut_end_logradouro,
+                        'nnumimov': el.properties.aut_end_numero,
+                        'ncomplem': el.properties.aut_end_complemento,
+                        'nnomebai': el.properties.aut_end_bairro,
+                        'nareater': el.properties.aut_area_tributavel_terreno,
+                        'ncodcont': el.properties.aut_ano_construcao,
+                        'nfracaoi': el.properties.aut_fracao_informada,
+                        'linkinfo': linkinfo,
+                        'consultaalvara': consultaalvara
+                    });
+                });
+                table.setData(objtabela);
+            });
         };
 
         //tratar o resultado da pesquisa por código ou nº inscrição imobiliária
         let gsResultadoP = (result) => {
             plantaCadastralDestaque.clearLayers();
-            $.getJSON(`data/divisaolotes/exportTabela/${result.substr(0, 3)}/${result}.geojson`, (
-                data) => {
-                let consultapreviap;
-                let linkinfo;
-                if (data[0].properties.zon2012 === 'conflito') {
-                    consultapreviap = `https://geoitajai.github.io/geo/consultazoneamentoerro.html#${data[0].properties.inscrlig}`;
-                    linkinfo = 'regularizar situação cadastral';
-                } else if (data[0].properties.zon2012 === 'decisaojudicial') {
-                    linkinfo = 'Suspensão mediante decisão judicial';
-                    consultapreviap = `https://geoitajai.github.io/geo/consultazoneamentodc0913463.html#${data[0].properties.inscrlig}`;
-                } else {
-                    linkinfo = 'clique para abrir';
-                    consultapreviap = `https://geoitajai.github.io/geo/consultazoneamento.html#${data[0].properties.inscrlig}`;
-                    consultaalvara = `https://geoitajai.github.io/geo/consultaalvara.html#${data[0].properties.inscrlig}`;
-                };
-                let objtabela2 = data.map((feicoes) => {
-                    return {
-                        'consultaprevia': consultapreviap,
-                        'ninscrao': feicoes.properties.ninscrao,
-                        'ncodimov': feicoes.properties.ncodimov,
-                        'nmatricu': feicoes.properties.nmatricu,
-                        'nrazaoso': feicoes.properties.nrazaoso,
-                        'nlogrado': feicoes.properties.nlogrado,
-                        'nnumimov': feicoes.properties.nnumimov,
-                        'ncomplem': feicoes.properties.ncomplem,
-                        'nnomebai': feicoes.properties.nnomebai,
-                        'nareater': feicoes.properties.nareater,
-                        'ncodcont': feicoes.properties.ncodcont,
-                        'nfracaoi': feicoes.properties.nfracaoi,
-                        'inscrlig': feicoes.properties.inscrlig,
-                        'linkinfo': linkinfo,
-                        'consultaalvara': consultaalvara
-                    }
-                });
-                L.geoJson(data[0], {
-                    style: {
-                        weight: 5,
-                        color: '#666',
-                        dashArray: '',
-                        fillOpacity: 0.7
-                    }
-                }).addTo(plantaCadastralDestaque);
-                table.setData(objtabela2);
-                mapa.flyToBounds(plantaCadastralDestaque.getBounds(), {
-                    maxZoom: 19
-                });
-            }).fail(() => {
-                alert("Não encontrado");
-            });
         };
 
         //Zoom e destaque para via a partir de geoJSON
@@ -678,16 +642,28 @@
                     if (event.keyCode == 13) {
                         event.preventDefault();
                         if ($("#pesquisaRapida").val().length === 15) {
-                            $.getJSON(`data/pesquisa/inscr/${$("#pesquisaRapida").val().substring(0, 3)}/${$("#pesquisaRapida").val()}.csv`, (data) => {
-                                gsResultadoP(data);
-                            }).fail(() => {
-                                alert("Não encontrado");
-                            });
+                            malhacadastral.query()
+                                .where(`inscricao = '${$("#pesquisaRapida").val()}'`)
+                                .run((error, featureCollection) => {
+                                    if (featureCollection.features.length == 0) {
+                                        alert("Não encontrado");
+                                    } else {
+                                        pCestiloDestaque(featureCollection)
+                                    };
+                                });
                         } else {
-                            $.getJSON(`data/pesquisa/cod/${$("#pesquisaRapida").val().substring(0, 1)}/${$("#pesquisaRapida").val()}.csv`, (data) => {
-                                gsResultadoP(data);
-                            }).fail(() => {
-                                alert("Não encontrado");
+                            //cadastroimoveispts.where(`aut_codigo_imovel='${$("#pesquisaRapida").val()}'`).returnGeometry(false).limit(1);
+
+                            //cadastroimoveispts.where("aut_codigo_imovel='808041'").returnGeometry(false).limit(1);
+
+                            cadastroimoveispts.where("nome_contribuinte='DISTR MADEIRAS TARUMA LTDA'").returnGeometry(false);
+                            cadastroimoveispts.run(function (error, featureCollection, response) {
+                                console.log(error, featureCollection, response)
+                                //if (error) {
+                                //    alert("Não encontrado");
+                                //    return;
+                                //};
+                                //console.log(featureCollection);
                             });
                         };
                         $("#pesquisaRapida").val("");
