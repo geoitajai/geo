@@ -469,7 +469,8 @@
                 }, {
                     title: 'Cód.Lote',
                     field: 'inscrlig',
-                    width: 90
+                    width: 90,
+                    visible:false
                 }
             ]
         });
@@ -720,7 +721,6 @@
                 .limit(1)
                 .run(function (error, fcvias, response) {
                     let via = fcvias.features[0].properties;
-                    console.log(via)
                     L.popup()
                         .setLatLng(e.latlng)
                         .setContent(
