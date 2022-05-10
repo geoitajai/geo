@@ -482,6 +482,10 @@
             url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/cadastroimoveispts/FeatureServer/0/'
         });
 
+        let cadastroimoveisptscodimov = L.esri.query({
+            url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/cadastroimoveispts/FeatureServer/0/'
+        });
+
         function pCestiloDestaque(e) {
             plantaCadastralDestaque.clearLayers();
             table.setData([]);
@@ -518,12 +522,8 @@
             let consultapreviap;
             let linkinfo;
             cadastroimoveispts.where(inscricaowhereimovel).returnGeometry(false);
-            cadastroimoveispts.run((error, featureCollection, response) => {
-                if (error) {
-                    console.log(error);
-                    return;
-                };
-                featureCollection.features.forEach(el => {
+            cadastroimoveispts.run((error, fcol, response) => {
+                fcol.features.forEach(el => {
                     if (zoneamento == 'pend') {
                         linkinfo = 'consultar secretatira urbanismo';
                         consultapreviap = `https://geoitajai.github.io/geo/consultazoneamento.html#${el.properties.inscrilig}`;
@@ -644,26 +644,28 @@
                         if ($("#pesquisaRapida").val().length === 15) {
                             malhacadastral.query()
                                 .where(`inscricao = '${$("#pesquisaRapida").val()}'`)
-                                .run((error, featureCollection) => {
-                                    if (featureCollection.features.length == 0) {
+                                .run((error, fcolinscr) => {
+                                    if (fcolinscr.features.length == 0) {
                                         alert("Não encontrado");
                                     } else {
-                                        pCestiloDestaque(featureCollection)
+                                        pCestiloDestaque(fcolinscr)
                                     };
                                 });
                         } else {
-                            //cadastroimoveispts.where(`aut_codigo_imovel='${$("#pesquisaRapida").val()}'`).returnGeometry(false).limit(1);
-
-                            //cadastroimoveispts.where("aut_codigo_imovel='808041'").returnGeometry(false).limit(1);
-
-                            cadastroimoveispts.where("nome_contribuinte='DISTR MADEIRAS TARUMA LTDA'").returnGeometry(false);
-                            cadastroimoveispts.run(function (error, featureCollection, response) {
-                                console.log(error, featureCollection, response)
-                                //if (error) {
-                                //    alert("Não encontrado");
-                                //    return;
-                                //};
-                                //console.log(featureCollection);
+                            cadastroimoveisptscodimov.where(`aut_codigo_imovel='${$("#pesquisaRapida").val()}'`)
+                                .returnGeometry(false)
+                                .limit(1)
+                                .fields(['lote_inscricao']);
+                            cadastroimoveisptscodimov.run(function (error, fcolcod, response) {
+                                if (error) {
+                                    alert("Não encontrado");
+                                    return;
+                                };
+                                malhacadastral.query()
+                                    .where(`inscricao = '${fcolcod.features[0].properties.lote_inscricao}'`)
+                                    .run((error, fcolcodinscr) => {
+                                        pCestiloDestaque(fcolcodinscr)
+                                    });
                             });
                         };
                         $("#pesquisaRapida").val("");
@@ -703,15 +705,32 @@
             minZoom: 17,
             precision: 6,
             simplifyFactor: 0.01,
-            //fetchAllFeatures: true,
-            //style: malhacadastralestilo,
             onEachFeature: malhacadastroacao
         }).addTo(mapa);
 
         //sistema viário
         //popup
+        let viaspop = L.esri.query({
+            url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/sistema_viario/FeatureServer/3/'
+        });
         function pCestiloDestaqVia(e) {
             pesquisaQvias.clearLayers();
+            viaspop.where(`nome='${e.target.feature.properties.nome}'`)
+                .returnGeometry(false)
+                .limit(1)
+                .run(function (error, fcvias, response) {
+                    let via = fcvias.features[0].properties;
+                    console.log(via)
+                    L.popup()
+                        .setLatLng(e.latlng)
+                        .setContent(
+                            '<strong>' + via.nome + '</strong></br>' +
+                            'Lei/data: ' + via.leidata + '</br>' +
+                            'Cx.da via: ' + via.largura + 'm' + ' - Passeios:' + via.passeiod + '/' + via.passeioe + 'm' + '</br>' +
+                            'Código: ' + via.cod
+                        )
+                        .openOn(mapa);
+                });
             L.geoJson(e.sourceTarget.feature, {
                 style: (feature) => {
                     return {
@@ -723,37 +742,27 @@
                     };
                 }
             }).addTo(pesquisaQvias);
-            $.getJSON(`data/sviario/exportTabela/${e.sourceTarget.feature.properties.cod}.${e.sourceTarget.feature.properties.secao}.geojson`, (data) => {
-                L.popup()
-                    .setLatLng(e.latlng)
-                    .setContent(
-                        '<strong>' + data.properties.nome + '</strong></br>' +
-                        'Lei/data: ' + data.properties.leidata + '</br>' +
-                        'Cx.da via: ' + data.properties.ptotalvia + 'm' + ' - Passeios:' + data.properties.ppasseio1 + '/' + data.properties.ppasseio2 + 'm' + '</br>' +
-                        'Código: ' + data.properties.cod
-                    )
-                    .openOn(mapa);
-            });
         };
-        //padrão
+
+        //camada via
         function inteVia(feature, layer) {
             layer.on({
                 click: pCestiloDestaqVia
             });
         };
-
-        //vias
-        $.getJSON("data/sviarioGeom.geojson", (data) => {
-            L.geoJson(data, {
-                style: (feature) => {
-                    return {
-                        color: '#ffffff00',
-                        weight: 15
-                    };
-                },
-                onEachFeature: inteVia,
-            }).addTo(mapa);
-        });
+        let viasgeom = L.esri.featureLayer({
+            url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/sistema_viario/FeatureServer/3/',
+            fields: ['nome', 'objectid'],
+            minZoom: 17,
+            precision: 6,
+            style: (feature) => {
+                return {
+                    color: '#ffffff00',
+                    weight: 15
+                };
+            },
+            onEachFeature: inteVia,
+        }).addTo(mapa);
 
         //#camadas, barra lateral
         let detpropostas;
