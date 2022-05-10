@@ -8,15 +8,18 @@
     <link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16">
     <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <link rel="stylesheet" href="lib/leaflet.css" />
     <link rel="stylesheet" href="lib/jquery-ui.min.css" />
     <link rel="stylesheet" href="lib/jquery-ui.theme.min.css" />
     <link rel="stylesheet" href="lib/tabulator_simple.min.css" />
     <link rel="stylesheet" href="lib/measure/leaflet.draw.css" />
     <link rel="stylesheet" href="lib/Control.Coordinates.css" />
-    <link rel="stylesheet" href="plantacadastral.css" />
-    <script src="lib/leaflet.js"></script>
-    <script src="lib/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+        integrity="sha384-VzLXTJGPSyTLX6d96AxgkKvE/LRb7ECGyTxuwtpjHnVWVZs2gp5RDjeM/tgBnVdM" crossorigin="anonymous" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+        integrity="sha384-RFZC58YeKApoNsIbBxf4z6JJXmh+geBSgkCQXFyh+4tiFSJmJBt+2FbjxW7Ar16M"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="lib/jquery-ui.min.js"></script>
     <script src="lib/tabulator.min.js"></script>
     <script src="lib/measure/Leaflet.draw.js"></script>
@@ -34,6 +37,7 @@
     <script src="lib/measure/leaflet.measurecontrol.js"></script>
     <script src="lib/fallback.js"></script>
     <script src="lib/Control.Coordinates.js"></script>
+    <link rel="stylesheet" href="plantacadastral.css" />
 
     <!-- Esri Leaflet from CDN -->
     <script src="https://unpkg.com/esri-leaflet@3.0.8/dist/esri-leaflet.js"
@@ -83,7 +87,7 @@
                         <p><small>Clique sobre um lote ou via para visualizar as propriedades.</small></p>
                         <a href="https://geoitajai.github.io/geo/arquivos.html" target="_blank">
                             <center>
-                                <font size="2">
+                                <font size="2" color="black">
                                     - DOWNLOADS<br>(pdf, dwg, shp)
                                 </font>
                             </center>
@@ -95,7 +99,7 @@
                         <p><small>Anexo lei Nº 11.985, DE 24 DE AGOSTO DE 2020:</small></p>
                         <a href="https://geoitajai.github.io/geo/tabela_risco.html" target="_blank">
                             <center>
-                                <font size="2">
+                                <font size="2" color="black">
                                     - LINK CONSULTA<br>TABELA DE GRAU DE RISCO / CÓDIGO CNAE
                                 </font>
                             </center>
@@ -103,7 +107,7 @@
                         <br>
                         <a style="text-decoration:none" href="http://leismunicipa.is/hyrip" target="_blank">
                             <center>
-                                <font size="2">
+                                <font size="2" color="black">
                                     Decreto Nº 11.985, 24 de Agosto de 2020.
                                 </font>
                             </center>
@@ -111,7 +115,7 @@
                         <br>
                         <a style="text-decoration:none" href="http://leismunicipa.is/pqbya" target="_blank">
                             <center>
-                                <font size="2">
+                                <font size="2" color="black">
                                     Decreto Nº 11.956, 24 de Agosto de 2020.
                                 </font>
                             </center>
@@ -119,7 +123,7 @@
                         <br>
                         <a href="https://geoitajai.github.io/geo/evolucaoeconomica.html" target="_blank">
                             <center>
-                                <font size="2">
+                                <font size="2" color="black">
                                     Mapa: Histórico nº de empresas por via.
                                 </font>
                             </center>
@@ -130,7 +134,7 @@
                     <div>
                         <p>
                             <a href="http://leismunicipa.is/pfdkq" target="_blank">
-                                <font size="2">
+                                <font size="2" color="black">
                                     Lei complementar nº215, de 31 de dezembro de 2012 - Anexo I
                                 </font>
                             </a>
@@ -145,7 +149,7 @@
                         <p><small>Clique em uma zona no mapa para visualizar os parâmetros.</small></p>
                         </br>
                         <a href="https://geoitajai.github.io/geo/plantacadastralconsultaprevia.html" target="_blank">
-                            <font size="2">
+                            <font size="2" color="black">
                                 Mapa com ajuda, dedicado apenas a consulta prévia.
                             </font>
                         </a>
@@ -177,13 +181,13 @@
                         <hr>
                         <p><small>Fonte: Cadastro tributário.</small></p>
                         <a href="https://drive.google.com/open?id=11awlDeRy_oo5CCHwfmmY9FJfb98Qi_j1" target="_blank">
-                            <font size="2">
+                            <font size="2" color="black">
                                 - download(kml)
                             </font>
                         </a>
                         <hr>
                         <a href="https://drive.google.com/open?id=1udXvwoUP3CIorry6N0T20SClvjgNFZnl" target="_blank">
-                            <font size="2">
+                            <font size="2" color="black">
                                 - relação de vias por bairro
                             </font>
                         </a>
@@ -205,7 +209,7 @@
                         <div id="medidaciclo"></div></br>
                         <hr>
                         <a href="https://drive.google.com/open?id=1W73hthoVPHc6omROQ5eaulLY_VSMW8jc" target="_blank">
-                            <font size="2">
+                            <font size="2" color="black">
                                 - download(kml)
                             </font>
                         </a>
@@ -466,11 +470,6 @@
                     title: 'Fração ideal informada',
                     field: 'nfracaoi',
                     width: 90
-                }, {
-                    title: 'Cód.Lote',
-                    field: 'inscrlig',
-                    width: 90,
-                    visible:false
                 }
             ]
         });
@@ -523,20 +522,19 @@
             let consultapreviap;
             let linkinfo;
             cadastroimoveispts.where(inscricaowhereimovel).returnGeometry(false);
-            cadastroimoveispts.run((error, fcol, response) => {
+            cadastroimoveispts.run((error, fcol) => {
                 fcol.features.forEach(el => {
                     if (zoneamento == 'pend') {
                         linkinfo = 'consultar secretatira urbanismo';
-                        consultapreviap = `https://geoitajai.github.io/geo/consultazoneamento.html#${el.properties.inscrilig}`;
-                        consultaalvara = `https://geoitajai.github.io/geo/consultaalvara.html#${el.properties.inscrilig}`;
+                        consultapreviap = `https://geoitajai.github.io/geo/consultazoneamento.html#${el.properties.lote_inscricao}`;
+                        consultaalvara = `https://geoitajai.github.io/geo/consultaalvara.html#${el.properties.lote_inscricao}`;
                     } else {
                         linkinfo = 'clique para abrir';
-                        consultapreviap = `https://geoitajai.github.io/geo/consultazoneamento.html#${el.properties.inscrilig}`;
-                        consultaalvara = `https://geoitajai.github.io/geo/consultaalvara.html#${el.properties.inscrilig}`;
+                        consultapreviap = `https://geoitajai.github.io/geo/consultazoneamento.html#${el.properties.lote_inscricao}`;
+                        consultaalvara = `https://geoitajai.github.io/geo/consultaalvara.html#${el.properties.lote_inscricao}`;
                     };
                     objtabela.push({
                         'consultaprevia': consultapreviap,
-                        'inscrlig': el.properties.inscrilig,
                         'ninscrao': el.properties.aut_inscricao,
                         'ncodimov': el.properties.aut_codigo_imovel,
                         'nmatricu': el.properties.aut_numero_matricula,
@@ -564,24 +562,24 @@
         //Zoom e destaque para via a partir de geoJSON
         function destaquevia(g) {
             pesquisaQvias.clearLayers();
-            let secaopadrao;
-            if (g.properties.secao === undefined) { secaopadrao = 1 } else { secaopadrao = String(g.properties.secao) };
-            $.getJSON(`data/sviario/exportTabela/${String(g.properties.cod)}.${secaopadrao}.geojson`, (data) => {
-                L.geoJson(data, {
-                    style: (feature) => {
-                        return {
-                            weight: 5,
-                            color: "#ffff00",
-                            dashArray: "30 10",
-                            opacity: 0.6,
-                            interactive: false
-                        };
-                    }
-                }).addTo(pesquisaQvias);
-                mapa.flyToBounds(pesquisaQvias.getBounds(), {
-                    maxZoom: 19
+            viasgeom.query()
+                .where(`nome = '${g}'`)
+                .run((error, viaspesquisageom) => {
+                    L.geoJson(viaspesquisageom, {
+                        style: (feature) => {
+                            return {
+                                weight: 5,
+                                color: "#ffff00",
+                                dashArray: "30 10",
+                                opacity: 0.6,
+                                interactive: false
+                            };
+                        }
+                    }).addTo(pesquisaQvias);
+                    mapa.flyToBounds(pesquisaQvias.getBounds(), {
+                        maxZoom: 19
+                    });
                 });
-            });
         };
 
         //Barra de pesquisa
@@ -615,65 +613,74 @@
 
         //função de pesquisa
         let pesquisaQvias = L.featureGroup().addTo(mapa);
-        $.getJSON("data/sistemaViarioPesquisa.geojson", (data) => {
-            listaViasAutoComplete = data.features.map((feicoes) => {
-                return feicoes.properties.nome
-            });
-            $(() => {
-                $("#pesquisaRapida").autocomplete({
-                    minLength: 3,
-                    autoFocus: true,
-                    source: (request, response) => {
-                        let matcher = new RegExp($.ui.autocomplete.escapeRegex(request
-                            .term), "i");
-                        response($.grep(listaViasAutoComplete, (value) => {
-                            value = value.label || value.value || value;
-                            return matcher.test(value) || matcher.test(
-                                normalize(value));
-                        }));
-                    },
-                    select: (event, ui) => {
-                        let filtradoobj = data.features.find(e => e.properties.nome === ui.item.value);
-                        destaquevia(filtradoobj);
-                    },
-                    close: (e) => {
-                        e.target.value = '';
-                    }
-                }).keypress((event) => {
-                    if (event.keyCode == 13) {
-                        event.preventDefault();
-                        if ($("#pesquisaRapida").val().length === 15) {
-                            malhacadastral.query()
-                                .where(`inscricao = '${$("#pesquisaRapida").val()}'`)
-                                .run((error, fcolinscr) => {
-                                    if (fcolinscr.features.length == 0) {
-                                        alert("Não encontrado");
-                                    } else {
-                                        pCestiloDestaque(fcolinscr)
-                                    };
-                                });
-                        } else {
-                            cadastroimoveisptscodimov.where(`aut_codigo_imovel='${$("#pesquisaRapida").val()}'`)
-                                .returnGeometry(false)
-                                .limit(1)
-                                .fields(['lote_inscricao']);
-                            cadastroimoveisptscodimov.run(function (error, fcolcod, response) {
-                                if (error) {
-                                    alert("Não encontrado");
-                                    return;
-                                };
+        let listaViasAutoComplete = [];
+
+        let viaspesquisa = L.esri.query({
+            url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/sistema_viario/FeatureServer/0/'
+        });
+
+        viaspesquisa.fields(['nome'])
+            .returnGeometry(false)
+            .distinct()
+            .run(function (error, psqvias) {
+                psqvias.features.forEach((e) => {
+                    listaViasAutoComplete.push(e.properties.nome)
+                });
+
+                $(() => {
+                    $("#pesquisaRapida").autocomplete({
+                        minLength: 3,
+                        autoFocus: true,
+                        source: (request, response) => {
+                            let matcher = new RegExp($.ui.autocomplete.escapeRegex(request
+                                .term), "i");
+                            response($.grep(listaViasAutoComplete, (value) => {
+                                value = value.label || value.value || value;
+                                return matcher.test(value) || matcher.test(
+                                    normalize(value));
+                            }));
+                        },
+                        select: (event, ui) => {
+                            destaquevia(ui.item.value);
+                        },
+                        close: (e) => {
+                            e.target.value = '';
+                        }
+                    }).keypress((event) => {
+                        if (event.keyCode == 13) {
+                            event.preventDefault();
+                            if ($("#pesquisaRapida").val().length === 15) {
                                 malhacadastral.query()
-                                    .where(`inscricao = '${fcolcod.features[0].properties.lote_inscricao}'`)
-                                    .run((error, fcolcodinscr) => {
-                                        pCestiloDestaque(fcolcodinscr)
+                                    .where(`inscricao = '${$("#pesquisaRapida").val()}'`)
+                                    .run((error, fcolinscr) => {
+                                        if (fcolinscr.features.length == 0) {
+                                            alert("Não encontrado");
+                                        } else {
+                                            pCestiloDestaque(fcolinscr)
+                                        };
                                     });
-                            });
-                        };
-                        $("#pesquisaRapida").val("");
-                    }
+                            } else {
+                                cadastroimoveisptscodimov.where(`aut_codigo_imovel='${$("#pesquisaRapida").val()}'`)
+                                    .returnGeometry(false)
+                                    .limit(1)
+                                    .fields(['lote_inscricao']);
+                                cadastroimoveisptscodimov.run(function (error, fcolcod) {
+                                    if (error) {
+                                        alert("Não encontrado");
+                                        return;
+                                    };
+                                    malhacadastral.query()
+                                        .where(`inscricao = '${fcolcod.features[0].properties.lote_inscricao}'`)
+                                        .run((error, fcolcodinscr) => {
+                                            pCestiloDestaque(fcolcodinscr)
+                                        });
+                                });
+                            };
+                            $("#pesquisaRapida").val("");
+                        }
+                    });
                 });
             });
-        });
 
         // Feature layer, malha cadastral
         const estilopadrao = {
@@ -712,14 +719,14 @@
         //sistema viário
         //popup
         let viaspop = L.esri.query({
-            url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/sistema_viario/FeatureServer/3/'
+            url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/sistema_viario/FeatureServer/0/'
         });
         function pCestiloDestaqVia(e) {
             pesquisaQvias.clearLayers();
-            viaspop.where(`nome='${e.target.feature.properties.nome}'`)
+            viaspop.where(`codsecao ='${e.target.feature.properties.codsecao}'`)
                 .returnGeometry(false)
                 .limit(1)
-                .run(function (error, fcvias, response) {
+                .run(function (error, fcvias) {
                     let via = fcvias.features[0].properties;
                     L.popup()
                         .setLatLng(e.latlng)
@@ -751,8 +758,8 @@
             });
         };
         let viasgeom = L.esri.featureLayer({
-            url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/sistema_viario/FeatureServer/3/',
-            fields: ['nome', 'objectid'],
+            url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/sistema_viario/FeatureServer/0/',
+            fields: ['nome', 'codsecao', 'objectid'],
             minZoom: 17,
             precision: 6,
             style: (feature) => {

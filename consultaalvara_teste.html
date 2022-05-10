@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Grau de risco - Decreto nº 11.985 2020</title>
+    <link rel="icon" type="image/png" href="https://geoitajai.github.io/geo/images/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="https://geoitajai.github.io/geo/images/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="https://geoitajai.github.io/geo/images/favicon-32x32.png" sizes="32x32">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- tabulator -->
+    <link href="https://unpkg.com/tabulator-tables@5.2.4/dist/css/tabulator.min.css" rel="stylesheet">
+    <script type="text/javascript" src="https://unpkg.com/tabulator-tables@5.2.4/dist/js/tabulator.min.js"></script>
+    <!-- tabela -->
+    <script type="text/javascript" src="data/tabela_risco_uso.json"></script> <!-- tabrisco -->
+    <script type="text/javascript" src="data/zon_risco_uso.json"></script> <!-- tabriscozon -->
+    <!-- leaflet -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+        integrity="sha384-VzLXTJGPSyTLX6d96AxgkKvE/LRb7ECGyTxuwtpjHnVWVZs2gp5RDjeM/tgBnVdM" crossorigin="anonymous" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+        integrity="sha384-RFZC58YeKApoNsIbBxf4z6JJXmh+geBSgkCQXFyh+4tiFSJmJBt+2FbjxW7Ar16M"
+        crossorigin="anonymous"></script>
+
+    <!-- Esri Leaflet from CDN -->
+    <script src="https://unpkg.com/esri-leaflet@3.0.8/dist/esri-leaflet.js"
+        integrity="sha512-E0DKVahIg0p1UHR2Kf9NX7x7TUewJb30mxkxEm2qOYTVJObgsAGpEol9F6iK6oefCbkJiA4/i6fnTHzM6H1kEA=="
+        crossorigin=""></script>
+
+    <!-- Esri Leaflet Vector from CDN -->
+    <script src="https://unpkg.com/esri-leaflet-vector@3.1.2/dist/esri-leaflet-vector.js"
+        integrity="sha512-SnA/TobYvMdLwGPv48bsO+9ROk7kqKu/tI9TelKQsDe+KZL0TUUWml56TZIMGcpHcVctpaU6Mz4bvboUQDuU3w=="
+        crossorigin=""></script>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.7.0/mapbox-gl.css" rel="stylesheet">
+
+</head>
+<style>
+    :root {
+        --base: #00bcd4;
+        --escuro: #333;
+        --claro: #e9e9e9;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+    }
+
+    /*  conteiner {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        min-height: 100%;
+    } */
+
+    #brastitulo {
+        display: flex;
+        color: var(--claro);
+        background: var(--base);
+        text-shadow: 1px 1px 2px black;
+    }
+
+    .topo {
+        display: flex;
+    }
+
+    .corpo {
+        display: flex;
+    }
+
+    #instrucoes {
+        max-height: 670px;
+        overflow-y: auto;
+    }
+
+
+    @media screen and (max-width: 850px) {
+        #instrucoes {
+            visibility: hidden;
+        }
+    }
+
+    #pesquisa {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .vl {
+        border-left: 20px solid var(--base);
+    }
+
+    .hline {
+        width: 100%;
+        height: 15px;
+        background: #fff
+    }
+
+    .camposcopy {
+        background: #fff
+    }
+
+    #leis {
+        display: flex;
+        font-size: 14px;
+    }
+
+    @media print {
+        .no-print {
+            visibility: hidden;
+        }
+    }
+
+    #botaoimprimir {
+        position: absolute;
+        background-color: none;
+        font-size: 4mm;
+        font-weight: bold;
+    }
+
+    .tabulator {
+        font-size: 12px;
+        background: white;
+    }
+
+    .tabulator .tabulator-header,
+    .tabulator .tabulator-header .tabulator-col {
+        background-color: white;
+    }
+
+    #mapa {
+        height: 20em;
+        width: 57em;
+        background-color: white;
+    }
+</style>
+
+<body>
+    <div id='topo'>
+        <div class='corpo'>
+            <div id='entrada'>
+                <div id='brastitulo'>
+                    <div>
+                        <img src='https://geoitajai.github.io/geo/images/favicon-96x96.png'
+                            style='height:45px; width:auto; padding:3px;'>
+                    </div>
+                    <div style='font-size:85%; padding:3px;'>
+                        Município de Itajaí <br> Secretaria Municipal de Desenvolvimento Urbano e Habitação<br>
+                        <b>CONSULTA GRAU DE RISCO E VIABILIDADE</b>
+                        <br>
+                        <div id='leis'>
+                            <div>
+                                Decreto Nº 11.985,<br>24 de Agosto de 2020.<br>
+                            </div>
+                            <div class="vl"></div>
+                            <div>
+                                Decreto Nº 11.956,<br>24 de Agosto de 2020.<br>
+                            </div>
+                            <div class="vl"></div>
+                            <div>
+                                Lei complementar nº 215,<br>de 31 de Dezembro de 2012.<br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hline"></div>
+                <div id='pesquisa'>
+                    <div id='mapa'></div><br>
+                    <div id='identificalote'>
+                        -
+                    </div>
+                    <div class="hline"></div>
+                    <div class="no-print">
+                        <input id='filter-value' type='text' size='48'
+                            placeholder='códigos separados por espaço, ex: 26.10-8-00 68.10-2-01'>
+                        <button id='filter-clear' class='botao' type='button'>limpar</button><br>
+                        <input id='filter-area' type='text' size='48' placeholder='área total ocupada(apenas números)'>
+                        <button id='filter-enter' class='botao' type='button'>consultar</button><br>
+                    </div>
+                    <div class="hline"></div>
+                    <div id='resultado'>
+                        <h4>...<br>...</h4>
+                    </div><br>
+                    <div id='zoneamento'>
+                        <h4>...</h4>
+                    </div>
+                    <div class="hline"></div>
+                </div>
+            </div>
+            <div id='instrucoes' class="no-print">
+                <ol>
+                    <li>A avaliação é feita utilizando os dados de códigos de atividades econômicas na CNAE,
+                        consideranda
+                        em
+                        conjunto com o zoneamento e área.</li>
+                    <div class="hline"></div>
+                    <li>Para efetuar a consulta é necessário preencher o campo com os códigos das atividades formatadas
+                        e
+                        separadas por espaço, exemplo: <b>26.10-8-00 68.10-2-01</b></li>
+                    <div class="hline"></div>
+                    <li>Para facilitar o preenchimento pode-se utilizar os dados do comprovante de inscrição e situação
+                        cadastral, encontrado em :<br>
+                        <a href='http://servicos.receita.fazenda.gov.br/Servicos/cnpjreva/cnpjreva_solicitacao.asp'
+                            target='_blank'><b>
+                                COMPROVANTE DE INSCRIÇÃO E DE SITUAÇÃO CADASTRAL</b></a>
+                    </li>
+                    <div class="hline"></div>
+                    <li> No endereço acima, ao serem exibidas as informações do cadastro do contribuinte, o conteúdo
+                        onde
+                        aparecem os códigos das atividades econômicas pode ser copiado com o comando Ctrl+C, inclusive
+                        pode-se
+                        selecionar tudo com o comando Ctrl+A e em seguida Ctrl+C.</li>
+                    <div class="hline"></div>
+                    <li>Então é necessário colar o conteúdo (Ctrl+V) nesta página, no campo onde deveriam ser digitados
+                        os códigos.</li>
+                    <div class="hline"></div>
+                    <li>O próximo passo é preencher a área ocupada e clicar no botão <b>consultar</b></li>
+                    <div class="hline"></div>
+                    <li>A lista de atividades será filtrada na tabela abaixo, o resultado será mostrado de acordo com a
+                        atividade e nível de risco do local.</li>
+                    <div class="hline"></div>
+                    <li>Já com a tabela filtrada, no caso em que uma das atividades for permissível ou esteja sendo
+                        removida, pode-se clicar na tabela abaixo, no texto
+                        "Nova inscrição" para alternar o tipo de solicitação, as opções são: <b>CNAE já existente, CNAEs
+                            a serem removidos e Nova inscrição</b></li>
+                    <div class="hline"></div>
+                </ol>
+            </div>
+        </div>
+        <div id='navegacao'>
+            <div id='tabela'></div>
+            <div class="hline"></div>
+            <button type="button" class="no-print" id="botaoimprimir">
+                IMPRESSÃO/SALVAR PDF
+            </button><br>
+        </div>
+    </div>
+</body>
+
+<script>
+    updateFilter = () => {
+        let valores_filtro = document.getElementById('filter-value');
+        if (valores_filtro.value != '') {
+            table.setFilter('codigo', 'in', valores_filtro.value.split(' '));
+            let filtros_num = table.getFilters()[0].value.length;
+            let resultados_num = table.rowManager.activeRows.length;
+            desagrupar();
+            if (timer == 0) {
+                timer = 3;
+                atualizacampos();
+            } else { timer = 3 };
+            if (resultados_num < filtros_num) {
+                alert(`não encontrado(s): ${valores_filtro.value
+                    .split(' ')
+                    .filter(x => !table.rowManager.activeRows
+                        .map(e => { return e.data.codigo })
+                        .includes(x))}`)
+            };
+        };
+    };
+
+    document.getElementById('filter-value').addEventListener("keyup", e => {
+        if (e.keyCode === 13) {
+            e.preventDefault();
+            updateFilter();
+        }
+    });
+
+    const reg_test = new RegExp(/^[0-9]{2}.[0-9]{2}-[0-9]{1}-[0-9]{2}$/);
+    document.getElementById('filter-value').addEventListener("paste", e => {
+        e.preventDefault();
+        let text = (e.originalEvent || e).clipboardData.getData('text/plain');
+        let consulta_colada = text.replace(/[a-zA-Z‘’!“”"#$%&'()*+,\/:;<=>?@[\]^_`{|}~ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõöøùúûüýþÿŒœŠšŸƒ\r\n]/g, ' ')
+            .split(' ')
+            .reduce((a, e) => {
+                if (reg_test.test(e)) {
+                    a = a + ' ' + e;
+                };
+                return a
+            });
+        document.getElementById('filter-value').value = consulta_colada.trim();
+    });
+
+    document.getElementById('filter-area').addEventListener("keyup", e => {
+        if (e.keyCode === 13) {
+            e.preventDefault();
+            updateFilter();
+        }
+    });
+
+    document.getElementById('filter-enter').addEventListener('click', () => {
+        updateFilter();
+    });
+
+    document.getElementById('filter-clear').addEventListener('click', () => {
+        document.getElementById('filter-value').value = '';
+        table.clearFilter();
+        table.columnManager.columns[0].cells.forEach(e => {
+            e.setValue(null);
+        });
+        document.getElementById('resultado').style.backgroundColor = 'white';
+        document.getElementById('resultado').innerHTML = '<h4>...<br>...</h4>';
+        document.getElementById('cnaesexistentes').value = "Alteração de inscrição - CNAEs já existentes";
+        document.getElementById('cnaesnovos').value = "Nova inscrição";
+        document.getElementById('cnaesremovidos').value = "Alteração de inscrição - CNAEs a serem removidos";
+    });
+
+    desagrupar = () => {
+        table.getGroups().forEach((group) => {
+            group.show();
+        });
+    }
+
+    /*
+    // atualizar campos grupos distintos
+    let dadosfiltradosagrupados = (coletados) => {
+        document.getElementById('cnaesexistentes').value = coletados.existentes;
+        document.getElementById('cnaesnovos').value = coletados.novos;
+        document.getElementById('cnaesremovidos').value = coletados.removidos;
+    };
+    */
+
+    let timer = 0;
+    let atualizacampos = () => {
+        if (timer > 0) {
+            setTimeout(() => {
+                timer--;
+                if (timer == 0) {
+                    if (table.getFilters().length != 0) {
+                        let dadosfiltrados = table.getData("active");
+                        let contador = compr = dadosfiltrados.length;
+                        //campo avaliação risco
+                        let area_filtro = document.getElementById('filter-area');
+                        let ate200 = [];
+                        let d200a400 = [];
+                        let acima400 = [];
+                        for (let e of dadosfiltrados) {
+                            if (e.tipo == null) {
+                                ate200.push(e['100a200'])
+                                d200a400.push(e['200a400'])
+                                acima400.push(e['acima400'])
+                            };
+                            compr--;
+                            if (compr === 0) {
+                                //console.log(ate200, d200a400, acima400);
+                                if (isNaN(parseInt(area_filtro.value)) === true) {
+                                    alert('área digitada não é um número válido');
+                                } else if (ate200.length == 0 && d200a400.length == 0 && acima400.length == 0) {
+                                    document.getElementById('resultado').style.backgroundColor = 'white';
+                                    document.getElementById('resultado').innerHTML = '<h4>...<br>...</h4>';
+                                } else if (parseInt(area_filtro.value) <= 200) {
+                                    if (ate200.includes('Alto')) {
+                                        document.getElementById('resultado').style.backgroundColor = 'rgb(255, 0, 0, 0.3)';
+                                        document.getElementById('resultado').innerHTML = `Dentre as <b>novas inscrições</b>, grau de risco para a área: <b>${area_filtro.value}m2</b>:<br><b>ALTO</b>`;
+                                    } else if (ate200.includes('Médio')) {
+                                        document.getElementById('resultado').style.backgroundColor = 'rgb(255, 204, 102, 0.3)';
+                                        document.getElementById('resultado').innerHTML = `Dentre as <b>novas inscrições</b>, grau de risco para a área: <b>${area_filtro.value}m2</b>:<br><b>MÉDIO</b>`;
+                                    } else if (ate200.includes('Baixo')) {
+                                        document.getElementById('resultado').style.backgroundColor = 'rgb(153, 255, 102, 0.3)';
+                                        document.getElementById('resultado').innerHTML = `Dentre as <b>novas inscrições</b>, grau de risco para a área: <b>${area_filtro.value}m2</b>:<br><b>BAIXO</b>`;
+                                    };
+                                } else if (parseInt(area_filtro.value) > 200 && parseInt(area_filtro.value) <= 400) {
+                                    if (d200a400.includes('Alto')) {
+                                        document.getElementById('resultado').style.backgroundColor = 'rgb(255, 0, 0, 0.3)';
+                                        document.getElementById('resultado').innerHTML = `Dentre as <b>novas inscrições</b>, grau de risco para a área: <b>${area_filtro.value}m2</b>:<br><b>ALTO</b>`;
+                                    } else if (d200a400.includes('Médio')) {
+                                        document.getElementById('resultado').style.backgroundColor = 'rgb(255, 204, 102, 0.3)';
+                                        document.getElementById('resultado').innerHTML = `Dentre as <b>novas inscrições</b>, grau de risco para a área: <b>${area_filtro.value}m2</b>:<br><b>MÉDIO</b>`;
+                                    } else if (d200a400.includes('Baixo')) {
+                                        document.getElementById('resultado').style.backgroundColor = 'rgb(153, 255, 102, 0.3)';
+                                        document.getElementById('resultado').innerHTML = `Dentre as <b>novas inscrições</b>, grau de risco para a área: <b>${area_filtro.value}m2</b>:<br><b>BAIXO</b>`;
+                                    };
+                                } else if (parseInt(area_filtro.value) > 400) {
+                                    if (acima400.includes('Alto')) {
+                                        document.getElementById('resultado').style.backgroundColor = 'rgb(255, 0, 0, 0.3)';
+                                        document.getElementById('resultado').innerHTML = `Dentre as <b>novas inscrições</b>, grau de risco para a área: <b>${area_filtro.value}m2</b>:<br><b>ALTO</b>`;
+                                    } else if (acima400.includes('Médio')) {
+                                        document.getElementById('resultado').style.backgroundColor = 'rgb(255, 204, 102, 0.3)';
+                                        document.getElementById('resultado').innerHTML = `Dentre as <b>novas inscrições</b>, grau de risco para a área: <b>${area_filtro.value}m2</b>:<br><b>MÉDIO</b>`;
+                                    } else if (acima400.includes('Baixo')) {
+                                        document.getElementById('resultado').style.backgroundColor = 'rgb(153, 255, 102, 0.3)';
+                                        document.getElementById('resultado').innerHTML = `Dentre as <b>novas inscrições</b>, grau de risco para a área: <b>${area_filtro.value}m2</b>:<br><b>BAIXO</b>`;
+                                    };
+                                }
+                            };
+                        };
+                        //campo avaliação zoneamento
+                        dadosfiltrados.reduce((a, e) => {
+                            if (e.tipo == true) {
+                                coletados.existentes.push(e.codigo);
+                            } else if (e.tipo == false) {
+                                coletados.removidos.push(e.codigo);
+                            } else {
+                                if (isNaN(parseInt(area_filtro.value)) === true) {
+                                    alert('área digitada não é um número válido');
+                                } else if (parseInt(area_filtro.value) <= 100) {
+                                    coletados.novosusos.push(e.usoate100);
+                                } else if (parseInt(area_filtro.value) > 100 && parseInt(area_filtro.value) <= 200) {
+                                    coletados.novosusos.push(e.uso100a200);
+                                } else if (parseInt(area_filtro.value) > 200 && parseInt(area_filtro.value) <= 400) {
+                                    coletados.novosusos.push(e.uso200a400);
+                                } else if (parseInt(area_filtro.value) > 400) {
+                                    coletados.novosusos.push(e.usoacima400);
+                                };
+                                coletados.novos.push(e.codigo);
+                            };
+                            contador--;
+                            if (contador == 0) {
+                                if (coletados.novosusos.length == 0) {
+                                    document.getElementById('zoneamento').style.backgroundColor = 'rgb(153, 255, 102, 0.3)';
+                                    document.getElementById('zoneamento').innerHTML = `<h4>CNAEs já existentes</h4>`;
+                                } else {
+                                    //dadosfiltradosagrupados(coletados);
+                                    zoneamento = tabriscozon.find(x => x.abrevia === dadoslote);
+                                    novosusoszoneamento = new Set(coletados.novosusos);
+                                    lcontador = novosusoszoneamento.size;
+                                    let resultados = [];
+                                    novosusoszoneamento.forEach(e => {
+                                        zoneamento[e]
+                                        resultados.push(zoneamento[e]);
+                                        lcontador--
+                                        if (lcontador == 0) {
+                                            if (resultados.includes('proibido') == true) {
+                                                document.getElementById('zoneamento').style.backgroundColor = 'rgb(255, 0, 0, 0.3)';
+                                                document.getElementById('zoneamento').innerHTML = `<h4>Atividade PROIBIDA para o local</h4>`;
+                                            } else if (resultados.includes('permissível') == true) {
+                                                document.getElementById('zoneamento').style.backgroundColor = 'rgb(255, 204, 102, 0.3)';
+                                                document.getElementById('zoneamento').innerHTML = `<h4>Atividade PERMISSÍVEL (solicitar parecer do CMGDT - SEDUH)</h4>`;
+                                            } else if (resultados.includes('permitido') == true) {
+                                                document.getElementById('zoneamento').style.backgroundColor = 'rgb(153, 255, 102, 0.3)';
+                                                document.getElementById('zoneamento').innerHTML = `<h4>Ativdade PERMITIDA para o local</h4>`;
+                                            };
+                                        };
+                                    });
+                                };
+                            };
+                        }, coletados = {
+                            existentes: [],
+                            removidos: [],
+                            novos: [],
+                            novosusos: []
+                        });
+                    };
+                } else {
+                    atualizacampos();
+                }
+            }, 500);
+        };
+    };
+
+    let table = new Tabulator('#tabela', {
+        locale: 'pt-br',
+        langs: {
+            "pt-br": {
+                "columns": {
+                    "name": "Nome",
+                },
+                "ajax": {
+                    "loading": "Carregando",
+                    "error": "Erro",
+                },
+                "groups": {
+                    "item": "item",
+                    "items": "itens",
+                },
+                "pagination": {
+                    "page_size": "Tamanho da página",
+                    "first": "Primeira",
+                    "first_title": "Próxima página",
+                    "last": "Última",
+                    "last_title": "Última página",
+                    "prev": "Anterior",
+                    "prev_title": "Página anterior",
+                    "next": "Próxima",
+                    "next_title": "Próxima página",
+                },
+                "headerFilters": {
+                    "default": "pesquisa...",
+                    "columns": {
+                        "name": "pesquisa...",
+                    }
+                }
+            }
+        },
+        groupBy: ['divisao'],
+        groupStartOpen: false,
+        groupToggleElement: "header",
+        data: tabrisco,
+        layout: "fitDataTable",
+        printAsHtml: true,
+        printConfig: {
+            columnGroups: false,
+            rowGroups: false,
+        },
+        columns: [
+            {
+                title: 'Tipo', field: 'tipo', print: false,
+                width: 60, hozAlign: "center", formatter: "tickCross", formatterParams: {
+                    allowEmpty: true
+                },
+                cellClick: (e, cell) => {
+                    if (timer == 0) {
+                        timer = 3;
+                        atualizacampos();
+                    } else { timer = 3 };
+                    let idrow = cell._cell.row.data.id
+                    if (cell.getValue() == null) {
+                        cell.setValue(true)
+                        table.updateData([{ id: idrow, tipodescr: "CNAE já existente" }]);
+                    } else if (cell.getValue() == true) {
+                        cell.setValue(false)
+                        table.updateData([{ id: idrow, tipodescr: "CNAEs a serem removidos" }]);
+                    } else {
+                        cell.setValue(null)
+                        table.updateData([{ id: idrow, tipodescr: "Nova inscrição" }]);
+                    };
+                }
+            },
+            {
+                title: 'Solicitação', field: 'tipodescr', width: 150,
+                cellClick: (e, cell) => {
+                    if (timer == 0) {
+                        timer = 3;
+                        atualizacampos();
+                    } else { timer = 3 };
+                    let idrow = cell._cell.row.data.id
+                    if (cell.getValue() == "Nova inscrição") {
+                        cell.setValue("CNAE já existente")
+                        table.updateData([{ id: idrow, tipo: true }]);
+                    } else if (cell.getValue() == "CNAEs a serem removidos") {
+                        cell.setValue("Nova inscrição")
+                        table.updateData([{ id: idrow, tipo: null }]);
+                    } else if (cell.getValue() == "CNAE já existente") {
+                        cell.setValue("CNAEs a serem removidos")
+                        table.updateData([{ id: idrow, tipo: false }]);
+                    };
+                }
+            },
+            {
+                title: 'Código', field: 'codigo', width: 75
+            },
+            {
+                title: 'Denominação', field: 'denominacao', width: 400
+            },
+            {
+                title: 'Risco até 100m²', field: 'ate100', width: 130, print: false
+            },
+            {
+                title: 'Risco 100 a 200m²', field: '100a200', width: 130, print: false
+            },
+            {
+                title: 'Risco  200 a 400m²', field: '200a400', width: 130, print: false
+            },
+            {
+                title: 'Risco acima 400m²', field: 'acima400', width: 130, print: false
+            },
+            {
+                title: 'Uso até 100m²', field: 'usoate100', width: 130, print: false
+            },
+            {
+                title: 'Uso 100 a 200m²', field: 'uso100a200', width: 130, print: false
+            },
+            {
+                title: 'Uso 200 a 400m²', field: 'uso200a400', width: 130, print: false
+            },
+            {
+                title: 'Uso acima 400m²', field: 'usoacima400', width: 130, print: false
+            }
+        ]
+    });
+
+    document.getElementById('botaoimprimir').addEventListener('click', e => {
+        window.print();
+    });
+
+    // botões copiar texto
+    function copiartxt(campo) {
+        document.getElementsByClassName("camposcopy")[0].style.backgroundColor = '#fff';
+        document.getElementsByClassName("camposcopy")[1].style.backgroundColor = '#fff';
+        document.getElementsByClassName("camposcopy")[2].style.backgroundColor = '#fff';
+        let copyText = document.getElementById(campo);
+        copyText.select();
+        copyText.setSelectionRange(0, 99999);
+        document.execCommand("copy");
+        document.getElementById(campo).style.backgroundColor = '#cccccc';
+        //alert(copyText.value);
+    }
+
+    // lote mapa
+    let mapa = new L.Map('mapa', {
+        zoom: 14,
+        minZoom: 12,
+        maxZoom: 19,
+        maxBounds: [
+            //south west
+            [-27.3000, -49.2300],
+            //north east
+            [-26.3285, -48.3200]
+        ],
+        center: new L.latLng([-26.9046, -48.6874]),
+        //zoomControl: false,
+        preferCanvas: true,
+        attributionControl: false,
+        scrollWheelZoom: false,
+        zoomControl: false,
+        dragging: false
+    });
+
+    //Mapa base, SMU
+    let tilesmu = new L.TileLayer('tiles/basemap/{z}/{x}/{y}.png', {
+        minZoom: 12,
+        maxZoom: 19,
+        attribution: 'Município de Itajaí/SC, <a href="mailto:jaceguay@itajai.sc.gov.br?Subject=WebGIS" target="_top">SIE</a>'
+    }).addTo(mapa);
+
+    //barra escala
+    L.control.scale({
+        position: "topright",
+        imperial: false
+    }).addTo(mapa);
+
+    //Norte
+    let nortemapa = L.control({
+        position: 'topright'
+    });
+    nortemapa.onAdd = function (map) {
+        let div = L.DomUtil.create('div', 'info2 legend');
+        div.innerHTML +=
+            '<center><sub><font size="4">▲</font></sub><br/>' +
+            '<sup><font size="2">N</font></sup></center>'
+        return div;
+    };
+    nortemapa.addTo(mapa);
+
+    let plantaCadastralDestaque = L.featureGroup().addTo(mapa);
+    let dadoslote;
+    let cadastro = L.esri.query({
+        url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/malhacrs3857/FeatureServer/0/'
+    });
+
+    hashlote = (dados) => {
+        cadastro.where(`inscricao ='${String(dados[1])}'`)
+            .limit(1)
+            .run(function (error, cadastrolote) {
+                dadoslote = cadastrolote.features[0].properties.zon2012pre;
+                console.log(cadastrolote.features[0].properties)
+                $.getJSON("data/zoneamento/exportTabela/" + cadastrolote.features[0].properties.zon2012pre + ".geojson", (datazoneamento) => {
+                    document.getElementById('identificalote').innerHTML = `<b>Inscrição Imobiliária: ${cadastrolote.features[0].properties.inscricao}</b><br>Endereço: ${cadastrolote.features[0].properties.nomevia}, ${cadastrolote.features[0].properties.numero}<br>Itajaí - SC<br><b>Zoneamento: ${cadastrolote.features[0].properties.zon2012pre}</b><br>Usos permitidos: ${datazoneamento[0].properties.permitidos}<br>Usos permissíveis: ${datazoneamento[0].properties.permissiv}`;
+                });
+                L.geoJson(cadastrolote, {
+                    style: {
+                        weight: 5,
+                        color: '#666',
+                        dashArray: '',
+                        fillOpacity: 0.7,
+                        interactive: false
+                    }
+                }).addTo(plantaCadastralDestaque);
+                mapa.flyToBounds(plantaCadastralDestaque.getBounds(), {
+                    maxZoom: 17
+                });
+            });
+
+    };
+
+    if (window.location.hash.length > 1) {
+        hashlote(window.location.hash.split('#'));
+    } else {
+        if (window.confirm('Primeiro acesse e selecione um lote em plantacadastral.itajai.sc.gov.br/')) {
+            window.location.href = 'http://plantacadastral.itajai.sc.gov.br/';
+        };
+    };
+
+</script>
+
+</html>
