@@ -8,20 +8,23 @@
     <link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16">
     <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <link rel="stylesheet" href="lib/jquery-ui.min.css" />
-    <link rel="stylesheet" href="lib/jquery-ui.theme.min.css" />
-    <link rel="stylesheet" href="lib/tabulator_simple.min.css" />
-    <link rel="stylesheet" href="lib/measure/leaflet.draw.css" />
-    <link rel="stylesheet" href="lib/Control.Coordinates.css" />
+    <!-- jQuery from CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/tabulator-tables@5.2.4/dist/css/tabulator_simple.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/jquery-ui-dist@1.13.1/jquery-ui.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/jquery-ui-dist@1.13.1/jquery-ui.theme.min.css" rel="stylesheet">
+    <script type="text/javascript" src="https://unpkg.com/jquery-ui-dist@1.13.1/jquery-ui.min.js"></script>
+    <!-- Leaflet from CDN -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
         integrity="sha384-VzLXTJGPSyTLX6d96AxgkKvE/LRb7ECGyTxuwtpjHnVWVZs2gp5RDjeM/tgBnVdM" crossorigin="anonymous" />
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
         integrity="sha384-RFZC58YeKApoNsIbBxf4z6JJXmh+geBSgkCQXFyh+4tiFSJmJBt+2FbjxW7Ar16M"
         crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="lib/jquery-ui.min.js"></script>
-    <script src="lib/tabulator.min.js"></script>
+    <!-- Tabulator from CDN -->
+    <link href="https://unpkg.com/tabulator-tables@5.2.4/dist/css/tabulator_simple.min.css" rel="stylesheet">
+    <script type="text/javascript" src="https://unpkg.com/tabulator-tables@5.2.4/dist/js/tabulator.min.js"></script>
+    <!-- Leaflet plugins -->
     <script src="lib/measure/Leaflet.draw.js"></script>
     <script src="lib/measure/Leaflet.Draw.Event.js"></script>
     <script src="lib/measure/Toolbar.js"></script>
@@ -37,19 +40,15 @@
     <script src="lib/measure/leaflet.measurecontrol.js"></script>
     <script src="lib/fallback.js"></script>
     <script src="lib/Control.Coordinates.js"></script>
-    <link rel="stylesheet" href="plantacadastral.css" />
-
     <!-- Esri Leaflet from CDN -->
     <script src="https://unpkg.com/esri-leaflet@3.0.8/dist/esri-leaflet.js"
         integrity="sha512-E0DKVahIg0p1UHR2Kf9NX7x7TUewJb30mxkxEm2qOYTVJObgsAGpEol9F6iK6oefCbkJiA4/i6fnTHzM6H1kEA=="
         crossorigin=""></script>
-
     <!-- Esri Leaflet Vector from CDN -->
     <script src="https://unpkg.com/esri-leaflet-vector@3.1.2/dist/esri-leaflet-vector.js"
         integrity="sha512-SnA/TobYvMdLwGPv48bsO+9ROk7kqKu/tI9TelKQsDe+KZL0TUUWml56TZIMGcpHcVctpaU6Mz4bvboUQDuU3w=="
         crossorigin=""></script>
     <link href="https://api.mapbox.com/mapbox-gl-js/v2.7.0/mapbox-gl.css" rel="stylesheet">
-
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-172813797-1"></script>
     <script>
@@ -58,6 +57,10 @@
         gtag('js', new Date());
         gtag('config', 'UA-172813797-1');
     </script>
+    <!-- estilos -->
+    <link rel="stylesheet" href="plantacadastral.css" />
+    <link rel="stylesheet" href="lib/measure/leaflet.draw.css" />
+    <link rel="stylesheet" href="lib/Control.Coordinates.css" />
 </head>
 
 <body>
@@ -526,12 +529,12 @@
                 fcol.features.forEach(el => {
                     if (zoneamento == 'pend') {
                         linkinfo = 'consultar secretatira urbanismo';
-                        consultapreviap = `https://geoitajai.github.io/geo/consultazoneamento.html#${el.properties.lote_inscricao}`;
-                        consultaalvara = `https://geoitajai.github.io/geo/consultaalvara.html#${el.properties.lote_inscricao}`;
+                        consultapreviap = `http://localhost:8000/consultazoneamento_teste.html#${el.properties.lote_inscricao}`;
+                        consultaalvara = `http://localhost:8000/consultaalvara_teste.html#${el.properties.lote_inscricao}`;
                     } else {
                         linkinfo = 'clique para abrir';
-                        consultapreviap = `https://geoitajai.github.io/geo/consultazoneamento.html#${el.properties.lote_inscricao}`;
-                        consultaalvara = `https://geoitajai.github.io/geo/consultaalvara.html#${el.properties.lote_inscricao}`;
+                        consultapreviap = `http://localhost:8000/consultazoneamento_teste.html#${el.properties.lote_inscricao}`;
+                        consultaalvara = `http://localhost:8000/consultaalvara_teste.html#${el.properties.lote_inscricao}`;
                     };
                     objtabela.push({
                         'consultaprevia': consultapreviap,

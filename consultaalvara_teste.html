@@ -646,9 +646,8 @@
         cadastro.where(`inscricao ='${String(dados[1])}'`)
             .limit(1)
             .run(function (error, cadastrolote) {
-                dadoslote = cadastrolote.features[0].properties.zon2012pre;
-                console.log(cadastrolote.features[0].properties)
-                $.getJSON("data/zoneamento/exportTabela/" + cadastrolote.features[0].properties.zon2012pre + ".geojson", (datazoneamento) => {
+                dadoslote = cadastrolote.features[0].properties.zon2012pre.trim();
+                $.getJSON("data/zoneamento/exportTabela/" + cadastrolote.features[0].properties.zon2012pre.trim() + ".geojson", (datazoneamento) => {
                     document.getElementById('identificalote').innerHTML = `<b>Inscrição Imobiliária: ${cadastrolote.features[0].properties.inscricao}</b><br>Endereço: ${cadastrolote.features[0].properties.nomevia}, ${cadastrolote.features[0].properties.numero}<br>Itajaí - SC<br><b>Zoneamento: ${cadastrolote.features[0].properties.zon2012pre}</b><br>Usos permitidos: ${datazoneamento[0].properties.permitidos}<br>Usos permissíveis: ${datazoneamento[0].properties.permissiv}`;
                 });
                 L.geoJson(cadastrolote, {
