@@ -256,8 +256,6 @@
             cadastro.where(`inscricao ='${String(dados[1])}'`)
                 .limit(1)
                 .run(function (error, cadastrolote) {
-
-                    console.log(cadastrolote.features)
                     //MontarMapa
                     L.geoJson(cadastrolote, {
                         style: {
@@ -272,10 +270,10 @@
                         maxZoom: 19
                     });
                     //----------------------------
-                    if (cadastrolote.features[0].properties.reaeroporto !== null) {
+                    if (cadastrolote.features[0].properties.reaeroport !== null) {
                         document.getElementById("reaeroporto").innerHTML = 'X'
                     };
-                    if (cadastrolote.features[0].properties.redeptransito !== null) {
+                    if (cadastrolote.features[0].properties.redeptrans !== null) {
                         document.getElementById("redeptransito").innerHTML = 'X'
                     };
                     if (cadastrolote.features[0].properties.zon2012.toString().search(/ZPA/) !== -1) {
@@ -284,7 +282,7 @@
                     if (cadastrolote.features[0].properties.rerodovias !== null) {
                         document.getElementById("rerodovias").innerHTML = 'X'
                     };
-                    if (cadastrolote.features[0].properties.repatrimoniohistorico !== null) {
+                    if (cadastrolote.features[0].properties.repatrimon !== null) {
                         document.getElementById("repatrimoniohistorico").innerHTML = 'X'
                     };
                     document.getElementById("reambiental").innerHTML = 'X';
