@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2160830415", "cod": 1496.0, "nome": "R.Marcos Albino", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.749807275217556, -26.969837599757653 ], [ -48.750026562562752, -26.969525309316975 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2160830415", "cod": 1781.0, "nome": "Sem denominação Oficial", "ptotalvia": null, "ppasseio1": null, "ppasseio2": null }, "geometry": { "type": "LineString", "coordinates": [ [ -48.749332491570293, -26.969369494475295 ], [ -48.74936416, -26.96931115 ], [ -48.74938204, -26.96927403 ], [ -48.749382154646341, -26.96927326013676 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2160830415", "cod": 1783.0, "nome": "Serv.Servidao Particular", "ptotalvia": null, "ppasseio1": null, "ppasseio2": null }, "geometry": { "type": "LineString", "coordinates": [ [ -48.749941096452233, -26.969093043790163 ], [ -48.74982367, -26.96906356 ], [ -48.74969461686927, -26.969020319704285 ] ] } }
-]
-}

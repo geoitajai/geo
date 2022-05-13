@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0051740005", "cod": 933.0, "nome": "R.Ana Mafra Pereira", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702857755619902, -26.924443324040059 ], [ -48.70280769, -26.92449115 ], [ -48.702534660417342, -26.924759554759888 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0051740005", "cod": 943.0, "nome": "R.Luiz Bela Cruz", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70280769, -26.92449115 ], [ -48.702582115566614, -26.92430325935517 ] ] } }
-]
-}

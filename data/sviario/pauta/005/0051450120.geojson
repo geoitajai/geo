@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0051450120", "cod": 898.0, "nome": "R.Das Orquídeas", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69081312, -26.9177163 ], [ -48.690848564834788, -26.918089177061663 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0051450120", "cod": 908.0, "nome": "R.Das Papoulas", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691143846062587, -26.917700605584486 ], [ -48.69081312, -26.9177163 ], [ -48.690733985340785, -26.917718403213996 ] ] } }
-]
-}

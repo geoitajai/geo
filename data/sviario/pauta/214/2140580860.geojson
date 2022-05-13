@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140580860", "cod": 728.0, "nome": "R.João Hipólito Gonçalves", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.648046700840311, -26.93155773297838 ], [ -48.64787613, -26.93142294 ], [ -48.64745574, -26.93100846 ], [ -48.647313867735761, -26.930867521721382 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2140580860", "cod": 729.0, "nome": "R.Maria Sedrez", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.647553683579424, -26.93195164419522 ], [ -48.646854818407782, -26.931386356891636 ] ] } }
-]
-}

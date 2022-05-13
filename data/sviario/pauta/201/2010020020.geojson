@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010020020", "cod": 280.0, "nome": "Av.Min.Victor Konder", "ptotalvia": 20.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -48.65383019686616, -26.910431808485054 ], [ -48.653722695964596, -26.911137623199419 ] ], [ [ -48.653694872453897, -26.911320301158042 ], [ -48.653605593025986, -26.911906468788377 ] ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010020020", "cod": 1614.0, "nome": "Av.Ver.Carlos Ely Castro", "ptotalvia": 26.4, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.653757928449416, -26.910343412391921 ], [ -48.65352765, -26.91030576 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010020020", "cod": 1614.0, "nome": "Av.Ver.Carlos Ely Castro", "ptotalvia": 26.4, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65352765, -26.91030576 ], [ -48.6520827, -26.91006947 ] ] } }
-]
-}

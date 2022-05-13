@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2041500400", "cod": 872.0, "nome": "R.Profº.Ondino Geraldo da Silva", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67330747450135, -26.933673468941311 ], [ -48.67263186, -26.9337004 ], [ -48.672566231284499, -26.933703296340571 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2041500400", "cod": 874.0, "nome": "R.Leopoldo Zarling", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.672613728371346, -26.933347177158801 ], [ -48.67263186, -26.9337004 ], [ -48.67263358077561, -26.933751461143604 ] ] } }
-]
-}

@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0052790010", "cod": 65.0, "nome": "R.Santa Cecília", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.683320556237611, -26.895276711811835 ], [ -48.683046147960148, -26.895526491409814 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0052790010", "cod": 61.0, "nome": "R.São Francisco do Sul", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.682878036334969, -26.895173084159271 ], [ -48.682882381438048, -26.895410049152076 ] ] } }
-]
-}

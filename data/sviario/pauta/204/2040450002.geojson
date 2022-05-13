@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040450002", "cod": 656.0, "nome": "R.João Matias Heil", "ptotalvia": 12.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65682847, -26.918441109999989 ], [ -48.656848214158117, -26.918458397369974 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040450002", "cod": 679.0, "nome": "R.Eduardo Gonçalves Dutra", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65662753, -26.91857784 ], [ -48.656169022889415, -26.918184595251741 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040450002", "cod": 266.0, "nome": "R.Uruguai", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656859866528094, -26.918417983914356 ], [ -48.65682847, -26.918441109999989 ], [ -48.65662753, -26.91857784 ], [ -48.656563447827381, -26.918625537673982 ] ] } }
-]
-}

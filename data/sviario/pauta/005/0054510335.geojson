@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0054510335", "cod": 984.0, "nome": "R.Maria Alves Mafra", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.699889203128158, -26.927470381556482 ], [ -48.7001166, -26.92765469 ], [ -48.700146732305043, -26.927679369323762 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0054510335", "cod": 985.0, "nome": "R.Ivana Werner", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700156591952641, -26.927616903913833 ], [ -48.7001166, -26.92765469 ] ] } }
-]
-}

@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010660613", "cod": 339.0, "nome": "R.Dr.Alexandre Fleming", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66689410706919, -26.909023070265214 ], [ -48.6666220307253, -26.908811227133093 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010660613", "cod": 284.0, "nome": "R.Alm.Barroso", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.667187168058625, -26.908714889832769 ], [ -48.666917107763865, -26.908505413458805 ] ] } }
-]
-}

@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2141160300", "cod": 794.0, "nome": "R.Dr.Lauro Mussi", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.630057555989843, -26.949154574821232 ], [ -48.63006433, -26.94923207 ], [ -48.630087064982931, -26.949502673454248 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2141160300", "cod": 795.0, "nome": "R.Maria das Dores Santos Müller", "ptotalvia": 15.0, "ppasseio1": 3.5, "ppasseio2": 3.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.630504931315649, -26.949171562390745 ], [ -48.63006433, -26.94923207 ], [ -48.629977761670332, -26.949241132601774 ] ] } }
-]
-}

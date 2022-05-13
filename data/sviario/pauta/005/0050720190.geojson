@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050720190", "cod": 17.0, "nome": "R.Jovita da Costa Ramos", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.694144221568862, -26.903756856275091 ], [ -48.69385658, -26.9037657 ], [ -48.693813954331219, -26.903766838751878 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0050720190", "cod": 50.0, "nome": "R.Luiz Lopes Gonzaga", "ptotalvia": 13.2, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69385658, -26.9037657 ], [ -48.693856971183976, -26.903789452621734 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0050720190", "cod": 50.0, "nome": "R.Luiz Lopes Gonzaga", "ptotalvia": 13.2, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693851018630852, -26.903455713532232 ], [ -48.69385658, -26.9037657 ] ] } }
-]
-}

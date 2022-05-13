@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0031940020", "cod": 1209.0, "nome": "R.Salvador", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700116744277494, -26.898673365416826 ], [ -48.69980147, -26.89868695 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0031940020", "cod": 1210.0, "nome": "R.Minas Gerais", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69980147, -26.89868695 ], [ -48.699736516515479, -26.89870339734161 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0031940020", "cod": 1213.0, "nome": "Trav.Teresina ", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.699797866684236, -26.898623958528056 ], [ -48.69980147, -26.89868695 ] ] } }
-]
-}

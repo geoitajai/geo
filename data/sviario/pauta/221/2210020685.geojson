@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2210020685", "cod": 527.0, "nome": "R.Francisco Ferreira Filho", "ptotalvia": 6.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.681180698257222, -26.909679724329099 ], [ -48.680793494227281, -26.90969439533897 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2210020685", "cod": 521.0, "nome": "R.Luciano Pinheiro da Silva", "ptotalvia": 13.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.680782656324517, -26.909713915650254 ], [ -48.680779087239721, -26.909734432678018 ] ] } }
-]
-}

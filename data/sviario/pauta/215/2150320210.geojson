@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2150320210", "cod": 1345.0, "nome": "R.Arlindo João Pezzini", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.7305449, -26.87129872 ], [ -48.72957282, -26.87132849 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2150320210", "cod": 1176.0, "nome": "Av.Marginal Oeste", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.729707695521519, -26.870981391188767 ], [ -48.72957282, -26.87132849 ], [ -48.729457811314532, -26.871616065364481 ] ] } }
-]
-}

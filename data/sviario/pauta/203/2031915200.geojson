@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2031915200", "cod": 1105.0, "nome": "R.Francisca Machado", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702466479101119, -26.880311375233621 ], [ -48.70249485, -26.88101086 ], [ -48.702496933737244, -26.881050236488086 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2031915200", "cod": 1108.0, "nome": "R.Eurípedes Amorim Leal", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702978183927407, -26.880988736991533 ], [ -48.70285073, -26.88099457 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2031915200", "cod": 1108.0, "nome": "R.Eurípedes Amorim Leal", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70285073, -26.88099457 ], [ -48.70249485, -26.88101086 ], [ -48.702432097086621, -26.881013355219441 ] ] } }
-]
-}

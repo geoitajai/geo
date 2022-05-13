@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140361550", "cod": 735.0, "nome": "R.Tereza Francisca Pereira", "ptotalvia": 13.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.636245681610895, -26.929200083345481 ], [ -48.636438, -26.92928316 ], [ -48.636640687078739, -26.929449751292346 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2140361550", "cod": 770.0, "nome": "R.Aurora Cabral dos Santos", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.636438, -26.92928316 ], [ -48.636387883901889, -26.929361131622059 ] ] } }
-]
-}

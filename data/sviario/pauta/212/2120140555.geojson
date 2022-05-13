@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2120140555", "cod": 170.0, "nome": "R.Anísio Costa", "ptotalvia": 7.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67607741772855, -26.895606114802671 ], [ -48.67604139, -26.8955775 ], [ -48.675808343614115, -26.895393135014025 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2120140555", "cod": 161.0, "nome": "Av.Irineu Bornhausen", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676248516315013, -26.895366393962529 ], [ -48.67604139, -26.8955775 ], [ -48.675998252092349, -26.895620169332059 ] ] } }
-]
-}

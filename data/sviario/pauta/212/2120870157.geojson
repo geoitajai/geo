@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2120870157", "cod": 406.0, "nome": "Trav.Penha", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.684189332144484, -26.891402116645764 ], [ -48.68388573, -26.89169771 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2120870157", "cod": 405.0, "nome": "R.David Adão Schmidt", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.684126694155395, -26.891889444220869 ], [ -48.68388573, -26.89169771 ], [ -48.68385026251979, -26.891669957562268 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2120870157", "cod": 420.0, "nome": "Trav.Marcos Castellain", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68388573, -26.89169771 ], [ -48.68385337520624, -26.891713286913824 ] ] } }
-]
-}

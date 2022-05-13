@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050190555", "cod": 25.0, "nome": "R.Rodolfo Kucker", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.690626447685574, -26.899459799372963 ], [ -48.69056707, -26.89946191 ], [ -48.690282718049112, -26.899465904541238 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0050190555", "cod": 51.0, "nome": "R.Otávio Cesário Pereira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69056882, -26.8997208 ], [ -48.690569811311377, -26.899867191502199 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0050190555", "cod": 51.0, "nome": "R.Otávio Cesário Pereira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.690565930145794, -26.899412260119721 ], [ -48.69056707, -26.89946191 ], [ -48.69056882, -26.8997208 ] ] } }
-]
-}

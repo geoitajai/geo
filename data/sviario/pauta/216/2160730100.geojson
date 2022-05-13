@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2160730100", "cod": 1730.0, "nome": "Av.Marginal Norte", "ptotalvia": 30.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.76429745, -26.95552142 ], [ -48.76338171, -26.95460804 ], [ -48.76281316, -26.9541226 ], [ -48.76106271, -26.95291568 ], [ -48.75946309, -26.95181238 ], [ -48.75890478, -26.95148192 ], [ -48.75815312, -26.95118412 ], [ -48.757731222222176, -26.951083617863819 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2160730100", "cod": 1235.0, "nome": "Rod.Dep.Antônio Heil", "ptotalvia": 30.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.764427930329802, -26.955613100307882 ], [ -48.76429745, -26.95552142 ], [ -48.764294742352945, -26.955519517359772 ] ] } }
-]
-}

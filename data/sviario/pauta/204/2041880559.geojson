@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2041880559", "cod": 633.0, "nome": "R.Antônio Caetano", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656386014946584, -26.920955778081424 ], [ -48.65645419, -26.9210108 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2041880559", "cod": 657.0, "nome": "R.Cesário Chaves", "ptotalvia": 12.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656617580585078, -26.920805767537413 ], [ -48.65645419, -26.9210108 ], [ -48.656304726432019, -26.921209878466247 ] ] } }
-]
-}

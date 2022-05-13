@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010561964", "cod": 286.0, "nome": "R.Tijucas", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.663357315657464, -26.905887302028777 ], [ -48.663145537846887, -26.90611788206256 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010561964", "cod": 342.0, "nome": "R.Dr.Cacildo Romagnoni", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.663961411869515, -26.906386850198601 ], [ -48.66374721695076, -26.906621285310408 ] ] } }
-]
-}

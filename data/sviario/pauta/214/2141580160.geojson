@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2141580160", "cod": 838.0, "nome": "R.Lúcia Serafim de Oliveira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.631449526134467, -26.950433778165369 ], [ -48.631418714903809, -26.950103381938472 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2141580160", "cod": 839.0, "nome": "R.Paulo Batschauer", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.63170976, -26.9500595 ], [ -48.631460449530344, -26.950082959441378 ] ] } }
-]
-}

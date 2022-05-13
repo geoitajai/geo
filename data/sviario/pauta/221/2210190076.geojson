@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2210190076", "cod": 530.0, "nome": "R.São Francisco de Assis", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68383028, -26.91060651 ], [ -48.683784949032358, -26.910886373260471 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2210190076", "cod": 524.0, "nome": "R.Bel.Clito César Rebello", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.684281436089755, -26.91064748337223 ], [ -48.68383028, -26.91060651 ], [ -48.683755827938917, -26.910599020399726 ] ] } }
-]
-}

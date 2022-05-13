@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2165000100", "cod": 1496.0, "nome": "R.Marcos Albino", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -48.738373157388288, -26.977532846167051 ], [ -48.73871254, -26.97747914 ], [ -48.73914475918739, -26.977300410018117 ] ], [ [ -48.739673636390307, -26.977163769578986 ], [ -48.74078808, -26.97689761 ], [ -48.74210888, -26.97652276 ], [ -48.742331326040208, -26.976398261500648 ] ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2165000100", "cod": 1499.0, "nome": "R.Valdecir Cagnetti", "ptotalvia": 20.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.741814586547839, -26.978096057547265 ], [ -48.7417704, -26.97812404 ] ] } }
-]
-}

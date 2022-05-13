@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2030340496", "cod": 1069.0, "nome": "R.Altino de Souza", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70572294, -26.87139073 ], [ -48.705752356973704, -26.872023139735941 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2030340496", "cod": 1061.0, "nome": "R.José Luiz Marcelino", "ptotalvia": 10.2, "ppasseio1": 1.6, "ppasseio2": 1.6 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.705739076794934, -26.871382257753311 ], [ -48.70572294, -26.87139073 ], [ -48.705304276331169, -26.871657351720696 ] ] } }
-]
-}

@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0030050610", "cod": 1122.0, "nome": "R.Porto Velho", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.688997098902355, -26.893128704075785 ], [ -48.68899851, -26.89315513 ], [ -48.689007061800908, -26.893266474063164 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0030050610", "cod": 1123.0, "nome": "R.José Ramos", "ptotalvia": 9.5, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.688659883231161, -26.893039774764052 ], [ -48.68867271, -26.89325105 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0030050610", "cod": 1124.0, "nome": "R.Rodolfo Bosco", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.688985414403817, -26.893313178692178 ], [ -48.68867271, -26.89325105 ], [ -48.688568823450687, -26.893174075792476 ] ] } }
-]
-}

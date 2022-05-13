@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2161690350", "cod": 1264.0, "nome": "R.Luiz Sétimo Trainotti", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.848048731184782, -27.03838021563902 ], [ -48.84806317000001, -27.03856495 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2161690350", "cod": 1265.0, "nome": "R.Pedro Angioletti", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.848649915026961, -27.038402514910654 ], [ -48.84865649, -27.03852731 ] ] } }
-]
-}

@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0054810930", "cod": 921.0, "nome": "R.Ivo Werner", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69266786284097, -26.920783812941025 ], [ -48.69227113, -26.92093618 ], [ -48.692213738285275, -26.920958220521687 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0054810930", "cod": 1630.0, "nome": "Serv.Dilcéa Faria Pereira Façanha", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692204707075355, -26.920649467205941 ], [ -48.69227113, -26.92093618 ] ] } }
-]
-}

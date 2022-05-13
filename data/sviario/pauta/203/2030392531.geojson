@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2030392531", "cod": 1060.0, "nome": "R.Valdir Souza", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69122105, -26.8751772 ], [ -48.69150637, -26.87566426 ], [ -48.691691246466384, -26.875991074163107 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2030392531", "cod": 1057.0, "nome": "R.Adolfo José Fontes Pfeilsticker", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691317946318684, -26.875174699052774 ], [ -48.69122105, -26.8751772 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2030392531", "cod": 1058.0, "nome": "R.Archimedes Lobo Johannsen", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69160481850632, -26.875661376259547 ], [ -48.69150637, -26.87566426 ] ] } }
-]
-}

@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0031960020", "cod": 1173.0, "nome": "R.Agostinho Alves Ramos", "ptotalvia": 20.4, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700636491277876, -26.900327703856064 ], [ -48.700399299699235, -26.90019475785931 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0031960020", "cod": 1164.0, "nome": "R.Gustavo Bernedet", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700846816246063, -26.899977535958687 ], [ -48.70084794, -26.90015462 ], [ -48.700753330892603, -26.900298748056283 ] ] } }
-]
-}

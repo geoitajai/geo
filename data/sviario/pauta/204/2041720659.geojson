@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2041720659", "cod": 265.0, "nome": "Av.Ver.Abrahão João Francisco", "ptotalvia": 29.4, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.660590868588265, -26.913394232011118 ], [ -48.66049974, -26.91337373 ], [ -48.66023921076053, -26.913351357510262 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2041720659", "cod": 264.0, "nome": "Av.Joca Brandão", "ptotalvia": 26.4, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.660590176953768, -26.912789043863338 ], [ -48.660787080486777, -26.912861455175364 ] ] } }
-]
-}

@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2151310100", "cod": 1316.0, "nome": "R.Mariângela Rocha Fabeni", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.74677118179703, -26.871381398448364 ], [ -48.7468528, -26.87242253 ], [ -48.74685629374018, -26.872465079905684 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2151310100", "cod": 1317.0, "nome": "R.Arq.Luiz Augusto Trojan", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.747235160762067, -26.871350344899401 ], [ -48.747326985684332, -26.872433827797305 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2151310100", "cod": 1327.0, "nome": "Av.Lauro José Pereira", "ptotalvia": 18.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.747389943464235, -26.872383800615154 ], [ -48.7468528, -26.87242253 ], [ -48.746787971600419, -26.87242643475788 ] ] } }
-]
-}

@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010800585", "cod": 265.0, "nome": "Av.Ver.Abrahão João Francisco", "ptotalvia": 29.4, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.665297529131195, -26.915981530975056 ], [ -48.665092925256694, -26.915836672510125 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010800585", "cod": 377.0, "nome": "R.Jorge Mattos", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.665374344640718, -26.91548456408017 ], [ -48.665631566630196, -26.915683007769925 ] ] } }
-]
-}

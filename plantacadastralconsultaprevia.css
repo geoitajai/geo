@@ -4,7 +4,8 @@
     --claro: #e9e9e9;
 }
 
-html, body {
+html,
+body {
     height: 100%;
     margin: 0;
     padding: 0;
@@ -133,7 +134,15 @@ ul.ui-autocomplete {
     overflow-y: scroll;
 }
 
-.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, .ui-button:active, .ui-state-active.ui-button:hover, .ui-state-active, .ui-state-hover, .ui-state-visited, .ui-state-focus {
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active,
+.ui-button:active,
+.ui-state-active.ui-button:hover,
+.ui-state-active,
+.ui-state-hover,
+.ui-state-visited,
+.ui-state-focus {
     border: none;
 }
 
@@ -152,7 +161,8 @@ ul.ui-autocomplete {
     border-bottom: 0px;
 }
 
-.tabulator .tabulator-header, .tabulator .tabulator-header .tabulator-col {
+.tabulator .tabulator-header,
+.tabulator .tabulator-header .tabulator-col {
     background-color: var(--base);
 }
 

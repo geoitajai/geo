@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2030190294", "cod": 1103.0, "nome": "R.Henrique Bianchini", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.703616866026998, -26.880678001568587 ], [ -48.70363174, -26.8809582 ], [ -48.703635435230311, -26.881022086083561 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2030190294", "cod": 1108.0, "nome": "R.Eurípedes Amorim Leal", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.703704688749234, -26.880955485827897 ], [ -48.703252857402653, -26.880976165993875 ] ] } }
-]
-}

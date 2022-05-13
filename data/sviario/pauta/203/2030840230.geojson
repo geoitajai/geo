@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2030840230", "cod": 1080.0, "nome": "R.Carlos Juvenal Gomes", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696247640803719, -26.876772149115638 ], [ -48.69616948, -26.87677707 ], [ -48.695853612537114, -26.876789007282675 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2030840230", "cod": 1087.0, "nome": "R.João Emiliano da Silva", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69616948, -26.87677707 ], [ -48.696178325136373, -26.877060075291045 ] ] } }
-]
-}

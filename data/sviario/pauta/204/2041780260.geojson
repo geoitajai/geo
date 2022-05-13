@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2041780260", "cod": 691.0, "nome": "R.Edmundo Kienast", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.653236873222411, -26.924355861853467 ], [ -48.65350337, -26.9245468 ], [ -48.653515903723708, -26.924554882056405 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2041780260", "cod": 692.0, "nome": "R.Gorino Bernardes", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65350337, -26.9245468 ], [ -48.65329483092296, -26.924761214265995 ] ] } }
-]
-}

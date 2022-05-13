@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0030730165", "cod": 1629.0, "nome": "R.\"25\" Loteamento Costa Cavalcanti", "ptotalvia": 5.9, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69782591671342, -26.897097932918438 ], [ -48.69782878, -26.89719187 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0030730165", "cod": 1216.0, "nome": "R.Rondônia", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697974210237746, -26.897187606831206 ], [ -48.69782878, -26.89719187 ], [ -48.697593568685832, -26.897198762592634 ] ] } }
-]
-}

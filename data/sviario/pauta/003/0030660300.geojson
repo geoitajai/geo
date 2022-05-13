@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0030660300", "cod": 1196.0, "nome": "Av.Guanabara", "ptotalvia": 18.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69741890101254, -26.891727786181768 ], [ -48.697431204151982, -26.892022228998513 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0030660300", "cod": 1200.0, "nome": "R.Alagoas", "ptotalvia": 11.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697461645813895, -26.8917821195834 ], [ -48.69742136, -26.89178339 ] ] } }
-]
-}

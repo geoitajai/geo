@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2160411700", "cod": 1413.0, "nome": "Av.Itaipava", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.707147816207332, -26.936333979762818 ], [ -48.70687251, -26.93629439 ], [ -48.70648581, -26.93616484 ], [ -48.70623211, -26.9360243 ], [ -48.705688205083447, -26.935671561433548 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2160411700", "cod": 1235.0, "nome": "Rod.Dep.Antônio Heil", "ptotalvia": 30.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.706541970013589, -26.939808361021019 ], [ -48.70631976, -26.93971865 ], [ -48.70583943, -26.93956815 ], [ -48.704342700607349, -26.939182346476567 ] ] } }
-]
-}

@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0031310475", "cod": 1167.0, "nome": "R.José Rosa", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702705287850378, -26.891978238574641 ], [ -48.70270677, -26.89200093 ], [ -48.702723263179294, -26.892320847618997 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0031310475", "cod": 1230.0, "nome": "Serv.Ataide Niada", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70270677, -26.89200093 ], [ -48.7026459473241, -26.892004374093819 ] ] } }
-]
-}

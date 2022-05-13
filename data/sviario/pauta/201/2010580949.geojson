@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010580949", "cod": 323.0, "nome": "R.Amâncio Coelho", "ptotalvia": 7.5, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6655395, -26.9044799 ], [ -48.665569085826924, -26.904811826406984 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010580949", "cod": 160.0, "nome": "R.Heitor Liberato", "ptotalvia": 15.5, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.665642893991617, -26.904511324033486 ], [ -48.6655395, -26.9044799 ], [ -48.665305967608511, -26.904402766981491 ] ] } }
-]
-}

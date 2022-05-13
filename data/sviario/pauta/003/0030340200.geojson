@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0030340200", "cod": 1113.0, "nome": "R.Odilio Garcia", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693370333127802, -26.885635211234209 ], [ -48.69337454, -26.88570284 ], [ -48.693395624532734, -26.886074137283128 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0030340200", "cod": 1134.0, "nome": "R.Fernando Vieira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693449969811667, -26.885697177546866 ], [ -48.69337454, -26.88570284 ], [ -48.692839254022537, -26.885738434146955 ] ] } }
-]
-}

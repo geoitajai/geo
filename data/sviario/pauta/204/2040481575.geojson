@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040481575", "cod": 634.0, "nome": "R.Gregório Chaves", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.654399747581955, -26.921754107441838 ], [ -48.65426827, -26.92193782 ], [ -48.654183246887662, -26.922056623282494 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040481575", "cod": 1618.0, "nome": "R.Margarida Tavares", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65426827, -26.92193782 ], [ -48.65438762676763, -26.921997730736798 ] ] } }
-]
-}

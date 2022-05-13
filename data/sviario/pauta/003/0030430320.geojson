@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0030430320", "cod": 1112.0, "nome": "R.Santo Agostinho", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69454714, -26.89416749 ], [ -48.694530583515977, -26.893875522980689 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0030430320", "cod": 1149.0, "nome": "R.Paulo Rodrigues Pereira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69422374, -26.89420689 ], [ -48.694227524926632, -26.894281767460676 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0030430320", "cod": 1145.0, "nome": "R.Antônio Müller Reis", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.694611209415179, -26.89416052413274 ], [ -48.69454714, -26.89416749 ], [ -48.69422374, -26.89420689 ] ] } }
-]
-}

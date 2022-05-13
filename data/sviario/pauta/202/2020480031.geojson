@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020480031", "cod": 171.0, "nome": "R.Manoel Zeferino Teixeira", "ptotalvia": 13.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676831536119217, -26.896719327488746 ], [ -48.676558374055723, -26.896509792378101 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020480031", "cod": 170.0, "nome": "R.Anísio Costa", "ptotalvia": 7.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677130789380548, -26.896450172256362 ], [ -48.676828736976852, -26.896208007446933 ] ] } }
-]
-}

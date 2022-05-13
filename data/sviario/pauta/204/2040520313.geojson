@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040520313", "cod": 695.0, "nome": "R.Lúcio Correia de Mendonça", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65112687, -26.92405296 ], [ -48.651500394757605, -26.924353558409916 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040520313", "cod": 696.0, "nome": "R.Marciano Marquetti", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65058487, -26.92434763 ], [ -48.650982683915281, -26.924677479158472 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040520313", "cod": 276.0, "nome": "Av.7 de Setembro", "ptotalvia": 18.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.651203407777686, -26.924010625844254 ], [ -48.65112687, -26.92405296 ], [ -48.65058487, -26.92434763 ], [ -48.650528338835414, -26.924354475016024 ] ] } }
-]
-}

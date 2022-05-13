@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2031280010", "cod": 1025.0, "nome": "R.Antônio Tironi", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.7036417, -26.87161549 ], [ -48.703247727863683, -26.87163477714002 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2031280010", "cod": 1032.0, "nome": "R.Jovelino Generoso Leite", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.703623523454311, -26.871314584577394 ], [ -48.7036417, -26.87161549 ], [ -48.703645448370118, -26.871673880565808 ] ] } }
-]
-}

@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0051020140", "cod": 45.0, "nome": "R.Olavo Bilac", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695454656195999, -26.904832918468827 ], [ -48.69547348, -26.90516145 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0051020140", "cod": 15.0, "nome": "R.Arq.Nilson Edson dos Santos", "ptotalvia": 21.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695912158661358, -26.905137386156206 ], [ -48.69547348, -26.90516145 ], [ -48.695423726343243, -26.905165021507365 ] ] } }
-]
-}

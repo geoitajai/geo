@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2160412130", "cod": 1415.0, "nome": "R.Pedro Winter", "ptotalvia": 8.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70253011, -26.93382183 ], [ -48.70245868, -26.93419952 ], [ -48.70250301, -26.93424344 ], [ -48.702498357387995, -26.934279813868873 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2160412130", "cod": 1413.0, "nome": "Av.Itaipava", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702622461242775, -26.933847737845877 ], [ -48.70253011, -26.93382183 ], [ -48.702269844387779, -26.933775733363746 ] ] } }
-]
-}

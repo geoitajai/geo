@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2120120056", "cod": 161.0, "nome": "Av.Irineu Bornhausen", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676915827636414, -26.894691284226422 ], [ -48.67682927, -26.89477817 ], [ -48.676764083626679, -26.894844120272769 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2120120056", "cod": 166.0, "nome": "R.Hebert Kremer", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676785060119315, -26.89477985200493 ], [ -48.67682927, -26.89477817 ], [ -48.677159944778623, -26.894766709618079 ] ] } }
-]
-}

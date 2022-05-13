@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2031200020", "cod": 1100.0, "nome": "R.Gercino José Correa", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70564454531317, -26.88747839069913 ], [ -48.705667595783645, -26.887887922644566 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2031200020", "cod": 1111.0, "nome": "Av.Dr.Reinaldo Schmithausen", "ptotalvia": 27.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.705586478647135, -26.887927085816457 ], [ -48.705494448672376, -26.887935172871199 ] ] } }
-]
-}

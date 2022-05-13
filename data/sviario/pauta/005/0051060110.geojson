@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0051060110", "cod": 7.0, "nome": "R.Rio Negrinho", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696422721691036, -26.903421735478464 ], [ -48.695943610987342, -26.903451575460824 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0051060110", "cod": 44.0, "nome": "R.Manoel José dos Santos", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696017361578711, -26.903191418169772 ], [ -48.69601057, -26.90344824 ], [ -48.696013595548905, -26.903508385736611 ] ] } }
-]
-}

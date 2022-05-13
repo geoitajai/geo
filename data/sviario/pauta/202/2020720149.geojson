@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020720149", "cod": 212.0, "nome": "R.José Pinto d'Amaral", "ptotalvia": 10.0, "ppasseio1": 1.7, "ppasseio2": 1.7 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68105391, -26.90200248 ], [ -48.681050928232253, -26.902080383685824 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020720149", "cod": 205.0, "nome": "R.Fridolim Erthal Júnior", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.681576843436062, -26.901983871924056 ], [ -48.68105391, -26.90200248 ], [ -48.68095385510604, -26.902007270334924 ] ] } }
-]
-}

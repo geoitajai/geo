@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2150060100", "cod": 1375.0, "nome": "R.Antônio Notari", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.735031292632677, -26.887400487475663 ], [ -48.735111290978224, -26.888308321552447 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2150060100", "cod": 1376.0, "nome": "R.Carlos Luiz Stringari", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.73454354, -26.8878705 ], [ -48.734586133094609, -26.888390552807859 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2150060100", "cod": 1343.0, "nome": "Rod.Jorge Lacerda", "ptotalvia": 43.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.734871695152243, -26.887363996757799 ], [ -48.73444684699713, -26.88745499908644 ] ] } }
-]
-}

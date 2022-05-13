@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050272230", "cod": 1305.0, "nome": "R.Pedro Bento Reis", "ptotalvia": 3.5, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69386344, -26.90418224 ], [ -48.693785514158677, -26.904186593898562 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0050272230", "cod": 50.0, "nome": "R.Luiz Lopes Gonzaga", "ptotalvia": 13.2, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693858940548253, -26.903909032281966 ], [ -48.69386344, -26.90418224 ], [ -48.693863786068469, -26.904283093366537 ] ] } }
-]
-}

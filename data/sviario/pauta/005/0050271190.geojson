@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050271190", "cod": 60.0, "nome": "R.Estefano José Vanolli", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.688756867288078, -26.904997876876536 ], [ -48.68876164, -26.90532289 ], [ -48.68875014, -26.90542077 ], [ -48.688750123295414, -26.905462546328756 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0050271190", "cod": 94.0, "nome": "R.Osni José Jacinto", "ptotalvia": 6.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68876164, -26.90532289 ], [ -48.688688011920448, -26.905320366067656 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0050271190", "cod": 15.0, "nome": "R.Arq.Nilson Edson dos Santos", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.689099241777939, -26.905409990674155 ], [ -48.68875014, -26.90542077 ] ] } }
-]
-}

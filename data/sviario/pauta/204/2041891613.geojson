@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2041891613", "cod": 659.0, "nome": "R.Aladi Schendroski Bini", "ptotalvia": 12.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.658106773288985, -26.921103527468084 ], [ -48.65834308, -26.92130537 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2041891613", "cod": 660.0, "nome": "R.José Patrocinio Zaguini", "ptotalvia": 12.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65838518164891, -26.921264368738118 ], [ -48.65834308, -26.92130537 ], [ -48.65809587, -26.92151845 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2041891613", "cod": 661.0, "nome": "R.Esmerentina dos Santos Chaves", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65814855052966, -26.921562017632862 ], [ -48.65809587, -26.92151845 ], [ -48.657872141804042, -26.921318969720925 ] ] } }
-]
-}

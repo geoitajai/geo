@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0051750320", "cod": 945.0, "nome": "R.Paulo Valmor Severino", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.701278667062439, -26.924580694917523 ], [ -48.70115155, -26.92447361 ], [ -48.701016541444581, -26.92436222964438 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0051750320", "cod": 981.0, "nome": "R.Dr.Nelly Piccoli", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70115155, -26.92447361 ], [ -48.701087802340432, -26.924533116629831 ] ] } }
-]
-}

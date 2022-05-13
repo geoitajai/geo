@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0052760080", "cod": 68.0, "nome": "R.Bernardina da Rocha", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6855569, -26.89518351 ], [ -48.685339709484111, -26.895394707940834 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0052760080", "cod": 63.0, "nome": "R.Caçador", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.685615480407392, -26.895235339958678 ], [ -48.6855569, -26.89518351 ], [ -48.685287017057796, -26.89494667435843 ] ] } }
-]
-}

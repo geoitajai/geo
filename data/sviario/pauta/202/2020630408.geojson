@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020630408", "cod": 202.0, "nome": "R.Laudeano José de Almeida", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.679862746744462, -26.901726428267185 ], [ -48.6798646, -26.90179558 ], [ -48.6798787, -26.902062799999989 ], [ -48.679875099315709, -26.902169143524858 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020630408", "cod": 206.0, "nome": "R.Aurora Tabalipa", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6798646, -26.90179558 ], [ -48.679588667468188, -26.901807250162655 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020630408", "cod": 205.0, "nome": "R.Fridolim Erthal Júnior", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.679978812701691, -26.902057312222762 ], [ -48.6798787, -26.902062799999989 ], [ -48.679589328412263, -26.902080713570218 ] ] } }
-]
-}

@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2151260010", "cod": 1321.0, "nome": "R.Waldemar da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.74927708280147, -26.874942952446737 ], [ -48.749311505020266, -26.875346904895274 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2151260010", "cod": 1328.0, "nome": "Av.José Sasdelli", "ptotalvia": 18.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.749355640252666, -26.875318353270366 ], [ -48.74930829, -26.87532081 ], [ -48.74901480135329, -26.875338123312023 ] ] } }
-]
-}

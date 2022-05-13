@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0053970100", "cod": 1748.0, "nome": "Serv.Sem denominação oficial", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -48.691484484223338, -26.928178440662826 ], [ -48.691485712130053, -26.928179851589729 ] ], [ [ -48.691486223108406, -26.928180438729683 ], [ -48.69152691, -26.92822719 ] ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0053970100", "cod": 973.0, "nome": "R.Nelson Manoel Simão", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.690542026626275, -26.926490153208359 ], [ -48.690733923614353, -26.92676926850303 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0053970100", "cod": 973.0, "nome": "R.Nelson Manoel Simão", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.690542026626275, -26.926490153208359 ], [ -48.690733923614353, -26.92676926850303 ] ] } }
-]
-}

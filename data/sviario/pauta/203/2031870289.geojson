@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2031870289", "cod": 1165.0, "nome": "R.Fioravante Russi", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70077898, -26.88779584 ], [ -48.700780028131383, -26.88781737662509 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2031870289", "cod": 1095.0, "nome": "R.Ver.Telêmaco de Oliveira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700653318978588, -26.88729687088523 ], [ -48.70067583, -26.8877794 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2031870289", "cod": 1111.0, "nome": "Av.Dr.Reinaldo Schmithausen", "ptotalvia": 27.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.701092733271672, -26.887827769715418 ], [ -48.70077898, -26.88779584 ], [ -48.70067583, -26.8877794 ], [ -48.700658967385159, -26.887776933339744 ] ] } }
-]
-}

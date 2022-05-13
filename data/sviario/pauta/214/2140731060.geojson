@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140731060", "cod": 789.0, "nome": "R.Olímpio Manoel Cabral", "ptotalvia": 7.5, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.645480809617837, -26.956204700625307 ], [ -48.64555951, -26.95618352 ], [ -48.645853952413042, -26.956106631434025 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2140731060", "cod": 1611.0, "nome": "R.Eunice Cristina da Silva", "ptotalvia": 6.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.645624803904276, -26.9562613633483 ], [ -48.64555951, -26.95618352 ] ] } }
-]
-}

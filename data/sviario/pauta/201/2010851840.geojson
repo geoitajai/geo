@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010851840", "cod": 342.0, "nome": "R.Dr.Cacildo Romagnoni", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66409117, -26.90624483 ], [ -48.663856285530578, -26.906501910546076 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010851840", "cod": 284.0, "nome": "R.Alm.Barroso", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.664314007022689, -26.906426990088171 ], [ -48.664047226777001, -26.906208290542775 ] ] } }
-]
-}

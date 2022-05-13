@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2031800250", "cod": 1047.0, "nome": "R.Annanias Caetano da Silva", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691004610010857, -26.872072791227541 ], [ -48.69100461, -26.87213523 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2031800250", "cod": 1054.0, "nome": "R.Serli Maria Melo Siqueira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69297394, -26.87211659 ], [ -48.69100461, -26.87213523 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2031800250", "cod": 1046.0, "nome": "R.Eugênio Pezzini", "ptotalvia": 13.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692970789828848, -26.872055091296495 ], [ -48.69297394, -26.87211659 ], [ -48.692990117208829, -26.872702821445206 ] ] } }
-]
-}

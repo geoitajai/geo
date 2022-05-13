@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140430254", "cod": 774.0, "nome": "R.Arnoldo Pollhein", "ptotalvia": 10.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.634749180593396, -26.931392811356201 ], [ -48.634508610015459, -26.931647541603915 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2140430254", "cod": 776.0, "nome": "R.Benjamim Constant", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.634487974767744, -26.931641701343693 ], [ -48.634331500472889, -26.931537853787599 ] ] } }
-]
-}

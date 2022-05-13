@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140631427", "cod": 1742.0, "nome": "R.João Luiz Coelho", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.64563389, -26.93328286 ], [ -48.64578005, -26.93336058 ], [ -48.64588766, -26.93344566 ], [ -48.64594263, -26.93352532 ], [ -48.64607943, -26.93370423 ], [ -48.64615372, -26.93375894 ], [ -48.64620366, -26.93373151 ], [ -48.646263319647026, -26.93365298007533 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2140631427", "cod": 733.0, "nome": "R.Alcides Pereira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.645572418699295, -26.933261351217755 ], [ -48.64562212, -26.93330351 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2140631427", "cod": 727.0, "nome": "R.Artur Torquato Batista", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.645665800764036, -26.933219741741944 ], [ -48.64563389, -26.93328286 ], [ -48.64562212, -26.93330351 ], [ -48.64553309, -26.93350046 ], [ -48.645494107365415, -26.933541471645317 ] ] } }
-]
-}

@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010220438", "cod": 278.0, "nome": "R.Joinville", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656430811479488, -26.907853546812095 ], [ -48.65600685, -26.90772439 ], [ -48.655940087812986, -26.907705331604813 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010220438", "cod": 295.0, "nome": "R.XV de Novembro", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656109542498129, -26.907401348384976 ], [ -48.65600685, -26.90772439 ], [ -48.6559932516831, -26.90779098847241 ] ] } }
-]
-}

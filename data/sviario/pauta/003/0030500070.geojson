@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0030500070", "cod": 1148.0, "nome": "R.Max Tavares D´Amaral", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.694894826810575, -26.896412642064963 ], [ -48.69493600213525, -26.896844113219064 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0030500070", "cod": 1173.0, "nome": "R.Agostinho Alves Ramos", "ptotalvia": 20.4, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.694882158101954, -26.896869173216157 ], [ -48.694505110748267, -26.896635597465743 ] ] } }
-]
-}

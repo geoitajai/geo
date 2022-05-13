@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2141260190", "cod": 587.0, "nome": "Av.Carlos Drumond de Andrade (Praia Brava)", "ptotalvia": 20.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.630348438564788, -26.956486582393996 ], [ -48.62961063, -26.95657116 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2141260190", "cod": 599.0, "nome": "Av.Dr.José Medeiros Vieira (Sul)", "ptotalvia": 0.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.629610108544327, -26.956573036863624 ], [ -48.62961063, -26.95657116 ], [ -48.629674067604867, -26.956112489372778 ] ] } }
-]
-}

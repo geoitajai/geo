@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2042070230", "cod": 1641.0, "nome": "Serv. Anatália da Silva", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65224899, -26.93402628 ], [ -48.652307358194378, -26.934054026413516 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2042070230", "cod": 707.0, "nome": "R.João Fernandes Vieira Junior", "ptotalvia": 10.5, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.652069869509134, -26.933716721171887 ], [ -48.652080840000011, -26.93374848 ], [ -48.65224899, -26.93402626 ], [ -48.652255840197391, -26.93405760829603 ] ] } }
-]
-}

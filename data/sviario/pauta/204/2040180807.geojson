@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040180807", "cod": 643.0, "nome": "R.Exp.Marquetti", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.653891410357865, -26.919754911865425 ], [ -48.65366693, -26.91973457 ], [ -48.653403387172496, -26.919517872977789 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040180807", "cod": 276.0, "nome": "Av.7 de Setembro", "ptotalvia": 18.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.653938808893486, -26.919655758643568 ], [ -48.65390536472092, -26.919736847596383 ] ] } }
-]
-}

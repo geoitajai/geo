@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0054100100", "cod": 130.0, "nome": "Av.Nilo Bittencourt", "ptotalvia": 20.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.705324935906432, -26.913093993666418 ], [ -48.70532591, -26.91311702 ], [ -48.70533033, -26.91335331 ], [ -48.705333744652698, -26.913398210690175 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0054100100", "cod": 1289.0, "nome": "R.Antero Antônio Cardoso", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70532591, -26.91311702 ], [ -48.70488489500076, -26.91313294412171 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0054100100", "cod": 148.0, "nome": "R.Maria Pessoa Espíndola (Dona Continha)", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.705352298002452, -26.913352496791031 ], [ -48.70533033, -26.91335331 ] ] } }
-]
-}

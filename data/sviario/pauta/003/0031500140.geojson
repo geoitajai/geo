@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0031500140", "cod": 1171.0, "nome": "R.Mário Bento dos Passos", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.705484031234164, -26.894080495516711 ], [ -48.705500764586297, -26.89440460700488 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0031500140", "cod": 1687.0, "nome": "R.4 \"Lot. Jardim Violino\"", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70574439, -26.89423435 ], [ -48.705390890492474, -26.89424894699486 ] ] } }
-]
-}

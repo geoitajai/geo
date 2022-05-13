@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110180211", "cod": 508.0, "nome": "R.Wandelino Winter", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676703159471387, -26.912163421316698 ], [ -48.67655302, -26.91214977 ], [ -48.676323598530089, -26.912129671761392 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110180211", "cod": 509.0, "nome": "R.Gervasio Antônio Klock", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67655302, -26.91214977 ], [ -48.676548270494294, -26.91223074605486 ] ] } }
-]
-}

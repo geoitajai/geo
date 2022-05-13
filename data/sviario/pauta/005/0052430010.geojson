@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0052430010", "cod": 917.0, "nome": "R.Arnoldo Corrêa de Mello", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69380084, -26.92003519 ], [ -48.693749990215551, -26.920044026315409 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0052430010", "cod": 894.0, "nome": "R.Agílio Cunha", "ptotalvia": 15.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69376945216294, -26.919685431251462 ], [ -48.6937973, -26.9199958 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0052430010", "cod": 894.0, "nome": "R.Agílio Cunha", "ptotalvia": 15.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6937973, -26.9199958 ], [ -48.69380084, -26.92003519 ], [ -48.693808651238065, -26.920108535094219 ] ] } }
-]
-}

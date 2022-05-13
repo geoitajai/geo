@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2165051300", "cod": 1247.0, "nome": "R.Waldemar Merizio", "ptotalvia": 20.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.8646010430869, -27.037129068460885 ], [ -48.86460153, -27.03709354 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2165051300", "cod": 1534.0, "nome": "R.José Laurentino Júnior", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.86465483535229, -27.037104428240088 ], [ -48.86460153, -27.03709354 ], [ -48.863942067708869, -27.036916274859763 ] ] } }
-]
-}

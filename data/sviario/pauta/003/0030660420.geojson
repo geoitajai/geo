@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0030660420", "cod": 1.0, "nome": "R.Vilson Gonçalves", "ptotalvia": 4.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6970110891885, -26.890627971350622 ], [ -48.697022726869918, -26.890976578573706 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0030660420", "cod": 1191.0, "nome": "R.Bahia", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697410856936216, -26.890689400933329 ], [ -48.69736536, -26.89069078 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0030660420", "cod": 1196.0, "nome": "Av.Guanabara", "ptotalvia": 18.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697363272043383, -26.890641043912073 ], [ -48.69736536, -26.89069078 ], [ -48.697380588166823, -26.89094354860827 ] ] } }
-]
-}

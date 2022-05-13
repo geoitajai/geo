@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050650175", "cod": 99.0, "nome": "R.Dr.Félix Malburg", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693961821592147, -26.906496530178327 ], [ -48.69390931, -26.90649803 ], [ -48.693477630220208, -26.906511688538622 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0050650175", "cod": 50.0, "nome": "R.Luiz Lopes Gonzaga", "ptotalvia": 13.2, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693901961591983, -26.906215656177626 ], [ -48.69390931, -26.90649803 ], [ -48.693909819299073, -26.906548923933805 ] ] } }
-]
-}

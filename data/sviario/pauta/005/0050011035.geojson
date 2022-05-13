@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050011035", "cod": 63.0, "nome": "R.Caçador", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.683920056011388, -26.893711997574929 ], [ -48.68375715, -26.89355699 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0050011035", "cod": 61.0, "nome": "R.São Francisco do Sul", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68375715, -26.89355699 ], [ -48.683679840372726, -26.893624806993717 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0050011035", "cod": 1560.0, "nome": "R.Manoel Cipriano Furtado", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68371723694456, -26.893503678126159 ], [ -48.68375715, -26.89355699 ] ] } }
-]
-}

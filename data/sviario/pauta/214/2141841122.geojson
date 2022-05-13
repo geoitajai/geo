@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2141841122", "cod": 727.0, "nome": "R.Artur Torquato Batista", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.646262611269421, -26.931244653031683 ], [ -48.64620901, -26.93134284 ], [ -48.64616285, -26.93146336 ], [ -48.64616285, -26.9315633 ], [ -48.646156086441387, -26.931799620208114 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2141841122", "cod": 730.0, "nome": "R.Luiz Beduschi", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.64616285, -26.9315633 ], [ -48.646042179858831, -26.931463352603764 ] ] } }
-]
-}

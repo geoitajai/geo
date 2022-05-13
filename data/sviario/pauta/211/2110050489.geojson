@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110050489", "cod": 504.0, "nome": "R.Santo Antônio", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677473755181374, -26.909203300509201 ], [ -48.67747107, -26.90920253 ], [ -48.676565604386724, -26.908917173692018 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110050489", "cod": 227.0, "nome": "R.Indaial", "ptotalvia": 17.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677496488662229, -26.908618107448437 ], [ -48.67747107, -26.90920253 ], [ -48.6774710151455, -26.909203867324088 ] ] } }
-]
-}

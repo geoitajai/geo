@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110070314", "cod": 506.0, "nome": "R.São Paulo", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677220686640361, -26.911059662371954 ], [ -48.676803090607912, -26.910923570582256 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110070314", "cod": 227.0, "nome": "R.Indaial", "ptotalvia": 17.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677414616879531, -26.910544618612779 ], [ -48.677409399235813, -26.910661203690452 ] ] } }
-]
-}

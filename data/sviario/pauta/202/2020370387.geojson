@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020370387", "cod": 190.0, "nome": "R.José Cândido", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.673324543221732, -26.897340754150871 ], [ -48.673024724597163, -26.897098562561652 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020370387", "cod": 209.0, "nome": "R.José Quirino", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67198026, -26.89719768 ], [ -48.672290663576661, -26.897444122023693 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020370387", "cod": 157.0, "nome": "R.Blumenau", "ptotalvia": 14.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.672338464869689, -26.896635434756185 ], [ -48.67198026, -26.89719768 ], [ -48.671939240368189, -26.897259052025493 ] ] } }
-]
-}

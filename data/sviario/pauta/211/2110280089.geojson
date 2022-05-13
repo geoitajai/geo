@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110280089", "cod": 489.0, "nome": "R.Fiuza Lima", "ptotalvia": 13.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67455449, -26.91371017 ], [ -48.674519235314619, -26.913460648442527 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110280089", "cod": 497.0, "nome": "R.Ciriaco Meirinho", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675019390598408, -26.913693038879842 ], [ -48.67455449, -26.91371017 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110280089", "cod": 497.0, "nome": "R.Ciriaco Meirinho", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67455449, -26.91371017 ], [ -48.674473851250511, -26.91371490101486 ] ] } }
-]
-}

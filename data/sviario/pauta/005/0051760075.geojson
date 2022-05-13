@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0051760075", "cod": 982.0, "nome": "R.João Cirilo da Cunha", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.699305941141368, -26.926891956899254 ], [ -48.69926065, -26.92693541 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0051760075", "cod": 984.0, "nome": "R.Maria Alves Mafra", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.699065232433114, -26.926770851905459 ], [ -48.69926065, -26.92693541 ], [ -48.6993154337815, -26.926980344884942 ] ] } }
-]
-}

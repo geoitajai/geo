@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2030310320", "cod": 1071.0, "nome": "Av.Dr.Nereu Ramos (Murta)", "ptotalvia": 13.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70772972797527, -26.875329526536266 ], [ -48.7077472, -26.87563757 ], [ -48.70788002, -26.87583941 ], [ -48.70839654, -26.87622554 ], [ -48.708434391054716, -26.876254541616866 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2030310320", "cod": 1739.0, "nome": "R.C Lot Polar", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70839654, -26.87622554 ], [ -48.70872767184273, -26.875874074371666 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2030310320", "cod": 1737.0, "nome": "R.B Lot Polar", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.708215998759044, -26.875295741817794 ], [ -48.70813593, -26.87534041 ] ] } }
-]
-}

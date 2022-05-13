@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2120290607", "cod": 435.0, "nome": "R.João Pinto Amaral", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.680623229429877, -26.890505752820133 ], [ -48.68065377, -26.89056678 ], [ -48.680667774181259, -26.890963838669432 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2120290607", "cod": 438.0, "nome": "Trav.Equador", "ptotalvia": 13.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.681184183885748, -26.890866969316619 ], [ -48.68117678, -26.8905216 ] ] } }
-]
-}

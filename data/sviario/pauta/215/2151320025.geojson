@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2151320025", "cod": 1317.0, "nome": "R.Arq.Luiz Augusto Trojan", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.747291298181104, -26.872012736504203 ], [ -48.74732617454152, -26.87242425681417 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2151320025", "cod": 1327.0, "nome": "Av.Lauro José Pereira", "ptotalvia": 18.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.74762445857543, -26.872366890837224 ], [ -48.747261692283843, -26.87239304803466 ] ] } }
-]
-}

@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2120271580", "cod": 433.0, "nome": "R.Leopoldo Werner", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67887895633028, -26.890390878745215 ], [ -48.67914084, -26.89059099 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2120271580", "cod": 428.0, "nome": "R.Eliziário Pereira", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67914084, -26.89059099 ], [ -48.679104667110934, -26.89063395026119 ] ] } }
-]
-}

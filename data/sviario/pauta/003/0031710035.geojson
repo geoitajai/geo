@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0031710035", "cod": 1130.0, "nome": "R.Francisco Olegário dos Santos", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69666359, -26.89274945 ], [ -48.696330434527646, -26.892756101567709 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0031710035", "cod": 1144.0, "nome": "R.Alfredo Esser", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696631900034383, -26.892246171754362 ], [ -48.69663744, -26.89234964 ], [ -48.69666359, -26.89274945 ], [ -48.696665046806373, -26.892776067846853 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0031710035", "cod": 1197.0, "nome": "R.Pernambuco", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696723111032384, -26.892347922137589 ], [ -48.69663744, -26.89234964 ] ] } }
-]
-}

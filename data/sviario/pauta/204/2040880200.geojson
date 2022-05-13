@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040880200", "cod": 854.0, "nome": "R.Ver.Abílio Otávio do Canto", "ptotalvia": 20.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674501846937652, -26.92427872518866 ], [ -48.67449072, -26.92434311 ], [ -48.674438429197323, -26.924611661623569 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040880200", "cod": 857.0, "nome": "R.Pedro Pereira Mafra", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674988380762215, -26.924407351787323 ], [ -48.67449072, -26.92434311 ] ] } }
-]
-}

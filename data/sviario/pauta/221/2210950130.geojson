@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2210950130", "cod": 569.0, "nome": "R.João Reipert de Amorim", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.680052522914622, -26.919762020756927 ], [ -48.680087088173465, -26.920086666504705 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2210950130", "cod": 574.0, "nome": "R.Esperidião Graciliano da Silva", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.680428922814237, -26.920035373751407 ], [ -48.68008412, -26.92005318 ], [ -48.680037866135336, -26.920054820863328 ] ] } }
-]
-}

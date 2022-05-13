@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050620150", "cod": 18.0, "nome": "R.Exp.Olímpio José Borges", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693886629302611, -26.90320256986077 ], [ -48.6938465, -26.90320385 ], [ -48.693417875834136, -26.903213317741169 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0050620150", "cod": 50.0, "nome": "R.Luiz Lopes Gonzaga", "ptotalvia": 13.2, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693838822112085, -26.902913830299486 ], [ -48.6938465, -26.90320385 ], [ -48.693847120698486, -26.903238446973873 ] ] } }
-]
-}

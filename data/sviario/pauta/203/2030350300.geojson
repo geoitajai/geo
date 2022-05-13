@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2030350300", "cod": 1064.0, "nome": "R.Dorval José de Aragão", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70119981, -26.87507658 ], [ -48.701051830679674, -26.875082219636429 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2030350300", "cod": 1065.0, "nome": "R.Arcílio Zeverino", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70126202, -26.87707496 ], [ -48.701181293538333, -26.877080479799929 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2030350300", "cod": 1061.0, "nome": "R.José Luiz Marcelino", "ptotalvia": 10.2, "ppasseio1": 1.6, "ppasseio2": 1.6 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.701486864779483, -26.872880378197724 ], [ -48.70141042, -26.87288851 ], [ -48.700943042773083, -26.872975291694331 ] ] } }
-]
-}

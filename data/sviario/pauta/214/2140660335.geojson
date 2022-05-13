@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140660335", "cod": 742.0, "nome": "R.Profª.Inésia Novelleto", "ptotalvia": 7.5, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.64115291, -26.93427967 ], [ -48.641065559830899, -26.934281146670102 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2140660335", "cod": 736.0, "nome": "R.Venezuela", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.641145512235241, -26.933943262163691 ], [ -48.64115291, -26.93427967 ], [ -48.641164554892626, -26.934337903283371 ] ] } }
-]
-}

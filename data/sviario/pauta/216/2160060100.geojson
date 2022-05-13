@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2160060100", "cod": 1421.0, "nome": "R.Clara Dagnoni de Andrade", "ptotalvia": 20.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -48.72395578, -26.94821288 ], [ -48.7239359942186, -26.948265796847469 ] ], [ [ -48.72391466292688, -26.948322847079307 ], [ -48.72391145, -26.94833144 ], [ -48.72386342, -26.94863444 ], [ -48.723856836198081, -26.948654101453169 ] ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2160060100", "cod": 1430.0, "nome": "R.Manoel Bernardes", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.723772822568549, -26.947774536861413 ], [ -48.72377404, -26.94777566 ], [ -48.72390237, -26.94791113 ], [ -48.72395578, -26.94821288 ], [ -48.72408506, -26.94830568 ], [ -48.72426379, -26.94854679 ], [ -48.72491531, -26.94918055 ], [ -48.725093373417209, -26.949326128971173 ] ] } }
-]
-}

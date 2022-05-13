@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2031871789", "cod": 1095.0, "nome": "R.Ver.Telêmaco de Oliveira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700442416947737, -26.883298260840693 ], [ -48.700479833184467, -26.883959034041201 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2031871789", "cod": 1110.0, "nome": "R.Sebastião Romeu Soares", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70080272, -26.8833758 ], [ -48.70076668, -26.88335714 ], [ -48.70044626, -26.88337434 ], [ -48.700372335341747, -26.883379518566159 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2031871789", "cod": 1110.0, "nome": "R.Sebastião Romeu Soares", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700949667018165, -26.883451897862887 ], [ -48.70080272, -26.8833758 ] ] } }
-]
-}

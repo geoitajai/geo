@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2120810419", "cod": 439.0, "nome": "R.Curt Hering", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.681472919802509, -26.889901793231381 ], [ -48.68164325, -26.89025626 ], [ -48.681671573596574, -26.890337457659268 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2120810419", "cod": 443.0, "nome": "R.Almerindo Victor de Freitas", "ptotalvia": 6.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68164325, -26.89025626 ], [ -48.682042353468269, -26.890107621352762 ] ] } }
-]
-}

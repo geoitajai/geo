@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0052310005", "cod": 954.0, "nome": "R.Raul Machado", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69953313, -26.92276744 ], [ -48.699148816806897, -26.922900279276984 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0052310005", "cod": 945.0, "nome": "R.Paulo Valmor Severino", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69955096, -26.92279261 ], [ -48.699482350182265, -26.922693359882079 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0052310005", "cod": 945.0, "nome": "R.Paulo Valmor Severino", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.699693157086372, -26.922998305551562 ], [ -48.69955096, -26.92279261 ] ] } }
-]
-}

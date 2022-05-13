@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2150790850", "cod": 1555.0, "nome": "R.Agenor Cesario de Aragão", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.74335073, -26.88495403 ], [ -48.743350447329192, -26.884951086454123 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2150790850", "cod": 1343.0, "nome": "Rod.Jorge Lacerda", "ptotalvia": 43.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.743526483909648, -26.886127443656427 ], [ -48.743086483808213, -26.886095220612589 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2150790850", "cod": 1341.0, "nome": "Av.Demostenes Feminella Filho", "ptotalvia": 26.0, "ppasseio1": 5.0, "ppasseio2": 5.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.743361223590426, -26.884954272101751 ], [ -48.74335073, -26.88495403 ] ] } }
-]
-}

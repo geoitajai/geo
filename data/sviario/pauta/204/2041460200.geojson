@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2041460200", "cod": 871.0, "nome": "R.Alfredo Labes", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.672981110903585, -26.931769427095002 ], [ -48.67253348, -26.93178385 ], [ -48.672517310914259, -26.931784141394431 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2041460200", "cod": 874.0, "nome": "R.Leopoldo Zarling", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67253348, -26.93178385 ], [ -48.672535258431147, -26.931818495915728 ] ] } }
-]
-}

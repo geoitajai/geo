@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050070505", "cod": 60.0, "nome": "R.Estefano José Vanolli", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68873229753671, -26.902884854794923 ], [ -48.68871807, -26.90335317 ], [ -48.688722844228238, -26.903609588837693 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0050070505", "cod": 18.0, "nome": "R.Exp.Olímpio José Borges", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.688802434079321, -26.90335066650422 ], [ -48.68871807, -26.90335317 ] ] } }
-]
-}

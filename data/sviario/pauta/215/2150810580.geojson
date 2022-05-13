@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2150810580", "cod": 1310.0, "nome": "R.Bruno Vicente da Luz", "ptotalvia": 26.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.759158140925059, -26.886223906163 ], [ -48.75889549, -26.88649886 ], [ -48.758799088339188, -26.88658098956774 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2150810580", "cod": 1663.0, "nome": "R.Egídia dos Santos Evaristo", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.75889549, -26.88649886 ], [ -48.758995721786626, -26.886526213175145 ] ] } }
-]
-}

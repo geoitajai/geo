@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0053510120", "cod": 948.0, "nome": "R.Oscar Martins da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691994294301978, -26.923041670545757 ], [ -48.69169065, -26.92315122 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0053510120", "cod": 922.0, "nome": "R.P.Heribert José Schmith", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691657421533627, -26.923087459266608 ], [ -48.69169065, -26.92315122 ], [ -48.691842635545903, -26.923451277906914 ] ] } }
-]
-}

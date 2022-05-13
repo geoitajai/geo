@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2030780571", "cod": 1175.0, "nome": "Av.Marginal Leste", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.727491892602487, -26.858657242328967 ], [ -48.727371057053091, -26.857981960940535 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2030780571", "cod": 1269.0, "nome": "R.César Augusto Dalsóquio", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.724502619349025, -26.858060642446155 ], [ -48.72454688, -26.85823474 ], [ -48.72506957, -26.85930494 ], [ -48.725222578035215, -26.859497994437579 ] ] } }
-]
-}

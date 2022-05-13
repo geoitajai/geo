@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020410134", "cod": 188.0, "nome": "R.Stringari", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67276285, -26.8960093 ], [ -48.67277922162355, -26.896022282329398 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020410134", "cod": 157.0, "nome": "R.Blumenau", "ptotalvia": 14.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.672930815709236, -26.89576031848085 ], [ -48.67276285, -26.8960093 ], [ -48.672749788221452, -26.896028449001101 ] ] } }
-]
-}

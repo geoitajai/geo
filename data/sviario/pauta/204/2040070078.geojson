@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040070078", "cod": 665.0, "nome": "R.Pedro Camilo da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.650503292734562, -26.921247944871975 ], [ -48.65034758, -26.92130887 ], [ -48.650043530827936, -26.921439499120133 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040070078", "cod": 678.0, "nome": "R.Fritz Schneider", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.650303890541267, -26.921224432531435 ], [ -48.65034758, -26.92130887 ] ] } }
-]
-}

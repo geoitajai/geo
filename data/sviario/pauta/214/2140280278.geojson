@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140280278", "cod": 755.0, "nome": "R.C.Carlos Renaux", "ptotalvia": 8.4, "ppasseio1": 1.2, "ppasseio2": 1.2 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.63544286188241, -26.926986860968814 ], [ -48.635225570907579, -26.927239794415279 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2140280278", "cod": 760.0, "nome": "R.João Bauer Júnior", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.635140021845793, -26.927279893419669 ], [ -48.634832734348336, -26.927049447070178 ] ] } }
-]
-}

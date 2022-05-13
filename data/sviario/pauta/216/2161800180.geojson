@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2161800180", "cod": 1238.0, "nome": "R.Sorocaba", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.856627070017531, -27.038113641246799 ], [ -48.857020840648403, -27.038325020866669 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2161800180", "cod": 1242.0, "nome": "R.José Merlo", "ptotalvia": 8.5, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.857026720539842, -27.038266128048704 ], [ -48.857027671553446, -27.038287717487677 ] ] } }
-]
-}

@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0030500015", "cod": 1149.0, "nome": "R.Paulo Rodrigues Pereira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.694335478074457, -26.896190081462887 ], [ -48.69433852, -26.896242040000011 ], [ -48.694345027033776, -26.896534082813162 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0030500015", "cod": 1173.0, "nome": "R.Agostinho Alves Ramos", "ptotalvia": 20.4, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.694327046329192, -26.896528258931305 ], [ -48.694305103620628, -26.896518280167424 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0030500015", "cod": 1150.0, "nome": "R.Amapá", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69473681458399, -26.8962252932536 ], [ -48.69433852, -26.896242040000011 ] ] } }
-]
-}

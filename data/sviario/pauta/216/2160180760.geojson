@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2160180760", "cod": 1435.0, "nome": "R.Edmundo Wippel", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.720411661198582, -26.943673532639256 ], [ -48.72048054, -26.9436925 ], [ -48.720782337673455, -26.943779311615387 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2160180760", "cod": 1436.0, "nome": "Serv.Leobaldo Cunha", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.720616336228986, -26.94330398595887 ], [ -48.72048054, -26.9436925 ] ] } }
-]
-}

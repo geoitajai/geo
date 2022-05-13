@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050960320", "cod": 107.0, "nome": "R.Profª.Erotides da Silva Fontes", "ptotalvia": 20.0, "ppasseio1": 3.5, "ppasseio2": 3.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695807492174062, -26.909387194828543 ], [ -48.69621896, -26.90937836 ], [ -48.696275612474665, -26.909375327502008 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0050960320", "cod": 96.0, "nome": "R.Bom Retiro", "ptotalvia": 13.2, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69621896, -26.90937836 ], [ -48.696232583971764, -26.909678255039179 ] ] } }
-]
-}

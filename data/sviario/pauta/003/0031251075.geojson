@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0031251075", "cod": 1106.0, "nome": "R.Profº.Cosme Buzarello", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702311867562756, -26.887909508231218 ], [ -48.70231472, -26.88796562 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0031251075", "cod": 1167.0, "nome": "R.José Rosa", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70246136, -26.88798889 ], [ -48.70250673294553, -26.888709510183119 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0031251075", "cod": 1111.0, "nome": "Av.Dr.Reinaldo Schmithausen", "ptotalvia": 27.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702539991959114, -26.887994988225664 ], [ -48.70246136, -26.88798889 ], [ -48.70231472, -26.88796562 ], [ -48.701971982410605, -26.887924980309055 ] ] } }
-]
-}

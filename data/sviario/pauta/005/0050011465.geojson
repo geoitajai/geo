@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050011465", "cod": 83.0, "nome": "R.Navegantes", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.682989307489649, -26.897270460793067 ], [ -48.68292567, -26.8972717 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0050011465", "cod": 61.0, "nome": "R.São Francisco do Sul", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.682924387245507, -26.897211739605375 ], [ -48.68292567, -26.8972717 ], [ -48.68293281757267, -26.897492438449934 ] ] } }
-]
-}

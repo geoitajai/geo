@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0031790245", "cod": 1144.0, "nome": "R.Alfredo Esser", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696846604079674, -26.896073954587713 ], [ -48.69685061, -26.89613724 ], [ -48.696868838353346, -26.896504109493211 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0031790245", "cod": 1150.0, "nome": "R.Amapá", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69685061, -26.89613724 ], [ -48.696778573585938, -26.896139586181246 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0031790245", "cod": 1150.0, "nome": "R.Amapá", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697175208217409, -26.896126276545235 ], [ -48.69685061, -26.89613724 ] ] } }
-]
-}

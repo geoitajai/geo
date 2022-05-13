@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2160440290", "cod": 1417.0, "nome": "R.Ayres Gustavo Pereira", "ptotalvia": 8.5, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.716511055552296, -26.942547978987207 ], [ -48.71640523, -26.94251948 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2160440290", "cod": 1416.0, "nome": "R.Pedro Wanzuita", "ptotalvia": 18.0, "ppasseio1": 2.0, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.716575639034758, -26.942364874053247 ], [ -48.71640523, -26.94251948 ], [ -48.71616385, -26.94281151 ], [ -48.71583872, -26.94306402 ], [ -48.715655511569629, -26.943184246253345 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2160440290", "cod": 1418.0, "nome": "R.Cypriana Wanzuita", "ptotalvia": 8.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.716417498995852, -26.942660523630881 ], [ -48.71640523, -26.94251948 ] ] } }
-]
-}

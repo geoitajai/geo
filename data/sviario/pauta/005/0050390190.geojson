@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050390190", "cod": 24.0, "nome": "R.Carlos Schroeder", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691036707941365, -26.900076815169939 ], [ -48.69057132, -26.90008999 ], [ -48.690522611956915, -26.900091098088531 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0050390190", "cod": 51.0, "nome": "R.Otávio Cesário Pereira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.690569234407299, -26.899781997205395 ], [ -48.69057132, -26.90008999 ], [ -48.690572766812828, -26.90014284870125 ] ] } }
-]
-}

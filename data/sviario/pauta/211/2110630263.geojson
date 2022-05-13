@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110630263", "cod": 551.0, "nome": "R.Guilherme Albani", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.673519149351009, -26.916856767825053 ], [ -48.673539972749545, -26.917194207709596 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110630263", "cod": 487.0, "nome": "R.Aristides Francisco Palumbo", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.673854744628109, -26.916841830645197 ], [ -48.673874206601589, -26.917174395301085 ] ] } }
-]
-}

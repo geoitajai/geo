@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0052290015", "cod": 926.0, "nome": "Av.Min.Luiz Gallotti", "ptotalvia": 17.2, "ppasseio1": 3.25, "ppasseio2": 3.25 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.701013820798195, -26.922895347625786 ], [ -48.70095683, -26.92294946 ], [ -48.700736352531024, -26.923156253357579 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0052290015", "cod": 943.0, "nome": "R.Luiz Bela Cruz", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.701002192100475, -26.922987245554985 ], [ -48.70095683, -26.92294946 ], [ -48.700734651924009, -26.922638384700662 ] ] } }
-]
-}

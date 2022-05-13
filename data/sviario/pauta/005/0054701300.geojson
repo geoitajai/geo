@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0054701300", "cod": 931.0, "nome": "R.José da Silva Lima Júnior", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70381983, -26.92021253 ], [ -48.703862755381337, -26.920246330122353 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0054701300", "cod": 932.0, "nome": "R.Oscar Silva Justino", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70334266, -26.92066869 ], [ -48.703392059669511, -26.920709745154209 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0054701300", "cod": 926.0, "nome": "Av.Min.Luiz Gallotti", "ptotalvia": 17.2, "ppasseio1": 3.25, "ppasseio2": 3.25 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.703912868215838, -26.920120065553718 ], [ -48.70381983, -26.92021253 ], [ -48.70334266, -26.92066869 ], [ -48.703159446921568, -26.920840734430897 ] ] } }
-]
-}

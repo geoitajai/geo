@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0051250040", "cod": 906.0, "nome": "R.João Marcelino Machado", "ptotalvia": 10.0, "ppasseio1": 1.75, "ppasseio2": 1.75 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.686935652979734, -26.916888062835937 ], [ -48.686503878170065, -26.91690896428581 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0051250040", "cod": 893.0, "nome": "R.Otto Hoier", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68689091898478, -26.917309555596365 ], [ -48.68666996, -26.91724748 ], [ -48.686513111232301, -26.917157351002221 ] ] } }
-]
-}

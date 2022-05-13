@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0031800005", "cod": 1171.0, "nome": "R.Mário Bento dos Passos", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.705761928756587, -26.899417738019988 ], [ -48.705780053585251, -26.899763044382865 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0031800005", "cod": 1178.0, "nome": "Av.Mário Uriarte", "ptotalvia": 30.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.705720722397963, -26.899779574313957 ], [ -48.70546482, -26.89974989000001 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0031800005", "cod": 1178.0, "nome": "Av.Mário Uriarte", "ptotalvia": 30.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70546482, -26.89974989000001 ], [ -48.705422345314481, -26.89974496262122 ] ] } }
-]
-}

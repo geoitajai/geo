@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0051610030", "cod": 901.0, "nome": "R.Das Buganvilias", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.694747826370453, -26.918226671829451 ], [ -48.6947731, -26.918576 ], [ -48.694773588861842, -26.918582269367896 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0051610030", "cod": 913.0, "nome": "R.Laudino Pedro da Silva", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69515615119041, -26.918551580879264 ], [ -48.6947731, -26.918576 ] ] } }
-]
-}

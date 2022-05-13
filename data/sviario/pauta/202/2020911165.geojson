@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020911165", "cod": 227.0, "nome": "R.Indaial", "ptotalvia": 17.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677568550593115, -26.907247462559518 ], [ -48.67756625, -26.90729048 ], [ -48.67755997816009, -26.907472285232597 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020911165", "cod": 250.0, "nome": "R.Maria da Glória", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67756625, -26.90729048 ], [ -48.677540151685562, -26.907282251896028 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020911165", "cod": 253.0, "nome": "R.Luiz Bonifácio Pinto", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.678185155242183, -26.907269942425341 ], [ -48.67756625, -26.90729048 ] ] } }
-]
-}

@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2160440125", "cod": 1730.0, "nome": "Av.Marginal Norte", "ptotalvia": 30.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.713323776163222, -26.942573841011189 ], [ -48.712979336487031, -26.942473238191347 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2160440125", "cod": 1413.0, "nome": "Av.Itaipava", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.713713908057585, -26.939198267318982 ], [ -48.713056591573597, -26.938729168529672 ] ] } }
-]
-}

@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110130785", "cod": 493.0, "nome": "Trav.Emilia Kuhn da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67051976, -26.91215124 ], [ -48.670447796509706, -26.912133646822209 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110130785", "cod": 262.0, "nome": "Av.José Eugênio Muller", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.670500472572598, -26.911982990312577 ], [ -48.67051976, -26.91215124 ], [ -48.670535865070015, -26.912281267237532 ] ] } }
-]
-}

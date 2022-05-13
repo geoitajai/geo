@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0030960005", "cod": 1207.0, "nome": "Av.Brasília", "ptotalvia": 18.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69840957461512, -26.898421779614054 ], [ -48.69841827, -26.89878867 ], [ -48.698399159127952, -26.898837537108033 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0030960005", "cod": 1210.0, "nome": "R.Minas Gerais", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698740935165027, -26.898781430054214 ], [ -48.69841827, -26.89878867 ] ] } }
-]
-}

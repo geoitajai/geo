@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0031520900", "cod": 1182.0, "nome": "R.Rosa Orsi Dalcóquio", "ptotalvia": 15.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70880036521627, -26.89361390152208 ], [ -48.70846957, -26.89356844 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0031520900", "cod": 1182.0, "nome": "R.Rosa Orsi Dalcóquio", "ptotalvia": 13.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70846957, -26.89356844 ], [ -48.708320091500347, -26.893544437058715 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0031520900", "cod": 1111.0, "nome": "Av.Dr.Reinaldo Schmithausen", "ptotalvia": 27.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.708554372739691, -26.889098573403974 ], [ -48.708219023304643, -26.888924249500835 ] ] } }
-]
-}

@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020891411", "cod": 251.0, "nome": "Trav.Antônio Carlos da Silva", "ptotalvia": 13.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675781989757652, -26.906579239978733 ], [ -48.67577756, -26.90672654 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020891411", "cod": 250.0, "nome": "R.Maria da Glória", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675871844839733, -26.906756266911525 ], [ -48.67577756, -26.90672654 ], [ -48.67568493995725, -26.90696927686102 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020891411", "cod": 258.0, "nome": "Serv.José Vieira", "ptotalvia": 1.7, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675232816031183, -26.906912038896117 ], [ -48.67525179, -26.90686616 ] ] } }
-]
-}

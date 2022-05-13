@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2141870010", "cod": 835.0, "nome": "R.José Manoel da Silva (Praia Brava)", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.629232644274509, -26.941128235706387 ], [ -48.62916077, -26.94113431 ], [ -48.62858834, -26.9411949 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2141870010", "cod": 831.0, "nome": "R.Renato Melim Cunha", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.629085806005833, -26.940499169320756 ], [ -48.62916077, -26.94113431 ], [ -48.629168427486491, -26.941182475236996 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2141870010", "cod": 599.0, "nome": "Av.Dr.José Medeiros Vieira (Sul)", "ptotalvia": 0.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.628598626551636, -26.941248556150317 ], [ -48.628548633795923, -26.94078920137785 ] ] } }
-]
-}

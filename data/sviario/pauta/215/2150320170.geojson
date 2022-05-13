@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2150320170", "cod": 1176.0, "nome": "Av.Marginal Oeste", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.729549530970566, -26.871386723576798 ], [ -48.729237361638674, -26.872167287579078 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2150320170", "cod": 1346.0, "nome": "R.Bertholino Serpa", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.730572236143551, -26.872185853787187 ], [ -48.729284393917709, -26.872214331294629 ] ] } }
-]
-}

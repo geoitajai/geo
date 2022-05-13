@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140700037", "cod": 810.0, "nome": "R.Margarida Bernardina Nicolau", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.644013003135207, -26.949813490517375 ], [ -48.64411518, -26.94982976 ], [ -48.64421409, -26.94979008 ], [ -48.644389406768092, -26.949791817108277 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2140700037", "cod": 812.0, "nome": "R.Travessa \"B\"", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.644200026326899, -26.94969391975701 ], [ -48.64421409, -26.94979008 ] ] } }
-]
-}

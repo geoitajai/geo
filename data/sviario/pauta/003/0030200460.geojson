@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0030200460", "cod": 1116.0, "nome": "R.Jovito Anacleto", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691561497910229, -26.88471662368401 ], [ -48.6916682, -26.88481111 ], [ -48.691686060098441, -26.88505584483806 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0030200460", "cod": 1111.0, "nome": "Av.Dr.Reinaldo Schmithausen", "ptotalvia": 27.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692111191440524, -26.884152989125536 ], [ -48.6919588, -26.88422003 ], [ -48.6915565530553, -26.88465218848496 ] ] } }
-]
-}

@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2211010070", "cod": 565.0, "nome": "R.Antero Chaves", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.681946690407379, -26.921147748263284 ], [ -48.68205911, -26.92114511 ], [ -48.682316559929497, -26.921138521384858 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2211010070", "cod": 566.0, "nome": "R.São Gonçalo", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68205911, -26.92114511 ], [ -48.682060390558071, -26.921218338756248 ] ] } }
-]
-}

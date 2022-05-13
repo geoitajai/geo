@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050070450", "cod": 60.0, "nome": "R.Estefano José Vanolli", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.688727464750656, -26.903857753538976 ], [ -48.68872859, -26.90391819 ], [ -48.688737640246543, -26.904120437847549 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0050070450", "cod": 17.0, "nome": "R.Jovita da Costa Ramos", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.688754882966251, -26.903917371948452 ], [ -48.68872859, -26.90391819 ] ] } }
-]
-}

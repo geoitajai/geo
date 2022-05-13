@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2041890925", "cod": 660.0, "nome": "R.José Patrocinio Zaguini", "ptotalvia": 12.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.658154364667844, -26.921468031267647 ], [ -48.65809587, -26.92151845 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2041890925", "cod": 661.0, "nome": "R.Esmerentina dos Santos Chaves", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.658135026822848, -26.921550833317884 ], [ -48.65809587, -26.92151845 ], [ -48.657833038901714, -26.921284104731807 ] ] } }
-]
-}

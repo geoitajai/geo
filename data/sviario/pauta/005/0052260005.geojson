@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0052260005", "cod": 926.0, "nome": "Av.Min.Luiz Gallotti", "ptotalvia": 17.2, "ppasseio1": 3.25, "ppasseio2": 3.25 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.701934970586116, -26.922004997643757 ], [ -48.70172423, -26.922216989999988 ], [ -48.70167510936276, -26.922264113708909 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0052260005", "cod": 941.0, "nome": "R.Fabiano e Silva Marques", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.701749986385821, -26.922238513658655 ], [ -48.70160412, -26.92211391 ], [ -48.701403215653606, -26.921825505732542 ] ] } }
-]
-}

@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2151200215", "cod": 1324.0, "nome": "R.Augusto Cugnier", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.750285780750438, -26.875211898026912 ], [ -48.75029002, -26.87526088 ], [ -48.75032670325146, -26.87564194595344 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2151200215", "cod": 1328.0, "nome": "Av.José Sasdelli", "ptotalvia": 18.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.750363979450462, -26.875256247224691 ], [ -48.75029002, -26.87526088 ], [ -48.749933176133723, -26.87528634744482 ] ] } }
-]
-}

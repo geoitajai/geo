@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050680595", "cod": 103.0, "nome": "R.Com.Germano Rauert", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693997773051322, -26.907909255690473 ], [ -48.69392519, -26.90791077 ], [ -48.693624556112773, -26.907921670719695 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0050680595", "cod": 50.0, "nome": "R.Luiz Lopes Gonzaga", "ptotalvia": 13.2, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69392476788903, -26.907840587739912 ], [ -48.69392519, -26.90791077 ], [ -48.693932745621375, -26.908329442026858 ] ] } }
-]
-}

@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010410319", "cod": 286.0, "nome": "R.Tijucas", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.664454820486228, -26.904646896114819 ], [ -48.664046708704539, -26.905099848995864 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010410319", "cod": 325.0, "nome": "Trav.Jacó Moleri", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66415761, -26.90497676 ], [ -48.664202894137155, -26.905045338377509 ] ] } }
-]
-}

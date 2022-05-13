@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0054810900", "cod": 917.0, "nome": "R.Arnoldo Corrêa de Mello", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692521608588621, -26.920256389683004 ], [ -48.692139725395748, -26.920319515840699 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0054810900", "cod": 1630.0, "nome": "Serv.Dilcéa Faria Pereira Façanha", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692134100395386, -26.920344693989552 ], [ -48.692186672174472, -26.920571619821146 ] ] } }
-]
-}

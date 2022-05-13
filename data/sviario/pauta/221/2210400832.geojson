@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2210400832", "cod": 579.0, "nome": "R.Leonel Pereira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.680213453676423, -26.917668724917029 ], [ -48.67989763, -26.91768786 ], [ -48.679814450939475, -26.917692997487631 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2210400832", "cod": 512.0, "nome": "R.Ângelo Rodi", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67989242459938, -26.917610002274188 ], [ -48.67989763, -26.91768786 ], [ -48.679926445453695, -26.918073287942594 ] ] } }
-]
-}

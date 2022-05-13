@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010320120", "cod": 281.0, "nome": "R.Camboriú", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656647481679698, -26.910642265251067 ], [ -48.656543173601662, -26.911036304489866 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010320120", "cod": 276.0, "nome": "Av.7 de Setembro", "ptotalvia": 18.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.657490996173991, -26.911074888145141 ], [ -48.657288181040634, -26.91155521373928 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010320120", "cod": 264.0, "nome": "Av.Joca Brandão", "ptotalvia": 26.4, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656830566370758, -26.911416675736181 ], [ -48.657229238400532, -26.911562159860246 ] ] } }
-]
-}

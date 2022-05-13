@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040130913", "cod": 648.0, "nome": "R.Onze de Junho", "ptotalvia": 13.2, "ppasseio1": 1.9, "ppasseio2": 1.9 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.651795887746957, -26.922765871394635 ], [ -48.65185252, -26.92286686 ], [ -48.651860353430571, -26.922882125077702 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040130913", "cod": 649.0, "nome": "R.Dr.Francisco Rangel", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.651966014485055, -26.922555078756222 ], [ -48.65185252, -26.92286686 ] ] } }
-]
-}

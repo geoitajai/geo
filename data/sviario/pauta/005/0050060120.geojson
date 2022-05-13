@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050060120", "cod": 22.0, "nome": "R.Jaci Ramos", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.688751414056497, -26.901194667379805 ], [ -48.68868906, -26.90119615 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0050060120", "cod": 60.0, "nome": "R.Estefano José Vanolli", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.688683682775356, -26.900921588639712 ], [ -48.68868906, -26.90119615 ], [ -48.688690437549006, -26.90124741259292 ] ] } }
-]
-}

@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2030350188", "cod": 1037.0, "nome": "R.Germano Bastos", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702094230410268, -26.872747340774989 ], [ -48.70209788, -26.87281538 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2030350188", "cod": 1061.0, "nome": "R.José Luiz Marcelino", "ptotalvia": 10.2, "ppasseio1": 1.6, "ppasseio2": 1.6 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702519272572268, -26.87276458434253 ], [ -48.70209788, -26.87281538 ], [ -48.702050019699492, -26.872820471352327 ] ] } }
-]
-}

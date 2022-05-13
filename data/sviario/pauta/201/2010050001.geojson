@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010050001", "cod": 279.0, "nome": "R.Felix Busso Asseburg", "ptotalvia": 20.0, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65460222, -26.90619706 ], [ -48.654592795505188, -26.906269710789527 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010050001", "cod": 297.0, "nome": "R.Olímpio Miranda Júnior", "ptotalvia": 13.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.654755968240259, -26.906218807972824 ], [ -48.65460222, -26.90619706 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010050001", "cod": 297.0, "nome": "R.Olímpio Miranda Júnior", "ptotalvia": 13.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65460222, -26.90619706 ], [ -48.654374242905085, -26.906160694895203 ] ] } }
-]
-}

@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010120429", "cod": 298.0, "nome": "R.Manoel Vieira Garção", "ptotalvia": 13.0, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65753252, -26.90393881 ], [ -48.657343468696197, -26.904277169793886 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010120429", "cod": 293.0, "nome": "R.Dr.José Bonifácio Malburg", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.657591911829101, -26.903973843677111 ], [ -48.65753252, -26.90393881 ], [ -48.65728906, -26.90365372 ], [ -48.657235761461045, -26.903593364902513 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010120429", "cod": 289.0, "nome": "R.Dr. Pedro Ferreira", "ptotalvia": 14.0, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.657345904432518, -26.90361242612812 ], [ -48.65728906, -26.90365372 ], [ -48.656910948450623, -26.903918154996042 ] ] } }
-]
-}

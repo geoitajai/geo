@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2120101132", "cod": 170.0, "nome": "R.Anísio Costa", "ptotalvia": 7.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677005025686675, -26.896349343786369 ], [ -48.67676539, -26.89615722 ], [ -48.676671218363055, -26.896081386137602 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2120101132", "cod": 1615.0, "nome": "R.Lindolpho de Azevedo Coutinho", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67668516030735, -26.896235182884798 ], [ -48.67676539, -26.89615722 ] ] } }
-]
-}

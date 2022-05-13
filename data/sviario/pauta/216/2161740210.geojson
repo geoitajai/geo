@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2161740210", "cod": 1251.0, "nome": "R.Mineral", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.84533004196301, -27.04118340647382 ], [ -48.84548674, -27.04087992 ], [ -48.84557245, -27.04075353 ], [ -48.845589278229063, -27.040726803750069 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2161740210", "cod": 1259.0, "nome": "R.Anselmo Knihs", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.845877224218903, -27.040985891728006 ], [ -48.84579672, -27.04099011 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2161740210", "cod": 1258.0, "nome": "R.Maria Trainotti", "ptotalvia": 20.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.845808926355872, -27.041263697839437 ], [ -48.84579672, -27.04099011 ], [ -48.84577157, -27.0408706 ], [ -48.84557245, -27.04075353 ] ] } }
-]
-}

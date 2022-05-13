@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2121200307", "cod": 159.0, "nome": "R.José Pereira Liberato", "ptotalvia": 12.5, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.681811463376839, -26.893918089478326 ], [ -48.68181676, -26.89411142 ], [ -48.681820205466543, -26.89423721599816 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2121200307", "cod": 1625.0, "nome": "Serv.José Pereira Liberato (Serv.)", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68181676, -26.89411142 ], [ -48.681721593357224, -26.894114454541953 ] ] } }
-]
-}

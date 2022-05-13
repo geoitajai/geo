@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020810090", "cod": 234.0, "nome": "R.Bernardo Petter", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674476653938186, -26.904273753221183 ], [ -48.67439758, -26.90427806 ], [ -48.674113093713146, -26.904295675049681 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020810090", "cod": 243.0, "nome": "R.Raul Heusi da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67439758, -26.90427806 ], [ -48.674414201569647, -26.904600463496813 ] ] } }
-]
-}

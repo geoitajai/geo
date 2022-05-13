@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0031190005", "cod": 1165.0, "nome": "R.Fioravante Russi", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700951812816456, -26.890948761909794 ], [ -48.70096974, -26.89124339 ], [ -48.700973260744405, -26.891303661993433 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0031190005", "cod": 1232.0, "nome": "R.Eduardo Pessoa Lins", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70096974, -26.89124339 ], [ -48.700525720310985, -26.891274975527548 ] ] } }
-]
-}

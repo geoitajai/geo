@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020720281", "cod": 159.0, "nome": "R.José Pereira Liberato", "ptotalvia": 12.5, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.682536621479436, -26.901543412273892 ], [ -48.68258787, -26.90194789 ], [ -48.68259606287004, -26.902008170051882 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020720281", "cod": 205.0, "nome": "R.Fridolim Erthal Júnior", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68258787, -26.90194789 ], [ -48.682042419584228, -26.901967303210021 ] ] } }
-]
-}

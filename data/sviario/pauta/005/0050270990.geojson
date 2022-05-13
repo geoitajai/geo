@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050270990", "cod": 14.0, "nome": "R.Gelásio Pedro de Miranda", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68922927546619, -26.90431621733245 ], [ -48.68874708, -26.90433139 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0050270990", "cod": 60.0, "nome": "R.Estefano José Vanolli", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.688735872387056, -26.904080931110077 ], [ -48.68874708, -26.90433139 ], [ -48.688748261392412, -26.904411838805089 ] ] } }
-]
-}

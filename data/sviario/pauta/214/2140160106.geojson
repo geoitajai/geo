@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140160106", "cod": 751.0, "nome": "R.Daniel Veiga Cugnier", "ptotalvia": 8.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.636080624709088, -26.925598426244846 ], [ -48.63588823, -26.92579954 ], [ -48.63580415, -26.92598034 ], [ -48.635801007597038, -26.925994012732026 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2140160106", "cod": 754.0, "nome": "R.Mar.Floriano Peixoto", "ptotalvia": 8.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.635622004726599, -26.925314687975213 ], [ -48.63564094, -26.92538945 ], [ -48.63552224, -26.92563198 ], [ -48.635443869994042, -26.925779745626023 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2140160106", "cod": 762.0, "nome": "R.Augusto Luiz Voigi", "ptotalvia": 7.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.63552224, -26.92563198 ], [ -48.635422654027529, -26.925559294717985 ] ] } }
-]
-}

@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0032110810", "cod": 1166.0, "nome": "R.Eredes Serpa", "ptotalvia": 12.5, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.701847652512441, -26.893921056730115 ], [ -48.701880620108632, -26.894466215338429 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0032110810", "cod": 1226.0, "nome": "R.Cuiabá", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70141011, -26.89434081 ], [ -48.701307866239205, -26.894345949527473 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0032110810", "cod": 1718.0, "nome": "R.Macapá", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.701390260681904, -26.893937538878731 ], [ -48.70141011, -26.89434081 ] ] } }
-]
-}

@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2042010100", "cod": 850.0, "nome": "R.Wilson Cordeiro", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.670107044036612, -26.92101297687498 ], [ -48.6701365, -26.92117187 ], [ -48.670165425252378, -26.921336292599481 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2042010100", "cod": 852.0, "nome": "Trav.Pedro João Galvão", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6701365, -26.92117187 ], [ -48.670025665995972, -26.921178048452891 ] ] } }
-]
-}

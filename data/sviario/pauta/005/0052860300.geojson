@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0052860300", "cod": 1582.0, "nome": "Trav.Jarbas Gomes da Silva", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70005589, -26.91329323 ], [ -48.6996146, -26.91320357 ], [ -48.699576573338305, -26.913165201083938 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0052860300", "cod": 152.0, "nome": "R.Concórdia", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700006242358143, -26.912401950509839 ], [ -48.70005589, -26.91329323 ], [ -48.700058193671225, -26.913334591248944 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0052860300", "cod": 152.0, "nome": "R.Concórdia", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.699997565285159, -26.912246178389061 ], [ -48.700013799009362, -26.912537608546419 ] ] } }
-]
-}

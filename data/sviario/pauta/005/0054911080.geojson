@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0054911080", "cod": 128.0, "nome": "R.Maria Odília dos Santos Domingues", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70268142, -26.90823417 ], [ -48.702621420235594, -26.908237522179761 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0054911080", "cod": 33.0, "nome": "R.Jaziel José Rosa", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702680315390069, -26.908209046761435 ], [ -48.70268142, -26.90823417 ], [ -48.702691064529574, -26.908516597199913 ] ] } }
-]
-}

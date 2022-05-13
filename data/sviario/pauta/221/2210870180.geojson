@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2210870180", "cod": 535.0, "nome": "R.Carlos Serafim Zaguini", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.680563679549415, -26.924147053775005 ], [ -48.68059735, -26.92448154 ], [ -48.68060104365852, -26.924522854090487 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2210870180", "cod": 536.0, "nome": "R.Exp.Carlos Costa", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.680652779180278, -26.924477092865835 ], [ -48.68059735, -26.92448154 ], [ -48.680178306526621, -26.924512452741364 ] ] } }
-]
-}

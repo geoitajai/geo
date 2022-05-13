@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140910141", "cod": 809.0, "nome": "R.Rachel Werner", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.629574851103946, -26.946187094608746 ], [ -48.6291487, -26.94624166 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2140910141", "cod": 599.0, "nome": "Av.Dr.José Medeiros Vieira (Sul)", "ptotalvia": 0.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.629152288542159, -26.946295644996585 ], [ -48.6291487, -26.94624166 ], [ -48.629122921278338, -26.945961003535889 ] ] } }
-]
-}

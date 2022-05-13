@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010831128", "cod": 291.0, "nome": "R.Samuel Heusi", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.657621733757793, -26.902898088895181 ], [ -48.65759542, -26.90288097 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010831128", "cod": 288.0, "nome": "Av.Pref.Paulo Bauer", "ptotalvia": 14.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.657612744293978, -26.902869382935449 ], [ -48.65759542, -26.90288097 ], [ -48.657363827928897, -26.903037852280779 ] ] } }
-]
-}

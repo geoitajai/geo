@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2151860600", "cod": 1557.0, "nome": "R.Antônio Carlos Figueredo", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.744692140107652, -26.881817713248775 ], [ -48.7446915, -26.88180979 ], [ -48.74465766071043, -26.881435004267068 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2151860600", "cod": 1340.0, "nome": "Av.José João Corrêa", "ptotalvia": 18.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.744708205538004, -26.881808793990107 ], [ -48.7446915, -26.88180979 ], [ -48.744355046460626, -26.881828848553873 ] ] } }
-]
-}

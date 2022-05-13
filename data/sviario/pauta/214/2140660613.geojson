@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140660613", "cod": 736.0, "nome": "R.Venezuela", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.641461976142459, -26.93521024584474 ], [ -48.64171503, -26.93597446 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2140660613", "cod": 586.0, "nome": "Av.Osvaldo Reis", "ptotalvia": 34.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.641917758048116, -26.935163356009461 ], [ -48.64191586, -26.93601854 ], [ -48.64186916, -26.936212 ], [ -48.641866172064738, -26.936223722218081 ] ] } }
-]
-}

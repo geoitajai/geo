@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2151610180", "cod": 1598.0, "nome": "Av.Projetada K", "ptotalvia": 18.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.745767930074273, -26.866292645599266 ], [ -48.74547254, -26.86630573 ], [ -48.745401866222544, -26.866311720865838 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2151610180", "cod": 1312.0, "nome": "R.Alberto Dagnoni", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.745501816600722, -26.866690876785629 ], [ -48.74547254, -26.86630573 ], [ -48.745469948827065, -26.866271524327288 ] ] } }
-]
-}

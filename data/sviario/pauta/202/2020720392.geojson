@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020720392", "cod": 185.0, "nome": "R.Pedro Rangel", "ptotalvia": 12.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68242924, -26.9006959 ], [ -48.682131835998213, -26.90070708050089 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020720392", "cod": 185.0, "nome": "R.Pedro Rangel", "ptotalvia": 12.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.682502488225339, -26.900692995002302 ], [ -48.68242924, -26.9006959 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020720392", "cod": 159.0, "nome": "R.José Pereira Liberato", "ptotalvia": 12.5, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.682421850483216, -26.900631500093571 ], [ -48.68242924, -26.9006959 ], [ -48.682482188267507, -26.901113797248961 ] ] } }
-]
-}

@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2160570020", "cod": 1413.0, "nome": "Av.Itaipava", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.744740754846646, -26.945811694592553 ], [ -48.74425280582053, -26.945751045545791 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2160570020", "cod": 1458.0, "nome": "R.Aristides Pedroni", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.744691471818612, -26.945194538781436 ], [ -48.744211855481822, -26.945483470107487 ] ] } }
-]
-}

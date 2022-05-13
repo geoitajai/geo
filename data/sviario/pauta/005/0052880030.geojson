@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0052880030", "cod": 119.0, "nome": "R.Xaxim", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700791667443255, -26.913523225554052 ], [ -48.70076185, -26.91355459 ], [ -48.700390594085633, -26.913553291084764 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0052880030", "cod": 37.0, "nome": "Av.Campos Novos", "ptotalvia": 21.0, "ppasseio1": 5.0, "ppasseio2": 5.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700752768914079, -26.913287847089695 ], [ -48.70076397, -26.91344166 ], [ -48.70076185, -26.91355599 ], [ -48.700763710654314, -26.913588584380303 ] ] } }
-]
-}

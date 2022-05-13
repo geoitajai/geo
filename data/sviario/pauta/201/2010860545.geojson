@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010860545", "cod": 337.0, "nome": "Trav.Juventino Linhares", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.666521459373804, -26.908833218328937 ], [ -48.66626263, -26.909097 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010860545", "cod": 340.0, "nome": "R.Anita Garibaldi", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.666533115570665, -26.909304520777034 ], [ -48.66641531, -26.909213499999989 ], [ -48.66626263, -26.909097 ], [ -48.666205686003678, -26.909052099249045 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010860545", "cod": 346.0, "nome": "Trav.Zozimo José Peixoto", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66641531, -26.909213499999989 ], [ -48.666350392495715, -26.909274536874815 ] ] } }
-]
-}

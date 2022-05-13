@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110290204", "cod": 510.0, "nome": "R.Abelardo Costa Filho", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675638918324836, -26.913042218438701 ], [ -48.67563904, -26.91311549 ], [ -48.675625750857577, -26.913391248400909 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110290204", "cod": 496.0, "nome": "R.Matias Klock", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676061569034907, -26.913126207231823 ], [ -48.67563904, -26.91311549 ], [ -48.675559655085031, -26.913113631707226 ] ] } }
-]
-}

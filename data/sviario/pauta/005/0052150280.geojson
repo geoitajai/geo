@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0052150280", "cod": 38.0, "nome": "R.Rio Fortuna", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.699692141048878, -26.904637985695022 ], [ -48.69970993, -26.90494269 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0052150280", "cod": 15.0, "nome": "R.Arq.Nilson Edson dos Santos", "ptotalvia": 21.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700099302801043, -26.90492924589708 ], [ -48.69970993, -26.90494269 ], [ -48.699647542384923, -26.904947562186468 ] ] } }
-]
-}

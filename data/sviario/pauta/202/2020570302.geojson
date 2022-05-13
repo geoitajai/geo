@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020570302", "cod": 190.0, "nome": "R.José Cândido", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675824432121253, -26.899357380875248 ], [ -48.675535428036575, -26.899124412820697 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020570302", "cod": 191.0, "nome": "Serv.Nilo Prazeres", "ptotalvia": 4.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675682202090513, -26.899498987966105 ], [ -48.675393387712511, -26.899266722781547 ] ] } }
-]
-}

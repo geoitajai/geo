@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050510370", "cod": 106.0, "nome": "R.José Santangelo", "ptotalvia": 6.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691160269064618, -26.909044048867155 ], [ -48.69071921, -26.90905415 ], [ -48.690653711655862, -26.909055816969353 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0050510370", "cod": 51.0, "nome": "R.Otávio Cesário Pereira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.690715198084767, -26.908777063033767 ], [ -48.69071887, -26.9090305 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0050510370", "cod": 51.0, "nome": "R.Otávio Cesário Pereira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69071887, -26.9090305 ], [ -48.69071921, -26.90905415 ], [ -48.690719605656312, -26.909124634645625 ] ] } }
-]
-}

@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020570927", "cod": 209.0, "nome": "R.José Quirino", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.673791987502618, -26.898636060369061 ], [ -48.67383902, -26.8986734 ], [ -48.674010237225914, -26.898811338666029 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020570927", "cod": 161.0, "nome": "Av.Irineu Bornhausen", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674006043359604, -26.898355715194345 ], [ -48.67383902, -26.8986734 ], [ -48.673804087280267, -26.898738854770691 ] ] } }
-]
-}

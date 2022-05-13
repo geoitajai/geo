@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2031420220", "cod": 1025.0, "nome": "R.Antônio Tironi", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69957495, -26.87182912 ], [ -48.699298020100521, -26.871842643964861 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2031420220", "cod": 1038.0, "nome": "R.Pedro João de Souza", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.699354916630625, -26.871783189681064 ], [ -48.69935751, -26.87183974 ], [ -48.699374804900827, -26.872123591790047 ] ] } }
-]
-}

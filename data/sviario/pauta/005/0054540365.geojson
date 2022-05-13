@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0054540365", "cod": 988.0, "nome": "Av.Maria Marques Werner", "ptotalvia": 22.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702633460713578, -26.927497027133018 ], [ -48.70259781, -26.92753061 ], [ -48.702398211894831, -26.927733960897079 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0054540365", "cod": 946.0, "nome": "R.Otília Damasceno", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702290285073367, -26.927268480876936 ], [ -48.70259781, -26.92753061 ] ] } }
-]
-}

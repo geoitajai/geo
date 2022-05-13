@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2161900500", "cod": 1267.0, "nome": "R.Serafim Gamba", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.828377526878782, -27.010368910507189 ], [ -48.82793983197061, -27.010207551475279 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2161900500", "cod": 1235.0, "nome": "Rod.Dep.Antônio Heil", "ptotalvia": 30.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -48.828525134854104, -27.009975280276478 ], [ -48.828520515701022, -27.00997085561308 ] ], [ [ -48.82839591356651, -27.00986248273475 ], [ -48.828355127974838, -27.009829751447715 ] ] ] } }
-]
-}

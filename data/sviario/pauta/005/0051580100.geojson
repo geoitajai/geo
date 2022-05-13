@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0051580100", "cod": 901.0, "nome": "R.Das Buganvilias", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69473375, -26.91803211 ], [ -48.694738175929956, -26.918093284682765 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0051580100", "cod": 909.0, "nome": "R.Das Violetas", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695000064892014, -26.918018942702609 ], [ -48.69473375, -26.91803211 ], [ -48.694637733300688, -26.918038118159973 ] ] } }
-]
-}

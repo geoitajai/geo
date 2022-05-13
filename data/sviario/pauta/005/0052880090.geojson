@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0052880090", "cod": 1296.0, "nome": "R.Aristides Sperber", "ptotalvia": 4.2, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70072889, -26.91285868 ], [ -48.700783756361105, -26.912858294737283 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0052880090", "cod": 37.0, "nome": "Av.Campos Novos", "ptotalvia": 21.0, "ppasseio1": 5.0, "ppasseio2": 5.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700720555662514, -26.912699789037106 ], [ -48.70072889, -26.91285868 ], [ -48.700734113059411, -26.91300531775606 ] ] } }
-]
-}

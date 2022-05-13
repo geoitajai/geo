@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050380320", "cod": 25.0, "nome": "R.Rodolfo Kucker", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692282950921594, -26.899400421288568 ], [ -48.69221201, -26.89940343 ], [ -48.691921474197869, -26.899413760371786 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0050380320", "cod": 10.0, "nome": "R.Antônio Ayres dos Santos", "ptotalvia": 13.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692214348591897, -26.899466012311521 ], [ -48.69221201, -26.89940343 ] ] } }
-]
-}

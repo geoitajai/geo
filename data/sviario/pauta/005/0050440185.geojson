@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050440185", "cod": 19.0, "nome": "R.Alfredo Kleis", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692283354966925, -26.902701712756908 ], [ -48.69222508, -26.9027012 ], [ -48.691784990657482, -26.902715345337082 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0050440185", "cod": 10.0, "nome": "R.Antônio Ayres dos Santos", "ptotalvia": 13.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692228460516432, -26.902972400667295 ], [ -48.69222508, -26.9027012 ], [ -48.692224520684363, -26.902639387532268 ] ] } }
-]
-}

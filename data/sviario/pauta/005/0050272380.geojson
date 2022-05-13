@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050272380", "cod": 8.0, "nome": "R.Onofre José Corrêa", "ptotalvia": 4.5, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693539737388015, -26.90448961503018 ], [ -48.693047314839873, -26.904504952439073 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0050272380", "cod": 9.0, "nome": "R.Rui Barbosa", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693527364239081, -26.90471042711431 ], [ -48.693074861208657, -26.904725702086093 ] ] } }
-]
-}

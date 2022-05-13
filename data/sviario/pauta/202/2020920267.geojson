@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020920267", "cod": 503.0, "nome": "R.José Manoel da Silva", "ptotalvia": 6.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67938824, -26.90888405 ], [ -48.679379375971543, -26.908906070015629 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020920267", "cod": 254.0, "nome": "R.Vicente Meirinho", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.679700402809928, -26.907831216974216 ], [ -48.678894026144434, -26.907856660120284 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020920267", "cod": 160.0, "nome": "R.Heitor Liberato", "ptotalvia": 15.5, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.679416174211866, -26.908892354903383 ], [ -48.67938824, -26.90888405 ], [ -48.678852389496427, -26.908708900493515 ] ] } }
-]
-}

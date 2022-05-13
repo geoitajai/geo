@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050510355", "cod": 104.0, "nome": "R.Padre Paulo Condla", "ptotalvia": 15.0, "ppasseio1": 3.5, "ppasseio2": 3.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69114236528943, -26.908676314021381 ], [ -48.69071391, -26.90868839 ], [ -48.690664998083307, -26.908690290583994 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0050510355", "cod": 51.0, "nome": "R.Otávio Cesário Pereira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.690713455199877, -26.90864150185233 ], [ -48.69071391, -26.90868839 ], [ -48.69071494, -26.90875925 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0050510355", "cod": 51.0, "nome": "R.Otávio Cesário Pereira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69071494, -26.90875925 ], [ -48.690718366579269, -26.908995753596571 ] ] } }
-]
-}

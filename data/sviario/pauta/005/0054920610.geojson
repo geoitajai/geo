@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0054920610", "cod": 122.0, "nome": "R.Roque José Bosco", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702541856831495, -26.905763124390774 ], [ -48.702212260497404, -26.905769046301842 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0054920610", "cod": 33.0, "nome": "R.Jaziel José Rosa", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702536467690628, -26.905508425165426 ], [ -48.70254661320579, -26.905751144779792 ] ] } }
-]
-}

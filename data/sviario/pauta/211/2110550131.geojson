@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110550131", "cod": 270.0, "nome": "R.Luiz Panca", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66906175, -26.91744898 ], [ -48.669060472358524, -26.917452337949303 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110550131", "cod": 273.0, "nome": "R.Gustavo Manoel dos Santos", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.669427273970499, -26.917424338171877 ], [ -48.66906175, -26.91744898 ], [ -48.669058764255411, -26.917449072555421 ] ] } }
-]
-}

@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2041180180", "cod": 885.0, "nome": "Trav.Arvoredo", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.686489316711935, -26.932493598693295 ], [ -48.68624881679321, -26.93276525885398 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2041180180", "cod": 890.0, "nome": "R.Sol.Abelardo Mendonça Sobrinho", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.686018244999325, -26.932230237432179 ], [ -48.685999710185754, -26.93261347644362 ] ] } }
-]
-}

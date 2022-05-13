@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2210840080", "cod": 535.0, "nome": "R.Carlos Serafim Zaguini", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.680533209002071, -26.92383918420779 ], [ -48.68053966, -26.92390844 ], [ -48.68057199326833, -26.924229643351147 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2210840080", "cod": 537.0, "nome": "R.Pres.João Goulart", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.680943970682151, -26.923871836595268 ], [ -48.68053966, -26.92390844 ], [ -48.680467951930567, -26.923913836218141 ] ] } }
-]
-}

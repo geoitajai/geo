@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110070828", "cod": 495.0, "nome": "R.João Gaya", "ptotalvia": 14.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674398007830206, -26.909321041546427 ], [ -48.67398589, -26.90940905 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110070828", "cod": 489.0, "nome": "R.Fiuza Lima", "ptotalvia": 13.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674042428657437, -26.909759218752228 ], [ -48.67398589, -26.90940905 ], [ -48.673980225310835, -26.909358532614213 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110070828", "cod": 495.0, "nome": "R.João Gaya", "ptotalvia": 14.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67398589, -26.90940905 ], [ -48.673944362864383, -26.909412957672931 ] ] } }
-]
-}

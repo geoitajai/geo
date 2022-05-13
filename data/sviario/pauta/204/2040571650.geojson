@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040571650", "cod": 586.0, "nome": "Av.Osvaldo Reis", "ptotalvia": 34.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.649072300303501, -26.924898060226141 ], [ -48.64903159, -26.92492528 ], [ -48.648540811731714, -26.925405560851335 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040571650", "cod": 713.0, "nome": "R.João Wollinger", "ptotalvia": 13.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.64903159, -26.92492528 ], [ -48.649705147747099, -26.925492782036724 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040571650", "cod": 715.0, "nome": "R.Emanuel Pereira de Campos", "ptotalvia": 13.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.648532106134326, -26.925427553972224 ], [ -48.649050244523536, -26.925876036477888 ] ] } }
-]
-}

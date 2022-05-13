@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0054920790", "cod": 123.0, "nome": "R.Dalvina de Oliveira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70257448, -26.90619692 ], [ -48.702310091817537, -26.906199563218472 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0054920790", "cod": 33.0, "nome": "R.Jaziel José Rosa", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702569850813127, -26.906123534707373 ], [ -48.70257448, -26.90619692 ], [ -48.702591003901937, -26.906521049321292 ] ] } }
-]
-}

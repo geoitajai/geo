@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2031440240", "cod": 1024.0, "nome": "R.Theodoro Lino Régis", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.699054241414331, -26.867410728232414 ], [ -48.69913896, -26.86739703 ], [ -48.699494300660994, -26.867326593138312 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2031440240", "cod": 1038.0, "nome": "R.Pedro João de Souza", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69913896, -26.86739703 ], [ -48.699153855365296, -26.867682458720726 ] ] } }
-]
-}

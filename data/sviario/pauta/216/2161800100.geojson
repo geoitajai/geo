@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2161800100", "cod": 1238.0, "nome": "R.Sorocaba", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.856135359254111, -27.037596713338985 ], [ -48.85616749, -27.03762169 ], [ -48.85632705, -27.03787099 ], [ -48.856420733359982, -27.037990197288838 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2161800100", "cod": 1243.0, "nome": "R.João Tiago Azevedo", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.85632705, -27.03787099 ], [ -48.85623605, -27.0384125 ], [ -48.856237538977894, -27.03849524456669 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2161800100", "cod": 1589.0, "nome": "R.João Leite", "ptotalvia": 20.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.856216184946952, -27.037586910190996 ], [ -48.85616749, -27.03762169 ] ] } }
-]
-}

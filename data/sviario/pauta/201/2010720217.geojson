@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010720217", "cod": 395.0, "nome": "R.Olga de Lemos Lira", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.666557856272128, -26.912407362240227 ], [ -48.666239515999706, -26.912694800311588 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010720217", "cod": 268.0, "nome": "R.Brusque", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.666584988963926, -26.912401200832246 ], [ -48.666840303922086, -26.912685781624702 ] ] } }
-]
-}

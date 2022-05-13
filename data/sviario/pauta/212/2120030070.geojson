@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2120030070", "cod": 195.0, "nome": "R.Valdir Severino", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67816919, -26.90010416 ], [ -48.678163958953299, -26.900193918484245 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2120030070", "cod": 187.0, "nome": "R.Rodolfo Treder", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.678405189954852, -26.900094625023538 ], [ -48.67816919, -26.90010416 ], [ -48.678041047073982, -26.900109873289267 ] ] } }
-]
-}

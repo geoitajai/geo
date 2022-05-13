@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0052090005", "cod": 40.0, "nome": "R.São José", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698555681928596, -26.904689480568596 ], [ -48.69857295, -26.90500168 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0052090005", "cod": 154.0, "nome": "R.Satyro Loureiro", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69834969, -26.90501152 ], [ -48.69835283340052, -26.90506639942188 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0052090005", "cod": 15.0, "nome": "R.Arq.Nilson Edson dos Santos", "ptotalvia": 21.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.698631281992711, -26.904998652003421 ], [ -48.69857295, -26.90500168 ], [ -48.698176344117826, -26.905018891095871 ] ] } }
-]
-}

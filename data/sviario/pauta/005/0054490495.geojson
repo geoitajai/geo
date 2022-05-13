@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0054490495", "cod": 988.0, "nome": "Av.Maria Marques Werner", "ptotalvia": 22.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700659893706224, -26.929428160902606 ], [ -48.70061344, -26.92947482 ], [ -48.700344921815351, -26.929723196642911 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0054490495", "cod": 1015.0, "nome": "R.Manoel Olívio Theodoro", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700368839366824, -26.929265406073551 ], [ -48.70061344, -26.92947482 ], [ -48.70064519922829, -26.92950083402161 ] ] } }
-]
-}

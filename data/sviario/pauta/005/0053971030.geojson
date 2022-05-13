@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0053971030", "cod": 996.0, "nome": "R.Marcelino Ponciano", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69176905, -26.9304272 ], [ -48.691699921406673, -26.930334312392098 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0053971030", "cod": 892.0, "nome": "Av.Ver.Nilo Simas", "ptotalvia": 20.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691769543182943, -26.9304264907883 ], [ -48.69176905, -26.9304272 ], [ -48.691619372031624, -26.930642436415297 ] ] } }
-]
-}

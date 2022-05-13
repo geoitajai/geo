@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0054950395", "cod": 33.0, "nome": "R.Jaziel José Rosa", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702744293556314, -26.909530675044103 ], [ -48.70274782, -26.90960832 ], [ -48.70275859164456, -26.909829315961687 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0054950395", "cod": 1304.0, "nome": "R.Veneranda Rocha Junkes", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70274782, -26.90960832 ], [ -48.702672405067467, -26.909611809168016 ] ] } }
-]
-}

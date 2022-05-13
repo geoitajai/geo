@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020200091", "cod": 224.0, "nome": "Trav.Bela Cruz", "ptotalvia": 3.5, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.670010066816651, -26.902298298955102 ], [ -48.67008738, -26.90236613 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020200091", "cod": 225.0, "nome": "Trav.Esc.Julio Cesar Medeiros", "ptotalvia": 10.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67012710085551, -26.902318511535782 ], [ -48.67008738, -26.90236613 ], [ -48.670115916523642, -26.90263438338129 ] ] } }
-]
-}

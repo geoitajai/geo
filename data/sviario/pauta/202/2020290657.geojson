@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020290657", "cod": 215.0, "nome": "R.Antônio Borba", "ptotalvia": 8.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675102549086901, -26.901161695642379 ], [ -48.67510665, -26.90122952 ], [ -48.675094051986967, -26.901560251366909 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020290657", "cod": 216.0, "nome": "R.Paulo Euzébio de Souza", "ptotalvia": 2.2, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675179709087921, -26.901227569228023 ], [ -48.67510665, -26.90122952 ] ] } }
-]
-}

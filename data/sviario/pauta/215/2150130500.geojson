@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2150130500", "cod": 1377.0, "nome": "R.Valdemar Oliveira da Silva", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.735564154280105, -26.892697369954977 ], [ -48.736024654019424, -26.892834873747908 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2150130500", "cod": 1374.0, "nome": "R.Ademar Barbi", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.735948802092459, -26.892416904912785 ], [ -48.735984398911633, -26.892866056463664 ] ] } }
-]
-}

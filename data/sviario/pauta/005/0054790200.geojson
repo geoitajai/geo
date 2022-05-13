@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0054790200", "cod": 921.0, "nome": "R.Ivo Werner", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693043184516782, -26.920629849081848 ], [ -48.69278327, -26.92073949 ], [ -48.692678349690496, -26.920779785397301 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0054790200", "cod": 896.0, "nome": "R.Das Hortências", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692750578933932, -26.920644753179705 ], [ -48.69278327, -26.92073949 ] ] } }
-]
-}

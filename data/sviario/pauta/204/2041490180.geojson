@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2041490180", "cod": 871.0, "nome": "R.Alfredo Labes", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674157871830204, -26.931726721442384 ], [ -48.67375837, -26.93174438 ], [ -48.673676275536167, -26.931747025689216 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2041490180", "cod": 875.0, "nome": "R.Elias Brick Adaime", "ptotalvia": 20.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67375837, -26.93174438 ], [ -48.673772089114998, -26.932057380342496 ] ] } }
-]
-}

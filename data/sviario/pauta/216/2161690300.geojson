@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2161690300", "cod": 1251.0, "nome": "R.Mineral", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.847919221009562, -27.038021306424621 ], [ -48.84804396, -27.03797363 ], [ -48.848434954438979, -27.037783007216529 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2161690300", "cod": 1264.0, "nome": "R.Luiz Sétimo Trainotti", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.84801781, -27.0379846 ], [ -48.848033672802998, -27.038187554018446 ] ] } }
-]
-}

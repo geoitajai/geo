@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0055260010", "cod": 141.0, "nome": "R.Domingos Antônio Borba", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.708749324717466, -26.909877974739182 ], [ -48.70841158, -26.90989498 ], [ -48.70834073707389, -26.909897647466341 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0055260010", "cod": 135.0, "nome": "R.José Pezzini", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.708391835732129, -26.909552823828179 ], [ -48.70841158, -26.90989498 ], [ -48.708414656576771, -26.909959912458199 ] ] } }
-]
-}

@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0031311315", "cod": 1167.0, "nome": "R.José Rosa", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702765113740313, -26.893132619528856 ], [ -48.70276799, -26.89318841 ], [ -48.702788283743352, -26.893539087587968 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0031311315", "cod": 1203.0, "nome": "R.Osvaldo Cruz", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.703269091664765, -26.89316036303369 ], [ -48.70276799, -26.89318841 ], [ -48.702688407402157, -26.893192039636926 ] ] } }
-]
-}

@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2031862127", "cod": 1098.0, "nome": "R.Hamilton Pimentel", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.701547015406355, -26.87959949403292 ], [ -48.70155045, -26.87965256 ], [ -48.70155428, -26.87971183 ], [ -48.70149369, -26.87971491 ], [ -48.70149458, -26.87978026 ], [ -48.701519480023855, -26.879925415470872 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2031862127", "cod": 1106.0, "nome": "R.Profº.Cosme Buzarello", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.701854667735098, -26.879580472414425 ], [ -48.701872291152512, -26.879915806261799 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2031862127", "cod": 1095.0, "nome": "R.Ver.Telêmaco de Oliveira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70155045, -26.87965256 ], [ -48.701458498586078, -26.879667242600739 ] ] } }
-]
-}

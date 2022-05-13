@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2030400600", "cod": 1287.0, "nome": "R.Teporti - Terminal Portuário de Itajaí", "ptotalvia": 20.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -48.709390191587786, -26.886963708015781 ], [ -48.70940632, -26.88698919 ], [ -48.710835078577979, -26.888629064019387 ] ], [ [ -48.710856772716781, -26.888677691261314 ], [ -48.71090188, -26.88918055 ], [ -48.710898126035367, -26.889241439124568 ] ], [ [ -48.710892443789554, -26.889333604671503 ], [ -48.710848009807663, -26.890054311586489 ] ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2030400600", "cod": 1111.0, "nome": "Av.Dr.Reinaldo Schmithausen", "ptotalvia": 27.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.710593315948884, -26.890158444595045 ], [ -48.70902216607395, -26.889341743145824 ] ] } }
-]
-}

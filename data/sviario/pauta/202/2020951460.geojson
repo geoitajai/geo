@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020951460", "cod": 237.0, "nome": "R.Emília dos Santos", "ptotalvia": 12.5, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.678410123777695, -26.90352320995262 ], [ -48.67856982, -26.90365036 ], [ -48.67867805822312, -26.90373224587994 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020951460", "cod": 238.0, "nome": "R.Martha Souza da Silva", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67856982, -26.90365036 ], [ -48.678563948320047, -26.903724830097296 ] ] } }
-]
-}

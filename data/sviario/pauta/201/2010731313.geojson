@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010731313", "cod": 392.0, "nome": "R.Abercio Werner", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.666986723452794, -26.91539850853459 ], [ -48.6667194, -26.91570346 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010731313", "cod": 380.0, "nome": "R.Juvenal Garcia", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.666780698188802, -26.915752715098929 ], [ -48.6667194, -26.91570346 ], [ -48.666436256456947, -26.915486275717029 ] ] } }
-]
-}

@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020350372", "cod": 214.0, "nome": "R.Felício Maes", "ptotalvia": 7.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.673576133665421, -26.899162940490221 ], [ -48.673577280000011, -26.89916383 ], [ -48.673858218883296, -26.899388599522869 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020350372", "cod": 161.0, "nome": "Av.Irineu Bornhausen", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.673602637007519, -26.899116318048311 ], [ -48.673577280000011, -26.89916383 ], [ -48.673574821529414, -26.899166464689753 ] ] } }
-]
-}

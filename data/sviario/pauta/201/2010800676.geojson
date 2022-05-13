@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010800676", "cod": 377.0, "nome": "R.Jorge Mattos", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66482204209526, -26.914895994842723 ], [ -48.66485381, -26.91492167 ], [ -48.665074336204427, -26.91509970174382 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010800676", "cod": 327.0, "nome": "R.Umbelino Damasio de Brito", "ptotalvia": 11.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.664907170236205, -26.914869574845575 ], [ -48.664544785385225, -26.915205215766012 ] ] } }
-]
-}

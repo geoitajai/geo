@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2030090530", "cod": 1094.0, "nome": "R.Luiz Leôncio Buchele", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697522400731529, -26.882787099042382 ], [ -48.69755048, -26.88356447 ], [ -48.697553156103154, -26.88362554697234 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2030090530", "cod": 1086.0, "nome": "R.Luiz José Medeiros", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696976952739611, -26.882803289437522 ], [ -48.69700538, -26.8835813 ], [ -48.69700779129596, -26.883649168087377 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2030090530", "cod": 1110.0, "nome": "R.Sebastião Romeu Soares", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697619587617744, -26.883561741682541 ], [ -48.69755048, -26.88356447 ], [ -48.696927409998793, -26.883583235292477 ] ] } }
-]
-}

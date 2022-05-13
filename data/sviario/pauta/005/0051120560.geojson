@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0051120560", "cod": 117.0, "nome": "R.Agrolândia", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69674837, -26.9087648 ], [ -48.696716523352627, -26.908766352697633 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0051120560", "cod": 95.0, "nome": "R.Érico Veríssimo", "ptotalvia": 14.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696729858727558, -26.908471736183234 ], [ -48.69674837, -26.9087648 ], [ -48.696749525035607, -26.908782382445143 ] ] } }
-]
-}

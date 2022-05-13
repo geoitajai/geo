@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2120650312", "cod": 478.0, "nome": "R.Osvaldir Cardoso", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.670383678811561, -26.883703118208679 ], [ -48.670130241825376, -26.883946618070226 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2120650312", "cod": 479.0, "nome": "R.Lacy Gonçalves de Santana", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.669942078752442, -26.883340724781469 ], [ -48.669692849709428, -26.883577567602277 ] ] } }
-]
-}

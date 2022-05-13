@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2210110058", "cod": 521.0, "nome": "R.Luciano Pinheiro da Silva", "ptotalvia": 13.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.680716622289324, -26.91056394637716 ], [ -48.6807162, -26.91061721 ], [ -48.680719970730941, -26.910976050590747 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2210110058", "cod": 524.0, "nome": "R.Bel.Clito César Rebello", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6807162, -26.91061721 ], [ -48.680348999944407, -26.910639359982028 ] ] } }
-]
-}

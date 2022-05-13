@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0051750005", "cod": 933.0, "nome": "R.Ana Mafra Pereira", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702487760847845, -26.924805659710668 ], [ -48.70242399, -26.92486835 ], [ -48.702143056267637, -26.925120942345245 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0051750005", "cod": 944.0, "nome": "R.Henrique Leonardo Deóla Pfitzer", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702195798784075, -26.924675060873138 ], [ -48.70242399, -26.92486835 ] ] } }
-]
-}

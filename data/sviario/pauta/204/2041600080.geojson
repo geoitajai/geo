@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2041600080", "cod": 705.0, "nome": "R.João Cunha", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.651304823944997, -26.929628029018886 ], [ -48.651412481627801, -26.929941413134575 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2041600080", "cod": 707.0, "nome": "R.João Fernandes Vieira Junior", "ptotalvia": 10.5, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.650725226542782, -26.929719759295981 ], [ -48.65076033, -26.92992559 ], [ -48.650805833841225, -26.930057328019728 ] ] } }
-]
-}

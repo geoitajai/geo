@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2120190813", "cod": 424.0, "nome": "Trav.São Bento", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.681207622631788, -26.891646224964401 ], [ -48.68124605, -26.89264009 ], [ -48.68073842, -26.89266839 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2120190813", "cod": 425.0, "nome": "R.João Maria da Veiga", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.680739876222091, -26.892740396878427 ], [ -48.68073842, -26.89266839 ], [ -48.680690246839788, -26.891555450351181 ] ] } }
-]
-}

@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2161635400", "cod": 1533.0, "nome": "R.Alfredo Ledra", "ptotalvia": 25.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.8469360323855, -26.984818380036447 ], [ -48.84640179, -26.98592594 ], [ -48.84632802, -26.9861305 ], [ -48.84631341, -26.98642065 ], [ -48.846266068299293, -26.986557121532233 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2161635400", "cod": 1608.0, "nome": "R.Pedro Lana", "ptotalvia": 20.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.847034966012302, -26.984769725152596 ], [ -48.84776488, -26.98530242 ], [ -48.847872903273121, -26.985396299661389 ] ] } }
-]
-}

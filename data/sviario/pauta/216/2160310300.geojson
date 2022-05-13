@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2160310300", "cod": 1731.0, "nome": "Av.Marginal Sul", "ptotalvia": 30.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.714983783864689, -26.943849863788603 ], [ -48.71425078, -26.94346895 ], [ -48.71347748051511, -26.943062144267351 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2160310300", "cod": 1478.0, "nome": "R.Benjamim Dagnoni", "ptotalvia": 22.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.715007376086042, -26.943949169068453 ], [ -48.71494053, -26.9440649 ], [ -48.71427907, -26.94435584 ], [ -48.713411939400281, -26.944358175844251 ] ] } }
-]
-}

@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2210530625", "cod": 545.0, "nome": "R.José Gall", "ptotalvia": 15.6, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.684801712934352, -26.928479240775431 ], [ -48.68439511, -26.9281831 ], [ -48.684317070185664, -26.928119419499644 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2210530625", "cod": 847.0, "nome": "R.Sebastião Procópio Nunes", "ptotalvia": 8.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68439511, -26.9281831 ], [ -48.684360788148446, -26.928223209811588 ] ] } }
-]
-}

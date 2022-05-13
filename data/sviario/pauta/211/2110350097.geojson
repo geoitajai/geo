@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110350097", "cod": 582.0, "nome": "R.Olga Mussi Dietrich", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67498518502547, -26.916650366879146 ], [ -48.67492824, -26.91665264 ], [ -48.674611909275185, -26.916669223180151 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110350097", "cod": 549.0, "nome": "R.Miguel Kunifas", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67492824, -26.91665264 ], [ -48.674932000698661, -26.916711239034811 ] ] } }
-]
-}

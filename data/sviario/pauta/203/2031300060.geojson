@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2031300060", "cod": 1024.0, "nome": "R.Theodoro Lino Régis", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.703833921775377, -26.868729120591272 ], [ -48.703850863111832, -26.869047162081255 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2031300060", "cod": 1032.0, "nome": "R.Jovelino Generoso Leite", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.703468774903442, -26.868752761599556 ], [ -48.703487581597436, -26.869064103821934 ] ] } }
-]
-}

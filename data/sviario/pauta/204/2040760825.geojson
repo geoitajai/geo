@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040760825", "cod": 616.0, "nome": "R.Augusto Pedro Schoenau", "ptotalvia": 11.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.659639204950565, -26.918263351913946 ], [ -48.65962381, -26.91823226 ], [ -48.65952767, -26.91797264 ], [ -48.659486470945161, -26.91790651554108 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040760825", "cod": 615.0, "nome": "R.Jacintho Francisco dos Santos", "ptotalvia": 5.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65994279, -26.91812689 ], [ -48.659784900053836, -26.917793325608407 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040760825", "cod": 612.0, "nome": "R.Antônio de Meneses Vasconcelos de Drumond", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.660009944400905, -26.918104435694566 ], [ -48.65994279, -26.91812689 ], [ -48.659884691164713, -26.918239513291962 ] ] } }
-]
-}

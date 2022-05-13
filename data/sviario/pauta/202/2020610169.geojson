@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020610169", "cod": 185.0, "nome": "R.Pedro Rangel", "ptotalvia": 12.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677917399723604, -26.900880123415121 ], [ -48.677826090000011, -26.90088506 ], [ -48.677649346226609, -26.90089461374804 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020610169", "cod": 227.0, "nome": "R.Indaial", "ptotalvia": 17.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677603513286364, -26.900975050893127 ], [ -48.677614440565598, -26.901331903046042 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020610169", "cod": 207.0, "nome": "Trav.Genelicio Pedro de Souza", "ptotalvia": 5.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677826090000011, -26.90088506 ], [ -48.67781685273286, -26.901348176870872 ] ] } }
-]
-}

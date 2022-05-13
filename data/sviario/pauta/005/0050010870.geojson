@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050010870", "cod": 63.0, "nome": "R.Caçador", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68538544395404, -26.895033048999284 ], [ -48.68518981, -26.89486137 ], [ -48.685117516098551, -26.894798467300596 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0050010870", "cod": 67.0, "nome": "R.São Miguel", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68518981, -26.89486137 ], [ -48.68513011701581, -26.89491897526197 ] ] } }
-]
-}

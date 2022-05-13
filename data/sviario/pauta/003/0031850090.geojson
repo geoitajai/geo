@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0031850090", "cod": 1225.0, "nome": "R.Campo Grande", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700159872517915, -26.893880536735924 ], [ -48.69978502, -26.89390385 ], [ -48.699777787239199, -26.893904192371881 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0031850090", "cod": 1163.0, "nome": "R.Romualdo Sedrez", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.699784435300558, -26.893886818239714 ], [ -48.69978502, -26.89390385 ] ] } }
-]
-}

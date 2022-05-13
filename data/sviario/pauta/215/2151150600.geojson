@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2151150600", "cod": 1316.0, "nome": "R.Mariângela Rocha Fabeni", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.747312556453473, -26.878200230977004 ], [ -48.747339151209495, -26.878546639234919 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2151150600", "cod": 1317.0, "nome": "R.Arq.Luiz Augusto Trojan", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.747802524001898, -26.878165036524532 ], [ -48.74783109, -26.87851758 ], [ -48.747831250349329, -26.878519462674856 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2151150600", "cod": 1334.0, "nome": "Av.Domingos de Almeida", "ptotalvia": 26.0, "ppasseio1": 5.0, "ppasseio2": 5.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.747835079349876, -26.878517739715107 ], [ -48.74736195354923, -26.878553419381952 ] ] } }
-]
-}

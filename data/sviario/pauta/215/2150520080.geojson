@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2150520080", "cod": 1383.0, "nome": "R.Maria Leandra dos Santos", "ptotalvia": 5.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.74368547, -26.89551011 ], [ -48.743646962908485, -26.895235389545952 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2150520080", "cod": 1385.0, "nome": "R.Joaquim de Souza Medeiros", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.743319157393735, -26.895281304860319 ], [ -48.743358102191259, -26.895627794593675 ] ] } }
-]
-}

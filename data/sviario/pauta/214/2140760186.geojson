@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140760186", "cod": 784.0, "nome": "R.Francisca Bernardes", "ptotalvia": 8.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.64024028, -26.95484135 ], [ -48.639609834941631, -26.954904527901252 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2140760186", "cod": 586.0, "nome": "Av.Osvaldo Reis", "ptotalvia": 34.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.640279749222671, -26.954526799149964 ], [ -48.64024028, -26.95484135 ], [ -48.640231002475502, -26.954901593647154 ] ] } }
-]
-}

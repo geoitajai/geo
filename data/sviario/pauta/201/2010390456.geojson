@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010390456", "cod": 291.0, "nome": "R.Samuel Heusi", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.661037317947219, -26.904983040716679 ], [ -48.6609361, -26.90492395 ], [ -48.6605871, -26.90471175 ], [ -48.660570096386323, -26.904700804686019 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010390456", "cod": 301.0, "nome": "R.Fr.Pedro Agote", "ptotalvia": 7.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6605871, -26.90471175 ], [ -48.660601371806138, -26.904681690786987 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010390456", "cod": 302.0, "nome": "R.José Ferreira da Silva", "ptotalvia": 7.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6609361, -26.90492395 ], [ -48.660985667688045, -26.904857747695534 ] ] } }
-]
-}

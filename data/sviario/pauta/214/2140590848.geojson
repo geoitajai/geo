@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140590848", "cod": 730.0, "nome": "R.Luiz Beduschi", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.645411873617967, -26.930941284815528 ], [ -48.64534392, -26.930885 ], [ -48.645258163998967, -26.930968404945556 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2140590848", "cod": 746.0, "nome": "R.Afonso Orsi", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.64469842, -26.93008725 ], [ -48.644652770907697, -26.930072562820467 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2140590848", "cod": 586.0, "nome": "Av.Osvaldo Reis", "ptotalvia": 34.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.644739837817752, -26.930018941661924 ], [ -48.64469842, -26.93008725 ], [ -48.644572388522946, -26.930290723899123 ] ] } }
-]
-}

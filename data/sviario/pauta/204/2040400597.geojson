@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040400597", "cod": 608.0, "nome": "R.DonaMaria Medeiros Siemann", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65895945, -26.91635711 ], [ -48.658610734916898, -26.916083948277073 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040400597", "cod": 266.0, "nome": "R.Uruguai", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.659132692489919, -26.916124681313789 ], [ -48.65895945, -26.91635711 ], [ -48.658923783575482, -26.916403725412533 ] ] } }
-]
-}

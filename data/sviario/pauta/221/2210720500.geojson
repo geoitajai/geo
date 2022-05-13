@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2210720500", "cod": 545.0, "nome": "R.José Gall", "ptotalvia": 15.6, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.686499997259027, -26.930418319179637 ], [ -48.68639962, -26.9297223 ], [ -48.686353896196835, -26.929667107095497 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2210720500", "cod": 265.0, "nome": "Av.Ver.Abrahão João Francisco", "ptotalvia": 29.4, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -48.687949752741346, -26.931624945493478 ], [ -48.687635519579032, -26.931409754125102 ] ], [ [ -48.687604918916648, -26.931388798275165 ], [ -48.686844487009019, -26.930868037213965 ] ] ] } }
-]
-}

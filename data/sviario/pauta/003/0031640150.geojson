@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0031640150", "cod": 1112.0, "nome": "R.Santo Agostinho", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.694364233102753, -26.891121172207125 ], [ -48.69436057, -26.89106262 ], [ -48.694349384260995, -26.890811202215346 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0031640150", "cod": 1129.0, "nome": "R.Henrique Borba dos Santos", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69471669, -26.89104448 ], [ -48.69436057, -26.89106262 ], [ -48.694312247508371, -26.89106593965381 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0031640150", "cod": 1129.0, "nome": "R.Henrique Borba dos Santos", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.694858021647015, -26.891037291354451 ], [ -48.69471669, -26.89104448 ] ] } }
-]
-}

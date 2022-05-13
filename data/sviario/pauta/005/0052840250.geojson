@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0052840250", "cod": 37.0, "nome": "Av.Campos Novos", "ptotalvia": 21.0, "ppasseio1": 5.0, "ppasseio2": 5.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700813562262894, -26.91446186760011 ], [ -48.700875705709649, -26.915550469043907 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0052840250", "cod": 164.0, "nome": "Av.Gov.Adolfo Konder", "ptotalvia": 30.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700120654433221, -26.915469135528468 ], [ -48.700376129925552, -26.915550164821656 ] ] } }
-]
-}

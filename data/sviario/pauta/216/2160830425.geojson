@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2160830425", "cod": 1781.0, "nome": "Sem denominação Oficial", "ptotalvia": null, "ppasseio1": null, "ppasseio2": null }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -48.74915923, -26.96970113 ], [ -48.749189238622847, -26.969584951532156 ] ], [ [ -48.749287523439754, -26.969450683112608 ], [ -48.74929838, -26.96943234 ], [ -48.749342568493162, -26.969350929218614 ] ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2160830425", "cod": 1498.0, "nome": "R.Belisário Corrêa", "ptotalvia": 5.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.749592931089268, -26.969843593517957 ], [ -48.74920818, -26.96971227 ], [ -48.74915923, -26.96970113 ], [ -48.749137951656337, -26.969715270337847 ] ] } }
-]
-}

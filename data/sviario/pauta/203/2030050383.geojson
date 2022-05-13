@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2030050383", "cod": 1083.0, "nome": "R.Gelásio Manoel Costa", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69453334, -26.87764209 ], [ -48.694535721235098, -26.877641974495212 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2030050383", "cod": 1061.0, "nome": "R.José Luiz Marcelino", "ptotalvia": 10.2, "ppasseio1": 1.6, "ppasseio2": 1.6 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.694510808142354, -26.877322584319135 ], [ -48.69453334, -26.87764209 ], [ -48.69453338934656, -26.87764296068125 ] ] } }
-]
-}

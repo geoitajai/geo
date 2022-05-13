@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2151750010", "cod": 1325.0, "nome": "R.Domingos Nunes dos Santos", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.751272025275, -26.881021370361339 ], [ -48.75130747, -26.8813776 ], [ -48.751308024273499, -26.881382965048111 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2151750010", "cod": 1340.0, "nome": "Av.José João Corrêa", "ptotalvia": 18.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.751675421892955, -26.881354234432632 ], [ -48.75130747, -26.8813776 ], [ -48.751292953693856, -26.881378704162071 ] ] } }
-]
-}

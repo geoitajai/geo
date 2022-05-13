@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110250103", "cod": 488.0, "nome": "Av.Duque de Caxias", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.673532367094502, -26.913114556339018 ], [ -48.6735263, -26.91307107 ], [ -48.673473542443837, -26.912680913360798 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110250103", "cod": 496.0, "nome": "R.Matias Klock", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.673555194675387, -26.913071591573548 ], [ -48.6735263, -26.91307107 ], [ -48.672989914280635, -26.913061816680766 ] ] } }
-]
-}

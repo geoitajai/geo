@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0054910930", "cod": 126.0, "nome": "R.João Vergilino Alves", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70263834, -26.90737926 ], [ -48.702568890470921, -26.907381648022675 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0054910930", "cod": 33.0, "nome": "R.Jaziel José Rosa", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702624381947814, -26.907128298096637 ], [ -48.70263834, -26.90737926 ], [ -48.702641302445478, -26.90743142977816 ] ] } }
-]
-}

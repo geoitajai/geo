@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0031490800", "cod": 1203.0, "nome": "R.Osvaldo Cruz", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70608926, -26.89302976 ], [ -48.706026184259272, -26.893032166514903 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0031490800", "cod": 1172.0, "nome": "R.Enedina D'Avila Ferreira", "ptotalvia": 15.0, "ppasseio1": 3.5, "ppasseio2": 3.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.706060104421496, -26.892501081594023 ], [ -48.70608926, -26.89302976 ], [ -48.706091302340973, -26.893078793309819 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0031490800", "cod": 1182.0, "nome": "R.Rosa Orsi Dalcóquio", "ptotalvia": 13.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.706555182468591, -26.89302755035003 ], [ -48.70649666, -26.89300756 ], [ -48.70608926, -26.89302976 ] ] } }
-]
-}

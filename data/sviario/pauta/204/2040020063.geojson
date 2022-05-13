@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040020063", "cod": 623.0, "nome": "R.Lages", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65314221, -26.91514968 ], [ -48.653558101615168, -26.915204264229942 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040020063", "cod": 280.0, "nome": "Av.Min.Victor Konder", "ptotalvia": 20.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.653150151722635, -26.915099324080142 ], [ -48.65314221, -26.91514968 ], [ -48.653026806192024, -26.915447746198726 ] ] } }
-]
-}

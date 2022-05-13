@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020530721", "cod": 200.0, "nome": "R.João Antônio de Azevedo", "ptotalvia": 4.5, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676381349147164, -26.8985338601941 ], [ -48.676097926342194, -26.898308255492132 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020530721", "cod": 188.0, "nome": "R.Stringari", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.675918170407009, -26.898528071329093 ], [ -48.676181329733652, -26.898739781570324 ] ] } }
-]
-}

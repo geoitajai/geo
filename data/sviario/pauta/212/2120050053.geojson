@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2120050053", "cod": 197.0, "nome": "R.Ernesto Kobarg", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677398327115739, -26.8989980321779 ], [ -48.677013385579713, -26.899021317849368 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2120050053", "cod": 198.0, "nome": "R.João Vechani", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677393048937475, -26.898644922163488 ], [ -48.67713706, -26.89865961 ], [ -48.67699355100698, -26.898667428767943 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2120050053", "cod": 199.0, "nome": "R.Hélio Douat de Menezes", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67704555275305, -26.898586039991475 ], [ -48.67713706, -26.89865961 ] ] } }
-]
-}

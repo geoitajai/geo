@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0052800010", "cod": 64.0, "nome": "R.Papanduva", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.683369924603582, -26.894576165435094 ], [ -48.683107609067591, -26.894817119980235 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0052800010", "cod": 61.0, "nome": "R.São Francisco do Sul", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.682990563790263, -26.894403187029493 ], [ -48.68292045, -26.89464104 ], [ -48.682915800228287, -26.894681245256422 ] ] } }
-]
-}

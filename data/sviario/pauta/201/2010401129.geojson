@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010401129", "cod": 301.0, "nome": "R.Fr.Pedro Agote", "ptotalvia": 7.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.660873126572291, -26.904109318494314 ], [ -48.66087446, -26.90410651 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010401129", "cod": 275.0, "nome": "R.Cônego Tomaz Fontes", "ptotalvia": 13.2, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.660485197144581, -26.903837123362894 ], [ -48.660629749570916, -26.903489069981298 ] ] } }
-]
-}

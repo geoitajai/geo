@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0054860140", "cod": 939.0, "nome": "R.José Domingos Mafra", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.703755231498114, -26.922233582997492 ], [ -48.70359317, -26.92208613 ], [ -48.70341768, -26.92224842 ], [ -48.703341361001634, -26.922174856596683 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0054860140", "cod": 1561.0, "nome": "R.Proj.Assent.Mariquinha Brasil", "ptotalvia": 8.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70341768, -26.92224842 ], [ -48.703338883681518, -26.922321818909619 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0054860140", "cod": 1561.0, "nome": "R.Proj.Assent.Mariquinha Brasil", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.703531318061948, -26.922029846997169 ], [ -48.70359317, -26.92208613 ] ] } }
-]
-}

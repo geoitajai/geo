@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050420005", "cod": 21.0, "nome": "R.Gaspar da Costa Moraes", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.690893665587538, -26.901652725925317 ], [ -48.690544402179704, -26.901660444094301 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0050420005", "cod": 51.0, "nome": "R.Otávio Cesário Pereira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.690599736338655, -26.90129350480824 ], [ -48.69062161, -26.90165827 ], [ -48.690623874127908, -26.901713870350864 ] ] } }
-]
-}

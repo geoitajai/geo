@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2151320205", "cod": 1315.0, "nome": "R.Maria Marques Rampelotti", "ptotalvia": 18.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.747750665799259, -26.870509423085657 ], [ -48.74766886, -26.87051553 ], [ -48.74735126244309, -26.870544947263411 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2151320205", "cod": 1318.0, "nome": "R.José Francisco Reis", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.74766886, -26.87051553 ], [ -48.747698351930822, -26.870847633211994 ] ] } }
-]
-}

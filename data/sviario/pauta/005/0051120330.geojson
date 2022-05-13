@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0051120330", "cod": 113.0, "nome": "R.Timbó", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69659767, -26.90617608 ], [ -48.696547224577252, -26.906179210881415 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0051120330", "cod": 95.0, "nome": "R.Érico Veríssimo", "ptotalvia": 14.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696580931287279, -26.905903606476038 ], [ -48.69659767, -26.90617608 ], [ -48.696600303460933, -26.906226740024458 ] ] } }
-]
-}

@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020430328", "cod": 175.0, "nome": "R.Eugênio José Reichert", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67367287975393, -26.89481952604195 ], [ -48.674061903055062, -26.895122807703778 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020430328", "cod": 157.0, "nome": "R.Blumenau", "ptotalvia": 14.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.673621873943148, -26.894808499440423 ], [ -48.673426200487661, -26.895073533425162 ] ] } }
-]
-}

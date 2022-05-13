@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020450273", "cod": 170.0, "nome": "R.Anísio Costa", "ptotalvia": 7.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674650760997032, -26.894477347507802 ], [ -48.67418791, -26.89411117 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020450273", "cod": 157.0, "nome": "R.Blumenau", "ptotalvia": 14.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674244797012307, -26.894042739518621 ], [ -48.67418791, -26.89411117 ], [ -48.674043965954759, -26.894291415205203 ] ] } }
-]
-}

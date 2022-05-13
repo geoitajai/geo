@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110350256", "cod": 546.0, "nome": "R.Manoel Joaquim Coelho", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67655163, -26.91657549 ], [ -48.676552195599193, -26.916584595124238 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110350256", "cod": 582.0, "nome": "R.Olga Mussi Dietrich", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676555862211586, -26.916575270268016 ], [ -48.67655163, -26.91657549 ], [ -48.67618067422606, -26.916591614001142 ] ] } }
-]
-}

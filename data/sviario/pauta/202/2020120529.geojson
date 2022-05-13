@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020120529", "cod": 307.0, "nome": "R.José Francisco Constantino", "ptotalvia": 4.5, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.668582049463581, -26.903466169321447 ], [ -48.66861715, -26.90377554 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020120529", "cod": 163.0, "nome": "R.Alberto Werner", "ptotalvia": 13.2, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.668813579405665, -26.903465299568897 ], [ -48.668853860337961, -26.903894721075712 ] ] } }
-]
-}

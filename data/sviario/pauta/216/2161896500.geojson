@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2161896500", "cod": 1508.0, "nome": "R.Reinoldo Pollheim", "ptotalvia": 20.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.79955441, -27.06504371 ], [ -48.799463581038161, -27.065002703301218 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2161896500", "cod": 1509.0, "nome": "R.Rodolpho Girardi", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.801740893570603, -27.064089483179956 ], [ -48.80130562, -27.06427493 ], [ -48.80009652, -27.06478348 ], [ -48.79955441, -27.06504371 ], [ -48.79911019, -27.06545188 ], [ -48.799002212347361, -27.065585606479342 ] ] } }
-]
-}

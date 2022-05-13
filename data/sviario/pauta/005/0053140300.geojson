@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0053140300", "cod": 32.0, "nome": "R.Dr.João Américo Watzko", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702957571832222, -26.904860388199776 ], [ -48.70295549, -26.90482225 ], [ -48.702941321853046, -26.904510446536072 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0053140300", "cod": 15.0, "nome": "R.Arq.Nilson Edson dos Santos", "ptotalvia": 21.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.703341742534349, -26.904811204327842 ], [ -48.70295549, -26.90482225 ], [ -48.702906304417489, -26.904824358193967 ] ] } }
-]
-}

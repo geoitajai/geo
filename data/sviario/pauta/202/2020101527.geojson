@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020101527", "cod": 286.0, "nome": "R.Tijucas", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66533842790124, -26.90365107015684 ], [ -48.66528049, -26.90371539 ], [ -48.665101137308845, -26.903920306630447 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020101527", "cod": 306.0, "nome": "R.Henrique Douat", "ptotalvia": 12.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.665273180609098, -26.903649658162319 ], [ -48.66528049, -26.90371539 ] ] } }
-]
-}

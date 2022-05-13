@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0030710200", "cod": 1223.0, "nome": "R.Vera Lucia de Moura Albino", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69776854146177, -26.896099320395294 ], [ -48.69776887, -26.89610555 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0030710200", "cod": 1150.0, "nome": "R.Amapá", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697771723750222, -26.896105457262024 ], [ -48.69776887, -26.89610555 ], [ -48.697411946799207, -26.896118139222789 ] ] } }
-]
-}

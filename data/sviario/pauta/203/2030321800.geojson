@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2030321800", "cod": 1287.0, "nome": "R.Teporti - Terminal Portuário de Itajaí", "ptotalvia": 20.0, "ppasseio1": 4.0, "ppasseio2": 4.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.710074, -26.87752435 ], [ -48.710031720228073, -26.877570298790314 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2030321800", "cod": 1071.0, "nome": "Av.Dr.Nereu Ramos (Murta)", "ptotalvia": 13.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.709383925898535, -26.87698534796818 ], [ -48.710074, -26.87752435 ], [ -48.712044961025327, -26.879080857664302 ] ] } }
-]
-}

@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140870227", "cod": 832.0, "nome": "R.Eliziário da Rosa", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.629438172875126, -26.944466539194003 ], [ -48.62895917, -26.94451903 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2140870227", "cod": 599.0, "nome": "Av.Dr.José Medeiros Vieira (Sul)", "ptotalvia": 0.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.628991988028936, -26.944791490170246 ], [ -48.62895917, -26.94451903 ], [ -48.628952873898392, -26.944459296232935 ] ] } }
-]
-}

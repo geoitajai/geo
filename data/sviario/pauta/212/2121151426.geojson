@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2121151426", "cod": 433.0, "nome": "R.Leopoldo Werner", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.678724127929954, -26.890272570312014 ], [ -48.67914084, -26.89059099 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2121151426", "cod": 428.0, "nome": "R.Eliziário Pereira", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67914084, -26.89059099 ], [ -48.678794138920907, -26.89100274319734 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2121151426", "cod": 431.0, "nome": "R.Serafim Manoel Inácio", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.678416501693007, -26.890714901673622 ], [ -48.67848896, -26.89075878 ] ] } }
-]
-}

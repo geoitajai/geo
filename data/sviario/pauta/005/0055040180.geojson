@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0055040180", "cod": 135.0, "nome": "R.José Pezzini", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.708245740127154, -26.906931440231013 ], [ -48.70824978, -26.90700404 ], [ -48.708266646386612, -26.907349933005275 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0055040180", "cod": 136.0, "nome": "R.Bernardino Leonel Félix", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.708339576242253, -26.907000455432456 ], [ -48.707911860294388, -26.907017633310709 ] ] } }
-]
-}

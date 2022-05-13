@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050780400", "cod": 104.0, "nome": "R.Padre Paulo Condla", "ptotalvia": 15.0, "ppasseio1": 3.5, "ppasseio2": 3.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.694363861923151, -26.90858035252511 ], [ -48.69393754, -26.90859511 ], [ -48.693874558962435, -26.908596980081363 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0050780400", "cod": 50.0, "nome": "R.Luiz Lopes Gonzaga", "ptotalvia": 13.2, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693936638270323, -26.908545142891249 ], [ -48.69393754, -26.90859511 ], [ -48.69393786, -26.9086467 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0050780400", "cod": 50.0, "nome": "R.Luiz Lopes Gonzaga", "ptotalvia": 13.2, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69393786, -26.9086467 ], [ -48.693939405495392, -26.90889443730385 ] ] } }
-]
-}

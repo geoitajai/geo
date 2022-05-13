@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020740441", "cod": 203.0, "nome": "R.Menina Rosana da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.681608955786928, -26.902460589685901 ], [ -48.681194441469579, -26.902478824431594 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020740441", "cod": 211.0, "nome": "R.Olindio Rodolfo de Souza", "ptotalvia": 6.4, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.681587682496605, -26.902787162206042 ], [ -48.68160667, -26.90271531 ], [ -48.681175828725166, -26.902697329389138 ] ] } }
-]
-}

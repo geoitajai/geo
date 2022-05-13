@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010140306", "cod": 290.0, "nome": "R.Hercílio Luz", "ptotalvia": 13.2, "ppasseio1": 3.5, "ppasseio2": 3.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656351999243455, -26.905244030225592 ], [ -48.65574703, -26.90506588 ], [ -48.655690530689419, -26.905049790193065 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010140306", "cod": 282.0, "nome": "R.Lauro Muller", "ptotalvia": 13.2, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.65574703, -26.90506588 ], [ -48.655656695671361, -26.90532882566907 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010140306", "cod": 289.0, "nome": "R.Dr. Pedro Ferreira", "ptotalvia": 14.0, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.655777197039491, -26.905015650521985 ], [ -48.65574703, -26.90506588 ] ] } }
-]
-}

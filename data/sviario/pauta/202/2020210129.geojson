@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020210129", "cod": 224.0, "nome": "Trav.Bela Cruz", "ptotalvia": 3.5, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.669170467675443, -26.90156166551699 ], [ -48.669478582720501, -26.901831995957462 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020210129", "cod": 223.0, "nome": "R.Benjamin Franklin Pereira", "ptotalvia": 15.2, "ppasseio1": 1.9, "ppasseio2": 1.9 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.669390092361787, -26.901382101862257 ], [ -48.669668774624391, -26.901617555788423 ] ] } }
-]
-}

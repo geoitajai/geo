@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050450325", "cod": 18.0, "nome": "R.Exp.Olímpio José Borges", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.691054535586552, -26.903281358365078 ], [ -48.69063442, -26.90329629 ], [ -48.690560897874413, -26.903298472723986 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0050450325", "cod": 51.0, "nome": "R.Otávio Cesário Pereira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.690633677584778, -26.903227863722503 ], [ -48.69063442, -26.90329629 ], [ -48.69063960231108, -26.903573454193925 ] ] } }
-]
-}

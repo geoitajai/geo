@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140580003", "cod": 727.0, "nome": "R.Artur Torquato Batista", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.646734663744589, -26.930576149158309 ], [ -48.64669111, -26.93062101 ], [ -48.646511083807034, -26.930854243589526 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2140580003", "cod": 724.0, "nome": "R.José Agripino Corbeta", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.64669111, -26.93062101 ], [ -48.646638397068422, -26.930585087776535 ] ] } }
-]
-}

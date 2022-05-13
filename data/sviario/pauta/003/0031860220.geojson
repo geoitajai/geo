@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0031860220", "cod": 1151.0, "nome": "R.Maranhão", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.699644126272723, -26.894950785170408 ], [ -48.69953457, -26.894956 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0031860220", "cod": 1162.0, "nome": "R.Nossa Senhora de Fátima", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.699120764339341, -26.894668116857513 ], [ -48.69913259, -26.89497513 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0031860220", "cod": 1151.0, "nome": "R.Maranhão", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69953457, -26.894956 ], [ -48.69913259, -26.89497513 ], [ -48.699060724581827, -26.894977391725554 ] ] } }
-]
-}

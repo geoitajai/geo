@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2160050710", "cod": 1424.0, "nome": "R.Pedro Godoi Filho", "ptotalvia": 5.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.73823466, -26.94669696 ], [ -48.7382584, -26.94709558 ], [ -48.73826664451213, -26.947169881156711 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2160050710", "cod": 1425.0, "nome": "R.Guilherme May", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.738088623152805, -26.94669008761079 ], [ -48.738118340525141, -26.947170661532692 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2160050710", "cod": 1235.0, "nome": "Rod.Dep.Antônio Heil", "ptotalvia": 30.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.738279201963529, -26.946701615845015 ], [ -48.73823466, -26.94669696 ], [ -48.738115707676734, -26.946682431484017 ] ] } }
-]
-}

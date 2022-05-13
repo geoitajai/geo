@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2120850318", "cod": 421.0, "nome": "Trav.Vitor Ribeiro da Luz", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.682610463292981, -26.891802780607033 ], [ -48.6822965, -26.891961 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2120850318", "cod": 418.0, "nome": "R.Bolívia", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.682291941519679, -26.891859021943048 ], [ -48.6822965, -26.891961 ], [ -48.682302027442198, -26.892333268508438 ] ] } }
-]
-}

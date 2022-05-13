@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110611000", "cod": 553.0, "nome": "R.Modesto Fernandes Vieira", "ptotalvia": 13.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.672178958267956, -26.918111500438155 ], [ -48.67201227, -26.91820354 ], [ -48.671823632168966, -26.918310427794779 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110611000", "cod": 560.0, "nome": "R.Ulysses Machado Dutra", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.672000070464698, -26.918087953657203 ], [ -48.67201227, -26.91820354 ] ] } }
-]
-}

@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0054970270", "cod": 998.0, "nome": "R.Hercílio Trainotti", "ptotalvia": 6.5, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69245641, -26.9310897 ], [ -48.692115197520778, -26.930931077090662 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0054970270", "cod": 926.0, "nome": "Av.Min.Luiz Gallotti", "ptotalvia": 17.2, "ppasseio1": 3.25, "ppasseio2": 3.25 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.692507696046725, -26.931045881439196 ], [ -48.69245641, -26.9310897 ], [ -48.692294369929428, -26.931263603572095 ] ] } }
-]
-}

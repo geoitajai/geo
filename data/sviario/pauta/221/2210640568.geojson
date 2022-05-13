@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2210640568", "cod": 520.0, "nome": "R.Pedro Joaquim Vieira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.679877220849349, -26.912210755796792 ], [ -48.679476004393699, -26.912231137671871 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2210640568", "cod": 518.0, "nome": "R.Egon Schauffert", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67956336, -26.91248649 ], [ -48.679564663123543, -26.912603676301767 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2210640568", "cod": 518.0, "nome": "R.Egon Schauffert", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.679558034569212, -26.912171226586878 ], [ -48.67956049, -26.91222733 ], [ -48.67956336, -26.91248649 ] ] } }
-]
-}

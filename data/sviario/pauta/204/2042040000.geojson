@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2042040000", "cod": 854.0, "nome": "R.Ver.Abílio Otávio do Canto", "ptotalvia": 20.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674471186888134, -26.924443427039495 ], [ -48.67436774, -26.9249747 ], [ -48.674361847982041, -26.925008557388281 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2042040000", "cod": 860.0, "nome": "R.Das Cerejeiras", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.674386631511005, -26.924977466737069 ], [ -48.67436774, -26.9249747 ] ] } }
-]
-}

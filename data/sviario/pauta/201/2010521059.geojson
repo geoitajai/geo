@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010521059", "cod": 358.0, "nome": "Trav. Moritz", "ptotalvia": 3.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6624328, -26.9101581 ], [ -48.662514089463883, -26.910221080313402 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010521059", "cod": 359.0, "nome": "R.Domingos Manoel Rodrigues", "ptotalvia": 6.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.662618599292784, -26.910000611714327 ], [ -48.66260994, -26.91000721 ], [ -48.6624328, -26.9101581 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010521059", "cod": 361.0, "nome": "R.Profª.Zélia de Souza e Silva", "ptotalvia": 4.2, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.662273541917386, -26.909737027107923 ], [ -48.66260994, -26.91000721 ] ] } }
-]
-}

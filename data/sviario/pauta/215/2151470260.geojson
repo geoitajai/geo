@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2151470260", "cod": 1312.0, "nome": "R.Alberto Dagnoni", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.746177398808875, -26.875499866383304 ], [ -48.7461779, -26.8755063 ], [ -48.746196174407771, -26.875921409580947 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2151470260", "cod": 1328.0, "nome": "Av.José Sasdelli", "ptotalvia": 18.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.746195919406247, -26.875505401649129 ], [ -48.745928199895253, -26.875521464548708 ] ] } }
-]
-}

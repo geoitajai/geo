@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0031660060", "cod": 1112.0, "nome": "R.Santo Agostinho", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.694527374726967, -26.893818937207481 ], [ -48.694506858364974, -26.893457138559306 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0031660060", "cod": 1159.0, "nome": "Trav.Zircônia", "ptotalvia": 7.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695005007596016, -26.893657878565818 ], [ -48.69486798, -26.89366207 ] ] } }
-]
-}

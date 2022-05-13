@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2161635200", "cod": 1533.0, "nome": "R.Alfredo Ledra", "ptotalvia": 25.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.848224555436332, -26.982518537537207 ], [ -48.84800122, -26.98268204 ], [ -48.84788927, -26.982759109999989 ], [ -48.84758453, -26.98310539 ], [ -48.847582773085314, -26.983112700105398 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2161635200", "cod": 1727.0, "nome": "R.José Quintino Borba", "ptotalvia": 20.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.84758453, -26.98310539 ], [ -48.84711092, -26.98307981 ], [ -48.847107725360502, -26.983079692883344 ] ] } }
-]
-}

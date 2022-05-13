@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010721223", "cod": 396.0, "nome": "R.Luiz Berlim", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.665361690444328, -26.913051272841951 ], [ -48.665130467237219, -26.913294321827486 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010721223", "cod": 327.0, "nome": "R.Umbelino Damasio de Brito", "ptotalvia": 11.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.666014288543572, -26.913804323498912 ], [ -48.665735561470683, -26.914039640242294 ] ] } }
-]
-}

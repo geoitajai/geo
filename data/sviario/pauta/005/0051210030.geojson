@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0051210030", "cod": 164.0, "nome": "Av.Gov.Adolfo Konder", "ptotalvia": 30.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.685748480671691, -26.910905021448773 ], [ -48.686638007270027, -26.911184233204832 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0051210030", "cod": 893.0, "nome": "R.Otto Hoier", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.685568532947343, -26.911668019654336 ], [ -48.685595788144738, -26.910944205024467 ] ] } }
-]
-}

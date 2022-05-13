@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2141310014", "cod": 591.0, "nome": "R.Flamboyant", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.630284180653028, -26.957256819645089 ], [ -48.63016961, -26.95761173 ], [ -48.630149251371314, -26.957671009802461 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2141310014", "cod": 594.0, "nome": "R.Pelicano", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.63016961, -26.95761173 ], [ -48.629855701071108, -26.957531379001409 ] ] } }
-]
-}

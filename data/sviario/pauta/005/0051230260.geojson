@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0051230260", "cod": 1023.0, "nome": "R.Max Hoier", "ptotalvia": 5.1, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6854895, -26.91606264 ], [ -48.685419749367128, -26.916066584450892 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0051230260", "cod": 893.0, "nome": "R.Otto Hoier", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.685579158721154, -26.916252858075861 ], [ -48.6854895, -26.91606264 ], [ -48.68547096, -26.9159414 ], [ -48.685464278987823, -26.915891514758989 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0051230260", "cod": 904.0, "nome": "R.Sidney Schulze", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.686025519146398, -26.915915892867982 ], [ -48.68547096, -26.9159414 ] ] } }
-]
-}

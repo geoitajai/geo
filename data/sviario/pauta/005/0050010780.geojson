@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050010780", "cod": 63.0, "nome": "R.Caçador", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68630515920448, -26.895829491897462 ], [ -48.686025390855271, -26.895593835128118 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0050010780", "cod": 75.0, "nome": "R.Ademar Garcia da Silva", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68622328, -26.89583339 ], [ -48.686223373961475, -26.895839918340886 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0050010780", "cod": 58.0, "nome": "R.Osvaldo Becker", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.686294625052469, -26.895832006300814 ], [ -48.68622328, -26.89583339 ], [ -48.686206840846381, -26.895833581379375 ] ] } }
-]
-}

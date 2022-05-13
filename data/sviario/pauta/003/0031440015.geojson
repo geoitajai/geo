@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0031440015", "cod": 1173.0, "nome": "R.Agostinho Alves Ramos", "ptotalvia": 20.4, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.705098339474802, -26.903038924507239 ], [ -48.70477941, -26.90285743 ], [ -48.704697233080871, -26.902808594314507 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0031440015", "cod": 1169.0, "nome": "R.Selso Duarte Moreira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.704769749096073, -26.902683862755513 ], [ -48.70477941, -26.90285743 ] ] } }
-]
-}

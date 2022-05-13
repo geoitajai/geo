@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0030440110", "cod": 1113.0, "nome": "R.Odilio Garcia", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693932880804958, -26.895101992098137 ], [ -48.693954971375426, -26.895446963442467 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0030440110", "cod": 1149.0, "nome": "R.Paulo Rodrigues Pereira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69427107253496, -26.895089979312285 ], [ -48.694291033320084, -26.895430927487368 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0030440110", "cod": 1151.0, "nome": "R.Maranhão", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.694350669172884, -26.89516794322283 ], [ -48.69427512, -26.89516963 ] ] } }
-]
-}

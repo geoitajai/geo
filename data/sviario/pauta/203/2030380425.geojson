@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2030380425", "cod": 1041.0, "nome": "R.Domingos Braz Sedrez", "ptotalvia": 11.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.697526519955801, -26.874321348761068 ], [ -48.69753284, -26.87441699 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2030380425", "cod": 1061.0, "nome": "R.José Luiz Marcelino", "ptotalvia": 10.2, "ppasseio1": 1.6, "ppasseio2": 1.6 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69794096826184, -26.874201576874423 ], [ -48.697317940731082, -26.874532002413257 ] ] } }
-]
-}

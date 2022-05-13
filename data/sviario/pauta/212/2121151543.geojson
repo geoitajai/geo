@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2121151543", "cod": 430.0, "nome": "R.Tiburcio de Freitas", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67796695, -26.89036816 ], [ -48.677959314368231, -26.890377386616532 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2121151543", "cod": 431.0, "nome": "R.Serafim Manoel Inácio", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67792388053082, -26.89033647221812 ], [ -48.67796695, -26.89036816 ], [ -48.67813240957544, -26.890498537535819 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2121151543", "cod": 157.0, "nome": "R.Blumenau", "ptotalvia": 14.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677832150890623, -26.889723243144374 ], [ -48.677583263082724, -26.890018662350887 ] ] } }
-]
-}

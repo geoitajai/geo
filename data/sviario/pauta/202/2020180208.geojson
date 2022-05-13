@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020180208", "cod": 235.0, "nome": "R.Felipe Reiser", "ptotalvia": 12.5, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.670856133692432, -26.902832416248664 ], [ -48.67082789, -26.90284181 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020180208", "cod": 223.0, "nome": "R.Benjamin Franklin Pereira", "ptotalvia": 15.2, "ppasseio1": 1.9, "ppasseio2": 1.9 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.670821421369219, -26.902827135681655 ], [ -48.67082789, -26.90284181 ], [ -48.67092704, -26.90305401 ], [ -48.670953211016176, -26.903105558232056 ] ] } }
-]
-}

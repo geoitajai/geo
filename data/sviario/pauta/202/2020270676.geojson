@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020270676", "cod": 220.0, "nome": "R.Max", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67054197, -26.89921365 ], [ -48.670993789177288, -26.899560994454387 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020270676", "cod": 157.0, "nome": "R.Blumenau", "ptotalvia": 14.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.670581307797939, -26.899162197822523 ], [ -48.67054197, -26.89921365 ], [ -48.670337075742921, -26.899479435642217 ] ] } }
-]
-}

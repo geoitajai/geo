@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2140651100", "cod": 739.0, "nome": "R.Oswaldo Pereira", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.640307355142106, -26.933130462881291 ], [ -48.64019384, -26.93312622 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2140651100", "cod": 740.0, "nome": "R.Lair Paulo", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.63998871720603, -26.933587819089503 ], [ -48.63986455, -26.93358962 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2140651100", "cod": 735.0, "nome": "R.Tereza Francisca Pereira", "ptotalvia": 13.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.639388253668137, -26.93301402198076 ], [ -48.63946477, -26.9331046 ], [ -48.63951423000001, -26.93337798 ], [ -48.639338821939695, -26.933598070440564 ] ] } }
-]
-}

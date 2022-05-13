@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010740740", "cod": 327.0, "nome": "R.Umbelino Damasio de Brito", "ptotalvia": 11.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.665274155930931, -26.914514520057292 ], [ -48.664975687281171, -26.914804823301449 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010740740", "cod": 380.0, "nome": "R.Juvenal Garcia", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.665280095649315, -26.914581012563104 ], [ -48.66524201, -26.91455106 ], [ -48.665042734788095, -26.914394820656664 ] ] } }
-]
-}

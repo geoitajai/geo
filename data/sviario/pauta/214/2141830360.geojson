@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2141830360", "cod": 828.0, "nome": "R.Belarmino Manoel Leite", "ptotalvia": 5.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.635626559136966, -26.944841357656511 ], [ -48.635669136655586, -26.945117712580885 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2141830360", "cod": 827.0, "nome": "R.Valério Zermiani", "ptotalvia": 5.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.636046593800422, -26.944797262684798 ], [ -48.63605919, -26.94488021 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2141830360", "cod": 826.0, "nome": "R.Jovita Rodrigues Machado", "ptotalvia": 5.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.636234817869813, -26.945085938156229 ], [ -48.63621416, -26.94508889 ] ] } }
-]
-}

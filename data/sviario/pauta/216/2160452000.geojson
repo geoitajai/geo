@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2160452000", "cod": 1730.0, "nome": "Av.Marginal Norte", "ptotalvia": 30.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.717667785531525, -26.944824811777874 ], [ -48.7173471, -26.94462675 ], [ -48.717135057977067, -26.944496989909993 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2160452000", "cod": 1419.0, "nome": "R.Cândido Winter", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.71750868, -26.94426398 ], [ -48.717498415992367, -26.944801894958971 ] ] } }
-]
-}

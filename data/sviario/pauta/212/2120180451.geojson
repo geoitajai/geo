@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2120180451", "cod": 167.0, "nome": "R.Emílio Francisco Rosa", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68028314, -26.89466317 ], [ -48.680286796237674, -26.894730615590642 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2120180451", "cod": 1626.0, "nome": "Serv.Jassão dos Santos (Serv.)", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68029391954056, -26.894144089184564 ], [ -48.68042194, -26.89414239 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2120180451", "cod": 166.0, "nome": "R.Hebert Kremer", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.680202616608781, -26.894664470134583 ], [ -48.68028314, -26.89466317 ], [ -48.680561950833521, -26.894653420765202 ] ] } }
-]
-}

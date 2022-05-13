@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050010655", "cod": 70.0, "nome": "R.Dionísio Cerqueira", "ptotalvia": 5.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68818793, -26.89620791 ], [ -48.688187244174728, -26.896296169042238 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0050010655", "cod": 63.0, "nome": "R.Caçador", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.688411992182054, -26.896143230109523 ], [ -48.68818793, -26.89620791 ], [ -48.688013698329293, -26.896202555187028 ] ] } }
-]
-}

@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2120010161", "cod": 187.0, "nome": "R.Rodolfo Treder", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677979456055063, -26.900112619300828 ], [ -48.67753465, -26.90013245 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2120010161", "cod": 188.0, "nome": "R.Stringari", "ptotalvia": 10.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677526417991068, -26.900051697789607 ], [ -48.67753465, -26.90013245 ], [ -48.677554648628409, -26.900362510027254 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2120010161", "cod": 189.0, "nome": "R.Manoel Mello", "ptotalvia": 5.2, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677483255761835, -26.900085592821181 ], [ -48.67753465, -26.90013245 ] ] } }
-]
-}

@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2040700375", "cod": 687.0, "nome": "R.Santina Ernesta dos Santos", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656841017007459, -26.926460643063653 ], [ -48.657120217922355, -26.926688441007752 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2040700375", "cod": 688.0, "nome": "R.Osvaldo Corrêa de Mendonça", "ptotalvia": 8.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656604283708482, -26.926711100026399 ], [ -48.656893292391807, -26.926951729192911 ] ] } }
-]
-}

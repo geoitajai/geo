@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2160450080", "cod": 1730.0, "nome": "Av.Marginal Norte", "ptotalvia": 30.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.71658434011205, -26.944159972796598 ], [ -48.715979950947819, -26.943790106383272 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2160450080", "cod": 1418.0, "nome": "R.Cypriana Wanzuita", "ptotalvia": 8.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.71611705, -26.94362173 ], [ -48.71649882, -26.94359538 ], [ -48.716490431660432, -26.943498949067244 ] ] } }
-]
-}

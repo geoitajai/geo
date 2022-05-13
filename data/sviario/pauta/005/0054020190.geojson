@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0054020190", "cod": 130.0, "nome": "Av.Nilo Bittencourt", "ptotalvia": 20.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.705382662149539, -26.914187638252027 ], [ -48.70538375, -26.91423429 ], [ -48.70539216, -26.91446781 ], [ -48.705394160192384, -26.914520442466486 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0054020190", "cod": 1292.0, "nome": "R.Analina Régis", "ptotalvia": 7.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70539216, -26.91446781 ], [ -48.705363450551808, -26.914469073339873 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0054020190", "cod": 150.0, "nome": "R.Waldemar Kumm", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.705840381926777, -26.914220302507449 ], [ -48.70538375, -26.91423429 ] ] } }
-]
-}

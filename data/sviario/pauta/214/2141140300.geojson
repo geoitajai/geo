@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2141140300", "cod": 796.0, "nome": "R.Cláudio de Souza Ferreira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.629773387353588, -26.948238742288147 ], [ -48.62932175, -26.94829482 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2141140300", "cod": 599.0, "nome": "Av.Dr.José Medeiros Vieira (Sul)", "ptotalvia": 0.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.629344128473903, -26.948568098431725 ], [ -48.62932175, -26.94829482 ], [ -48.629317750842183, -26.948242293364249 ] ] } }
-]
-}

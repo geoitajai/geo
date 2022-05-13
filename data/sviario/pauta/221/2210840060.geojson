@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2210840060", "cod": 540.0, "nome": "R.Reinaldo Pereira da Silva", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.681155755370312, -26.923810867427612 ], [ -48.68115954, -26.92385232 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2210840060", "cod": 537.0, "nome": "R.Pres.João Goulart", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.681183329724114, -26.923850333075617 ], [ -48.68115954, -26.92385232 ], [ -48.680812643120511, -26.923883726186471 ] ] } }
-]
-}

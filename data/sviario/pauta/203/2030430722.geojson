@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2030430722", "cod": 1024.0, "nome": "R.Theodoro Lino Régis", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700144228240184, -26.867079087184866 ], [ -48.70029334, -26.86701964 ], [ -48.70050323, -26.86701087 ], [ -48.70089021, -26.86706938 ], [ -48.70089037141436, -26.867069419025256 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2030430722", "cod": 1026.0, "nome": "R.Acylino José Felicio", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70050323, -26.86701087 ], [ -48.700505443166939, -26.867083832503408 ] ] } }
-]
-}

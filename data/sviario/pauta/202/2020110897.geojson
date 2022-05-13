@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020110897", "cod": 285.0, "nome": "R.Cap.Adolfo Germano de Andrade", "ptotalvia": 13.8, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66705332903463, -26.902627124840908 ], [ -48.667087264667721, -26.902942980521722 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020110897", "cod": 311.0, "nome": "Trav.Olegário Souza Júnior", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6677499312772, -26.902579994457778 ], [ -48.667055873806838, -26.902625934350308 ] ] } }
-]
-}

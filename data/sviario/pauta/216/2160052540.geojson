@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2160052540", "cod": 1425.0, "nome": "R.Guilherme May", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.738252587762545, -26.948373455238158 ], [ -48.73827318, -26.94853372 ], [ -48.738300415082051, -26.948820830639178 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2160052540", "cod": 1422.0, "nome": "R.Henrique Antônio Custódio", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.73876956133968, -26.948406716711169 ], [ -48.73870175, -26.94848541 ], [ -48.73869437, -26.94854689 ], [ -48.738709368625244, -26.94879378163505 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2160052540", "cod": 1426.0, "nome": "R.José Hermindo Rosa", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.73827318, -26.94853372 ], [ -48.738162727767126, -26.948531188435261 ] ] } }
-]
-}

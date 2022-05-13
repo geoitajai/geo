@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2041250110", "cod": 886.0, "nome": "R.José Henrique Flores", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.686506167772762, -26.934334151052823 ], [ -48.68623335, -26.93465634 ], [ -48.686199960018236, -26.9346941329941 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2041250110", "cod": 888.0, "nome": "R.Pe.João Rodrigues de Almeida", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68623335, -26.93465634 ], [ -48.6864872306111, -26.934835274600175 ] ] } }
-]
-}

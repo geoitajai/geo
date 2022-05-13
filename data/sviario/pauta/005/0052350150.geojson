@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0052350150", "cod": 914.0, "nome": "R.Das Azaléias", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.690490623018931, -26.920136540064195 ], [ -48.69018662, -26.92018472 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0052350150", "cod": 893.0, "nome": "R.Otto Hoier", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.690219687434272, -26.920521630495742 ], [ -48.69018662, -26.92018472 ], [ -48.690183866250869, -26.920122483608917 ] ] } }
-]
-}

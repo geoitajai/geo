@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0051050190", "cod": 44.0, "nome": "R.Manoel José dos Santos", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695831035764698, -26.900446320082377 ], [ -48.69583568, -26.90050737 ], [ -48.695854531815918, -26.900783204751356 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0051050190", "cod": 23.0, "nome": "R.Cargelino Francelino", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696271790339679, -26.900478888665432 ], [ -48.69583568, -26.90050737 ], [ -48.69577695000001, -26.90051073 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0051050190", "cod": 23.0, "nome": "R.Cargelino Francelino", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69577695000001, -26.90051073 ], [ -48.695769869695106, -26.900511135674268 ] ] } }
-]
-}

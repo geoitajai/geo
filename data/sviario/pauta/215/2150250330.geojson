@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2150250330", "cod": 1385.0, "nome": "R.Joaquim de Souza Medeiros", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.743677133629546, -26.895967948088977 ], [ -48.744134147440356, -26.895924617331069 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2150250330", "cod": 1389.0, "nome": "R.José Francisco Maestri", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.744194628302196, -26.895943929297147 ], [ -48.744219803344969, -26.89627903816999 ] ] } }
-]
-}

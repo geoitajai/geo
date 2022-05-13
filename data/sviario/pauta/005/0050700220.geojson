@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050700220", "cod": 109.0, "nome": "R.Paulo Kleis Júnior", "ptotalvia": 13.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.694028496771338, -26.910417070414503 ], [ -48.6939693, -26.91041842 ], [ -48.693652681066233, -26.910426753599783 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0050700220", "cod": 50.0, "nome": "R.Luiz Lopes Gonzaga", "ptotalvia": 13.2, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69395547746457, -26.909952815659132 ], [ -48.6939693, -26.91041842 ], [ -48.6939705956786, -26.91047607610134 ] ] } }
-]
-}

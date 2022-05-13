@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050580590", "cod": 24.0, "nome": "R.Carlos Schroeder", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.694158097162905, -26.900004819624332 ], [ -48.69384897, -26.90000964 ], [ -48.693786884508455, -26.900010918939717 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0050580590", "cod": 50.0, "nome": "R.Luiz Lopes Gonzaga", "ptotalvia": 13.2, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693846823586007, -26.899951254581485 ], [ -48.69384897, -26.90000964 ], [ -48.693853930129734, -26.900355250725049 ] ] } }
-]
-}

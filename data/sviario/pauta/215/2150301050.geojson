@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2150301050", "cod": 1176.0, "nome": "Av.Marginal Oeste", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.727932006821341, -26.875103050457831 ], [ -48.72791782, -26.87513601 ], [ -48.727762477063997, -26.875498883638731 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2150301050", "cod": 1348.0, "nome": "R.José Montagna", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.728581325289326, -26.875433219520062 ], [ -48.72791782, -26.87513601 ] ] } }
-]
-}

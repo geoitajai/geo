@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2030710010", "cod": 1175.0, "nome": "Av.Marginal Leste", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.729455261068637, -26.870132814069521 ], [ -48.72963652, -26.86956711 ], [ -48.729638032792579, -26.86956115650527 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2030710010", "cod": 1277.0, "nome": "R.Fernando Germano Potter", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.72963652, -26.86956711 ], [ -48.728891019848682, -26.869582616136636 ] ] } }
-]
-}

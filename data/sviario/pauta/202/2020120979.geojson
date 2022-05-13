@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020120979", "cod": 307.0, "nome": "R.José Francisco Constantino", "ptotalvia": 4.5, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66847191, -26.90249541 ], [ -48.668504425429063, -26.902781999200176 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020120979", "cod": 311.0, "nome": "Trav.Olegário Souza Júnior", "ptotalvia": 8.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66847191, -26.90249541 ], [ -48.668174656921209, -26.902541078665564 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020120979", "cod": 161.0, "nome": "Av.Irineu Bornhausen", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.66858292999067, -26.902545412557469 ], [ -48.66847191, -26.90249541 ], [ -48.668397270883759, -26.90242240804244 ] ] } }
-]
-}

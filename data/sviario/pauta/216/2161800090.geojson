@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2161800090", "cod": 1238.0, "nome": "R.Sorocaba", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.855947586584868, -27.037437655529118 ], [ -48.85603127, -27.0375158 ], [ -48.85616749, -27.03762169 ], [ -48.8562197858584, -27.037703398314946 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2161800090", "cod": 1245.0, "nome": "R.Maria Leite", "ptotalvia": 6.0, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.8562376, -27.03642295 ], [ -48.85627276, -27.03722952 ], [ -48.85620536, -27.03733915 ], [ -48.85603127, -27.0375158 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2161800090", "cod": 1589.0, "nome": "R.João Leite", "ptotalvia": 20.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.85647109, -27.03671096 ], [ -48.85647165, -27.03703088 ], [ -48.8564917, -27.0372968 ], [ -48.8564858, -27.03739434 ], [ -48.85616749, -27.03762169 ] ] } }
-]
-}

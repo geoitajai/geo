@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0050960190", "cod": 1638.0, "nome": "R.Raul Bayer Laus", "ptotalvia": 0.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695914136415084, -26.911101968813352 ], [ -48.696349871956016, -26.911081529528222 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0050960190", "cod": 96.0, "nome": "R.Bom Retiro", "ptotalvia": 13.2, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696281693768391, -26.910759273135199 ], [ -48.6962923, -26.91099274 ] ] } }
-]
-}

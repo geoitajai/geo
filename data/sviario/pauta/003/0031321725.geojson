@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0031321725", "cod": 1167.0, "nome": "R.José Rosa", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.702974223931356, -26.89675211686167 ], [ -48.70297787, -26.89681512 ], [ -48.702994154682528, -26.897102284201004 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0031321725", "cod": 1229.0, "nome": "R.Jaime Fernandes Vieira", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.703494781048356, -26.896795633010488 ], [ -48.70297787, -26.89681512 ], [ -48.702906199880616, -26.896818225024901 ] ] } }
-]
-}

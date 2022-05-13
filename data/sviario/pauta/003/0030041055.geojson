@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0030041055", "cod": 1124.0, "nome": "R.Rodolfo Bosco", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6874099718464, -26.891985908429362 ], [ -48.68716415, -26.89173891 ], [ -48.687136680546452, -26.891715877130036 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0030041055", "cod": 1125.0, "nome": "R.Adão Vandal", "ptotalvia": 17.6, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.687157699811827, -26.891651210511114 ], [ -48.68716415, -26.89173891 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0030041055", "cod": 1126.0, "nome": "R.Rachel Liberato Meyer", "ptotalvia": 7.5, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.687400888920841, -26.89156464935882 ], [ -48.68742223095704, -26.891979796544913 ] ] } }
-]
-}

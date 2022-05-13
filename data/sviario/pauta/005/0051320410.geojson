@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0051320410", "cod": 907.0, "nome": "R.Dos Jasmins", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6893686225906, -26.917262523702412 ], [ -48.68933991, -26.91726401 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0051320410", "cod": 893.0, "nome": "R.Otto Hoier", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.689361455048868, -26.917280820077785 ], [ -48.68933991, -26.91726401 ], [ -48.68892298, -26.91728467 ], [ -48.688867525836386, -26.917287426666739 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0051320410", "cod": 60.0, "nome": "R.Estefano José Vanolli", "ptotalvia": 15.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.688910781570485, -26.916981190113106 ], [ -48.68892298, -26.91728467 ], [ -48.688917087269708, -26.917333150448645 ] ] } }
-]
-}

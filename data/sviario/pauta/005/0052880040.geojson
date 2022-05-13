@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0052880040", "cod": 1298.0, "nome": "R.Leonidia Silva Wippel", "ptotalvia": 4.0, "ppasseio1": 0.0, "ppasseio2": 0.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700771968352981, -26.913227416115376 ], [ -48.7007483, -26.91322836 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0052880040", "cod": 37.0, "nome": "Av.Campos Novos", "ptotalvia": 21.0, "ppasseio1": 5.0, "ppasseio2": 5.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.700745099496828, -26.913182530815003 ], [ -48.70076397, -26.91344166 ], [ -48.700763592045945, -26.913462042829554 ] ] } }
-]
-}

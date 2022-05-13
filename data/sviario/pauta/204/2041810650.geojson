@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2041810650", "cod": 697.0, "nome": "R.Manoel Bernardo da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.653075888340851, -26.928811421747699 ], [ -48.65295998, -26.92892824 ], [ -48.65265801, -26.92923925 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2041810650", "cod": 702.0, "nome": "R.Júlio Joaquim Fernandes", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.652891030466655, -26.928870499975336 ], [ -48.65295998, -26.92892824 ] ] } }
-]
-}

@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0052660110", "cod": 76.0, "nome": "R.Luiz Roberto Casas", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.684887200442851, -26.896714630409431 ], [ -48.68488825, -26.89677605 ], [ -48.684892563075756, -26.897117999817436 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0052660110", "cod": 78.0, "nome": "R.Curitibanos", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.685215641424755, -26.896770906396945 ], [ -48.68488825, -26.89677605 ] ] } }
-]
-}

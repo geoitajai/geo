@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020310065", "cod": 218.0, "nome": "R.Austergilio Angelino", "ptotalvia": 13.2, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.672965959867774, -26.899268982507344 ], [ -48.67326265, -26.899501 ], [ -48.673281581889839, -26.8995158954102 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020310065", "cod": 161.0, "nome": "Av.Irineu Bornhausen", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67302538, -26.8997486 ], [ -48.672966588640087, -26.899809943022603 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020310065", "cod": 161.0, "nome": "Av.Irineu Bornhausen", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.673285947636714, -26.899476033769215 ], [ -48.67326265, -26.899501 ], [ -48.67302538, -26.8997486 ] ] } }
-]
-}

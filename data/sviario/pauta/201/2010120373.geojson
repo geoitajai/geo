@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2010120373", "cod": 298.0, "nome": "R.Manoel Vieira Garção", "ptotalvia": 13.0, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.657120144499103, -26.904676867263138 ], [ -48.656965715394527, -26.904953256803129 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2010120373", "cod": 289.0, "nome": "R.Dr. Pedro Ferreira", "ptotalvia": 14.0, "ppasseio1": 1.8, "ppasseio2": 1.8 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.656555854709048, -26.904166490186753 ], [ -48.65633329, -26.904322140000012 ], [ -48.65616169507139, -26.904507295556215 ] ] } }
-]
-}

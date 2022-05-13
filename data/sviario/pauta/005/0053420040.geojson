@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0053420040", "cod": 948.0, "nome": "R.Oscar Martins da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.693316211323094, -26.92255953799976 ], [ -48.69296104, -26.92269288 ], [ -48.6928927656055, -26.922717512899141 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0053420040", "cod": 962.0, "nome": "R.Arthur José Rebelo", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.6928504452463, -26.922436495307409 ], [ -48.69296104, -26.92269288 ], [ -48.69298845740375, -26.922752707705751 ] ] } }
-]
-}

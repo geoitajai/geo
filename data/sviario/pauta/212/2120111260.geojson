@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2120111260", "cod": 161.0, "nome": "Av.Irineu Bornhausen", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676377247023751, -26.89523548777392 ], [ -48.67633751, -26.89527569 ], [ -48.676101553054558, -26.895516181092027 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2120111260", "cod": 167.0, "nome": "R.Emílio Francisco Rosa", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.676538750172227, -26.895271842884636 ], [ -48.67633751, -26.89527569 ], [ -48.676318449002181, -26.89526055563924 ] ] } }
-]
-}

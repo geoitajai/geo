@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2210420300", "cod": 585.0, "nome": "R.Ernesto Polydorio Ferreira", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.685040417574697, -26.918809288036719 ], [ -48.68454832, -26.9188472 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2210420300", "cod": 159.0, "nome": "R.José Pereira Liberato", "ptotalvia": 12.5, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.68452494388341, -26.91879988949324 ], [ -48.684676827435943, -26.919105881498368 ] ] } }
-]
-}

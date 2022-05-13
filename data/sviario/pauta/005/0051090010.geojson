@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "0051090010", "cod": 43.0, "nome": "R.Antônio Carlos Pereira Leão Filho", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696368629320851, -26.899137185370389 ], [ -48.69637253, -26.89919407 ], [ -48.696394751704162, -26.899473298377444 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0051090010", "cod": 25.0, "nome": "R.Rodolfo Kucker", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.696830113380727, -26.899174352471306 ], [ -48.69644567, -26.89919092 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "0051090010", "cod": 25.0, "nome": "R.Rodolfo Kucker", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.69644567, -26.89919092 ], [ -48.69637253, -26.89919407 ], [ -48.696316428060712, -26.89919764388388 ] ] } }
-]
-}

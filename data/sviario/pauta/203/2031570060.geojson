@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2031570060", "cod": 1043.0, "nome": "R.Nilton Santos da Silva", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695862331301207, -26.868981777730308 ], [ -48.69586522, -26.86907673 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2031570060", "cod": 1044.0, "nome": "R.Áurea da Silva Simas", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.695653160304836, -26.869078498877609 ], [ -48.69586522, -26.86907673 ], [ -48.696015066890894, -26.869070484089846 ] ] } }
-]
-}

@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2110040237", "cod": 488.0, "nome": "Av.Duque de Caxias", "ptotalvia": 15.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.672637691777211, -26.906922662919264 ], [ -48.67254847, -26.90670086 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110040237", "cod": 160.0, "nome": "R.Heitor Liberato", "ptotalvia": 15.5, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.672679995194741, -26.906743485126967 ], [ -48.67254847, -26.90670086 ], [ -48.672334781190436, -26.906632419861907 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2110040237", "cod": 223.0, "nome": "R.Benjamin Franklin Pereira", "ptotalvia": 15.2, "ppasseio1": 1.9, "ppasseio2": 1.9 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.672532494430506, -26.90660784173286 ], [ -48.67254847, -26.90670086 ] ] } }
-]
-}

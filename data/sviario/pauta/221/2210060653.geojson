@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2210060653", "cod": 506.0, "nome": "R.São Paulo", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67738911, -26.91111455 ], [ -48.677356668578049, -26.91110397765749 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2210060653", "cod": 227.0, "nome": "R.Indaial", "ptotalvia": 17.0, "ppasseio1": 3.0, "ppasseio2": 3.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677390663428582, -26.911079840157896 ], [ -48.67738911, -26.91111455 ], [ -48.677367519122271, -26.911542396774049 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2210060653", "cod": 523.0, "nome": "R.Antônio Adão Dias", "ptotalvia": 13.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677857515185657, -26.911229025114448 ], [ -48.67774874, -26.91121825 ], [ -48.67738911, -26.91111455 ] ] } }
-]
-}

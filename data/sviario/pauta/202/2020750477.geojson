@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020750477", "cod": 210.0, "nome": "R.Conceição", "ptotalvia": 9.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.681154232648808, -26.904001743178 ], [ -48.681259, -26.90403094 ], [ -48.68142087199292, -26.904030222588407 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020750477", "cod": 211.0, "nome": "R.Olindio Rodolfo de Souza", "ptotalvia": 6.4, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.681259, -26.90403094 ], [ -48.681281859685861, -26.903944436997136 ] ] } }
-]
-}

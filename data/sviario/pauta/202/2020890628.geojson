@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2020890628", "cod": 240.0, "nome": "R.Joaquim José de Freitas", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.672882118527987, -26.905758084093684 ], [ -48.67294872, -26.90575659 ], [ -48.673240410140785, -26.905750182647111 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2020890628", "cod": 246.0, "nome": "R.Dario Cesário Pereira", "ptotalvia": 5.3, "ppasseio1": 1.0, "ppasseio2": 1.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.672954466889756, -26.905680621222011 ], [ -48.67294872, -26.90575659 ] ] } }
-]
-}

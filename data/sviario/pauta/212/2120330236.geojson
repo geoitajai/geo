@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2120330236", "cod": 431.0, "nome": "R.Serafim Manoel Inácio", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67754831, -26.89006015 ], [ -48.677584407890322, -26.890086708755629 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2120330236", "cod": 432.0, "nome": "R.Rio Jurua", "ptotalvia": 12.0, "ppasseio1": 2.5, "ppasseio2": 2.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.67754831, -26.89006015 ], [ -48.677170925116499, -26.88978047730037 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2120330236", "cod": 157.0, "nome": "R.Blumenau", "ptotalvia": 14.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.677711602203168, -26.889866329554575 ], [ -48.67754831, -26.89006015 ], [ -48.677505329390456, -26.890112344888284 ] ] } }
-]
-}

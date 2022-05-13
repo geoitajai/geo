@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2160190170", "cod": 1413.0, "nome": "Av.Itaipava", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.719619936068355, -26.942113157427098 ], [ -48.71946129, -26.94207374 ], [ -48.718529106141425, -26.941687688639483 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2160190170", "cod": 1435.0, "nome": "R.Edmundo Wippel", "ptotalvia": 11.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.71946129, -26.94207374 ], [ -48.7194412592685, -26.942143293581754 ] ] } }
-]
-}

@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2150610010", "cod": 1350.0, "nome": "R.Pedro Olegário Rebelo", "ptotalvia": 26.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.734772591908701, -26.886069032179648 ], [ -48.734491273886583, -26.886126636304557 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2150610010", "cod": 1353.0, "nome": "R.Oswaldo Leal", "ptotalvia": 12.0, "ppasseio1": 2.0, "ppasseio2": 2.0 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.734742715908595, -26.885630886457946 ], [ -48.734782817240905, -26.886062738073061 ] ] } }
-]
-}

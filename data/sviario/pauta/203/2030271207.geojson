@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "inscrlig": "2030271207", "cod": 1102.0, "nome": "R.Américo Meinicke", "ptotalvia": 10.0, "ppasseio1": 1.5, "ppasseio2": 1.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.704613100574228, -26.887540242155858 ], [ -48.704637243417849, -26.887988117684721 ] ] } },
-{ "type": "Feature", "properties": { "inscrlig": "2030271207", "cod": 1111.0, "nome": "Av.Dr.Reinaldo Schmithausen", "ptotalvia": 27.0, "ppasseio1": 6.5, "ppasseio2": 6.5 }, "geometry": { "type": "LineString", "coordinates": [ [ -48.70494972408838, -26.887963998773934 ], [ -48.704647403736551, -26.887991059065623 ] ] } }
-]
-}
