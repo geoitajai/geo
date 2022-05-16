@@ -12,16 +12,16 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.conteiner1 {
+#pagina {
     display: flex;
     flex-direction: column;
     height: 100%;
     min-height: 100%;
 }
 
-.mapa {
+#mapa {
     background-color: gray;
-    flex: 11;
+    width: 100%;
 }
 
 #areatab {
@@ -43,81 +43,61 @@ body {
     overflow-x: hidden;
 }
 
-.tabela {
-    background-color: var(--claro);
-}
-
-.conteiner0 {
+#conteiner0a {
     display: flex;
     flex: 1;
-}
-
-.logo {
-    background: var(--base);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex: 1;
-}
-
-#brastitulo {
-    color: var(--claro);
-    text-shadow: 1px 1px 2px black;
-}
-
-.pesquisa {
     background: var(--claro);
+}
+
+#conteiner0b {
+    display: flex;
+    flex: 11;
+}
+
+#logo {
+    color: white;
+    background: var(--base);
+    text-shadow: 1px 1px 2px black;
     display: flex;
     align-items: center;
     justify-content: center;
     flex: 1;
 }
 
-.botaopadrao {
-    background: var(--base);
+#util {
+    display: flex;
     align-items: center;
     justify-content: center;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    height: 30px;
-    color: var(--claro);
-    text-shadow: 1px 1px 2px black;
+    flex: 1;
 }
 
-.barraLateral {
+#pesquisaRapida {
+    background: var(--claro);
+    flex: 1;
+}
+
+#barraLateral {
     height: 100%;
     font-weight: bold;
     width: 200px;
+    min-width: 200px;
+    max-width: 200px;
     background-color: var(--claro);
     position: relative;
     z-index: 402;
-    display: flex;
     top: 0;
     left: 0;
 }
 
-.barraLateralEsconder {
-    display: flex;
-    font-weight: bold;
-    background-color: var(--claro);
-    position: absolute;
-    z-index: 402;
-    border: none;
-}
-
 @media (max-width: 550px) {
-    .logo {
-        display: none;
-    }
 
-    .mapa {
-        flex: 14;
+    #logo,
+    #barraLateral {
+        display: none;
     }
 }
 
 /* lista autocompletar */
-
 .ui-autocomplete {
     height: 300px;
     overflow-y: scroll;

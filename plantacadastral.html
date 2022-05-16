@@ -57,34 +57,64 @@
         gtag('config', 'UA-172813797-1');
     </script>
     <!-- estilos -->
-    <link rel="stylesheet" href="plantacadastral.css" />
     <link rel="stylesheet" href="lib/measure/leaflet.draw.css" />
     <link rel="stylesheet" href="lib/Control.Coordinates.css" />
+    <link rel="stylesheet" href="plantacadastral.css" />
 </head>
 
 <body>
 
-    <div class='conteiner1'>
-        <div class='conteiner0' id="brastitulo">
-            <div class='logo'>
+    <div id='pagina'>
+        <div id='conteiner0a'>
+            <div id='logo'>
                 <img src="images/favicon-32x32.png" style="height:auto; width:auto; padding:3px;">
                 <span>Município de Itajaí </br> <b>PLANTA CADASTRAL</b></span>
             </div>
-            <div class='pesquisa'>
+            <div id='util'>
                 <form>
                     <input id="pesquisaRapida" placeholder="Pesquisa inscr.imobiliária, código ou logradouro"
-                        style="width: 300px;">
+                        style="border: none; width: 300px; background-color: white;">
                 </form>
             </div>
         </div>
-        <div class="mapa" id="mapa">
+        <div id='conteiner0b'>
+            <div id='barraLateral'>
+                Grau de Risco Atividades
+                <p><center><small>Anexo lei Nº 11.985, DE 24 DE AGOSTO DE 2020:</small></center></p>
+
+                <a href="https://geoitajai.github.io/geo/tabela_risco.html" target="_blank">
+                    <center>
+                        <font size="2">
+                            - LINK CONSULTA<br>TABELA DE GRAU DE RISCO / CÓDIGO CNAE
+                        </font>
+                    </center>
+                </a>
+                <br>
+                <a style="text-decoration:none" href="http://leismunicipa.is/hyrip" target="_blank">
+                    <center>
+                        <font size="1">
+                            Decreto Nº 11.985, 24 de Agosto de 2020.
+                        </font>
+                    </center>
+                </a>
+                <br>
+                <a style="text-decoration:none" href="http://leismunicipa.is/pqbya" target="_blank">
+                    <center>
+                        <font size="1">
+                            Decreto Nº 11.956, 24 de Agosto de 2020.
+                        </font>
+                    </center>
+                </a>
+                <br>
+            </div>
+            <div id="mapa">mapa</div>
         </div>
         <div id="areatab">
             <div id='txt_tabela'>
                 Planta cadastral para simples conferência dos dados de cada imóvel, sujeita a alterações sem aviso
                 prévio. NÃO CONSTITUI DIREITO DE PROPRIEDADE.
             </div>
-            <div class="" id="tabelatabulator"></div>
+            <div id="tabelatabulator"></div>
         </div>
 
     </div>
