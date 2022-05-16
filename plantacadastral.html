@@ -80,21 +80,23 @@
         <div id='conteiner0b'>
             <div id='barraLateral'>
                 <h3>Início</h3>
-                <div>
+                <div class='conteudobarralateral'>
                     <center>
                         <p>Secretaria Municipal da Fazenda</p>
                         <p><small>Cadastro Técnico Municipal</small></p>
                         <hr>
                         <p><small>Clique sobre um lote ou via para visualizar as propriedades.</small></p>
-                        <a href="https://geoitajai.github.io/geo/arquivos.html" target="_blank">
-                            <font size="1" color="black">
-                                DOWNLOADS(pdf, dwg, shp)
-                            </font>
+                        <p><small>Mais informações:</small>
+                            <a href="https://geo.itajai.sc.gov.br/geoitajai/" target="_blank">
+                                <font size="2" color="black">
+                                    PORTAL GEOITAJAÍ
+                                </font>
+                        </p>
                     </center>
                     </a>
                 </div>
                 <h3> Grau de Risco Atividades</h3>
-                <div>
+                <div class='conteudobarralateral'>
                     <p>
                         <center><small>Anexo lei Nº 11.985, DE 24 DE AGOSTO DE 2020:</small></center>
                     </p>
@@ -105,46 +107,64 @@
                             </font>
                         </center>
                     </a>
-                    <br>
-                    <a style="text-decoration:none" href="http://leismunicipa.is/hyrip" target="_blank">
-                        <center>
-                            <font size="1">
-                                Decreto Nº 11.985, 24 de Agosto de 2020.
-                            </font>
-                        </center>
-                    </a>
-                    <br>
-                    <a style="text-decoration:none" href="http://leismunicipa.is/pqbya" target="_blank">
-                        <center>
-                            <font size="1">
-                                Decreto Nº 11.956, 24 de Agosto de 2020.
-                            </font>
-                        </center>
-                    </a>
-                    <br>
+                    <p><a style="text-decoration:none" href="http://leismunicipa.is/hyrip" target="_blank">
+                            <center>
+                                <font size="1">
+                                    Decreto Nº 11.985, 24 de Agosto de 2020.
+                                </font>
+                            </center>
+                        </a>
+                        <a style="text-decoration:none" href="http://leismunicipa.is/pqbya" target="_blank">
+                            <center>
+                                <font size="1">
+                                    Decreto Nº 11.956, 24 de Agosto de 2020.
+                                </font>
+                            </center>
+                        </a>
+                    </p>
                 </div>
-                <!-- <h3>Section 3</h3>
+                <h3>Zoneamento</h3>
+                <div class='conteudobarralateral'>
+                    <p>
+                        <a href="http://leismunicipa.is/pfdkq" target="_blank">
+                            <font size="2" color="black">
+                                Lei complementar nº215, de 31 de dezembro de 2012 - Anexo I
+                            </font>
+                        </a>
+                    </p>
+                    <p>Legenda:</p>
+                    <p>
+                        <span style="color:red">█</span>CCS1</br>
+                        <span style="color:#723900">█</span>CCS2</br>
+                        <span style="color:#b82e00">█</span>CCS3</br>
+                    </p>
+                    <hr>
+                    <p><small>Clique em uma zona no mapa para visualizar os parâmetros.</small></p>
+                    </br>
+                    <a href="https://geoitajai.github.io/geo/plantacadastralconsultaprevia.html" target="_blank">
+                        <font size="2" color="black">
+                            Mapa com ajuda, dedicado apenas a consulta prévia.
+                        </font>
+                    </a>
+                </div>
+                <h3>Engenharia de Trânsito</h3>
                 <div>
                     <p>
-                        Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
-                        Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+                        <center>
+                            <font size="2">
+                                <strong>
+                                    SMU-DET
+                                </strong>
+                                <br />
+                                Propostas de intervenções viárias.
+                            </font>
+                        </center>
                     </p>
-                    <ul>
-                        <li>List item one</li>
-                        <li>List item two</li>
-                        <li>List item three</li>
-                    </ul>
+                    <p>Legenda:</p>
+                    <img src="images/legDET.svg" style="width:140px;">
+                    <hr>
+                    <p><small>Estudo conceitual.</small></p>
                 </div>
-                <h3>Section 4</h3>
-                <div>
-                    <p>
-                        Cras dictum. Pellentesque habitant morbi tristique senectus et netus
-                        et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
-                    </p>
-                    <p>
-                        Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
-                    </p>
-                </div> -->
             </div>
             <div id="mapa">mapa</div>
         </div>
@@ -629,6 +649,37 @@
         //#camadas, barra lateral
         let detpropostas;
         let plantaZoneamento;
+
+        //#controle de camadas
+        let limparcamadas = () => {
+            if (mapa.hasLayer(detpropostas)) mapa.removeLayer(detpropostas);
+            if (mapa.hasLayer(plantaZoneamento)) mapa.removeLayer(plantaZoneamento);
+        };
+        $("#barraLateral").on("accordionactivate", (event, ui) => {
+            if (
+                ui.newHeader["0"].textContent === 'Zoneamento'
+            ) {
+                limparcamadas();
+                if (plantaZoneamento == undefined) {
+                    $.getScript('data/zon2012.js', () => { });
+                } else {
+                    mapa.addLayer(plantaZoneamento);
+                }
+            }
+            else if (
+                ui.newHeader["0"].textContent === 'Engenharia de Trânsito'
+            ) {
+                limparcamadas();
+                if (detpropostas == undefined) {
+                    $.getScript('data/detpropostas.js', () => { });
+                } else {
+                    mapa.addLayer(detpropostas);
+                }
+            }
+            else {
+                limparcamadas();
+            };
+        });
 
         //localização
         function onLocationFound(e) {

@@ -299,7 +299,6 @@
                             document.getElementById("pautavias").innerHTML = list;
                         });
                     //DadosGerais
-                    console.log(cadastrolote.features[0].properties)
                     ninscricao_check = cadastrolote.features[0].properties.inscricao == null ? 'verificar endereço cadastro' : cadastrolote.features[0].properties.inscricao.toString();
                     nlogrado_check = cadastrolote.features[0].properties.nomevia == null ? ' ' : cadastrolote.features[0].properties.nomevia.toString();
                     nnumimov_check = cadastrolote.features[0].properties.numero == null ? ' ' : cadastrolote.features[0].properties.numero.toString();

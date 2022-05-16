@@ -1,6 +1,6 @@
 plantaZoneamento = L.featureGroup();
 
-$.getJSON("zon2012webtabela.geojson", (data) => {
+$.getJSON("data/zon2012webtabela.geojson", (data) => {
     L.geoJson(data, {
         style: (feature) => {
             let corzona;

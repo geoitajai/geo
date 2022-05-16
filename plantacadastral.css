@@ -90,6 +90,12 @@ body {
     overflow-x: hidden;
 }
 
+.conteudobarralateral {
+    margin-top: 0px;
+    border: 0px;
+    line-height: 90%;
+}
+
 #hamburger {
     background: var(--base);
     top: 0;
@@ -128,8 +134,6 @@ ul.ui-autocomplete {
 .ui-accordion {
     overflow-x: hidden;
     overflow-y: scroll;
-    margin: 0;
-    padding: 0;
 }
 
 .ui-state-active,

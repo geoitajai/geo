@@ -1,7 +1,7 @@
 detpropostas = L.featureGroup();
 
 //Proposta engenharia de Trânsito
-$.getJSON("detprop.geojson", (data) => {
+$.getJSON("data/detprop.geojson", (data) => {
     L.geoJson(data, {
         style: (feature) => {
             //cor
