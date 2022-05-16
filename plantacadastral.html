@@ -63,9 +63,9 @@
 </head>
 
 <body>
-
     <div id='pagina'>
         <div id='conteiner0a'>
+            <button id="hamburger">&#9776;</button>
             <div id='logo'>
                 <img src="images/favicon-32x32.png" style="height:auto; width:auto; padding:3px;">
                 <span>Município de Itajaí </br> <b>PLANTA CADASTRAL</b></span>
@@ -79,33 +79,72 @@
         </div>
         <div id='conteiner0b'>
             <div id='barraLateral'>
-                Grau de Risco Atividades
-                <p><center><small>Anexo lei Nº 11.985, DE 24 DE AGOSTO DE 2020:</small></center></p>
-
-                <a href="https://geoitajai.github.io/geo/tabela_risco.html" target="_blank">
+                <h3>Início</h3>
+                <div>
                     <center>
-                        <font size="2">
-                            - LINK CONSULTA<br>TABELA DE GRAU DE RISCO / CÓDIGO CNAE
-                        </font>
+                        <p>Secretaria Municipal da Fazenda</p>
+                        <p><small>Cadastro Técnico Municipal</small></p>
+                        <hr>
+                        <p><small>Clique sobre um lote ou via para visualizar as propriedades.</small></p>
+                        <a href="https://geoitajai.github.io/geo/arquivos.html" target="_blank">
+                            <font size="1" color="black">
+                                DOWNLOADS(pdf, dwg, shp)
+                            </font>
                     </center>
-                </a>
-                <br>
-                <a style="text-decoration:none" href="http://leismunicipa.is/hyrip" target="_blank">
-                    <center>
-                        <font size="1">
-                            Decreto Nº 11.985, 24 de Agosto de 2020.
-                        </font>
-                    </center>
-                </a>
-                <br>
-                <a style="text-decoration:none" href="http://leismunicipa.is/pqbya" target="_blank">
-                    <center>
-                        <font size="1">
-                            Decreto Nº 11.956, 24 de Agosto de 2020.
-                        </font>
-                    </center>
-                </a>
-                <br>
+                    </a>
+                </div>
+                <h3> Grau de Risco Atividades</h3>
+                <div>
+                    <p>
+                        <center><small>Anexo lei Nº 11.985, DE 24 DE AGOSTO DE 2020:</small></center>
+                    </p>
+                    <a href="https://geoitajai.github.io/geo/tabela_risco.html" target="_blank">
+                        <center>
+                            <font size="2">
+                                - LINK CONSULTA<br>TABELA DE GRAU DE RISCO / CÓDIGO CNAE
+                            </font>
+                        </center>
+                    </a>
+                    <br>
+                    <a style="text-decoration:none" href="http://leismunicipa.is/hyrip" target="_blank">
+                        <center>
+                            <font size="1">
+                                Decreto Nº 11.985, 24 de Agosto de 2020.
+                            </font>
+                        </center>
+                    </a>
+                    <br>
+                    <a style="text-decoration:none" href="http://leismunicipa.is/pqbya" target="_blank">
+                        <center>
+                            <font size="1">
+                                Decreto Nº 11.956, 24 de Agosto de 2020.
+                            </font>
+                        </center>
+                    </a>
+                    <br>
+                </div>
+                <!-- <h3>Section 3</h3>
+                <div>
+                    <p>
+                        Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+                        Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+                    </p>
+                    <ul>
+                        <li>List item one</li>
+                        <li>List item two</li>
+                        <li>List item three</li>
+                    </ul>
+                </div>
+                <h3>Section 4</h3>
+                <div>
+                    <p>
+                        Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+                        et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+                    </p>
+                    <p>
+                        Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+                    </p>
+                </div> -->
             </div>
             <div id="mapa">mapa</div>
         </div>
@@ -120,6 +159,18 @@
     </div>
 
     <script>
+        $(function () {
+            $('#barraLateral').accordion({
+                heightStyle: 'content',
+                activate: function (event, ui) { }
+            });
+        });
+
+        $('#hamburger').click(function () {
+            $('#barraLateral').toggle();
+            mapa.invalidateSize();
+        });
+
         //#div do mapa
         let mapa = new L.Map('mapa', {
             zoom: 14,
@@ -166,11 +217,6 @@
         });
 
         //#basemaps
-
-        //Zoneamento
-        let plantaZoneamento = L.featureGroup();
-        let detpropostas = L.featureGroup();
-
         //Mapa base, Urbanismo
         let tilesmu = L.esri.Vector.vectorTileLayer("7a110ef9198540068341e6908c6bf298", {
             portalUrl: "https://arcgis.itajai.sc.gov.br/portal",
@@ -201,12 +247,7 @@
             "Satélite": tileesri
         };
 
-        let overlayMaps = {
-            "Zoneamento": plantaZoneamento,
-            "Eng.Trânsito": detpropostas
-        };
-
-        L.control.layers(baseMaps, overlayMaps, {
+        L.control.layers(baseMaps, null, {
             collapsed: false,
             position: 'bottomright'
         }).addTo(mapa);
@@ -585,234 +626,9 @@
             onEachFeature: inteVia,
         }).addTo(mapa);
 
-        //camadas zoneamento
-        //Manchas zoneamento
-        $.getJSON("data/zon2012webtabela.geojson", (data) => {
-            L.geoJson(data, {
-                style: (feature) => {
-                    let corzona;
-                    cormz = feature.properties.abrevia;
-                    if (cormz === 'ZAP') corzona = "#ffc821";
-                    else if (cormz === 'ZAP (CCS1)') corzona = "#ffc821";
-                    else if (cormz === 'ZAP (CCS2)') corzona = "#ffc821";
-                    else if (cormz === 'ZC 1') corzona = "#917951";
-                    else if (cormz === 'ZC 1 (CCS2)') corzona = "#917951";
-                    else if (cormz === 'ZC 2') corzona = "#ff5765";
-                    else if (cormz === 'ZC 2 (CCS1)') corzona = "#ff5765";
-                    else if (cormz === 'ZC 2 (CCS2)') corzona = "#ff5765";
-                    else if (cormz === 'ZEA') corzona = "#7cc5ab";
-                    else if (cormz === 'ZEA (CCS1)') corzona = "#7cc5ab";
-                    else if (cormz === 'ZEA (CCS3)') corzona = "#7cc5ab";
-                    else if (cormz === 'ZEU') corzona = "#d4d4bc";
-                    else if (cormz === 'ZEU (CCS1)') corzona = "#d4d4bc";
-                    else if (cormz === 'ZEU (CCS2)') corzona = "#d4d4bc";
-                    else if (cormz === 'ZIP') corzona = "#c82d2d";
-                    else if (cormz === 'ZIP (CCS1)') corzona = "#c82d2d";
-                    else if (cormz === 'ZIP (CCS2)') corzona = "#c82d2d";
-                    else if (cormz === 'ZIT') corzona = "#caf5f5";
-                    else if (cormz === 'ZIT (CCS2)') corzona = "#caf5f5";
-                    else if (cormz === 'ZPA 1') corzona = "#468e57";
-                    else if (cormz === 'ZPA 1 (CCS1)') corzona = "#468e57";
-                    else if (cormz === 'ZPA 1 (CCS3)') corzona = "#468e57";
-                    else if (cormz === 'ZPA 2') corzona = "#11cd00";
-                    else if (cormz === 'ZPA 2 (CCS2)') corzona = "#11cd00";
-                    else if (cormz === 'ZPA 3') corzona = "#71b580";
-                    else if (cormz === 'ZPA 3 (CCS1)') corzona = "#71b580";
-                    else if (cormz === 'ZPA 3 (CCS2)') corzona = "#71b580";
-                    else if (cormz === 'ZPA 3 (CCS3)') corzona = "#71b580";
-                    else if (cormz === 'ZPN') corzona = "#83cada";
-                    else if (cormz === 'ZPN (CCS1)') corzona = "#83cada";
-                    else if (cormz === 'ZPN (CCS2)') corzona = "#83cada";
-                    else if (cormz === 'ZR') corzona = "#96b7ab";
-                    else if (cormz === 'ZR 1') corzona = "#7090d0";
-                    else if (cormz === 'ZR 1 (Q1)') corzona = "#7090d0";
-                    else if (cormz === 'ZR 1 (Q1)(CCS3)') corzona = "#7090d0";
-                    else if (cormz === 'ZR 1 (Q2)') corzona = "#7090d0";
-                    else if (cormz === 'ZR 1 (Q2)(CCS3)') corzona = "#7090d0";
-                    else if (cormz === 'ZR 1 (Q3)') corzona = "#7090d0";
-                    else if (cormz === 'ZR 1 (Q3)(CCS3)') corzona = "#7090d0";
-                    else if (cormz === 'ZR 2') corzona = "#b599da";
-                    else if (cormz === 'ZR 2 (Q1)') corzona = "#b599da";
-                    else if (cormz === 'ZR 2 (Q1)(CCS3)') corzona = "#b599da";
-                    else if (cormz === 'ZR 2 (Q2)') corzona = "#b599da";
-                    else if (cormz === 'ZR 2 (Q3)') corzona = "#b599da";
-                    else if (cormz === 'ZR 2 (Q3)(CCS3)') corzona = "#b599da";
-                    else if (cormz === 'ZR 3') corzona = "#da89bc";
-                    else if (cormz === 'ZR 3 (CCS1)') corzona = "#da89bc";
-                    else if (cormz === 'ZR 3 (CCS3)') corzona = "#da89bc";
-                    else if (cormz === 'ZSI') corzona = "#ff721b";
-                    else if (cormz === 'ZSI (CCS1)') corzona = "#ff721b";
-                    else if (cormz === 'ZSI (CCS2)') corzona = "#ff721b";
-                    else if (cormz === 'ZTRA') corzona = "#fdf5b0";
-                    else if (cormz === 'ZTRA (CCS1)') corzona = "#fdf5b0";
-                    else if (cormz === 'ZTRU') corzona = "#bfdb99";
-                    else if (cormz === 'ZTRU (CCS2)') corzona = "#bfdb99";
-                    else if (cormz === 'ZU 1') corzona = "#ef8242";
-                    else if (cormz === 'ZU 1 (CCS1)') corzona = "#ef8242";
-                    else if (cormz === 'ZU 1 (CCS2)') corzona = "#ef8242";
-                    else if (cormz === 'ZU 2') corzona = "#e9e9a8";
-                    else if (cormz === 'ZU 2 (CCS1)') corzona = "#e9e9a8";
-                    else if (cormz === 'ZU 2 (CCS2)') corzona = "#e9e9a8";
-                    else if (cormz === 'ZU 2 (CCS3)') corzona = "#e9e9a8";
-                    else if (cormz === 'ZU 2 (Artigo 80)') corzona = "#e9e9a8";
-                    else if (cormz === 'ZU 3') corzona = "#ffff00";
-                    else if (cormz === 'ZU 3 (CCS1)') corzona = "#ffff00";
-                    else if (cormz === 'ZU 3 (CCS2)') corzona = "#ffff00";
-                    else if (cormz === 'ZU 4') corzona = "#deb239";
-                    else if (cormz === 'ZU 4 (CCS1)') corzona = "#deb239";
-                    else if (cormz === 'ZU 4 (CCS2)') corzona = "#deb239";
-                    else if (cormz === 'ZU 5') corzona = "#8c8a23";
-                    else if (cormz === 'ZU 5 (CCS1)') corzona = "#8c8a23";
-                    else if (cormz === 'ZU 5 (CCS2)') corzona = "#8c8a23";
-                    else corzona = "#fff";
-                    return { stroke: false, fillColor: corzona, fillOpacity: 0.4 };
-                },
-                onEachFeature: (feature, layer) => {
-                    layer.bindPopup(
-                        '<strong>' + 'Zona: ' + feature.properties.abrevia + '</strong>' + '<br/>' +
-                        '<table>' +
-                        '<tr>' +
-                        '<td>' +
-                        'Usos permitidos: ' + feature.properties.permitidos + '<br/>' +
-                        '</td>' +
-                        '</tr>' +
-                        '<tr>' +
-                        '<td>' +
-                        'Usos permissíveis: ' + feature.properties.permissiv + '<br/>' +
-                        '</td>' +
-                        '</tr>' +
-                        '<tr>' +
-                        '<td>' +
-                        'Altura máxima: ' + feature.properties.alturamax + '<br/>' +
-                        '</td>' +
-                        '</tr>' +
-                        '<tr>' +
-                        '<td>' +
-                        'Altura máxima do embasamento: ' + feature.properties.alturaemb + '<br/>' +
-                        '</td>' +
-                        '</tr>' +
-                        '<tr>' +
-                        '<td>' +
-                        'Coeficiente de aproveitamento: ' + feature.properties.coefaprov + '<br/>' +
-                        '</td>' +
-                        '</tr>' +
-                        '<tr>' +
-                        '<td>' +
-                        'Taxa de ocupação embasamento: ' + feature.properties.toemb + '<br/>' +
-                        '</td>' +
-                        '</tr>' +
-                        '<tr>' +
-                        '<td>' +
-                        'Taxa de ocupação torre: ' + feature.properties.totorre + '<br/>' +
-                        '</td>' +
-                        '</tr>' +
-                        '<tr>' +
-                        '<td>' +
-                        'Taxa de permeabilidade: ' + feature.properties.permeab + '<br/>' +
-                        '</td>' +
-                        '</tr>' +
-                        '<tr>' +
-                        '<td>' +
-                        'Recuo frontal: ' + feature.properties.embrecfron + '<br/>' +
-                        '</td>' +
-                        '</tr>' +
-                        '<tr>' +
-                        '<td>' +
-                        'Recuos laterais e fundos: ' + feature.properties.embreclat + '<br/>' +
-                        '</td>' +
-                        '</tr>' +
-                        '<tr>' +
-                        '<td>' +
-                        'Recuos laterais e fundos com aberturas: ' + feature.properties.embreclatc + '<br/>' +
-                        '</td>' +
-                        '</tr>' +
-                        '<tr>' +
-                        '<td>' +
-                        'Área mínima do lote: ' + feature.properties.lotemaxare + '<br/>' +
-                        '</td>' +
-                        '</tr>' +
-                        '<tr>' +
-                        '<td>' +
-                        'Testada mínima do lote: ' + feature.properties.lotemaxtes + '<br/>' +
-                        '</td>' +
-                        '</tr>' +
-                        '<tr>' +
-                        '<td>' +
-                        'Profundidade mínima do lote: ' + feature.properties.lotemaxpro +
-                        '</td>' +
-                        '</tr>' +
-                        '</table>'
-                    )
-                },
-                pane: 'basemap_overlay'
-            }).addTo(plantaZoneamento);
-        });
-
-        //Proposta engenharia de Trânsito
-        $.getJSON("data/detprop.geojson", (data) => {
-            L.geoJson(data, {
-                style: (feature) => {
-                    //cor
-                    let colinha;
-                    cormz = feature.properties.tipoint;
-                    if (cormz === 'Nova Ligação') { colinha = "#ff4759"; }
-                    else if (cormz === 'Nova Ligação (Variante)') { colinha = "#820002"; }
-                    else if (cormz === 'Alargamento') { colinha = "#61ff6e"; }
-                    else if (cormz === 'Mudança de Sentido') { colinha = "#ffb031"; }
-                    else if (cormz === 'Reurbanização') { colinha = "#3ffff3"; }
-                    else { colinha = "#fff"; };
-                    //tipo de linha
-                    let tipolinha;
-                    if (cormz === 'Nova Ligação (Variante)') { tipolinha = "10 10"; }
-                    else { tipolinha = null; };
-                    //estilo
-                    return { color: colinha, weight: 4, dashArray: tipolinha, opacity: 0.65, interactive: false };
-                },
-                pane: 'basemap_overlay'
-            }).addTo(detpropostas);
-        });
-
-        ////legenda ontrole layers
-        //let info = L.control();
-        //info.onAdd = function (mapa) {
-        //    this._div = L.DomUtil.create('div', 'info'); // create a div with a class "info"
-        //    this.update();
-        //    return this._div;
-        //};
-        //info.update = function (props) {
-        //    this._div.innerHTML = '<h4>Legenda</h4>' + (props ?
-        //        '<b>' + props.name + '</b><br />' + props.density + ' people / mi<sup>2</sup>'
-        //        : 'Hover over a state');
-        //};
-        //let overlayadd = (e) => {
-        //    if (e.name == "Eng.Trânsito") {
-        //        info.addTo(mapa);
-        //    };
-        //};
-        //let overlayremove = (e) => {
-        //    if (e.name == "Eng.Trânsito") {
-        //        info.remove(mapa);
-        //    };
-        //};
-        //mapa.on('overlayadd', overlayadd);
-        //mapa.on('overlayremove', overlayremove);
-
-
-        //CCS
-        $.getJSON("data/zon2012ccs.geojson", (data) => {
-            L.geoJson(data, {
-                style: (feature) => {
-                    var corlinhaccs,
-                        corcss = feature.properties.tipo;
-                    if (corcss == 'CCS1') corlinhaccs = "#ff0000";
-                    else if (corcss == 'CCS2') corlinhaccs = "#723900";
-                    else if (corcss == 'CCS3') corlinhaccs = "#b82e00";
-                    else corlinhaccs = "#fff";
-                    return { color: corlinhaccs, weight: 5, Opacity: 0.4, interactive: false };
-                },
-                interactive: false
-            }).addTo(plantaZoneamento);
-        });
+        //#camadas, barra lateral
+        let detpropostas;
+        let plantaZoneamento;
 
         //localização
         function onLocationFound(e) {

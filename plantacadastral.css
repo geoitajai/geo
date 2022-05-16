@@ -26,10 +26,10 @@ body {
 
 #areatab {
     display: flex;
-    flex: 3;
     flex-direction: row;
     background-color: var(--claro);
-    max-height: 190px;
+    height: 190px;
+    min-height: 190px;
 }
 
 #txt_tabela {
@@ -45,13 +45,18 @@ body {
 
 #conteiner0a {
     display: flex;
-    flex: 1;
     background: var(--claro);
+    height: 40px;
+    min-height: 40px;
+    overflow-x: hidden;
 }
 
 #conteiner0b {
     display: flex;
-    flex: 11;
+    flex: 10;
+    overflow: auto;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 #logo {
@@ -77,16 +82,27 @@ body {
 }
 
 #barraLateral {
-    height: 100%;
-    font-weight: bold;
     width: 200px;
     min-width: 200px;
     max-width: 200px;
     background-color: var(--claro);
-    position: relative;
-    z-index: 402;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+#hamburger {
+    background: var(--base);
     top: 0;
-    left: 0;
+    right: 0;
+    line-height: 25px;
+    padding: 0px 10px 0px 10px;
+    color: white;
+    border: 0;
+    font-size: 1.4em;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    z-index: 10000000000000;
 }
 
 @media (max-width: 550px) {
@@ -100,6 +116,7 @@ body {
 /* lista autocompletar */
 .ui-autocomplete {
     height: 300px;
+    max-height: 600px;
     overflow-y: scroll;
     overflow-x: hidden;
 }
@@ -109,21 +126,25 @@ ul.ui-autocomplete {
 }
 
 .ui-accordion {
-    padding-top: 20px;
-    height: 100%;
     overflow-x: hidden;
     overflow-y: scroll;
+    margin: 0;
+    padding: 0;
 }
 
 .ui-state-active,
+.ui-widget,
 .ui-widget-content .ui-state-active,
 .ui-widget-header .ui-state-active,
+.ui-button,
 .ui-button:active,
-.ui-state-active.ui-button:hover,
+.ui-state-active,
 .ui-state-active,
 .ui-state-hover,
 .ui-state-visited,
-.ui-state-focus {
+.ui-state-focus,
+.ui-accordion-header,
+.ui-accordion-header-active {
     border: none;
 }
 

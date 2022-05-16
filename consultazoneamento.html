@@ -299,12 +299,12 @@
                             document.getElementById("pautavias").innerHTML = list;
                         });
                     //DadosGerais
-                    ninscricao_check = cadastrolote.features[0].properties.ninscrao == null ? 'verificar endereço cadastro' : cadastrolote.features[0].properties.ninscrao.toString().substring(0, 15);
-                    nlogrado_check = cadastrolote.features[0].properties.nlogrado == null ? ' ' : cadastrolote.features[0].properties.nlogrado.toString();
-                    nnumimov_check = cadastrolote.features[0].properties.nnumimov == null ? ' ' : cadastrolote.features[0].properties.nnumimov.toString();
-                    nnomebai_check = cadastrolote.features[0].properties.nnomebai == null ? ' ' : cadastrolote.features[0].properties.nnomebai.toString();
-                    document.getElementById("inscrimob").innerHTML = ninscricao_check
-                    document.getElementById("endereco").innerHTML = nlogrado_check + ', ' + nnumimov_check + ', ' + nnomebai_check;
+                    console.log(cadastrolote.features[0].properties)
+                    ninscricao_check = cadastrolote.features[0].properties.inscricao == null ? 'verificar endereço cadastro' : cadastrolote.features[0].properties.inscricao.toString();
+                    nlogrado_check = cadastrolote.features[0].properties.nomevia == null ? ' ' : cadastrolote.features[0].properties.nomevia.toString();
+                    nnumimov_check = cadastrolote.features[0].properties.numero == null ? ' ' : cadastrolote.features[0].properties.numero.toString();
+                    document.getElementById("inscrimob").innerHTML = ninscricao_check;
+                    document.getElementById("endereco").innerHTML = nlogrado_check + ', ' + nnumimov_check;
                     let datahj = new Date();
                     var datahjFormatada = ("0" + datahj.getDate()).substr(-2) + "/"
                         + ("0" + (datahj.getMonth() + 1)).substr(-2) + "/" + datahj.getFullYear();
