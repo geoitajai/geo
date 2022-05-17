@@ -53,8 +53,8 @@
             </div>
             <div class='pesquisa'>
                 <form>
-                    <input id="pesquisaRapida" placeholder="Pesquisa inscr.imobiliária, código ou rua"
-                        style="width: 280px;">
+                    <input id="pesquisaRapida" placeholder="Pesquisa inscr.imobiliária, código ou endereço" type="text"
+                        spellcheck="false" style="width: 280px;">
                 </form>
             </div>
         </div>
@@ -198,7 +198,7 @@
         });
 
         //Zoneamento com legendas
-        let tilezonea = L.tileLayer.fallback('https://geoitajai.github.io/geo/tiles/zoneamento/{z}/{x}/{y}.png', {
+        let tilezonea = L.tileLayer.fallback('data/zoneamento/tiles/{z}/{x}/{y}.png', {
             minZoom: 12,
             maxZoom: 19,
             pane: 'zoneamento',
@@ -426,34 +426,59 @@
             url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/sistema_viario/FeatureServer/0/'
         });
 
+        //caixa de pesquisa
+        let itensPesquisa = [];
+        let itensPesquisaCompletos = {};
         viaspesquisa.fields(['nome'])
             .returnGeometry(false)
             .distinct()
-            .run(function (error, psqvias) {
-                psqvias.features.forEach((e) => {
-                    listaViasAutoComplete.push(e.properties.nome)
-                });
-
+            .run((error, psqvias) => {
+                let itenspesquisa = psqvias.features.map((feicoes) => {
+                    return feicoes.properties.nome
+                }).sort();
+                itensarquivo = itenspesquisa;
                 $(() => {
-                    $("#pesquisaRapida").autocomplete({
+                    let pesquisaval;
+                    $('#pesquisaRapida').autocomplete({
+                        delay: 200,
                         minLength: 3,
                         autoFocus: true,
                         source: (request, response) => {
                             let matcher = new RegExp($.ui.autocomplete.escapeRegex(request
-                                .term), "i");
-                            response($.grep(listaViasAutoComplete, (value) => {
+                                .term), 'i');
+                            response($.grep(itenspesquisa, (value) => {
                                 value = value.label || value.value || value;
                                 return matcher.test(value) || matcher.test(
                                     normalize(value));
                             }));
                         },
                         select: (event, ui) => {
-                            destaquevia(ui.item.value);
+                            if ($('#pesquisaRapida').val().includes(',') == true) {
+                                malhacadastralpesquisa.query()
+                                    .where(`inscricao = '${itensPesquisaCompletos[pesquisaval]}'`)
+                                    .run((error, fcolinscr) => {
+                                        if (fcolinscr.features.length == 0) {
+                                            alert("Não encontrado");
+                                        } else {
+                                            zoomresultado = true;
+                                            pCestiloDestaque(fcolinscr);
+                                            $("#pesquisaRapida").val('');
+                                            itenspesquisa = itensarquivo;
+                                        };
+                                    });
+                            } else {
+                                destaquevia(ui.item.value);
+                            };
                         },
-                        close: (e) => {
-                            e.target.value = '';
+                        focus: (event, ui) => {
+                            pesquisaval = ui.item.value;
+                        },
+                        response: (event, ui) => {
+                            if ($('#pesquisaRapida').val().includes(',') == false) {
+                                itenspesquisa = itensarquivo;
+                            };
                         }
-                    }).keypress((event) => {
+                    }).keypress((event, ui) => {
                         if (event.keyCode == 13) {
                             event.preventDefault();
                             if ($("#pesquisaRapida").val().length === 15) {
@@ -465,6 +490,7 @@
                                         } else {
                                             zoomresultado = true;
                                             pCestiloDestaque(fcolinscr);
+                                            $("#pesquisaRapida").val('');
                                         };
                                     });
                             } else {
@@ -480,15 +506,35 @@
                                                 .run((error, fcolcodinscr) => {
                                                     zoomresultado = true;
                                                     pCestiloDestaque(fcolcodinscr)
+                                                    $("#pesquisaRapida").val('');
                                                 });
                                         };
                                     });
                             };
-                            $("#pesquisaRapida").val("");
-                        }
+                        };
+                        if (event.keyCode == 44 && $('#pesquisaRapida').val().includes(',') == false) {
+                            event.preventDefault();
+                            malhacadastralpesquisa.query()
+                                .fields(['nomevia', 'numero', 'inscricao'])
+                                .where(`nomevia ='${pesquisaval}'`)
+                                .distinct()
+                                .run((error, psqvias) => {
+                                    psqvias.features.map(e => {
+                                        let enderecomont = `${pesquisaval},${e.properties.numero}`;
+                                        itensPesquisaCompletos[enderecomont] = e.properties.inscricao;
+                                        itensPesquisa.push(enderecomont);
+                                    });
+                                    itenspesquisa = itensPesquisa;
+                                });
+                            $('#pesquisaRapida').val(`${pesquisaval},`);
+                            $('#pesquisaRapida').autocomplete('search', `${pesquisaval},`);
+                        };
                     });
                 });
             });
+        $("#pesquisaRapida").click(function () {
+            $(this).select();
+        });
 
         // Feature layer e imagem, malha cadastral
         let malhacadastral = new L.esri.dynamicMapLayer({
