@@ -20,7 +20,6 @@ body {
 }
 
 #mapa {
-    background-color: gray;
     width: 100%;
 }
 
@@ -173,7 +172,7 @@ ul.ui-autocomplete {
 }
 
 .leaflet-container {
-    background: #E6E6E6;
+    background-color: var(--claro);
 }
 
 .leaflet-default-icon-path {
