@@ -303,76 +303,199 @@
 
         //#Cadastro
         //Definir elementos da tabela
+        let colunaspadrao = [
+            {
+                title: 'Consulta Prévia<br>(construções)',
+                formatter: 'link',
+                width: 130,
+                formatterParams: {
+                    labelField: 'linkinfo',
+                    urlField: 'consultaprevia',
+                    target: '_blank'
+                }
+            },
+            {
+                title: 'Avaliação atividade<br>(alvará)',
+                formatter: 'link',
+                width: 150,
+                formatterParams: {
+                    labelField: 'linkinfo',
+                    urlField: 'consultaalvara',
+                    target: '_blank'
+                }
+            },
+            {
+                title: 'Cód.',
+                field: 'ncodimov',
+                width: 80
+            }, {
+                title: 'Inscrição imob.',
+                field: 'ninscrao',
+                width: 150
+            }, {
+                title: 'nº matrícula',
+                field: 'nmatricu',
+                width: 103
+            }, {
+                title: 'Razão social',
+                field: 'nrazaoso',
+                width: 200
+            }, {
+                title: 'Logradouro',
+                field: 'nlogrado',
+                width: 150
+            }, {
+                title: 'nº',
+                field: 'nnumimov',
+                width: 60
+            }, {
+                title: 'Compl.',
+                field: 'ncomplem',
+                width: 120
+            }, {
+                title: 'Bairro',
+                field: 'nnomebai',
+                width: 100
+            }, {
+                title: 'Área tributável',
+                field: 'nareater',
+                width: 110
+            }, {
+                title: 'Ano construção',
+                field: 'ncodcont',
+                width: 110
+            }, {
+                title: 'Fração ideal informada',
+                field: 'nfracaoi',
+                width: 90
+            }
+        ];
+
+        let colunaspendzon = [
+            {
+                title: 'Consulta Prévia<br>(construções)',
+                field: 'consultaprevia',
+                width: 150
+            },
+            {
+                title: 'Avaliação atividade<br>(alvará)',
+                field: 'consultaalvara',
+                width: 150
+            },
+            {
+                title: 'Cód.',
+                field: 'ncodimov',
+                width: 80
+            }, {
+                title: 'Inscrição imob.',
+                field: 'ninscrao',
+                width: 150
+            }, {
+                title: 'nº matrícula',
+                field: 'nmatricu',
+                width: 103
+            }, {
+                title: 'Razão social',
+                field: 'nrazaoso',
+                width: 200
+            }, {
+                title: 'Logradouro',
+                field: 'nlogrado',
+                width: 150
+            }, {
+                title: 'nº',
+                field: 'nnumimov',
+                width: 60
+            }, {
+                title: 'Compl.',
+                field: 'ncomplem',
+                width: 120
+            }, {
+                title: 'Bairro',
+                field: 'nnomebai',
+                width: 100
+            }, {
+                title: 'Área tributável',
+                field: 'nareater',
+                width: 110
+            }, {
+                title: 'Ano construção',
+                field: 'ncodcont',
+                width: 110
+            }, {
+                title: 'Fração ideal informada',
+                field: 'nfracaoi',
+                width: 90
+            }
+        ];
+
+        let colunaspendalv = [
+            {
+                title: 'Consulta Prévia<br>(construções)',
+                field: 'consultaprevia',
+                width: 150
+            },
+            {
+                title: 'Avaliação atividade<br>(alvará)',
+                formatter: 'link',
+                width: 150,
+                formatterParams: {
+                    labelField: 'linkinfo',
+                    urlField: 'consultaalvara',
+                    target: '_blank'
+                }
+            },
+            {
+                title: 'Cód.',
+                field: 'ncodimov',
+                width: 80
+            }, {
+                title: 'Inscrição imob.',
+                field: 'ninscrao',
+                width: 150
+            }, {
+                title: 'nº matrícula',
+                field: 'nmatricu',
+                width: 103
+            }, {
+                title: 'Razão social',
+                field: 'nrazaoso',
+                width: 200
+            }, {
+                title: 'Logradouro',
+                field: 'nlogrado',
+                width: 150
+            }, {
+                title: 'nº',
+                field: 'nnumimov',
+                width: 60
+            }, {
+                title: 'Compl.',
+                field: 'ncomplem',
+                width: 120
+            }, {
+                title: 'Bairro',
+                field: 'nnomebai',
+                width: 100
+            }, {
+                title: 'Área tributável',
+                field: 'nareater',
+                width: 110
+            }, {
+                title: 'Ano construção',
+                field: 'ncodcont',
+                width: 110
+            }, {
+                title: 'Fração ideal informada',
+                field: 'nfracaoi',
+                width: 90
+            }
+        ];
+
         let table = new Tabulator('#tabelatabulator', {
             height: '100%',
             layout: 'fitColumns',
-            columns: [
-                {
-                    title: 'Consulta Prévia (construções)',
-                    formatter: 'link',
-                    width: 210,
-                    formatterParams: {
-                        labelField: 'linkinfo',
-                        urlField: 'consultaprevia',
-                        target: '_blank'
-                    }
-                },
-                {
-                    title: 'Avaliação atividade (alvará)',
-                    formatter: 'link',
-                    width: 200,
-                    formatterParams: {
-                        labelField: 'linkinfo',
-                        urlField: 'consultaalvara',
-                        target: '_blank'
-                    }
-                },
-                {
-                    title: 'Cód.',
-                    field: 'ncodimov',
-                    width: 80
-                }, {
-                    title: 'Inscrição imob.',
-                    field: 'ninscrao',
-                    width: 150
-                }, {
-                    title: 'nº matrícula',
-                    field: 'nmatricu',
-                    width: 103
-                }, {
-                    title: 'Razão social',
-                    field: 'nrazaoso',
-                    width: 200
-                }, {
-                    title: 'Logradouro',
-                    field: 'nlogrado',
-                    width: 150
-                }, {
-                    title: 'nº',
-                    field: 'nnumimov',
-                    width: 60
-                }, {
-                    title: 'Compl.',
-                    field: 'ncomplem',
-                    width: 120
-                }, {
-                    title: 'Bairro',
-                    field: 'nnomebai',
-                    width: 100
-                }, {
-                    title: 'Área tributável',
-                    field: 'nareater',
-                    width: 110
-                }, {
-                    title: 'Ano construção',
-                    field: 'ncodcont',
-                    width: 110
-                }, {
-                    title: 'Fração ideal informada',
-                    field: 'nfracaoi',
-                    width: 90
-                }
-            ]
+            columns: colunaspadrao
         });
 
         //camada lote destacado, permanece visível em todos os níveis
@@ -387,23 +510,33 @@
             url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/cadastroimoveispts/FeatureServer/0/'
         });
 
+        let consultaZoneamento = {
+            pend: "conflito confrontantes",
+            pendpdz: "decr.11244/2018-expansão portuária",
+            pendjud: "conflito judicial"
+        };
+        consultaZoneamentolista = ['pend', 'pendpdz', 'pendjud'];
+
         function pCestiloDestaque(e) {
             plantaCadastralDestaque.clearLayers();
             table.setData([]);
+            let tipoconflito;
+            let tipoconsultas;
             let inscricaoimob = e.features[0].properties.inscricao;
-            let zoneamento = e.features[0].properties.zon2012;
-            L.geoJson(e, {
-                style: {
-                    weight: 5,
-                    color: '#666',
-                    dashArray: '',
-                    fillOpacity: 0.7
-                }
-            }).addTo(plantaCadastralDestaque);
-            if (zoomresultado == true) {
-                mapa.flyToBounds(plantaCadastralDestaque.getBounds(), {
-                    maxZoom: 19
-                });
+            let zoneamento = e.features[0].properties.zon2012.trim();
+            let zoneamentoalvara = e.features[0].properties.zon2012pre.trim();
+            if (consultaZoneamentolista.includes(zoneamento) && consultaZoneamentolista.includes(zoneamentoalvara)) {
+                table.setColumns(colunaspendzon);
+                tipoconsultas = 'semzonoualvara';
+            } else if (zoneamento == "Null" && consultaZoneamentolista.includes(zoneamentoalvara) == false) {
+                zoneamento = 'pend'
+                table.setColumns(colunaspendalv);
+                tipoconsultas = 'soalvara';
+            } else if (consultaZoneamentolista.includes(zoneamento) && consultaZoneamentolista.includes(zoneamentoalvara) == false) {
+                table.setColumns(colunaspendalv);
+                tipoconsultas = 'soalvara';
+            } else {
+                table.setColumns(colunaspadrao);
             };
             //dados tabela
             let inscricaowhereimovel = `lote_inscricao='${inscricaoimob}'`;
@@ -414,9 +547,12 @@
                 .returnGeometry(false)
                 .run((error, fcol) => {
                     fcol.features.forEach(el => {
-                        if (zoneamento == 'pend') {
-                            linkinfo = 'consultar secretatira urbanismo';
-                            consultapreviap = `https://geoitajai.github.io/geo/consultazoneamentoerro.html#${el.properties.lote_inscricao}`;
+                        if (tipoconsultas == 'semzonoualvara') {
+                            consultapreviap = `${consultaZoneamento[zoneamento]}`;
+                            consultaalvara = `${consultaZoneamento[zoneamento]}`;
+                        } else if (tipoconsultas == 'soalvara') {
+                            linkinfo = 'clique para abrir';
+                            consultapreviap = `${consultaZoneamento[zoneamento]}`;
                             consultaalvara = `https://geoitajai.github.io/geo/consultaalvara.html#${el.properties.lote_inscricao}`;
                         } else {
                             linkinfo = 'clique para abrir';
@@ -442,6 +578,20 @@
                     });
                     table.setData(objtabela);
                 });
+            //lote no mapa
+            L.geoJson(e, {
+                style: {
+                    weight: 5,
+                    color: '#666',
+                    dashArray: '',
+                    fillOpacity: 0.7
+                }
+            }).addTo(plantaCadastralDestaque);
+            if (zoomresultado == true) {
+                mapa.flyToBounds(plantaCadastralDestaque.getBounds(), {
+                    maxZoom: 19
+                });
+            };
         };
 
         //Zoom e destaque para via a partir de geoJSON
