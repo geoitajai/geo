@@ -302,6 +302,17 @@
         }).addTo(mapa);
 
         //#Cadastro
+        //camada lote destacado, permanece visível em todos os níveis
+        let plantaCadastralDestaque = L.featureGroup().addTo(mapa);
+
+        //dados, imóveis
+        let cadastroimoveispts = L.esri.query({
+            url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/cadastroimoveispts/FeatureServer/0/'
+        });
+        let cadastroimoveisptscodimov = L.esri.query({
+            url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/cadastroimoveispts/FeatureServer/0/'
+        });
+
         //Definir elementos da tabela
         let colunaspadrao = [
             {
@@ -313,8 +324,7 @@
                     urlField: 'consultaprevia',
                     target: '_blank'
                 }
-            },
-            {
+            }, {
                 title: 'Avaliação atividade<br>(alvará)',
                 formatter: 'link',
                 width: 150,
@@ -323,8 +333,7 @@
                     urlField: 'consultaalvara',
                     target: '_blank'
                 }
-            },
-            {
+            }, {
                 title: 'Cód.',
                 field: 'ncodimov',
                 width: 80
@@ -333,13 +342,17 @@
                 field: 'ninscrao',
                 width: 150
             }, {
-                title: 'nº matrícula',
-                field: 'nmatricu',
-                width: 103
+                title: 'zona<br>(preliminar)',
+                field: 'zon',
+                width: 100
             }, {
                 title: 'Razão social',
                 field: 'nrazaoso',
                 width: 200
+            }, {
+                title: 'nº matrícula',
+                field: 'nmatricu',
+                width: 103
             }, {
                 title: 'Logradouro',
                 field: 'nlogrado',
@@ -370,17 +383,16 @@
                 width: 90
             }
         ];
-
         let colunaspendzon = [
             {
                 title: 'Consulta Prévia<br>(construções)',
                 field: 'consultaprevia',
-                width: 150
+                width: 200
             },
             {
                 title: 'Avaliação atividade<br>(alvará)',
                 field: 'consultaalvara',
-                width: 150
+                width: 200
             },
             {
                 title: 'Cód.',
@@ -391,13 +403,17 @@
                 field: 'ninscrao',
                 width: 150
             }, {
-                title: 'nº matrícula',
-                field: 'nmatricu',
-                width: 103
+                title: 'zona<br>(preliminar)',
+                field: 'zon',
+                width: 100
             }, {
                 title: 'Razão social',
                 field: 'nrazaoso',
                 width: 200
+            }, {
+                title: 'nº matrícula',
+                field: 'nmatricu',
+                width: 103
             }, {
                 title: 'Logradouro',
                 field: 'nlogrado',
@@ -428,24 +444,22 @@
                 width: 90
             }
         ];
-
         let colunaspendalv = [
             {
                 title: 'Consulta Prévia<br>(construções)',
                 field: 'consultaprevia',
-                width: 150
+                width: 200
             },
             {
                 title: 'Avaliação atividade<br>(alvará)',
                 formatter: 'link',
-                width: 150,
+                width: 200,
                 formatterParams: {
                     labelField: 'linkinfo',
                     urlField: 'consultaalvara',
                     target: '_blank'
                 }
-            },
-            {
+            }, {
                 title: 'Cód.',
                 field: 'ncodimov',
                 width: 80
@@ -454,13 +468,17 @@
                 field: 'ninscrao',
                 width: 150
             }, {
-                title: 'nº matrícula',
-                field: 'nmatricu',
-                width: 103
+                title: 'zona<br>(preliminar)',
+                field: 'zon',
+                width: 100
             }, {
                 title: 'Razão social',
                 field: 'nrazaoso',
                 width: 200
+            }, {
+                title: 'nº matrícula',
+                field: 'nmatricu',
+                width: 103
             }, {
                 title: 'Logradouro',
                 field: 'nlogrado',
@@ -491,32 +509,17 @@
                 width: 90
             }
         ];
-
         let table = new Tabulator('#tabelatabulator', {
             height: '100%',
             layout: 'fitColumns',
             columns: colunaspadrao
         });
-
-        //camada lote destacado, permanece visível em todos os níveis
-        let plantaCadastralDestaque = L.featureGroup().addTo(mapa);
-
-        //estilo destacado, lote
-        let cadastroimoveispts = L.esri.query({
-            url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/cadastroimoveispts/FeatureServer/0/'
-        });
-
-        let cadastroimoveisptscodimov = L.esri.query({
-            url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/cadastroimoveispts/FeatureServer/0/'
-        });
-
         let consultaZoneamento = {
             pend: "conflito confrontantes",
-            pendpdz: "decr.11244/2018-expansão portuária",
+            pendpdz: "expansäo portuária, decr.11244/18",
             pendjud: "conflito judicial"
         };
         consultaZoneamentolista = ['pend', 'pendpdz', 'pendjud'];
-
         function pCestiloDestaque(e) {
             plantaCadastralDestaque.clearLayers();
             table.setData([]);
@@ -528,6 +531,7 @@
             if (consultaZoneamentolista.includes(zoneamento) && consultaZoneamentolista.includes(zoneamentoalvara)) {
                 table.setColumns(colunaspendzon);
                 tipoconsultas = 'semzonoualvara';
+                zoneamentoalvara = '-'
             } else if (zoneamento == "Null" && consultaZoneamentolista.includes(zoneamentoalvara) == false) {
                 zoneamento = 'pend'
                 table.setColumns(colunaspendalv);
@@ -563,8 +567,9 @@
                             'consultaprevia': consultapreviap,
                             'ninscrao': el.properties.aut_inscricao,
                             'ncodimov': el.properties.aut_codigo_imovel,
-                            'nmatricu': el.properties.aut_numero_matricula,
+                            'zon': zoneamentoalvara,
                             'nrazaoso': el.properties.nome_contribuinte,
+                            'nmatricu': el.properties.aut_numero_matricula,
                             'nlogrado': el.properties.aut_end_logradouro,
                             'nnumimov': el.properties.aut_end_numero,
                             'ncomplem': el.properties.aut_end_complemento,
