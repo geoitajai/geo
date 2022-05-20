@@ -222,7 +222,7 @@
             coordmapa.setCoordinates(e);
             malhacadastral
                 .identify()
-                .layers("gisdb.itajai.viewcadastrolotesfazenda3857:0") // just the counties sublayer
+                .layers("gisdb.itajai.viewcadastrolotesfazenda3857:0")
                 .on(mapa)
                 .at(e.latlng)
                 .run(function (error, featureCollection) {
@@ -340,7 +340,7 @@
             }, {
                 title: 'Inscrição imob.',
                 field: 'ninscrao',
-                width: 150
+                width: 153
             }, {
                 title: 'zona<br>(preliminar)',
                 field: 'zon',
@@ -401,7 +401,7 @@
             }, {
                 title: 'Inscrição imob.',
                 field: 'ninscrao',
-                width: 150
+                width: 153
             }, {
                 title: 'zona<br>(preliminar)',
                 field: 'zon',
@@ -466,7 +466,7 @@
             }, {
                 title: 'Inscrição imob.',
                 field: 'ninscrao',
-                width: 150
+                width: 153
             }, {
                 title: 'zona<br>(preliminar)',
                 field: 'zon',
@@ -523,9 +523,7 @@
         function pCestiloDestaque(e) {
             plantaCadastralDestaque.clearLayers();
             table.setData([]);
-            let tipoconflito;
             let tipoconsultas;
-            let inscricaoimob = e.features[0].properties.inscricao;
             let zoneamento = e.features[0].properties.zon2012.trim();
             let zoneamentoalvara = e.features[0].properties.zon2012pre.trim();
             if (consultaZoneamentolista.includes(zoneamento) && consultaZoneamentolista.includes(zoneamentoalvara)) {
@@ -543,6 +541,7 @@
                 table.setColumns(colunaspadrao);
             };
             //dados tabela
+            let inscricaoimob = e.features[0].properties.inscricao;
             let inscricaowhereimovel = `lote_inscricao='${inscricaoimob}'`;
             let objtabela = [];
             let consultapreviap;
