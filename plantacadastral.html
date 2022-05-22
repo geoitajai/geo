@@ -79,13 +79,11 @@
         </div>
         <div id='conteiner0b'>
             <div id='barraLateral'>
-                <h3>Início</h3>
+                <h3 class='titulobarra'>Início</h3>
                 <div class='conteudobarralateral'>
                     <center>
                         <p>Secretaria Municipal da Fazenda</p>
                         <p><small>Cadastro Técnico Municipal</small></p>
-                        <hr>
-                        <p><small>Clique sobre um lote ou via para visualizar as propriedades.</small></p>
                         <p><small>Mais informações:</small>
                             <a href="https://geo.itajai.sc.gov.br/geoitajai/" target="_blank">
                                 <font size="2" color="black">
@@ -95,7 +93,7 @@
                     </center>
                     </a>
                 </div>
-                <h3> Grau de Risco Atividades</h3>
+                <h3 class='titulobarra'> Grau de Risco Atividades</h3>
                 <div class='conteudobarralateral'>
                     <p>
                         <center><small>Anexo lei Nº 11.985, DE 24 DE AGOSTO DE 2020:</small></center>
@@ -123,12 +121,12 @@
                         </a>
                     </p>
                 </div>
-                <h3>Zoneamento</h3>
+                <h3 class='titulobarra'>Zoneamento</h3>
                 <div class='conteudobarralateral'>
                     <p>
                         <a href="http://leismunicipa.is/pfdkq" target="_blank">
                             <font size="2" color="black">
-                                Lei complementar nº215, de 31 de dezembro de 2012 - Anexo I
+                                Lei complementar nº215, 31-12-2012
                             </font>
                         </a>
                     </p>
@@ -140,14 +138,8 @@
                     </p>
                     <hr>
                     <p><small>Clique em uma zona no mapa para visualizar os parâmetros.</small></p>
-                    </br>
-                    <a href="https://geoitajai.github.io/geo/plantacadastralconsultaprevia.html" target="_blank">
-                        <font size="2" color="black">
-                            Mapa com ajuda, dedicado apenas a consulta prévia.
-                        </font>
-                    </a>
                 </div>
-                <h3>Engenharia de Trânsito</h3>
+                <h3 class='titulobarra'>Engenharia de Trânsito</h3>
                 <div>
                     <p>
                         <center>
@@ -165,6 +157,19 @@
                     <hr>
                     <p><small>Estudo conceitual.</small></p>
                 </div>
+<!--            <h3 class='titulobarra'>Parcelamento do solo</h3>
+                <div>
+                    <center>
+                        <p>
+                            <font size="2">
+                                <strong>
+                                    Relação parcial, loteamentos e outros processos.
+                                </strong>
+                            </font>
+                        </p>
+                        <p><small>Municipal de Desenvolvimento Urbano e Habitação</small></p>
+                    </center>
+                </div> -->
             </div>
             <div id="mapa">mapa</div>
         </div>
@@ -181,7 +186,9 @@
     <script>
         $(function () {
             $('#barraLateral').accordion({
+                //collapsible: true,
                 heightStyle: 'content',
+                animate: false,
                 activate: function (event, ui) { }
             });
         });

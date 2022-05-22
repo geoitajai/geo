@@ -27,8 +27,8 @@ body {
     display: flex;
     flex-direction: row;
     background-color: var(--claro);
-    height: 190px;
-    min-height: 190px;
+    height: 170px;
+    min-height: 170px;
 }
 
 #txt_tabela {
@@ -90,9 +90,8 @@ body {
 }
 
 .conteudobarralateral {
-    margin-top: 0px;
-    border: 0px;
-    line-height: 90%;
+    font-size: 80%;
+    line-height: 14px;
 }
 
 #hamburger {
@@ -133,6 +132,10 @@ ul.ui-autocomplete {
 .ui-accordion {
     overflow-x: hidden;
     overflow-y: scroll;
+}
+
+#barraLateral .titulobarra {
+    font-size: smaller;
 }
 
 .ui-state-active,
