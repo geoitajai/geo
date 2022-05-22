@@ -157,7 +157,7 @@
                     <hr>
                     <p><small>Estudo conceitual.</small></p>
                 </div>
-<!--            <h3 class='titulobarra'>Parcelamento do solo</h3>
+                <!--            <h3 class='titulobarra'>Parcelamento do solo</h3>
                 <div>
                     <center>
                         <p>
@@ -186,14 +186,12 @@
     <script>
         $(function () {
             $('#barraLateral').accordion({
-                //collapsible: true,
                 heightStyle: 'content',
-                animate: false,
-                activate: function (event, ui) { }
+                activate: (event, ui) => { }
             });
         });
 
-        $('#hamburger').click(function () {
+        $('#hamburger').click(() => {
             $('#barraLateral').toggle();
             mapa.invalidateSize();
         });
@@ -225,14 +223,14 @@
 
         //interatividade com mapa
         let zoomresultado = false;
-        mapa.on('click', function (e) {
+        mapa.on('click', (e) => {
             coordmapa.setCoordinates(e);
             malhacadastral
                 .identify()
                 .layers("gisdb.itajai.viewcadastrolotesfazenda3857:0")
                 .on(mapa)
                 .at(e.latlng)
-                .run(function (error, featureCollection) {
+                .run((error, featureCollection) => {
                     if (error) {
                         return;
                     }
@@ -289,7 +287,7 @@
         let nortemapa = L.control({
             position: 'bottomright'
         });
-        nortemapa.onAdd = function (map) {
+        nortemapa.onAdd = (map) => {
             let div = L.DomUtil.create('div', 'info2 legend');
             div.innerHTML +=
                 '<center><sub><font size="4">▲</font></sub><br/>' +
@@ -530,6 +528,7 @@
         function pCestiloDestaque(e) {
             plantaCadastralDestaque.clearLayers();
             table.setData([]);
+            //zoneamento e alvará
             let tipoconsultas;
             let zoneamento = e.features[0].properties.zon2012.trim();
             let zoneamentoalvara = e.features[0].properties.zon2012pre.trim();
@@ -734,7 +733,7 @@
                                 cadastroimoveisptscodimov.where(`aut_codigo_imovel='${$("#pesquisaRapida").val()}'`)
                                     .returnGeometry(false)
                                     .limit(1)
-                                    .fields(['lote_inscricao']).run(function (error, fcolcod) {
+                                    .fields(['lote_inscricao']).run((error, fcolcod) => {
                                         if (fcolcod.features.length == 0) {
                                             alert("Não encontrado");
                                         } else {
@@ -769,7 +768,7 @@
                     });
                 });
             });
-        $("#pesquisaRapida").click(function () {
+        $("#pesquisaRapida").click(() => {
             $(this).select();
         });
 
@@ -917,7 +916,7 @@
         mapa.addControl(new customControl());
 
         //Limites Município
-        $.getJSON("data/limintermunicipais.geojson", function (data) {
+        $.getJSON("data/limintermunicipais.geojson", (data) => {
             L.geoJson(data, {
                 style: (feature) => {
                     return {
@@ -949,7 +948,7 @@
                 cadastroimoveisptscodimov.where(`aut_codigo_imovel='${dados[1]}'`)
                     .returnGeometry(false)
                     .limit(1)
-                    .fields(['lote_inscricao']).run(function (error, codhash) {
+                    .fields(['lote_inscricao']).run((error, codhash) => {
                         if (codhash.features.length == 0) {
                             alert("Não encontrado");
                         } else {
