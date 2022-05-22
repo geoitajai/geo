@@ -27,17 +27,16 @@ body {
     display: flex;
     flex-direction: row;
     background-color: var(--claro);
-    height: 170px;
-    min-height: 170px;
+    height: 150px;
+    min-height: 150px;
 }
 
 #txt_tabela {
     background-color: var(--claro);
     height: 100%;
     font-size: smaller;
-    max-height: 110px;
-    min-width: 150px;
-    max-width: 200px;
+    min-width: 123px;
+    max-width: 123px;
     overflow-y: hidden;
     overflow-x: hidden;
 }
@@ -98,15 +97,17 @@ body {
     background: var(--base);
     top: 0;
     right: 0;
-    line-height: 25px;
+    line-height: 20px;
     padding: 0px 10px 0px 10px;
     color: white;
     border: 0;
-    font-size: 1.4em;
-    font-weight: bold;
+    font-size: 1em;
     cursor: pointer;
     outline: none;
-    z-index: 10000000000000;
+}
+
+#barraLateral .titulobarra {
+    font-size: smaller;
 }
 
 @media (max-width: 550px) {
@@ -132,10 +133,6 @@ ul.ui-autocomplete {
 .ui-accordion {
     overflow-x: hidden;
     overflow-y: scroll;
-}
-
-#barraLateral .titulobarra {
-    font-size: smaller;
 }
 
 .ui-state-active,
