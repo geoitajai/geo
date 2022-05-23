@@ -81,7 +81,6 @@ $.getJSON("data/zon2012webtabela.geojson", (data) => {
             else corzona = "#fff";
             return { stroke: false, fillColor: corzona, fillOpacity: 0.4 };
         },
-        pane: 'marker_overlay',
         onEachFeature: (feature, layer) => {
             layer.bindPopup(
                 '<strong>' + 'Zona: ' + feature.properties.abrevia + '</strong>' + '<br/>' +
@@ -159,7 +158,7 @@ $.getJSON("data/zon2012webtabela.geojson", (data) => {
                 '</table>'
             )
         },
-        pane: 'basemap_overlay'
+        pane: 'marker_overlay'
     }).addTo(plantaZoneamento);
 });
 
