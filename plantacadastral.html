@@ -225,7 +225,6 @@
         const coordmapa = new L.Control.Coordinates({ promptText: 'Coordenadas para a área de transferência, utilize Ctrl+C', position: 'bottomright' }).addTo(mapa);
 
         //interatividade com mapa
-        let zoomresultado = false;
         let loteresultado = true;
         mapa.on('click', (e) => {
             coordmapa.setCoordinates(e);
@@ -878,6 +877,7 @@
                 if (plantaZoneamento == undefined) {
                     $.getScript('data/zon2012.js', () => { });
                 } else {
+                    loteresultado = false;
                     mapa.addLayer(plantaZoneamento);
                 }
             }

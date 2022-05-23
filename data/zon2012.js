@@ -1,4 +1,5 @@
 plantaZoneamento = L.featureGroup();
+loteresultado = false;
 
 $.getJSON("data/zon2012webtabela.geojson", (data) => {
     L.geoJson(data, {
@@ -80,6 +81,7 @@ $.getJSON("data/zon2012webtabela.geojson", (data) => {
             else corzona = "#fff";
             return { stroke: false, fillColor: corzona, fillOpacity: 0.4 };
         },
+        pane: 'marker_overlay',
         onEachFeature: (feature, layer) => {
             layer.bindPopup(
                 '<strong>' + 'Zona: ' + feature.properties.abrevia + '</strong>' + '<br/>' +
