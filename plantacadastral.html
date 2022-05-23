@@ -85,6 +85,7 @@
                         <p>Secretaria Municipal da Fazenda</p>
                         <p><small>Cadastro Técnico Municipal</small></p>
                         <p><small>Mais informações:</small>
+                            <br>
                             <a href="https://geo.itajai.sc.gov.br/geoitajai/" target="_blank">
                                 <font size="2" color="black">
                                     PORTAL GEOITAJAÍ
@@ -157,19 +158,19 @@
                     <hr>
                     <p><small>Estudo conceitual.</small></p>
                 </div>
-                <!--            <h3 class='titulobarra'>Parcelamento do solo</h3>
+                <h3 class='titulobarra'>Parcelamento do solo</h3>
                 <div>
                     <center>
                         <p>
                             <font size="2">
                                 <strong>
-                                    Relação parcial, loteamentos e outros processos.
+                                    Relação parcial, loteamentos e parcelamento do solo.
                                 </strong>
                             </font>
                         </p>
                         <p><small>Municipal de Desenvolvimento Urbano e Habitação</small></p>
                     </center>
-                </div> -->
+                </div>
             </div>
             <div id="mapa">mapa</div>
         </div>
@@ -186,8 +187,8 @@
     <script>
         $(function () {
             $('#barraLateral').accordion({
-                heightStyle: 'content',
-                activate: (event, ui) => { }
+                heightStyle: 'content'
+                //activate: (event, ui) => { }
             });
         });
 
@@ -216,29 +217,34 @@
         mapa.getPane('basemap_numeracao').style.zIndex = 401;
         mapa.getPane('basemap_numeracao').style.pointerEvents = 'none';
         mapa.createPane('basemap_overlay');
-        mapa.getPane('basemap_overlay').style.zIndex = 402;
+        mapa.getPane('basemap_overlay').style.zIndex = 601;
+        mapa.createPane('marker_overlay');
+        mapa.getPane('marker_overlay').style.zIndex = 601;
 
         //coordenadas no click
         const coordmapa = new L.Control.Coordinates({ promptText: 'Coordenadas para a área de transferência, utilize Ctrl+C', position: 'bottomright' }).addTo(mapa);
 
         //interatividade com mapa
         let zoomresultado = false;
+        let loteresultado = true;
         mapa.on('click', (e) => {
             coordmapa.setCoordinates(e);
-            malhacadastral
-                .identify()
-                .layers("gisdb.itajai.viewcadastrolotesfazenda3857:0")
-                .on(mapa)
-                .at(e.latlng)
-                .run((error, featureCollection) => {
-                    if (error) {
-                        return;
-                    }
-                    if (featureCollection.features.length == 1) {
-                        zoomresultado = false;
-                        pCestiloDestaque(featureCollection);
-                    }
-                });
+            if (loteresultado == true) {
+                malhacadastral
+                    .identify()
+                    .layers("gisdb.itajai.viewcadastrolotesfazenda3857:0")
+                    .on(mapa)
+                    .at(e.latlng)
+                    .run((error, featureCollection) => {
+                        if (error) {
+                            return;
+                        }
+                        if (featureCollection.features.length == 1) {
+                            zoomresultado = false;
+                            pCestiloDestaque(featureCollection);
+                        }
+                    });
+            };
         });
 
         //#basemaps
@@ -517,6 +523,7 @@
         let table = new Tabulator('#tabelatabulator', {
             height: '100%',
             layout: 'fitColumns',
+            selectable: 1,
             columns: colunaspadrao
         });
         let consultaZoneamento = {
@@ -804,8 +811,7 @@
                             'Lei/data: ' + via.leidata + '</br>' +
                             'Cx.da via: ' + via.largura + 'm' + ' - Passeios:' + via.passeiod + '/' + via.passeioe + 'm' + '</br>' +
                             'Código: ' + via.cod
-                        )
-                        .openOn(mapa);
+                        ).openOn(mapa);
                 });
             L.geoJson(e.sourceTarget.feature, {
                 style: (feature) => {
@@ -837,6 +843,7 @@
             fields: ['nome', 'codsecao', 'cod', 'objectid'],
             minZoom: 17,
             precision: 6,
+            pane: 'marker_overlay',
             style: (feature) => {
                 return {
                     color: '#ffffff00',
@@ -849,13 +856,21 @@
         //#camadas, barra lateral
         let detpropostas;
         let plantaZoneamento;
+        let parcelamentodosolo;
+        let tabelaparcelamento = [];
 
         //#controle de camadas
         let limparcamadas = () => {
             if (mapa.hasLayer(detpropostas)) mapa.removeLayer(detpropostas);
             if (mapa.hasLayer(plantaZoneamento)) mapa.removeLayer(plantaZoneamento);
+            if (mapa.hasLayer(parcelamentodosolo)) mapa.removeLayer(parcelamentodosolo);
+            loteresultado = true;
         };
         $("#barraLateral").on("accordionactivate", (event, ui) => {
+            if (ui.oldHeader["0"].textContent === 'Parcelamento do solo') {
+                table.setColumns(colunaspadrao);
+                table.setData();
+            };
             if (
                 ui.newHeader["0"].textContent === 'Zoneamento'
             ) {
@@ -874,6 +889,19 @@
                     $.getScript('data/detpropostas.js', () => { });
                 } else {
                     mapa.addLayer(detpropostas);
+                }
+            }
+            else if (
+                ui.newHeader["0"].textContent === 'Parcelamento do solo'
+            ) {
+                limparcamadas();
+                if (parcelamentodosolo == undefined) {
+                    $.getScript('data/parcelamentodosolo.js', () => { });
+                } else {
+                    mapa.addLayer(parcelamentodosolo);
+                    loteresultado = false;
+                    table.setColumns(colunasparcelamento);
+                    table.setData(tabelaparcelamento);
                 }
             }
             else {
