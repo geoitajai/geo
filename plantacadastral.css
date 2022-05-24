@@ -32,8 +32,9 @@ body {
 }
 
 #txt_tabela {
-    background-color: var(--claro);
+    color: var(--escuro);
     height: 100%;
+    margin: 3px;
     font-size: smaller;
     min-width: 123px;
     max-width: 123px;
