@@ -91,6 +91,12 @@
                                     PORTAL GEOITAJAÍ
                                 </font>
                         </p>
+                        <p>
+                            <a href="https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/arquivos.html" target="_blank">
+                                <font size="2" color="black">
+                                    Downloads
+                                </font>
+                        </p>
                     </center>
                     </a>
                 </div>
@@ -99,7 +105,8 @@
                     <p>
                         <center><small>Anexo lei Nº 11.985, DE 24 DE AGOSTO DE 2020:</small></center>
                     </p>
-                    <a href="https://geoitajai.github.io/geo/tabela_risco.html" target="_blank">
+                    <a href="https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/tabela_risco.html"
+                        target="_blank">
                         <center>
                             <font size="2">
                                 - LINK CONSULTA<br>TABELA DE GRAU DE RISCO / CÓDIGO CNAE
@@ -190,7 +197,6 @@
         $(function () {
             $('#barraLateral').accordion({
                 heightStyle: 'content'
-                //activate: (event, ui) => { }
             });
         });
 
@@ -228,9 +234,11 @@
 
         //interatividade com mapa
         let loteresultado = true;
+        zoomresultado = false;
         mapa.on('click', (e) => {
             coordmapa.setCoordinates(e);
-            if (loteresultado == true) {
+            if (loteresultado == true && mapa.getZoom() >= 16) {
+                console.log(mapa.getZoom())
                 malhacadastral
                     .identify()
                     .layers("gisdb.itajai.viewcadastrolotesfazenda3857:0")
@@ -570,11 +578,11 @@
                         } else if (tipoconsultas == 'soalvara') {
                             linkinfo = 'clique para abrir';
                             consultapreviap = `${consultaZoneamento[zoneamento]}`;
-                            consultaalvara = `https://geoitajai.github.io/geo/consultaalvara.html#${el.properties.lote_inscricao}`;
+                            consultaalvara = `https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/consultaalvara.html#${el.properties.lote_inscricao}`;
                         } else {
                             linkinfo = 'clique para abrir';
-                            consultapreviap = `https://geoitajai.github.io/geo/consultazoneamento.html#${el.properties.lote_inscricao}`;
-                            consultaalvara = `https://geoitajai.github.io/geo/consultaalvara.html#${el.properties.lote_inscricao}`;
+                            consultapreviap = `https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/consultazoneamento.html#${el.properties.lote_inscricao}`;
+                            consultaalvara = `https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/consultaalvara.html#${el.properties.lote_inscricao}`;
                         };
                         objtabela.push({
                             'consultaprevia': consultapreviap,
@@ -784,7 +792,7 @@
         let malhacadastral = new L.esri.dynamicMapLayer({
             url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/malha_cadastral_raster/MapServer/',
             pane: 'basemap_numeracao',
-            minZoom: 15,
+            minZoom: 16,
             maxZoom: 19,
             opacity: 0.9
         }).addTo(mapa);
