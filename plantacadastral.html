@@ -792,11 +792,10 @@
         let malhacadastral = L.esri.dynamicMapLayer({
             url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/malha_cadastral_raster/MapServer/',
             pane: 'basemap_numeracao',
-            minZoom: 16,
+            minZoom: 15,
             maxZoom: 19,
-            opacity: 0.65,
+            opacity: 0.75,
             f: 'image',
-            transparent: true,
             format: 'png8'
         }).addTo(mapa);
 
