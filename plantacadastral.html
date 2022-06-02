@@ -238,7 +238,7 @@
         zoomresultado = false;
         mapa.on('click', (e) => {
             coordmapa.setCoordinates(e);
-            if (loteresultado == true && mapa.getZoom() >= 16) {
+            if (loteresultado == true && mapa.getZoom() >= 15) {
                 malhacadastral
                     .identify()
                     .layers("gisdb.itajai.viewcadastrolotesfazenda3857:0")
@@ -774,9 +774,11 @@
                                 .distinct()
                                 .run((error, psqvias) => {
                                     psqvias.features.map(e => {
-                                        let enderecomont = `${pesquisaval},${e.properties.numero}`;
-                                        itensPesquisaCompletos[enderecomont] = e.properties.inscricao;
-                                        itensPesquisa.push(enderecomont);
+                                        if (e.properties.numero != null) {
+                                            let enderecomont = `${pesquisaval},${e.properties.numero}`;
+                                            itensPesquisaCompletos[enderecomont] = e.properties.inscricao;
+                                            itensPesquisa.push(enderecomont);
+                                        };
                                     });
                                     itenspesquisa = itensPesquisa;
                                 });
@@ -800,6 +802,14 @@
             f: 'image',
             format: 'png8'
         }).addTo(mapa);
+
+        //teste basemap
+        //let tilezonea = L.tileLayer('data/tiles_lotes/{z}/{x}/{y}.png', {
+        //    //minZoom: 12,
+        //    maxZoom: 19,
+        //    pane: 'basemap_numeracao',
+        //    opacity: 0.5
+        //}).addTo(mapa);
 
         let malhacadastralpesquisa = new L.esri.featureLayer({
             url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/malha_cadastral_raster/FeatureServer/0/'
