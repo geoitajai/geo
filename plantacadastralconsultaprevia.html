@@ -167,21 +167,24 @@
 
         //interatividade com mapa
         let zoomresultado = false;
+        let loteresultado = true;
         mapa.on('click', function (e) {
-            malhacadastral
-                .identify()
-                .layers("gisdb.itajai.viewcadastrolotesfazenda3857:0") // just the counties sublayer
-                .on(mapa)
-                .at(e.latlng)
-                .run(function (error, featureCollection) {
-                    if (error) {
-                        return;
-                    }
-                    if (featureCollection.features.length == 1) {
-                        zoomresultado = false;
-                        pCestiloDestaque(featureCollection);
-                    }
-                });
+            if (loteresultado == true && mapa.getZoom() >= 15) {
+                malhacadastral
+                    .identify()
+                    .layers("gisdb.itajai.viewcadastrolotesfazenda3857:0") // just the counties sublayer
+                    .on(mapa)
+                    .at(e.latlng)
+                    .run(function (error, featureCollection) {
+                        if (error) {
+                            return;
+                        }
+                        if (featureCollection.features.length == 1) {
+                            zoomresultado = false;
+                            pCestiloDestaque(featureCollection);
+                        }
+                    });
+            };
         });
 
         let tilesmu = L.esri.Vector.vectorTileLayer("7a110ef9198540068341e6908c6bf298", {
@@ -542,7 +545,9 @@
             pane: 'basemap_numeracao',
             minZoom: 15,
             maxZoom: 19,
-            opacity: 0.7
+            opacity: 0.45,
+            f: 'image',
+            format: 'png8'
         }).addTo(mapa);
 
         let malhacadastralpesquisa = new L.esri.featureLayer({
