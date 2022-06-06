@@ -63,6 +63,10 @@
         font-size: 14px;
     }
 
+    #filter-area {
+        text-align: right;
+    }
+
     #navegacao {
         display: flex;
     }
@@ -95,6 +99,10 @@
         border-bottom: 0px;
     }
 
+    .tabulator-tableholder {
+        overflow-x: hidden;
+    }
+
     .tabulator .tabulator-header,
     .tabulator .tabulator-header .tabulator-col {
         background-color: var(--base);
@@ -113,8 +121,8 @@
                 GRAU DE RISCO
             </div>
         </div>
-        <div class="hline"></div>
-        <a href='https://drive.google.com/file/d/1QBGSb1oYQ_TShbQawYQ1kR6LVJ3J-A7Z/view?usp=sharing'><b>
+        <a class="no-print"
+            href='https://drive.google.com/file/d/1QBGSb1oYQ_TShbQawYQ1kR6LVJ3J-A7Z/view?usp=sharing'><b>
                 VISUALIZAR INSTRUÇÕES DE USO</b></a>
         <div class="hline"></div>
         <div id='pesquisa'>
@@ -129,13 +137,14 @@
                             Decreto Nº 11.956,<br>24 de Agosto de 2020.</b></a><br>
                 </div>
             </div>
-            <div class="hline"></div>
+            <h4 class="no-print">Inicie a pesquisa com os códigos e área, em seguida clique em consultar</h4>
             <div>
-                <input id='filter-value' type='text' size='48'
+                <input class="no-print" id='filter-value' type='text' size='48'
                     placeholder='códigos separados por espaço, ex: 26.10-8-00 68.10-2-01'>
-                <button id='filter-clear' class='botao' type='button'>limpar</button><br>
-                <input id='filter-area' type='text' size='48' placeholder='área total ocupada(apenas números)'>
-                <button id='filter-enter' class='botao' type='button'>consultar</button><br>
+                <button class="no-print" id='filter-clear' class='botao' type='button'>limpar</button><br>
+                <input id='filter-area' type='text' size='45' placeholder='área total ocupada(apenas números)'><span>
+                    m²</span>
+                <button class="no-print" id='filter-enter' class='botao' type='button'>consultar</button><br>
                 <div class="hline"></div>
                 <button type="button" class="no-print" id="botaoimprimir">
                     IMPRESSÃO/SALVAR PDF
@@ -153,6 +162,7 @@
 
 <script>
     updateFilter = () => {
+        table.setData(tabrisco);
         table.setHeaderFilterValue('denominacao', null);
         let valores_filtro = document.getElementById('filter-value');
         if (valores_filtro.value != '') {
@@ -204,10 +214,11 @@
     });
 
     document.getElementById('filter-clear').addEventListener('click', () => {
-        document.getElementById('filter-value').value = '';
-        table.clearFilter();
-        document.getElementById('resultado').style.backgroundColor = 'white';
-        document.getElementById('resultado').innerHTML = '<h4>...<br>...</h4>';
+        document.location.reload();
+        //document.getElementById('filter-value').value = '';
+        //table.clearFilter();
+        //document.getElementById('resultado').style.backgroundColor = 'white';
+        //document.getElementById('resultado').innerHTML = '<h4>...<br>...</h4>';
     });
 
     desagrupar = () => {
@@ -253,62 +264,8 @@
         height: '100%',
         layout: 'fitColumns',
         groupBy: ['divisao'],
-        groupStartOpen: false,
+        //groupStartOpen: false,
         groupToggleElement: "header",
-        data: tabrisco,
-        dataFiltered: (filters, rows) => {
-            if (filters.length > 0) {
-                let area_filtro = document.getElementById('filter-area');
-                let compr = rows.length;
-                let ate200 = [];
-                let d200a400 = [];
-                let acima400 = [];
-                for (let e of rows) {
-                    ate200.push(e._row.data['100a200'])
-                    d200a400.push(e._row.data['200a400'])
-                    acima400.push(e._row.data['acima400'])
-                    compr--;
-                    if (compr === 0) {
-                        if (isNaN(parseInt(area_filtro.value)) === true) {
-                            alert('área digitada não é um número válido');
-                        } else if (parseInt(area_filtro.value) <= 200) {
-                            if (ate200.includes('Alto')) {
-                                document.getElementById('resultado').style.backgroundColor = 'rgb(255, 0, 0, 0.3)';
-                                document.getElementById('resultado').innerHTML = `<h4>Dentre os valores, grau de risco para a área: ${area_filtro.value}m2,<br><b>ALTO</b></h4>`;
-                            } else if (ate200.includes('Médio')) {
-                                document.getElementById('resultado').style.backgroundColor = 'rgb(255, 204, 102, 0.3)';
-                                document.getElementById('resultado').innerHTML = `<h4>Dentre os valores, grau de risco para a área: ${area_filtro.value}m2,<br><b>MÉDIO</b></h4>`;
-                            } else if (ate200.includes('Baixo')) {
-                                document.getElementById('resultado').style.backgroundColor = 'rgb(153, 255, 102, 0.3)';
-                                document.getElementById('resultado').innerHTML = `<h4>Dentre os valores, grau de risco para a área: ${area_filtro.value}m2,<br><b>BAIXO</b></h4>`;
-                            };
-                        } else if (parseInt(area_filtro.value) > 200 && parseInt(area_filtro.value) <= 400) {
-                            if (d200a400.includes('Alto')) {
-                                document.getElementById('resultado').style.backgroundColor = 'rgb(255, 0, 0, 0.3)';
-                                document.getElementById('resultado').innerHTML = `<h4>Dentre os valores, grau de risco para a área: ${area_filtro.value}m2,<br><b>ALTO</b></h4>`;
-                            } else if (d200a400.includes('Médio')) {
-                                document.getElementById('resultado').style.backgroundColor = 'rgb(255, 204, 102, 0.3)';
-                                document.getElementById('resultado').innerHTML = `<h4>Dentre os valores, grau de risco para a área: ${area_filtro.value}m2,<br><b>MÉDIO</b></h4>`;
-                            } else if (d200a400.includes('Baixo')) {
-                                document.getElementById('resultado').style.backgroundColor = 'rgb(153, 255, 102, 0.3)';
-                                document.getElementById('resultado').innerHTML = `<h4>Dentre os valores, grau de risco para a área: ${area_filtro.value}m2,<br><b>BAIXO</b></h4>`;
-                            };
-                        } else if (parseInt(area_filtro.value) > 400) {
-                            if (acima400.includes('Alto')) {
-                                document.getElementById('resultado').style.backgroundColor = 'rgb(255, 0, 0, 0.3)';
-                                document.getElementById('resultado').innerHTML = `<h4>Dentre os valores, grau de risco para a área: ${area_filtro.value}m2,<br><b>ALTO</b></h4>`;
-                            } else if (acima400.includes('Médio')) {
-                                document.getElementById('resultado').style.backgroundColor = 'rgb(255, 204, 102, 0.3)';
-                                document.getElementById('resultado').innerHTML = `<h4>Dentre os valores, grau de risco para a área: ${area_filtro.value}m2,<br><b>MÉDIO</b></h4>`;
-                            } else if (acima400.includes('Baixo')) {
-                                document.getElementById('resultado').style.backgroundColor = 'rgb(153, 255, 102, 0.3)';
-                                document.getElementById('resultado').innerHTML = `<h4>Dentre os valores, grau de risco para a área: ${area_filtro.value}m2,<br><b>BAIXO</b></h4>`;
-                            };
-                        }
-                    };
-                };
-            };
-        },
         columns: [
             {
                 title: 'Código', field: 'codigo', width: 75
@@ -372,6 +329,60 @@
                 }
             }
         ]
+    });
+
+    table.on("dataFiltered", function (filters, rows) {
+        if (filters.length > 0) {
+            let area_filtro = document.getElementById('filter-area');
+            let compr = rows.length;
+            let ate200 = [];
+            let d200a400 = [];
+            let acima400 = [];
+            for (let e of rows) {
+                ate200.push(e._row.data['100a200'])
+                d200a400.push(e._row.data['200a400'])
+                acima400.push(e._row.data['acima400'])
+                compr--;
+                if (compr === 0) {
+                    if (isNaN(parseInt(area_filtro.value)) === true) {
+                        alert('área digitada não é um número válido');
+                    } else if (parseInt(area_filtro.value) <= 200) {
+                        if (ate200.includes('Alto')) {
+                            document.getElementById('resultado').style.backgroundColor = 'rgb(255, 0, 0, 0.3)';
+                            document.getElementById('resultado').innerHTML = `<h4>Dentre os valores, grau de risco para a área: ${area_filtro.value}m2,<br><b>ALTO</b></h4>`;
+                        } else if (ate200.includes('Médio')) {
+                            document.getElementById('resultado').style.backgroundColor = 'rgb(255, 204, 102, 0.3)';
+                            document.getElementById('resultado').innerHTML = `<h4>Dentre os valores, grau de risco para a área: ${area_filtro.value}m2,<br><b>MÉDIO</b></h4>`;
+                        } else if (ate200.includes('Baixo')) {
+                            document.getElementById('resultado').style.backgroundColor = 'rgb(153, 255, 102, 0.3)';
+                            document.getElementById('resultado').innerHTML = `<h4>Dentre os valores, grau de risco para a área: ${area_filtro.value}m2,<br><b>BAIXO</b></h4>`;
+                        };
+                    } else if (parseInt(area_filtro.value) > 200 && parseInt(area_filtro.value) <= 400) {
+                        if (d200a400.includes('Alto')) {
+                            document.getElementById('resultado').style.backgroundColor = 'rgb(255, 0, 0, 0.3)';
+                            document.getElementById('resultado').innerHTML = `<h4>Dentre os valores, grau de risco para a área: ${area_filtro.value}m2,<br><b>ALTO</b></h4>`;
+                        } else if (d200a400.includes('Médio')) {
+                            document.getElementById('resultado').style.backgroundColor = 'rgb(255, 204, 102, 0.3)';
+                            document.getElementById('resultado').innerHTML = `<h4>Dentre os valores, grau de risco para a área: ${area_filtro.value}m2,<br><b>MÉDIO</b></h4>`;
+                        } else if (d200a400.includes('Baixo')) {
+                            document.getElementById('resultado').style.backgroundColor = 'rgb(153, 255, 102, 0.3)';
+                            document.getElementById('resultado').innerHTML = `<h4>Dentre os valores, grau de risco para a área: ${area_filtro.value}m2,<br><b>BAIXO</b></h4>`;
+                        };
+                    } else if (parseInt(area_filtro.value) > 400) {
+                        if (acima400.includes('Alto')) {
+                            document.getElementById('resultado').style.backgroundColor = 'rgb(255, 0, 0, 0.3)';
+                            document.getElementById('resultado').innerHTML = `<h4>Dentre os valores, grau de risco para a área: ${area_filtro.value}m2,<br><b>ALTO</b></h4>`;
+                        } else if (acima400.includes('Médio')) {
+                            document.getElementById('resultado').style.backgroundColor = 'rgb(255, 204, 102, 0.3)';
+                            document.getElementById('resultado').innerHTML = `<h4>Dentre os valores, grau de risco para a área: ${area_filtro.value}m2,<br><b>MÉDIO</b></h4>`;
+                        } else if (acima400.includes('Baixo')) {
+                            document.getElementById('resultado').style.backgroundColor = 'rgb(153, 255, 102, 0.3)';
+                            document.getElementById('resultado').innerHTML = `<h4>Dentre os valores, grau de risco para a área: ${area_filtro.value}m2,<br><b>BAIXO</b></h4>`;
+                        };
+                    }
+                };
+            };
+        };
     });
 
     document.getElementById('botaoimprimir').addEventListener('click', e => {
