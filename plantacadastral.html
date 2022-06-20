@@ -327,12 +327,12 @@
 
         //dados, imóveis
         let cadastroimoveispts = L.esri.query({
-            //url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/cadastroimoveispts/FeatureServer/0/'
-            url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/pts_imoveis_temp/FeatureServer/0/'
+            url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/cadastroimoveispts/FeatureServer/0/'
+            //url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/pts_imoveis_temp/FeatureServer/0/'
         });
         let cadastroimoveisptscodimov = L.esri.query({
-            //url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/cadastroimoveispts/FeatureServer/0/'
-            url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/pts_imoveis_temp/FeatureServer/0/'
+            url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/cadastroimoveispts/FeatureServer/0/'
+            //url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/pts_imoveis_temp/FeatureServer/0/'
         });
 
         //Definir elementos da tabela
@@ -358,11 +358,17 @@
             }, {
                 title: 'Cód.',
                 field: 'ncodimov',
-                width: 80
+                width: 80,
+                cellClick: function (e, cell) {
+                    navigator.clipboard.writeText(cell._cell.value);
+                }
             }, {
                 title: 'Inscrição imob.',
                 field: 'ninscrao',
-                width: 153
+                width: 153,
+                cellClick: function (e, cell) {
+                    navigator.clipboard.writeText(cell._cell.value);
+                }
             }, {
                 title: 'zona<br>(preliminar)',
                 field: 'zon',
@@ -419,11 +425,17 @@
             {
                 title: 'Cód.',
                 field: 'ncodimov',
-                width: 80
+                width: 80,
+                cellClick: function (e, cell) {
+                    navigator.clipboard.writeText(cell._cell.value);
+                }
             }, {
                 title: 'Inscrição imob.',
                 field: 'ninscrao',
-                width: 153
+                width: 153,
+                cellClick: function (e, cell) {
+                    navigator.clipboard.writeText(cell._cell.value);
+                }
             }, {
                 title: 'zona<br>(preliminar)',
                 field: 'zon',
@@ -484,11 +496,17 @@
             }, {
                 title: 'Cód.',
                 field: 'ncodimov',
-                width: 80
+                width: 80,
+                cellClick: function (e, cell) {
+                    navigator.clipboard.writeText(cell._cell.value);
+                }
             }, {
                 title: 'Inscrição imob.',
                 field: 'ninscrao',
-                width: 153
+                width: 153,
+                cellClick: function (e, cell) {
+                    navigator.clipboard.writeText(cell._cell.value);
+                }
             }, {
                 title: 'zona<br>(preliminar)',
                 field: 'zon',
@@ -535,6 +553,7 @@
             height: '100%',
             layout: 'fitColumns',
             selectable: 1,
+            //clipboard: true,
             columns: colunaspadrao
         });
         let consultaZoneamento = {
