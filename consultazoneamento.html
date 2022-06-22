@@ -214,6 +214,12 @@
         let plataformaMobile = isMobile();
 
         //criartablea
+        //let consultaZoneamento = {
+        //    pend: "conflito confrontantes",
+        //    pendpdz: "expansäo portuária, decr.11244/18",
+        //    pendjud: "conflito judicial"
+        //};
+        //consultaZoneamentolista = ['pend', 'pendpdz', 'pendjud'];
         criarTabela = (dadosTabela, largura, textoTamanho) => {
             let table = document.createElement('table');
             //id da tabela
@@ -245,6 +251,7 @@
         };
 
         // Dados Hash
+
         let plantaCadastralDestaque = L.featureGroup().addTo(mapa);
         let cadastro = L.esri.query({
             url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/malhacrs3857/FeatureServer/0/'
@@ -253,132 +260,145 @@
             url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/testadas/FeatureServer/0/'
         });
         hashendereco = (dados) => {
-            cadastro.where(`inscricao ='${String(dados[1])}'`)
-                .limit(1)
-                .run(function (error, cadastrolote) {
-                    //MontarMapa
-                    L.geoJson(cadastrolote, {
-                        style: {
-                            weight: 5,
-                            color: '#666',
-                            dashArray: '',
-                            fillOpacity: 0.7,
-                            interactive: false
-                        }
-                    }).addTo(plantaCadastralDestaque);
-                    mapa.flyToBounds(plantaCadastralDestaque.getBounds(), {
-                        maxZoom: 19
-                    });
-                    //----------------------------
-                    if (cadastrolote.features[0].properties.reaeroport !== null) {
-                        document.getElementById("reaeroporto").innerHTML = 'X'
-                    };
-                    if (cadastrolote.features[0].properties.redeptrans !== null) {
-                        document.getElementById("redeptransito").innerHTML = 'X'
-                    };
-                    if (cadastrolote.features[0].properties.zon2012.toString().search(/ZPA/) !== -1) {
-                        document.getElementById("reambiental").innerHTML = 'X'
-                    };
-                    if (cadastrolote.features[0].properties.rerodovias !== null) {
-                        document.getElementById("rerodovias").innerHTML = 'X'
-                    };
-                    if (cadastrolote.features[0].properties.repatrimon !== null) {
-                        document.getElementById("repatrimoniohistorico").innerHTML = 'X'
-                    };
-                    document.getElementById("reambiental").innerHTML = 'X';
-                    //Caixa vias
-                    testadas.where(`inscricao ='${String(dados[1])}'`)
-                        .fields(['nome', 'largura', 'passeioe', 'passeiod'])
-                        .distinct()
-                        .run(function (error, pautavias) {
-                            let vialinha = [];
-                            pautavias.features.forEach((viae) => {
-                                vialinha.push(`${viae.properties.nome} - Cx.da via: ${viae.properties.largura} - Passeios: ${viae.properties.passeiod}/ ${viae.properties.passeioe}m`)
+            $.ajax({
+                url: "https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/zoneamento_alvara_itajai/FeatureServer/0/query",
+                data: {
+                    f: "json", where: "lote_inscricao='202.085.04.0047'",
+                    outFields: "zon2012pre,zon2012,zon2012alt,repatrimon,redefesaci,reaeroport,redeptrans,rerodovias",
+                    returnGeometry: false
+                },
+                dataType: "jsonp",
+                jsonpCallback: "callback",
+                success: function (zonurb) {
+                    console.log(zonurb.features[0].attributes);
+                    cadastro.where(`inscricao ='${String(dados[1])}'`)
+                        .limit(1)
+                        .run(function (error, cadastrolote) {
+                            //MontarMapa
+                            L.geoJson(cadastrolote, {
+                                style: {
+                                    weight: 5,
+                                    color: '#666',
+                                    dashArray: '',
+                                    fillOpacity: 0.7,
+                                    interactive: false
+                                }
+                            }).addTo(plantaCadastralDestaque);
+                            mapa.flyToBounds(plantaCadastralDestaque.getBounds(), {
+                                maxZoom: 19
                             });
-                            let list = "<li>" + vialinha.join("</li><li>") + "</li>";
-                            document.getElementById("pautavias").innerHTML = list;
-                        });
-                    //DadosGerais
-                    ninscricao_check = cadastrolote.features[0].properties.inscricao == null ? 'verificar endereço cadastro' : cadastrolote.features[0].properties.inscricao.toString();
-                    nlogrado_check = cadastrolote.features[0].properties.nomevia == null ? ' ' : cadastrolote.features[0].properties.nomevia.toString();
-                    nnumimov_check = cadastrolote.features[0].properties.numero == null ? ' ' : cadastrolote.features[0].properties.numero.toString();
-                    document.getElementById("inscrimob").innerHTML = ninscricao_check;
-                    document.getElementById("endereco").innerHTML = nlogrado_check + ', ' + nnumimov_check;
-                    let datahj = new Date();
-                    var datahjFormatada = ("0" + datahj.getDate()).substr(-2) + "/"
-                        + ("0" + (datahj.getMonth() + 1)).substr(-2) + "/" + datahj.getFullYear();
-                    document.getElementById("data").innerHTML = datahjFormatada.toString();
-                    //MontarTabela
-                    const zoneamento = [cadastrolote.features[0].properties.zon2012.slice(1, -1).split(',')];
-                    dadosTabelaB = [];
-                    //Cálculo altura ZC 2|ZU 1,2 e 3
-                    function alturaCalc(zonalt, zonasec) {
-                        //const calcalt = cadastrolote.features[0].properties.zon2012;
-                        if (zonasec !== null && zonasec.toString().search(/ZC 2|ZU 1|ZU 2|ZU 3/) !== -1) {
-                            if (cadastrolote.features[0].properties.zon2012alt === null) {
-                                return '45m'
-                            }
-                            else {
-                                return cadastrolote.features[0].properties.zon2012alt
-                            }
-                        }
-                        else {
-                            return zonalt
-                        }
-                    };
-                    //zoneamento[0].forEach(addtabela);
-                    if (zoneamento[0][0] !== undefined) {
-                        //zoneamento,Campo1
-                        $.getJSON("data/zoneamento/exportTabela/" + zoneamento[0][0].slice(1, -1) + ".geojson", (data) => {
-                            //restr.ambiental
-                            let tabdata1 = data.map((feicoes1) => {
-                                let zalturaCalc = alturaCalc(feicoes1.properties.alturamax, feicoes1.properties.abrevia);
-                                return [feicoes1.properties.abrevia, feicoes1.properties.h1, feicoes1.properties.h2, feicoes1.properties.cs1, feicoes1.properties.cs2, feicoes1.properties.cs3, feicoes1.properties.co, feicoes1.properties.i1, feicoes1.properties.i2, feicoes1.properties.i3, feicoes1.properties.i4, feicoes1.properties.cse, feicoes1.properties.lotemaxare, feicoes1.properties.lotemaxtes, feicoes1.properties.lotemaxpro, zalturaCalc, feicoes1.properties.alturaemb, feicoes1.properties.coefaprov, feicoes1.properties.toemb, feicoes1.properties.totorre, feicoes1.properties.permeab, feicoes1.properties.embrecfron, feicoes1.properties.embreclat, feicoes1.properties.embreclatc]
-                            });
-                            dadosTabelaB.push(tabdata1[0]);
-                            if (zoneamento[0][1] !== undefined) {
-                                //zoneamento,Campo2
-                                $.getJSON("data/zoneamento/exportTabela/" + zoneamento[0][1].slice(1, -1) + ".geojson", (data) => {
-                                    let tabdata2 = data.map((feicoes2) => {
-                                        let zalturaCalc = alturaCalc(feicoes2.properties.alturamax, feicoes2.properties.abrevia);
-                                        return [feicoes2.properties.abrevia, feicoes2.properties.h1, feicoes2.properties.h2, feicoes2.properties.cs1, feicoes2.properties.cs2, feicoes2.properties.cs3, feicoes2.properties.co, feicoes2.properties.i1, feicoes2.properties.i2, feicoes2.properties.i3, feicoes2.properties.i4, feicoes2.properties.cse, feicoes2.properties.lotemaxare, feicoes2.properties.lotemaxtes, feicoes2.properties.lotemaxpro, zalturaCalc, feicoes2.properties.alturaemb, feicoes2.properties.coefaprov, feicoes2.properties.toemb, feicoes2.properties.totorre, feicoes2.properties.permeab, feicoes2.properties.embrecfron, feicoes2.properties.embreclat, feicoes2.properties.embreclatc]
+                            //----------------------------
+                            if (zonurb.features[0].attributes.reaeroport !== null) {
+                                document.getElementById("reaeroporto").innerHTML = 'X'
+                            };
+                            if (zonurb.features[0].attributes.redeptrans !== null) {
+                                document.getElementById("redeptransito").innerHTML = 'X'
+                            };
+                            //if (zonurb.features[0].attributes.zon2012.toString().search(/ZPA/) !== -1) {
+                            //    document.getElementById("reambiental").innerHTML = 'X'
+                            //};
+                            document.getElementById("reambiental").innerHTML = 'X';
+                            if (zonurb.features[0].attributes.rerodovias !== null) {
+                                document.getElementById("rerodovias").innerHTML = 'X'
+                            };
+                            if (zonurb.features[0].attributes.repatrimon !== null) {
+                                document.getElementById("repatrimoniohistorico").innerHTML = 'X'
+                            };
+                            //Caixa vias
+                            testadas.where(`inscricao ='${String(dados[1])}'`)
+                                .fields(['nome', 'largura', 'passeioe', 'passeiod'])
+                                .distinct()
+                                .run(function (error, pautavias) {
+                                    let vialinha = [];
+                                    pautavias.features.forEach((viae) => {
+                                        vialinha.push(`${viae.properties.nome} - Cx.da via: ${viae.properties.largura} - Passeios: ${viae.properties.passeiod}/ ${viae.properties.passeioe}m`)
                                     });
-                                    dadosTabelaB.push(tabdata2[0]);
-                                    if (zoneamento[0][2] !== undefined) {
-                                        //zoneamento,Campo3
-                                        $.getJSON("data/zoneamento/exportTabela/" + zoneamento[0][2].slice(1, -1) + ".geojson", (data) => {
-                                            let tabdata3 = data.map((feicoes3) => {
-                                                let zalturaCalc = alturaCalc(feicoes3.properties.alturamax, feicoes3.properties.abrevia);
-                                                return [feicoes3.properties.abrevia, feicoes3.properties.h1, feicoes3.properties.h2, feicoes3.properties.cs1, feicoes3.properties.cs2, feicoes3.properties.cs3, feicoes3.properties.co, feicoes3.properties.i1, feicoes3.properties.i2, feicoes3.properties.i3, feicoes3.properties.i4, feicoes3.properties.cse, feicoes3.properties.lotemaxare, feicoes3.properties.lotemaxtes, feicoes3.properties.lotemaxpro, zalturaCalc, feicoes3.properties.alturaemb, feicoes3.properties.coefaprov, feicoes3.properties.toemb, feicoes3.properties.totorre, feicoes3.properties.permeab, feicoes3.properties.embrecfron, feicoes3.properties.embreclat, feicoes3.properties.embreclatc]
-                                            });
-                                            dadosTabelaB.push(tabdata3[0]);
-                                            if (zoneamento[0][3] !== undefined) {
-                                                //zoneamento,Campo4
-                                                $.getJSON("data/zoneamento/exportTabela/" + zoneamento[0][3].slice(1, -1) + ".geojson", (data) => {
-                                                    let tabdata4 = data.map((feicoes4) => {
-                                                        let zalturaCalc = alturaCalc(feicoes4.properties.alturamax, feicoes4.properties.abrevia);
-                                                        return [feicoes4.properties.abrevia, feicoes4.properties.h1, feicoes4.properties.h2, feicoes4.properties.cs1, feicoes4.properties.cs2, feicoes4.properties.cs3, feicoes4.properties.co, feicoes4.properties.i1, feicoes4.properties.i2, feicoes4.properties.i3, feicoes4.properties.i4, feicoes4.properties.cse, feicoes4.properties.lotemaxare, feicoes4.properties.lotemaxtes, feicoes4.properties.lotemaxpro, zalturaCalc, feicoes4.properties.alturaemb, feicoes4.properties.coefaprov, feicoes4.properties.toemb, feicoes4.properties.totorre, feicoes4.properties.permeab, feicoes4.properties.embrecfron, feicoes4.properties.embreclat, feicoes4.properties.embreclatc]
-                                                    });
-                                                    dadosTabelaB.push(tabdata4[0]);
-                                                    if (zoneamento[0][4] !== undefined) {
-                                                        //zoneamento,Campo5
-                                                        $.getJSON("data/zoneamento/exportTabela/" + zoneamento[0][4].slice(1, -1) + ".geojson", (data) => {
-                                                            let tabdata5 = data.map((feicoes5) => {
-                                                                let zalturaCalc = alturaCalc(feicoes5.properties.alturamax, feicoes5.properties.abrevia);
-                                                                return [feicoes5.properties.abrevia, feicoes5.properties.h1, feicoes5.properties.h2, feicoes5.properties.cs1, feicoes5.properties.cs2, feicoes5.properties.cs3, feicoes5.properties.co, feicoes5.properties.i1, feicoes5.properties.i2, feicoes5.properties.i3, feicoes5.properties.i4, feicoes5.properties.cse, feicoes5.properties.lotemaxare, feicoes5.properties.lotemaxtes, feicoes5.properties.lotemaxpro, zalturaCalc, feicoes5.properties.alturaemb, feicoes5.properties.coefaprov, feicoes5.properties.toemb, feicoes5.properties.totorre, feicoes5.properties.permeab, feicoes5.properties.embrecfron, feicoes5.properties.embreclat, feicoes5.properties.embreclatc]
-                                                            });
-                                                            dadosTabelaB.push(tabdata5[0]);
-                                                        });
-                                                    } else { criarTabela(dadosTabelaB, '25%', '2.3mm') };// campo5
-                                                });
-                                            } else { criarTabela(dadosTabelaB, '33.3333%', '2.3mm') };// campo4
-                                        });
-                                    } else { criarTabela(dadosTabelaB, '50%', '2.3mm') };// campo3
+                                    let list = "<li>" + vialinha.join("</li><li>") + "</li>";
+                                    document.getElementById("pautavias").innerHTML = list;
                                 });
-                            } else { criarTabela(dadosTabelaB, '100%', '2.3mm') };// campo2
+                            //DadosGerais
+                            ninscricao_check = cadastrolote.features[0].properties.inscricao == null ? 'verificar endereço cadastro' : cadastrolote.features[0].properties.inscricao.toString();
+                            nlogrado_check = cadastrolote.features[0].properties.nomevia == null ? ' ' : cadastrolote.features[0].properties.nomevia.toString();
+                            nnumimov_check = cadastrolote.features[0].properties.numero == null ? ' ' : cadastrolote.features[0].properties.numero.toString();
+                            document.getElementById("inscrimob").innerHTML = ninscricao_check;
+                            document.getElementById("endereco").innerHTML = nlogrado_check + ', ' + nnumimov_check;
+                            let datahj = new Date();
+                            var datahjFormatada = ("0" + datahj.getDate()).substr(-2) + "/"
+                                + ("0" + (datahj.getMonth() + 1)).substr(-2) + "/" + datahj.getFullYear();
+                            document.getElementById("data").innerHTML = datahjFormatada.toString();
+                            //MontarTabela
+                            const zoneamento = [zonurb.features[0].attributes.zon2012.slice(1, -1).split(',')];
+                            dadosTabelaB = [];
+                            //Cálculo altura ZC 2|ZU 1,2 e 3
+                            function alturaCalc(zonalt, zonasec) {
+                                //const calcalt = cadastrolote.features[0].properties.zon2012;
+                                if (zonasec !== null && zonasec.toString().search(/ZC 2|ZU 1|ZU 2|ZU 3/) !== -1) {
+                                    if (zonurb.features[0].attributes.zon2012alt == null) {
+                                        return '45m'
+                                    }
+                                    else {
+                                        return zonurb.features[0].attributes.zon2012alt
+                                    }
+                                }
+                                else {
+                                    return zonalt
+                                }
+                            };
+                            //zoneamento[0].forEach(addtabela);
+                            if (zoneamento[0][0] !== undefined) {
+                                //zoneamento,Campo1
+                                $.getJSON("data/zoneamento/exportTabela/" + zoneamento[0][0].slice(1, -1) + ".geojson", (data) => {
+                                    //restr.ambiental
+                                    let tabdata1 = data.map((feicoes1) => {
+                                        let zalturaCalc = alturaCalc(feicoes1.properties.alturamax, feicoes1.properties.abrevia);
+                                        return [feicoes1.properties.abrevia, feicoes1.properties.h1, feicoes1.properties.h2, feicoes1.properties.cs1, feicoes1.properties.cs2, feicoes1.properties.cs3, feicoes1.properties.co, feicoes1.properties.i1, feicoes1.properties.i2, feicoes1.properties.i3, feicoes1.properties.i4, feicoes1.properties.cse, feicoes1.properties.lotemaxare, feicoes1.properties.lotemaxtes, feicoes1.properties.lotemaxpro, zalturaCalc, feicoes1.properties.alturaemb, feicoes1.properties.coefaprov, feicoes1.properties.toemb, feicoes1.properties.totorre, feicoes1.properties.permeab, feicoes1.properties.embrecfron, feicoes1.properties.embreclat, feicoes1.properties.embreclatc]
+                                    });
+                                    dadosTabelaB.push(tabdata1[0]);
+                                    if (zoneamento[0][1] !== undefined) {
+                                        //zoneamento,Campo2
+                                        $.getJSON("data/zoneamento/exportTabela/" + zoneamento[0][1].slice(1, -1) + ".geojson", (data) => {
+                                            let tabdata2 = data.map((feicoes2) => {
+                                                let zalturaCalc = alturaCalc(feicoes2.properties.alturamax, feicoes2.properties.abrevia);
+                                                return [feicoes2.properties.abrevia, feicoes2.properties.h1, feicoes2.properties.h2, feicoes2.properties.cs1, feicoes2.properties.cs2, feicoes2.properties.cs3, feicoes2.properties.co, feicoes2.properties.i1, feicoes2.properties.i2, feicoes2.properties.i3, feicoes2.properties.i4, feicoes2.properties.cse, feicoes2.properties.lotemaxare, feicoes2.properties.lotemaxtes, feicoes2.properties.lotemaxpro, zalturaCalc, feicoes2.properties.alturaemb, feicoes2.properties.coefaprov, feicoes2.properties.toemb, feicoes2.properties.totorre, feicoes2.properties.permeab, feicoes2.properties.embrecfron, feicoes2.properties.embreclat, feicoes2.properties.embreclatc]
+                                            });
+                                            dadosTabelaB.push(tabdata2[0]);
+                                            if (zoneamento[0][2] !== undefined) {
+                                                //zoneamento,Campo3
+                                                $.getJSON("data/zoneamento/exportTabela/" + zoneamento[0][2].slice(1, -1) + ".geojson", (data) => {
+                                                    let tabdata3 = data.map((feicoes3) => {
+                                                        let zalturaCalc = alturaCalc(feicoes3.properties.alturamax, feicoes3.properties.abrevia);
+                                                        return [feicoes3.properties.abrevia, feicoes3.properties.h1, feicoes3.properties.h2, feicoes3.properties.cs1, feicoes3.properties.cs2, feicoes3.properties.cs3, feicoes3.properties.co, feicoes3.properties.i1, feicoes3.properties.i2, feicoes3.properties.i3, feicoes3.properties.i4, feicoes3.properties.cse, feicoes3.properties.lotemaxare, feicoes3.properties.lotemaxtes, feicoes3.properties.lotemaxpro, zalturaCalc, feicoes3.properties.alturaemb, feicoes3.properties.coefaprov, feicoes3.properties.toemb, feicoes3.properties.totorre, feicoes3.properties.permeab, feicoes3.properties.embrecfron, feicoes3.properties.embreclat, feicoes3.properties.embreclatc]
+                                                    });
+                                                    dadosTabelaB.push(tabdata3[0]);
+                                                    if (zoneamento[0][3] !== undefined) {
+                                                        //zoneamento,Campo4
+                                                        $.getJSON("data/zoneamento/exportTabela/" + zoneamento[0][3].slice(1, -1) + ".geojson", (data) => {
+                                                            let tabdata4 = data.map((feicoes4) => {
+                                                                let zalturaCalc = alturaCalc(feicoes4.properties.alturamax, feicoes4.properties.abrevia);
+                                                                return [feicoes4.properties.abrevia, feicoes4.properties.h1, feicoes4.properties.h2, feicoes4.properties.cs1, feicoes4.properties.cs2, feicoes4.properties.cs3, feicoes4.properties.co, feicoes4.properties.i1, feicoes4.properties.i2, feicoes4.properties.i3, feicoes4.properties.i4, feicoes4.properties.cse, feicoes4.properties.lotemaxare, feicoes4.properties.lotemaxtes, feicoes4.properties.lotemaxpro, zalturaCalc, feicoes4.properties.alturaemb, feicoes4.properties.coefaprov, feicoes4.properties.toemb, feicoes4.properties.totorre, feicoes4.properties.permeab, feicoes4.properties.embrecfron, feicoes4.properties.embreclat, feicoes4.properties.embreclatc]
+                                                            });
+                                                            dadosTabelaB.push(tabdata4[0]);
+                                                            if (zoneamento[0][4] !== undefined) {
+                                                                //zoneamento,Campo5
+                                                                $.getJSON("data/zoneamento/exportTabela/" + zoneamento[0][4].slice(1, -1) + ".geojson", (data) => {
+                                                                    let tabdata5 = data.map((feicoes5) => {
+                                                                        let zalturaCalc = alturaCalc(feicoes5.properties.alturamax, feicoes5.properties.abrevia);
+                                                                        return [feicoes5.properties.abrevia, feicoes5.properties.h1, feicoes5.properties.h2, feicoes5.properties.cs1, feicoes5.properties.cs2, feicoes5.properties.cs3, feicoes5.properties.co, feicoes5.properties.i1, feicoes5.properties.i2, feicoes5.properties.i3, feicoes5.properties.i4, feicoes5.properties.cse, feicoes5.properties.lotemaxare, feicoes5.properties.lotemaxtes, feicoes5.properties.lotemaxpro, zalturaCalc, feicoes5.properties.alturaemb, feicoes5.properties.coefaprov, feicoes5.properties.toemb, feicoes5.properties.totorre, feicoes5.properties.permeab, feicoes5.properties.embrecfron, feicoes5.properties.embreclat, feicoes5.properties.embreclatc]
+                                                                    });
+                                                                    dadosTabelaB.push(tabdata5[0]);
+                                                                });
+                                                            } else { criarTabela(dadosTabelaB, '25%', '2.3mm') };// campo5
+                                                        });
+                                                    } else { criarTabela(dadosTabelaB, '33.3333%', '2.3mm') };// campo4
+                                                });
+                                            } else { criarTabela(dadosTabelaB, '50%', '2.3mm') };// campo3
+                                        });
+                                    } else { criarTabela(dadosTabelaB, '100%', '2.3mm') };// campo2
+                                });
+                            } else { console.log('erro') };// campo1
                         });
-                    } else { console.log('erro') };// campo1
-                });
+                }
+            });
         };
 
         // Hash

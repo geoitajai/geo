@@ -338,179 +338,37 @@
         //Definir elementos da tabela
         let colunaspadrao = [
             {
-                title: 'Consulta Prévia<br>(construções)',
+                title: 'Consulta<br>Prévia<br>(construções)',
                 formatter: 'link',
-                width: 130,
+                width: 114,
                 formatterParams: {
                     labelField: 'linkinfo',
                     urlField: 'consultaprevia',
                     target: '_blank'
                 }
             }, {
-                title: 'Avaliação atividade<br>(alvará)',
+                title: 'Avaliação<br>atividade<br>(alvará)',
                 formatter: 'link',
-                width: 150,
+                width: 100,
                 formatterParams: {
                     labelField: 'linkinfo',
                     urlField: 'consultaalvara',
                     target: '_blank'
                 }
             }, {
-                title: 'Cód.',
+                title: 'Cód.<br>(clique<br>para copiar)',
                 field: 'ncodimov',
-                width: 80,
+                width: 110,
                 cellClick: function (e, cell) {
-                    navigator.clipboard.writeText(cell._cell.value);
+                    navigator.clipboard.writeText(`http://plantacadastral.itajai.sc.gov.br#|${cell._cell.value}`);
                 }
             }, {
-                title: 'Inscrição imob.',
+                title: 'Inscrição imob.<br>(clique para copiar)',
                 field: 'ninscrao',
                 width: 153,
                 cellClick: function (e, cell) {
                     navigator.clipboard.writeText(cell._cell.value);
                 }
-            }, {
-                title: 'zona<br>(preliminar)',
-                field: 'zon',
-                width: 100
-            }, {
-                title: 'Razão social',
-                field: 'nrazaoso',
-                width: 200
-            }, {
-                title: 'nº matrícula',
-                field: 'nmatricu',
-                width: 103
-            }, {
-                title: 'Logradouro',
-                field: 'nlogrado',
-                width: 150
-            }, {
-                title: 'nº',
-                field: 'nnumimov',
-                width: 60
-            }, {
-                title: 'Compl.',
-                field: 'ncomplem',
-                width: 120
-            }, {
-                title: 'Bairro',
-                field: 'nnomebai',
-                width: 100
-            }, {
-                title: 'Área tributável',
-                field: 'nareater',
-                width: 110
-            }, {
-                title: 'Ano construção',
-                field: 'ncodcont',
-                width: 110
-            }, {
-                title: 'Fração ideal informada',
-                field: 'nfracaoi',
-                width: 90
-            }
-        ];
-        let colunaspendzon = [
-            {
-                title: 'Consulta Prévia<br>(construções)',
-                field: 'consultaprevia',
-                width: 200
-            },
-            {
-                title: 'Avaliação atividade<br>(alvará)',
-                field: 'consultaalvara',
-                width: 200
-            },
-            {
-                title: 'Cód.',
-                field: 'ncodimov',
-                width: 80,
-                cellClick: function (e, cell) {
-                    navigator.clipboard.writeText(cell._cell.value);
-                }
-            }, {
-                title: 'Inscrição imob.',
-                field: 'ninscrao',
-                width: 153,
-                cellClick: function (e, cell) {
-                    navigator.clipboard.writeText(cell._cell.value);
-                }
-            }, {
-                title: 'zona<br>(preliminar)',
-                field: 'zon',
-                width: 100
-            }, {
-                title: 'Razão social',
-                field: 'nrazaoso',
-                width: 200
-            }, {
-                title: 'nº matrícula',
-                field: 'nmatricu',
-                width: 103
-            }, {
-                title: 'Logradouro',
-                field: 'nlogrado',
-                width: 150
-            }, {
-                title: 'nº',
-                field: 'nnumimov',
-                width: 60
-            }, {
-                title: 'Compl.',
-                field: 'ncomplem',
-                width: 120
-            }, {
-                title: 'Bairro',
-                field: 'nnomebai',
-                width: 100
-            }, {
-                title: 'Área tributável',
-                field: 'nareater',
-                width: 110
-            }, {
-                title: 'Ano construção',
-                field: 'ncodcont',
-                width: 110
-            }, {
-                title: 'Fração ideal informada',
-                field: 'nfracaoi',
-                width: 90
-            }
-        ];
-        let colunaspendalv = [
-            {
-                title: 'Consulta Prévia<br>(construções)',
-                field: 'consultaprevia',
-                width: 200
-            },
-            {
-                title: 'Avaliação atividade<br>(alvará)',
-                formatter: 'link',
-                width: 200,
-                formatterParams: {
-                    labelField: 'linkinfo',
-                    urlField: 'consultaalvara',
-                    target: '_blank'
-                }
-            }, {
-                title: 'Cód.',
-                field: 'ncodimov',
-                width: 80,
-                cellClick: function (e, cell) {
-                    navigator.clipboard.writeText(cell._cell.value);
-                }
-            }, {
-                title: 'Inscrição imob.',
-                field: 'ninscrao',
-                width: 153,
-                cellClick: function (e, cell) {
-                    navigator.clipboard.writeText(cell._cell.value);
-                }
-            }, {
-                title: 'zona<br>(preliminar)',
-                field: 'zon',
-                width: 100
             }, {
                 title: 'Razão social',
                 field: 'nrazaoso',
@@ -556,60 +414,24 @@
             //clipboard: true,
             columns: colunaspadrao
         });
-        let consultaZoneamento = {
-            pend: "conflito confrontantes",
-            pendpdz: "expansäo portuária, decr.11244/18",
-            pendjud: "conflito judicial"
-        };
-        consultaZoneamentolista = ['pend', 'pendpdz', 'pendjud'];
         function pCestiloDestaque(e) {
             plantaCadastralDestaque.clearLayers();
             table.setData([]);
-            //zoneamento e alvará
-            let tipoconsultas;
-            let zoneamento = e.features[0].properties.zon2012.trim();
-            let zoneamentoalvara = e.features[0].properties.zon2012pre.trim();
-            if (consultaZoneamentolista.includes(zoneamento) && consultaZoneamentolista.includes(zoneamentoalvara)) {
-                table.setColumns(colunaspendzon);
-                tipoconsultas = 'semzonoualvara';
-                zoneamentoalvara = '-'
-            } else if (zoneamento == "Null" && consultaZoneamentolista.includes(zoneamentoalvara) == false) {
-                zoneamento = 'pend'
-                table.setColumns(colunaspendalv);
-                tipoconsultas = 'soalvara';
-            } else if (consultaZoneamentolista.includes(zoneamento) && consultaZoneamentolista.includes(zoneamentoalvara) == false) {
-                table.setColumns(colunaspendalv);
-                tipoconsultas = 'soalvara';
-            } else {
-                table.setColumns(colunaspadrao);
-            };
             //dados tabela
             let inscricaoimob = e.features[0].properties.inscricao;
             let inscricaowhereimovel = `lote_inscricao='${inscricaoimob}'`;
             let objtabela = [];
-            let consultapreviap;
-            let linkinfo;
             cadastroimoveispts.where(inscricaowhereimovel)
                 .returnGeometry(false)
                 .run((error, fcol) => {
                     fcol.features.forEach(el => {
-                        if (tipoconsultas == 'semzonoualvara') {
-                            consultapreviap = `${consultaZoneamento[zoneamento]}`;
-                            consultaalvara = `${consultaZoneamento[zoneamento]}`;
-                        } else if (tipoconsultas == 'soalvara') {
-                            linkinfo = 'clique para abrir';
-                            consultapreviap = `${consultaZoneamento[zoneamento]}`;
-                            consultaalvara = `https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/consultaalvara.html#${el.properties.lote_inscricao}`;
-                        } else {
-                            linkinfo = 'clique para abrir';
-                            consultapreviap = `https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/consultazoneamento.html#${el.properties.lote_inscricao}`;
-                            consultaalvara = `https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/consultaalvara.html#${el.properties.lote_inscricao}`;
-                        };
+                        linkinfo = 'consultar';
+                        consultapreviap = `https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/consultazoneamento.html#${el.properties.lote_inscricao}`;
+                        consultaalvara = `https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/consultaalvara.html#${el.properties.lote_inscricao}`;
                         objtabela.push({
                             'consultaprevia': consultapreviap,
                             'ninscrao': el.properties.aut_inscricao,
                             'ncodimov': el.properties.aut_codigo_imovel,
-                            'zon': zoneamentoalvara,
                             'nrazaoso': el.properties.nome_contribuinte,
                             'nmatricu': el.properties.aut_numero_matricula,
                             'nlogrado': el.properties.aut_end_logradouro,

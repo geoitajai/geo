@@ -314,7 +314,6 @@
             plantaCadastralDestaque.clearLayers();
             table.setData([]);
             let inscricaoimob = e.features[0].properties.inscricao;
-            let zoneamento = e.features[0].properties.zon2012;
             L.geoJson(e, {
                 style: {
                     weight: 5,
@@ -336,15 +335,9 @@
             cadastroimoveispts.where(inscricaowhereimovel).returnGeometry(false);
             cadastroimoveispts.run((error, fcol) => {
                 fcol.features.forEach(el => {
-                    if (zoneamento == 'pend') {
-                        linkinfo = 'consultar secretatira urbanismo';
-                        consultapreviap = `https://geoitajai.github.io/geo/consultazoneamentoerro.html#${el.properties.lote_inscricao}`;
-                        consultaalvara = `https://geoitajai.github.io/geo/consultaalvara.html#${el.properties.lote_inscricao}`;
-                    } else {
-                        linkinfo = 'clique para abrir';
-                        consultapreviap = `https://geoitajai.github.io/geo/consultazoneamento.html#${el.properties.lote_inscricao}`;
-                        consultaalvara = `https://geoitajai.github.io/geo/consultaalvara.html#${el.properties.lote_inscricao}`;
-                    };
+                    linkinfo = 'clique para abrir';
+                    consultapreviap = `https://geoitajai.github.io/geo/consultazoneamento.html#${el.properties.lote_inscricao}`;
+                    consultaalvara = `https://geoitajai.github.io/geo/consultaalvara.html#${el.properties.lote_inscricao}`;
                     objtabela.push({
                         'consultaprevia': consultapreviap,
                         'ninscrao': el.properties.aut_inscricao,
