@@ -628,17 +628,13 @@
     let plantaCadastralDestaque = L.featureGroup().addTo(mapa);
     let dadoslote;
     let cadastro = L.esri.query({
-        url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/malhacrs3857/FeatureServer/0/'
+        url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/malha_cadastral_raster/FeatureServer/0/'
     });
 
     hashlote = (dados) => {
         cadastro.where(`inscricao ='${String(dados[1])}'`)
             .limit(1)
             .run(function (error, cadastrolote) {
-                dadoslote = cadastrolote.features[0].properties.zon2012pre.trim();
-                $.getJSON("data/zoneamento/exportTabela/" + cadastrolote.features[0].properties.zon2012pre.trim() + ".geojson", (datazoneamento) => {
-                    document.getElementById('identificalote').innerHTML = `<b>Inscrição Imobiliária: ${cadastrolote.features[0].properties.inscricao}</b><br>Endereço: ${cadastrolote.features[0].properties.nomevia}, ${cadastrolote.features[0].properties.numero}<br>Itajaí - SC<br><b>Zoneamento: ${cadastrolote.features[0].properties.zon2012pre}</b><br>Usos permitidos: ${datazoneamento[0].properties.permitidos}<br>Usos permissíveis: ${datazoneamento[0].properties.permissiv}`;
-                });
                 L.geoJson(cadastrolote, {
                     style: {
                         weight: 5,
@@ -652,6 +648,23 @@
                     maxZoom: 17
                 });
             });
+
+        $.ajax({
+            url: "https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/zoneamento_alvara_itajai/FeatureServer/0/query",
+            data: {
+                f: "json", where: `lote_inscricao=${dados[1]}`,
+                outFields: "zon2012pre,zon2012,zon2012alt,repatrimon,redefesaci,reaeroport,redeptrans,rerodovias",
+                returnGeometry: false
+            },
+            dataType: "jsonp",
+            jsonpCallback: "callback",
+            success: function (zonurb) {
+                $.getJSON("data/zoneamento/exportTabela/" + cadastrolote.features[0].properties.zon2012pre.trim() + ".geojson", (datazoneamento) => {
+                    document.getElementById('identificalote').innerHTML = `<b>Inscrição Imobiliária: ${cadastrolote.features[0].properties.inscricao}</b><br>Endereço: ${cadastrolote.features[0].properties.nomevia}, ${cadastrolote.features[0].properties.numero}<br>Itajaí - SC<br><b>Zoneamento: ${cadastrolote.features[0].properties.zon2012pre}</b><br>Usos permitidos: ${datazoneamento[0].properties.permitidos}<br>Usos permissíveis: ${datazoneamento[0].properties.permissiv}`;
+                });
+            }
+        });
+
 
     };
 

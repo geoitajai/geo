@@ -263,7 +263,7 @@
             $.ajax({
                 url: "https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/zoneamento_alvara_itajai/FeatureServer/0/query",
                 data: {
-                    f: "json", where: "lote_inscricao='202.085.04.0047'",
+                    f: "json", where: `lote_inscricao='${dados[1]}'`,
                     outFields: "zon2012pre,zon2012,zon2012alt,repatrimon,redefesaci,reaeroport,redeptrans,rerodovias",
                     returnGeometry: false
                 },
