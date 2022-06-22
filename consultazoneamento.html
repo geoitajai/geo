@@ -254,7 +254,7 @@
 
         let plantaCadastralDestaque = L.featureGroup().addTo(mapa);
         let cadastro = L.esri.query({
-            url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/malhacrs3857/FeatureServer/0/'
+            url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/malha_cadastral_raster/FeatureServer/0/'
         });
         let testadas = L.esri.query({
             url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/testadas/FeatureServer/0/'
@@ -270,7 +270,6 @@
                 dataType: "jsonp",
                 jsonpCallback: "callback",
                 success: function (zonurb) {
-                    console.log(zonurb.features[0].attributes);
                     cadastro.where(`inscricao ='${String(dados[1])}'`)
                         .limit(1)
                         .run(function (error, cadastrolote) {
