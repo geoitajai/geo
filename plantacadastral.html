@@ -328,11 +328,11 @@
         //dados, imóveis
         let cadastroimoveispts = L.esri.query({
             //url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/cadastroimoveispts/FeatureServer/0/'
-            url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/pts_imoveis_temp/FeatureServer/0/'
+            url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/tmi_imoveis/FeatureServer/0/'
         });
         let cadastroimoveisptscodimov = L.esri.query({
             //url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/cadastroimoveispts/FeatureServer/0/'
-            url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/pts_imoveis_temp/FeatureServer/0/'
+            url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/tmi_imoveis/FeatureServer/0/'
         });
 
         //Definir elementos da tabela
@@ -418,16 +418,16 @@
             plantaCadastralDestaque.clearLayers();
             table.setData([]);
             //dados tabela
-            let inscricaoimob = e.features[0].properties.inscricao;
-            let inscricaowhereimovel = `lote_inscricao='${inscricaoimob}'`;
+            let inscricaoimob = `i${e.features[0].properties.inscrlig}`;
+            let inscricaowhereimovel = `inscrlig='${inscricaoimob}'`;
             let objtabela = [];
             cadastroimoveispts.where(inscricaowhereimovel)
                 .returnGeometry(false)
                 .run((error, fcol) => {
                     fcol.features.forEach(el => {
                         linkinfo = 'consultar';
-                        consultapreviap = `https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/consultazoneamento.html#${el.properties.lote_inscricao}`;
-                        consultaalvara = `https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/consultaalvara.html#${el.properties.lote_inscricao}`;
+                        consultapreviap = `https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/consultazoneamento.html#${el.properties.inscrlig}`;
+                        consultaalvara = `https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/consultaalvara.html#${el.properties.inscrlig}`;
                         objtabela.push({
                             'consultaprevia': consultapreviap,
                             'ninscrao': el.properties.aut_inscricao,
@@ -577,8 +577,9 @@
                         if (event.keyCode == 13) {
                             event.preventDefault();
                             if ($("#pesquisaRapida").val().length === 15) {
+                                let inscrlig = `${$("#pesquisaRapida").val().substr(0, 3)}${$("#pesquisaRapida").val().substr(4, 3)}${$("#pesquisaRapida").val().substr(11, 4)}`
                                 malhacadastralpesquisa.query()
-                                    .where(`inscricao = '${$("#pesquisaRapida").val()}'`)
+                                    .where(`inscrlig = '${inscrlig}'`)
                                     .run((error, fcolinscr) => {
                                         if (fcolinscr.features.length == 0) {
                                             alert("Não encontrado");
@@ -592,12 +593,15 @@
                                 cadastroimoveisptscodimov.where(`aut_codigo_imovel='${$("#pesquisaRapida").val()}'`)
                                     .returnGeometry(false)
                                     .limit(1)
-                                    .fields(['lote_inscricao']).run((error, fcolcod) => {
-                                        if (fcolcod.features.length == 0) {
+                                    .fields(['inscrlig']).run((error, fcolcod) => {
+                                        console.log(fcolcod)
+                                        if (fcolcod == null) {
+                                            alert("Não encontrado");
+                                        } else if (fcolcod.features.length == 0) {
                                             alert("Não encontrado");
                                         } else {
                                             malhacadastralpesquisa.query()
-                                                .where(`inscricao = '${fcolcod.features[0].properties.lote_inscricao}'`)
+                                                .where(`inscrlig = '${fcolcod.features[0].properties.inscrlig.substring(1)}'`)
                                                 .run((error, fcolcodinscr) => {
                                                     zoomresultado = true;
                                                     pCestiloDestaque(fcolcodinscr)
@@ -643,14 +647,6 @@
             f: 'image',
             format: 'png8'
         }).addTo(mapa);
-
-        //teste basemap
-        //let tilezonea = L.tileLayer('data/tiles_lotes/{z}/{x}/{y}.png', {
-        //    //minZoom: 12,
-        //    maxZoom: 19,
-        //    pane: 'basemap_numeracao',
-        //    opacity: 0.5
-        //}).addTo(mapa);
 
         let malhacadastralpesquisa = new L.esri.featureLayer({
             url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/malha_cadastral_raster/FeatureServer/0/'
@@ -841,12 +837,12 @@
                 cadastroimoveisptscodimov.where(`aut_codigo_imovel='${dados[1]}'`)
                     .returnGeometry(false)
                     .limit(1)
-                    .fields(['lote_inscricao']).run((error, codhash) => {
+                    .fields(['inscrlig']).run((error, codhash) => {
                         if (codhash.features.length == 0) {
                             alert("Não encontrado");
                         } else {
                             malhacadastralpesquisa.query()
-                                .where(`inscricao = '${codhash.features[0].properties.lote_inscricao}'`)
+                                .where(`inscrlig = '${codhash.features[0].properties.inscrlig}'`)
                                 .run((error, codinscrhash) => {
                                     zoomresultado = true;
                                     pCestiloDestaque(codinscrhash);
@@ -856,8 +852,9 @@
             }
             //hash inscrição imobiliária
             else if (dados[2] !== '0') {
+                let inscrlig = `i${dados[2].substr(0, 3)}${dados[2].substr(4, 3)}${dados[2].substr(11, 4)}`
                 malhacadastralpesquisa.query()
-                    .where(`inscricao = '${dados[2]}'`)
+                    .where(`inscrlig = '${inscrlig}'`)
                     .run((error, inscricaohash) => {
                         zoomresultado = true;
                         pCestiloDestaque(inscricaohash);
