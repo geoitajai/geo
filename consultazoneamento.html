@@ -270,7 +270,6 @@
                 dataType: "jsonp",
                 jsonpCallback: "callback",
                 success: function (zonurb) {
-                    console.log(zonurb)
                     cadastro.where(`inscrlig ='${dados[1]}'`)
                         .limit(1)
                         .run(function (error, cadastrolote) {
