@@ -418,7 +418,7 @@
             plantaCadastralDestaque.clearLayers();
             table.setData([]);
             //dados tabela
-            let inscricaoimob = `i${e.features[0].properties.inscrlig}`;
+            let inscricaoimob = `${e.features[0].properties.inscrlig}`;
             let inscricaowhereimovel = `inscrlig='${inscricaoimob}'`;
             let objtabela = [];
             cadastroimoveispts.where(inscricaowhereimovel)
@@ -601,7 +601,7 @@
                                             alert("Não encontrado");
                                         } else {
                                             malhacadastralpesquisa.query()
-                                                .where(`inscrlig = '${fcolcod.features[0].properties.inscrlig.substring(1)}'`)
+                                                .where(`inscrlig = '${fcolcod.features[0].properties.inscrlig}'`)
                                                 .run((error, fcolcodinscr) => {
                                                     zoomresultado = true;
                                                     pCestiloDestaque(fcolcodinscr)
