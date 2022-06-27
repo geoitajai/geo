@@ -415,6 +415,7 @@
             columns: colunaspadrao
         });
         function pCestiloDestaque(e) {
+            mapa.closePopup();
             plantaCadastralDestaque.clearLayers();
             table.setData([]);
             //dados tabela
@@ -466,6 +467,7 @@
         //Zoom e destaque para via a partir de geoJSON
         function destaquevia(g) {
             pesquisaQvias.clearLayers();
+            mapa.closePopup();
             viasgeom.query()
                 .where(`nome = '${g}'`)
                 .run((error, viaspesquisageom) => {
@@ -483,6 +485,7 @@
                     mapa.flyToBounds(pesquisaQvias.getBounds(), {
                         maxZoom: 19
                     });
+                    $("#pesquisaRapida").val('');
                 });
         };
 
@@ -522,119 +525,121 @@
         });
 
         //caixa de pesquisa
-        let itensPesquisa = [];
-        let itensPesquisaCompletos = {};
-        viaspesquisa.fields(['nome'])
-            .returnGeometry(false)
-            .distinct()
-            .run((error, psqvias) => {
-                let itenspesquisa = psqvias.features.map((feicoes) => {
-                    return feicoes.properties.nome
-                }).sort();
-                itensarquivo = itenspesquisa;
-                $(() => {
-                    let pesquisaval;
-                    $('#pesquisaRapida').autocomplete({
-                        delay: 200,
-                        minLength: 3,
-                        autoFocus: true,
-                        source: (request, response) => {
-                            let matcher = new RegExp($.ui.autocomplete.escapeRegex(request
-                                .term), 'i');
-                            response($.grep(itenspesquisa, (value) => {
-                                value = value.label || value.value || value;
-                                return matcher.test(value) || matcher.test(
-                                    normalize(value));
-                            }));
-                        },
-                        select: (event, ui) => {
-                            if ($('#pesquisaRapida').val().includes(',') == true) {
+        $('document').ready(function () {
+            let itensPesquisa = [];
+            let itensPesquisaCompletos = {};
+            viaspesquisa.fields(['nome'])
+                .returnGeometry(false)
+                .distinct()
+                .run((error, psqvias) => {
+                    let itenspesquisa = psqvias.features.map((feicoes) => {
+                        return feicoes.properties.nome
+                    }).sort();
+                    itensarquivo = itenspesquisa;
+                    $(() => {
+                        let pesquisaval;
+                        $('#pesquisaRapida').autocomplete({
+                            delay: 200,
+                            minLength: 3,
+                            autoFocus: true,
+                            source: (request, response) => {
+                                let matcher = new RegExp($.ui.autocomplete.escapeRegex(request
+                                    .term), 'i');
+                                response($.grep(itenspesquisa, (value) => {
+                                    value = value.label || value.value || value;
+                                    return matcher.test(value) || matcher.test(
+                                        normalize(value));
+                                }));
+                            },
+                            select: (event, ui) => {
+                                if ($('#pesquisaRapida').val().includes(',') == true) {
+                                    malhacadastralpesquisa.query()
+                                        .where(`inscricao = '${itensPesquisaCompletos[pesquisaval]}'`)
+                                        .run((error, fcolinscr) => {
+                                            if (fcolinscr.features.length == 0) {
+                                                alert("Não encontrado");
+                                            } else {
+                                                zoomresultado = true;
+                                                pCestiloDestaque(fcolinscr);
+                                                $("#pesquisaRapida").val('');
+                                                itenspesquisa = itensarquivo;
+                                            };
+                                        });
+                                } else {
+                                    destaquevia(ui.item.value);
+                                };
+                            },
+                            focus: (event, ui) => {
+                                pesquisaval = ui.item.value;
+                            },
+                            response: (event, ui) => {
+                                if ($('#pesquisaRapida').val().includes(',') == false) {
+                                    itenspesquisa = itensarquivo;
+                                };
+                            }
+                        }).keypress((event, ui) => {
+                            if (event.keyCode == 13) {
+                                event.preventDefault();
+                                if ($("#pesquisaRapida").val().length === 15) {
+                                    let inscrlig = `i${$("#pesquisaRapida").val().substr(0, 3)}${$("#pesquisaRapida").val().substr(4, 3)}${$("#pesquisaRapida").val().substr(11, 4)}`
+                                    malhacadastralpesquisa.query()
+                                        .where(`inscrlig = '${inscrlig}'`)
+                                        .run((error, fcolinscr) => {
+                                            if (fcolinscr.features.length == 0) {
+                                                alert("Não encontrado");
+                                            } else {
+                                                zoomresultado = true;
+                                                pCestiloDestaque(fcolinscr);
+                                                $("#pesquisaRapida").val('');
+                                            };
+                                        });
+                                } else {
+                                    cadastroimoveisptscodimov.where(`aut_codigo_imovel='${$("#pesquisaRapida").val()}'`)
+                                        .returnGeometry(false)
+                                        .limit(1)
+                                        .fields(['inscrlig']).run((error, fcolcod) => {
+                                            console.log(fcolcod)
+                                            if (fcolcod == null) {
+                                                alert("Não encontrado");
+                                            } else if (fcolcod.features.length == 0) {
+                                                alert("Não encontrado");
+                                            } else {
+                                                malhacadastralpesquisa.query()
+                                                    .where(`inscrlig = '${fcolcod.features[0].properties.inscrlig}'`)
+                                                    .run((error, fcolcodinscr) => {
+                                                        zoomresultado = true;
+                                                        pCestiloDestaque(fcolcodinscr)
+                                                        $("#pesquisaRapida").val('');
+                                                    });
+                                            };
+                                        });
+                                };
+                            };
+                            if (event.keyCode == 44 && $('#pesquisaRapida').val().includes(',') == false) {
+                                event.preventDefault();
                                 malhacadastralpesquisa.query()
-                                    .where(`inscricao = '${itensPesquisaCompletos[pesquisaval]}'`)
-                                    .run((error, fcolinscr) => {
-                                        if (fcolinscr.features.length == 0) {
-                                            alert("Não encontrado");
-                                        } else {
-                                            zoomresultado = true;
-                                            pCestiloDestaque(fcolinscr);
-                                            $("#pesquisaRapida").val('');
-                                            itenspesquisa = itensarquivo;
-                                        };
+                                    .fields(['nomevia', 'numero', 'inscricao'])
+                                    .where(`nomevia ='${pesquisaval}'`)
+                                    .distinct()
+                                    .run((error, psqvias) => {
+                                        psqvias.features.map(e => {
+                                            if (e.properties.numero != null) {
+                                                let enderecomont = `${pesquisaval},${e.properties.numero}`;
+                                                itensPesquisaCompletos[enderecomont] = e.properties.inscricao;
+                                                itensPesquisa.push(enderecomont);
+                                            };
+                                        });
+                                        itenspesquisa = itensPesquisa;
                                     });
-                            } else {
-                                destaquevia(ui.item.value);
+                                $('#pesquisaRapida').val(`${pesquisaval},`);
+                                $('#pesquisaRapida').autocomplete('search', `${pesquisaval},`);
                             };
-                        },
-                        focus: (event, ui) => {
-                            pesquisaval = ui.item.value;
-                        },
-                        response: (event, ui) => {
-                            if ($('#pesquisaRapida').val().includes(',') == false) {
-                                itenspesquisa = itensarquivo;
-                            };
-                        }
-                    }).keypress((event, ui) => {
-                        if (event.keyCode == 13) {
-                            event.preventDefault();
-                            if ($("#pesquisaRapida").val().length === 15) {
-                                let inscrlig = `i${$("#pesquisaRapida").val().substr(0, 3)}${$("#pesquisaRapida").val().substr(4, 3)}${$("#pesquisaRapida").val().substr(11, 4)}`
-                                malhacadastralpesquisa.query()
-                                    .where(`inscrlig = '${inscrlig}'`)
-                                    .run((error, fcolinscr) => {
-                                        if (fcolinscr.features.length == 0) {
-                                            alert("Não encontrado");
-                                        } else {
-                                            zoomresultado = true;
-                                            pCestiloDestaque(fcolinscr);
-                                            $("#pesquisaRapida").val('');
-                                        };
-                                    });
-                            } else {
-                                cadastroimoveisptscodimov.where(`aut_codigo_imovel='${$("#pesquisaRapida").val()}'`)
-                                    .returnGeometry(false)
-                                    .limit(1)
-                                    .fields(['inscrlig']).run((error, fcolcod) => {
-                                        console.log(fcolcod)
-                                        if (fcolcod == null) {
-                                            alert("Não encontrado");
-                                        } else if (fcolcod.features.length == 0) {
-                                            alert("Não encontrado");
-                                        } else {
-                                            malhacadastralpesquisa.query()
-                                                .where(`inscrlig = '${fcolcod.features[0].properties.inscrlig}'`)
-                                                .run((error, fcolcodinscr) => {
-                                                    zoomresultado = true;
-                                                    pCestiloDestaque(fcolcodinscr)
-                                                    $("#pesquisaRapida").val('');
-                                                });
-                                        };
-                                    });
-                            };
-                        };
-                        if (event.keyCode == 44 && $('#pesquisaRapida').val().includes(',') == false) {
-                            event.preventDefault();
-                            malhacadastralpesquisa.query()
-                                .fields(['nomevia', 'numero', 'inscricao'])
-                                .where(`nomevia ='${pesquisaval}'`)
-                                .distinct()
-                                .run((error, psqvias) => {
-                                    psqvias.features.map(e => {
-                                        if (e.properties.numero != null) {
-                                            let enderecomont = `${pesquisaval},${e.properties.numero}`;
-                                            itensPesquisaCompletos[enderecomont] = e.properties.inscricao;
-                                            itensPesquisa.push(enderecomont);
-                                        };
-                                    });
-                                    itenspesquisa = itensPesquisa;
-                                });
-                            $('#pesquisaRapida').val(`${pesquisaval},`);
-                            $('#pesquisaRapida').autocomplete('search', `${pesquisaval},`);
-                        };
+                        });
                     });
                 });
+            $("#pesquisaRapida").click(() => {
+                $(this).select();
             });
-        $("#pesquisaRapida").click(() => {
-            $(this).select();
         });
 
         // Feature layer e imagem, malha cadastral
