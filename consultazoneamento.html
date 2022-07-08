@@ -272,11 +272,14 @@
                 success: function (zonurb) {
                     let classzoneamento = zonurb.features[0].attributes.zon2012
                     if (classzoneamento == 'pend' || classzoneamento == null) {
-                        console.log('pend')
+                        document.getElementById("inscrimob").innerHTML = 'CONFLITO CONFRONTANTES';
+                        document.getElementById("mapa").innerHTML = 'CONFLITO CONFRONTANTES';
                     } else if (classzoneamento == 'pendpdz') {
-                        console.log('pend')
+                        document.getElementById("inscrimob").innerHTML = 'EXPANSÃO PORTUÁRIA, DECRETO.11244/18';
+                        document.getElementById("mapa").innerHTML = 'EXPANSÃO PORTUÁRIA, DECRETO.11244/18';
                     } else if (classzoneamento == 'pendjud') {
-                        console.log('pend')
+                        document.getElementById("inscrimob").innerHTML = 'CONFLITO JUDICIAL';
+                        document.getElementById("mapa").innerHTML = 'CONFLITO JUDICIAL';
                     } else {
                         cadastro.where(`inscrlig ='${dados[1]}'`)
                             .limit(1)
