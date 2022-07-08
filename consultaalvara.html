@@ -633,14 +633,14 @@
     });
 
     hashlote = (dados) => {
-        cadastro.where(`inscricao ='${String(dados[1])}'`)
+        cadastro.where(`inscrlig ='${String(dados[1])}'`)
             .limit(1)
             .run(function (error, cadastrolote) {
                 $.ajax({
                     url: "https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/zoneamento_alvara_itajai/FeatureServer/0/query",
                     data: {
-                        f: "json", where: `lote_inscricao='${dados[1]}'`,
-                        outFields: "zon2012pre,zon2012,zon2012alt,repatrimon,redefesaci,reaeroport,redeptrans,rerodovias",
+                        f: "json", where: `inscrlig='${dados[1]}'`,
+                        outFields: "zon2012pre,zon2012",
                         returnGeometry: false
                     },
                     dataType: "jsonp",
