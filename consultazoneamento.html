@@ -272,16 +272,16 @@
                 jsonpCallback: "callback",
                 success: function (zonurb) {
                     let classzoneamento = zonurb.features[0].attributes.zon2012
-                    if (classzoneamento.includes('pend') || classzoneamento == null) {
+                    if (classzoneamento.includes('"pend"') || classzoneamento == null) {
                         document.getElementById("inscrimob").innerHTML = 'CONFLITO CONFRONTANTES';
                         document.getElementById("mapa").innerHTML = 'CONFLITO CONFRONTANTES';
-                    } else if (classzoneamento.includes('pendpdz')) {
+                    } else if (classzoneamento.includes('"pendpdz"')) {
                         document.getElementById("inscrimob").innerHTML = 'EXPANSÃO PORTUÁRIA, DECRETO.11244/18';
                         document.getElementById("mapa").innerHTML = 'EXPANSÃO PORTUÁRIA, DECRETO.11244/18';
-                    } else if (classzoneamento.includes('pendjud')) {
+                    } else if (classzoneamento.includes('"pendjud"')) {
                         document.getElementById("inscrimob").innerHTML = 'CONFLITO JUDICIAL';
                         document.getElementById("mapa").innerHTML = 'CONFLITO JUDICIAL';
-                    } else if (classzoneamento.includes('caucionado')) {
+                    } else if (classzoneamento.includes('"caucionado"')) {
                         document.getElementById("inscrimob").innerHTML = 'LOTE CAUCIONADO';
                         document.getElementById("mapa").innerHTML = 'LOTE CAUCIONADO';
                     } else {
