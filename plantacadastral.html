@@ -264,10 +264,20 @@
         }).addTo(mapa);
 
         //Mapa ortoimagem 2020
-        let ortoimg2020 = L.esri.tiledMapLayer({
-            url: "https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/Ortoimagem_restitui%C3%A7%C3%A3o_2020/MapServer",
-            maxZoom: 19,
-            maxNativeZoom: 18,
+        let ortoimg2020 = new L.TileLayer(
+            'https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/tiles/tiles_ortoimg_2020/{z}/{x}/{y}{r}.png', {
+            minZoom: 10,
+            maxZoom: 20,
+            opacity: 0.9,
+            attribution: 'Engemap geoinformação 2020, Prefeitura de Itajaí'
+        });
+
+        //Mapa restituicao 2020
+        let restituicao2020 = new L.TileLayer(
+            'https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/tiles/tiles_rest_2020/{z}/{x}/{y}{r}.png', {
+            minZoom: 10,
+            maxZoom: 20,
+            opacity: 0.9,
             attribution: 'Engemap geoinformação 2020, Prefeitura de Itajaí'
         });
 
@@ -283,7 +293,8 @@
         //Controle de camadas
         let baseMaps = {
             "SIE.Itajaí": tilesmu,
-            "Ortoimg": ortoimg2020,
+            "Imag.2020": ortoimg2020,
+            "Rest.2020": restituicao2020,
             "Satélite": tileesri
         };
 
@@ -448,6 +459,8 @@
                     });
                     table.setData(objtabela);
                 });
+            //adicionar link consulta prévia
+            table.updateData([{ id: 1, linkinfo: "bob" }])
             //lote no mapa
             L.geoJson(e, {
                 style: {
@@ -648,7 +661,7 @@
             pane: 'basemap_numeracao',
             minZoom: 15,
             maxZoom: 19,
-            opacity: 0.55,
+            opacity: 0.40,
             f: 'image',
             format: 'png8'
         }).addTo(mapa);
