@@ -355,7 +355,8 @@
                 width: 240,
                 cellClick: function (e, cell) {
                     navigator.clipboard.writeText(cell._cell.value);
-                }
+                },
+                headerSort: false
             },
             {
                 title: 'Consulta Prévia(construções)',
@@ -365,7 +366,8 @@
                     labelField: 'linkinfo',
                     urlField: 'consultaprevia',
                     target: '_blank'
-                }
+                },
+                headerSort: false
             }, {
                 title: 'Avaliação atividade(alvará)',
                 formatter: 'link',
@@ -374,13 +376,14 @@
                     labelField: 'linkinfo',
                     urlField: 'consultaalvara',
                     target: '_blank'
-                }
+                },
+                headerSort: false
             }
         ];
         let table = new Tabulator('#tabelatabulator', {
             height: '100%',
             layout: 'fitColumns',
-            selectable: 0,
+            selectable: false,
             columns: colunaspadrao,
             rowFormatter: (row) => {
                 //create and style holder elements
@@ -391,7 +394,7 @@
                 row.getElement().appendChild(holderEl);
                 let subTable = new Tabulator(tableEl, {
                     data: row.getData().unidades,
-                    selectable: 1,
+                    selectable: false,
                     columns: [
                         {
                             title: 'Cód.<br>(link)',
@@ -399,50 +402,61 @@
                             width: 90,
                             cellClick: (e, cell) => {
                                 navigator.clipboard.writeText(`http://plantacadastral.itajai.sc.gov.br#|${cell._cell.value}`);
-                            }
+                            },
+                            headerSort: false
                         }, {
                             title: 'Inscrição imob.<br>(clique para copiar)',
                             field: 'ninscrao',
                             width: 153,
                             cellClick: (e, cell) => {
                                 navigator.clipboard.writeText(cell._cell.value);
-                            }
+                            },
+                            headerSort: false
                         }, {
                             title: 'Razão social',
                             field: 'nrazaoso',
-                            width: 200
+                            width: 200,
+                            headerSort: false
                         }, {
                             title: 'nº<br>matrícula',
                             field: 'nmatricu',
-                            width: 100
+                            width: 100,
+                            headerSort: false
                         }, {
                             title: 'Logradouro',
                             field: 'nlogrado',
-                            width: 150
+                            width: 150,
+                            headerSort: false
                         }, {
                             title: 'nº',
                             field: 'nnumimov',
-                            width: 60
+                            width: 60,
+                            headerSort: false
                         }, {
                             title: 'Compl.',
                             field: 'ncomplem',
-                            width: 120
+                            width: 120,
+                            headerSort: false
                         }, {
                             title: 'Bairro',
                             field: 'nnomebai',
-                            width: 100
+                            width: 100,
+                            headerSort: false
                         }, {
                             title: 'Área<br>tributável',
                             field: 'nareater',
-                            width: 110
+                            width: 110,
+                            headerSort: false
                         }, {
                             title: 'Ano<br>construção',
                             field: 'ncodcont',
-                            width: 110
+                            width: 110,
+                            headerSort: false
                         }, {
                             title: 'Fração<br>ideal infor.',
                             field: 'nfracaoi',
-                            width: 100
+                            width: 100,
+                            headerSort: false
                         }
                     ]
                 });
