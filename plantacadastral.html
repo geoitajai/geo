@@ -219,7 +219,8 @@
             ],
             center: new L.latLng([-26.9046, -48.6874]),
             zoomControl: false,
-            preferCanvas: true
+            preferCanvas: true,
+            tap: false
         });
 
         mapa.createPane('basemap_numeracao');
@@ -349,81 +350,103 @@
         //Definir elementos da tabela
         let colunaspadrao = [
             {
-                title: 'Consulta<br>Prévia<br>(construções)',
+                title: 'Inscrição imob.(clique para copiar)',
+                field: 'inscricao',
+                width: 240,
+                cellClick: function (e, cell) {
+                    navigator.clipboard.writeText(cell._cell.value);
+                }
+            },
+            {
+                title: 'Consulta Prévia(construções)',
                 formatter: 'link',
-                width: 114,
+                width: 210,
                 formatterParams: {
                     labelField: 'linkinfo',
                     urlField: 'consultaprevia',
                     target: '_blank'
                 }
             }, {
-                title: 'Avaliação<br>atividade<br>(alvará)',
+                title: 'Avaliação atividade(alvará)',
                 formatter: 'link',
-                width: 100,
+                width: 200,
                 formatterParams: {
                     labelField: 'linkinfo',
                     urlField: 'consultaalvara',
                     target: '_blank'
                 }
-            }, {
-                title: 'Cód.<br>(clique<br>para copiar)',
-                field: 'ncodimov',
-                width: 110,
-                cellClick: function (e, cell) {
-                    navigator.clipboard.writeText(`http://plantacadastral.itajai.sc.gov.br#|${cell._cell.value}`);
-                }
-            }, {
-                title: 'Inscrição imob.<br>(clique para copiar)',
-                field: 'ninscrao',
-                width: 153,
-                cellClick: function (e, cell) {
-                    navigator.clipboard.writeText(cell._cell.value);
-                }
-            }, {
-                title: 'Razão social',
-                field: 'nrazaoso',
-                width: 200
-            }, {
-                title: 'nº matrícula',
-                field: 'nmatricu',
-                width: 103
-            }, {
-                title: 'Logradouro',
-                field: 'nlogrado',
-                width: 150
-            }, {
-                title: 'nº',
-                field: 'nnumimov',
-                width: 60
-            }, {
-                title: 'Compl.',
-                field: 'ncomplem',
-                width: 120
-            }, {
-                title: 'Bairro',
-                field: 'nnomebai',
-                width: 100
-            }, {
-                title: 'Área<br>tributável',
-                field: 'nareater',
-                width: 110
-            }, {
-                title: 'Ano<br>construção',
-                field: 'ncodcont',
-                width: 110
-            }, {
-                title: 'Fração<br>ideal<br>informada',
-                field: 'nfracaoi',
-                width: 110
             }
         ];
         let table = new Tabulator('#tabelatabulator', {
             height: '100%',
             layout: 'fitColumns',
-            selectable: 1,
-            //clipboard: true,
-            columns: colunaspadrao
+            selectable: 0,
+            columns: colunaspadrao,
+            rowFormatter: (row) => {
+                //create and style holder elements
+                let holderEl = document.createElement('div');
+                let tableEl = document.createElement('div');
+                tableEl.style.border = 'none';
+                holderEl.appendChild(tableEl);
+                row.getElement().appendChild(holderEl);
+                let subTable = new Tabulator(tableEl, {
+                    data: row.getData().unidades,
+                    selectable: 1,
+                    columns: [
+                        {
+                            title: 'Cód.<br>(link)',
+                            field: 'ncodimov',
+                            width: 90,
+                            cellClick: (e, cell) => {
+                                navigator.clipboard.writeText(`http://plantacadastral.itajai.sc.gov.br#|${cell._cell.value}`);
+                            }
+                        }, {
+                            title: 'Inscrição imob.<br>(clique para copiar)',
+                            field: 'ninscrao',
+                            width: 153,
+                            cellClick: (e, cell) => {
+                                navigator.clipboard.writeText(cell._cell.value);
+                            }
+                        }, {
+                            title: 'Razão social',
+                            field: 'nrazaoso',
+                            width: 200
+                        }, {
+                            title: 'nº<br>matrícula',
+                            field: 'nmatricu',
+                            width: 100
+                        }, {
+                            title: 'Logradouro',
+                            field: 'nlogrado',
+                            width: 150
+                        }, {
+                            title: 'nº',
+                            field: 'nnumimov',
+                            width: 60
+                        }, {
+                            title: 'Compl.',
+                            field: 'ncomplem',
+                            width: 120
+                        }, {
+                            title: 'Bairro',
+                            field: 'nnomebai',
+                            width: 100
+                        }, {
+                            title: 'Área<br>tributável',
+                            field: 'nareater',
+                            width: 110
+                        }, {
+                            title: 'Ano<br>construção',
+                            field: 'ncodcont',
+                            width: 110
+                        }, {
+                            title: 'Fração<br>ideal infor.',
+                            field: 'nfracaoi',
+                            width: 100
+                        }
+                    ]
+                });
+            }
         });
         function pCestiloDestaque(e) {
             mapa.closePopup();
@@ -436,12 +459,14 @@
             cadastroimoveispts.where(inscricaowhereimovel)
                 .returnGeometry(false)
                 .run((error, fcol) => {
+                    linkinfo = 'consultar';
+                    inscrlig_base = fcol.features[0].properties.inscrlig;
+                    inscricao_base = fcol.features[0].properties.aut_inscricao.substring(0, 15);
+                    consultapreviap = `https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/consultazoneamento.html#${inscrlig_base}`;
+                    consultaalvara = `https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/consultaalvara.html#${inscrlig_base}`;
+                    let objtabela = { id: 0, 'inscricao': inscricao_base, 'consultaprevia': consultapreviap, 'consultaalvara': consultaalvara, 'linkinfo': linkinfo, unidades: [], processosparcelamento: [] };
                     fcol.features.forEach(el => {
-                        linkinfo = 'consultar';
-                        consultapreviap = `https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/consultazoneamento.html#${el.properties.inscrlig}`;
-                        consultaalvara = `https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/consultaalvara.html#${el.properties.inscrlig}`;
-                        objtabela.push({
-                            'consultaprevia': consultapreviap,
+                        objtabela['unidades'].push({
                             'ninscrao': el.properties.aut_inscricao,
                             'ncodimov': el.properties.aut_codigo_imovel,
                             'nrazaoso': el.properties.nome_contribuinte,
@@ -453,14 +478,10 @@
                             'nareater': el.properties.aut_area_tributavel_terreno,
                             'ncodcont': el.properties.aut_ano_construcao,
                             'nfracaoi': el.properties.aut_fracao_informada,
-                            'linkinfo': linkinfo,
-                            'consultaalvara': consultaalvara
                         });
                     });
-                    table.setData(objtabela);
+                    table.setData([objtabela]);
                 });
-            //adicionar link consulta prévia
-            table.updateData([{ id: 1, linkinfo: "bob" }])
             //lote no mapa
             L.geoJson(e, {
                 style: {
