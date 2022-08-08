@@ -274,7 +274,7 @@
         let ortoimg2020 = new L.TileLayer(
             'https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/tiles/tiles_ortoimg_2020/{z}/{x}/{y}.png', {
             minZoom: 10,
-            maxZoom: 20,
+            maxZoom: 19,
             opacity: 0.9,
             attribution: 'Engemap geoinformação 2020, Prefeitura de Itajaí'
         });
@@ -283,7 +283,7 @@
         let restituicao2020 = new L.TileLayer(
             'https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/tiles/tiles_rest_2020/{z}/{x}/{y}.png', {
             minZoom: 10,
-            maxZoom: 20,
+            maxZoom: 19,
             opacity: 0.9,
             attribution: 'Engemap geoinformação 2020, Prefeitura de Itajaí'
         });
@@ -356,9 +356,9 @@
         //Definir elementos da tabela
         let colunaspadrao = [
             {
-                title: 'Cód.(copiar)',
+                title: 'Cód.(link)',
                 field: 'ncodimov',
-                width: 80,
+                width: 65,
                 cellClick: (e, cell) => {
                     navigator.clipboard.writeText(`http://plantacadastral.itajai.sc.gov.br#|${cell._cell.value}`);
                 },
@@ -439,8 +439,8 @@
                     consultaalvara = `https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/consultaalvara.html#${inscrlig_base}`;
                     consultapreviap = `https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/consultazoneamento.html#${inscrlig_base}`;
                     //links gerais lote
-                    document.getElementById("consultaprev").innerHTML = `<a href="${consultapreviap}">Consulta zoneamento</a> |&nbsp`
-                    document.getElementById("alvara").innerHTML = `<a href="${consultaalvara}">Avaliação atividade(alvará)</a>`
+                    document.getElementById("consultaprev").innerHTML = `<a href="${consultapreviap}" target="_blank">Consulta zoneamento</a> |&nbsp`
+                    document.getElementById("alvara").innerHTML = `<a href="${consultaalvara}" target="_blank">Avaliação atividade(alvará)</a>`
                     let objtabela = [];
                     fcol.features.forEach(el => {
                         objtabela.push({
