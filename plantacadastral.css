@@ -29,12 +29,13 @@ body {
     background-color: var(--claro);
     height: 160px;
     min-height: 160px;
+    overflow: auto;
 }
 
 #txt_tabela {
     color: var(--escuro);
     height: 100%;
-    font-size: smaller;
+    font-size: 12px;
     min-width: 123px;
     max-width: 123px;
     overflow-y: hidden;
@@ -109,6 +110,22 @@ body {
 #barraLateral .titulobarra {
     font-size: smaller;
 }
+
+#dadoslotes{
+    width: 100%;
+}
+
+#dadosgerais {
+    font-size: 13px;
+    color: white;
+    border-left: 5px solid var(--base);
+    display: flex;
+    background: var(--base);
+}
+
+a:link {
+    color: var(--escuro);
+  }
 
 @media (max-width: 550px) {
 
