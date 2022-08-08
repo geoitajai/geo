@@ -191,7 +191,7 @@
             </div>
             <div id="dadoslotes">
                 <div id="dadosgerais">
-                    <div id="consultaprev"></div>
+                    <div id="consultaprev">clique sobre um lote para mais informações</div>
                     <div id="alvara"></div>
                 </div>
                 <div id="tabelatabulator"></div>
@@ -356,15 +356,15 @@
         //Definir elementos da tabela
         let colunaspadrao = [
             {
-                title: 'Código (copiar)',
+                title: 'Cód.(copiar)',
                 field: 'ncodimov',
-                width: 98,
+                width: 80,
                 cellClick: (e, cell) => {
                     navigator.clipboard.writeText(`http://plantacadastral.itajai.sc.gov.br#|${cell._cell.value}`);
                 },
                 headerSort: false
             }, {
-                title: 'Inscr.imob. (copiar)',
+                title: 'Inscr.imob.(copiar)',
                 field: 'ninscrao',
                 width: 153,
                 cellClick: (e, cell) => {
@@ -439,8 +439,8 @@
                     consultaalvara = `https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/consultaalvara.html#${inscrlig_base}`;
                     consultapreviap = `https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/consultazoneamento.html#${inscrlig_base}`;
                     //links gerais lote
-                    document.getElementById("consultaprev").innerHTML = `<a href="${consultapreviap}">Abrir consulta prévia(zoneamento)</a> |&nbsp`
-                    document.getElementById("alvara").innerHTML = `<a href="${consultaalvara}">Abrir avaliação atividade(alvará)</a>`
+                    document.getElementById("consultaprev").innerHTML = `<a href="${consultapreviap}">Abrir consulta zoneamento</a> |&nbsp`
+                    document.getElementById("alvara").innerHTML = `<a href="${consultaalvara}">Avaliação atividade(alvará)</a>`
                     let objtabela = [];
                     fcol.features.forEach(el => {
                         objtabela.push({
