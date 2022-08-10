@@ -1,7 +1,7 @@
 detpropostas = L.featureGroup();
 
 L.esri.featureLayer({
-    url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/propostasintervencoesvi%C3%A1rias_view/FeatureServer/0/',
+    url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/intervencoesviarias_urbanismo/FeatureServer/0/',
     fields: ['tipoint', 'objectid'],
     precision: 6,
     pane: 'marker_overlay',
