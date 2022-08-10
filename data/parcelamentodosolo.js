@@ -92,7 +92,7 @@ function parcDestaque(e) {
 
 //camada e tabela parcelamento
 let dadosparcelamento = L.esri.query({
-    url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/loteamentos_urbanismo/FeatureServer/0/'
+    url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/loteamentos_urbanismo_visualizacao/FeatureServer/0/'
 });
 
 dadosparcelamento.returnGeometry(false)
