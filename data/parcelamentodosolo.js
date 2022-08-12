@@ -129,7 +129,7 @@ function inteParc(feature, layer) {
 
 //serviço esri
 let parcelamentodados = L.esri.featureLayer({
-    url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/loteamentos_urbanismo/FeatureServer/0/',
+    url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/loteamentos_urbanismo_visualizacao/FeatureServer/0/',
     fields: ['objectid', 'nome', 'codigo'],
     precision: 5,
     pane: 'marker_overlay',
