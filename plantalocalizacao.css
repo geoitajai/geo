@@ -1,0 +1,82 @@
+html,
+body {
+    margin-right: 0;
+    margin-left: 5mm;
+    margin-top: 5mm;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 297mm;
+    width: 210mm;
+    overflow: visible;
+}
+
+.leaflet-container {
+    border: none;
+    width: 195mm;
+    height: 200mm;
+    left: 5mm;
+    top: 1mm;
+    background-color: white;
+}
+
+#botaoimprimir {
+    left: 10.1mm;
+    top: -0.1mm;
+    background-color: white;
+    height: 20px;
+    width: 771px;
+}
+
+#informacoes {
+    position: absolute;
+    left: 40mm;
+    top: 10mm;
+}
+
+#loteamento {
+    position: relative;
+    top: 5mm;
+    left: 5mm;
+}
+
+#observacoes {
+    position: relative;
+    top: 5mm;
+    left: 5mm;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+tr {
+    border-bottom: 1px solid #ddd;
+}
+
+.leaflet-container {
+    background-color: var(--claro);
+}
+
+.leaflet-default-icon-path {
+    background-image: url(images/marker-icon.png);
+}
+
+.leaflet-control-layers-toggle {
+    background-image: url(images/layers.png);
+}
+
+.leaflet-retina .leaflet-control-layers-toggle {
+    background-image: url(images/layers-2x.png);
+}
+
+.leaflet-control-draw-measure {
+    background-image: url(images/measure-control.png);
+}
+
+@media print {
+    @page {
+        size: 210mm 297mm;
+        margin: 0mm;
+    }
+}

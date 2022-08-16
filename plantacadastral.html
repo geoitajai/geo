@@ -193,6 +193,7 @@
                 <div id="dadosgerais">
                     <div id="consultaprev">clique sobre um lote para mais informações</div>
                     <div id="alvara"></div>
+                    <div id="plsitua"></div>
                 </div>
                 <div id="tabelatabulator"></div>
             </div>
@@ -438,9 +439,11 @@
                     inscrlig_base = fcol.features[0].properties.inscrlig;
                     consultaalvara = `https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/consultaalvara.html#${inscrlig_base}`;
                     consultapreviap = `https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/consultazoneamento.html#${inscrlig_base}`;
+                    plantasitua = `https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/plantalocalizacao.html#${inscrlig_base}`;
                     //links gerais lote
                     document.getElementById("consultaprev").innerHTML = `<a href="${consultapreviap}" target="_blank">Consulta zoneamento</a> |&nbsp`
                     document.getElementById("alvara").innerHTML = `<a href="${consultaalvara}" target="_blank">Avaliação atividade(alvará)</a>`
+                    document.getElementById("plsitua").innerHTML = `<a href="${plantasitua}" target="_blank">Planta situação</a>`
                     let objtabela = [];
                     fcol.features.forEach(el => {
                         objtabela.push({

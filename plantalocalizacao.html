@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Consulta Prévia - Secretaria de Desenvolvimento Urbano e Habitação - Itajaí-SC</title>
+    <link rel="icon" type="image/png" href="images/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link rel="stylesheet" href="plantalocalizacao.css" />
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- leaflet -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+        integrity="sha384-VzLXTJGPSyTLX6d96AxgkKvE/LRb7ECGyTxuwtpjHnVWVZs2gp5RDjeM/tgBnVdM" crossorigin="anonymous" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+        integrity="sha384-RFZC58YeKApoNsIbBxf4z6JJXmh+geBSgkCQXFyh+4tiFSJmJBt+2FbjxW7Ar16M"
+        crossorigin="anonymous"></script>
+
+    <!-- Esri Leaflet from CDN -->
+    <script src="https://unpkg.com/esri-leaflet@3.0.8/dist/esri-leaflet.js"
+        integrity="sha512-E0DKVahIg0p1UHR2Kf9NX7x7TUewJb30mxkxEm2qOYTVJObgsAGpEol9F6iK6oefCbkJiA4/i6fnTHzM6H1kEA=="
+        crossorigin=""></script>
+
+    <!-- Esri Leaflet Vector from CDN -->
+    <script src="https://unpkg.com/esri-leaflet-vector@3.1.2/dist/esri-leaflet-vector.js"
+        integrity="sha512-SnA/TobYvMdLwGPv48bsO+9ROk7kqKu/tI9TelKQsDe+KZL0TUUWml56TZIMGcpHcVctpaU6Mz4bvboUQDuU3w=="
+        crossorigin=""></script>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.7.0/mapbox-gl.css" rel="stylesheet">
+
+    <!-- Medidas poligono -->
+    <script src="lib/leaflet-measure-path.js"></script>
+    <link rel="stylesheet" href="lib/leaflet-measure-path.css" />
+
+    <!-- Leaflet plugins -->
+    <script src="lib/measure/Leaflet.draw.js"></script>
+    <script src="lib/measure/Leaflet.Draw.Event.js"></script>
+    <script src="lib/measure/Toolbar.js"></script>
+    <script src="lib/measure/Tooltip.js"></script>
+    <script src="lib/measure/GeometryUtil.js"></script>
+    <script src="lib/measure/LatLngUtil.js"></script>
+    <script src="lib/measure/TouchEvents.js"></script>
+    <script src="lib/measure/DrawToolbar.js"></script>
+    <script src="lib/measure/Draw.Feature.js"></script>
+    <script src="lib/measure/Draw.SimpleShape.js"></script>
+    <script src="lib/measure/Draw.Polyline.js"></script>
+    <script src="lib/measure/Control.Draw.js"></script>
+    <script src="lib/measure/leaflet.measurecontrol.js"></script>
+    <script src="lib/Control.Coordinates.js"></script>
+    <link rel="stylesheet" href="lib/measure/leaflet.draw.css" />
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-172813797-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-172813797-1');
+    </script>
+</head>
+<style>
+    @media print {
+        .no-print {
+            visibility: hidden;
+        }
+    }
+
+    #botaoimprimir {
+        position: absolute;
+        background-color: none;
+        font-size: 4mm;
+        font-weight: bold;
+    }
+</style>
+
+<body>
+    <button type="button" class="no-print" id="botaoimprimir">
+        <b>IMPRESSÃO/SALVAR PDF</b></br>
+    </button>
+    <img src="images/favicon-96x96.png" alt="brasaoitajai">
+    <div class="info" id='informacoes'></div>
+    <div class="mapa" id='mapa'></div>
+    <div class="info" id='loteamento'></div>
+    <div class="info" id='observacoes'><br>Planta cadastral para simples conferência dos dados de cada imóvel, sujeita a
+        alterações sem aviso prévio. NÃO CONSTITUI DIREITO DE PROPRIEDADE.<br><b>(Medidas aproximadas)</b></div>
+
+    <script>
+        let mapa = new L.Map('mapa', {
+            zoom: 14,
+            minZoom: 10,
+            maxZoom: 20,
+            maxBounds: [
+                //south west
+                [-27.3000, -49.2300],
+                //north east
+                [-26.3285, -48.3200]
+            ],
+            center: new L.latLng([-26.9046, -48.6874]),
+            //zoomControl: false,
+            preferCanvas: true,
+            attributionControl: false,
+            scrollWheelZoom: false,
+            dragging: false
+        });
+
+        mapa.createPane('basemap_vect');
+        mapa.getPane('basemap_vect').style.zIndex = 100;
+
+        //Mapa base, SMU
+        L.esri.Vector.vectorTileLayer("7a110ef9198540068341e6908c6bf298", {
+            portalUrl: "https://arcgis.itajai.sc.gov.br/portal",
+            pane: 'basemap_vect'
+        }).addTo(mapa);
+
+        //barra escala
+        L.control.scale({
+            position: "topright",
+            imperial: false
+        }).addTo(mapa);
+
+        //Norte
+        let nortemapa = L.control({
+            position: 'topright'
+        });
+        nortemapa.onAdd = function (map) {
+            let div = L.DomUtil.create('div', 'info2 legend');
+            div.innerHTML +=
+                '<center><sub><font size="4">▲</font></sub><br/>' +
+                '<sup><font size="2">N</font></sup></center>'
+            return div;
+        };
+        nortemapa.addTo(mapa);
+
+        //Medidas
+        L.Control.measureControl({
+            position: 'topright'
+        }).addTo(mapa);
+
+        //Manchas zoneamento
+        let mapa_zoneamento = L.featureGroup();
+        $.getJSON("data/zon2012webtabela.geojson", (data) => {
+            L.geoJson(data, {
+                style: (feature) => {
+                    var corzona;
+                    cormz = feature.properties.abrevia;
+                    if (cormz === 'ZAP') corzona = "#ffc821";
+                    else if (cormz === 'ZAP (CCS1)') corzona = "#ffc821";
+                    else if (cormz === 'ZAP (CCS2)') corzona = "#ffc821";
+                    else if (cormz === 'ZC 1') corzona = "#917951";
+                    else if (cormz === 'ZC 1 (CCS2)') corzona = "#917951";
+                    else if (cormz === 'ZC 2') corzona = "#ff5765";
+                    else if (cormz === 'ZC 2 (CCS1)') corzona = "#ff5765";
+                    else if (cormz === 'ZC 2 (CCS2)') corzona = "#ff5765";
+                    else if (cormz === 'ZEA') corzona = "#7cc5ab";
+                    else if (cormz === 'ZEA (CCS1)') corzona = "#7cc5ab";
+                    else if (cormz === 'ZEA (CCS3)') corzona = "#7cc5ab";
+                    else if (cormz === 'ZEU') corzona = "#d4d4bc";
+                    else if (cormz === 'ZEU (CCS1)') corzona = "#d4d4bc";
+                    else if (cormz === 'ZEU (CCS2)') corzona = "#d4d4bc";
+                    else if (cormz === 'ZIP') corzona = "#c82d2d";
+                    else if (cormz === 'ZIP (CCS1)') corzona = "#c82d2d";
+                    else if (cormz === 'ZIP (CCS2)') corzona = "#c82d2d";
+                    else if (cormz === 'ZIT') corzona = "#caf5f5";
+                    else if (cormz === 'ZIT (CCS2)') corzona = "#caf5f5";
+                    else if (cormz === 'ZPA 1') corzona = "#468e57";
+                    else if (cormz === 'ZPA 1 (CCS1)') corzona = "#468e57";
+                    else if (cormz === 'ZPA 1 (CCS3)') corzona = "#468e57";
+                    else if (cormz === 'ZPA 2') corzona = "#11cd00";
+                    else if (cormz === 'ZPA 2 (CCS2)') corzona = "#11cd00";
+                    else if (cormz === 'ZPA 3') corzona = "#71b580";
+                    else if (cormz === 'ZPA 3 (CCS1)') corzona = "#71b580";
+                    else if (cormz === 'ZPA 3 (CCS2)') corzona = "#71b580";
+                    else if (cormz === 'ZPA 3 (CCS3)') corzona = "#71b580";
+                    else if (cormz === 'ZPN') corzona = "#83cada";
+                    else if (cormz === 'ZPN (CCS1)') corzona = "#83cada";
+                    else if (cormz === 'ZPN (CCS2)') corzona = "#83cada";
+                    else if (cormz === 'ZR') corzona = "#96b7ab";
+                    else if (cormz === 'ZR 1') corzona = "#7090d0";
+                    else if (cormz === 'ZR 1 (Q1)') corzona = "#7090d0";
+                    else if (cormz === 'ZR 1 (Q1)(CCS3)') corzona = "#7090d0";
+                    else if (cormz === 'ZR 1 (Q2)') corzona = "#7090d0";
+                    else if (cormz === 'ZR 1 (Q2)(CCS3)') corzona = "#7090d0";
+                    else if (cormz === 'ZR 1 (Q3)') corzona = "#7090d0";
+                    else if (cormz === 'ZR 1 (Q3)(CCS3)') corzona = "#7090d0";
+                    else if (cormz === 'ZR 2') corzona = "#b599da";
+                    else if (cormz === 'ZR 2 (Q1)') corzona = "#b599da";
+                    else if (cormz === 'ZR 2 (Q1)(CCS3)') corzona = "#b599da";
+                    else if (cormz === 'ZR 2 (Q2)') corzona = "#b599da";
+                    else if (cormz === 'ZR 2 (Q3)') corzona = "#b599da";
+                    else if (cormz === 'ZR 2 (Q3)(CCS3)') corzona = "#b599da";
+                    else if (cormz === 'ZR 3') corzona = "#da89bc";
+                    else if (cormz === 'ZR 3 (CCS1)') corzona = "#da89bc";
+                    else if (cormz === 'ZR 3 (CCS3)') corzona = "#da89bc";
+                    else if (cormz === 'ZSI') corzona = "#ff721b";
+                    else if (cormz === 'ZSI (CCS1)') corzona = "#ff721b";
+                    else if (cormz === 'ZSI (CCS2)') corzona = "#ff721b";
+                    else if (cormz === 'ZTRA') corzona = "#fdf5b0";
+                    else if (cormz === 'ZTRA (CCS1)') corzona = "#fdf5b0";
+                    else if (cormz === 'ZTRU') corzona = "#bfdb99";
+                    else if (cormz === 'ZTRU (CCS2)') corzona = "#bfdb99";
+                    else if (cormz === 'ZU 1') corzona = "#ef8242";
+                    else if (cormz === 'ZU 1 (CCS1)') corzona = "#ef8242";
+                    else if (cormz === 'ZU 1 (CCS2)') corzona = "#ef8242";
+                    else if (cormz === 'ZU 2') corzona = "#e9e9a8";
+                    else if (cormz === 'ZU 2 (CCS1)') corzona = "#e9e9a8";
+                    else if (cormz === 'ZU 2 (CCS2)') corzona = "#e9e9a8";
+                    else if (cormz === 'ZU 2 (CCS3)') corzona = "#e9e9a8";
+                    else if (cormz === 'ZU 2 (Artigo 80º)') corzona = "#e9e9a8";
+                    else if (cormz === 'ZU 3') corzona = "#ffff00";
+                    else if (cormz === 'ZU 3 (CCS1)') corzona = "#ffff00";
+                    else if (cormz === 'ZU 3 (CCS2)') corzona = "#ffff00";
+                    else if (cormz === 'ZU 4') corzona = "#deb239";
+                    else if (cormz === 'ZU 4 (CCS1)') corzona = "#deb239";
+                    else if (cormz === 'ZU 4 (CCS2)') corzona = "#deb239";
+                    else if (cormz === 'ZU 5') corzona = "#8c8a23";
+                    else if (cormz === 'ZU 5 (CCS1)') corzona = "#8c8a23";
+                    else if (cormz === 'ZU 5 (CCS2)') corzona = "#8c8a23";
+                    else corzona = "#fff";
+                    return { stroke: false, fillColor: corzona, fillOpacity: 0.4/* , interactive: false */ };
+                },
+                onEachFeature: (feature, layer) => {
+                    layer.bindTooltip('<strong>' + 'Zona: ' + feature.properties.abrevia + '</strong>' + '<br/>', { direction: "center", sticky: true })
+                }
+            }).addTo(mapa_zoneamento);
+        });
+
+        //#basemaps
+        //Mapa base, Urbanismo
+        let tilesmu = L.esri.Vector.vectorTileLayer("7a110ef9198540068341e6908c6bf298", {
+            portalUrl: "https://arcgis.itajai.sc.gov.br/portal",
+            attribution: 'Prefeitura de Itajaí'
+        }).addTo(mapa);
+
+        //Mapa ortoimagem 2020
+        let ortoimg2020 = new L.TileLayer(
+            'https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/tiles/tiles_ortoimg_2020/{z}/{x}/{y}.png', {
+            maxZoom: 20,
+            //opacity: 0.9,
+            attribution: 'Engemap geoinformação 2020, Prefeitura de Itajaí'
+        });
+
+        //Mapa restituição 2020
+        let restituicao2020 = new L.TileLayer(
+            'https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/tiles/tiles_rest_2020/{z}/{x}/{y}.png', {
+            maxZoom: 20,
+            //opacity: 0.9,
+            attribution: 'Engemap geoinformação 2020, Prefeitura de Itajaí'
+        });
+
+        //Mapa ortoimagem 2007
+        let ortoimg2007 = new L.TileLayer(
+            'https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/tiles/tiles_ortoimg_2007/{z}/{x}/{y}.png', {
+            maxZoom: 20,
+            //opacity: 0.9,
+            attribution: 'Aeroimagem Aerofotogrametira S/A. 2007, Prefeitura de Itajaí'
+        });
+
+        //Mapa restituição 1984
+        let restituicao1984 = new L.TileLayer(
+            'https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/tiles/tiles_rest_1984/{z}/{x}/{y}.png', {
+            maxZoom: 20,
+            //opacity: 0.9,
+            attribution: 'Município de Itajaí, Prefeitura de Itajaí'
+        });
+
+        //Mapa base, ESRI
+        let tileesri = new L.TileLayer(
+            'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+            maxZoom: 20,
+            opacity: 0.6,
+            attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
+        });
+
+        //Mapa base, google
+        let googletiles = new L.TileLayer('http://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}', {
+            opacity: 0.6,
+            maxZoom: 20,
+            transparent: false,
+            attribution: '©2019 Google, Itajaí/SC, <a href="mailto:jaceguay@itajai.sc.gov.br?Subject=WebGIS" target="_top">SIE</a>',
+            subdomains: ['mt0', 'mt1', 'mt2', 'mt3']
+        });
+
+
+        //Controle de camadas
+        let baseMaps = {
+            "SIE.Itajaí": tilesmu,
+            "Imagem.2020": ortoimg2020,
+            "Rest.2020": restituicao2020,
+            "Imagem.2007": ortoimg2007,
+            "Rest.1984": restituicao1984,
+            "ESRI©": tileesri,
+            "Google©": googletiles
+        };
+
+        let overlaymaps = {
+            "Zoneamento": mapa_zoneamento
+        };
+
+        L.control.layers(baseMaps, overlaymaps, {
+            collapsed: false,
+            position: 'bottomright'
+        }).addTo(mapa);
+
+        // Dados Hash
+        //let plantaCadastralDestaque = L.featureGroup().addTo(mapa).showMeasurements();
+        let cadastro = L.esri.query({
+            url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/malha_cadastral_raster/FeatureServer/0/'
+        });
+        let loteamentos = L.esri.query({
+            url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/loteamentos_urbanismo_visualizacao/FeatureServer/0/'
+        });
+        hashendereco = (dados) => {
+            $.ajax({
+                url: "https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/zoneamento_alvara_itajai/FeatureServer/0/query",
+                data: {
+                    f: "json", where: `inscrlig='${String(dados[1])}'`,
+                    outFields: "zon2012pre,zon2012",
+                    returnGeometry: false
+                },
+                dataType: "jsonp",
+                jsonpCallback: "callback",
+                success: (zonurb) => {
+                    //Zoneamento
+                    let classzoneamento = zonurb.features[0].attributes.zon2012;
+                    let zoneamento;
+                    if (classzoneamento.includes('"pend"') || classzoneamento == null) {
+                        zoneamento = 'CONFLITO CONFRONTANTES';
+                    } else if (classzoneamento.includes('"pendpdz"')) {
+                        zoneamento = 'EXPANSÃO PORTUÁRIA, DECRETO.11244/18';
+                    } else if (classzoneamento.includes('"pendjud"')) {
+                        zoneamento = 'CONFLITO JUDICIAL';
+                    } else if (classzoneamento.includes('"caucionado"')) {
+                        zoneamento = 'LOTE CAUCIONADO';
+                    } else { zoneamento = classzoneamento };
+                    cadastro.where(`inscrlig ='${dados[1]}'`)
+                        .limit(1)
+                        .run(function (error, cadastrolote) {
+                            //MontarMapa
+                            coordenadas = []
+                            L.geoJson(cadastrolote, {
+                                coordsToLatLng: (coords) => {
+                                    coordenadas.push(new L.LatLng(coords[1], coords[0]));
+                                }
+                            });
+                            const polygon = L.polygon(coordenadas, {
+                                weight: 2.5,
+                                color: 'blue',
+                                dashArray: '',
+                                fillOpacity: 0.1,
+                                interactive: false
+                            }).addTo(mapa).showMeasurements();
+                            mapa.flyToBounds(polygon.getBounds(), {
+                                maxZoom: 20
+                            });
+                            //DadosGerais
+                            ninscricao_check = cadastrolote.features[0].properties.inscricao == null ? 'verificar endereço cadastro' : cadastrolote.features[0].properties.inscricao.toString();
+                            nlogrado_check = cadastrolote.features[0].properties.nomevia == null ? ' ' : cadastrolote.features[0].properties.nomevia.toString();
+                            nnumimov_check = cadastrolote.features[0].properties.numero == null ? ' ' : cadastrolote.features[0].properties.numero.toString();
+                            let datahj = new Date();
+                            let datahjFormatada = ("0" + datahj.getDate()).substr(-2) + "/"
+                                + ("0" + (datahj.getMonth() + 1)).substr(-2) + "/" + datahj.getFullYear();
+                            let codloteamento = cadastrolote.features[0].properties.lotcod
+                            //Montar cabeçalho
+                            htmlcabecalho = `<b>Planta de situação</b>
+                                            <br><br/>
+                                            <table>
+                                                <tr>
+                                                  <td>Inscrição Imob.: </td>
+                                                  <td>${ninscricao_check}</td>
+                                                </tr>
+                                                <tr>
+                                                  <td>Endereço: </td>
+                                                  <td>${nlogrado_check}, ${nnumimov_check}</td>
+                                                </tr>
+                                                <tr>
+                                                  <td>Zoneamento: </td>
+                                                  <td>${zoneamento.slice(1, -1).replace(/"/g, '')}</td>
+                                                </tr>
+                                            </table>`;
+                            document.getElementById("informacoes").innerHTML = htmlcabecalho;
+                            loteamentos.where(`codigo ='${codloteamento}'`)
+                                .limit(1)
+                                .run(function (error, dadosloteamento) {
+                                    if (dadosloteamento != null) {
+                                        nomeloteamento = dadosloteamento.features[0].properties.nome;
+                                        dadosloteamento = cadastrolote.features[0].properties.lotdescr;
+                                        htmlloteamento = `<table>
+                                                <tr>
+                                                  <td>Parcelamento.: </td>
+                                                  <td>${nomeloteamento}</td>
+                                                </tr>
+                                                <tr>
+                                                  <td>Lote(s): </td>
+                                                  <td>${dadosloteamento}</td>
+                                                </tr>
+                                            </table>`;
+                                        document.getElementById("loteamento").innerHTML = htmlloteamento;
+                                    };
+                                });
+                        });
+                }
+            });
+        };
+
+        // Hash
+        if (window.location.hash.length > 1) {
+            hashendereco(window.location.hash.split('#'));
+        } else {
+            alert('http://plantacadastral.itajai.sc.gov.br/')
+        };
+
+        $('#botaoimprimir').click(function () {
+            window.print();
+        });
+    </script>
+</body>
+
+</html>
