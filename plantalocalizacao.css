@@ -15,7 +15,7 @@ body {
     width: 195mm;
     height: 200mm;
     left: 5mm;
-    top: 1mm;
+    top: 30mm;
     background-color: white;
 }
 
@@ -27,21 +27,31 @@ body {
     width: 771px;
 }
 
+#imagembrasao {
+    position: absolute;
+    width: 8mm;
+    left: 13mm;
+    top: 10mm;
+}
+
 #informacoes {
     position: absolute;
+    width: 165mm;
     left: 40mm;
     top: 10mm;
 }
 
 #loteamento {
     position: relative;
-    top: 5mm;
+    width: 185mm;
+    top: 35mm;
     left: 5mm;
 }
 
 #observacoes {
     position: relative;
-    top: 5mm;
+    width: 185mm;
+    top: 35mm;
     left: 5mm;
 }
 
