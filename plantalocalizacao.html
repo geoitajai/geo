@@ -110,12 +110,6 @@
         mapa.createPane('basemap_vect');
         mapa.getPane('basemap_vect').style.zIndex = 100;
 
-        //Mapa base, SMU
-        L.esri.Vector.vectorTileLayer("7a110ef9198540068341e6908c6bf298", {
-            portalUrl: "https://arcgis.itajai.sc.gov.br/portal",
-            pane: 'basemap_vect'
-        }).addTo(mapa);
-
         //barra escala
         L.control.scale({
             position: "topright",
@@ -230,9 +224,19 @@
 
         //#basemaps
         //Mapa base, Urbanismo
-        let tilesmu = L.esri.Vector.vectorTileLayer("7a110ef9198540068341e6908c6bf298", {
+
+        let tilesmu = L.featureGroup().addTo(mapa);
+        L.esri.Vector.vectorTileLayer("7a110ef9198540068341e6908c6bf298", {
             portalUrl: "https://arcgis.itajai.sc.gov.br/portal",
             attribution: 'Prefeitura de Itajaí'
+        }).addTo(tilesmu);
+
+        L.esri.dynamicMapLayer({
+            url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/malha_cadastral_raster/MapServer/',
+            maxZoom: 20,
+            opacity: 0.50,
+            f: 'image',
+            format: 'png8'
         }).addTo(mapa);
 
         //Mapa ortoimagem 2020
@@ -347,7 +351,7 @@
                                 }
                             });
                             const polygon = L.polygon(coordenadas, {
-                                weight: 2.5,
+                                weight: 4,
                                 color: 'blue',
                                 dashArray: '',
                                 fillOpacity: 0.1,
