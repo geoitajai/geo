@@ -106,9 +106,10 @@
             scrollWheelZoom: false,
             dragging: false
         });
-
         mapa.createPane('basemap_vect');
         mapa.getPane('basemap_vect').style.zIndex = 100;
+        mapa.createPane('basemap_overlay');
+        mapa.getPane('basemap_overlay').style.zIndex = 402;
 
         //barra escala
         L.control.scale({
@@ -310,7 +311,7 @@
         }).addTo(mapa);
 
         // Dados Hash
-        //let plantaCadastralDestaque = L.featureGroup().addTo(mapa).showMeasurements();
+        let plantaCadastralDestaque = L.featureGroup({ pane: 'basemap_overlay' }).addTo(mapa);
         let cadastro = L.esri.query({
             url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/malha_cadastral_raster/FeatureServer/0/'
         });
@@ -345,20 +346,29 @@
                         .run(function (error, cadastrolote) {
                             //MontarMapa
                             coordenadas = []
-                            L.geoJson(cadastrolote, {
-                                coordsToLatLng: (coords) => {
-                                    coordenadas.push(new L.LatLng(coords[1], coords[0]));
-                                }
-                            });
-                            const polygon = L.polygon(coordenadas, {
-                                weight: 4,
-                                color: 'blue',
-                                dashArray: '',
-                                fillOpacity: 0.1,
-                                interactive: false
-                            }).addTo(mapa).showMeasurements();
-                            mapa.flyToBounds(polygon.getBounds(), {
-                                maxZoom: 20
+                            cadastrolote.features[0].geometry.coordinates.forEach((mpoly, index) => {
+                                coordenadas.push([])
+                                mpoly.forEach((coords) => {
+                                    if (Array.isArray(coords[0])) {
+                                        coords.forEach((coordmpoly) => {
+                                            coordenadas[index].push(new L.LatLng(coordmpoly[1], coordmpoly[0]));
+                                        })
+                                    } else {
+                                        coordenadas[index].push(new L.LatLng(coords[1], coords[0]));
+                                    }
+                                })
+                            })
+                            coordenadas.forEach((poly) => {
+                                L.polygon(poly, {
+                                    weight: 4,
+                                    color: 'blue',
+                                    dashArray: '',
+                                    fillOpacity: 0.1,
+                                    interactive: false
+                                }).addTo(plantaCadastralDestaque).showMeasurements();
+                            })
+                            mapa.flyToBounds(plantaCadastralDestaque.getBounds(), {
+                                maxZoom: 19
                             });
                             //DadosGerais
                             ninscricao_check = cadastrolote.features[0].properties.inscricao == null ? 'verificar endereço cadastro' : cadastrolote.features[0].properties.inscricao.toString();
