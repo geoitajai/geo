@@ -824,18 +824,19 @@
         mapa.addControl(new customControl());
 
         //Limites Município
-        $.getJSON("data/limintermunicipais.geojson", (data) => {
-            L.geoJson(data, {
+        L.esri
+            .featureLayer({
+                url: "https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/divisas_intermunicipais_Itaja%C3%AD/FeatureServer/0",
                 style: (feature) => {
                     return {
                         color: '#000000',
                         opacity: 0.5,
                         fill: false,
                         interactive: false
-                    };
+                    }
                 }
-            }).addTo(mapa);
-        });
+            })
+            .addTo(mapa);
 
         /*
        hash barra de endereço
