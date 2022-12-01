@@ -346,12 +346,12 @@
 
         //dados, imóveis
         let cadastroimoveispts = L.esri.query({
-            //url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/cadastroimoveispts/FeatureServer/0/'
-            url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/tmi_imoveis/FeatureServer/0/'
+            url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/cadastroimoveispts/FeatureServer/0/'
+            //url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/tmi_imoveis/FeatureServer/0/'
         });
         let cadastroimoveisptscodimov = L.esri.query({
-            //url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/cadastroimoveispts/FeatureServer/0/'
-            url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/tmi_imoveis/FeatureServer/0/'
+            url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/cadastroimoveispts/FeatureServer/0/'
+            //url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/tmi_imoveis/FeatureServer/0/'
         });
 
         //Definir elementos da tabela
@@ -431,12 +431,12 @@
             table.setData([]);
             //dados tabela
             let inscricaoimob = `${e.features[0].properties.inscrlig}`;
-            let inscricaowhereimovel = `inscrlig='${inscricaoimob}'`;
+            let inscricaowhereimovel = `inscrilig='${inscricaoimob}'`;
             let objtabela = [];
             cadastroimoveispts.where(inscricaowhereimovel)
                 .returnGeometry(false)
                 .run((error, fcol) => {
-                    inscrlig_base = fcol.features[0].properties.inscrlig;
+                    inscrlig_base = fcol.features[0].properties.inscrilig;
                     consultaalvara = `https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/consultaalvara.html#${inscrlig_base}`;
                     consultapreviap = `https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/consultazoneamento.html#${inscrlig_base}`;
                     plantasitua = `https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/plantalocalizacao.html#${inscrlig_base}`;
@@ -612,7 +612,6 @@
                                         .returnGeometry(false)
                                         .limit(1)
                                         .fields(['inscrlig']).run((error, fcolcod) => {
-                                            console.log(fcolcod)
                                             if (fcolcod == null) {
                                                 alert("Não encontrado");
                                             } else if (fcolcod.features.length == 0) {
