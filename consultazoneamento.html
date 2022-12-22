@@ -14,32 +14,17 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
-    <!-- leaflet -->
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
-        integrity="sha384-VzLXTJGPSyTLX6d96AxgkKvE/LRb7ECGyTxuwtpjHnVWVZs2gp5RDjeM/tgBnVdM" crossorigin="anonymous" />
-    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
-        integrity="sha384-RFZC58YeKApoNsIbBxf4z6JJXmh+geBSgkCQXFyh+4tiFSJmJBt+2FbjxW7Ar16M"
-        crossorigin="anonymous"></script>
+    <!-- Leaflet -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+        integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+        integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
 
-    <!-- Esri Leaflet from CDN -->
-    <script src="https://unpkg.com/esri-leaflet@3.0.8/dist/esri-leaflet.js"
-        integrity="sha512-E0DKVahIg0p1UHR2Kf9NX7x7TUewJb30mxkxEm2qOYTVJObgsAGpEol9F6iK6oefCbkJiA4/i6fnTHzM6H1kEA=="
-        crossorigin=""></script>
-
-    <!-- Esri Leaflet Vector from CDN -->
-    <script src="https://unpkg.com/esri-leaflet-vector@3.1.2/dist/esri-leaflet-vector.js"
-        integrity="sha512-SnA/TobYvMdLwGPv48bsO+9ROk7kqKu/tI9TelKQsDe+KZL0TUUWml56TZIMGcpHcVctpaU6Mz4bvboUQDuU3w=="
-        crossorigin=""></script>
+    <!-- Load Esri Leaflet from CDN -->
+    <script src="https://unpkg.com/esri-leaflet@^3.0.9/dist/esri-leaflet.js"></script>
+    <!-- Load Esri Leaflet Vector from CDN -->
+    <script src="https://unpkg.com/esri-leaflet-vector@4.0.0/dist/esri-leaflet-vector.js" crossorigin=""></script>
     <link href="https://api.mapbox.com/mapbox-gl-js/v2.7.0/mapbox-gl.css" rel="stylesheet">
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-172813797-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-        gtag('config', 'UA-172813797-1');
-    </script>
 </head>
 <style>
     @media print {
@@ -116,91 +101,91 @@
         nortemapa.addTo(mapa);
 
         //Manchas zoneamento
-        $.getJSON("data/zon2012webtabela.geojson", (data) => {
-            L.geoJson(data, {
-                style: (feature) => {
-                    var corzona;
-                    cormz = feature.properties.abrevia;
-                    if (cormz === 'ZAP') corzona = "#ffc821";
-                    else if (cormz === 'ZAP (CCS1)') corzona = "#ffc821";
-                    else if (cormz === 'ZAP (CCS2)') corzona = "#ffc821";
-                    else if (cormz === 'ZC 1') corzona = "#917951";
-                    else if (cormz === 'ZC 1 (CCS2)') corzona = "#917951";
-                    else if (cormz === 'ZC 2') corzona = "#ff5765";
-                    else if (cormz === 'ZC 2 (CCS1)') corzona = "#ff5765";
-                    else if (cormz === 'ZC 2 (CCS2)') corzona = "#ff5765";
-                    else if (cormz === 'ZEA') corzona = "#7cc5ab";
-                    else if (cormz === 'ZEA (CCS1)') corzona = "#7cc5ab";
-                    else if (cormz === 'ZEA (CCS3)') corzona = "#7cc5ab";
-                    else if (cormz === 'ZEU') corzona = "#d4d4bc";
-                    else if (cormz === 'ZEU (CCS1)') corzona = "#d4d4bc";
-                    else if (cormz === 'ZEU (CCS2)') corzona = "#d4d4bc";
-                    else if (cormz === 'ZIP') corzona = "#c82d2d";
-                    else if (cormz === 'ZIP (CCS1)') corzona = "#c82d2d";
-                    else if (cormz === 'ZIP (CCS2)') corzona = "#c82d2d";
-                    else if (cormz === 'ZIT') corzona = "#caf5f5";
-                    else if (cormz === 'ZIT (CCS2)') corzona = "#caf5f5";
-                    else if (cormz === 'ZPA 1') corzona = "#468e57";
-                    else if (cormz === 'ZPA 1 (CCS1)') corzona = "#468e57";
-                    else if (cormz === 'ZPA 1 (CCS3)') corzona = "#468e57";
-                    else if (cormz === 'ZPA 2') corzona = "#11cd00";
-                    else if (cormz === 'ZPA 2 (CCS2)') corzona = "#11cd00";
-                    else if (cormz === 'ZPA 3') corzona = "#71b580";
-                    else if (cormz === 'ZPA 3 (CCS1)') corzona = "#71b580";
-                    else if (cormz === 'ZPA 3 (CCS2)') corzona = "#71b580";
-                    else if (cormz === 'ZPA 3 (CCS3)') corzona = "#71b580";
-                    else if (cormz === 'ZPN') corzona = "#83cada";
-                    else if (cormz === 'ZPN (CCS1)') corzona = "#83cada";
-                    else if (cormz === 'ZPN (CCS2)') corzona = "#83cada";
-                    else if (cormz === 'ZR') corzona = "#96b7ab";
-                    else if (cormz === 'ZR 1') corzona = "#7090d0";
-                    else if (cormz === 'ZR 1 (Q1)') corzona = "#7090d0";
-                    else if (cormz === 'ZR 1 (Q1)(CCS3)') corzona = "#7090d0";
-                    else if (cormz === 'ZR 1 (Q2)') corzona = "#7090d0";
-                    else if (cormz === 'ZR 1 (Q2)(CCS3)') corzona = "#7090d0";
-                    else if (cormz === 'ZR 1 (Q3)') corzona = "#7090d0";
-                    else if (cormz === 'ZR 1 (Q3)(CCS3)') corzona = "#7090d0";
-                    else if (cormz === 'ZR 2') corzona = "#b599da";
-                    else if (cormz === 'ZR 2 (Q1)') corzona = "#b599da";
-                    else if (cormz === 'ZR 2 (Q1)(CCS3)') corzona = "#b599da";
-                    else if (cormz === 'ZR 2 (Q2)') corzona = "#b599da";
-                    else if (cormz === 'ZR 2 (Q3)') corzona = "#b599da";
-                    else if (cormz === 'ZR 2 (Q3)(CCS3)') corzona = "#b599da";
-                    else if (cormz === 'ZR 3') corzona = "#da89bc";
-                    else if (cormz === 'ZR 3 (CCS1)') corzona = "#da89bc";
-                    else if (cormz === 'ZR 3 (CCS3)') corzona = "#da89bc";
-                    else if (cormz === 'ZSI') corzona = "#ff721b";
-                    else if (cormz === 'ZSI (CCS1)') corzona = "#ff721b";
-                    else if (cormz === 'ZSI (CCS2)') corzona = "#ff721b";
-                    else if (cormz === 'ZTRA') corzona = "#fdf5b0";
-                    else if (cormz === 'ZTRA (CCS1)') corzona = "#fdf5b0";
-                    else if (cormz === 'ZTRU') corzona = "#bfdb99";
-                    else if (cormz === 'ZTRU (CCS2)') corzona = "#bfdb99";
-                    else if (cormz === 'ZU 1') corzona = "#ef8242";
-                    else if (cormz === 'ZU 1 (CCS1)') corzona = "#ef8242";
-                    else if (cormz === 'ZU 1 (CCS2)') corzona = "#ef8242";
-                    else if (cormz === 'ZU 2') corzona = "#e9e9a8";
-                    else if (cormz === 'ZU 2 (CCS1)') corzona = "#e9e9a8";
-                    else if (cormz === 'ZU 2 (CCS2)') corzona = "#e9e9a8";
-                    else if (cormz === 'ZU 2 (CCS3)') corzona = "#e9e9a8";
-                    else if (cormz === 'ZU 2 (Artigo 80º)') corzona = "#e9e9a8";
-                    else if (cormz === 'ZU 3') corzona = "#ffff00";
-                    else if (cormz === 'ZU 3 (CCS1)') corzona = "#ffff00";
-                    else if (cormz === 'ZU 3 (CCS2)') corzona = "#ffff00";
-                    else if (cormz === 'ZU 4') corzona = "#deb239";
-                    else if (cormz === 'ZU 4 (CCS1)') corzona = "#deb239";
-                    else if (cormz === 'ZU 4 (CCS2)') corzona = "#deb239";
-                    else if (cormz === 'ZU 5') corzona = "#8c8a23";
-                    else if (cormz === 'ZU 5 (CCS1)') corzona = "#8c8a23";
-                    else if (cormz === 'ZU 5 (CCS2)') corzona = "#8c8a23";
-                    else corzona = "#fff";
-                    return { stroke: false, fillColor: corzona, fillOpacity: 0.4/* , interactive: false */ };
-                },
-                onEachFeature: (feature, layer) => {
-                    layer.bindTooltip('<strong>' + 'Zona: ' + feature.properties.abrevia + '</strong>' + '<br/>', { direction: "center", sticky: true })
-                }
-            }).addTo(mapa).bringToBack();
-        });
+        //$.getJSON("data/zoneamento/zon2012webtabela.geojson", (data) => {
+        //    L.geoJson(data, {
+        //        style: (feature) => {
+        //            var corzona;
+        //            cormz = feature.properties.abrevia;
+        //            if (cormz === 'ZAP') corzona = "#ffc821";
+        //            else if (cormz === 'ZAP (CCS1)') corzona = "#ffc821";
+        //            else if (cormz === 'ZAP (CCS2)') corzona = "#ffc821";
+        //            else if (cormz === 'ZC 1') corzona = "#917951";
+        //            else if (cormz === 'ZC 1 (CCS2)') corzona = "#917951";
+        //            else if (cormz === 'ZC 2') corzona = "#ff5765";
+        //            else if (cormz === 'ZC 2 (CCS1)') corzona = "#ff5765";
+        //            else if (cormz === 'ZC 2 (CCS2)') corzona = "#ff5765";
+        //            else if (cormz === 'ZEA') corzona = "#7cc5ab";
+        //            else if (cormz === 'ZEA (CCS1)') corzona = "#7cc5ab";
+        //            else if (cormz === 'ZEA (CCS3)') corzona = "#7cc5ab";
+        //            else if (cormz === 'ZEU') corzona = "#d4d4bc";
+        //            else if (cormz === 'ZEU (CCS1)') corzona = "#d4d4bc";
+        //            else if (cormz === 'ZEU (CCS2)') corzona = "#d4d4bc";
+        //            else if (cormz === 'ZIP') corzona = "#c82d2d";
+        //            else if (cormz === 'ZIP (CCS1)') corzona = "#c82d2d";
+        //            else if (cormz === 'ZIP (CCS2)') corzona = "#c82d2d";
+        //            else if (cormz === 'ZIT') corzona = "#caf5f5";
+        //            else if (cormz === 'ZIT (CCS2)') corzona = "#caf5f5";
+        //            else if (cormz === 'ZPA 1') corzona = "#468e57";
+        //            else if (cormz === 'ZPA 1 (CCS1)') corzona = "#468e57";
+        //            else if (cormz === 'ZPA 1 (CCS3)') corzona = "#468e57";
+        //            else if (cormz === 'ZPA 2') corzona = "#11cd00";
+        //            else if (cormz === 'ZPA 2 (CCS2)') corzona = "#11cd00";
+        //            else if (cormz === 'ZPA 3') corzona = "#71b580";
+        //            else if (cormz === 'ZPA 3 (CCS1)') corzona = "#71b580";
+        //            else if (cormz === 'ZPA 3 (CCS2)') corzona = "#71b580";
+        //            else if (cormz === 'ZPA 3 (CCS3)') corzona = "#71b580";
+        //            else if (cormz === 'ZPN') corzona = "#83cada";
+        //            else if (cormz === 'ZPN (CCS1)') corzona = "#83cada";
+        //            else if (cormz === 'ZPN (CCS2)') corzona = "#83cada";
+        //            else if (cormz === 'ZR') corzona = "#96b7ab";
+        //            else if (cormz === 'ZR 1') corzona = "#7090d0";
+        //            else if (cormz === 'ZR 1 (Q1)') corzona = "#7090d0";
+        //            else if (cormz === 'ZR 1 (Q1)(CCS3)') corzona = "#7090d0";
+        //            else if (cormz === 'ZR 1 (Q2)') corzona = "#7090d0";
+        //            else if (cormz === 'ZR 1 (Q2)(CCS3)') corzona = "#7090d0";
+        //            else if (cormz === 'ZR 1 (Q3)') corzona = "#7090d0";
+        //            else if (cormz === 'ZR 1 (Q3)(CCS3)') corzona = "#7090d0";
+        //            else if (cormz === 'ZR 2') corzona = "#b599da";
+        //            else if (cormz === 'ZR 2 (Q1)') corzona = "#b599da";
+        //            else if (cormz === 'ZR 2 (Q1)(CCS3)') corzona = "#b599da";
+        //            else if (cormz === 'ZR 2 (Q2)') corzona = "#b599da";
+        //            else if (cormz === 'ZR 2 (Q3)') corzona = "#b599da";
+        //            else if (cormz === 'ZR 2 (Q3)(CCS3)') corzona = "#b599da";
+        //            else if (cormz === 'ZR 3') corzona = "#da89bc";
+        //            else if (cormz === 'ZR 3 (CCS1)') corzona = "#da89bc";
+        //            else if (cormz === 'ZR 3 (CCS3)') corzona = "#da89bc";
+        //            else if (cormz === 'ZSI') corzona = "#ff721b";
+        //            else if (cormz === 'ZSI (CCS1)') corzona = "#ff721b";
+        //            else if (cormz === 'ZSI (CCS2)') corzona = "#ff721b";
+        //            else if (cormz === 'ZTRA') corzona = "#fdf5b0";
+        //            else if (cormz === 'ZTRA (CCS1)') corzona = "#fdf5b0";
+        //            else if (cormz === 'ZTRU') corzona = "#bfdb99";
+        //            else if (cormz === 'ZTRU (CCS2)') corzona = "#bfdb99";
+        //            else if (cormz === 'ZU 1') corzona = "#ef8242";
+        //            else if (cormz === 'ZU 1 (CCS1)') corzona = "#ef8242";
+        //            else if (cormz === 'ZU 1 (CCS2)') corzona = "#ef8242";
+        //            else if (cormz === 'ZU 2') corzona = "#e9e9a8";
+        //            else if (cormz === 'ZU 2 (CCS1)') corzona = "#e9e9a8";
+        //            else if (cormz === 'ZU 2 (CCS2)') corzona = "#e9e9a8";
+        //            else if (cormz === 'ZU 2 (CCS3)') corzona = "#e9e9a8";
+        //            else if (cormz === 'ZU 2 (Artigo 80º)') corzona = "#e9e9a8";
+        //            else if (cormz === 'ZU 3') corzona = "#ffff00";
+        //            else if (cormz === 'ZU 3 (CCS1)') corzona = "#ffff00";
+        //            else if (cormz === 'ZU 3 (CCS2)') corzona = "#ffff00";
+        //            else if (cormz === 'ZU 4') corzona = "#deb239";
+        //            else if (cormz === 'ZU 4 (CCS1)') corzona = "#deb239";
+        //            else if (cormz === 'ZU 4 (CCS2)') corzona = "#deb239";
+        //            else if (cormz === 'ZU 5') corzona = "#8c8a23";
+        //            else if (cormz === 'ZU 5 (CCS1)') corzona = "#8c8a23";
+        //            else if (cormz === 'ZU 5 (CCS2)') corzona = "#8c8a23";
+        //            else corzona = "#fff";
+        //            return { stroke: false, fillColor: corzona, fillOpacity: 0.4/* , interactive: false */ };
+        //        },
+        //        onEachFeature: (feature, layer) => {
+        //            layer.bindTooltip('<strong>' + 'Zona: ' + feature.properties.abrevia + '</strong>' + '<br/>', { direction: "center", sticky: true })
+        //        }
+        //    }).addTo(mapa);
+        //});
 
         //detectar mobile
         isMobile = () => {
@@ -255,7 +240,7 @@
 
         let plantaCadastralDestaque = L.featureGroup().addTo(mapa);
         let cadastro = L.esri.query({
-            url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/malha_cadastral_raster/FeatureServer/0/'
+            url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/viewladastrolotesqgis/FeatureServer/0/'
         });
         let testadas = L.esri.query({
             url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/testadas/FeatureServer/0/'

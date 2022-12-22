@@ -14,22 +14,16 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
-    <!-- leaflet -->
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
-        integrity="sha384-VzLXTJGPSyTLX6d96AxgkKvE/LRb7ECGyTxuwtpjHnVWVZs2gp5RDjeM/tgBnVdM" crossorigin="anonymous" />
-    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
-        integrity="sha384-RFZC58YeKApoNsIbBxf4z6JJXmh+geBSgkCQXFyh+4tiFSJmJBt+2FbjxW7Ar16M"
-        crossorigin="anonymous"></script>
+    <!-- Leaflet -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+        integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+        integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
 
-    <!-- Esri Leaflet from CDN -->
-    <script src="https://unpkg.com/esri-leaflet@3.0.8/dist/esri-leaflet.js"
-        integrity="sha512-E0DKVahIg0p1UHR2Kf9NX7x7TUewJb30mxkxEm2qOYTVJObgsAGpEol9F6iK6oefCbkJiA4/i6fnTHzM6H1kEA=="
-        crossorigin=""></script>
-
-    <!-- Esri Leaflet Vector from CDN -->
-    <script src="https://unpkg.com/esri-leaflet-vector@3.1.2/dist/esri-leaflet-vector.js"
-        integrity="sha512-SnA/TobYvMdLwGPv48bsO+9ROk7kqKu/tI9TelKQsDe+KZL0TUUWml56TZIMGcpHcVctpaU6Mz4bvboUQDuU3w=="
-        crossorigin=""></script>
+    <!-- Load Esri Leaflet from CDN -->
+    <script src="https://unpkg.com/esri-leaflet@^3.0.9/dist/esri-leaflet.js"></script>
+    <!-- Load Esri Leaflet Vector from CDN -->
+    <script src="https://unpkg.com/esri-leaflet-vector@4.0.0/dist/esri-leaflet-vector.js" crossorigin=""></script>
     <link href="https://api.mapbox.com/mapbox-gl-js/v2.7.0/mapbox-gl.css" rel="stylesheet">
 
     <!-- Medidas poligono -->
@@ -52,15 +46,6 @@
     <script src="lib/measure/leaflet.measurecontrol.js"></script>
     <script src="lib/Control.Coordinates.js"></script>
     <link rel="stylesheet" href="lib/measure/leaflet.draw.css" />
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-172813797-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-        gtag('config', 'UA-172813797-1');
-    </script>
 </head>
 <style>
     @media print {
@@ -233,7 +218,7 @@
         }).addTo(tilesmu);
 
         L.esri.dynamicMapLayer({
-            url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/malha_cadastral_raster/MapServer/',
+            url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/viewladastrolotesqgis/FeatureServer/0/',
             maxZoom: 20,
             opacity: 0.50,
             f: 'image',
@@ -313,7 +298,7 @@
         // Dados Hash
         let plantaCadastralDestaque = L.featureGroup({ pane: 'basemap_overlay' }).addTo(mapa);
         let cadastro = L.esri.query({
-            url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/malha_cadastral_raster/FeatureServer/0/'
+            url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/viewladastrolotesqgis/FeatureServer/0/'
         });
         let loteamentos = L.esri.query({
             url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/loteamentos_urbanismo_visualizacao/FeatureServer/0/'
