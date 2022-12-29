@@ -1,6 +1,7 @@
 parcelamentodosolo = L.featureGroup();
 let parcelamentodestaque = L.featureGroup().addTo(mapa);
 loteresultado = false;
+parcelamentodosolo_chk = true;
 
 let colunasparcelamento = [
     {

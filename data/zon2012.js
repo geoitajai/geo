@@ -1,5 +1,6 @@
 plantaZoneamento = L.featureGroup();
 loteresultado = false;
+plantaZoneamento_chk = true;
 
 L.esri.featureLayer({
     url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/zon2012/FeatureServer/0/',

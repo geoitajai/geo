@@ -1,4 +1,5 @@
 detpropostas = L.featureGroup();
+detpropostas_chk = true;
 
 L.esri.featureLayer({
     url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/intervencoesviarias_urbanismo/FeatureServer/0/',

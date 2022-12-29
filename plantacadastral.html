@@ -9,8 +9,7 @@
     <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <!-- jQuery from CDN -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" crossorigin="anonymous"></script>
     <!-- jQuery UI -->
     <link href="lib/jquery-ui.min.css" rel="stylesheet">
     <link href="lib/jquery-ui.theme.min.css" rel="stylesheet">
@@ -720,28 +719,39 @@
         }).addTo(mapa);
 
         //#camadas, barra lateral
+        let detpropostas_chk = false;
         let detpropostas;
+        let plantaZoneamento_chk = false;
         let plantaZoneamento;
+        let parcelamentodosolo_chk = false;
         let parcelamentodosolo;
         let tabelaparcelamento = [];
 
         //#controle de camadas
         let limparcamadas = () => {
-            if (mapa.hasLayer(detpropostas)) mapa.removeLayer(detpropostas);
-            if (mapa.hasLayer(plantaZoneamento)) mapa.removeLayer(plantaZoneamento);
-            if (mapa.hasLayer(parcelamentodosolo)) mapa.removeLayer(parcelamentodosolo);
+            if (detpropostas_chk == true) {
+                mapa.removeLayer(detpropostas)
+            };
+            if (plantaZoneamento_chk == true) {
+                mapa.removeLayer(plantaZoneamento)
+            };
+            if (parcelamentodosolo_chk == true) {
+                mapa.removeLayer(parcelamentodosolo)
+            };
             loteresultado = true;
+            table.setColumns(colunaspadrao);
+            table.setData();
         };
         $("#barraLateral").on("accordionactivate", (event, ui) => {
-            if (ui.oldHeader["0"].textContent === 'Parcelamento do solo') {
-                table.setColumns(colunaspadrao);
-                table.setData();
-            };
+            //if (ui.oldHeader["0"].textContent === 'Parcelamento do solo') {
+            //    table.setColumns(colunaspadrao);
+            //    table.setData();
+            //};
             if (
                 ui.newHeader["0"].textContent === 'Zoneamento'
             ) {
                 limparcamadas();
-                if (plantaZoneamento == undefined) {
+                if (plantaZoneamento_chk == false) {
                     $.getScript('data/zon2012.js', () => { });
                 } else {
                     loteresultado = false;
@@ -752,7 +762,7 @@
                 ui.newHeader["0"].textContent === 'Engenharia de Trânsito'
             ) {
                 limparcamadas();
-                if (detpropostas == undefined) {
+                if (detpropostas_chk == false) {
                     $.getScript('data/detpropostas.js', () => { });
                 } else {
                     mapa.addLayer(detpropostas);
@@ -762,7 +772,7 @@
                 ui.newHeader["0"].textContent === 'Parcelamento do solo'
             ) {
                 limparcamadas();
-                if (parcelamentodosolo == undefined) {
+                if (parcelamentodosolo_chk == false) {
                     $.getScript('data/parcelamentodosolo.js', () => { });
                 } else {
                     mapa.addLayer(parcelamentodosolo);
