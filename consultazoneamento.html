@@ -240,7 +240,7 @@
 
         let plantaCadastralDestaque = L.featureGroup().addTo(mapa);
         let cadastro = L.esri.query({
-            url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/viewladastrolotesqgis/FeatureServer/0/'
+            url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/malha_cadastral_raster/FeatureServer/0/'
         });
         let testadas = L.esri.query({
             url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/testadas/FeatureServer/0/'
@@ -256,6 +256,7 @@
                 dataType: "jsonp",
                 jsonpCallback: "callback",
                 success: function (zonurb) {
+                    console.log(zonurb.features)
                     let classzoneamento = zonurb.features[0].attributes.zon2012
                     if (classzoneamento.includes('"pend"') || classzoneamento == null) {
                         document.getElementById("inscrimob").innerHTML = 'CONFLITO CONFRONTANTES';
