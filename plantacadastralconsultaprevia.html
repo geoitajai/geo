@@ -295,13 +295,13 @@
 
         //estilo destacado, lote
         let cadastroimoveispts = L.esri.query({
-            url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/cadastroimoveispts/FeatureServer/0/'
-            //url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/tmi_imoveis/FeatureServer/0/'
+            //url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/cadastroimoveispts/FeatureServer/0/'
+            url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/tmi_imoveis/FeatureServer/0/'
         });
 
         let cadastroimoveisptscodimov = L.esri.query({
-            url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/cadastroimoveispts/FeatureServer/0/'
-            //url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/tmi_imoveis/FeatureServer/0/'
+            //url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/cadastroimoveispts/FeatureServer/0/'
+            url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/tmi_imoveis/FeatureServer/0/'
         });
 
         function pCestiloDestaque(e) {
@@ -531,7 +531,7 @@
 
         // Feature layer e imagem, malha cadastral
         let malhacadastral = new L.esri.dynamicMapLayer({
-            url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/viewladastrolotesqgis/MapServer/',
+            url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/malha_cadastral_raster/MapServer/',
             pane: 'basemap_numeracao',
             minZoom: 15,
             maxZoom: 19,
@@ -541,7 +541,7 @@
         }).addTo(mapa);
 
         let malhacadastralpesquisa = new L.esri.featureLayer({
-            url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/viewladastrolotesqgis/FeatureServer/0/'
+            url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/malha_cadastral_raster/FeatureServer/0/'
         });
 
         //sistema viário
