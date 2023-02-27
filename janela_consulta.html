@@ -322,7 +322,7 @@
             coordmapa.setCoordinates(e);
             marcaclick.clearLayers();
             L.marker(e.latlng).addTo(marcaclick);
-            marcaclickcoord = round(e.latlng.lat,4) + ',' + round(e.latlng.lng,4);
+            marcaclickcoord = e.latlng.lat.toFixed(4) + ',' + e.latlng.lng.toFixed(4);
             console.log(marcaclickcoord)
         });
 
