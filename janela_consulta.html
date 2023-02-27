@@ -323,6 +323,7 @@
             marcaclick.clearLayers();
             L.marker(e.latlng).addTo(marcaclick);
             marcaclickcoord = e.latlng.lat + ',' + e.latlng.lng;
+            console.log(marcaclickcoord)
         });
 
         //Zoom e destaque para via a partir de geoJSON
