@@ -18,10 +18,8 @@
     <link href="https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/lib/jquery-ui.theme.min.css" rel="stylesheet">
     <script src="https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/lib/jquery-ui.min.js"></script>
     <!-- Leaflet -->
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
-        integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
-    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
-        integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" crossorigin=""></script>
     <!-- Leaflet plugins -->
     <script src="https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/lib/measure/Leaflet.draw.js"></script>
     <script src="https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/lib/measure/Leaflet.Draw.Event.js"></script>
@@ -322,8 +320,7 @@
             coordmapa.setCoordinates(e);
             marcaclick.clearLayers();
             L.marker(e.latlng).addTo(marcaclick);
-            marcaclickcoord = e.latlng.lat.toFixed(4) + ',' + e.latlng.lng.toFixed(4);
-            console.log(marcaclickcoord)
+            marcaclickcoord = e.latlng.lat + ',' + e.latlng.lng;
         });
 
         //Zoom e destaque para via a partir de geoJSON
@@ -520,24 +517,8 @@
         });
 
         //sistema viário
-        //popup
-        let viaspop = L.esri.query({
-            url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/sistema_viario/FeatureServer/0/'
-        });
         function pCestiloDestaqVia(e) {
             pesquisaQvias.clearLayers();
-            viaspop.where(`codsecao ='${e.target.feature.properties.codsecao}'`)
-                .returnGeometry(false)
-                .limit(1)
-                .run(function (error, fcvias) {
-                    let via = fcvias.features[0].properties;
-                    L.popup()
-                        .setLatLng(e.latlng)
-                        .setContent(
-                            '<strong>' + via.nome + '</strong></br>' +
-                            'Código: ' + via.cod
-                        ).openOn(mapa);
-                });
             L.geoJson(e.sourceTarget.feature, {
                 style: (feature) => {
                     return {
@@ -558,11 +539,6 @@
         };
 
         //camada via
-        function inteVia(feature, layer) {
-            layer.on({
-                click: pCestiloDestaqVia
-            });
-        };
         let viasgeom = L.esri.featureLayer({
             url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/sistema_viario/FeatureServer/0/',
             fields: ['nome', 'codsecao', 'cod', 'objectid'],
