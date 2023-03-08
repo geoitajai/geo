@@ -579,7 +579,7 @@
                             if (event.keyCode == 13) {
                                 event.preventDefault();
                                 if ($("#pesquisaRapida").val().length === 15) {
-                                    let inscrlig = `i${$("#pesquisaRapida").val().substr(0, 3)}${$("#pesquisaRapida").val().substr(4, 3)}${$("#pesquisaRapida").val().substr(11, 4)}`
+                                    let inscrlig = `i${$("#pesquisaRapida").val().substr(0, 3)}${$("#pesquisaRapida").val().substr(4, 3)}${$("#pesquisaRapida").val().substr(8, 2)}${$("#pesquisaRapida").val().substr(11, 4)}`
                                     malhacadastralpesquisa.query()
                                         .where(`inscrlig = '${inscrlig}'`)
                                         .run((error, fcolinscr) => {
