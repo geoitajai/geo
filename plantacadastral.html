@@ -420,31 +420,38 @@
             cadastroimoveispts.where(inscricaowhereimovel)
                 .returnGeometry(false)
                 .run((error, fcol) => {
-                    inscrlig_base = fcol.features[0].properties.inscrlig;
-                    consultaalvara = `https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/consultaalvara.html#${inscrlig_base}`;
-                    consultapreviap = `https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/consultazoneamento.html#${inscrlig_base}`;
-                    plantasitua = `https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/plantalocalizacao.html#${inscrlig_base}`;
-                    //links gerais lote
-                    document.getElementById("consultaprev").innerHTML = `<a href="${consultapreviap}" target="_blank">Consulta zoneamento</a> |&nbsp`
-                    document.getElementById("alvara").innerHTML = `<a href="${consultaalvara}" target="_blank">Avaliação atividade(alvará)</a> |&nbsp`
-                    document.getElementById("plsitua").innerHTML = `<a href="${plantasitua}" target="_blank">Planta situação</a>`
-                    let objtabela = [];
-                    fcol.features.forEach(el => {
-                        objtabela.push({
-                            'ninscrao': el.properties.aut_inscricao,
-                            'ncodimov': el.properties.aut_codigo_imovel,
-                            'nrazaoso': el.properties.nome_contribuinte,
-                            'nmatricu': el.properties.aut_numero_matricula,
-                            'nlogrado': el.properties.aut_end_logradouro,
-                            'nnumimov': el.properties.aut_end_numero,
-                            'ncomplem': el.properties.aut_end_complemento,
-                            'nnomebai': el.properties.aut_end_bairro,
-                            'nareater': el.properties.aut_area_tributavel_terreno,
-                            'ncodcont': el.properties.aut_ano_construcao,
-                            'nfracaoi': el.properties.aut_fracao_informada,
+                    if (fcol.features.length > 0) {
+                        inscrlig_base = fcol.features[0].properties.inscrlig;
+                        consultaalvara = `https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/consultaalvara.html#${inscrlig_base}`;
+                        consultapreviap = `https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/consultazoneamento.html#${inscrlig_base}`;
+                        plantasitua = `https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/plantalocalizacao.html#${inscrlig_base}`;
+                        //links gerais lote
+                        document.getElementById("consultaprev").innerHTML = `<a href="${consultapreviap}" target="_blank">Consulta zoneamento</a> |&nbsp`
+                        document.getElementById("alvara").innerHTML = `<a href="${consultaalvara}" target="_blank">Avaliação atividade(alvará)</a> |&nbsp`
+                        document.getElementById("plsitua").innerHTML = `<a href="${plantasitua}" target="_blank">Planta situação</a>`
+                        let objtabela = [];
+                        fcol.features.forEach(el => {
+                            objtabela.push({
+                                'ninscrao': el.properties.aut_inscricao,
+                                'ncodimov': el.properties.aut_codigo_imovel,
+                                'nrazaoso': el.properties.nome_contribuinte,
+                                'nmatricu': el.properties.aut_numero_matricula,
+                                'nlogrado': el.properties.aut_end_logradouro,
+                                'nnumimov': el.properties.aut_end_numero,
+                                'ncomplem': el.properties.aut_end_complemento,
+                                'nnomebai': el.properties.aut_end_bairro,
+                                'nareater': el.properties.aut_area_tributavel_terreno,
+                                'ncodcont': el.properties.aut_ano_construcao,
+                                'nfracaoi': el.properties.aut_fracao_informada,
+                            });
                         });
-                    });
-                    table.setData(objtabela);
+                        table.setData(objtabela);
+                    } else if (fcol.features.length == 0) {
+                        //links gerais lote
+                        document.getElementById("consultaprev").innerHTML = '&nbsp';
+                        document.getElementById("alvara").innerHTML = '&nbsp';
+                        document.getElementById("plsitua").innerHTML = '&nbsp';
+                    };
                 });
             //lote no mapa
             L.geoJson(e, {
