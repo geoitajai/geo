@@ -295,13 +295,11 @@
 
         //estilo destacado, lote
         let cadastroimoveispts = L.esri.query({
-            //url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/cadastroimoveispts/FeatureServer/0/'
-            url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/tmi_imoveis/FeatureServer/0/'
+            url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/imoveis_plantacadastral/FeatureServer/0/'
         });
 
         let cadastroimoveisptscodimov = L.esri.query({
-            //url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/cadastroimoveispts/FeatureServer/0/'
-            url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/tmi_imoveis/FeatureServer/0/'
+            url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/imoveis_plantacadastral/FeatureServer/0/'
         });
 
         function pCestiloDestaque(e) {
@@ -316,7 +314,7 @@
                 .run((error, fcol) => {
                     fcol.features.forEach(el => {
                         objtabela.push({
-                            'ninscrao': el.properties.aut_inscricao,
+                            'ninscrao': el.properties.lote_inscricao,
                             'inscrlig': el.properties.inscrlig,
                             'ncodimov': el.properties.aut_codigo_imovel,
                             'nrazaoso': el.properties.nome_contribuinte,

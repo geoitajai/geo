@@ -218,7 +218,7 @@
         }).addTo(tilesmu);
 
         L.esri.dynamicMapLayer({
-            url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/viewladastrolotesqgis/FeatureServer/0/',
+            url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/malha_cadastral_raster/FeatureServer/0/',
             maxZoom: 20,
             opacity: 0.50,
             f: 'image',
@@ -298,7 +298,7 @@
         // Dados Hash
         let plantaCadastralDestaque = L.featureGroup({ pane: 'basemap_overlay' }).addTo(mapa);
         let cadastro = L.esri.query({
-            url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/viewladastrolotesqgis/FeatureServer/0/'
+            url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/malha_cadastral_raster/FeatureServer/0/'
         });
         let loteamentos = L.esri.query({
             url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/loteamentos_urbanismo_visualizacao/FeatureServer/0/'

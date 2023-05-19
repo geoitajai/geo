@@ -328,14 +328,12 @@
         //camada lote destacado, permanece visível em todos os níveis
         let plantaCadastralDestaque = L.featureGroup({ pane: 'basemap_overlay' }).addTo(mapa);
 
-        //dados, imóveis
+        // PORTAL - dados, imóveis
         let cadastroimoveispts = L.esri.query({
-            //url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/cadastroimoveispts/FeatureServer/0/'
-            url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/tmi_imoveis/FeatureServer/0/'
+            url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/imoveis_plantacadastral/FeatureServer/0/'
         });
         let cadastroimoveisptscodimov = L.esri.query({
-            //url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/cadastroimoveispts/FeatureServer/0/'
-            url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/tmi_imoveis/FeatureServer/0/'
+            url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/imoveis_plantacadastral/FeatureServer/0/'
         });
 
         //Definir elementos da tabela
@@ -432,7 +430,7 @@
                         let objtabela = [];
                         fcol.features.forEach(el => {
                             objtabela.push({
-                                'ninscrao': el.properties.aut_inscricao,
+                                'ninscrao': el.properties.lote_inscricao,
                                 'ncodimov': el.properties.aut_codigo_imovel,
                                 'nrazaoso': el.properties.nome_contribuinte,
                                 'nmatricu': el.properties.aut_numero_matricula,
@@ -442,7 +440,7 @@
                                 'nnomebai': el.properties.aut_end_bairro,
                                 'nareater': el.properties.aut_area_tributavel_terreno,
                                 'ncodcont': el.properties.aut_ano_construcao,
-                                'nfracaoi': el.properties.aut_fracao_informada,
+                                'nfracaoi': el.properties.aut_fracao_informada
                             });
                         });
                         table.setData(objtabela);
@@ -603,7 +601,6 @@
                                         .returnGeometry(false)
                                         .limit(1)
                                         .fields(['inscrlig']).run((error, fcolcod) => {
-                                            console.log(fcolcod)
                                             if (fcolcod == null) {
                                                 alert("Não encontrado");
                                             } else if (fcolcod.features.length == 0) {
