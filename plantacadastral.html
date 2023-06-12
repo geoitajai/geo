@@ -2,199 +2,426 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="utf-8" />
+    <meta charset="UTF-8">
     <title>Planta Cadastral</title>
     <link rel="icon" type="image/png" href="images/favicon-96x96.png" sizes="96x96">
     <link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16">
     <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <!-- jQuery from CDN -->
-    <script src="https://code.jquery.com/jquery-3.6.3.min.js" crossorigin="anonymous"></script>
-    <!-- jQuery UI -->
-    <link href="lib/jquery-ui.min.css" rel="stylesheet">
-    <link href="lib/jquery-ui.theme.min.css" rel="stylesheet">
-    <script src="lib/jquery-ui.min.js"></script>
-    <!-- Leaflet -->
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" crossorigin="" />
-    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" crossorigin=""></script>
-    <!-- Tabulator from CDN -->
-    <link href="https://unpkg.com/tabulator-tables@5.2.4/dist/css/tabulator_simple.min.css" rel="stylesheet">
-    <script type="text/javascript" src="https://unpkg.com/tabulator-tables@5.2.4/dist/js/tabulator.min.js"></script>
-    <!-- Leaflet plugins -->
-    <script src="lib/measure/Leaflet.draw.js"></script>
-    <script src="lib/measure/Leaflet.Draw.Event.js"></script>
-    <script src="lib/measure/Toolbar.js"></script>
-    <script src="lib/measure/Tooltip.js"></script>
-    <script src="lib/measure/GeometryUtil.js"></script>
-    <script src="lib/measure/LatLngUtil.js"></script>
-    <script src="lib/measure/TouchEvents.js"></script>
-    <script src="lib/measure/DrawToolbar.js"></script>
-    <script src="lib/measure/Draw.Feature.js"></script>
-    <script src="lib/measure/Draw.SimpleShape.js"></script>
-    <script src="lib/measure/Draw.Polyline.js"></script>
-    <script src="lib/measure/Control.Draw.js"></script>
-    <script src="lib/measure/leaflet.measurecontrol.js"></script>
-    <script src="lib/Control.Coordinates.js"></script>
-    <!-- Load Esri Leaflet from CDN -->
-    <script src="lib/esri-leaflet.js"></script>
-    <!-- Load Esri Leaflet Vector from CDN -->
-    <script src="lib/esri-leaflet-vector.js"></script>
-    <link href="https://api.mapbox.com/mapbox-gl-js/v2.7.0/mapbox-gl.css" rel="stylesheet">
-    <!-- estilos -->
-    <link rel="stylesheet" href="lib/measure/leaflet.draw.css" />
-    <link rel="stylesheet" href="lib/Control.Coordinates.css" />
-    <link rel="stylesheet" href="plantacadastral.css" />
+    <!-- jQuery -->
+    <script src="lib/jquery/jquery-3.7.0.min.js"></script>
+    <script src="lib/jquery/jquery-ui.min.js"></script>
+    <link href="lib/jquery/jquery-ui.min.css" rel="stylesheet">
+    <link href="lib/jquery/jquery-ui.theme.min.css" rel="stylesheet">
+    <!-- leaflet -->
+    <script src="lib/leaflet/leaflet.js"></script>
+    <link href="lib/leaflet/leaflet.css" rel="stylesheet">
+    <!-- polyline measure -->
+    <script src="lib/polylinemeasure/Leaflet.PolylineMeasure.js"></script>
+    <link href="lib/polylinemeasure/Leaflet.PolylineMeasure.css" rel="stylesheet">
+    <!-- esri leaflet -->
+    <script src="lib/leaflet/esri-leaflet.js"></script>
+    <script src="lib/leaflet/esri-leaflet-vector.js"></script>
+    <!-- control coordinates -->
+    <script src="lib/controlcoordinates/Control.Coordinates.js"></script>
+    <link href="lib/controlcoordinates/Control.Coordinates.css" rel="stylesheet">
+    <!-- tabulator -->
+    <script src="lib/tabulator/tabulator.min.js"></script>
+    <link href="lib/tabulator/tabulator_simple.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --base: #00bcd4;
+            --escuro: #333;
+            --claro: #e9e9e9;
+        }
+
+        /* Estilos para a página */
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            border: none;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Estilos para a faixa de topo */
+        .top-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 38px;
+            background-color: var(--base);
+            color: #fff;
+            padding: 0 px;
+        }
+
+        #logo {
+            color: white;
+            background: var(--base);
+            text-shadow: 1px 1px 2px black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-left: 30px;
+        }
+
+        .toggle-button {
+            position: absolute;
+            font-size: 20px;
+            top: 0;
+            left: 0;
+            background-color: var(--base);
+            color: #fff;
+            padding: 5px;
+            cursor: pointer;
+            z-index: 1;
+        }
+
+        /* Estilos para a caixa de pesquisa */
+        .search-box {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            background-color: #fff;
+            border: 0px solid #e9e9e9;
+            ;
+            border-radius: 0px;
+            padding: 6px;
+            width: 315px;
+            position: absolute;
+            right: 0;
+        }
+
+        .search-box input[type="text"] {
+            border: none;
+            width: 100%;
+        }
+
+        #util {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex: 1;
+        }
+
+        /* Estilos para a parte central */
+        .central {
+            display: flex;
+            flex: 1;
+            overflow: hidden;
+        }
+
+        #barraesquerda {
+            width: 200px;
+            background-color: var(--claro);
+            padding: 0px;
+            transition: width 0.1s;
+            position: relative;
+            overflow-y: hidden;
+            overflow-x: hidden;
+        }
+
+        .right {
+            flex: 1;
+            background-color: #fff;
+            padding: 10px;
+        }
+
+        .right:focus {
+            outline: none;
+        }
+
+        /* Estilos para a parte inferior */
+        .bottom {
+            height: 180px;
+            display: flex;
+            flex-direction: row;
+        }
+
+        .bottom-left {
+            width: 80px;
+            min-width: 80px;
+            background-color: var(--claro);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 3px;
+            font-size: 11px;
+            overflow-x: hidden;
+            overflow-y: hidden;
+        }
+
+        .bottom-right {
+            width: 100%;
+            background-color: var(--claro);
+            padding: 0px;
+            overflow-x: hidden;
+            overflow-y: hidden;
+        }
+
+        #dadosgerais {
+            font-size: 13px;
+            color: white;
+            border-left: 5px solid var(--base);
+            display: flex;
+            background: var(--base);
+        }
+
+        a:link {
+            color: var(--escuro);
+        }
+
+        /* Estilos para telas menores */
+        @media (max-width: 550px) {
+
+            #logo,
+            #barraesquerda {
+                display: none;
+            }
+        }
+
+        /* lista autocompletar */
+        .ui-autocomplete {
+            height: 290px;
+            max-height: 600px;
+            overflow-y: scroll;
+            overflow-x: hidden;
+        }
+
+        ul.ui-autocomplete {
+            z-index: 402;
+        }
+
+        .ui-accordion {
+            overflow-x: hidden;
+            overflow-y: scroll;
+        }
+
+        .ui-state-active,
+        .ui-widget,
+        .ui-widget-content .ui-state-active,
+        .ui-widget-header .ui-state-active,
+        .ui-button,
+        .ui-button:active,
+        .ui-state-active,
+        .ui-state-active,
+        .ui-state-hover,
+        .ui-state-visited,
+        .ui-state-focus,
+        .ui-accordion-header,
+        .ui-accordion-header-active {
+            border: none;
+        }
+
+        .ui-accordion .ui-accordion-header {
+            display: block;
+            cursor: pointer;
+            position: relative;
+            margin: 2px 0 0 0;
+            padding: .5em .5em .5em .7em;
+            font-size: 12px;
+        }
+
+
+        .tabulator {
+            font-size: 12px;
+            background: var(--claro);
+        }
+
+        .tabulator .tabulator-header .tabulator-col {
+            background: var(--base);
+            color: var(--claro);
+            text-shadow: 1px 1px 2px black;
+        }
+
+        .tabulator .tabulator-header {
+            border-bottom: 0px;
+        }
+
+        .tabulator .tabulator-header,
+        .tabulator .tabulator-header .tabulator-col {
+            background-color: var(--base);
+        }
+
+        .leaflet-container {
+            background-color: var(--claro);
+        }
+
+        .leaflet-default-icon-path {
+            background-image: url(images/marker-icon.png);
+        }
+
+        .leaflet-control-layers-toggle {
+            background-image: url(images/layers.png);
+        }
+
+        .leaflet-retina .leaflet-control-layers-toggle {
+            background-image: url(images/layers-2x.png);
+        }
+
+        .leaflet-control-draw-measure {
+            background-image: url(images/measure-control.png);
+        }
+    </style>
 </head>
 
 <body>
-    <div id='pagina'>
-        <div id='conteiner0a'>
-            <button id="hamburger">&#9776;</button>
-            <div id='logo'>
-                <img src="images/favicon-32x32.png" style="height:auto; width:auto; padding:3px;">
-                <span>Município de Itajaí </br> <b>PLANTA CADASTRAL</b></span>
-            </div>
-            <div id='util'>
-                <form>
-                    <input id="pesquisaRapida" placeholder="pesquisa: endereço,nº - código - inscr.imobiliária"
-                        type="text" spellcheck="false" style="border: none; width: 320px; background-color: white;">
-                </form>
-            </div>
+    <div class="top-bar">
+        <div class="toggle-button" onclick="toggleLeft()">&#9776;</div>
+
+        <div id='logo'>
+            <img src="images/favicon-32x32.png" style="height:auto; width:auto; padding:3px;">
+            <span>Município de Itajaí </br> <b>PLANTA CADASTRAL</b></span>
         </div>
-        <div id='conteiner0b'>
-            <div id='barraLateral'>
-                <h3 class='titulobarra'>Início</h3>
-                <div class='conteudobarralateral'>
-                    <center>
-                        <p>Secretaria Municipal da Fazenda</p>
-                        <p><small>Cadastro Técnico Municipal</small></p>
-                        <p><small>Mais informações:</small>
-                            <br>
-                            <a href="https://geo.itajai.sc.gov.br/geoitajai/" target="_blank">
-                                <font size="2" color="black">
-                                    PORTAL GEOITAJAÍ
-                                </font>
-                        </p>
-                        <p>
-                            <a href="https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/arquivos.html"
-                                target="_blank">
-                                <font size="2" color="black">
-                                    Downloads
-                                </font>
-                        </p>
-                    </center>
-                    </a>
-                </div>
-                <h3 class='titulobarra'> Grau de Risco Atividades</h3>
-                <div class='conteudobarralateral'>
-                    <p>
-                        <center><small>Anexo lei Nº 11.985, DE 24 DE AGOSTO DE 2020:</small></center>
-                    </p>
-                    <a href="https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/tabela_risco.html"
-                        target="_blank">
-                        <center>
-                            <font size="2">
-                                - LINK CONSULTA<br>TABELA DE GRAU DE RISCO / CÓDIGO CNAE
-                            </font>
-                        </center>
-                    </a>
-                    <p><a style="text-decoration:none" href="http://leismunicipa.is/hyrip" target="_blank">
-                            <center>
-                                <font size="1">
-                                    Decreto Nº 11.985, 24 de Agosto de 2020.
-                                </font>
-                            </center>
-                        </a>
-                        <a style="text-decoration:none" href="http://leismunicipa.is/pqbya" target="_blank">
-                            <center>
-                                <font size="1">
-                                    Decreto Nº 11.956, 24 de Agosto de 2020.
-                                </font>
-                            </center>
-                        </a>
-                    </p>
-                </div>
-                <h3 class='titulobarra'>Zoneamento</h3>
-                <div class='conteudobarralateral'>
-                    <p>
-                        <a href="http://leismunicipa.is/pfdkq" target="_blank">
-                            <font size="2" color="black">
-                                Lei complementar nº215, 31-12-2012
-                            </font>
-                        </a>
-                    </p>
-                    <p>Legenda:</p>
-                    <p>
-                        <span style="color:red">█</span>CCS1</br>
-                        <span style="color:#723900">█</span>CCS2</br>
-                        <span style="color:#b82e00">█</span>CCS3</br>
-                    </p>
-                    <hr>
-                    <p><small>Clique em uma zona no mapa para visualizar os parâmetros.</small></p>
-                </div>
-                <h3 class='titulobarra'>Engenharia de Trânsito</h3>
-                <div>
-                    <p>
-                        <center>
-                            <font size="2">
-                                <strong>
-                                    SMU-DET
-                                </strong>
-                                <br />
-                                Propostas de intervenções viárias.
-                            </font>
-                        </center>
-                    </p>
-                    <p>Legenda:</p>
-                    <img src="images/legDET.svg" style="width:140px;">
-                    <hr>
-                    <p><small>Estudo conceitual.</small></p>
-                </div>
-                <h3 class='titulobarra'>Parcelamento do solo</h3>
-                <div>
-                    <center>
-                        <p>
-                            <font size="2">
-                                <strong>
-                                    Acervo parcial de pranchas digitalizadas.
-                                </strong>
-                            </font>
-                        </p>
-                        <p><small>Secretaria Municipal de Desenvolvimento Urbano e Habitação</small></p>
-                    </center>
-                </div>
-            </div>
-            <div id="mapa">mapa</div>
+
+        <div class="search-box" id='util'>
+            <form>
+                <input id="pesquisaRapida" placeholder="pesquisa: endereço,nº - código - inscr.imobiliária" type="text"
+                    spellcheck="false" style="border: none; width: 320px; background-color: white;">
+            </form>
         </div>
-        <div id="areatab">
-            <div id='txt_tabela'>
+    </div>
+    <div class="central">
+        <div id="barraesquerda">
+            <h3 class='titulobarra'>Início</h3>
+            <div class='conteudobarralateral'>
                 <center>
-                    Planta cadastral para simples conferência dos dados de cada imóvel, sujeita a alterações sem aviso
-                    prévio. NÃO CONSTITUI DIREITO DE PROPRIEDADE.
+                    <p>Secretaria Municipal da Fazenda</p>
+                    <p><small>Cadastro Técnico Municipal</small></p>
+                    <p><small>Mais informações:</small>
+                        <br>
+                        <a href="https://geo.itajai.sc.gov.br/geoitajai/" target="_blank">
+                            <font size="2" color="black">
+                                PORTAL GEOITAJAÍ
+                            </font>
+                    </p>
+                    <p>
+                        <a href="https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/arquivos.html"
+                            target="_blank">
+                            <font size="2" color="black">
+                                Downloads
+                            </font>
+                    </p>
+                </center>
+                </a>
+            </div>
+            <h3 class='titulobarra'> Grau de Risco Atividades</h3>
+            <div class='conteudobarralateral'>
+                <p>
+                    <center><small>Anexo lei Nº 11.985, DE 24 DE AGOSTO DE 2020:</small></center>
+                </p>
+                <a href="https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/tabela_risco.html" target="_blank">
+                    <center>
+                        <font size="2">
+                            - LINK CONSULTA<br>TABELA DE GRAU DE RISCO / CÓDIGO CNAE
+                        </font>
+                    </center>
+                </a>
+                <p><a style="text-decoration:none" href="http://leismunicipa.is/hyrip" target="_blank">
+                        <center>
+                            <font size="1">
+                                Decreto Nº 11.985, 24 de Agosto de 2020.
+                            </font>
+                        </center>
+                    </a>
+                    <a style="text-decoration:none" href="http://leismunicipa.is/pqbya" target="_blank">
+                        <center>
+                            <font size="1">
+                                Decreto Nº 11.956, 24 de Agosto de 2020.
+                            </font>
+                        </center>
+                    </a>
+                </p>
+            </div>
+            <h3 class='titulobarra'>Zoneamento</h3>
+            <div class='conteudobarralateral'>
+                <p>
+                    <a href="http://leismunicipa.is/pfdkq" target="_blank">
+                        <font size="2" color="black">
+                            Lei complementar nº215, 31-12-2012
+                        </font>
+                    </a>
+                </p>
+                <p>Legenda:</p>
+                <p>
+                    <span style="color:red">█</span>CCS1</br>
+                    <span style="color:#723900">█</span>CCS2</br>
+                    <span style="color:#b82e00">█</span>CCS3</br>
+                </p>
+                <hr>
+                <p><small>Clique em uma zona no mapa para visualizar os parâmetros.</small></p>
+            </div>
+            <h3 class='titulobarra'>Engenharia de Trânsito</h3>
+            <div>
+                <p>
+                    <center>
+                        <font size="2">
+                            <strong>
+                                SMU-DET
+                            </strong>
+                            <br />
+                            Propostas de intervenções viárias.
+                        </font>
+                    </center>
+                </p>
+                <p>Legenda:</p>
+                <img src="images/legDET.svg" style="width:140px;">
+                <hr>
+                <p><small>Estudo conceitual.</small></p>
+            </div>
+            <h3 class='titulobarra'>Parcelamento do solo</h3>
+            <div>
+                <center>
+                    <p>
+                        <font size="2">
+                            <strong>
+                                Acervo parcial de pranchas digitalizadas.
+                            </strong>
+                        </font>
+                    </p>
+                    <p><small>Secretaria Municipal de Desenvolvimento Urbano e Habitação</small></p>
                 </center>
             </div>
-            <div id="dadoslotes">
-                <div id="dadosgerais">
-                    <div id="consultaprev">clique sobre um lote para mais informações</div>
-                    <div id="alvara"></div>
-                    <div id="plsitua"></div>
-                </div>
-                <div id="tabelatabulator"></div>
-            </div>
         </div>
-
+        <div class="right" id="mapa">
+        </div>
     </div>
-
+    <div class="bottom">
+        <div class="bottom-left">
+            <center>
+                Planta cadastral para simples conferência dos dados de cada imóvel, sujeita a alterações sem aviso
+                prévio. NÃO CONSTITUI DIREITO DE PROPRIEDADE.
+            </center>
+        </div>
+        <div class="bottom-right">
+            <div id="dadosgerais">
+                <div id="consultaprev">clique sobre um lote para mais informações</div>
+                <div id="alvara"></div>
+                <div id="plsitua"></div>
+            </div>
+            <div id="tabelatabulator"></div>
+        </div>
+    </div>
     <script>
+        function toggleLeft() {
+            var left = document.querySelector('.left');
+            if (barraesquerda.style.display === 'none') {
+                barraesquerda.style.display = 'block';
+            } else {
+                barraesquerda.style.display = 'none';
+            }
+        }
+
         $(function () {
-            $('#barraLateral').accordion({
+            $('#barraesquerda').accordion({
                 heightStyle: 'content'
             });
-        });
-
-        $('#hamburger').click(() => {
-            $('#barraLateral').toggle();
-            mapa.invalidateSize();
         });
 
         //#div do mapa
@@ -214,22 +441,18 @@
             tap: false
         });
 
-        mapa.createPane('basemap_numeracao');
-        mapa.getPane('basemap_numeracao').style.zIndex = 401;
-        mapa.getPane('basemap_numeracao').style.pointerEvents = 'none';
-        mapa.createPane('basemap_overlay');
-        mapa.getPane('basemap_overlay').style.zIndex = 601;
-        mapa.createPane('marker_overlay');
-        mapa.getPane('marker_overlay').style.zIndex = 602;
-
-        //coordenadas no click
-        const coordmapa = new L.Control.Coordinates({ promptText: 'Coordenadas para a área de transferência, utilize Ctrl+C', position: 'bottomright' }).addTo(mapa);
+        mapa.createPane('nivel_basemap');
+        mapa.getPane('nivel_basemap').style.zIndex = 450;
+        mapa.getPane('nivel_basemap').style.pointerEvents = 'none';
+        mapa.createPane('nivel_marcadores');
+        mapa.getPane('nivel_marcadores').style.zIndex = 650;
 
         //interatividade com mapa
         let loteresultado = true;
         zoomresultado = false;
+
         mapa.on('click', (e) => {
-            coordmapa.setCoordinates(e);
+            coordmapa.setCoordinates(e);            
             if (loteresultado == true && mapa.getZoom() >= 15) {
                 malhacadastral
                     .identify()
@@ -247,6 +470,10 @@
                     });
             };
         });
+
+        //coordenadas no click
+        let coordmapa = new L.Control.Coordinates({ promptText: 'Coordenadas para a área de transferência, utilize Ctrl+C', position: 'bottomright' }).addTo(mapa);
+        coordmapa.setCoordinates(L.latLng([-26.9046, -48.6874]));
 
         //#basemaps
         //Mapa base, Urbanismo
@@ -319,22 +546,94 @@
             position: 'topright'
         }).addTo(mapa);
 
-        //Medidas
-        L.Control.measureControl({
-            position: 'topright'
-        }).addTo(mapa);
+        //localização
+        function onLocationFound(e) {
+            let radius = e.accuracy / 2;
+        };
+        mapa.on('locationfound', onLocationFound);
+        function onLocationError(e) {
+            alert(e.message);
+        };
+        mapa.on('locationerror', onLocationError);
 
-        //#Cadastro
-        //camada lote destacado, permanece visível em todos os níveis
+        //botão localização
+        let customControl = L.Control.extend({
+            options: {
+                position: 'bottomright'
+            },
+            onAdd: function (mapa) {
+                let container = L.DomUtil.create('div', 'leaflet-bar leaflet-control leaflet-control-custom');
+                L.DomEvent.disableClickPropagation(container);
+                container.style.backgroundColor = 'white';
+                container.style.backgroundImage = "url(images/flatmap64x64.png)";
+                container.style.backgroundSize = "26px 26px";
+                container.style.width = '26px';
+                container.style.height = '26px';
+                container.onclick = function () {
+                    mapa.locate({
+                        setView: true,
+                        setZoom: 17
+                    });
+                }
+                return container;
+            }
+        });
+        mapa.addControl(new customControl());
+
+        //medidas
+        let polylineMeasure = L.control.polylineMeasure({
+            position: 'topright',
+            unit: 'kilometres',
+            useSubunits: true,
+            showBearings: false,
+            clearMeasurementsOnStop: true,
+            showClearControl: false,
+            tooltipTextFinish: 'clique para <b>finalizar</b><br>',
+            tooltipTextDelete: 'aperte SHIFT e clique para <b>apagar ponto</b>',
+            tooltipTextMove: 'clique e arraste para <b>mover ponto</b><br>',
+            tooltipTextResume: '<br>aperte CTRL e clique para <b>retomar linha</b>',
+            tooltipTextAdd: 'aperte CTRL e clique para <b>adicionar ponto</b>',
+            measureControlTitleOn: 'ligar medidas de distâncias',
+            clearControlTitle: 'limpar medidas',
+            measureControlTitleOff: 'Desligar medidas'
+        });
+
+        polylineMeasure.addTo(mapa);
+
+        mapa.on('polylinemeasure:start', () => {
+            loteresultado = false;
+        });
+
+        const polylineMeasureButton = document.getElementById('polyline-measure-control');
+        polylineMeasureButton.addEventListener('click', () => {
+            loteresultado = !loteresultado;
+        });
+
+        // Camada lote destacado, permanece visível em todos os níveis
         let plantaCadastralDestaque = L.featureGroup({ pane: 'basemap_overlay' }).addTo(mapa);
 
-        // PORTAL - dados, imóveis
+        // Dados, imóveis
         let cadastroimoveispts = L.esri.query({
             url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/imoveis_plantacadastral/FeatureServer/0/'
         });
         let cadastroimoveisptscodimov = L.esri.query({
             url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/imoveis_plantacadastral/FeatureServer/0/'
         });
+
+        //Limites Município
+        L.esri
+            .featureLayer({
+                url: "https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/divisas_intermunicipais_Itaja%C3%AD/FeatureServer/0",
+                style: (feature) => {
+                    return {
+                        color: '#000000',
+                        opacity: 0.5,
+                        fill: false,
+                        interactive: false
+                    }
+                }
+            })
+            .addTo(mapa);
 
         //Definir elementos da tabela
         let colunaspadrao = [
@@ -407,6 +706,8 @@
             selectable: false,
             columns: colunaspadrao
         });
+
+        //Destacar lotes
         function pCestiloDestaque(e) {
             mapa.closePopup();
             plantaCadastralDestaque.clearLayers();
@@ -647,7 +948,7 @@
         // Feature layer e imagem, malha cadastral
         let malhacadastral = L.esri.dynamicMapLayer({
             url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/malha_cadastral_raster/MapServer/',
-            pane: 'basemap_numeracao',
+            pane: 'nivel_basemap',
             minZoom: 15,
             maxZoom: 19,
             opacity: 0.40,
@@ -666,37 +967,39 @@
         });
         function pCestiloDestaqVia(e) {
             pesquisaQvias.clearLayers();
-            viaspop.where(`codsecao ='${e.target.feature.properties.codsecao}'`)
-                .returnGeometry(false)
-                .limit(1)
-                .run(function (error, fcvias) {
-                    let via = fcvias.features[0].properties;
-                    L.popup()
-                        .setLatLng(e.latlng)
-                        .setContent(
-                            '<strong>' + via.nome + '</strong></br>' +
-                            'Lei/data: ' + via.leidata + '</br>' +
-                            'Cx.da via: ' + via.largura + 'm' + ' - Passeios:' + via.passeiod + '/' + via.passeioe + 'm' + '</br>' +
-                            'Código: ' + via.cod
-                        ).openOn(mapa);
-                });
-            L.geoJson(e.sourceTarget.feature, {
-                style: (feature) => {
-                    return {
-                        weight: 5,
-                        color: "#ffff00",
-                        dashArray: "30 10",
-                        opacity: 0.6,
-                        interactive: false
-                    };
-                }
-            }).addTo(pesquisaQvias);
-            if (zoomresultado == true) {
-                mapa.flyToBounds(plantaCadastralDestaque.getBounds(), {
-                    maxZoom: 19
-                });
+            if (loteresultado == true && mapa.getZoom() >= 15) {
+                viaspop.where(`codsecao ='${e.target.feature.properties.codsecao}'`)
+                    .returnGeometry(false)
+                    .limit(1)
+                    .run(function (error, fcvias) {
+                        let via = fcvias.features[0].properties;
+                        L.popup()
+                            .setLatLng(e.latlng)
+                            .setContent(
+                                '<strong>' + via.nome + '</strong></br>' +
+                                'Lei/data: ' + via.leidata + '</br>' +
+                                'Cx.da via: ' + via.largura + 'm' + ' - Passeios:' + via.passeiod + '/' + via.passeioe + 'm' + '</br>' +
+                                'Código: ' + via.cod
+                            ).openOn(mapa);
+                    });
+                L.geoJson(e.sourceTarget.feature, {
+                    style: (feature) => {
+                        return {
+                            weight: 5,
+                            color: "#ffff00",
+                            dashArray: "30 10",
+                            opacity: 0.6,
+                            interactive: false
+                        };
+                    }
+                }).addTo(pesquisaQvias);
+                if (zoomresultado == true) {
+                    mapa.flyToBounds(plantaCadastralDestaque.getBounds(), {
+                        maxZoom: 19
+                    });
+                };
+                zoomresultado = false;
             };
-            zoomresultado = false;
         };
 
         //camada via
@@ -710,7 +1013,7 @@
             fields: ['nome', 'codsecao', 'cod', 'objectid'],
             minZoom: 17,
             precision: 6,
-            pane: 'marker_overlay',
+            pane: 'nivel_marcadores',
             style: (feature) => {
                 return {
                     color: '#ffffff00',
@@ -722,12 +1025,382 @@
 
         //#camadas, barra lateral
         let detpropostas_chk = false;
-        let detpropostas;
+        let detpropostas = L.featureGroup();
         let plantaZoneamento_chk = false;
-        let plantaZoneamento;
+        let plantaZoneamento = L.featureGroup();
         let parcelamentodosolo_chk = false;
-        let parcelamentodosolo;
+        let parcelamentodosolo = L.featureGroup();
+
+        // zoneamento
+        const camada_zoneamento = () => {
+            loteresultado = false;
+            plantaZoneamento_chk = true;
+
+            L.esri.featureLayer({
+                url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/zon2012/FeatureServer/0/',
+                precision: 6,
+                style: (feature) => {
+                    let corzona;
+                    cormz = feature.properties.abrevia;
+                    if (cormz === 'ZAP') corzona = "#ffc821";
+                    else if (cormz === 'ZAP (CCS1)') corzona = "#ffc821";
+                    else if (cormz === 'ZAP (CCS2)') corzona = "#ffc821";
+                    else if (cormz === 'ZC 1') corzona = "#917951";
+                    else if (cormz === 'ZC 1 (CCS2)') corzona = "#917951";
+                    else if (cormz === 'ZC 2') corzona = "#ff5765";
+                    else if (cormz === 'ZC 2 (CCS1)') corzona = "#ff5765";
+                    else if (cormz === 'ZC 2 (CCS2)') corzona = "#ff5765";
+                    else if (cormz === 'ZEA') corzona = "#7cc5ab";
+                    else if (cormz === 'ZEA (CCS1)') corzona = "#7cc5ab";
+                    else if (cormz === 'ZEA (CCS3)') corzona = "#7cc5ab";
+                    else if (cormz === 'ZEU') corzona = "#d4d4bc";
+                    else if (cormz === 'ZEU (CCS1)') corzona = "#d4d4bc";
+                    else if (cormz === 'ZEU (CCS2)') corzona = "#d4d4bc";
+                    else if (cormz === 'ZIP') corzona = "#c82d2d";
+                    else if (cormz === 'ZIP (CCS1)') corzona = "#c82d2d";
+                    else if (cormz === 'ZIP (CCS2)') corzona = "#c82d2d";
+                    else if (cormz === 'ZIT') corzona = "#caf5f5";
+                    else if (cormz === 'ZIT (CCS2)') corzona = "#caf5f5";
+                    else if (cormz === 'ZPA 1') corzona = "#468e57";
+                    else if (cormz === 'ZPA 1 (CCS1)') corzona = "#468e57";
+                    else if (cormz === 'ZPA 1 (CCS3)') corzona = "#468e57";
+                    else if (cormz === 'ZPA 2') corzona = "#11cd00";
+                    else if (cormz === 'ZPA 2 (CCS2)') corzona = "#11cd00";
+                    else if (cormz === 'ZPA 3') corzona = "#71b580";
+                    else if (cormz === 'ZPA 3 (CCS1)') corzona = "#71b580";
+                    else if (cormz === 'ZPA 3 (CCS2)') corzona = "#71b580";
+                    else if (cormz === 'ZPA 3 (CCS3)') corzona = "#71b580";
+                    else if (cormz === 'ZPN') corzona = "#83cada";
+                    else if (cormz === 'ZPN (CCS1)') corzona = "#83cada";
+                    else if (cormz === 'ZPN (CCS2)') corzona = "#83cada";
+                    else if (cormz === 'ZR') corzona = "#96b7ab";
+                    else if (cormz === 'ZR 1') corzona = "#7090d0";
+                    else if (cormz === 'ZR 1 (Q1)') corzona = "#7090d0";
+                    else if (cormz === 'ZR 1 (Q1)(CCS3)') corzona = "#7090d0";
+                    else if (cormz === 'ZR 1 (Q2)') corzona = "#7090d0";
+                    else if (cormz === 'ZR 1 (Q2)(CCS3)') corzona = "#7090d0";
+                    else if (cormz === 'ZR 1 (Q3)') corzona = "#7090d0";
+                    else if (cormz === 'ZR 1 (Q3)(CCS3)') corzona = "#7090d0";
+                    else if (cormz === 'ZR 2') corzona = "#b599da";
+                    else if (cormz === 'ZR 2 (Q1)') corzona = "#b599da";
+                    else if (cormz === 'ZR 2 (Q1)(CCS3)') corzona = "#b599da";
+                    else if (cormz === 'ZR 2 (Q2)') corzona = "#b599da";
+                    else if (cormz === 'ZR 2 (Q3)') corzona = "#b599da";
+                    else if (cormz === 'ZR 2 (Q3)(CCS3)') corzona = "#b599da";
+                    else if (cormz === 'ZR 3') corzona = "#da89bc";
+                    else if (cormz === 'ZR 3 (CCS1)') corzona = "#da89bc";
+                    else if (cormz === 'ZR 3 (CCS3)') corzona = "#da89bc";
+                    else if (cormz === 'ZSI') corzona = "#ff721b";
+                    else if (cormz === 'ZSI (CCS1)') corzona = "#ff721b";
+                    else if (cormz === 'ZSI (CCS2)') corzona = "#ff721b";
+                    else if (cormz === 'ZTRA') corzona = "#fdf5b0";
+                    else if (cormz === 'ZTRA (CCS1)') corzona = "#fdf5b0";
+                    else if (cormz === 'ZTRU') corzona = "#bfdb99";
+                    else if (cormz === 'ZTRU (CCS2)') corzona = "#bfdb99";
+                    else if (cormz === 'ZU 1') corzona = "#ef8242";
+                    else if (cormz === 'ZU 1 (CCS1)') corzona = "#ef8242";
+                    else if (cormz === 'ZU 1 (CCS2)') corzona = "#ef8242";
+                    else if (cormz === 'ZU 2') corzona = "#e9e9a8";
+                    else if (cormz === 'ZU 2 (CCS1)') corzona = "#e9e9a8";
+                    else if (cormz === 'ZU 2 (CCS2)') corzona = "#e9e9a8";
+                    else if (cormz === 'ZU 2 (CCS3)') corzona = "#e9e9a8";
+                    else if (cormz === 'ZU 2 (Artigo 80)') corzona = "#e9e9a8";
+                    else if (cormz === 'ZU 3') corzona = "#ffff00";
+                    else if (cormz === 'ZU 3 (CCS1)') corzona = "#ffff00";
+                    else if (cormz === 'ZU 3 (CCS2)') corzona = "#ffff00";
+                    else if (cormz === 'ZU 4') corzona = "#deb239";
+                    else if (cormz === 'ZU 4 (CCS1)') corzona = "#deb239";
+                    else if (cormz === 'ZU 4 (CCS2)') corzona = "#deb239";
+                    else if (cormz === 'ZU 5') corzona = "#8c8a23";
+                    else if (cormz === 'ZU 5 (CCS1)') corzona = "#8c8a23";
+                    else if (cormz === 'ZU 5 (CCS2)') corzona = "#8c8a23";
+                    else corzona = "#fff";
+                    return { stroke: false, fillColor: corzona, fillOpacity: 0.4 };
+                },
+                onEachFeature: (feature, layer) => {
+                    layer.bindPopup(
+                        '<strong>' + 'Zona: ' + feature.properties.abrevia + '</strong>' + '<br/>' +
+                        '<table>' +
+                        '<tr>' +
+                        '<td>' +
+                        'Usos permitidos: ' + feature.properties.permitidos + '<br/>' +
+                        '</td>' +
+                        '</tr>' +
+                        '<tr>' +
+                        '<td>' +
+                        'Usos permissíveis: ' + feature.properties.permissiv + '<br/>' +
+                        '</td>' +
+                        '</tr>' +
+                        '<tr>' +
+                        '<td>' +
+                        'Altura máxima: ' + feature.properties.alturamax + '<br/>' +
+                        '</td>' +
+                        '</tr>' +
+                        '<tr>' +
+                        '<td>' +
+                        'Altura máxima do embasamento: ' + feature.properties.alturaemb + '<br/>' +
+                        '</td>' +
+                        '</tr>' +
+                        '<tr>' +
+                        '<td>' +
+                        'Coeficiente de aproveitamento: ' + feature.properties.coefaprov + '<br/>' +
+                        '</td>' +
+                        '</tr>' +
+                        '<tr>' +
+                        '<td>' +
+                        'Taxa de ocupação embasamento: ' + feature.properties.toemb + '<br/>' +
+                        '</td>' +
+                        '</tr>' +
+                        '<tr>' +
+                        '<td>' +
+                        'Taxa de ocupação torre: ' + feature.properties.totorre + '<br/>' +
+                        '</td>' +
+                        '</tr>' +
+                        '<tr>' +
+                        '<td>' +
+                        'Taxa de permeabilidade: ' + feature.properties.permeab + '<br/>' +
+                        '</td>' +
+                        '</tr>' +
+                        '<tr>' +
+                        '<td>' +
+                        'Recuo frontal: ' + feature.properties.embrecfron + '<br/>' +
+                        '</td>' +
+                        '</tr>' +
+                        '<tr>' +
+                        '<td>' +
+                        'Recuos laterais e fundos: ' + feature.properties.embreclat + '<br/>' +
+                        '</td>' +
+                        '</tr>' +
+                        '<tr>' +
+                        '<td>' +
+                        'Recuos laterais e fundos com aberturas: ' + feature.properties.embreclatc + '<br/>' +
+                        '</td>' +
+                        '</tr>' +
+                        '<tr>' +
+                        '<td>' +
+                        'Área mínima do lote: ' + feature.properties.lotemaxare + '<br/>' +
+                        '</td>' +
+                        '</tr>' +
+                        '<tr>' +
+                        '<td>' +
+                        'Testada mínima do lote: ' + feature.properties.lotemaxtes + '<br/>' +
+                        '</td>' +
+                        '</tr>' +
+                        '<tr>' +
+                        '<td>' +
+                        'Profundidade mínima do lote: ' + feature.properties.lotemaxpro +
+                        '</td>' +
+                        '</tr>' +
+                        '</table>'
+                    )
+                },
+                pane: 'nivel_marcadores'
+            }).addTo(plantaZoneamento);
+
+            //CCS
+            L.esri.featureLayer({
+                url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/zoneamento_2012_corredores_de_com%C3%A9rcio_e_servi%C3%A7o/FeatureServer/0/',
+                precision: 6,
+                style: (feature) => {
+                    var corlinhaccs,
+                        corcss = feature.properties.tipo;
+                    if (corcss == 'CCS1') corlinhaccs = "#ff0000";
+                    else if (corcss == 'CCS2') corlinhaccs = "#723900";
+                    else if (corcss == 'CCS3') corlinhaccs = "#b82e00";
+                    else corlinhaccs = "#fff";
+                    return { color: corlinhaccs, weight: 5, Opacity: 0.4, interactive: false };
+                },
+                interactive: false
+            }).addTo(plantaZoneamento);
+
+            mapa.addLayer(plantaZoneamento);
+        };
+
+        const camada_propostas = () => {
+            detpropostas_chk = true;
+
+            L.esri.featureLayer({
+                url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/intervencoesviarias_urbanismo/FeatureServer/0/',
+                fields: ['tipoint', 'objectid'],
+                precision: 6,
+                pane: 'marker_overlay',
+                style: (feature) => {
+                    //cor
+                    let colinha;
+                    cormz = feature.properties.tipoint;
+                    if (cormz === 'Nova Ligação') { colinha = "#ff4759"; }
+                    else if (cormz === 'Nova Ligação (Variante)') { colinha = "#820002"; }
+                    else if (cormz === 'Alargamento') { colinha = "#61ff6e"; }
+                    else if (cormz === 'Mudança de Sentido') { colinha = "#ffb031"; }
+                    else if (cormz === 'Reurbanização') { colinha = "#3ffff3"; }
+                    else { colinha = "#fff"; };
+                    //tipo de linha
+                    let tipolinha;
+                    if (cormz === 'Nova Ligação (Variante)') { tipolinha = "10 10"; }
+                    else { tipolinha = null; };
+                    //estilo
+                    return { color: colinha, weight: 4, dashArray: tipolinha, opacity: 0.65, interactive: false };
+                },
+                pane: 'nivel_marcadores'
+            }).addTo(detpropostas);
+
+            mapa.addLayer(detpropostas);
+        };
+
+        // parcelamento do solo
+        let parcelamentodestaque = L.featureGroup().addTo(mapa);
+
+        let colunasparcelamento = [
+            {
+                title: 'Nome',
+                field: 'nome',
+                headerFilter: 'input',
+                width: 200,
+                cellClick: (e, cell) => {
+                    parcelamentodestaque.clearLayers();
+                    mapa.closePopup();
+                    parcelamentodados.query()
+                        .limit(1)
+                        .precision(5)
+                        .fields(['objectid'])
+                        .where(`codigo = '${cell._cell.row.data.id}'`)
+                        .run((error, lnparc) => {
+                            L.geoJson(lnparc, {
+                                style: (feature) => {
+                                    return {
+                                        weight: 5,
+                                        color: "blue",
+                                        dashArray: "30 10",
+                                        fill: false
+                                    };
+                                }
+                            }).addTo(parcelamentodestaque);
+                            mapa.flyToBounds(parcelamentodestaque.getBounds(), {
+                                maxZoom: 19
+                            });
+                        })
+                }
+            },
+            {
+                title: 'Descrição',
+                field: 'descr',
+                width: 100
+            },
+            {
+                title: 'Lei',
+                field: 'lei',
+                width: 80
+            }, {
+                title: 'Setor',
+                field: 'setor',
+                width: 65
+            }, {
+                title: 'Carimbo',
+                field: 'carimboapr',
+                width: 90
+            }, {
+                title: 'prancha(s)',
+                formatter: 'link',
+                width: 130,
+                formatterParams: {
+                    labelField: 'rotulolink',
+                    urlField: 'linkprancha',
+                    target: '_blank'
+                }
+            }, {
+                title: 'cód.',
+                field: 'id',
+                width: 60
+            }
+        ];
+
         let tabelaparcelamento = [];
+
+        const camada_parcelamento = () => {
+            loteresultado = false;
+            parcelamentodosolo_chk = true;
+
+            table.setColumns(colunasparcelamento);
+
+            function parcDestaque(e) {
+                parcelamentodestaque.clearLayers();
+                L.geoJson(e.sourceTarget.feature, {
+                    style: (feature) => {
+                        return {
+                            weight: 5,
+                            color: "blue",
+                            dashArray: "30 10",
+                            fill: false
+                        };
+                    }
+                }).addTo(parcelamentodestaque);
+                table.deselectRow();
+                table.selectRow(e.target.feature.properties.codigo);
+                table.scrollToRow(e.target.feature.properties.codigo);
+                L.popup()
+                    .setLatLng(e.latlng)
+                    .setContent(
+                        e.target.feature.properties.nome
+                    ).openOn(mapa);
+            };
+
+            //camada e tabela parcelamento
+            let dadosparcelamento = L.esri.query({
+                url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/loteamentos_urbanismo_visualizacao/FeatureServer/0/'
+            });
+
+            dadosparcelamento.returnGeometry(false)
+                .run((error, linhas) => {
+                    linhas.features.forEach(el => {
+                        let linkprancha;
+                        let rotulolink;
+                        if (el.properties.googleid == '') {
+                            linkprancha = '';
+                            rotulolink = 'prancha pendente';
+                        } else {
+                            linkprancha = `https://drive.google.com/file/d/${el.properties.googleid}/view`;
+                            rotulolink = 'clique para visualizar';
+                        };
+                        tabelaparcelamento.push({
+                            'nome': el.properties.nome,
+                            'descr': el.properties.descr,
+                            'lei': el.properties.lei,
+                            'setor': el.properties.setor,
+                            'carimboapr': el.properties.carimboapr,
+                            'linkprancha': linkprancha,
+                            'rotulolink': rotulolink,
+                            'id': el.properties.codigo,
+                        });
+                    });
+                    table.setData(tabelaparcelamento);
+                });
+
+            function inteParc(feature, layer) {
+                layer.on({
+                    click: parcDestaque
+                });
+            };
+
+            //serviço esri
+            let parcelamentodados = L.esri.featureLayer({
+                url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/loteamentos_urbanismo_visualizacao/FeatureServer/0/',
+                fields: ['objectid', 'nome', 'codigo'],
+                precision: 5,
+                pane: 'nivel_marcadores',
+                style: () => {
+                    return {
+                        color: '#00264d',
+                        fillColor: '#99ccff',
+                        fillOpacity: 0.5,
+                        weight: 2
+                    };
+                },
+                onEachFeature: inteParc
+            }).addTo(parcelamentodosolo);
+
+            mapa.addLayer(parcelamentodosolo);
+        };
+
 
         //#controle de camadas
         let limparcamadas = () => {
@@ -744,13 +1417,13 @@
             table.setColumns(colunaspadrao);
             table.setData();
         };
-        $("#barraLateral").on("accordionactivate", (event, ui) => {
+        $("#barraesquerda").on("accordionactivate", (event, ui) => {
             if (
                 ui.newHeader["0"].textContent === 'Zoneamento'
             ) {
                 limparcamadas();
                 if (plantaZoneamento_chk == false) {
-                    $.getScript('data/zon2012.js', () => { });
+                    camada_zoneamento();
                 } else {
                     loteresultado = false;
                     mapa.addLayer(plantaZoneamento);
@@ -761,7 +1434,7 @@
             ) {
                 limparcamadas();
                 if (detpropostas_chk == false) {
-                    $.getScript('data/detpropostas.js', () => { });
+                    camada_propostas();
                 } else {
                     mapa.addLayer(detpropostas);
                 }
@@ -771,7 +1444,7 @@
             ) {
                 limparcamadas();
                 if (parcelamentodosolo_chk == false) {
-                    $.getScript('data/parcelamentodosolo.js', () => { });
+                    camada_parcelamento();
                 } else {
                     mapa.addLayer(parcelamentodosolo);
                     loteresultado = false;
@@ -784,68 +1457,19 @@
             };
         });
 
-        //localização
-        function onLocationFound(e) {
-            let radius = e.accuracy / 2;
-        };
-        mapa.on('locationfound', onLocationFound);
-        function onLocationError(e) {
-            alert(e.message);
-        };
-        mapa.on('locationerror', onLocationError);
-
-        //botão localização
-        let customControl = L.Control.extend({
-            options: {
-                position: 'topright'
-            },
-            onAdd: function (mapa) {
-                let container = L.DomUtil.create('div', 'leaflet-bar leaflet-control leaflet-control-custom');
-                L.DomEvent.disableClickPropagation(container);
-                container.style.backgroundColor = 'white';
-                container.style.backgroundImage = "url(images/flatmap64x64.png)";
-                container.style.backgroundSize = "26px 26px";
-                container.style.width = '26px';
-                container.style.height = '26px';
-                container.onclick = function () {
-                    mapa.locate({
-                        setView: true,
-                        setZoom: 17
-                    });
-                }
-                return container;
-            }
-        });
-        mapa.addControl(new customControl());
-
-        //Limites Município
-        L.esri
-            .featureLayer({
-                url: "https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/divisas_intermunicipais_Itaja%C3%AD/FeatureServer/0",
-                style: (feature) => {
-                    return {
-                        color: '#000000',
-                        opacity: 0.5,
-                        fill: false,
-                        interactive: false
-                    }
-                }
-            })
-            .addTo(mapa);
-
         /*
-       hash barra de endereço
-       template:
-       ---------
-       #|códigoCadastro|inscriçãoImobiliária|códigoVia|Lat,Lng
-       0 = para próximo item
-       exemplo:
-       --------
-       http://plantacadastral.itajai.sc.gov.br#|271
-       http://plantacadastral.itajai.sc.gov.br#|0|211.060.01.0135
-       http://plantacadastral.itajai.sc.gov.br#|0|0|675
-       http://plantacadastral.itajai.sc.gov.br#|0|0|0|-26.905269,-48.678927
-       */
+        hash barra de endereço
+        template:
+        ---------
+        #|códigoCadastro|inscriçãoImobiliária|códigoVia|Lat,Lng
+        0 = para próximo item
+        exemplo:
+        --------
+        http://plantacadastral.itajai.sc.gov.br#|271
+        http://plantacadastral.itajai.sc.gov.br#|0|211.060.01.0135
+        http://plantacadastral.itajai.sc.gov.br#|0|0|675
+        http://plantacadastral.itajai.sc.gov.br#|0|0|0|-26.905269,-48.678927
+        */
         function hashendereco(dados) {
             //hash código cadastro
             if (dados[1] !== '0') {
