@@ -288,20 +288,20 @@
                                     maxZoom: 19
                                 });
                                 //----------------------------
-                                if (zonurb.features[0].attributes.reaeroport !== null) {
+                                if (zonurb.features[0].attributes.reaeroport == "s") {
                                     document.getElementById("reaeroporto").innerHTML = 'X'
                                 };
-                                if (zonurb.features[0].attributes.redeptrans !== null) {
+                                if (zonurb.features[0].attributes.redeptrans == "s") {
                                     document.getElementById("redeptransito").innerHTML = 'X'
                                 };
-                                //if (zonurb.features[0].attributes.zon2012.toString().search(/ZPA/) !== -1) {
+                                //if (zonurb.features[0].attributes.zon2012.toString().search(/ZPA/) == -1) {
                                 //    document.getElementById("reambiental").innerHTML = 'X'
                                 //};
                                 document.getElementById("reambiental").innerHTML = 'X';
-                                if (zonurb.features[0].attributes.rerodovias !== null) {
+                                if (zonurb.features[0].attributes.rerodovias == "s") {
                                     document.getElementById("rerodovias").innerHTML = 'X'
                                 };
-                                if (zonurb.features[0].attributes.repatrimon !== null) {
+                                if (zonurb.features[0].attributes.repatrimon == "s") {
                                     document.getElementById("repatrimoniohistorico").innerHTML = 'X'
                                 };
                                 //Caixa vias
