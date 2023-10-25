@@ -452,7 +452,7 @@
         zoomresultado = false;
 
         mapa.on('click', (e) => {
-            coordmapa.setCoordinates(e);            
+            coordmapa.setCoordinates(e);
             if (loteresultado == true && mapa.getZoom() >= 15) {
                 malhacadastral
                     .identify()

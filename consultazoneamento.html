@@ -331,9 +331,10 @@
                                 dadosTabelaB = [];
                                 //Cálculo altura ZC 2|ZU 1,2 e 3
                                 function alturaCalc(zonalt, zonasec) {
+                                    console.log(zonalt, zonasec)
                                     //const calcalt = cadastrolote.features[0].properties.zon2012;
                                     if (zonasec !== null && zonasec.toString().search(/ZC 2|ZU 1|ZU 2|ZU 3/) !== -1) {
-                                        if (zonurb.features[0].attributes.zon2012alt == null) {
+                                        if (zonurb.features[0].attributes.zon2012alt == null || zonurb.features[0].attributes.zon2012alt === "") {
                                             return '45m'
                                         }
                                         else {
