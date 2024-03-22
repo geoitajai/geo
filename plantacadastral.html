@@ -268,6 +268,13 @@
         .leaflet-control-draw-measure {
             background-image: url(images/measure-control.png);
         }
+
+        .leaflet-popup-content-wrapper {
+            border-radius: 0 !important;
+            /* Cantos quadrados */
+            border-width: 1px !important;
+            /* Metade do tamanho da borda padrão */
+        }
     </style>
 </head>
 
@@ -342,17 +349,11 @@
             <h3 class='titulobarra'>Zoneamento</h3>
             <div class='conteudobarralateral'>
                 <p>
-                    <a href="http://leismunicipa.is/pfdkq" target="_blank">
+                    <a href="http://leismunicipa.is/16qu0" target="_blank">
                         <font size="2" color="black">
-                            Lei complementar nº215, 31-12-2012
+                            Lei complementar nº449, 11/03/2024
                         </font>
                     </a>
-                </p>
-                <p>Legenda:</p>
-                <p>
-                    <span style="color:red">█</span>CCS1</br>
-                    <span style="color:#723900">█</span>CCS2</br>
-                    <span style="color:#b82e00">█</span>CCS3</br>
                 </p>
                 <hr>
                 <p><small>Clique em uma zona no mapa para visualizar os parâmetros.</small></p>
@@ -447,7 +448,7 @@
         mapa.createPane('nivel_marcadores');
         mapa.getPane('nivel_marcadores').style.zIndex = 650;
 
-        //interatividade com mapa
+        //interarividade clique lotes
         let loteresultado = true;
         zoomresultado = false;
 
@@ -605,6 +606,7 @@
         });
 
         const polylineMeasureButton = document.getElementById('polyline-measure-control');
+
         polylineMeasureButton.addEventListener('click', () => {
             loteresultado = !loteresultado;
         });
@@ -725,8 +727,10 @@
                         consultapreviap = `https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/consultazoneamento.html#${inscrlig_base}`;
                         plantasitua = `https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/plantalocalizacao.html#${inscrlig_base}`;
                         //links gerais lote
-                        document.getElementById("consultaprev").innerHTML = `<a href="${consultapreviap}" target="_blank">Consulta zoneamento</a> |&nbsp`
-                        document.getElementById("alvara").innerHTML = `<a href="${consultaalvara}" target="_blank">Avaliação atividade(alvará)</a> |&nbsp`
+                        //document.getElementById("consultaprev").innerHTML = `<a href="${consultapreviap}" target="_blank">Consulta zoneamento</a> |&nbsp`
+                        document.getElementById("consultaprev").innerHTML = `-- |&nbsp`
+                        //document.getElementById("alvara").innerHTML = `<a href="${consultaalvara}" target="_blank">Avaliação atividade(alvará)</a> |&nbsp`
+                        document.getElementById("alvara").innerHTML = `-- |&nbsp`
                         document.getElementById("plsitua").innerHTML = `<a href="${plantasitua}" target="_blank">Planta situação</a>`
                         let objtabela = [];
                         fcol.features.forEach(el => {
@@ -1036,184 +1040,122 @@
             loteresultado = false;
             plantaZoneamento_chk = true;
 
-            L.esri.featureLayer({
-                url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/zon2012/FeatureServer/0/',
-                precision: 6,
-                style: (feature) => {
-                    let corzona;
-                    cormz = feature.properties.abrevia;
-                    if (cormz === 'ZAP') corzona = "#ffc821";
-                    else if (cormz === 'ZAP (CCS1)') corzona = "#ffc821";
-                    else if (cormz === 'ZAP (CCS2)') corzona = "#ffc821";
-                    else if (cormz === 'ZC 1') corzona = "#917951";
-                    else if (cormz === 'ZC 1 (CCS2)') corzona = "#917951";
-                    else if (cormz === 'ZC 2') corzona = "#ff5765";
-                    else if (cormz === 'ZC 2 (CCS1)') corzona = "#ff5765";
-                    else if (cormz === 'ZC 2 (CCS2)') corzona = "#ff5765";
-                    else if (cormz === 'ZEA') corzona = "#7cc5ab";
-                    else if (cormz === 'ZEA (CCS1)') corzona = "#7cc5ab";
-                    else if (cormz === 'ZEA (CCS3)') corzona = "#7cc5ab";
-                    else if (cormz === 'ZEU') corzona = "#d4d4bc";
-                    else if (cormz === 'ZEU (CCS1)') corzona = "#d4d4bc";
-                    else if (cormz === 'ZEU (CCS2)') corzona = "#d4d4bc";
-                    else if (cormz === 'ZIP') corzona = "#c82d2d";
-                    else if (cormz === 'ZIP (CCS1)') corzona = "#c82d2d";
-                    else if (cormz === 'ZIP (CCS2)') corzona = "#c82d2d";
-                    else if (cormz === 'ZIT') corzona = "#caf5f5";
-                    else if (cormz === 'ZIT (CCS2)') corzona = "#caf5f5";
-                    else if (cormz === 'ZPA 1') corzona = "#468e57";
-                    else if (cormz === 'ZPA 1 (CCS1)') corzona = "#468e57";
-                    else if (cormz === 'ZPA 1 (CCS3)') corzona = "#468e57";
-                    else if (cormz === 'ZPA 2') corzona = "#11cd00";
-                    else if (cormz === 'ZPA 2 (CCS2)') corzona = "#11cd00";
-                    else if (cormz === 'ZPA 3') corzona = "#71b580";
-                    else if (cormz === 'ZPA 3 (CCS1)') corzona = "#71b580";
-                    else if (cormz === 'ZPA 3 (CCS2)') corzona = "#71b580";
-                    else if (cormz === 'ZPA 3 (CCS3)') corzona = "#71b580";
-                    else if (cormz === 'ZPN') corzona = "#83cada";
-                    else if (cormz === 'ZPN (CCS1)') corzona = "#83cada";
-                    else if (cormz === 'ZPN (CCS2)') corzona = "#83cada";
-                    else if (cormz === 'ZR') corzona = "#96b7ab";
-                    else if (cormz === 'ZR 1') corzona = "#7090d0";
-                    else if (cormz === 'ZR 1 (Q1)') corzona = "#7090d0";
-                    else if (cormz === 'ZR 1 (Q1)(CCS3)') corzona = "#7090d0";
-                    else if (cormz === 'ZR 1 (Q2)') corzona = "#7090d0";
-                    else if (cormz === 'ZR 1 (Q2)(CCS3)') corzona = "#7090d0";
-                    else if (cormz === 'ZR 1 (Q3)') corzona = "#7090d0";
-                    else if (cormz === 'ZR 1 (Q3)(CCS3)') corzona = "#7090d0";
-                    else if (cormz === 'ZR 2') corzona = "#b599da";
-                    else if (cormz === 'ZR 2 (Q1)') corzona = "#b599da";
-                    else if (cormz === 'ZR 2 (Q1)(CCS3)') corzona = "#b599da";
-                    else if (cormz === 'ZR 2 (Q2)') corzona = "#b599da";
-                    else if (cormz === 'ZR 2 (Q3)') corzona = "#b599da";
-                    else if (cormz === 'ZR 2 (Q3)(CCS3)') corzona = "#b599da";
-                    else if (cormz === 'ZR 3') corzona = "#da89bc";
-                    else if (cormz === 'ZR 3 (CCS1)') corzona = "#da89bc";
-                    else if (cormz === 'ZR 3 (CCS3)') corzona = "#da89bc";
-                    else if (cormz === 'ZSI') corzona = "#ff721b";
-                    else if (cormz === 'ZSI (CCS1)') corzona = "#ff721b";
-                    else if (cormz === 'ZSI (CCS2)') corzona = "#ff721b";
-                    else if (cormz === 'ZTRA') corzona = "#fdf5b0";
-                    else if (cormz === 'ZTRA (CCS1)') corzona = "#fdf5b0";
-                    else if (cormz === 'ZTRU') corzona = "#bfdb99";
-                    else if (cormz === 'ZTRU (CCS2)') corzona = "#bfdb99";
-                    else if (cormz === 'ZU 1') corzona = "#ef8242";
-                    else if (cormz === 'ZU 1 (CCS1)') corzona = "#ef8242";
-                    else if (cormz === 'ZU 1 (CCS2)') corzona = "#ef8242";
-                    else if (cormz === 'ZU 2') corzona = "#e9e9a8";
-                    else if (cormz === 'ZU 2 (CCS1)') corzona = "#e9e9a8";
-                    else if (cormz === 'ZU 2 (CCS2)') corzona = "#e9e9a8";
-                    else if (cormz === 'ZU 2 (CCS3)') corzona = "#e9e9a8";
-                    else if (cormz === 'ZU 2 (Artigo 80)') corzona = "#e9e9a8";
-                    else if (cormz === 'ZU 3') corzona = "#ffff00";
-                    else if (cormz === 'ZU 3 (CCS1)') corzona = "#ffff00";
-                    else if (cormz === 'ZU 3 (CCS2)') corzona = "#ffff00";
-                    else if (cormz === 'ZU 4') corzona = "#deb239";
-                    else if (cormz === 'ZU 4 (CCS1)') corzona = "#deb239";
-                    else if (cormz === 'ZU 4 (CCS2)') corzona = "#deb239";
-                    else if (cormz === 'ZU 5') corzona = "#8c8a23";
-                    else if (cormz === 'ZU 5 (CCS1)') corzona = "#8c8a23";
-                    else if (cormz === 'ZU 5 (CCS2)') corzona = "#8c8a23";
-                    else corzona = "#fff";
-                    return { stroke: false, fillColor: corzona, fillOpacity: 0.4 };
-                },
-                onEachFeature: (feature, layer) => {
-                    layer.bindPopup(
-                        '<strong>' + 'Zona: ' + feature.properties.abrevia + '</strong>' + '<br/>' +
-                        '<table>' +
-                        '<tr>' +
-                        '<td>' +
-                        'Usos permitidos: ' + feature.properties.permitidos + '<br/>' +
-                        '</td>' +
-                        '</tr>' +
-                        '<tr>' +
-                        '<td>' +
-                        'Usos permissíveis: ' + feature.properties.permissiv + '<br/>' +
-                        '</td>' +
-                        '</tr>' +
-                        '<tr>' +
-                        '<td>' +
-                        'Altura máxima: ' + feature.properties.alturamax + '<br/>' +
-                        '</td>' +
-                        '</tr>' +
-                        '<tr>' +
-                        '<td>' +
-                        'Altura máxima do embasamento: ' + feature.properties.alturaemb + '<br/>' +
-                        '</td>' +
-                        '</tr>' +
-                        '<tr>' +
-                        '<td>' +
-                        'Coeficiente de aproveitamento: ' + feature.properties.coefaprov + '<br/>' +
-                        '</td>' +
-                        '</tr>' +
-                        '<tr>' +
-                        '<td>' +
-                        'Taxa de ocupação embasamento: ' + feature.properties.toemb + '<br/>' +
-                        '</td>' +
-                        '</tr>' +
-                        '<tr>' +
-                        '<td>' +
-                        'Taxa de ocupação torre: ' + feature.properties.totorre + '<br/>' +
-                        '</td>' +
-                        '</tr>' +
-                        '<tr>' +
-                        '<td>' +
-                        'Taxa de permeabilidade: ' + feature.properties.permeab + '<br/>' +
-                        '</td>' +
-                        '</tr>' +
-                        '<tr>' +
-                        '<td>' +
-                        'Recuo frontal: ' + feature.properties.embrecfron + '<br/>' +
-                        '</td>' +
-                        '</tr>' +
-                        '<tr>' +
-                        '<td>' +
-                        'Recuos laterais e fundos: ' + feature.properties.embreclat + '<br/>' +
-                        '</td>' +
-                        '</tr>' +
-                        '<tr>' +
-                        '<td>' +
-                        'Recuos laterais e fundos com aberturas: ' + feature.properties.embreclatc + '<br/>' +
-                        '</td>' +
-                        '</tr>' +
-                        '<tr>' +
-                        '<td>' +
-                        'Área mínima do lote: ' + feature.properties.lotemaxare + '<br/>' +
-                        '</td>' +
-                        '</tr>' +
-                        '<tr>' +
-                        '<td>' +
-                        'Testada mínima do lote: ' + feature.properties.lotemaxtes + '<br/>' +
-                        '</td>' +
-                        '</tr>' +
-                        '<tr>' +
-                        '<td>' +
-                        'Profundidade mínima do lote: ' + feature.properties.lotemaxpro +
-                        '</td>' +
-                        '</tr>' +
-                        '</table>'
-                    )
-                },
-                pane: 'nivel_marcadores'
-            }).addTo(plantaZoneamento);
+            //Camada Zoneamento
+            const coresZon = {
+                "ZBN2": "#84add2",
+                "ZBP": "#d6b462",
+                "ZBR": "#6ed3ba",
+                "ZBS1": "#e1bfe3",
+                "ZBS2": "#dd89e3",
+                "ZBS3": "#ca56d5",
+                "ZBS4": "#834274",
+                "ZBS5": "#f5ac81",
+                "ZBS6": "#f58e53",
+                "ZCA1": "#9dc6e7",
+                "ZCA2": "#6f95b6",
+                "ZCA3": "#5e758a",
+                "ZDR": "#dedede",
+                "ZDR(ambiental)": "#cccccc",
+                "ZMC1": "#634360",
+                "ZMC2": "#ae4142",
+                "ZMC3": "#f54346",
+                "ZMR": "#f58743",
+                "ZP": "#2bcbdd",
+                "ZPA": "#96be90",
+                "ZPA(parque)": "#708e6b",
+                "ZPL": "#a5f544",
+                "ZI": "#69809f",
+                "ZI(ambiental)": "#5c708b",
+                "ZRP1": "#f5f27e",
+                "ZRP1(ambiental)": "#e6e276",
+                "ZRP2": "#d1ca98",
+                "ZRP2(ambiental)": "#c1ba8c",
+                "ZTP": "#436eda",
+                "ZTU1": "#f1ddcc",
+                "ZTU2": "#c9af97",
+                "ZTU3": "#998664",
+                "ZTU4": "#735042",
+                "ZTU4(ambiental)": "#644539",
+                "ZVP": "#4aeef1",
+                "ZBN1": "#c8d0e0"
+            };
 
-            //CCS
-            L.esri.featureLayer({
-                url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/zoneamento_2012_corredores_de_com%C3%A9rcio_e_servi%C3%A7o/FeatureServer/0/',
-                precision: 6,
-                style: (feature) => {
-                    var corlinhaccs,
-                        corcss = feature.properties.tipo;
-                    if (corcss == 'CCS1') corlinhaccs = "#ff0000";
-                    else if (corcss == 'CCS2') corlinhaccs = "#723900";
-                    else if (corcss == 'CCS3') corlinhaccs = "#b82e00";
-                    else corlinhaccs = "#fff";
-                    return { color: corlinhaccs, weight: 5, Opacity: 0.4, interactive: false };
-                },
-                interactive: false
-            }).addTo(plantaZoneamento);
+            function estilo(feature) {
+                return {
+                    fillColor: coresZon[feature.properties.descr],
+                    weight: 0.5,
+                    opacity: 1,
+                    color: 'white',
+                    fillOpacity: 0.5
+                };
+            };
 
-            mapa.addLayer(plantaZoneamento);
+            // Função para carregar o GeoJSON e adicioná-lo ao mapa
+            function carregarGeoJson(url, camada) {
+                fetch(url)
+                    .then(response => response.json())
+                    .then(data => {
+                        L.geoJson(data, {
+                            style: estilo,
+                            onEachFeature: (feature, layer) => {
+                                const props = feature.properties;
+                                layer.bindPopup(
+                                    `<style>
+                                    .leaflet-popup-content {
+                                        padding: 1px !important; /* Reduz o padding do conteúdo do popup */
+                                        max-height: 300px; /* Altura máxima do conteúdo do popup */
+                                        overflow-y: auto; /* Adiciona barra de rolagem vertical se necessário */
+                                    }
+                                    .leaflet-popup-content table tr th:first-child {
+                                        font-size: 14px; /* Ajuste conforme necessário */
+                                    }
+                                    .popup-table {
+                                        font-size: 9px; /* Tamanho do texto */
+                                    }
+                                    .popup-table table {
+                                        width: 100%; /* Ajusta a largura da tabela para preencher o popup */
+                                        border-collapse: collapse; /* Remove espaços entre as bordas */
+                                    }
+                                    .popup-table th, .popup-table td {
+                                        border: 1px solid black; /* Linhas da tabela */
+                                        padding: 1px; /* Reduz o padding dentro das células */
+                                    }
+                                    </style>
+                                    <div class="popup-table">
+                                    <table>
+                                        <tr><th><strong>${props.descr}</strong></th></tr>
+                                        <tr><td><strong>Usos permitidos:</strong> ${props.usos_permitidos}</td></tr>
+                                        <tr><td><strong>Usos permissíveis:</strong> ${props.usos_permissiveis}</td></tr>
+                                        <tr><td><strong>Usos proibidos:</strong> ${props.usos_proibidos}</td></tr>
+                                        <tr><td><strong>Alt.máx:</strong> ${props.altura_max}</td></tr>
+                                        <tr><td><strong>Alt.embasamento:</strong> ${props.altura_emb}</td></tr>
+                                        <tr><td><strong>Coef.aproveitamento:</strong> ${props.ca_basico}</td></tr>
+                                        <tr><td><strong>Coef.aprov.com outorga onerosa:</strong> ${props.ca_total}</td></tr>
+                                        <tr><td><strong>Fator contribuição:</strong> ${props.fator_contr}</td></tr>
+                                        <tr><td><strong>Transf.de índice:</strong> ${props.transf_ind}</td></tr>
+                                        <tr><td><strong>Taxa ocupação embasamento:</strong> ${props.to_base}</td></tr>
+                                        <tr><td><strong>Taxa ocupação torre:</strong> ${props.to_torre}</td></tr>
+                                        <tr><td><strong>Taxa permeabilidade:</strong> ${props.permeab}</td></tr>
+                                        <tr><td><strong>Recuo frontal embasamento:</strong> ${props.recuo_emb}</td></tr>
+                                        <tr><td><strong>Recuo frontal torre:</strong> ${props.recuo_f_torre}</td></tr>
+                                        <tr><td><strong>Recuo lateral/fundos torre:</strong> ${props.recuo_l_f_torre}</td></tr>
+                                        <tr><td><strong>Lote mínimo(m²):</strong> ${props.lote_min}</td></tr>
+                                        <tr><td><strong>Testada mínima(m):</strong> ${props.test_min}</td></tr>
+                                        <tr><td><strong>Profundidame mínima(m):</strong> ${props.prof_min}</td></tr>
+                                    </table>
+                                    </div>`
+                                );
+                            },
+                            pane: 'nivel_marcadores'
+                        }).addTo(plantaZoneamento);
+
+                        mapa.addLayer(plantaZoneamento);
+                    }).catch(error => console.error('Erro ao carregar o arquivo GeoJSON: ', error));
+            }
+
+            // Exemplo de uso da função
+            carregarGeoJson('data/zoneamento2024.geojson', plantaZoneamento);
+
         };
 
         const camada_propostas = () => {
