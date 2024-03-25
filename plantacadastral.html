@@ -318,7 +318,7 @@
                 </center>
                 </a>
             </div>
-        <!--<h3 class='titulobarra'> Grau de Risco Atividades</h3>
+            <!--<h3 class='titulobarra'> Grau de Risco Atividades</h3>
             <div class='conteudobarralateral'>
                 <p>
                     <center><small>Anexo lei Nº 11.985, DE 24 DE AGOSTO DE 2020:</small></center>
@@ -1153,7 +1153,25 @@
                     }).catch(error => console.error('Erro ao carregar o arquivo GeoJSON: ', error));
             }
 
-            // Exemplo de uso da função
+            // Função para carregar o GeoJSON sobrezoneamento
+            function carregarGeoJsonSemInteracao(url, camada) {
+                fetch(url)
+                    .then(response => response.json())
+                    .then(data => {
+                        L.geoJson(data, {
+                            style: {
+                                color: 'red',
+                                weight: 2.5,
+                                dashArray: '5, 5',
+                                fillOpacity: 0,
+                                interactive: false
+                            }
+                        }).addTo(plantaZoneamento);
+                    }).catch(error => console.error('Erro ao carregar o arquivo GeoJSON: ', error));
+            }
+
+            carregarGeoJsonSemInteracao('data/sobrezoneamento2024.geojson', plantaZoneamento);
+
             carregarGeoJson('data/zoneamento2024.geojson', plantaZoneamento);
 
         };
