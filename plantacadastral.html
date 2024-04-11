@@ -348,13 +348,13 @@
             </div> -->
             <h3 class='titulobarra'>Zoneamento</h3>
             <div class='conteudobarralateral'>
-                <p>
-                    <a href="http://leismunicipa.is/16qu0" target="_blank">
-                        <font size="2" color="black">
-                            Lei complementar nº449, 11/03/2024
-                        </font>
-                    </a>
-                </p>
+                <p><center>
+                    Plano Diretor de Gestão e Desenv.Territorial<br>
+                    <a href="https://intranet2.itajai.sc.gov.br/public/jornal-municipio/jornais/jornal_2024_2785_2760.pdf"
+                        target="_blank"><small>Ed.2785 15/03/2024</small></a>,<br><a
+                        href="https://intranet2.itajai.sc.gov.br/public/jornal-municipio/jornais/jornal_2024_2786_2761.pdf"
+                        target="_blank"><small>Ed.2786 20/03/2024</small></a>
+                </p></center>
                 <hr>
                 <p><small>Clique em uma zona para visualizar os parâmetros.</small></p>
             </div>
@@ -723,12 +723,11 @@
                 .run((error, fcol) => {
                     if (fcol.features.length > 0) {
                         inscrlig_base = fcol.features[0].properties.inscrlig;
-                        consultaalvara = `https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/consultaalvara.html#${inscrlig_base}`;
-                        consultapreviap = `https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/consultazoneamento.html#${inscrlig_base}`;
+                        //consultaalvara = `https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/consultaalvara.html#${inscrlig_base}`;
+                        consultapreviap = `https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/consultaprevia.html#${inscrlig_base}`;
                         plantasitua = `https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/plantalocalizacao.html#${inscrlig_base}`;
                         //links gerais lote
-                        //document.getElementById("consultaprev").innerHTML = `<a href="${consultapreviap}" target="_blank">Consulta zoneamento</a> |&nbsp`
-                        document.getElementById("consultaprev").innerHTML = `-- |&nbsp`
+                        document.getElementById("consultaprev").innerHTML = `<a href="${consultapreviap}" target="_blank">Consulta zoneamento</a> |&nbsp`
                         //document.getElementById("alvara").innerHTML = `<a href="${consultaalvara}" target="_blank">Avaliação atividade(alvará)</a> |&nbsp`
                         document.getElementById("alvara").innerHTML = `-- |&nbsp`
                         document.getElementById("plsitua").innerHTML = `<a href="${plantasitua}" target="_blank">Planta situação</a>`

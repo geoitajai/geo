@@ -1,0 +1,1271 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Consulta Prévia - Secretaria de Desenvolvimento Urbano e Habitação - Itajaí-SC</title>
+    <link rel="icon" type="image/png" href="images/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32">
+    <!-- leaflet -->
+    <script src="lib/leaflet/leaflet.js"></script>
+    <link href="lib/leaflet/leaflet.css" rel="stylesheet">
+    <!-- esri leaflet -->
+    <script src="lib/leaflet/esri-leaflet.js"></script>
+    <script src="lib/leaflet/esri-leaflet-vector.js"></script>
+    <style>
+        @page {
+            size: A4;
+            margin: 1cm;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            width: 200mm;
+            height: 277mm;
+            margin: 1cm auto;
+            border: 1px solid black;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            font-size: 10px;
+        }
+
+        .botao-imprimir {
+            position: absolute;
+            top: -40px;
+            left: 50%;
+            transform: translateX(-50%);
+            padding: 10px;
+            background-color: #737373;
+            color: white;
+            cursor: pointer;
+            border: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        @media print {
+            .botao-imprimir {
+                display: none;
+            }
+        }
+
+        .linha {
+            border-top: 1px solid black;
+            box-sizing: border-box;
+            width: 100%;
+            overflow: hidden;
+        }
+
+        .linha1,
+        .linha2,
+        .linha3 {
+            display: flex;
+        }
+
+        .linha1 {
+            height: 1.5cm;
+        }
+
+        .cabecalho-esquerda {
+            width: calc(200mm - 6cm);
+            margin-left: 0.1cm;
+            margin-top: 0.1cm;
+        }
+
+        .cabecalho-direita {
+            width: 6cm;
+            margin-right: 0.2cm;
+        }
+
+        .linha2 {
+            height: 15.5cm;
+        }
+
+        .linha3 {
+            height: 10cm;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .linha4 {
+            height: calc(277mm - 27cm);
+        }
+
+        .espaco-esquerda {
+            width: calc(200mm - 8cm);
+            margin-top: 0.1cm;
+            margin-left: 0.1cm;
+        }
+
+        .espaco-direita {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            position: relative;
+            width: 8cm;
+            border-left: 1px solid black;
+        }
+
+        .espaco-direita::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: 0.7cm;
+            width: 100%;
+            border-top: 1px solid black;
+        }
+
+        .espaco-direita-superior {
+            flex-grow: 1;
+        }
+
+        .espaco-direita-inferior {
+            margin-left: 0.1cm;
+            height: 0.7cm;
+        }
+
+        #mapa {
+            margin-top: 0.1cm;
+            margin-left: 0.1cm;
+            height: 98%;
+            width: 98%;
+        }
+    </style>
+</head>
+
+<body>
+    <button class="botao-imprimir" onclick="window.print();">Imprimir/Salvar</button>
+    <div class="linha linha1">
+        <div class="cabecalho-esquerda">
+            <div style="font-size: 14px; font-weight: bold;">CONSULTA PRÉVIA AO ZONEAMENTO</div>
+            <div id="inscrImob">Inscrição Imobiliária:</div>
+            <div id="endereco">End:</div>
+            <div id="dataEmissao">Data:</div>
+        </div>
+        <div class="cabecalho-direita">
+            <img src="images/logo_urb.png" alt="Logo Urb" style="height: 1.4cm; float: right; margin-top: 0.02cm">
+        </div>
+    </div>
+    <div class="linha linha2">
+        <div id="tabelaZonas"></div>
+    </div>
+    <div class="linha linha3">
+        <div class="espaco-esquerda">
+            Em caso de utilização da permeabilidade induzida deverá ser considerado uma acréscimo de 20% sobre a taxa
+            indicada na tabela.
+            <hr>
+            O requerente deverá informar a existência de mobiliário urbano, valas, ribeirões, rio, nascentes,
+            dutoviários (gasodutos, oleoduto...) e ou redes de alta tensão. Passíveis de licentiamento ou autorização
+            ambiental (resoluções CONSEMA/CONDEMA): - Edificação acima de 09 unidades e ou acima de 2000m²; - Ribeirões,
+            rios e nascentes consultar Instituto Itajaí Sustentável.
+            <hr>
+            Lotes com mais de uma testada para via pública, caixa da via e passeio específico para cada
+            via. Caso os dados da largura da via ou passeios estejam incompletos ou discrepantes com a situação do
+            local, procurar a SECR.DESENV.URBANO E HAB. <strong>Lotes com confrontações para rodovias estaduais ou
+                federais, necessário parecer DEINFRA/AUTOPISTA.</strong><br>
+            <hr>
+            <strong><u>PAUTA VIÁRIA:</u></strong>
+            <div id="pauta">pauta</div>
+            <div id="sobrezoneamento"></div>
+            <div id="sobrezHist"></div>
+            <div id="patrimonioHistorico"></div>
+            <div id="intervViaria"></div>
+            <div id="obs1"></div>
+            <div id="obs2"></div>
+            <div id="obs3"></div>
+            <div id="obs4"></div>
+            <div id="obs5"></div>
+            <div id="obs6"></div>
+            <div id="obs7"></div>
+        </div>
+        <div class="espaco-direita">
+            <div class="espaco-direita-superior">
+                <div id="mapa"></div>
+            </div>
+            <div class="espaco-direita-inferior">
+                <center><strong>Atividades permissíveis deverão ser submetidas a análise
+                        a Secretaria Municipal de Desenvolvimento Urbano e Habitação</strong></center>
+            </div>
+        </div>
+    </div>
+    <div class="linha linha4">
+        <div style="margin-left: 0.2cm; margin-top: 0.05cm;">
+            Esta consulta não constinui o direito de propriedade e ou
+            construção, todos os parâmetros estão sujeitos a
+            revisão pelo processo de aprovação<br>
+            Leis: nº449/2024(Plano Diretor de Gestão e Desenv.Territorial), Jornal do Município:<a
+                href="https://intranet2.itajai.sc.gov.br/public/jornal-municipio/jornais/jornal_2024_2785_2760.pdf"
+                target="_blank">Edição 2785 - 15 de março de 2024</a>, <a
+                href="https://intranet2.itajai.sc.gov.br/public/jornal-municipio/jornais/jornal_2024_2786_2761.pdf"
+                target="_blank">Edição 2786 - 20 de março de 2024</a>
+        </div>
+    </div>
+
+    <script>
+        //Data atual
+        const hoje = new Date();
+
+        //Formata a data como "dia/mês/ano"
+        const dataFormatada = hoje.getDate().toString().padStart(2, '0') + '/' +
+            (hoje.getMonth() + 1).toString().padStart(2, '0') + '/' +
+            hoje.getFullYear();
+
+        //Mapa
+        let mapa = new L.Map('mapa', {
+            zoom: 14,
+            minZoom: 12,
+            maxZoom: 19,
+            maxBounds: [
+                //south west
+                [-27.3000, -49.2300],
+                //north east
+                [-26.3285, -48.3200]
+            ],
+            center: new L.latLng([-26.9046, -48.6874]),
+            zoomControl: false,
+            preferCanvas: true,
+            attributionControl: false,
+            scrollWheelZoom: false,
+            dragging: false
+        });
+
+        //barra escala
+        L.control.scale({
+            position: "topright",
+            imperial: false
+        }).addTo(mapa);
+
+        //Norte
+        let nortemapa = L.control({
+            position: 'topright'
+        });
+        nortemapa.onAdd = function (map) {
+            let div = L.DomUtil.create('div', 'info2 legend');
+            div.innerHTML +=
+                '<center><sub><font size="4">▲</font></sub><br/>' +
+                '<sup><font size="2">N</font></sup></center>'
+            return div;
+        };
+        nortemapa.addTo(mapa);
+
+        //mapas base
+        mapa.createPane('basePane');
+        mapa.createPane('zonePane');
+        mapa.getPane('basePane').style.zIndex = 200;
+        mapa.getPane('zonePane').style.zIndex = 400;
+
+
+        //Mapa base, SMU
+        let basemap = L.esri.Vector.vectorTileLayer("7a110ef9198540068341e6908c6bf298", {
+            portalUrl: "https://arcgis.itajai.sc.gov.br/portal",
+            pane: 'basePane'
+        }).addTo(mapa);
+
+        //Zoneamento
+        let zon2024 = new L.TileLayer(
+            'https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/tiles/tiles_zoneamento_2024/{z}/{x}/{y}.png', {
+            minZoom: 10,
+            maxZoom: 19,
+            opacity: 0.4,
+            pane: 'zonePane'
+        }).addTo(mapa);
+
+        zon2024.setZIndex(2000);
+
+        let plantaCadastralDestaque = L.featureGroup().addTo(mapa);
+
+        const tabelaZon = {
+            "ZI": {
+                "denom": "Zona Industrial",
+                "altura_max": "32 m uso comercial - 7,40 + ático para uso habitacional",
+                "altura_emb": "-",
+                "ca_total": "3",
+                "ca_basico": "1",
+                "outorga_on": "2",
+                "fator_contr": "0,1",
+                "transf_ind": "-",
+                "to_base": "80 %",
+                "to_torre": "-",
+                "permeab": "15 %",
+                "recuo_f_torre": "-",
+                "recuo_l_f_torre": "-",
+                "recuo_emb": "Recuos frontais: 4 m para casos com<br>fachada ativa e 5 metros para os<br>demais casos.<br>Recuos laterias e fundos: Zero quando<br>não voltado para via pública.<br>Nas residencias unifamiliares: 4 m frontais e<br>1,5 m para laterais e fundos quando<br>existirem aberturas.<br>Quando sem aberturas, o recuo pode ser zero",
+                "lote_min": "200m²",
+                "test_min": "10m",
+                "prof_min": "20m",
+                "usos_permitidos": "H1, CO, CS1, CS2, CS3,<br>CS(entre 750-1000m2), I1, I2, I3, I4, CSA, CSMV",
+                "usos_permissiveis": "H2, CSE",
+                "usos_proibidos": "-"
+            },
+            "ZVP": {
+                "denom": "Zona Via Panorâmica",
+                "altura_max": "7,40m + ático",
+                "altura_emb": "-",
+                "ca_total": "1,5",
+                "ca_basico": "1,5",
+                "outorga_on": "-",
+                "fator_contr": "-",
+                "transf_ind": "-",
+                "to_base": "60 %",
+                "to_torre": "-",
+                "permeab": "40 %",
+                "recuo_f_torre": "-",
+                "recuo_l_f_torre": "-",
+                "recuo_emb": "zero frontal, garantida a<br>calçada prevista.<br>2,5m laterais e fundos",
+                "lote_min": "200m²",
+                "test_min": "10m",
+                "prof_min": "20m",
+                "usos_permitidos": "H1, H2, CO, CS1, CS2,<br>CS(entre 750-1000m2), I1, I2",
+                "usos_permissiveis": "I3, CSA, CSMV, CSE, CS3",
+                "usos_proibidos": "I4"
+            },
+            "ZBR": {
+                "denom": "Zona Beira Rio",
+                "altura_max": "16,40m / 22,40*2<br>(Artigo 82 par.3 do plano diretor)",
+                "altura_emb": "16,40 m",
+                "ca_total": "6",
+                "ca_basico": "6",
+                "outorga_on": "-",
+                "fator_contr": "-",
+                "transf_ind": "-",
+                "to_base": "100 %",
+                "to_torre": "70 %",
+                "permeab": "10 %",
+                "recuo_f_torre": "4 m",
+                "recuo_l_f_torre": "-",
+                "recuo_emb": "zero, garantida a<br>calçada prevista de 4 m",
+                "lote_min": "200m²",
+                "test_min": "10m",
+                "prof_min": "20m",
+                "usos_permitidos": "H1, H2, CO, CS1, CS2, CS3,<br>CS(entre 750-1000m2), I1, I2",
+                "usos_permissiveis": "I3, CSA, CSMV, CSE",
+                "usos_proibidos": "I4"
+            },
+            "ZRP2": {
+                "denom": "Zona Residencial Predominante 2",
+                "altura_max": "32m + ático",
+                "altura_emb": "7,40 m",
+                "ca_total": "4",
+                "ca_basico": "2,5",
+                "outorga_on": "1,5",
+                "fator_contr": "0,15",
+                "transf_ind": "-",
+                "to_base": "80 %",
+                "to_torre": "60 %",
+                "permeab": "10 %",
+                "recuo_f_torre": "vias de até 8m: 5m<br>vias de 8,01 à 9m: 7m<br>vias de 9,01 à 12m: 8m<br>vias > 12,01 m: 9 m",
+                "recuo_l_f_torre": "até alt.do emb.permitido: zero<br>3 à 4 pav.:2 m<br>3 à 8 pav.:2,5 m<br>9 à 12 pav.: 3 m<br>13 à 16 pav.: 3,5 m<br>17 à 20 pav.: 4,7 m<br>mais de 20 pav.: 5,5 m",
+                "recuo_emb": "Recuos frontais: 4 m para casos com<br>fachada ativa e 5 metros para os<br>demais casos.<br>Recuos laterias e fundos: Zero quando<br>não voltado para via pública.<br>Nas residencias unifamiliares: 4 m frontais e<br>1,5 m para laterais e fundos quando<br>existirem aberturas.<br>Quando sem aberturas, o recuo pode ser zero",
+                "lote_min": "200m²",
+                "test_min": "10m",
+                "prof_min": "20m",
+                "usos_permitidos": "H1, H2, CO, CS1, CS2,<br>CS(entre 750-1000m2), I1, I2",
+                "usos_permissiveis": "I3, CSA, CSMV, CSE, CS3",
+                "usos_proibidos": "I4"
+            },
+            "ZRP1": {
+                "denom": "Zona Residencial Predominante 1",
+                "altura_max": "vias de até 7,99 m: 19,4m<br>vias de 8 à 8,99 m: 37,4m<br>vias de 9 à 12m: 67,4m + ático<br>vias de 12,01 à 15m: 105 m<br>vias > 15m: 105m<br>Observação:.*1 ",
+                "altura_emb": "7,40 m",
+                "ca_total": "5,5",
+                "ca_basico": "3",
+                "outorga_on": "2,5",
+                "fator_contr": "0,15",
+                "transf_ind": "-",
+                "to_base": "80 %",
+                "to_torre": "60 %",
+                "permeab": "10 %",
+                "recuo_f_torre": "vias de até 8m: 5m<br>vias de 8,01 à 9m: 7m<br>vias de 9,01 à 12m: 8m<br>vias > 12,01 m: 9 m",
+                "recuo_l_f_torre": "até alt.do emb.permitido: zero<br>3 à 4 pav.:2 m<br>3 à 8 pav.:2,5 m<br>9 à 12 pav.: 3 m<br>13 à 16 pav.: 3,5 m<br>17 à 20 pav.: 4,7 m<br>mais de 20 pav.: 5,5 m",
+                "recuo_emb": "Recuos frontais: 4 m para casos com<br>fachada ativa e 5 metros para os<br>demais casos.<br>Recuos laterias e fundos: Zero quando<br>não voltado para via pública.<br>Nas residencias unifamiliares: 4 m frontais e<br>1,5 m para laterais e fundos quando<br>existirem aberturas.<br>Quando sem aberturas, o recuo pode ser zero",
+                "lote_min": "200m²",
+                "test_min": "10m",
+                "prof_min": "20m",
+                "usos_permitidos": "H1, H2, CO, CS1, CS2,<br>CS(entre 750-1000m2), I1, I2",
+                "usos_permissiveis": "I3, CSA, CSMV, CSE, CS3",
+                "usos_proibidos": "I4"
+            },
+            "ZMC1": {
+                "denom": "Zona Mista Central 1",
+                "altura_max": "vias de até 7,99 m: 19,4m<br>vias de 8 à 8,99 m: 37,4m<br>vias de 9 à 12m: 67,4m + ático<br>vias de 12,01 à 15m: 105 m<br>vias > 15m: 105m<br>Observação:.*1 ",
+                "altura_emb": "16,40 m",
+                "ca_total": "8,5",
+                "ca_basico": "5",
+                "outorga_on": "3,5",
+                "fator_contr": "0,3",
+                "transf_ind": "-",
+                "to_base": "80 %",
+                "to_torre": "60 %",
+                "permeab": "10 %",
+                "recuo_f_torre": "vias de até 8m: 5m<br>vias de 8,01 à 9m: 7m<br>vias de 9,01 à 12m: 8m<br>vias > 12,01 m: 9 m",
+                "recuo_l_f_torre": "até alt.do emb.permitido: zero<br>3 à 4 pav.:2 m<br>3 à 8 pav.:2,5 m<br>9 à 12 pav.: 3 m<br>13 à 16 pav.: 3,5 m<br>17 à 20 pav.: 4,7 m<br>mais de 20 pav.: 5,5 m",
+                "recuo_emb": "Recuos frontais: 4 m para casos com<br>fachada ativa e 5 metros para os<br>demais casos.<br>Recuos laterias e fundos: Zero quando<br>não voltado para via pública.<br>Nas residencias unifamiliares: 4 m frontais e<br>1,5 m para laterais e fundos quando<br>existirem aberturas.<br>Quando sem aberturas, o recuo pode ser zero",
+                "lote_min": "200m²",
+                "test_min": "10m",
+                "prof_min": "20m",
+                "usos_permitidos": "H1, H2, CO, CS1, CS2, CS3,<br>CS(entre 750-1000m2), I1, I2",
+                "usos_permissiveis": "I3, CSA, CSMV, CSE",
+                "usos_proibidos": "I4"
+            },
+            "ZMC2": {
+                "denom": "Zona Mista Central 2",
+                "altura_max": "vias de até 7,99 m: 19,4m<br>vias de 8 à 8,99 m: 37,4m<br>vias de 9 à 12m: 67,4m + ático<br>vias de 12,01 à 15m: 105 m<br>vias > 15m: 105m<br>Observação:.*1 ",
+                "altura_emb": "16,40 m",
+                "ca_total": "7,5",
+                "ca_basico": "4",
+                "outorga_on": "3,5",
+                "fator_contr": "0,3",
+                "transf_ind": "-",
+                "to_base": "80 %",
+                "to_torre": "60 %",
+                "permeab": "10 %",
+                "recuo_f_torre": "vias de até 8m: 5m<br>vias de 8,01 à 9m: 7m<br>vias de 9,01 à 12m: 8m<br>vias > 12,01 m: 9 m",
+                "recuo_l_f_torre": "até alt.do emb.permitido: zero<br>3 à 4 pav.:2 m<br>3 à 8 pav.:2,5 m<br>9 à 12 pav.: 3 m<br>13 à 16 pav.: 3,5 m<br>17 à 20 pav.: 4,7 m<br>mais de 20 pav.: 5,5 m",
+                "recuo_emb": "Recuos frontais: 4 m para casos com<br>fachada ativa e 5 metros para os<br>demais casos.<br>Recuos laterias e fundos: Zero quando<br>não voltado para via pública.<br>Nas residencias unifamiliares: 4 m frontais e<br>1,5 m para laterais e fundos quando<br>existirem aberturas.<br>Quando sem aberturas, o recuo pode ser zero",
+                "lote_min": "200m²",
+                "test_min": "10m",
+                "prof_min": "20m",
+                "usos_permitidos": "H1, H2, CO, CS1, CS2, CS3,<br>CS(entre 750-1000m2), I1, I2",
+                "usos_permissiveis": "I3, CSA, CSMV, CSE",
+                "usos_proibidos": "I4"
+            },
+            "ZMC3": {
+                "denom": "Zona Mista Central 3",
+                "altura_max": "vias de até 7,99 m: 19,4m<br>vias de 8 à 8,99 m: 37,4m<br>vias de 9 à 12m: 67,4m + ático<br>vias de 12,01 à 15m: 105 m<br>vias > 15m: 105m<br>Observação:.*1 ",
+                "altura_emb": "16,40 m",
+                "ca_total": "6,5",
+                "ca_basico": "3,5",
+                "outorga_on": "3",
+                "fator_contr": "0,3",
+                "transf_ind": "-",
+                "to_base": "80 %",
+                "to_torre": "60 %",
+                "permeab": "10 %",
+                "recuo_f_torre": "vias de até 8m: 5m<br>vias de 8,01 à 9m: 7m<br>vias de 9,01 à 12m: 8m<br>vias > 12,01 m: 9 m",
+                "recuo_l_f_torre": "até alt.do emb.permitido: zero<br>3 à 4 pav.:2 m<br>3 à 8 pav.:2,5 m<br>9 à 12 pav.: 3 m<br>13 à 16 pav.: 3,5 m<br>17 à 20 pav.: 4,7 m<br>mais de 20 pav.: 5,5 m",
+                "recuo_emb": "Recuos frontais: 4 m para casos com<br>fachada ativa e 5 metros para os<br>demais casos.<br>Recuos laterias e fundos: Zero quando<br>não voltado para via pública.<br>Nas residencias unifamiliares: 4 m frontais e<br>1,5 m para laterais e fundos quando<br>existirem aberturas.<br>Quando sem aberturas, o recuo pode ser zero",
+                "lote_min": "200m²",
+                "test_min": "10m",
+                "prof_min": "20m",
+                "usos_permitidos": "H1, H2, CO, CS1, CS2, CS3,<br>CS(entre 750-1000m2), I1, I2",
+                "usos_permissiveis": "I3, CSA, CSMV, CSE",
+                "usos_proibidos": "I4"
+            },
+            "ZMR": {
+                "denom": "Zona Mista Residencial",
+                "altura_max": "vias de até 7,99 m: 19,4m<br>vias de 8 à 8,99 m: 37,4m<br>vias de 9 à 12m: 67,4m + ático<br>vias de 12,01 à 15m: 105 m<br>vias > 15m: 105m<br>Observação:.*1 ",
+                "altura_emb": "12,80 m",
+                "ca_total": "6",
+                "ca_basico": "3",
+                "outorga_on": "2,5",
+                "fator_contr": "0,2",
+                "transf_ind": "-",
+                "to_base": "80 %",
+                "to_torre": "60 %",
+                "permeab": "10 %",
+                "recuo_f_torre": "vias de até 8m: 5m<br>vias de 8,01 à 9m: 7m<br>vias de 9,01 à 12m: 8m<br>vias > 12,01 m: 9 m",
+                "recuo_l_f_torre": "até alt.do emb.permitido: zero<br>3 à 4 pav.:2 m<br>3 à 8 pav.:2,5 m<br>9 à 12 pav.: 3 m<br>13 à 16 pav.: 3,5 m<br>17 à 20 pav.: 4,7 m<br>mais de 20 pav.: 5,5 m",
+                "recuo_emb": "Recuos frontais: 4 m para casos com<br>fachada ativa e 5 metros para os<br>demais casos.<br>Recuos laterias e fundos: Zero quando<br>não voltado para via pública.<br>Nas residencias unifamiliares: 4 m frontais e<br>1,5 m para laterais e fundos quando<br>existirem aberturas.<br>Quando sem aberturas, o recuo pode ser zero",
+                "lote_min": "200m²",
+                "test_min": "10m",
+                "prof_min": "20m",
+                "usos_permitidos": "H1, H2, CO, CS1, CS2, CS3,<br>CS(entre 750-1000m2), I1, I2",
+                "usos_permissiveis": "I3, CSA, CSMV, CSE",
+                "usos_proibidos": "I4"
+            },
+            "ZTP": {
+                "denom": "Zona de Transição Paisagística",
+                "altura_max": "7,40 m + ático",
+                "altura_emb": "-",
+                "ca_total": "2",
+                "ca_basico": "2",
+                "outorga_on": "-",
+                "fator_contr": "-",
+                "transf_ind": "-",
+                "to_base": "80 %",
+                "to_torre": "-",
+                "permeab": "10 %",
+                "recuo_f_torre": "-",
+                "recuo_l_f_torre": "-",
+                "recuo_emb": "Recuos frontais: 4 m para casos com<br>fachada ativa e 5 metros para os<br>demais casos.<br>Recuos laterias e fundos: Zero quando<br>não voltado para via pública.<br>Nas residencias unifamiliares: 4 m frontais e<br>1,5 m para laterais e fundos quando<br>existirem aberturas.<br>Quando sem aberturas, o recuo pode ser zero",
+                "lote_min": "300m²",
+                "test_min": "12m",
+                "prof_min": "25m",
+                "usos_permitidos": "H1, H2, CO, CS1, CS2,<br>CS(entre 750-1000m2), I1, I2",
+                "usos_permissiveis": "I3, CSA, CSMV, CSE, CS3",
+                "usos_proibidos": "I4"
+            },
+            "ZCA1": {
+                "denom": "Zona Cabeçudas 1",
+                "altura_max": "7,40m + ático (1ª quadra)<br>10,40 m + ático (2ª quadra)",
+                "altura_emb": "-",
+                "ca_total": "2",
+                "ca_basico": "2",
+                "outorga_on": "-",
+                "fator_contr": "-",
+                "transf_ind": "-",
+                "to_base": "70 %",
+                "to_torre": "-",
+                "permeab": "20 %",
+                "recuo_f_torre": "5 m a partir de 3 pavimentos",
+                "recuo_l_f_torre": "3 à 5 pav: 3 m<br>6 à 8 pav.: 5 m",
+                "recuo_emb": "Nas Av. José Medeiros e Rua Delfim de<br>Pádua Peixoto: 8m frontais para<br>casos com fachada ativa e<br>10 m para os demais casos<br>Na demais vias: 4 m a partir do<br>meio fio para casos com fachada<br>ativa e 5 m para os demais casos.<br>Recuo laterias e fundos: Zero quando<br>não voltado para via pública.<br>Nas residencias unifamiliares: 4 m frontais e<br>1,5 m para laterais e<br>fundos quando existirem aberturas.<br>Quando sem aberturas, o recuo pode ser zero.",
+                "lote_min": "300m²",
+                "test_min": "12m",
+                "prof_min": "25m",
+                "usos_permitidos": "H1, H2, CO, CS1, CS2, CS3,<br>CS(entre 750-1000m2), I1, I2",
+                "usos_permissiveis": "I3, CSA, CSMV, CSE",
+                "usos_proibidos": "I4"
+            },
+            "ZCA2": {
+                "denom": "Zona Cabeçudas 2",
+                "altura_max": "13,40m + ático",
+                "altura_emb": "7,40 m",
+                "ca_total": "3",
+                "ca_basico": "2",
+                "outorga_on": "1",
+                "fator_contr": "0,3",
+                "transf_ind": "-",
+                "to_base": "70 %",
+                "to_torre": "50 %",
+                "permeab": "20 %",
+                "recuo_f_torre": "5 m a partir de 3 pavimentos",
+                "recuo_l_f_torre": "3 à 5 pav: 3 m<br>6 à 8 pav.: 5 m",
+                "recuo_emb": "Nas Av. José Medeiros e Rua Delfim de<br>Pádua Peixoto: 8m frontais para<br>casos com fachada ativa e<br>10 m para os demais casos<br>Na demais vias: 4 m a partir do<br>meio fio para casos com fachada<br>ativa e 5 m para os demais casos.<br>Recuo laterias e fundos: Zero quando<br>não voltado para via pública.<br>Nas residencias unifamiliares: 4 m frontais e<br>1,5 m para laterais e<br>fundos quando existirem aberturas.<br>Quando sem aberturas, o recuo pode ser zero.",
+                "lote_min": "300m²",
+                "test_min": "12m",
+                "prof_min": "25m",
+                "usos_permitidos": "H1, H2, CO, CS1, CS2, CS3,<br>CS(entre 750-1000m2), I1, I2",
+                "usos_permissiveis": "I3, CSA, CSMV, CSE",
+                "usos_proibidos": "I4"
+            },
+            "ZCA3": {
+                "denom": "Zona Cabeçudas 3",
+                "altura_max": "25,40m +ático (Somente poderão<br>utilizar os parâmetros urbanísticos de<br>ZCA3 os empreendimentos que estiverem<br>voltados para ruas com CAIXAS DE VIA<br>igual ou maior a 9 metros.<br>Do contrário, prevalecem os parâmetros de ZCA2.)",
+                "altura_emb": "7,40 m",
+                "ca_total": "4",
+                "ca_basico": "2",
+                "outorga_on": "2",
+                "fator_contr": "0,3",
+                "transf_ind": "-",
+                "to_base": "70 %",
+                "to_torre": "50 %",
+                "permeab": "20 %",
+                "recuo_f_torre": "5 m a partir de 3 pavimentos",
+                "recuo_l_f_torre": "3 à 5 pav: 3 m<br>6 à 8 pav.: 5 m",
+                "recuo_emb": "Nas Av. José Medeiros e Rua Delfim de<br>Pádua Peixoto: 8m frontais para<br>casos com fachada ativa e<br>10 m para os demais casos<br>Na demais vias: 4 m a partir do<br>meio fio para casos com fachada<br>ativa e 5 m para os demais casos.<br>Recuo laterias e fundos: Zero quando<br>não voltado para via pública.<br>Nas residencias unifamiliares: 4 m frontais e<br>1,5 m para laterais e<br>fundos quando existirem aberturas.<br>Quando sem aberturas, o recuo pode ser zero.",
+                "lote_min": "300m²",
+                "test_min": "12m",
+                "prof_min": "25m",
+                "usos_permitidos": "H1, H2, CO, CS1, CS2, CS3,<br>CS(entre 750-1000m2), I1, I2",
+                "usos_permissiveis": "I3, CSA, CSMV, CSE",
+                "usos_proibidos": "I4"
+            },
+            "ZBS1": {
+                "denom": "Zona Brava Sul 1",
+                "altura_max": "cone",
+                "altura_emb": "7,4 m",
+                "ca_total": "2,5",
+                "ca_basico": "1,5",
+                "outorga_on": "1",
+                "fator_contr": "0,5",
+                "transf_ind": "-",
+                "to_base": "70 %",
+                "to_torre": "60 %",
+                "permeab": "10 %",
+                "recuo_f_torre": "10 m para Av.José Medeiros e Rua Delfim<br>7 m para as demais vias",
+                "recuo_l_f_torre": "até alt.do emb.permitido.: zero<br>3 à 4 pav.: 2m<br>5 à 8 pav.:4,0 m<br>9 à 12 pav.: 4,5 m<br>13 à 16 pav.: 5,0 m<br>17 à 20 pav.: 5,5 m<br>mais de 20 pav.: 6,0m",
+                "recuo_emb": "Nas Av. José Medeiros e Rua Delfim de<br>Pádua Peixoto: 8m frontais para<br>casos com fachada ativa e<br>10 m para os demais casos<br>Na demais vias: 4 m a partir do<br>meio fio para casos com fachada<br>ativa e 5 m para os demais casos.<br>Recuo laterias e fundos: Zero quando<br>não voltado para via pública.<br>Nas residencias unifamiliares: 4 m frontais e<br>1,5 m para laterais e<br>fundos quando existirem aberturas.<br>Quando sem aberturas, o recuo pode ser zero.",
+                "lote_min": "300m²",
+                "test_min": "12m",
+                "prof_min": "25m",
+                "usos_permitidos": "H1, H2, CO, CS1, CS2, CS3,<br>CS(entre 750-1000m2), I1, I2",
+                "usos_permissiveis": "I3, CSA, CSMV, CSE",
+                "usos_proibidos": "I4"
+            },
+            "ZBS2": {
+                "denom": "Zona Brava Sul 2",
+                "altura_max": "cone",
+                "altura_emb": "7,40 m",
+                "ca_total": "3",
+                "ca_basico": "2",
+                "outorga_on": "1",
+                "fator_contr": "0,5",
+                "transf_ind": "-",
+                "to_base": "70 %",
+                "to_torre": "60 %",
+                "permeab": "10 %",
+                "recuo_f_torre": "10 m para Av.José Medeiros e Rua Delfim<br>7 m para as demais vias",
+                "recuo_l_f_torre": "até alt.do emb.permitido.: zero<br>3 à 4 pav.: 2m<br>5 à 8 pav.:4,0 m<br>9 à 12 pav.: 4,5 m<br>13 à 16 pav.: 5,0 m<br>17 à 20 pav.: 5,5 m<br>mais de 20 pav.: 6,0m",
+                "recuo_emb": "Nas Av. José Medeiros e Rua Delfim de<br>Pádua Peixoto: 8m frontais para<br>casos com fachada ativa e<br>10 m para os demais casos<br>Na demais vias: 4 m a partir do<br>meio fio para casos com fachada<br>ativa e 5 m para os demais casos.<br>Recuo laterias e fundos: Zero quando<br>não voltado para via pública.<br>Nas residencias unifamiliares: 4 m frontais e<br>1,5 m para laterais e<br>fundos quando existirem aberturas.<br>Quando sem aberturas, o recuo pode ser zero.",
+                "lote_min": "300m²",
+                "test_min": "12m",
+                "prof_min": "25m",
+                "usos_permitidos": "H1, H2, CO, CS1, CS2, CS3,<br>CS(entre 750-1000m2), I1, I2",
+                "usos_permissiveis": "I3, CSA, CSMV, CSE",
+                "usos_proibidos": "I4"
+            },
+            "ZBS4": {
+                "denom": "Zona Brava Sul 4",
+                "altura_max": "40,00 m + ático / cone *5<br>(Nas ZBS3 e ZBS4, os asteriscos<br>associados às maiores<br>alturas máximas referem-se<br>a empreendimentos em terrenos<br>maiores de 3000 m²)",
+                "altura_emb": "7,40 m",
+                "ca_total": "4",
+                "ca_basico": "2,5",
+                "outorga_on": "1,5",
+                "fator_contr": "0,4",
+                "transf_ind": "-",
+                "to_base": "70 %",
+                "to_torre": "Prédios com até 4 pavimentos 50 %<br>prédios com mais de 4 pavimentos 40 %",
+                "permeab": "10 %",
+                "recuo_f_torre": "10 m para Av.José Medeiros e Rua Delfim<br>7 m para as demais vias",
+                "recuo_l_f_torre": "até alt.do emb.permitido.: zero<br>3 à 4 pav.: 2m<br>5 à 8 pav.:4,0 m<br>9 à 12 pav.: 4,5 m<br>13 à 16 pav.: 5,0 m<br>17 à 20 pav.: 5,5 m<br>mais de 20 pav.: 6,0m",
+                "recuo_emb": "Nas Av. José Medeiros e Rua Delfim de<br>Pádua Peixoto: 8m frontais para<br>casos com fachada ativa e<br>10 m para os demais casos<br>Na demais vias: 4 m a partir do<br>meio fio para casos com fachada<br>ativa e 5 m para os demais casos.<br>Recuo laterias e fundos: Zero quando<br>não voltado para via pública.<br>Nas residencias unifamiliares: 4 m frontais e<br>1,5 m para laterais e<br>fundos quando existirem aberturas.<br>Quando sem aberturas, o recuo pode ser zero.",
+                "lote_min": "300m²",
+                "test_min": "12m",
+                "prof_min": "25m",
+                "usos_permitidos": "H1, H2, CO, CS1, CS2, CS3,<br>CS(entre 750-1000m2), I1, I2",
+                "usos_permissiveis": "I3, CSA, CSMV, CSE",
+                "usos_proibidos": "I4"
+            },
+            "ZBS5": {
+                "denom": "Zona Brava Sul 5",
+                "altura_max": "40,00 m + ático / cone *6<br>(Nas ZBS5, ZBS6 e ZBP os asteriscos<br>associados às maiores alturas<br>máximas referem-se a empreendimentos<br>alvo de transferências de índice)",
+                "altura_emb": "10,40 m",
+                "ca_total": "6",
+                "ca_basico": "2",
+                "outorga_on": "4",
+                "fator_contr": "0,4",
+                "transf_ind": "1",
+                "to_base": "70 %",
+                "to_torre": "Prédios com até 4 pavimentos 50 %<br>prédios com mais de 4 pavimentos 40 %",
+                "permeab": "10 %",
+                "recuo_f_torre": "10 m para Av.José Medeiros e Rua Delfim<br>7 m para as demais vias",
+                "recuo_l_f_torre": "até alt.do emb.permitido.: zero<br>3 à 4 pav.: 2m<br>5 à 8 pav.:4,0 m<br>9 à 12 pav.: 4,5 m<br>13 à 16 pav.: 5,0 m<br>17 à 20 pav.: 5,5 m<br>mais de 20 pav.: 6,0m",
+                "recuo_emb": "Nas Av. José Medeiros e Rua Delfim de<br>Pádua Peixoto: 8m frontais para<br>casos com fachada ativa e<br>10 m para os demais casos<br>Na demais vias: 4 m a partir do<br>meio fio para casos com fachada<br>ativa e 5 m para os demais casos.<br>Recuo laterias e fundos: Zero quando<br>não voltado para via pública.<br>Nas residencias unifamiliares: 4 m frontais e<br>1,5 m para laterais e<br>fundos quando existirem aberturas.<br>Quando sem aberturas, o recuo pode ser zero.",
+                "lote_min": "300m²",
+                "test_min": "12m",
+                "prof_min": "25m",
+                "usos_permitidos": "H1, H2, CO, CS1, CS2, CS3,<br>CS(entre 750-1000m2), I1, I2",
+                "usos_permissiveis": "I3, CSA, CSMV, CSE",
+                "usos_proibidos": "I4"
+            },
+            "ZBS6": {
+                "denom": "Zona Brava Sul 6",
+                "altura_max": "74,5 m + ático / cone *6<br>(Nas ZBS5, ZBS6 e ZBP os asteriscos<br>associados às maiores alturas<br>máximas referem-se a empreendimentos<br>alvo de transferências de índice)",
+                "altura_emb": "10,40 m",
+                "ca_total": "6,5",
+                "ca_basico": "2,5",
+                "outorga_on": "4",
+                "fator_contr": "0,4",
+                "transf_ind": "1",
+                "to_base": "70 %",
+                "to_torre": "Prédios com até 4 pavimentos 50 %<br>prédios com mais de 4 pavimentos 40 %",
+                "permeab": "10 %",
+                "recuo_f_torre": "10 m para Av.José Medeiros e Rua Delfim<br>7 m para as demais vias",
+                "recuo_l_f_torre": "até alt.do emb.permitido.: zero<br>3 à 4 pav.: 2m<br>5 à 8 pav.:4,0 m<br>9 à 12 pav.: 4,5 m<br>13 à 16 pav.: 5,0 m<br>17 à 20 pav.: 5,5 m<br>mais de 20 pav.: 6,0m",
+                "recuo_emb": "Nas Av. José Medeiros e Rua Delfim de<br>Pádua Peixoto: 8m frontais para<br>casos com fachada ativa e<br>10 m para os demais casos<br>Na demais vias: 4 m a partir do<br>meio fio para casos com fachada<br>ativa e 5 m para os demais casos.<br>Recuo laterias e fundos: Zero quando<br>não voltado para via pública.<br>Nas residencias unifamiliares: 4 m frontais e<br>1,5 m para laterais e<br>fundos quando existirem aberturas.<br>Quando sem aberturas, o recuo pode ser zero.",
+                "lote_min": "300m²",
+                "test_min": "12m",
+                "prof_min": "25m",
+                "usos_permitidos": "H1, H2, CO, CS1, CS2, CS3,<br>CS(entre 750-1000m2), I1, I2",
+                "usos_permissiveis": "I3, CSA, CSMV, CSE",
+                "usos_proibidos": "I4"
+            },
+            "ZBS3": {
+                "denom": "Zona Brava Sul 3",
+                "altura_max": "36,85 m + ático / cone *5<br>(Nas ZBS3 e ZBS4, os asteriscos<br>associados às maiores alturas<br>máximas referem-se a empreendimentos<br>em terrenos maiores de 3000 m²)",
+                "altura_emb": "7,40 m",
+                "ca_total": "3,5",
+                "ca_basico": "2",
+                "outorga_on": "1,5",
+                "fator_contr": "0,4",
+                "transf_ind": "-",
+                "to_base": "70 %",
+                "to_torre": "Prédios com até 4 pavimentos 50 %<br>prédios com mais de 4 pavimentos 40 %",
+                "permeab": "10 %",
+                "recuo_f_torre": "10 m para Av.José Medeiros e Rua Delfim<br>7 m para as demais vias",
+                "recuo_l_f_torre": "até alt.do emb.permitido.: zero<br>3 à 4 pav.: 2m<br>5 à 8 pav.:4,0 m<br>9 à 12 pav.: 4,5 m<br>13 à 16 pav.: 5,0 m<br>17 à 20 pav.: 5,5 m<br>mais de 20 pav.: 6,0m",
+                "recuo_emb": "Nas Av. José Medeiros e Rua Delfim de<br>Pádua Peixoto: 8m frontais para<br>casos com fachada ativa e<br>10 m para os demais casos<br>Na demais vias: 4 m a partir do<br>meio fio para casos com fachada<br>ativa e 5 m para os demais casos.<br>Recuo laterias e fundos: Zero quando<br>não voltado para via pública.<br>Nas residencias unifamiliares: 4 m frontais e<br>1,5 m para laterais e<br>fundos quando existirem aberturas.<br>Quando sem aberturas, o recuo pode ser zero.",
+                "lote_min": "300m²",
+                "test_min": "12m",
+                "prof_min": "25m",
+                "usos_permitidos": "H1, H2, CO, CS1, CS2, CS3,<br>CS(entre 750-1000m2), I1, I2",
+                "usos_permissiveis": "I3, CSA, CSMV, CSE",
+                "usos_proibidos": "I4"
+            },
+            "ZBN1": {
+                "denom": "Zona Brava Norte 1",
+                "altura_max": "6,40 m",
+                "altura_emb": "-",
+                "ca_total": "0,5",
+                "ca_basico": "0,5",
+                "outorga_on": "-",
+                "fator_contr": "-",
+                "transf_ind": "-",
+                "to_base": "30% de intervenção + acessos",
+                "to_torre": "-",
+                "permeab": "40 %",
+                "recuo_f_torre": "-",
+                "recuo_l_f_torre": "-",
+                "recuo_emb": "8 m frontais",
+                "lote_min": "500m²",
+                "test_min": "15m",
+                "prof_min": "30m",
+                "usos_permitidos": "H1, H2, CO, CS1, CS2, CS3,<br>CS(entre 750-1000m2), I1, I2",
+                "usos_permissiveis": "I3, CSA, CSMV, CSE",
+                "usos_proibidos": "I4"
+            },
+            "ZBN2": {
+                "denom": "Zona Brava Norte 2",
+                "altura_max": "até 100m a partir da José Medeiros:piso do<br>térreo a 2,2m do nível do meio-fio +22,68m +ático<br>de 100 a 150m: piso do térreo a<br>2,2m do nível do meio-fio +25,92m + cobertura<br>a partir de 150m: piso do térreo<br>a 2,2m do nível do meio-fio +29,16m + ático",
+                "altura_emb": "piso do térreo a 2,2m do<br>nível do meio-fio + 3,24 m",
+                "ca_total": "1,5",
+                "ca_basico": "1,5",
+                "outorga_on": "1,5",
+                "fator_contr": "0,5",
+                "transf_ind": "-",
+                "to_base": "70 %",
+                "to_torre": "40 %",
+                "permeab": "20 %",
+                "recuo_f_torre": "50 m das vias",
+                "recuo_l_f_torre": "5 m",
+                "recuo_emb": "50m da Av.José Medeiros<br>10m das demais vias",
+                "lote_min": "500m²",
+                "test_min": "15m",
+                "prof_min": "30m",
+                "usos_permitidos": "H1, H2, CO, CS1, CS2, CS3,<br>CS(entre 750-1000m2), I1, I2",
+                "usos_permissiveis": "I3, CSA, CSMV, CSE",
+                "usos_proibidos": "I4"
+            },
+            "ZTU1": {
+                "denom": "Zona de Transição Urbanística 1",
+                "altura_max": "43,40 m + ático",
+                "altura_emb": "7,40 m",
+                "ca_total": "4",
+                "ca_basico": "3",
+                "outorga_on": "1",
+                "fator_contr": "0,2",
+                "transf_ind": "-",
+                "to_base": "70 %",
+                "to_torre": "40 %",
+                "permeab": "25 %",
+                "recuo_f_torre": "vias de até 8m: 5m<br>vias de 8,01 à 9m: 7m<br>vias de 9,01 à 12m: 8m<br>vias > 12,01 m: 9 m",
+                "recuo_l_f_torre": "até 4 pav.: 2,5 m<br>5 à 8 pav.:3 m<br>9 à 12 pav.: 3,5 m<br>13 à 14 pav.: 4 m",
+                "recuo_emb": "Recuos frontais: 4 m para casos com<br>fachada ativa e 5 metros para os<br>demais casos.<br>Recuos laterias e fundos: Zero quando<br>não voltado para via pública.<br>Nas residencias unifamiliares: 4 m frontais e<br>1,5 m para laterais e fundos quando<br>existirem aberturas.<br>Quando sem aberturas, o recuo pode ser zero",
+                "lote_min": "300m²",
+                "test_min": "15m",
+                "prof_min": "30m",
+                "usos_permitidos": "H1, H2, CO, CS1, CS2, CS3,<br>CS(entre 750-1000m2), I1, I2",
+                "usos_permissiveis": "I3, CSA, CSMV, CSE",
+                "usos_proibidos": "I4"
+            },
+            "ZTU4": {
+                "denom": "Zona de Transição Urbanística 4",
+                "altura_max": "13,40 m + ático",
+                "altura_emb": "7,40 m",
+                "ca_total": "2",
+                "ca_basico": "2",
+                "outorga_on": "-",
+                "fator_contr": "-",
+                "transf_ind": "-",
+                "to_base": "70 %",
+                "to_torre": "50 %",
+                "permeab": "25 %",
+                "recuo_f_torre": "vias de até 8m: 5m<br>vias de 8,01 à 9m: 7m<br>vias de 9,01 à 12m: 8m<br>vias > 12,01 m: 9 m",
+                "recuo_l_f_torre": "até 4 pav.: 2,5 m<br>5 à 8 pav.:3 m<br>9 à 12 pav.: 3,5 m<br>13 à 14 pav.: 4 m",
+                "recuo_emb": "Recuos frontais: 4 m para casos com<br>fachada ativa e 5 metros para os<br>demais casos.<br>Recuos laterias e fundos: Zero quando<br>não voltado para via pública.<br>Nas residencias unifamiliares: 4 m frontais e<br>1,5 m para laterais e fundos quando<br>existirem aberturas.<br>Quando sem aberturas, o recuo pode ser zero",
+                "lote_min": "300m²",
+                "test_min": "15m",
+                "prof_min": "30m",
+                "usos_permitidos": "H1, H2, CO, CS1, CS2, CS3,<br>CS(entre 750-1000m2), I1, I2",
+                "usos_permissiveis": "I3, CSA, CSMV, CSE",
+                "usos_proibidos": "I4"
+            },
+            "ZTU2": {
+                "denom": "Zona de Transição Urbanística 2",
+                "altura_max": "31,40 m + ático",
+                "altura_emb": "7,40 m",
+                "ca_total": "3,5",
+                "ca_basico": "2,5",
+                "outorga_on": "1",
+                "fator_contr": "0,2",
+                "transf_ind": "-",
+                "to_base": "60 %",
+                "to_torre": "50 %",
+                "permeab": "25 %",
+                "recuo_f_torre": "vias de até 8m: 5m<br>vias de 8,01 à 9m: 7m<br>vias de 9,01 à 12m: 8m<br>vias > 12,01 m: 9 m",
+                "recuo_l_f_torre": "até 4 pav.: 2,5 m<br>5 à 8 pav.:3 m<br>9 à 12 pav.: 3,5 m<br>13 à 14 pav.: 4 m",
+                "recuo_emb": "Recuos frontais: 4 m para casos com<br>fachada ativa e 5 metros para os<br>demais casos.<br>Recuos laterias e fundos: Zero quando<br>não voltado para via pública.<br>Nas residencias unifamiliares: 4 m frontais e<br>1,5 m para laterais e fundos quando<br>existirem aberturas.<br>Quando sem aberturas, o recuo pode ser zero",
+                "lote_min": "300m²",
+                "test_min": "15m",
+                "prof_min": "30m",
+                "usos_permitidos": "H1, H2, CO, CS1, CS2, CS3,<br>CS(entre 750-1000m2), I1, I2",
+                "usos_permissiveis": "I3, CSA, CSMV, CSE",
+                "usos_proibidos": "I4"
+            },
+            "ZTU3": {
+                "denom": "Zona de Transição Urbanística 3",
+                "altura_max": "52,90 m + ático",
+                "altura_emb": "7,40 m",
+                "ca_total": "4,5",
+                "ca_basico": "3,5",
+                "outorga_on": "1",
+                "fator_contr": "0,2",
+                "transf_ind": "-",
+                "to_base": "70 %",
+                "to_torre": "50 %",
+                "permeab": "10 %",
+                "recuo_f_torre": "vias de até 8m: 5m<br>vias de 8,01 à 9m: 7m<br>vias de 9,01 à 12m: 8m<br>vias > 12,01 m: 9 m",
+                "recuo_l_f_torre": "até 4 pav.: 2,5 m<br>5 à 8 pav.:3 m<br>9 à 12 pav.: 3,5 m<br>13 à 14 pav.: 4 m",
+                "recuo_emb": "Recuos frontais: 4 m para casos com<br>fachada ativa e 5 metros para os<br>demais casos.<br>Recuos laterias e fundos: Zero quando<br>não voltado para via pública.<br>Nas residencias unifamiliares: 4 m frontais e<br>1,5 m para laterais e fundos quando<br>existirem aberturas.<br>Quando sem aberturas, o recuo pode ser zero",
+                "lote_min": "300m²",
+                "test_min": "15m",
+                "prof_min": "30m",
+                "usos_permitidos": "H1, H2, CO, CS1, CS2, CS3,<br>CS(entre 750-1000m2), I1, I2",
+                "usos_permissiveis": "I3, CSA, CSMV, CSE",
+                "usos_proibidos": "I4"
+            },
+            "ZPA": {
+                "denom": "Zona de Proteção Ambiental",
+                "altura_max": "7,40m + atico",
+                "altura_emb": "-",
+                "ca_total": "0,5",
+                "ca_basico": "0,5",
+                "outorga_on": "-",
+                "fator_contr": "-",
+                "transf_ind": "-",
+                "to_base": "60 %",
+                "to_torre": "-",
+                "permeab": "40 %",
+                "recuo_f_torre": "-",
+                "recuo_l_f_torre": "-",
+                "recuo_emb": "Recuos frontais: 4 m para casos com<br>fachada ativa e 5 metros para os<br>demais casos.<br>Recuos laterias e fundos: Zero quando<br>não voltado para via pública.<br>Nas residencias unifamiliares: 4 m frontais e<br>1,5 m para laterais e fundos quando<br>existirem aberturas.<br>Quando sem aberturas,<br>o recuo pode ser zero",
+                "lote_min": "2000m²",
+                "test_min": "20m",
+                "prof_min": "50m",
+                "usos_permitidos": "H1, CO, CS1, I1",
+                "usos_permissiveis": "H2,CSA,CSMV,CSE,CS2,CS3,I2",
+                "usos_proibidos": "I3, I4"
+            },
+            "ZBP": {
+                "denom": "Zona Brava Parque",
+                "altura_max": "vias de até 7,99 m: 19,4m<br>vias de 8 à 8,99 m: 37,4m<br>vias de 9 à 12m: 67,4m + ático<br>vias de 12,01 à 15m: 105 m<br>vias > 15m: 105m<br>Observação:.*1 ",
+                "altura_emb": "16,40 m",
+                "ca_total": "6",
+                "ca_basico": "3",
+                "outorga_on": "1,5",
+                "fator_contr": "0,4",
+                "transf_ind": "1,5",
+                "to_base": "40 %",
+                "to_torre": "20 %",
+                "permeab": "20 %",
+                "recuo_f_torre": "vias de até 8m: 5m<br>vias de 8,01 à 9m: 7m<br>vias de 9,01 à 12m: 8m<br>vias > 12,01 m: 9 m",
+                "recuo_l_f_torre": "até alt.do emb.permitido.: zero<br>3 à 4 pav.: 2m<br>5 à 8 pav.:4,0 m<br>9 à 12 pav.: 4,5 m<br>13 à 16 pav.: 5,0 m<br>17 à 20 pav.: 5,5 m<br>mais de 20 pav.: 6,0m",
+                "recuo_emb": "Nas Av. José Medeiros e Rua Delfim de<br>Pádua Peixoto: 8m frontais para<br>casos com fachada ativa e<br>10 m para os demais casos<br>Na demais vias: 4 m a partir do<br>meio fio para casos com fachada<br>ativa e 5 m para os demais casos.<br>Recuo laterias e fundos: Zero quando<br>não voltado para via pública.<br>Nas residencias unifamiliares: 4 m frontais e<br>1,5 m para laterais e<br>fundos quando existirem aberturas.<br>Quando sem aberturas, o recuo pode ser zero.",
+                "lote_min": "2000m²",
+                "test_min": "20m",
+                "prof_min": "50m",
+                "usos_permitidos": "H1, H2, CO, CS1, CS2, CS3,<br>CS(entre 750-1000m2)",
+                "usos_permissiveis": "I1, I2, CSA, CSMV, CSE",
+                "usos_proibidos": "I3, I4"
+            },
+            "ZDR": {
+                "denom": "Zona de Desenvolvimento Rural",
+                "altura_max": "7,40m + atico",
+                "altura_emb": "-",
+                "ca_total": "1,5",
+                "ca_basico": "1",
+                "outorga_on": "0,5",
+                "fator_contr": "0,1",
+                "transf_ind": "-",
+                "to_base": "80 %",
+                "to_torre": "-",
+                "permeab": "20 %",
+                "recuo_f_torre": "-",
+                "recuo_l_f_torre": "-",
+                "recuo_emb": "Recuos frontais: 4 m para casos com<br>fachada ativa e 5 metros para os<br>demais casos.<br>Recuos laterias e fundos: Zero quando<br>não voltado para via pública.<br>Nas residencias unifamiliares: 4 m frontais e<br>1,5 m para laterais e fundos quando<br>existirem aberturas.<br>Quando sem aberturas, o recuo pode ser zero",
+                "lote_min": "Módulo rural federal, exceto ZTP",
+                "test_min": "20m",
+                "prof_min": "100m",
+                "usos_permitidos": "H1, H2, CO, CS1, CS2, CS3,<br>CS(entre 750-1000m2), I1, I2, CSA, CSMV",
+                "usos_permissiveis": "I3, I4, CSE",
+                "usos_proibidos": "-"
+            },
+            "ZP": {
+                "denom": "Zona Portuária",
+                "altura_max": "exclusivo ampliação do porto público",
+                "altura_emb": "porto público",
+                "ca_total": "porto público",
+                "ca_basico": "porto público",
+                "outorga_on": "porto público",
+                "fator_contr": "porto público",
+                "transf_ind": "porto público",
+                "to_base": "exclusivo ampliação do porto público",
+                "to_torre": "exclusivo ampliação do porto público",
+                "permeab": "porto público",
+                "recuo_f_torre": "exclusivo ampliação do porto público",
+                "recuo_l_f_torre": "exclusivo ampliação do porto público",
+                "recuo_emb": "exclusivo ampliação do porto público",
+                "lote_min": "porto público",
+                "test_min": "porto público",
+                "prof_min": "porto público",
+                "usos_permitidos": "porto público (CS1, CS2, CS3,<br>CS(entre 750-1000m2), I1, I2, I3, I4)",
+                "usos_permissiveis": "-",
+                "usos_proibidos": "H1,H2,CO,CSA,CSMV,CSE"
+            },
+            "ZPL": {
+                "denom": "Zona Prioritária de lazer",
+                "altura_max": "projeto especial para borda dágua",
+                "altura_emb": "proj.borda dágua",
+                "ca_total": "proj.borda dágua",
+                "ca_basico": "proj.borda dágua",
+                "outorga_on": "proj.borda dágua",
+                "fator_contr": "proj.borda dágua",
+                "transf_ind": "proj.borda dágua",
+                "to_base": "projeto especial para borda dágua",
+                "to_torre": "projeto especial para borda dágua",
+                "permeab": "proj.borda dágua",
+                "recuo_f_torre": "projeto especial para borda dágua",
+                "recuo_l_f_torre": "projeto especial para borda dágua",
+                "recuo_emb": "projeto especial para borda dágua",
+                "lote_min": "proj.borda dágua",
+                "test_min": "proj.borda dágua",
+                "prof_min": "proj.borda dágua",
+                "usos_permitidos": "CO, CS1, CS2, CS3,<br>CS(entre 750-1000m2), I1, I2",
+                "usos_permissiveis": "H1, H2, I3, I4, CSE",
+                "usos_proibidos": "CSA, CSMV"
+            }
+        };
+
+        //Dados ArcGIS
+        let cadastroimoveispts = L.esri.query({
+            //url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/imoveis_plantacadastral/FeatureServer/0/'
+            url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/malhacrs3857/FeatureServer/0/'
+        });
+
+        let classzoneamento = L.esri.query({
+            //url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/imoveis_plantacadastral/FeatureServer/0/'
+            url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/panta_cadastral_consulta_previa/FeatureServer/0/'
+        });
+
+        hashendereco = (hashinscricao) => {
+            let inscricaowhereimovel = `inscrlig='${hashinscricao}'`;
+
+            //dados lote
+            cadastroimoveispts.where(inscricaowhereimovel)
+                .returnGeometry(false)
+                .run((error, fcol) => {
+                    document.getElementById('inscrImob').textContent = `Inscrição: ${fcol.features[0].properties.inscricao}`;
+                    document.getElementById('endereco').textContent = `${fcol.features[0].properties.nomevia}, ${fcol.features[0].properties.numero}`;
+                    document.getElementById('dataEmissao').textContent = `Data: ${dataFormatada}`;
+                });
+
+            //dados consulta prévia e mapa
+            classzoneamento.where(inscricaowhereimovel)
+                .run((error, fcol) => {
+                    proprLote = fcol.features[0].properties
+
+                    //Converte a string de nomes de zonas em um array
+                    let zonasArray = proprLote.nzonaslista.split(", ").map(zona => zona.trim());
+
+                    //Filtra tabelaZon para incluir apenas as zonas encontradas em zonasArray
+                    let zonasLote = Object.keys(tabelaZon)
+                        .filter(chave => zonasArray.includes(chave))
+                        .reduce((obj, chave) => {
+                            obj[chave] = tabelaZon[chave];
+                            return obj;
+                        }, {});
+
+                    (() => {
+                        Object.keys(zonasLote).forEach(zona => {
+                            let zonaMin = zona.toLowerCase();
+                            if (proprLote[zonaMin] !== undefined) {
+                                zonasLote[zona]['areaZona'] = `${proprLote[zonaMin]}m²`;
+                            }
+                        });
+                    })();
+
+                    function criarTabelaZonas(zonasLote) {
+                        const descricoes = {
+                            areaZona: "área(estimada)",
+                            usos_permitidos: '<div title="-H1: Hab.Unifamiliar, -H2: Hab.Multifamiliar, -CO: Comunitário, -CS: Comércio e Serviço, -CS1: Com.e Serv.(até 200m²), -CS2: Com.e Serv.(até 750m²), -CS3: Com.e Serv.(área superior 1000m²), -I: Industrial, -CSA: Agropecuário, -CSMV: Extrativista, -CSE: Com.Serv.e Usos Específicos"><strong>Usos Permitidos</strong></div>',
+                            usos_permissiveis: '<div title="-H1: Hab.Unifamiliar, -H2: Hab.Multifamiliar, -CO: Comunitário, -CS: Comércio e Serviço, -CS1: Com.e Serv.(até 200m²), -CS2: Com.e Serv.(até 750m²), -CS3: Com.e Serv.(área superior 1000m²), -I: Industrial, -CSA: Agropecuário, -CSMV: Extrativista, -CSE: Com.Serv.e Usos Específicos"><strong>Usos Permissíveis</strong></div>',
+                            usos_proibidos: '<div title="-H1: Hab.Unifamiliar, -H2: Hab.Multifamiliar, -CO: Comunitário, -CS: Comércio e Serviço, -CS1: Com.e Serv.(até 200m²), -CS2: Com.e Serv.(até 750m²), -CS3: Com.e Serv.(área superior 1000m²), -I: Industrial, -CSA: Agropecuário, -CSMV: Extrativista, -CSE: Com.Serv.e Usos Específicos"><strong>Usos Proibidos</strong></div>',
+                            altura_max: "<strong>Altura Máxima</strong><br>Ao norte da<br>Av. Adolfo Konder,<br>Heitor Liberato e<br>Rua Silva a<br>alt.máxima é de 55m,<br>salvo com aut.COMAER.</strong>",
+                            altura_emb: '<div title="Art.125 - A altura do embasamento será medida a partir do nível do piso térreo até o nível da cobertura do último piso do embasamento de acordo com o Anexo 3 desta lei. Parágrafo único. Os equipamentos como, caixa d’água, casa de máquinas, e similares, quando localizados acima da altura máxima definida para o embasamento por esta lei, deverão respeitar os recuos e afastamentos exigidos para a parte da edificação definida como torre de acordo com a legislação municipal."><strong>Alt.Máx.Emb.</strong>(Art.125)</div>',
+                            ca_basico: "<strong>Coef.de Aproveitamento</strong>",
+                            ca_total: "<strong>Coef.Aprov.c/Outorga</strong>",
+                            fator_contr: "<strong>Fator de Contribuição</strong>",
+                            transf_ind: "<strong>Transferência de Índice</strong>",
+                            to_base: "<strong>Taxa de Ocup.da Base</strong>",
+                            to_torre: "<strong>Taxa de Ocup.da Torre</strong>",
+                            permeab: "<strong>Taxa de Permeabilidade</strong>",
+                            recuo_emb: "<strong>Recuo do<br>Embasamento</strong><br>(a partir do meio fio)",
+                            recuo_f_torre: "<strong>Recuo Frontal Torre</strong><br>(a partir do meio fio)",
+                            recuo_l_f_torre: "<strong>Recuo Lateral e<br>Fundos Torre</strong>",
+                            lote_min: "<strong>Lote Mínimo</strong>",
+                            test_min: "<strong>Testada Mínima</strong>",
+                            prof_min: "<strong>Profundidade Mínima</strong>"
+                        };
+
+                        let css = `<style>
+                            #tabelaZonas {
+                                display: block;
+                                width: 200mm;
+                                max-width: 200;
+                                overflow: hidden;
+                                font-size: 9px;
+                            }
+
+                            #tabelaZonas table {
+                                border-collapse: collapse;
+                                width: 100%;
+                                table-layout: fixed;
+                            }
+
+                            #tabelaZonas th,
+                            #tabelaZonas td {
+                                border: 1px solid black;
+                                border-top: none;
+                                overflow: hidden;
+                                text-align: left;
+                                white-space: nowrap;
+                            }
+
+                            #tabelaZonas th:first-child,
+                            #tabelaZonas td:first-child {
+                                width: 28mm;
+                                border-left: none;
+                                text-align: center;
+                            }
+
+                            #tabelaZonas tr:last-child td,
+                            #tabelaZonas tr:last-child th {
+                                border-bottom: none;
+                            }
+
+                            #tabelaZonas th:last-child,
+                            #tabelaZonas td:last-child {
+                                border-right: none;
+                            }
+
+                            #tabelaZonas th:not(:first-child),
+                            #tabelaZonas td:not(:first-child) {
+                                width: calc((172mm) / $ {
+                                        Object.keys(zonasLote).length
+                                    });
+                            }
+
+                            #tabelaZonas tr:nth-child(even) {
+                                background-color: #f2f2f2;
+                            }
+
+                            .linha-areaZona {
+                                height: 10px;
+                            }
+
+                            .linha-usos_permitidos {
+                                height: 25px;
+                            }
+
+                            .linha-usos_permissiveis {
+                                height: 10px;
+                            }
+
+                            .linha-usos_proibidos {
+                                height: 10px;
+                            }
+
+                            .linha-altura_max {
+                                height: 78px;
+                            }
+
+                            .linha-altura_emb {
+                                height: 22px;
+                            }
+
+                            .linha-ca_basico {
+                                height: 10px;
+                            }
+
+                            .linha-ca_total {
+                                height: 10px;
+                            }
+
+                            .linha-fator_contr {
+                                height: 10px;
+                            }
+
+                            .linha-transf_ind {
+                                height: 10px;
+                            }
+
+                            .linha-to_base {
+                                height: 10px;
+                            }
+
+                            .linha-to_torre {
+                                height: 10px;
+                            }
+
+                            .linha-permeab {
+                                height: 10px;
+                            }
+
+                            .linha-recuo_emb {
+                                height: 135px;
+                            }
+
+                            .linha-recuo_f_torre {
+                                height: 55px;
+                            }
+
+                            .linha-recuo_l_f_torre {
+                                height: 73px;
+                            }
+
+                            .linha-lote_min {
+                                height: 10px;
+                            }
+
+                            .linha-test_min {
+                                height: 10px;
+                            }
+
+                            .linha-prof_min {
+                                height: 10px;
+                            }
+                            </style>`;
+
+                        let tabela = "<table><thead><tr><th>Nome Zona</th>";
+
+                        Object.keys(zonasLote).forEach(zona => {
+                            tabela += `<th>${zona}</th>`;
+                        });
+
+                        tabela += "</tr></thead><tbody>";
+
+                        Object.keys(descricoes).forEach(chave => {
+                            tabela += `<tr>`;
+                            tabela += `<td class="linha-${chave}"><div>${descricoes[chave]}</div></td>`;
+                            Object.keys(zonasLote).forEach(zona => {
+                                let valor = zonasLote[zona][chave] || '';
+                                tabela += `<td class="linha-${chave}"><div>${valor}</div></td>`;
+                            });
+                            tabela += `</tr>`;
+                        });
+
+                        tabela += "</tbody></table>";
+
+                        document.getElementById('tabelaZonas').innerHTML = css + tabela;
+                    }
+
+                    criarTabelaZonas(zonasLote);
+
+                    //adicionar lote
+                    L.geoJson(fcol.features[0], {
+                        style: {
+                            weight: 5,
+                            color: '#666',
+                            dashArray: '',
+                            fillOpacity: 0.7,
+                            interactive: false
+                        }
+                    }).addTo(plantaCadastralDestaque);
+
+                    mapa.flyToBounds(plantaCadastralDestaque.getBounds(), {
+                        maxZoom: 19
+                    });
+
+                    (function () {
+                        let conteudo = '';
+                        let viaAdicionada = false;
+
+                        for (let i = 1; i <= 6; i++) {
+                            let nome = proprLote[`t${i}nome`];
+                            let largura = proprLote[`t${i}largura`];
+                            let passeiod = proprLote[`t${i}passeiod`];
+                            let passeioe = proprLote[`t${i}passeioe`];
+
+                            if (!nome || !largura || !passeiod || !passeioe) continue;
+
+                            viaAdicionada = true;
+
+                            conteudo += `<strong>${nome}</strong>-Cx.da via:${largura}-Passeios:${passeiod}/${passeioe}`;
+                            if (i < 6 && proprLote[`t${i + 1}nome`]) {
+                                conteudo += ', ';
+                            }
+                            if (i % 2 === 0) {
+                                conteudo += '<br>';
+                            }
+                        }
+                        if (!viaAdicionada) {
+                            conteudo = "&#x2713; Verificar confrontantes com a Secrt.de Urbanismo";
+                        }
+
+                        document.getElementById('pauta').innerHTML = conteudo;
+                    })();
+
+                    if (proprLote.nzonaslista.includes('ZCA3')) {
+                        document.getElementById('obs1').innerHTML = '<hr> &#x2713; Somente poderão utilizar os parâmetros urbanísticos de ZCA 3 os empreendimentos que estiverem voltados para ruas com CAIXAS DE VIA igual ou maior a 9 metros. Do contrário, prevalecem os parâmetros de ZCA 2';
+                    }
+
+                    if (proprLote.nzonaslista.includes('ZCA1')) {
+                        document.getElementById('obs5').innerHTML = '<hr> &#x2713; § 1º Na R.Samuel Heusi Jr, as edificações mais altas que 7,40m estão condicionadas ao recuo de 2 metros da calçada, permitindo assim estacionamento em 45 graus. § 2º As construções nos lotes da rua Samuel Heusi Jr, adjacentes à Igreja Santa Terezinha, terão altura máxima de 7,40m e deverão ser aprovados no CMPAT - Conselho Municipal de Patrimônio Cultural de Itajaí, considerando a paisagem formada pelo desenho arquitetônico da edificação, em relação a morraria e inclusive com uma edificação de estilo modernista, de histórico desenho, que é o hotel cabeçudas.';
+                    }
+
+                    if (proprLote.nzonaslista.includes('ZRP2')) {
+                        document.getElementById('obs6').innerHTML = '<hr> &#x2713; § 1º Os Lotes situados na ZI entre a avenida Itaipava e a Rodovia Antonio Heil, poderão optar por utilizar os índices construtivos da ZRP2 ou ZI. § 2º As áreas do Rio do Meio mapeadas como ZRP2, por ser tratar de área de conexão entre as cidades de Itajaí e Camboriú, poderão optar por utilizar os índices construtivos da ZRP2 ou ZI';
+                    }
+
+                    if (proprLote.nzonaslista.includes('ZI')) {
+                        document.getElementById('obs7').innerHTML = '<hr> &#x2713; Os usos pré-existentes, tais como residências, comércios e serviços podem conviver com a ZI, sendo também permitida novas construções residenciais, independentemente de estarem ou não inseridas em projetos que englobem a atividade industrial ou correlata, desde que a área construtiva de cada edificação não seja superior a 250m²';
+                    }
+
+                    if (proprLote.nzonaslista.includes('ZBS3') || proprLote.nzonaslista.includes('ZBS4')) {
+                        document.getElementById('obs2').innerHTML = '<hr> &#x2713; Nas ZBS3 e ZBS4, os asteriscos associados às maiores alturas máximas referem-se a empreendimentos em terrenos maiores de 3000 m²';
+                    }
+
+                    if (proprLote.nzonaslista.includes('ZBS5') || proprLote.nzonaslista.includes('ZBS6') || proprLote.nzonaslista.includes('ZBP')) {
+                        document.getElementById('obs3').innerHTML = '<hr> &#x2713; Nas ZBS3 e ZBS4, os asteriscos associados às maiores alturas máximas referem-se a empreendimentos em terrenos maiores de 3000 m²';
+                    }
+
+                    if (proprLote.nzonaslista.includes('ZBS5') || proprLote.nzonaslista.includes('ZMC3')) {
+                        document.getElementById('obs4').innerHTML = '<hr> &#x2713; Art.73 §3º O zoneamento ZMC 3 localizado entre a Av.Luci Canziani e o Morro Cortado, com exceção da faixa de 200 metros à leste da Rod.Osvaldo Reis, depende da homologação da cessão das áreas necessárias à criação do Parque da Lagoa do Cassino, caso contrário deverá ser considerada como ZBP';
+                    }
+
+                    if (proprLote.sobrezon !== "") {
+                        document.getElementById('sobrezoneamento').innerHTML = `<hr> &#x2713; Lote sob o Sobrezoneamento ${proprLote.sobrezon}`;
+                    }
+
+                    if (proprLote.sobrezon == "Centro Histórico") {
+                        document.getElementById('sobrezHist').innerHTML = `§ 8º No Sobrezoneamento do Centro Histórico a taxa de ocupação do embasamento pode chegar a 100% (cem por cento), sendo que nos casos em que for preservada a fachada da edificação histórica, a taxa de ocupação da torre poderá chegar a 75% (setenta e cinco por cento) e o coeficiente de aproveitamento acrescido 0.5, desde que, seja no mesmo lote. ${proprLote.sobrezon}`;
+                    }
+
+                    if (proprLote.edhist === "-1" || proprLote.sobrezon === "Centro Histórico") {
+                        document.getElementById('patrimonioHistorico').innerHTML = "<hr> &#x2713; Parecer Patrimônio Histórico (Fundação Genésio Miranda Lins)";
+                    }
+
+                    if (proprLote.interven === "-1") {
+                        document.getElementById('intervViaria').innerHTML = `<hr> &#x2713; <strong>Parecer Dep.Municipal de Engenharia de Trânsito, Secr.Desenv.Urbano e Habitação</strong>`;
+                    }
+                });
+        };
+
+        //Hash
+        if (window.location.hash.length > 1) {
+            hashendereco(window.location.hash.split('#')[1]);
+        } else {
+            alert('http://plantacadastral.itajai.sc.gov.br/')
+        };
+    </script>
+</body>
+
+</html>

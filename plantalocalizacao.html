@@ -218,8 +218,6 @@
         });
 
         hashendereco = (dados) => {
-            console.log(dados)
-
             var xhr = new XMLHttpRequest();
             var query = `inscrlig = '${String(dados[1])}'`;
             var url = "https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/class_zoneamento_2024/FeatureServer/0/query?where=" + encodeURIComponent(query) + "&outFields=*&f=json";
@@ -229,19 +227,8 @@
                 if (xhr.status >= 200 && xhr.status < 300) {
 
                     atributos = JSON.parse(xhr.responseText).features[0].attributes;
-                    console.log(atributos)
 
-                    let classzoneamento = atributos.zon_alv;
-                    let zoneamento;
-                    if (classzoneamento.includes('"pend"') || classzoneamento == null) {
-                        zoneamento = 'CONFLITO CONFRONTANTES';
-                    } else if (classzoneamento.includes('"pendpdz"')) {
-                        zoneamento = 'EXPANSÃO PORTUÁRIA, DECRETO.11244/18';
-                    } else if (classzoneamento.includes('"pendjud"')) {
-                        zoneamento = 'CONFLITO JUDICIAL';
-                    } else if (classzoneamento.includes('"caucionado"')) {
-                        zoneamento = 'LOTE CAUCIONADO';
-                    } else { zoneamento = classzoneamento };
+                    let classzoneamento = atributos.nzonaslista;
                     cadastro.where(`inscrlig ='${dados[1]}'`)
                         .limit(1)
                         .run(function (error, cadastrolote) {
