@@ -225,6 +225,17 @@
         window.onload = function () {
             if (isSafariMobile()) {
                 document.body.style.height = "290mm";
+
+                let linha1Elements = document.querySelectorAll('.linha1');
+                linha3Elements.forEach(function (element) {
+                    element.style.height = "2cm";
+                });
+
+                let linha2Elements = document.querySelectorAll('.linha2');
+                linha3Elements.forEach(function (element) {
+                    element.style.height = "19cm";
+                });
+
             }
         };
 
