@@ -348,13 +348,15 @@
             </div> -->
             <h3 class='titulobarra'>Zoneamento</h3>
             <div class='conteudobarralateral'>
-                <p><center>
-                    Plano Diretor de Gestão e Desenv.Territorial<br>
-                    <a href="https://intranet2.itajai.sc.gov.br/public/jornal-municipio/jornais/jornal_2024_2785_2760.pdf"
-                        target="_blank"><small>Ed.2785 15/03/2024</small></a>,<br><a
-                        href="https://intranet2.itajai.sc.gov.br/public/jornal-municipio/jornais/jornal_2024_2786_2761.pdf"
-                        target="_blank"><small>Ed.2786 20/03/2024</small></a>
-                </p></center>
+                <p>
+                    <center>
+                        Plano Diretor de Gestão e Desenv.Territorial<br>
+                        <a href="https://intranet2.itajai.sc.gov.br/public/jornal-municipio/jornais/jornal_2024_2785_2760.pdf"
+                            target="_blank"><small>Ed.2785 15/03/2024</small></a>,<br><a
+                            href="https://intranet2.itajai.sc.gov.br/public/jornal-municipio/jornais/jornal_2024_2786_2761.pdf"
+                            target="_blank"><small>Ed.2786 20/03/2024</small></a>
+                </p>
+                </center>
                 <hr>
                 <p><small>Clique em uma zona para visualizar os parâmetros.</small></p>
             </div>
@@ -727,10 +729,10 @@
                         consultapreviap = `https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/consultaprevia.html#${inscrlig_base}`;
                         plantasitua = `https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/plantalocalizacao.html#${inscrlig_base}`;
                         //links gerais lote
-                        document.getElementById("consultaprev").innerHTML = `<a href="${consultapreviap}" target="_blank">Consulta zoneamento</a> |&nbsp`
+                        document.getElementById("consultaprev").innerHTML = `<a href="${consultapreviap}" target="_blank">CONSULTA PRÉVIA ZONEAMENTO</a> |&nbsp`
                         //document.getElementById("alvara").innerHTML = `<a href="${consultaalvara}" target="_blank">Avaliação atividade(alvará)</a> |&nbsp`
-                        document.getElementById("alvara").innerHTML = `-- |&nbsp`
-                        document.getElementById("plsitua").innerHTML = `<a href="${plantasitua}" target="_blank">Planta situação</a>`
+                        document.getElementById("alvara").innerHTML = `- |&nbsp`
+                        document.getElementById("plsitua").innerHTML = `<a href="${plantasitua}" target="_blank">PLANTA SITUAÇÃO</a>`
                         let objtabela = [];
                         fcol.features.forEach(el => {
                             objtabela.push({
