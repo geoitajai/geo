@@ -171,7 +171,8 @@
             Lotes com mais de uma testada para via pública, caixa da via e passeio específico para cada
             via. Caso os dados da largura da via ou passeios estejam incompletos ou discrepantes com a situação do
             local, procurar a SECR.DESENV.URBANO E HAB. <strong>Lotes com confrontações para rodovias estaduais ou
-                federais, necessário parecer DEINFRA/AUTOPISTA.</strong><br>
+                federais, necessário parecer Secret.de Estado da Infraestrutura e Mobilidade (www.sie.sc.gov.br) e ou
+                ARTERIS Litoral Sul (www.arteris.com.br).</strong><br>
             <hr>
             <strong><u>PAUTA VIÁRIA:</u></strong>
             <div id="pauta">pauta</div>
@@ -1234,7 +1235,7 @@
                             }
                         }
                         if (!viaAdicionada) {
-                            conteudo = "&#x2713; Verificar confrontantes com a Secrt.de Urbanismo";
+                            conteudo = "&#x2713; Verificar confrontantes com a Secretaria de Urbanismo";
                         }
 
                         document.getElementById('pauta').innerHTML = conteudo;
@@ -1281,7 +1282,7 @@
                     }
 
                     if (proprLote.interven === "-1") {
-                        document.getElementById('intervViaria').innerHTML = `<hr> &#x2713; <strong>Parecer Dep.Municipal de Engenharia de Trânsito, Secr.Desenv.Urbano e Habitação</strong>`;
+                        document.getElementById('intervViaria').innerHTML = `<hr> &#x2713; <strong>Solicitar parecer Diretoria de Mobilidade Urbana, Secr.Municipal de Desenv.Urbano e Habitação</strong>`;
                     }
                 });
         };
