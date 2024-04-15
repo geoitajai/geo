@@ -139,6 +139,13 @@
             height: 98%;
             width: 98%;
         }
+
+        .leaflet-control-zoom a {
+            width: 20px !important;
+            height: 20px !important;
+            line-height: 20px !important;
+            font-size: 17px !important;
+        }
     </style>
 </head>
 
@@ -257,7 +264,7 @@
                 [-26.3285, -48.3200]
             ],
             center: new L.latLng([-26.9046, -48.6874]),
-            zoomControl: false,
+            //zoomControl: false,
             preferCanvas: true,
             attributionControl: false,
             scrollWheelZoom: false,
