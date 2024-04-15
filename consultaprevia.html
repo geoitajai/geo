@@ -1208,8 +1208,10 @@
                         }
                     }).addTo(plantaCadastralDestaque);
 
+                    let zoomIdealMenosUm = mapa.getBoundsZoom(plantaCadastralDestaque.getBounds()) - 1;
+                    let maxZoomAplicado = Math.min(zoomIdealMenosUm, 19);
                     mapa.flyToBounds(plantaCadastralDestaque.getBounds(), {
-                        maxZoom: 19
+                        maxZoom: maxZoomAplicado
                     });
 
                     (function () {
