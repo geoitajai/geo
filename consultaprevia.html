@@ -235,7 +235,7 @@
                 document.body.style.height = "290mm";
 
                 let linha1Elements = document.querySelectorAll('.linha1');
-                linha3Elements.forEach(function (element) {
+                linha1Elements.forEach(function (element) {
                     element.style.height = "2cm";
                 });
 
@@ -1005,52 +1005,57 @@
             //dados consulta prévia e mapa
             classzoneamento.where(inscricaowhereimovel)
                 .run((error, fcol) => {
+
                     proprLote = fcol.features[0].properties
 
-                    //Converte a string de nomes de zonas em um array
-                    let zonasArray = proprLote.nzonaslista.split(", ").map(zona => zona.trim());
+                    console.log(proprLote)
 
-                    //Filtra tabelaZon para incluir apenas as zonas encontradas em zonasArray
-                    let zonasLote = Object.keys(tabelaZon)
-                        .filter(chave => zonasArray.includes(chave))
-                        .reduce((obj, chave) => {
-                            obj[chave] = tabelaZon[chave];
-                            return obj;
-                        }, {});
+                    if (proprLote['conflito'] == 'n') {
 
-                    (() => {
-                        Object.keys(zonasLote).forEach(zona => {
-                            let zonaMin = zona.toLowerCase();
-                            if (proprLote[zonaMin] !== undefined) {
-                                zonasLote[zona]['areaZona'] = `${proprLote[zonaMin]}m²`;
-                            }
-                        });
-                    })();
+                        //Converte a string de nomes de zonas em um array
+                        let zonasArray = proprLote.nzonaslista.split(", ").map(zona => zona.trim());
 
-                    function criarTabelaZonas(zonasLote) {
-                        const descricoes = {
-                            areaZona: "área(estimada)",
-                            usos_permitidos: '<div title="-H1: Hab.Unifamiliar, -H2: Hab.Multifamiliar, -CO: Comunitário, -CS: Comércio e Serviço, -CS1: Com.e Serv.(até 200m²), -CS2: Com.e Serv.(até 750m²), -CS3: Com.e Serv.(área superior 1000m²), -I: Industrial, -CSA: Agropecuário, -CSMV: Extrativista, -CSE: Com.Serv.e Usos Específicos"><strong>Usos Permitidos</strong></div>',
-                            usos_permissiveis: '<div title="-H1: Hab.Unifamiliar, -H2: Hab.Multifamiliar, -CO: Comunitário, -CS: Comércio e Serviço, -CS1: Com.e Serv.(até 200m²), -CS2: Com.e Serv.(até 750m²), -CS3: Com.e Serv.(área superior 1000m²), -I: Industrial, -CSA: Agropecuário, -CSMV: Extrativista, -CSE: Com.Serv.e Usos Específicos"><strong>Usos Permissíveis</strong></div>',
-                            usos_proibidos: '<div title="-H1: Hab.Unifamiliar, -H2: Hab.Multifamiliar, -CO: Comunitário, -CS: Comércio e Serviço, -CS1: Com.e Serv.(até 200m²), -CS2: Com.e Serv.(até 750m²), -CS3: Com.e Serv.(área superior 1000m²), -I: Industrial, -CSA: Agropecuário, -CSMV: Extrativista, -CSE: Com.Serv.e Usos Específicos"><strong>Usos Proibidos</strong></div>',
-                            altura_max: "<strong>Altura Máxima</strong><br>Ao norte da<br>Av. Adolfo Konder,<br>Heitor Liberato e<br>Rua Silva a<br>alt.máxima é de 55m,<br>salvo com aut.COMAER.</strong>",
-                            altura_emb: '<div title="Art.125 - A altura do embasamento será medida a partir do nível do piso térreo até o nível da cobertura do último piso do embasamento de acordo com o Anexo 3 desta lei. Parágrafo único. Os equipamentos como, caixa d’água, casa de máquinas, e similares, quando localizados acima da altura máxima definida para o embasamento por esta lei, deverão respeitar os recuos e afastamentos exigidos para a parte da edificação definida como torre de acordo com a legislação municipal."><strong>Alt.Máx.Emb.</strong>(Art.125)</div>',
-                            ca_basico: "<strong>Coef.de Aproveitamento</strong>",
-                            ca_total: "<strong>Coef.Aprov.c/Outorga</strong>",
-                            fator_contr: "<strong>Fator de Contribuição</strong>",
-                            transf_ind: "<strong>Transferência de Índice</strong>",
-                            to_base: "<strong>Taxa de Ocup.da Base</strong>",
-                            to_torre: "<strong>Taxa de Ocup.da Torre</strong>",
-                            permeab: "<strong>Taxa de Permeabilidade</strong>",
-                            recuo_emb: "<strong>Recuo do<br>Embasamento</strong><br>(a partir do meio fio)",
-                            recuo_f_torre: "<strong>Recuo Frontal Torre</strong><br>(a partir do meio fio)",
-                            recuo_l_f_torre: "<strong>Recuo Lateral e<br>Fundos Torre</strong>",
-                            lote_min: "<strong>Lote Mínimo</strong>",
-                            test_min: "<strong>Testada Mínima</strong>",
-                            prof_min: "<strong>Profundidade Mínima</strong>"
-                        };
+                        //Filtra tabelaZon para incluir apenas as zonas encontradas em zonasArray
+                        let zonasLote = Object.keys(tabelaZon)
+                            .filter(chave => zonasArray.includes(chave))
+                            .reduce((obj, chave) => {
+                                obj[chave] = tabelaZon[chave];
+                                return obj;
+                            }, {});
 
-                        let css = `<style>
+                        (() => {
+                            Object.keys(zonasLote).forEach(zona => {
+                                let zonaMin = zona.toLowerCase();
+                                if (proprLote[zonaMin] !== undefined) {
+                                    zonasLote[zona]['areaZona'] = `${proprLote[zonaMin]}m²`;
+                                }
+                            });
+                        })();
+
+                        function criarTabelaZonas(zonasLote) {
+                            const descricoes = {
+                                areaZona: "área(estimada)",
+                                usos_permitidos: '<div title="-H1: Hab.Unifamiliar, -H2: Hab.Multifamiliar, -CO: Comunitário, -CS: Comércio e Serviço, -CS1: Com.e Serv.(até 200m²), -CS2: Com.e Serv.(até 750m²), -CS3: Com.e Serv.(área superior 1000m²), -I: Industrial, -CSA: Agropecuário, -CSMV: Extrativista, -CSE: Com.Serv.e Usos Específicos"><strong>Usos Permitidos</strong></div>',
+                                usos_permissiveis: '<div title="-H1: Hab.Unifamiliar, -H2: Hab.Multifamiliar, -CO: Comunitário, -CS: Comércio e Serviço, -CS1: Com.e Serv.(até 200m²), -CS2: Com.e Serv.(até 750m²), -CS3: Com.e Serv.(área superior 1000m²), -I: Industrial, -CSA: Agropecuário, -CSMV: Extrativista, -CSE: Com.Serv.e Usos Específicos"><strong>Usos Permissíveis</strong></div>',
+                                usos_proibidos: '<div title="-H1: Hab.Unifamiliar, -H2: Hab.Multifamiliar, -CO: Comunitário, -CS: Comércio e Serviço, -CS1: Com.e Serv.(até 200m²), -CS2: Com.e Serv.(até 750m²), -CS3: Com.e Serv.(área superior 1000m²), -I: Industrial, -CSA: Agropecuário, -CSMV: Extrativista, -CSE: Com.Serv.e Usos Específicos"><strong>Usos Proibidos</strong></div>',
+                                altura_max: "<strong>Altura Máxima</strong><br>Ao norte da<br>Av. Adolfo Konder,<br>Heitor Liberato e<br>Rua Silva a<br>alt.máxima é de 55m,<br>salvo com aut.COMAER.</strong>",
+                                altura_emb: '<div title="Art.125 - A altura do embasamento será medida a partir do nível do piso térreo até o nível da cobertura do último piso do embasamento de acordo com o Anexo 3 desta lei. Parágrafo único. Os equipamentos como, caixa d’água, casa de máquinas, e similares, quando localizados acima da altura máxima definida para o embasamento por esta lei, deverão respeitar os recuos e afastamentos exigidos para a parte da edificação definida como torre de acordo com a legislação municipal."><strong>Alt.Máx.Emb.</strong>(Art.125)</div>',
+                                ca_basico: "<strong>Coef.de Aproveitamento</strong>",
+                                ca_total: "<strong>Coef.Aprov.c/Outorga</strong>",
+                                fator_contr: "<strong>Fator de Contribuição</strong>",
+                                transf_ind: "<strong>Transferência de Índice</strong>",
+                                to_base: "<strong>Taxa de Ocup.da Base</strong>",
+                                to_torre: "<strong>Taxa de Ocup.da Torre</strong>",
+                                permeab: "<strong>Taxa de Permeabilidade</strong>",
+                                recuo_emb: "<strong>Recuo do<br>Embasamento</strong><br>(a partir do meio fio)",
+                                recuo_f_torre: "<strong>Recuo Frontal Torre</strong><br>(a partir do meio fio)",
+                                recuo_l_f_torre: "<strong>Recuo Lateral e<br>Fundos Torre</strong>",
+                                lote_min: "<strong>Lote Mínimo</strong>",
+                                test_min: "<strong>Testada Mínima</strong>",
+                                prof_min: "<strong>Profundidade Mínima</strong>"
+                            };
+
+                            let css = `<style>
                             #tabelaZonas {
                                 display: block;
                                 width: 200mm;
@@ -1179,120 +1184,124 @@
                             }
                             </style>`;
 
-                        let tabela = "<table><thead><tr><th>Nome Zona</th>";
+                            let tabela = "<table><thead><tr><th>Nome Zona</th>";
 
-                        Object.keys(zonasLote).forEach(zona => {
-                            tabela += `<th>${zona}</th>`;
-                        });
-
-                        tabela += "</tr></thead><tbody>";
-
-                        Object.keys(descricoes).forEach(chave => {
-                            tabela += `<tr>`;
-                            tabela += `<td class="linha-${chave}"><div>${descricoes[chave]}</div></td>`;
                             Object.keys(zonasLote).forEach(zona => {
-                                let valor = zonasLote[zona][chave] || '';
-                                tabela += `<td class="linha-${chave}"><div>${valor}</div></td>`;
+                                tabela += `<th>${zona}</th>`;
                             });
-                            tabela += `</tr>`;
+
+                            tabela += "</tr></thead><tbody>";
+
+                            Object.keys(descricoes).forEach(chave => {
+                                tabela += `<tr>`;
+                                tabela += `<td class="linha-${chave}"><div>${descricoes[chave]}</div></td>`;
+                                Object.keys(zonasLote).forEach(zona => {
+                                    let valor = zonasLote[zona][chave] || '';
+                                    tabela += `<td class="linha-${chave}"><div>${valor}</div></td>`;
+                                });
+                                tabela += `</tr>`;
+                            });
+
+                            tabela += "</tbody></table>";
+
+                            document.getElementById('tabelaZonas').innerHTML = css + tabela;
+                        }
+
+                        criarTabelaZonas(zonasLote);
+
+                        //adicionar lote
+                        L.geoJson(fcol.features[0], {
+                            style: {
+                                weight: 5,
+                                color: '#666',
+                                dashArray: '',
+                                fillOpacity: 0.7,
+                                interactive: false
+                            }
+                        }).addTo(plantaCadastralDestaque);
+
+                        let zoomIdealMenosUm = mapa.getBoundsZoom(plantaCadastralDestaque.getBounds()) - 1;
+                        let maxZoomAplicado = Math.min(zoomIdealMenosUm, 19);
+                        mapa.flyToBounds(plantaCadastralDestaque.getBounds(), {
+                            maxZoom: maxZoomAplicado
                         });
 
-                        tabela += "</tbody></table>";
+                        (function () {
+                            let conteudo = '';
+                            let viaAdicionada = false;
 
-                        document.getElementById('tabelaZonas').innerHTML = css + tabela;
-                    }
+                            for (let i = 1; i <= 6; i++) {
+                                let nome = proprLote[`t${i}nome`];
+                                let largura = proprLote[`t${i}largura`];
+                                let passeiod = proprLote[`t${i}passeiod`];
+                                let passeioe = proprLote[`t${i}passeioe`];
 
-                    criarTabelaZonas(zonasLote);
+                                if (!nome || !largura || !passeiod || !passeioe) continue;
 
-                    //adicionar lote
-                    L.geoJson(fcol.features[0], {
-                        style: {
-                            weight: 5,
-                            color: '#666',
-                            dashArray: '',
-                            fillOpacity: 0.7,
-                            interactive: false
-                        }
-                    }).addTo(plantaCadastralDestaque);
+                                viaAdicionada = true;
 
-                    let zoomIdealMenosUm = mapa.getBoundsZoom(plantaCadastralDestaque.getBounds()) - 1;
-                    let maxZoomAplicado = Math.min(zoomIdealMenosUm, 19);
-                    mapa.flyToBounds(plantaCadastralDestaque.getBounds(), {
-                        maxZoom: maxZoomAplicado
-                    });
-
-                    (function () {
-                        let conteudo = '';
-                        let viaAdicionada = false;
-
-                        for (let i = 1; i <= 6; i++) {
-                            let nome = proprLote[`t${i}nome`];
-                            let largura = proprLote[`t${i}largura`];
-                            let passeiod = proprLote[`t${i}passeiod`];
-                            let passeioe = proprLote[`t${i}passeioe`];
-
-                            if (!nome || !largura || !passeiod || !passeioe) continue;
-
-                            viaAdicionada = true;
-
-                            conteudo += `<strong>${nome}</strong>-Cx.da via:${largura}-Passeios:${passeiod}/${passeioe}`;
-                            if (i < 6 && proprLote[`t${i + 1}nome`]) {
-                                conteudo += ', ';
+                                conteudo += `<strong>${nome}</strong>-Cx.da via:${largura}-Passeios:${passeiod}/${passeioe}`;
+                                if (i < 6 && proprLote[`t${i + 1}nome`]) {
+                                    conteudo += ', ';
+                                }
+                                if (i % 2 === 0) {
+                                    conteudo += '<br>';
+                                }
                             }
-                            if (i % 2 === 0) {
-                                conteudo += '<br>';
+                            if (!viaAdicionada) {
+                                conteudo = "&#x2713; Verificar confrontantes com a Secretaria de Urbanismo";
                             }
+
+                            document.getElementById('pauta').innerHTML = conteudo;
+                        })();
+
+                        if (proprLote.nzonaslista.includes('ZCA3')) {
+                            document.getElementById('obs1').innerHTML = '<hr> &#x2713; Somente poderão utilizar os parâmetros urbanísticos de ZCA 3 os empreendimentos que estiverem voltados para ruas com CAIXAS DE VIA igual ou maior a 9 metros. Do contrário, prevalecem os parâmetros de ZCA 2';
                         }
-                        if (!viaAdicionada) {
-                            conteudo = "&#x2713; Verificar confrontantes com a Secretaria de Urbanismo";
+
+                        if (proprLote.nzonaslista.includes('ZCA1')) {
+                            document.getElementById('obs5').innerHTML = '<hr> &#x2713; § 1º Na R.Samuel Heusi Jr, as edificações mais altas que 7,40m estão condicionadas ao recuo de 2 metros da calçada, permitindo assim estacionamento em 45 graus. § 2º As construções nos lotes da rua Samuel Heusi Jr, adjacentes à Igreja Santa Terezinha, terão altura máxima de 7,40m e deverão ser aprovados no CMPAT - Conselho Municipal de Patrimônio Cultural de Itajaí, considerando a paisagem formada pelo desenho arquitetônico da edificação, em relação a morraria e inclusive com uma edificação de estilo modernista, de histórico desenho, que é o hotel cabeçudas.';
                         }
 
-                        document.getElementById('pauta').innerHTML = conteudo;
-                    })();
+                        if (proprLote.nzonaslista.includes('ZRP2')) {
+                            document.getElementById('obs6').innerHTML = '<hr> &#x2713; § 1º Os Lotes situados na ZI entre a avenida Itaipava e a Rodovia Antonio Heil, poderão optar por utilizar os índices construtivos da ZRP2 ou ZI. § 2º As áreas do Rio do Meio mapeadas como ZRP2, por ser tratar de área de conexão entre as cidades de Itajaí e Camboriú, poderão optar por utilizar os índices construtivos da ZRP2 ou ZI';
+                        }
 
-                    if (proprLote.nzonaslista.includes('ZCA3')) {
-                        document.getElementById('obs1').innerHTML = '<hr> &#x2713; Somente poderão utilizar os parâmetros urbanísticos de ZCA 3 os empreendimentos que estiverem voltados para ruas com CAIXAS DE VIA igual ou maior a 9 metros. Do contrário, prevalecem os parâmetros de ZCA 2';
-                    }
+                        if (proprLote.nzonaslista.includes('ZI')) {
+                            document.getElementById('obs7').innerHTML = '<hr> &#x2713; Os usos pré-existentes, tais como residências, comércios e serviços podem conviver com a ZI, sendo também permitida novas construções residenciais, independentemente de estarem ou não inseridas em projetos que englobem a atividade industrial ou correlata, desde que a área construtiva de cada edificação não seja superior a 250m²';
+                        }
 
-                    if (proprLote.nzonaslista.includes('ZCA1')) {
-                        document.getElementById('obs5').innerHTML = '<hr> &#x2713; § 1º Na R.Samuel Heusi Jr, as edificações mais altas que 7,40m estão condicionadas ao recuo de 2 metros da calçada, permitindo assim estacionamento em 45 graus. § 2º As construções nos lotes da rua Samuel Heusi Jr, adjacentes à Igreja Santa Terezinha, terão altura máxima de 7,40m e deverão ser aprovados no CMPAT - Conselho Municipal de Patrimônio Cultural de Itajaí, considerando a paisagem formada pelo desenho arquitetônico da edificação, em relação a morraria e inclusive com uma edificação de estilo modernista, de histórico desenho, que é o hotel cabeçudas.';
-                    }
+                        if (proprLote.nzonaslista.includes('ZBS3') || proprLote.nzonaslista.includes('ZBS4')) {
+                            document.getElementById('obs2').innerHTML = '<hr> &#x2713; Nas ZBS3 e ZBS4, os asteriscos associados às maiores alturas máximas referem-se a empreendimentos em terrenos maiores de 3000 m²';
+                        }
 
-                    if (proprLote.nzonaslista.includes('ZRP2')) {
-                        document.getElementById('obs6').innerHTML = '<hr> &#x2713; § 1º Os Lotes situados na ZI entre a avenida Itaipava e a Rodovia Antonio Heil, poderão optar por utilizar os índices construtivos da ZRP2 ou ZI. § 2º As áreas do Rio do Meio mapeadas como ZRP2, por ser tratar de área de conexão entre as cidades de Itajaí e Camboriú, poderão optar por utilizar os índices construtivos da ZRP2 ou ZI';
-                    }
+                        if (proprLote.nzonaslista.includes('ZBS5') || proprLote.nzonaslista.includes('ZBS6') || proprLote.nzonaslista.includes('ZBP')) {
+                            document.getElementById('obs3').innerHTML = '<hr> &#x2713; Nas ZBS3 e ZBS4, os asteriscos associados às maiores alturas máximas referem-se a empreendimentos em terrenos maiores de 3000 m²';
+                        }
 
-                    if (proprLote.nzonaslista.includes('ZI')) {
-                        document.getElementById('obs7').innerHTML = '<hr> &#x2713; Os usos pré-existentes, tais como residências, comércios e serviços podem conviver com a ZI, sendo também permitida novas construções residenciais, independentemente de estarem ou não inseridas em projetos que englobem a atividade industrial ou correlata, desde que a área construtiva de cada edificação não seja superior a 250m²';
-                    }
+                        if (proprLote.nzonaslista.includes('ZBS5') || proprLote.nzonaslista.includes('ZMC3')) {
+                            document.getElementById('obs4').innerHTML = '<hr> &#x2713; Art.73 §3º O zoneamento ZMC 3 localizado entre a Av.Luci Canziani e o Morro Cortado, com exceção da faixa de 200 metros à leste da Rod.Osvaldo Reis, depende da homologação da cessão das áreas necessárias à criação do Parque da Lagoa do Cassino, caso contrário deverá ser considerada como ZBP';
+                        }
 
-                    if (proprLote.nzonaslista.includes('ZBS3') || proprLote.nzonaslista.includes('ZBS4')) {
-                        document.getElementById('obs2').innerHTML = '<hr> &#x2713; Nas ZBS3 e ZBS4, os asteriscos associados às maiores alturas máximas referem-se a empreendimentos em terrenos maiores de 3000 m²';
-                    }
+                        if (proprLote.sobrezon !== "") {
+                            document.getElementById('sobrezoneamento').innerHTML = `<hr> &#x2713; Lote sob o Sobrezoneamento ${proprLote.sobrezon}`;
+                        }
 
-                    if (proprLote.nzonaslista.includes('ZBS5') || proprLote.nzonaslista.includes('ZBS6') || proprLote.nzonaslista.includes('ZBP')) {
-                        document.getElementById('obs3').innerHTML = '<hr> &#x2713; Nas ZBS3 e ZBS4, os asteriscos associados às maiores alturas máximas referem-se a empreendimentos em terrenos maiores de 3000 m²';
-                    }
+                        if (proprLote.sobrezon == "Centro Histórico") {
+                            document.getElementById('sobrezHist').innerHTML = `§ 8º No Sobrezoneamento do Centro Histórico a taxa de ocupação do embasamento pode chegar a 100% (cem por cento), sendo que nos casos em que for preservada a fachada da edificação histórica, a taxa de ocupação da torre poderá chegar a 75% (setenta e cinco por cento) e o coeficiente de aproveitamento acrescido 0.5, desde que, seja no mesmo lote. ${proprLote.sobrezon}`;
+                        }
 
-                    if (proprLote.nzonaslista.includes('ZBS5') || proprLote.nzonaslista.includes('ZMC3')) {
-                        document.getElementById('obs4').innerHTML = '<hr> &#x2713; Art.73 §3º O zoneamento ZMC 3 localizado entre a Av.Luci Canziani e o Morro Cortado, com exceção da faixa de 200 metros à leste da Rod.Osvaldo Reis, depende da homologação da cessão das áreas necessárias à criação do Parque da Lagoa do Cassino, caso contrário deverá ser considerada como ZBP';
-                    }
+                        if (proprLote.edhist === "-1" || proprLote.sobrezon === "Centro Histórico") {
+                            document.getElementById('patrimonioHistorico').innerHTML = "<hr> &#x2713; Parecer Patrimônio Histórico (Fundação Genésio Miranda Lins)";
+                        }
 
-                    if (proprLote.sobrezon !== "") {
-                        document.getElementById('sobrezoneamento').innerHTML = `<hr> &#x2713; Lote sob o Sobrezoneamento ${proprLote.sobrezon}`;
+                        if (proprLote.interven === "-1") {
+                            document.getElementById('intervViaria').innerHTML = `<hr> &#x2713; <strong>Solicitar parecer Diretoria de Mobilidade Urbana, Secr.Municipal de Desenv.Urbano e Habitação</strong>`;
+                        }
                     }
-
-                    if (proprLote.sobrezon == "Centro Histórico") {
-                        document.getElementById('sobrezHist').innerHTML = `§ 8º No Sobrezoneamento do Centro Histórico a taxa de ocupação do embasamento pode chegar a 100% (cem por cento), sendo que nos casos em que for preservada a fachada da edificação histórica, a taxa de ocupação da torre poderá chegar a 75% (setenta e cinco por cento) e o coeficiente de aproveitamento acrescido 0.5, desde que, seja no mesmo lote. ${proprLote.sobrezon}`;
-                    }
-
-                    if (proprLote.edhist === "-1" || proprLote.sobrezon === "Centro Histórico") {
-                        document.getElementById('patrimonioHistorico').innerHTML = "<hr> &#x2713; Parecer Patrimônio Histórico (Fundação Genésio Miranda Lins)";
-                    }
-
-                    if (proprLote.interven === "-1") {
-                        document.getElementById('intervViaria').innerHTML = `<hr> &#x2713; <strong>Solicitar parecer Diretoria de Mobilidade Urbana, Secr.Municipal de Desenv.Urbano e Habitação</strong>`;
-                    }
+                    else {
+                        document.getElementById('tabelaZonas').innerHTML = '<br><strong>CONFLITO CONFRONTANTES, <BR>PROCURAR A SECRETARIA MUNICIPAL DE DESENVOLVIMENTO URBANO E HABITAÇÃO</strong>';
+                    };
                 });
         };
 
