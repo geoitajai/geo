@@ -1008,8 +1008,6 @@
 
                     proprLote = fcol.features[0].properties
 
-                    console.log(proprLote)
-
                     if (proprLote['conflito'] == 'n') {
 
                         //Converte a string de nomes de zonas em um array
@@ -1299,8 +1297,14 @@
                             document.getElementById('intervViaria').innerHTML = `<hr> &#x2713; <strong>Solicitar parecer Diretoria de Mobilidade Urbana, Secr.Municipal de Desenv.Urbano e Habitação</strong>`;
                         }
                     }
+
+                    if (proprLote['conflito'] == 'caucionado'){
+                        document.getElementById('tabelaZonas').innerHTML = '<br><strong>LOTE CAUCIONADO, <BR>SECRETARIA MUNICIPAL DE DESENVOLVIMENTO URBANO E HABITAÇÃO</strong>';
+                            document.getElementById('mapa').innerHTML = '';
+                    }
                     else {
                         document.getElementById('tabelaZonas').innerHTML = '<br><strong>CONFLITO CONFRONTANTES, <BR>PROCURAR A SECRETARIA MUNICIPAL DE DESENVOLVIMENTO URBANO E HABITAÇÃO</strong>';
+                        document.getElementById('mapa').innerHTML = '';
                     };
                 });
         };
