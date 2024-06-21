@@ -1290,17 +1290,17 @@
                         }
 
                         if (proprLote.edhist === "-1" || proprLote.sobrezon === "Centro Histórico") {
-                            document.getElementById('patrimonioHistorico').innerHTML = "<hr> &#x2713; Parecer Patrimônio Histórico (Fundação Genésio Miranda Lins)";
+                            document.getElementById('patrimonioHistorico').innerHTML = "<hr> &#x2713; Solicitar parecer Conselho Municip.Patrimônio Itajaí no<strong> email:cmpatrimonioitajai@gmail.com</strong>";
                         }
 
                         if (proprLote.interven === "-1") {
-                            document.getElementById('intervViaria').innerHTML = `<hr> &#x2713; <strong>Solicitar parecer Diretoria de Mobilidade Urbana, Secr.Municipal de Desenv.Urbano e Habitação</strong>`;
+                            document.getElementById('intervViaria').innerHTML = `<hr> &#x2713; Solicitar parecer Diretoria de Mobilidade Urbana, Secr.Municipal de Desenv.Urbano e Habitação no <strong> email:smu@itajai.sc.gov.br</strong>`;
                         }
                     }
 
-                    else if (proprLote['conflito'] == 'caucionado'){
+                    else if (proprLote['conflito'] == 'caucionado') {
                         document.getElementById('tabelaZonas').innerHTML = '<br><strong>LOTE CAUCIONADO, <BR>SECRETARIA MUNICIPAL DE DESENVOLVIMENTO URBANO E HABITAÇÃO</strong>';
-                            document.getElementById('mapa').innerHTML = '';
+                        document.getElementById('mapa').innerHTML = '';
                     }
                     else {
                         document.getElementById('tabelaZonas').innerHTML = '<br><strong>CONFLITO CONFRONTANTES, <BR>PROCURAR A SECRETARIA MUNICIPAL DE DESENVOLVIMENTO URBANO E HABITAÇÃO</strong>';
