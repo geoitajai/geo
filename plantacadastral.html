@@ -485,6 +485,27 @@
             attribution: 'Prefeitura de Itajaí'
         }).addTo(mapa);
 
+        // Mapa ortoimagem 2024
+        let ortoimg2024 = new L.TileLayer(
+            'https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/tiles/tile_ortoimg_2024/{z}/{x}/{y}.png', {
+            minZoom: 10,
+            maxZoom: 19,
+            opacity: 0.9,
+            attribution: 'Engemap geoinformação 2020, Prefeitura de Itajaí'
+        });
+
+        // Mapa ortoimagem 2020
+        let ortoimg2020b = new L.TileLayer(
+            'https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/tiles/tiles_ortoimg_2020/{z}/{x}/{y}.png', {
+            minZoom: 10,
+            maxZoom: 19,
+            opacity: 0.3,
+            attribution: 'Engemap geoinformação 2020, Prefeitura de Itajaí'
+        });
+
+        // Novo layer combinando as duas camadas
+        let ortoimg2024combinado = L.layerGroup([ortoimg2024, ortoimg2020b]);
+
         //Mapa ortoimagem 2020
         let ortoimg2020 = new L.TileLayer(
             'https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/tiles/tiles_ortoimg_2020/{z}/{x}/{y}.png', {
@@ -515,6 +536,7 @@
         //Controle de camadas
         let baseMaps = {
             "SIE.Itajaí": tilesmu,
+            "Imag.2024": ortoimg2024combinado,
             "Imag.2020": ortoimg2020,
             "Rest.2020": restituicao2020,
             "Satélite": tileesri
