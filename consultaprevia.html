@@ -1011,6 +1011,8 @@
 
                     proprLote = fcol.features[0].properties
 
+                    console.log(proprLote)
+
                     if (proprLote['conflito'] == 'n') {
 
                         //Converte a string de nomes de zonas em um array
@@ -1292,11 +1294,11 @@
                             document.getElementById('sobrezHist').innerHTML = `§ 8º No Sobrezoneamento do Centro Histórico a taxa de ocupação do embasamento pode chegar a 100% (cem por cento), sendo que nos casos em que for preservada a fachada da edificação histórica, a taxa de ocupação da torre poderá chegar a 75% (setenta e cinco por cento) e o coeficiente de aproveitamento acrescido 0.5, desde que, seja no mesmo lote. ${proprLote.sobrezon}`;
                         }
 
-                        if (proprLote.edhist === "-1" || proprLote.sobrezon === "Centro Histórico") {
+                        if (proprLote.edhist == "-1" || proprLote.sobrezon === "Centro Histórico") {
                             document.getElementById('patrimonioHistorico').innerHTML = "<hr> &#x2713; Solicitar parecer Conselho Municip.Patrimônio Itajaí no<strong> email:cmpatrimonioitajai@gmail.com</strong>";
                         }
 
-                        if (proprLote.interven === "-1") {
+                        if (proprLote.interven == "-1") {
                             document.getElementById('intervViaria').innerHTML = `<hr> &#x2713; Solicitar parecer Diretoria de Mobilidade Urbana, Secr.Municipal de Desenv.Urbano e Habitação no <strong> email:smu@itajai.sc.gov.br</strong>`;
                         }
                     }

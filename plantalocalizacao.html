@@ -110,7 +110,6 @@
             url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/malha_cadastral_raster/FeatureServer/0/',
             maxZoom: 20,
             opacity: 0.50,
-            f: 'image',
             format: 'png8'
         }).addTo(mapa);
 
@@ -220,7 +219,7 @@
         hashendereco = (dados) => {
             var xhr = new XMLHttpRequest();
             var query = `inscrlig = '${String(dados[1])}'`;
-            var url = "https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/class_zoneamento_2024/FeatureServer/0/query?where=" + encodeURIComponent(query) + "&outFields=*&f=json";
+            var url = "https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/classzoneamento2024/FeatureServer/0/query?where=" + encodeURIComponent(query) + "&outFields=*&f=json";
 
             xhr.open("GET", url, true);
             xhr.onload = function () {
