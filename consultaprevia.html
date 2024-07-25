@@ -32,7 +32,7 @@
             display: flex;
             flex-direction: column;
             position: relative;
-            font-size: 10px;
+            font-size: 9px;
             -webkit-text-size-adjust: none;
         }
 
@@ -100,21 +100,21 @@
         }
 
         .linha2 {
-            height: 16.1cm;
+            height: 16.8cm;
         }
 
         .linha3 {
-            height: 10cm;
+            height: 10.1cm;
             display: flex;
             justify-content: space-between;
         }
 
         .linha4 {
-            height: calc(277mm - 27cm);
+            height: calc(277mm - 27.1cm);
         }
 
         .espaco-esquerda {
-            width: calc(200mm - 8cm);
+            width: calc(200mm - 6.8cm);
             margin-top: 0.1cm;
             margin-left: 0.1cm;
         }
@@ -124,7 +124,7 @@
             flex-direction: column;
             justify-content: space-between;
             position: relative;
-            width: 8cm;
+            width: 7cm;
             border-left: 1px solid black;
         }
 
@@ -217,7 +217,7 @@
             </div>
             <div class="espaco-direita-inferior">
                 <center><strong>Atividades permissíveis deverão ser submetidas a análise
-                        a Secretaria Municipal de Desenvolvimento Urbano e Habitação</strong></center>
+                        a Secr.Municipal de Desenv.Urbano e Habitação</strong></center>
             </div>
         </div>
     </div>
@@ -249,17 +249,6 @@
         window.onload = function () {
             if (isSafariMobile()) {
                 document.body.style.height = "290mm";
-
-                let linha1Elements = document.querySelectorAll('.linha1');
-                linha1Elements.forEach(function (element) {
-                    element.style.height = "2cm";
-                });
-
-                let linha2Elements = document.querySelectorAll('.linha2');
-                linha3Elements.forEach(function (element) {
-                    element.style.height = "19cm";
-                });
-
             }
         };
 
