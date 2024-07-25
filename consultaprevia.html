@@ -72,13 +72,26 @@
         }
 
         .linha1 {
-            height: 1.5cm;
+            height: 0.9cm;
         }
 
         .cabecalho-esquerda {
             width: calc(200mm - 6cm);
             margin-left: 0.1cm;
             margin-top: 0.1cm;
+            display: block;
+        }
+
+        .cabecalho-esquerda>div {
+            display: inline;
+        }
+
+        .cabecalho-esquerda>div:not(:first-child)::after {
+            content: ", ";
+        }
+
+        .cabecalho-esquerda>div:last-child::after {
+            content: "";
         }
 
         .cabecalho-direita {
@@ -87,7 +100,7 @@
         }
 
         .linha2 {
-            height: 15.5cm;
+            height: 16.1cm;
         }
 
         .linha3 {
@@ -153,13 +166,13 @@
     <button class="botao-imprimir" onclick="window.print();">Imprimir/Salvar</button>
     <div class="linha linha1">
         <div class="cabecalho-esquerda">
-            <div style="font-size: 14px; font-weight: bold;">CONSULTA PRÉVIA AO ZONEAMENTO</div>
+            <div style="font-size: 14px; font-weight: bold;">CONSULTA PRÉVIA AO ZONEAMENTO</div><br>
             <div id="inscrImob">Inscrição Imobiliária:</div>
             <div id="endereco">End:</div>
             <div id="dataEmissao">Data:</div>
         </div>
         <div class="cabecalho-direita">
-            <img src="images/logo_urb.png" alt="Logo Urb" style="height: 1.4cm; float: right; margin-top: 0.02cm">
+            <img src="images/logo_urb.png" alt="Logo Urb" style="height: 0.8cm; float: right; margin-top: 0.02cm">
         </div>
     </div>
     <div class="linha linha2">
