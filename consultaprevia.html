@@ -203,6 +203,7 @@
             <div id="sobrezHist"></div>
             <div id="patrimonioHistorico"></div>
             <div id="intervViaria"></div>
+            <div id="lnpreamar"></div>
             <div id="obs1"></div>
             <div id="obs2"></div>
             <div id="obs3"></div>
@@ -226,11 +227,12 @@
             Esta consulta não constinui o direito de propriedade e ou
             construção, todos os parâmetros estão sujeitos a
             revisão pelo processo de aprovação<br>
-            Leis: nº449/2024(Plano Diretor de Gestão e Desenv.Territorial), Jornal do Município:<a
-                href="https://intranet2.itajai.sc.gov.br/public/jornal-municipio/jornais/jornal_2024_2785_2760.pdf"
+            <a href="https://intranet2.itajai.sc.gov.br/public/jornal-municipio/jornais/jornal_2024_2785_2760.pdf"
                 target="_blank">Edição 2785 - 15 de março de 2024</a>, <a
                 href="https://intranet2.itajai.sc.gov.br/public/jornal-municipio/jornais/jornal_2024_2786_2761.pdf"
-                target="_blank">Edição 2786 - 20 de março de 2024</a>
+                target="_blank">Edição 2786 - 20 de março de 2024</a>, <a
+                href="https://arcgis.itajai.sc.gov.br/portal/apps/experiencebuilder/experience/?id=d7a0eb954ebe419f826a3a39e25e12dc"
+                target="_blank">Instruções normativas</a>
         </div>
     </div>
 
@@ -1300,6 +1302,10 @@
 
                         if (proprLote.interven == "-1") {
                             document.getElementById('intervViaria').innerHTML = `<hr> &#x2713; Solicitar parecer Diretoria de Mobilidade Urbana, Secr.Municipal de Desenv.Urbano e Habitação no <strong> email:smu@itajai.sc.gov.br</strong>`;
+                        }
+
+                        if (proprLote.lnpreamar == "-1") {
+                            document.getElementById('lnpreamar').innerHTML = `<hr> &#x2713; <strong>LOTE EM TERRENO DE MARINHA</strong>, exigência de autorização/inscrição de ocupação junto à SPU e parecer prévio do IBAMA`;
                         }
                     }
 
