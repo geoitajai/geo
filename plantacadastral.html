@@ -9,7 +9,7 @@
     <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <!-- jQuery -->
-    <script src="lib/jquery/jquery-3.7.0.min.js"></script>
+    <script src="lib/jquery/jquery-3.7.1.min.js"></script>
     <script src="lib/jquery/jquery-ui.min.js"></script>
     <link href="lib/jquery/jquery-ui.min.css" rel="stylesheet">
     <link href="lib/jquery/jquery-ui.theme.min.css" rel="stylesheet">
@@ -179,10 +179,21 @@
 
         /* Estilos para telas menores */
         @media (max-width: 550px) {
-
-            #logo,
-            #barraesquerda {
+            #logo {
                 display: none;
+            }
+
+            #barraesquerda {
+                display: block;
+                /* Permite exibir a barra lateral após o toggle */
+                width: 100%;
+                /* Para cobrir toda a tela */
+                position: absolute;
+                /* Para sobrepor a tela */
+            }
+
+            .toggle-button {
+                display: block;
             }
         }
 
@@ -318,34 +329,6 @@
                 </center>
                 </a>
             </div>
-            <!--<h3 class='titulobarra'> Grau de Risco Atividades</h3>
-            <div class='conteudobarralateral'>
-                <p>
-                    <center><small>Anexo lei Nº 11.985, DE 24 DE AGOSTO DE 2020:</small></center>
-                </p>
-                <a href="https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/tabela_risco.html" target="_blank">
-                    <center>
-                        <font size="2">
-                            - LINK CONSULTA<br>TABELA DE GRAU DE RISCO / CÓDIGO CNAE
-                        </font>
-                    </center>
-                </a>
-                <p><a style="text-decoration:none" href="http://leismunicipa.is/hyrip" target="_blank">
-                        <center>
-                            <font size="1">
-                                Decreto Nº 11.985, 24 de Agosto de 2020.
-                            </font>
-                        </center>
-                    </a>
-                    <a style="text-decoration:none" href="http://leismunicipa.is/pqbya" target="_blank">
-                        <center>
-                            <font size="1">
-                                Decreto Nº 11.956, 24 de Agosto de 2020.
-                            </font>
-                        </center>
-                    </a>
-                </p>
-            </div> -->
             <h3 class='titulobarra'>Zoneamento</h3>
             <div class='conteudobarralateral'>
                 <p>
@@ -413,18 +396,19 @@
     </div>
     <script>
         function toggleLeft() {
-            var left = document.querySelector('.left');
-            if (barraesquerda.style.display === 'none') {
-                barraesquerda.style.display = 'block';
+            var barraEsquerda = document.getElementById('barraesquerda');
+            if (barraEsquerda.style.display === 'none') {
+                barraEsquerda.style.display = 'block';
             } else {
-                barraesquerda.style.display = 'none';
+                barraEsquerda.style.display = 'none';
             }
-        }
+        };
 
-        $(function () {
-            $('#barraesquerda').accordion({
-                heightStyle: 'content'
-            });
+        $('#barraesquerda').accordion({
+            heightStyle: 'content',
+            activate: function (event, ui) {
+                // Execute ações ao alternar entre as seções do accordion
+            }
         });
 
         //#div do mapa
@@ -1243,6 +1227,8 @@
                 cellClick: (e, cell) => {
                     parcelamentodestaque.clearLayers();
                     mapa.closePopup();
+                    table.deselectRow();
+                    table.selectRow(cell.getRow());
                     parcelamentodados.query()
                         .limit(1)
                         .precision(5)
@@ -1262,7 +1248,7 @@
                             mapa.flyToBounds(parcelamentodestaque.getBounds(), {
                                 maxZoom: 19
                             });
-                        })
+                        });
                 }
             },
             {
@@ -1300,33 +1286,54 @@
 
         let tabelaparcelamento = [];
 
+        //serviço esri
+        let parcelamentodados = L.esri.featureLayer({
+            url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/loteamentos_urbanismo_visualizacao/FeatureServer/0/',
+            fields: ['objectid', 'nome', 'codigo'],
+            precision: 5,
+            pane: 'nivel_marcadores',
+            style: () => {
+                return {
+                    color: '#00264d',
+                    fillColor: '#99ccff',
+                    fillOpacity: 0.5,
+                    weight: 2
+                };
+            }
+        }).addTo(parcelamentodosolo);
+
+        function parcDestaque(e) {
+            parcelamentodestaque.clearLayers();
+            L.geoJson(e.sourceTarget.feature, {
+                style: (feature) => {
+                    return {
+                        weight: 5,
+                        color: "blue",
+                        dashArray: "30 10",
+                        fill: false
+                    };
+                }
+            }).addTo(parcelamentodestaque);
+            table.deselectRow();
+            table.selectRow(e.sourceTarget.feature.properties.codigo);
+            table.scrollToRow(e.sourceTarget.feature.properties.codigo);
+            L.popup()
+                .setLatLng(e.latlng)
+                .setContent(e.sourceTarget.feature.properties.nome)
+                .openOn(mapa);
+        }
+
+        parcelamentodosolo.eachLayer(layer => {
+            layer.on('click', parcDestaque);
+        });
+
         const camada_parcelamento = () => {
             loteresultado = false;
             parcelamentodosolo_chk = true;
 
             table.setColumns(colunasparcelamento);
 
-            function parcDestaque(e) {
-                parcelamentodestaque.clearLayers();
-                L.geoJson(e.sourceTarget.feature, {
-                    style: (feature) => {
-                        return {
-                            weight: 5,
-                            color: "blue",
-                            dashArray: "30 10",
-                            fill: false
-                        };
-                    }
-                }).addTo(parcelamentodestaque);
-                table.deselectRow();
-                table.selectRow(e.target.feature.properties.codigo);
-                table.scrollToRow(e.target.feature.properties.codigo);
-                L.popup()
-                    .setLatLng(e.latlng)
-                    .setContent(
-                        e.target.feature.properties.nome
-                    ).openOn(mapa);
-            };
+            mapa.addLayer(parcelamentodosolo);
 
             //camada e tabela parcelamento
             let dadosparcelamento = L.esri.query({
@@ -1358,49 +1365,26 @@
                     });
                     table.setData(tabelaparcelamento);
                 });
-
-            function inteParc(feature, layer) {
-                layer.on({
-                    click: parcDestaque
-                });
-            };
-
-            //serviço esri
-            let parcelamentodados = L.esri.featureLayer({
-                url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/loteamentos_urbanismo_visualizacao/FeatureServer/0/',
-                fields: ['objectid', 'nome', 'codigo'],
-                precision: 5,
-                pane: 'nivel_marcadores',
-                style: () => {
-                    return {
-                        color: '#00264d',
-                        fillColor: '#99ccff',
-                        fillOpacity: 0.5,
-                        weight: 2
-                    };
-                },
-                onEachFeature: inteParc
-            }).addTo(parcelamentodosolo);
-
-            mapa.addLayer(parcelamentodosolo);
         };
 
 
         //#controle de camadas
         let limparcamadas = () => {
-            if (detpropostas_chk == true) {
-                mapa.removeLayer(detpropostas)
-            };
-            if (plantaZoneamento_chk == true) {
-                mapa.removeLayer(plantaZoneamento)
-            };
-            if (parcelamentodosolo_chk == true) {
-                mapa.removeLayer(parcelamentodosolo)
-            };
+            if (detpropostas_chk && mapa.hasLayer(detpropostas)) {
+                mapa.removeLayer(detpropostas);
+            }
+            if (plantaZoneamento_chk && mapa.hasLayer(plantaZoneamento)) {
+                mapa.removeLayer(plantaZoneamento);
+            }
+            if (parcelamentodosolo_chk && mapa.hasLayer(parcelamentodosolo)) {
+                mapa.removeLayer(parcelamentodosolo);
+            }
             loteresultado = true;
             table.setColumns(colunaspadrao);
             table.setData();
         };
+
+
         $("#barraesquerda").on("accordionactivate", (event, ui) => {
             if (
                 ui.newHeader["0"].textContent === 'Zoneamento'
