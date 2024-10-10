@@ -641,6 +641,11 @@
             url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/imoveis_plantacadastral/FeatureServer/0/'
         });
 
+        // loteamentos
+        let loteamentos_lotes = L.esri.query({
+            url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/loteamentos_urbanismo_visualizacao/FeatureServer/0/'
+        });
+
         //Limites Município
         L.esri
             .featureLayer({
@@ -692,12 +697,12 @@
             }, {
                 title: 'nº',
                 field: 'nnumimov',
-                width: 60,
+                width: 40,
                 headerSort: false
             }, {
                 title: 'Compl.',
                 field: 'ncomplem',
-                width: 120,
+                width: 90,
                 headerSort: false
             }, {
                 title: 'Bairro',
@@ -705,21 +710,42 @@
                 width: 100,
                 headerSort: false
             }, {
-                title: 'Área tributável',
+                title: 'Área trib.',
                 field: 'nareater',
+                width: 65,
+                headerSort: false
+            }, {
+                title: 'Ano constr.',
+                field: 'ncodcont',
+                width: 80,
+                headerSort: false
+            }, {
+                title: 'Frac.ideal inf.',
+                field: 'nfracaoi',
+                width: 90,
+                headerSort: false
+            }, {
+                title: 'Loteamento origem',
+                field: 'nomeloteamento',
                 width: 130,
                 headerSort: false
             }, {
-                title: 'Ano construção',
-                field: 'ncodcont',
-                width: 120,
-                headerSort: false
-            }, {
-                title: 'Fração ideal infor.',
-                field: 'nfracaoi',
+                title: 'Descr.',
+                field: 'descrloteamento',
                 width: 100,
                 headerSort: false
+            }, {
+                title: '.pdf',
+                formatter: 'link',
+                headerSort: false,
+                width: 60,
+                formatterParams: {
+                    label: 'link',  // Defina o rótulo que será exibido no link
+                    urlField: 'panchaloteamento',
+                    target: '_blank'
+                }
             }
+
         ];
         let table = new Tabulator('#tabelatabulator', {
             height: '100%',
@@ -742,13 +768,10 @@
                 .run((error, fcol) => {
                     if (fcol.features.length > 0) {
                         inscrlig_base = fcol.features[0].properties.inscrlig;
-                        //consultaalvara = `https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/consultaalvara.html#${inscrlig_base}`;
                         consultapreviap = `https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/consultaprevia.html#${inscrlig_base}`;
                         plantasitua = `https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/plantalocalizacao.html#${inscrlig_base}`;
                         //links gerais lote
                         document.getElementById("consultaprev").innerHTML = `<a href="${consultapreviap}" target="_blank">CONSULTA PRÉVIA</a> |&nbsp`
-                        //document.getElementById("alvara").innerHTML = `<a href="${consultaalvara}" target="_blank">Avaliação atividade(alvará)</a> |&nbsp`
-                        //document.getElementById("alvara").innerHTML = `- |&nbsp`
                         document.getElementById("plsitua").innerHTML = `<a href="${plantasitua}" target="_blank">PLANTA SITUAÇÃO</a>`
                         let objtabela = [];
                         fcol.features.forEach(el => {
@@ -763,9 +786,45 @@
                                 'nnomebai': el.properties.aut_end_bairro,
                                 'nareater': el.properties.aut_area_tributavel_terreno,
                                 'ncodcont': el.properties.aut_ano_construcao,
-                                'nfracaoi': el.properties.aut_fracao_informada
+                                'nfracaoi': el.properties.aut_fracao_informada,
+                                'nomeloteamento': '-',
+                                'descrloteamento': '-',
+                                'panchaloteamento': '-'
                             });
                         });
+
+                        // Verificar se existem informações do loteamento para atualizar os registros
+                        if (e.features[0].properties.lotcod != null) {
+                            codigo_loteamento = e.features[0].properties.lotcod;
+                            let loteamentocodigo = `codigo='${codigo_loteamento}'`;
+
+                            loteamentos_lotes.where(loteamentocodigo)
+                                .returnGeometry(false)
+                                .run((error, fcol) => {
+                                    if (fcol != null) {
+                                        fcol.features.forEach(el => {
+
+                                            // Definindo valores "-" caso sejam null ou undefined
+                                            let nome = fcol.features[0].properties.nome ?? '-';
+                                            let descr = e.features[0].properties.lotdescr ?? '-';
+                                            let panchaloteamento = fcol.features[0].properties.googleid ? `https://drive.google.com/file/d/${fcol.features[0].properties.googleid}/view` : '-';
+
+                                            // Atualizando os registros de objtabela
+                                            objtabela.forEach((registro) => {
+                                                registro.nomeloteamento = nome;
+                                                registro.descrloteamento = descr;
+                                                registro.panchaloteamento = panchaloteamento;
+                                            });
+                                        });
+
+                                        table.setData(objtabela);
+                                    }
+
+                                });
+                        } else {
+                            // Se não houver informações de loteamento, ainda assim enviamos os dados para a tabela
+                            table.setData(objtabela);
+                        }
                         table.setData(objtabela);
                     } else if (fcol.features.length == 0) {
                         //links gerais lote
