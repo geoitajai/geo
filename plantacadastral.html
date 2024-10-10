@@ -184,16 +184,25 @@
             }
 
             #barraesquerda {
-                display: block;
-                /* Permite exibir a barra lateral após o toggle */
-                width: 100%;
-                /* Para cobrir toda a tela */
+                width: 200px;
+                /* Mantém a largura padrão da barra lateral */
                 position: absolute;
-                /* Para sobrepor a tela */
+                /* Mantém a barra sobre o mapa */
+                z-index: 9999;
+                /* Garante que a barra fique acima do mapa quando visível */
+                background-color: var(--claro);
             }
 
             .toggle-button {
                 display: block;
+                z-index: 10000;
+                /* Mantém o botão acima de todos os elementos */
+            }
+
+            #mapa {
+                position: relative;
+                z-index: 1;
+                /* Mapa atrás da barra lateral */
             }
         }
 
@@ -397,12 +406,14 @@
     <script>
         function toggleLeft() {
             var barraEsquerda = document.getElementById('barraesquerda');
-            if (barraEsquerda.style.display === 'none') {
+            if (barraEsquerda.style.display === 'none' || barraEsquerda.style.display === '') {
                 barraEsquerda.style.display = 'block';
             } else {
                 barraEsquerda.style.display = 'none';
             }
-        };
+        }
+
+
 
         $('#barraesquerda').accordion({
             heightStyle: 'content',
@@ -1500,6 +1511,26 @@
         } else if (window.location.hash.split('%7C').length > 1) {
             hashendereco(window.location.hash.split('%7C'));
         };
+
+        //mobile start
+        // Função para verificar o tamanho da tela e ajustar a visibilidade da barra lateral
+        function ajustarVisibilidadeBarra() {
+            var barraEsquerda = document.getElementById('barraesquerda');
+            if (window.innerWidth <= 550) {
+                // Esconde a barra automaticamente no modo mobile
+                barraEsquerda.style.display = 'none';
+            } else {
+                // Mostra a barra automaticamente no modo desktop
+                barraEsquerda.style.display = 'block';
+            }
+        }
+
+        // Adicionar o event listener para verificar o redimensionamento da janela
+        window.addEventListener('resize', ajustarVisibilidadeBarra);
+
+        // Executar a função ao carregar a página para definir o estado inicial da barra lateral
+        ajustarVisibilidadeBarra();
+
     </script>
 </body>
 
