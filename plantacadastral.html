@@ -736,13 +736,16 @@
                 headerSort: false
             }, {
                 title: '.pdf',
-                formatter: 'link',
                 headerSort: false,
                 width: 60,
-                formatterParams: {
-                    label: 'link',  // Defina o rótulo que será exibido no link
-                    urlField: 'panchaloteamento',
-                    target: '_blank'
+                field: 'panchaloteamento',
+                formatter: function (cell, formatterParams) {
+                    let value = cell.getValue();
+                    if (value && value !== '-') {
+                        return 'link';
+                    } else {
+                        return '-';
+                    }
                 }
             }
 
