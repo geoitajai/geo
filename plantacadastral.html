@@ -342,13 +342,12 @@
             <div class='conteudobarralateral'>
                 <p>
                     <center>
-                        Plano Diretor de Gestão e Desenv.Territorial<br>
-                        <a href="https://intranet2.itajai.sc.gov.br/public/jornal-municipio/jornais/jornal_2024_2785_2760.pdf"
-                            target="_blank"><small>Ed.2785 15/03/2024</small></a>,<br><a
-                            href="https://intranet2.itajai.sc.gov.br/public/jornal-municipio/jornais/jornal_2024_2786_2761.pdf"
-                            target="_blank"><small>Ed.2786 20/03/2024</small></a>
+                        Plano Diretor de Gestão e Desenv.Territorial
+                        <small><a href="http://leismunicipa.is/16qu0">LEI Nº 449, DE 11 DE MARÇO DE 2024</a></small>
+                    </center>
+                <p><small>Legenda:</small></p>
+                <img src="images/hierarquia_viaria.svg" style="width:140px;">
                 </p>
-                </center>
                 <hr>
                 <p><small>Clique em uma zona para visualizar os parâmetros.</small></p>
             </div>
@@ -412,7 +411,6 @@
                 barraEsquerda.style.display = 'none';
             }
         }
-
 
 
         $('#barraesquerda').accordion({
@@ -482,32 +480,11 @@
 
         // Mapa ortoimagem 2024
         let ortoimg2024 = new L.TileLayer(
-            'https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/tiles/tile_ortoimg_2024/{z}/{x}/{y}.png', {
+            'https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/tiles/tiles_ortoimg_2024_c/{z}/{x}/{y}.png', {
             minZoom: 10,
             maxZoom: 19,
             opacity: 0.9,
-            attribution: 'Engemap geoinformação 2020, Prefeitura de Itajaí'
-        });
-
-        // Mapa ortoimagem 2020
-        let ortoimg2020b = new L.TileLayer(
-            'https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/tiles/tiles_ortoimg_2020/{z}/{x}/{y}.png', {
-            minZoom: 10,
-            maxZoom: 19,
-            opacity: 0.3,
-            attribution: 'Engemap geoinformação 2020, Prefeitura de Itajaí'
-        });
-
-        // Novo layer combinando as duas camadas
-        let ortoimg2024combinado = L.layerGroup([ortoimg2024, ortoimg2020b]);
-
-        //Mapa ortoimagem 2020
-        let ortoimg2020 = new L.TileLayer(
-            'https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/tiles/tiles_ortoimg_2020/{z}/{x}/{y}.png', {
-            minZoom: 10,
-            maxZoom: 19,
-            opacity: 0.9,
-            attribution: 'Engemap geoinformação 2020, Prefeitura de Itajaí'
+            attribution: 'Engemap geoinformação 2024, Prefeitura de Itajaí'
         });
 
         //Mapa restituicao 2020
@@ -531,8 +508,7 @@
         //Controle de camadas
         let baseMaps = {
             "SIE.Itajaí": tilesmu,
-            "Imag.2024": ortoimg2024combinado,
-            "Imag.2020": ortoimg2020,
+            "Imag.2024": ortoimg2024,
             "Rest.2020": restituicao2020,
             "Satélite": tileesri
         };
@@ -741,9 +717,11 @@
                 field: 'panchaloteamento',
                 formatter: function (cell, formatterParams) {
                     let value = cell.getValue();
-                    if (value && value !== '-') {
-                        return 'link';
+                    if (value != null && value !== '' && value !== '-') {
+                        // Return an anchor tag with the URL and label 'link'
+                        return `<a href="${value}" target="_blank">link</a>`;
                     } else {
+                        // Return '-' as plain text
                         return '-';
                     }
                 }
@@ -806,12 +784,13 @@
                                 .run((error, fcol) => {
                                     if (fcol != null) {
                                         fcol.features.forEach(el => {
-
                                             // Definindo valores "-" caso sejam null ou undefined
                                             let nome = fcol.features[0].properties.nome ?? '-';
                                             let descr = e.features[0].properties.lotdescr ?? '-';
-                                            let panchaloteamento = fcol.features[0].properties.googleid ? `https://drive.google.com/file/d/${fcol.features[0].properties.googleid}/view` : '-';
-
+                                            let panchaloteamento = '-';
+                                            if (fcol.features[0].properties.googleid) {
+                                                panchaloteamento = `https://drive.google.com/file/d/${fcol.features[0].properties.googleid}/view`;
+                                            };
                                             // Atualizando os registros de objtabela
                                             objtabela.forEach((registro) => {
                                                 registro.nomeloteamento = nome;
@@ -1114,6 +1093,8 @@
         let plantaZoneamento = L.featureGroup();
         let parcelamentodosolo_chk = false;
         let parcelamentodosolo = L.featureGroup();
+        //let viasestruturantes_chk = false;
+        let viasestruturantes = L.featureGroup();
 
         // zoneamento
         const camada_zoneamento = () => {
@@ -1231,7 +1212,7 @@
 
                         mapa.addLayer(plantaZoneamento);
                     }).catch(error => console.error('Erro ao carregar o arquivo GeoJSON: ', error));
-            }
+            };
 
             // Função para carregar o GeoJSON sobrezoneamento
             function carregarGeoJsonSemInteracao(url, camada) {
@@ -1249,7 +1230,74 @@
                             }
                         }).addTo(plantaZoneamento);
                     }).catch(error => console.error('Erro ao carregar o arquivo GeoJSON: ', error));
-            }
+            };
+
+            //carregar vias estruturantes
+            //#vias estruturantes
+            L.esri.featureLayer({
+                url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/vias_estruturantes_web/FeatureServer/0/',
+                fields: ['objectid', 'categoria', 'cod'],
+                precision: 4,
+                pane: 'nivel_marcadores',
+                style: (feature) => {
+                    let color;
+                    switch (feature.properties.categoria) {
+                        case 'global':
+                            color = 'red';
+                            break;
+                        case '5000':
+                            color = 'blue';
+                            break;
+                        case '2500':
+                            color = 'green';
+                            break;
+                        default:
+                            color = '#00264d';
+                    }
+                    return {
+                        color: color,
+                        interactive: false,
+                        fillColor: '#99ccff',
+                        opacity: 0.4,
+                        weight: 2
+                    };
+                }
+            }).addTo(viasestruturantes);
+
+            L.esri.featureLayer({
+                url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/intervencoesviarias_urbanismo/FeatureServer/0/',
+                fields: ['tipoint', 'objectid'],
+                precision: 6,
+                pane: 'nivel_marcadores',
+                filter: (feature) => feature.properties.tipoint === 'Nova Ligação',
+                style: () => {
+                    return {
+                        color: '#666666', // cinza claro
+                        weight: 2,
+                        opacity: 0.20,
+                        interactive: false
+                    };
+                }
+            }).addTo(viasestruturantes);
+
+            //Área influência aeroporto
+            let ainaeroporto = L.esri.featureLayer({
+                url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/linhas_influencia_aeroporto/FeatureServer/0/',
+                precision: 6,
+                style: (feature) => {
+                    return {
+                        dashArray: "30 10",
+                        fill: false,
+                        interactive: false,
+                        color: '#1a1a1a',
+                        weight: 1,
+                        opacity: 0.50
+                    };
+                }
+            });
+
+            ainaeroporto.addTo(plantaZoneamento);
+            viasestruturantes.addTo(plantaZoneamento);
 
             carregarGeoJsonSemInteracao('data/sobrezoneamento2024.geojson', plantaZoneamento);
 
@@ -1359,7 +1407,7 @@
 
         let tabelaparcelamento = [];
 
-        //serviço esri
+        //dados portal
         let parcelamentodados = L.esri.featureLayer({
             url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/loteamentos_urbanismo_visualizacao/FeatureServer/0/',
             fields: ['objectid', 'nome', 'codigo'],
@@ -1439,7 +1487,6 @@
                     table.setData(tabelaparcelamento);
                 });
         };
-
 
         //#controle de camadas
         let limparcamadas = () => {
