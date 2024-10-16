@@ -210,6 +210,7 @@
             <div id="obs5"></div>
             <div id="obs6"></div>
             <div id="obs7"></div>
+            <div id="esgoto"></div>
         </div>
         <div class="espaco-direita">
             <div class="espaco-direita-superior">
@@ -224,8 +225,8 @@
     <div class="linha linha4">
         <div style="margin-left: 0.2cm; margin-top: 0.05cm;">
             <strong>Esta consulta não constinui o direito de propriedade e ou
-            construção, parâmetros sujeitos a
-            revisão pelo processo de aprovação,</strong>
+                construção, parâmetros sujeitos a
+                revisão pelo processo de aprovação,</strong>
             <a href="https://intranet2.itajai.sc.gov.br/public/jornal-municipio/jornais/jornal_2024_2785_2760.pdf"
                 target="_blank">Edição 2785</a>, <a
                 href="https://intranet2.itajai.sc.gov.br/public/jornal-municipio/jornais/jornal_2024_2786_2761.pdf"
@@ -1306,6 +1307,15 @@
                         if (proprLote.lnpreamar == "-1") {
                             document.getElementById('lnpreamar').innerHTML = `<hr> &#x2713; <strong>LOTE EM TERRENO DE MARINHA</strong>, exigência de autorização/inscrição de ocupação junto à SPU e parecer prévio do IBAMA`;
                         }
+
+                        if (proprLote.esgoto == "-1") {
+                            document.getElementById('esgoto').innerHTML = `<hr> &#x2713; Lote apresenta potencial para ligação à rede de coleta de esgoto. Para mais informações, consulte: <a href="https://semasaitajai.com.br/?modo=publicacao&tipo=noticia&codigo=2449" target="_blank">SEMASA</a>.`;
+                        } else {
+                            document.getElementById('esgoto').innerHTML = `<hr> &#x2713; Lote não está habilitado para ligação a rede de coleta de esgoto. Para mais informações, consulte: <a href="https://semasaitajai.com.br/?modo=publicacao&tipo=noticia&codigo=2449" target="_blank">SEMASA</a>.`;
+                        }
+
+
+                        console.log(proprLote)
                     }
 
                     else if (proprLote['conflito'] == 'caucionado') {
