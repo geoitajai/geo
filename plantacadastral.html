@@ -1265,7 +1265,7 @@
             }).addTo(viasestruturantes);
 
             L.esri.featureLayer({
-                url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/intervencoesviarias_urbanismo/FeatureServer/0/',
+                url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/propostainterv_view/FeatureServer/0/',
                 fields: ['tipoint', 'objectid'],
                 precision: 6,
                 pane: 'nivel_marcadores',
@@ -1309,8 +1309,8 @@
             detpropostas_chk = true;
 
             L.esri.featureLayer({
-                url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/intervencoesviarias_urbanismo/FeatureServer/0/',
-                fields: ['tipoint', 'objectid'],
+                url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/propostainterv_view/FeatureServer/0/',
+                fields: ['tipoint', 'objectid', 'secao', 'ciclo'],
                 precision: 6,
                 pane: 'marker_overlay',
                 style: (feature) => {
@@ -1331,7 +1331,12 @@
                     return { color: colinha, weight: 4, dashArray: tipolinha, opacity: 0.65, interactive: false };
                 },
                 pane: 'nivel_marcadores'
-            }).addTo(detpropostas);
+            }).addTo(detpropostas).on('click', function (e) {
+                console.log(e);
+                let props = e.layer.feature.properties;
+                let popupContent = `<strong>Tipo de Intervenção:</strong> ${props.tipoint}<br><strong>ID:</strong> ${props.objectid}`;
+                e.layer.bindPopup(popupContent).openPopup();
+            });
 
             mapa.addLayer(detpropostas);
         };
