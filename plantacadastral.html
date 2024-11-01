@@ -424,7 +424,7 @@
         let mapa = new L.Map('mapa', {
             zoom: 14,
             minZoom: 12,
-            maxZoom: 19,
+            maxZoom: 20,
             maxBounds: [
                 //south west
                 [-27.3000, -49.2300],
@@ -480,9 +480,9 @@
 
         // Mapa ortoimagem 2024
         let ortoimg2024 = new L.TileLayer(
-            'https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/tiles/tiles_ortoimg_2024_c/{z}/{x}/{y}.png', {
+            'https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/tiles/tiles_ortoimg_2024/{z}/{x}/{y}.jpg', {
             minZoom: 10,
-            maxZoom: 19,
+            maxZoom: 20,
             opacity: 0.9,
             attribution: 'Engemap geoinformação 2024, Prefeitura de Itajaí'
         });
@@ -491,7 +491,7 @@
         let restituicao2020 = new L.TileLayer(
             'https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/tiles/tiles_rest_2020/{z}/{x}/{y}.png', {
             minZoom: 10,
-            maxZoom: 19,
+            maxZoom: 20,
             opacity: 0.9,
             attribution: 'Engemap geoinformação 2020, Prefeitura de Itajaí'
         });
@@ -500,7 +500,7 @@
         let tileesri = new L.TileLayer(
             'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
             minZoom: 12,
-            maxZoom: 19,
+            maxZoom: 20,
             opacity: 0.6,
             attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
         });
@@ -1013,7 +1013,7 @@
             url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/malha_cadastral_raster/MapServer/',
             pane: 'nivel_basemap',
             minZoom: 15,
-            maxZoom: 19,
+            maxZoom: 20,
             opacity: 0.40,
             f: 'image',
             format: 'png8'
