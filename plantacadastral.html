@@ -369,6 +369,17 @@
                 <hr>
                 <p><small>Estudo conceitual.</small></p>
             </div>
+            <h3 class='titulobarra'>Malha cicloviária</h3>
+            <div>
+                <p>
+                    <center>
+                        <div id="valoresciclo"></div>
+                    </center>
+                </p>
+                <hr>
+                <p>Legenda:</p>
+                <img src="images/cicloviaria.svg" style="width:140px;">
+            </div>
             <h3 class='titulobarra'>Parcelamento do solo</h3>
             <div>
                 <center>
@@ -1087,6 +1098,8 @@
         }).addTo(mapa);
 
         //#camadas, barra lateral
+        let cicloviario_chk = false;
+        let cicloviario = L.featureGroup();
         let detpropostas_chk = false;
         let detpropostas = L.featureGroup();
         let plantaZoneamento_chk = false;
@@ -1305,6 +1318,8 @@
 
         };
 
+
+        // Propostas intervenções viárias
         const camada_propostas = () => {
             detpropostas_chk = true;
 
@@ -1312,7 +1327,6 @@
                 url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/propostainterv_view/FeatureServer/0/',
                 fields: ['tipoint', 'objectid', 'secao', 'ciclo'],
                 precision: 6,
-                pane: 'marker_overlay',
                 style: (feature) => {
                     //cor
                     let colinha;
@@ -1332,13 +1346,84 @@
                 },
                 pane: 'nivel_marcadores'
             }).addTo(detpropostas).on('click', function (e) {
-                console.log(e);
                 let props = e.layer.feature.properties;
                 let popupContent = `<strong>Tipo de Intervenção:</strong> ${props.tipoint}<br><strong>ID:</strong> ${props.objectid}`;
                 e.layer.bindPopup(popupContent).openPopup();
             });
 
             mapa.addLayer(detpropostas);
+        };
+
+        // Cicloviário
+        const camada_cicloviaria = () => {
+            cicloviario_chk = true;
+
+            // Função para definir o estilo da camada com base nas propriedades
+            function estiloCicloviario(feature) {
+                const { plan, tipo } = feature.properties;
+
+                if (plan === "existentes") {
+                    switch (tipo) {
+                        case "ciclovia":
+                            return { color: "darkgreen", weight: 3, dashArray: null };
+                        case "ciclofaixa":
+                            return { color: "darkred", weight: 3, dashArray: null };
+                        case "compartilhada":
+                            return { color: "darkblue", weight: 3, dashArray: null };
+                    }
+                }
+                // Estilo padrão para outros casos
+                return { color: "yellow", weight: 3, dashArray: "15, 15", opacity: 0.8 };
+            }
+
+            L.esri.featureLayer({
+                url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/cicloviario_view/FeatureServer/0/',
+                fields: ['tipo', 'objectid', 'plan'],
+                precision: 6,
+                style: estiloCicloviario,
+                pane: 'nivel_marcadores'
+            }).addTo(cicloviario).on('click', function (e) {
+                let props = e.layer.feature.properties;
+                let popupContent = `<strong>Tipo de Intervenção:</strong> ${props.tipoint}<br><strong>ID:</strong> ${props.objectid}`;
+                e.layer.bindPopup(popupContent).openPopup();
+            });
+
+            mapa.addLayer(cicloviario);
+
+            // Valores
+            const camadaValores = L.esri.featureLayer({
+                url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/cicloviario_valores/FeatureServer/0/',
+                fields: ['etapa', 'objectid', 'comprimento']
+            });
+
+            camadaValores.query().where("1=1").run((error, featureCollection) => {
+                if (error) {
+                    console.error("Erro ao obter dados:", error);
+                    return;
+                }
+
+                // Inicializando variáveis
+                let totalExistente = 0;
+                let totalPlanejada = 0;
+
+                // Percorrendo os registros para separar valores
+                featureCollection.features.forEach(feature => {
+                    const props = feature.properties;
+                    const comprimento = parseFloat(props.comprimento);
+
+                    if (props.etapa === "existentes") {
+                        totalExistente += comprimento;
+                    } else {
+                        totalPlanejada += comprimento;
+                    }
+                });
+
+                // Atualizando o conteúdo do div com id "valoresciclo"
+                document.getElementById("valoresciclo").innerHTML = `
+            <p style="font-size: 0.8em;">- Existente: ${Math.round(totalExistente)} km</p>
+            <p style="font-size: 0.8em;">- Planejada: ${Math.round(totalPlanejada)} km</p>`;
+            });
+
         };
 
         // parcelamento do solo
@@ -1504,6 +1589,9 @@
             if (parcelamentodosolo_chk && mapa.hasLayer(parcelamentodosolo)) {
                 mapa.removeLayer(parcelamentodosolo);
             }
+            if (cicloviario_chk && mapa.hasLayer(cicloviario)) {
+                mapa.removeLayer(cicloviario);
+            }
             loteresultado = true;
             table.setColumns(colunaspadrao);
             table.setData();
@@ -1530,6 +1618,16 @@
                     camada_propostas();
                 } else {
                     mapa.addLayer(detpropostas);
+                }
+            }
+            else if (
+                ui.newHeader["0"].textContent === 'Malha cicloviária'
+            ) {
+                limparcamadas();
+                if (cicloviario_chk == false) {
+                    camada_cicloviaria();
+                } else {
+                    mapa.addLayer(cicloviario);
                 }
             }
             else if (
