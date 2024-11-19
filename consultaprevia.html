@@ -202,7 +202,7 @@
             <div id="sobrezHist"></div>
             <div id="patrimonioHistorico"></div>
             <div id="intervViaria"></div>
-            <div id="lnpreamar"></div>
+            <!-- <div id="lnpreamar"></div> -->
             <div id="obs1"></div>
             <div id="obs2"></div>
             <div id="obs3"></div>
@@ -505,7 +505,7 @@
                 "altura_max": "vias de até 7,99 m: 19,4m<br>vias de 8 à 8,99 m: 37,4m<br>vias de 9 à 12m: 67,4m + ático<br>vias de 12,01 à 15m: 105 m<br>vias > 15m: 105m<br>Observação:.*1 ",
                 "altura_emb": "12,80 m",
                 "ca_total": "6",
-                "ca_basico": "3",
+                "ca_basico": "3,5",
                 "outorga_on": "2,5",
                 "fator_contr": "0,2",
                 "transf_ind": "-",
@@ -1304,9 +1304,9 @@
                             document.getElementById('intervViaria').innerHTML = `<hr> &#x2713; Solicitar parecer Diretoria de Mobilidade Urbana, Secr.Municipal de Desenv.Urbano e Habitação no <strong> email:smu@itajai.sc.gov.br</strong>`;
                         }
 
-                        if (proprLote.lnpreamar == "-1") {
-                            document.getElementById('lnpreamar').innerHTML = `<hr> &#x2713; <strong>LOTE EM TERRENO DE MARINHA</strong>, exigência de autorização/inscrição de ocupação junto à SPU e parecer prévio do IBAMA`;
-                        }
+                        //if (proprLote.lnpreamar == "-1") {
+                        //    document.getElementById('lnpreamar').innerHTML = `<hr> &#x2713; <strong>LOTE EM TERRENO DE MARINHA</strong>, exigência de autorização/inscrição de ocupação junto à SPU e parecer prévio do IBAMA`;
+                        //}
 
                         if (proprLote.esgoto == "-1") {
                             document.getElementById('esgoto').innerHTML = `<hr> &#x2713; Lote apresenta potencial para ligação à rede de coleta de esgoto. Para mais informações, consulte: <a href="https://semasaitajai.com.br/?modo=publicacao&tipo=noticia&codigo=2449" target="_blank">SEMASA</a> e <a href="https://arcgis.itajai.sc.gov.br/portal/apps/webappviewer/index.html?id=b61494c7c5274f4bb7d45af523709c3f" target="_blank">MAPA REDE ESGOTO</a>`;
