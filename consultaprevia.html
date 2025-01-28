@@ -1313,17 +1313,18 @@
                         } else {
                             document.getElementById('esgoto').innerHTML = `<hr> Lote não está habilitado para ligação a rede de coleta de esgoto. Para mais informações, consulte: <a href="https://semasaitajai.com.br/?modo=publicacao&tipo=noticia&codigo=2449" target="_blank">SEMASA</a> e <a href="https://arcgis.itajai.sc.gov.br/portal/apps/webappviewer/index.html?id=b61494c7c5274f4bb7d45af523709c3f" target="_blank">MAPA REDE ESGOTO</a>`;
                         }
-
-
-                        console.log(proprLote)
                     }
 
                     else if (proprLote['conflito'] == 'caucionado') {
                         document.getElementById('tabelaZonas').innerHTML = '<br><strong>LOTE CAUCIONADO, <BR>SECRETARIA MUNICIPAL DE DESENVOLVIMENTO URBANO E HABITAÇÃO</strong>';
                         document.getElementById('mapa').innerHTML = '';
                     }
-                    else {
+                    else if (proprLote['conflito'] == 's') {
                         document.getElementById('tabelaZonas').innerHTML = '<br><strong>CONFLITO CONFRONTANTES, <BR>PROCURAR A SECRETARIA MUNICIPAL DE DESENVOLVIMENTO URBANO E HABITAÇÃO</strong>';
+                        document.getElementById('mapa').innerHTML = '';
+                    }
+                    else {
+                        document.getElementById('tabelaZonas').innerHTML = '<br><strong>' + proprLote['conflito'] + '</strong>';
                         document.getElementById('mapa').innerHTML = '';
                     };
                 });
