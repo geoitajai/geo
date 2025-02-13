@@ -228,6 +228,9 @@
                     atributos = JSON.parse(xhr.responseText).features[0].attributes;
 
                     let classzoneamento = atributos.nzonaslista;
+                    let classzoneamentoalv = atributos.zon_alv;
+
+                    console.log(atributos)
                     cadastro.where(`inscrlig ='${dados[1]}'`)
                         .limit(1)
                         .run(function (error, cadastrolote) {
@@ -279,7 +282,7 @@
                                         </tr>
                                         <tr>
                                           <td>Zoneamento: </td>
-                                          <td>${classzoneamento}</td>
+                                          <td>${classzoneamento} - <small>(${classzoneamentoalv})</small></td>
                                         </tr>
                                     </table>`;
                             document.getElementById("informacoes").innerHTML = htmlcabecalho;
