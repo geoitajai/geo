@@ -5,13 +5,14 @@
     <meta charset="UTF-8">
     <title>Consulta Prévia - Secretaria de Desenvolvimento Urbano e Habitação - Itajaí-SC</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Favicons -->
     <link rel="icon" type="image/png" href="images/favicon-96x96.png" sizes="96x96">
     <link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16">
     <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32">
-    <!-- leaflet -->
+    <!-- Leaflet -->
     <script src="lib/leaflet/leaflet.js"></script>
     <link href="lib/leaflet/leaflet.css" rel="stylesheet">
-    <!-- esri leaflet -->
+    <!-- Esri Leaflet -->
     <script src="lib/leaflet/esri-leaflet.js"></script>
     <script src="lib/leaflet/esri-leaflet-vector.js"></script>
     <style>
@@ -22,11 +23,9 @@
 
         body {
             font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
+            margin: 1cm auto;
             width: 200mm;
             height: 277mm;
-            margin: 1cm auto;
             border: 1px solid black;
             box-sizing: border-box;
             display: flex;
@@ -72,14 +71,27 @@
         }
 
         .linha1 {
-            height: 0.9cm;
+            height: 1.4cm;
+        }
+
+        .linha2 {
+            height: 23cm;
+        }
+
+        .linha3 {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 0.1cm;
+        }
+
+        .linha4 {
+            height: calc(277mm - 27.3cm);
         }
 
         .cabecalho-esquerda {
             width: calc(200mm - 6cm);
             margin-left: 0.1cm;
             margin-top: 0.1cm;
-            display: block;
         }
 
         .cabecalho-esquerda>div {
@@ -97,20 +109,6 @@
         .cabecalho-direita {
             width: 6cm;
             margin-right: 0.2cm;
-        }
-
-        .linha2 {
-            height: 16.8cm;
-        }
-
-        .linha3 {
-            height: 10.2cm;
-            display: flex;
-            justify-content: space-between;
-        }
-
-        .linha4 {
-            height: calc(277mm - 27.3cm);
         }
 
         .espaco-esquerda {
@@ -163,6 +161,7 @@
 
 <body>
     <button class="botao-imprimir" onclick="window.print();">Imprimir/Salvar</button>
+
     <div class="linha linha1">
         <div class="cabecalho-esquerda">
             <div style="font-size: 14px; font-weight: bold;">CONSULTA PRÉVIA AO ZONEAMENTO</div><br>
@@ -171,29 +170,34 @@
             <div id="dataEmissao">Data:</div>
         </div>
         <div class="cabecalho-direita">
-            <img src="images/logo_urb.png" alt="Logo Urb" style="height: 0.8cm; float: right; margin-top: 0.02cm">
+            <img src="images/logo_urb.png" alt="Logo Urb" style="height: 0.8cm; float:right; margin-top: 0.02cm">
         </div>
     </div>
+
     <div class="linha linha2">
         <div id="tabelaZonas"></div>
     </div>
+
     <div class="linha linha3">
         <div class="espaco-esquerda">
-            Em caso de utilização da permeabilidade induzida deverá ser considerado uma acréscimo de 20% sobre a taxa
+            Em caso de utilização da permeabilidade induzida deverá ser considerado um acréscimo de 20% sobre a taxa
             indicada na tabela.
             <hr>
             O requerente deverá informar a existência de mobiliário urbano, valas, ribeirões, rio, nascentes,
-            dutoviários (gasodutos, oleoduto...) e ou redes de alta tensão. Passíveis de licentiamento ou autorização
-            ambiental (resoluções CONSEMA/CONDEMA): - Edificação acima de 09 unidades e ou acima de 2000m²; - Ribeirões,
-            rios e nascentes consultar Instituto Itajaí Sustentável.
+            dutoviários
+            (gasodutos, oleoduto...) e/ou redes de alta tensão. Passíveis de licenciamento ou autorização ambiental
+            (resoluções CONSEMA/CONDEMA): - Edificação acima de 09 unidades e/ou acima de 2000m²; - Ribeirões, rios e
+            nascentes consultar Instituto Itajaí Sustentável.
             <hr>
-            Lotes com mais de uma testada para via pública, caixa da via e passeio específico para cada
+            Lotes com mais de uma testada para via pública: caixa da via e passeio específico para cada
             via. Caso os dados da largura da via ou passeios estejam incompletos ou discrepantes com a situação do
-            local, procurar a SECR.DESENV.URBANO E HAB. <strong>Lotes com confrontações para rodovias estaduais ou
-                federais, necessário parecer Secret.de Estado da Infraestrutura e Mobilidade (www.sie.sc.gov.br) e ou
-                ARTERIS Litoral Sul (www.arteris.com.br).</strong><br>
+            local,
+            procurar a SECR. DESENV. URBANO E HAB.
+            <strong>Lotes com confrontações para rodovias estaduais ou federais, necessário parecer Secretaria de Estado
+                da
+                Infraestrutura (www.sie.sc.gov.br) e/ou ARTERIS (www.arteris.com.br).</strong>
             <hr>
-            Ao norte da Av. Adolfo Konder, Heitor Liberato e Rua Silva a Altura Máxima é de 55m, devido ao cone de
+            Ao norte da Av. Adolfo Konder, Heitor Liberato e Rua Silva, a Altura Máxima é de 55m, devido ao cone de
             aproximação do aeroporto, salvo casos com autorização do COMAER.
             <hr>
             <strong><u>PAUTA VIÁRIA:</u></strong>
@@ -212,41 +216,42 @@
             <div id="obs7"></div>
             <div id="esgoto"></div>
         </div>
+
         <div class="espaco-direita">
             <div class="espaco-direita-superior">
                 <div id="mapa"></div>
             </div>
             <div class="espaco-direita-inferior">
-                <center><strong>Atividades permissíveis deverão ser submetidas a análise
-                        a Secr.Municipal de Desenv.Urbano e Habitação</strong></center>
+                <center><strong>Atividades permissíveis deverão ser submetidas à análise da Secr. Municipal de Desenv.
+                        Urbano e Habitação</strong></center>
             </div>
         </div>
     </div>
+
     <div class="linha linha4">
         <div style="margin-left: 0.2cm; margin-top: 0.05cm;">
-            <strong>Esta consulta não constinui o direito de propriedade e ou
-                construção, parâmetros sujeitos a
-                revisão pelo processo de aprovação,</strong>
+            <strong>Esta consulta não constitui o direito de propriedade e/ou construção, parâmetros sujeitos a revisão
+                pelo processo de aprovação,</strong>
             <a href="https://intranet2.itajai.sc.gov.br/public/jornal-municipio/jornais/jornal_2024_2785_2760.pdf"
-                target="_blank">Edição 2785</a>, <a
-                href="https://intranet2.itajai.sc.gov.br/public/jornal-municipio/jornais/jornal_2024_2786_2761.pdf"
-                target="_blank">Edição 2786</a>, <a
-                href="https://arcgis.itajai.sc.gov.br/portal/apps/experiencebuilder/experience/?id=d7a0eb954ebe419f826a3a39e25e12dc"
+                target="_blank">Edição 2785</a>,
+            <a href="https://intranet2.itajai.sc.gov.br/public/jornal-municipio/jornais/jornal_2024_2786_2761.pdf"
+                target="_blank">Edição 2786</a>,
+            <a href="https://arcgis.itajai.sc.gov.br/portal/apps/experiencebuilder/experience/?id=d7a0eb954ebe419f826a3a39e25e12dc"
                 target="_blank">Instr.normativas</a>
         </div>
     </div>
 
     <script>
-        //Data atual
+        // Data atual
         const hoje = new Date();
 
-        //safari mobile
+        // Safari Mobile
         function isSafariMobile() {
             var ua = navigator.userAgent;
             var isSafari = /^((?!chrome|android).)*safari/i.test(ua);
             var isMobile = /iPhone|iPad|iPod/i.test(ua);
             return isSafari && isMobile;
-        };
+        }
 
         window.onload = function () {
             if (isSafariMobile()) {
@@ -254,75 +259,66 @@
             }
         };
 
-        //Formata a data como "dia/mês/ano"
+        // Formata a data como "dia/mês/ano"
         const dataFormatada = hoje.getDate().toString().padStart(2, '0') + '/' +
             (hoje.getMonth() + 1).toString().padStart(2, '0') + '/' +
             hoje.getFullYear();
 
-        //Mapa
+        // Criação do mapa
         let mapa = new L.Map('mapa', {
             zoom: 14,
             minZoom: 12,
             maxZoom: 19,
             maxBounds: [
-                //south west
                 [-27.3000, -49.2300],
-                //north east
                 [-26.3285, -48.3200]
             ],
             center: new L.latLng([-26.9046, -48.6874]),
-            //zoomControl: false,
             preferCanvas: true,
             attributionControl: false,
             scrollWheelZoom: false,
             dragging: false
         });
 
-        //barra escala
-        L.control.scale({
-            position: "topright",
-            imperial: false
-        }).addTo(mapa);
+        // Barra de escala
+        L.control.scale({ position: "topright", imperial: false }).addTo(mapa);
 
-        //Norte
-        let nortemapa = L.control({
-            position: 'topright'
-        });
-        nortemapa.onAdd = function (map) {
+        // Indicação de norte
+        let nortemapa = L.control({ position: 'topright' });
+        nortemapa.onAdd = function () {
             let div = L.DomUtil.create('div', 'info2 legend');
-            div.innerHTML +=
-                '<center><sub><font size="4">▲</font></sub><br/>' +
-                '<sup><font size="2">N</font></sup></center>'
+            div.innerHTML += '<center><sub><font size="4">▲</font></sub><br/><sup><font size="2">N</font></sup></center>';
             return div;
         };
         nortemapa.addTo(mapa);
 
-        //mapas base
+        // Panes
         mapa.createPane('basePane');
         mapa.createPane('zonePane');
         mapa.getPane('basePane').style.zIndex = 200;
         mapa.getPane('zonePane').style.zIndex = 400;
 
-
-        //Mapa base, SMU
+        // Mapa base (SMU)
         let basemap = L.esri.Vector.vectorTileLayer("7a110ef9198540068341e6908c6bf298", {
             portalUrl: "https://arcgis.itajai.sc.gov.br/portal",
             pane: 'basePane'
         }).addTo(mapa);
 
-        //Zoneamento
+        // Layer de zoneamento
         let zon2024 = new L.TileLayer(
-            'https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/tiles/tiles_zoneamento_2024/{z}/{x}/{y}.png', {
-            minZoom: 10,
-            maxZoom: 19,
-            opacity: 0.4,
-            pane: 'zonePane'
-        }).addTo(mapa);
-
+            'https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/tiles/tiles_zoneamento_2024/{z}/{x}/{y}.png',
+            {
+                minZoom: 10,
+                maxZoom: 19,
+                opacity: 0.4,
+                pane: 'zonePane'
+            }
+        ).addTo(mapa);
         zon2024.setZIndex(2000);
 
         let plantaCadastralDestaque = L.featureGroup().addTo(mapa);
 
+        // Tabela de parâmetros
         const tabelaZon = {
             "ZI": {
                 "denom": "Zona Industrial",
@@ -986,22 +982,22 @@
             }
         };
 
-        //Dados ArcGIS
+
+        // Dados do ArcGIS
         let cadastroimoveispts = L.esri.query({
-            //url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/imoveis_plantacadastral/FeatureServer/0/'
             url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/malhacrs3857/FeatureServer/0/'
         });
 
         let classzoneamento = L.esri.query({
-            //url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/imoveis_plantacadastral/FeatureServer/0/'
             url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/panta_cadastral_consulta_previa/FeatureServer/0/'
         });
 
         hashendereco = (hashinscricao) => {
             let inscricaowhereimovel = `inscrlig='${hashinscricao}'`;
 
-            //dados lote
-            cadastroimoveispts.where(inscricaowhereimovel)
+            // Consulta dados do lote
+            cadastroimoveispts
+                .where(inscricaowhereimovel)
                 .returnGeometry(false)
                 .run((error, fcol) => {
                     document.getElementById('inscrImob').textContent = `Inscrição: ${fcol.features[0].properties.inscricao}`;
@@ -1009,18 +1005,15 @@
                     document.getElementById('dataEmissao').textContent = `Data: ${dataFormatada}`;
                 });
 
-            //dados consulta prévia e mapa
-            classzoneamento.where(inscricaowhereimovel)
+            // Consulta dados de zoneamento e desenha no mapa
+            classzoneamento
+                .where(inscricaowhereimovel)
                 .run((error, fcol) => {
-
-                    proprLote = fcol.features[0].properties
+                    let proprLote = fcol.features[0].properties;
 
                     if (proprLote['conflito'] == 'n') {
+                        let zonasArray = proprLote.nzonaslista.split(", ").map(z => z.trim());
 
-                        //Converte a string de nomes de zonas em um array
-                        let zonasArray = proprLote.nzonaslista.split(", ").map(zona => zona.trim());
-
-                        //Filtra tabelaZon para incluir apenas as zonas encontradas em zonasArray
                         let zonasLote = Object.keys(tabelaZon)
                             .filter(chave => zonasArray.includes(chave))
                             .reduce((obj, chave) => {
@@ -1028,7 +1021,7 @@
                                 return obj;
                             }, {});
 
-                        (() => {
+                        (function () {
                             Object.keys(zonasLote).forEach(zona => {
                                 let zonaMin = zona.toLowerCase();
                                 if (proprLote[zonaMin] !== undefined) {
@@ -1037,23 +1030,23 @@
                             });
                         })();
 
-                        function criarTabelaZonas(zonasLote) {
+                        function criarTabelaZonas(zonas) {
                             const descricoes = {
                                 areaZona: "área(estimada)",
-                                usos_permitidos: '<div title="-H1: Hab.Unifamiliar, -H2: Hab.Multifamiliar, -CO: Comunitário, -CS: Comércio e Serviço, -CS1: Com.e Serv.(até 200m²), -CS2: Com.e Serv.(até 750m²), -CS3: Com.e Serv.(área superior 1000m²), -I: Industrial, -CSA: Agropecuário, -CSMV: Extrativista, -CSE: Com.Serv.e Usos Específicos"><strong>Usos Permitidos</strong></div>',
-                                usos_permissiveis: '<div title="-H1: Hab.Unifamiliar, -H2: Hab.Multifamiliar, -CO: Comunitário, -CS: Comércio e Serviço, -CS1: Com.e Serv.(até 200m²), -CS2: Com.e Serv.(até 750m²), -CS3: Com.e Serv.(área superior 1000m²), -I: Industrial, -CSA: Agropecuário, -CSMV: Extrativista, -CSE: Com.Serv.e Usos Específicos"><strong>Usos Permissíveis</strong></div>',
-                                usos_proibidos: '<div title="-H1: Hab.Unifamiliar, -H2: Hab.Multifamiliar, -CO: Comunitário, -CS: Comércio e Serviço, -CS1: Com.e Serv.(até 200m²), -CS2: Com.e Serv.(até 750m²), -CS3: Com.e Serv.(área superior 1000m²), -I: Industrial, -CSA: Agropecuário, -CSMV: Extrativista, -CSE: Com.Serv.e Usos Específicos"><strong>Usos Proibidos</strong></div>',
-                                altura_max: "<strong>Altura Máxima</strong><br>Ao norte da<br>Av. Adolfo Konder,<br>Heitor Liberato e<br>Rua Silva a<br>alt.máxima é de 55m,<br>salvo com aut.COMAER.</strong>",
-                                altura_emb: '<div title="Art.125 - A altura do embasamento será medida a partir do nível do piso térreo até o nível da cobertura do último piso do embasamento de acordo com o Anexo 3 desta lei. Parágrafo único. Os equipamentos como, caixa d’água, casa de máquinas, e similares, quando localizados acima da altura máxima definida para o embasamento por esta lei, deverão respeitar os recuos e afastamentos exigidos para a parte da edificação definida como torre de acordo com a legislação municipal."><strong>Alt.Máx.Emb.</strong>(Art.125)</div>',
-                                ca_basico: "<strong>Coef.de Aproveitamento</strong>",
-                                ca_total: "<strong>Coef.Aprov.c/Outorga</strong>",
+                                usos_permitidos: '<div title="-H1: Hab.Unifamiliar, -H2: Hab.Multifamiliar, -CO: Comunitário, -CS: Comércio e Serviço, -CS1: até 200m², -CS2: até 750m², -CS3: >1000m², -I: Industrial, -CSA: Agropecuário, -CSMV: Extrativista, -CSE: Uso Específico"><strong>Usos Permitidos</strong></div>',
+                                usos_permissiveis: '<div title="Mesma legenda acima"><strong>Usos Permissíveis</strong></div>',
+                                usos_proibidos: '<div title="Mesma legenda acima"><strong>Usos Proibidos</strong></div>',
+                                altura_max: "<strong>Altura Máxima</strong><br>Ao norte da Av. Adolfo Konder,<br>Heitor Liberato e Rua Silva,<br>máx. 55m salvo COMAER.",
+                                altura_emb: '<div title="Art.125 do plano diretor"><strong>Alt.Máx.Emb.</strong></div>',
+                                ca_basico: "<strong>Coef. de Aprovet. Básico</strong>",
+                                ca_total: "<strong>Coef. c/ Outorga</strong>",
                                 fator_contr: "<strong>Fator de Contribuição</strong>",
                                 transf_ind: "<strong>Transferência de Índice</strong>",
-                                to_base: "<strong>Taxa de Ocup.da Base</strong>",
-                                to_torre: "<strong>Taxa de Ocup.da Torre</strong>",
+                                to_base: "<strong>Taxa de Ocup. da Base</strong>",
+                                to_torre: "<strong>Taxa de Ocup. da Torre</strong>",
                                 permeab: "<strong>Taxa de Permeabilidade</strong>",
-                                recuo_emb: "<strong>Recuo do<br>Embasamento</strong><br>(a partir do meio fio)",
-                                recuo_f_torre: "<strong>Recuo Frontal Torre</strong><br>(a partir do meio fio)",
+                                recuo_emb: "<strong>Recuo do Embasamento</strong>",
+                                recuo_f_torre: "<strong>Recuo Frontal Torre</strong>",
                                 recuo_l_f_torre: "<strong>Recuo Lateral e<br>Fundos Torre</strong>",
                                 lote_min: "<strong>Lote Mínimo</strong>",
                                 test_min: "<strong>Testada Mínima</strong>",
@@ -1061,165 +1054,73 @@
                             };
 
                             let css = `<style>
-                            #tabelaZonas {
-                                display: block;
-                                width: 200mm;
-                                max-width: 200;
-                                overflow: hidden;
-                                font-size: 9px;
-                            }
-
-                            #tabelaZonas table {
-                                border-collapse: collapse;
-                                width: 100%;
-                                table-layout: fixed;
-                            }
-
-                            #tabelaZonas th,
-                            #tabelaZonas td {
-                                border: 1px solid black;
-                                border-top: none;
-                                overflow: hidden;
-                                text-align: left;
-                                white-space: nowrap;
-                            }
-
-                            #tabelaZonas th:first-child,
-                            #tabelaZonas td:first-child {
-                                width: 28mm;
-                                border-left: none;
-                                text-align: center;
-                            }
-
-                            #tabelaZonas tr:last-child td,
-                            #tabelaZonas tr:last-child th {
-                                border-bottom: none;
-                            }
-
-                            #tabelaZonas th:last-child,
-                            #tabelaZonas td:last-child {
-                                border-right: none;
-                            }
-
-                            #tabelaZonas th:not(:first-child),
-                            #tabelaZonas td:not(:first-child) {
-                                width: calc((172mm) / $ {
-                                        Object.keys(zonasLote).length
-                                    });
-                            }
-
-                            #tabelaZonas tr:nth-child(even) {
-                                background-color: #f2f2f2;
-                            }
-
-                            .linha-areaZona {
-                                height: 10px;
-                            }
-
-                            .linha-usos_permitidos {
-                                height: 25px;
-                            }
-
-                            .linha-usos_permissiveis {
-                                height: 10px;
-                            }
-
-                            .linha-usos_proibidos {
-                                height: 10px;
-                            }
-
-                            .linha-altura_max {
-                                height: 78px;
-                            }
-
-                            .linha-altura_emb {
-                                height: 22px;
-                            }
-
-                            .linha-ca_basico {
-                                height: 10px;
-                            }
-
-                            .linha-ca_total {
-                                height: 10px;
-                            }
-
-                            .linha-fator_contr {
-                                height: 10px;
-                            }
-
-                            .linha-transf_ind {
-                                height: 10px;
-                            }
-
-                            .linha-to_base {
-                                height: 10px;
-                            }
-
-                            .linha-to_torre {
-                                height: 10px;
-                            }
-
-                            .linha-permeab {
-                                height: 10px;
-                            }
-
-                            .linha-recuo_emb {
-                                height: 135px;
-                            }
-
-                            .linha-recuo_f_torre {
-                                height: 55px;
-                            }
-
-                            .linha-recuo_l_f_torre {
-                                height: 73px;
-                            }
-
-                            .linha-lote_min {
-                                height: 10px;
-                            }
-
-                            .linha-test_min {
-                                height: 10px;
-                            }
-
-                            .linha-prof_min {
-                                height: 10px;
-                            }
-                            </style>`;
+                #tabelaZonas {
+                  display: block;
+                  width: 200mm;
+                  overflow: hidden;
+                  font-size: 9px;
+                }
+                #tabelaZonas table {
+                  border-collapse: collapse;
+                  width: 100%;
+                  table-layout: fixed;
+                }
+                #tabelaZonas th,
+                #tabelaZonas td {
+                  border: 1px solid black;
+                  border-top: none;
+                  text-align: left;
+                  white-space: nowrap;
+                  overflow: hidden;
+                }
+                #tabelaZonas th:first-child,
+                #tabelaZonas td:first-child {
+                  width: 32mm;
+                  border-left: none;
+                  text-align: center;
+                }
+                #tabelaZonas tr:last-child td,
+                #tabelaZonas tr:last-child th {
+                  border-bottom: none;
+                }
+                #tabelaZonas th:last-child,
+                #tabelaZonas td:last-child {
+                  border-right: none;
+                }
+                #tabelaZonas th:not(:first-child),
+                #tabelaZonas td:not(:first-child) {
+                  width: calc((172mm) / ${Object.keys(zonas).length});
+                }
+                #tabelaZonas tr:nth-child(even) {
+                  background-color: #f2f2f2;
+                }
+              </style>`;
 
                             let tabela = "<table><thead><tr><th>Nome Zona</th>";
-
-                            Object.keys(zonasLote).forEach(zona => {
-                                tabela += `<th>${zona}</th>`;
-                            });
-
+                            Object.keys(zonas).forEach(z => { tabela += `<th>${z}</th>`; });
                             tabela += "</tr></thead><tbody>";
 
-                            Object.keys(descricoes).forEach(chave => {
+                            Object.keys(descricoes).forEach(ch => {
                                 tabela += `<tr>`;
-                                tabela += `<td class="linha-${chave}"><div>${descricoes[chave]}</div></td>`;
-                                Object.keys(zonasLote).forEach(zona => {
-                                    let valor = zonasLote[zona][chave] || '';
-                                    tabela += `<td class="linha-${chave}"><div>${valor}</div></td>`;
+                                tabela += `<td>${descricoes[ch]}</td>`;
+                                Object.keys(zonas).forEach(z => {
+                                    let valor = zonas[z][ch] || '';
+                                    tabela += `<td>${valor}</td>`;
                                 });
                                 tabela += `</tr>`;
                             });
 
                             tabela += "</tbody></table>";
-
                             document.getElementById('tabelaZonas').innerHTML = css + tabela;
                         }
 
                         criarTabelaZonas(zonasLote);
 
-                        //adicionar lote
+                        // Adiciona polígono do lote
                         L.geoJson(fcol.features[0], {
                             style: {
                                 weight: 5,
                                 color: '#666',
-                                dashArray: '',
                                 fillOpacity: 0.7,
                                 interactive: false
                             }
@@ -1227,24 +1128,19 @@
 
                         let zoomIdealMenosUm = mapa.getBoundsZoom(plantaCadastralDestaque.getBounds()) - 1;
                         let maxZoomAplicado = Math.min(zoomIdealMenosUm, 19);
-                        mapa.flyToBounds(plantaCadastralDestaque.getBounds(), {
-                            maxZoom: maxZoomAplicado
-                        });
+                        mapa.flyToBounds(plantaCadastralDestaque.getBounds(), { maxZoom: maxZoomAplicado });
 
+                        // Monta a pauta viária
                         (function () {
                             let conteudo = '';
                             let viaAdicionada = false;
-
                             for (let i = 1; i <= 6; i++) {
                                 let nome = proprLote[`t${i}nome`];
                                 let largura = proprLote[`t${i}largura`];
                                 let passeiod = proprLote[`t${i}passeiod`];
                                 let passeioe = proprLote[`t${i}passeioe`];
-
                                 if (!nome || !largura || !passeiod || !passeioe) continue;
-
                                 viaAdicionada = true;
-
                                 conteudo += `<strong>${nome}</strong>-Cx.da via:${largura}-Passeios:${passeiod}/${passeioe}`;
                                 if (i < 6 && proprLote[`t${i + 1}nome`]) {
                                     conteudo += ', ';
@@ -1256,86 +1152,73 @@
                             if (!viaAdicionada) {
                                 conteudo = "&#x2713; Verificar confrontantes com a Secretaria de Urbanismo";
                             }
-
                             document.getElementById('pauta').innerHTML = conteudo;
                         })();
 
+                        // Observações específicas
                         if (proprLote.nzonaslista.includes('ZCA3')) {
-                            document.getElementById('obs1').innerHTML = '<hr> &#x2713; Somente poderão utilizar os parâmetros urbanísticos de ZCA 3 os empreendimentos que estiverem voltados para ruas com CAIXAS DE VIA igual ou maior a 9 metros. Do contrário, prevalecem os parâmetros de ZCA 2';
+                            document.getElementById('obs1').innerHTML = '<hr> &#x2713; Somente poderão utilizar os parâmetros urbanísticos de ZCA3 os empreendimentos com caixa de via >= 9m; caso contrário, prevalecem ZCA2.';
                         }
-
                         if (proprLote.nzonaslista.includes('ZCA1')) {
-                            document.getElementById('obs5').innerHTML = '<hr> &#x2713; § 1º Na R.Samuel Heusi Jr, as edificações mais altas que 7,40m estão condicionadas ao recuo de 2 metros da calçada, permitindo assim estacionamento em 45 graus. § 2º As construções nos lotes da rua Samuel Heusi Jr, adjacentes à Igreja Santa Terezinha, terão altura máxima de 7,40m e deverão ser aprovados no CMPAT - Conselho Municipal de Patrimônio Cultural de Itajaí, considerando a paisagem formada pelo desenho arquitetônico da edificação, em relação a morraria e inclusive com uma edificação de estilo modernista, de histórico desenho, que é o hotel cabeçudas.';
+                            document.getElementById('obs5').innerHTML = '<hr> &#x2713; §1º Na Rua Samuel Heusi Jr, alturas >7,40m exigem recuo de 2m da calçada. §2º Nos lotes adjacentes à Igreja Santa Terezinha, altura máx. de 7,40m e aprovação no CMPAT.';
                         }
-
                         if (proprLote.nzonaslista.includes('ZRP2')) {
-                            document.getElementById('obs6').innerHTML = '<hr> &#x2713; § 1º Os Lotes situados na ZI entre a avenida Itaipava e a Rodovia Antonio Heil, poderão optar por utilizar os índices construtivos da ZRP2 ou ZI. § 2º As áreas do Rio do Meio mapeadas como ZRP2, por ser tratar de área de conexão entre as cidades de Itajaí e Camboriú, poderão optar por utilizar os índices construtivos da ZRP2 ou ZI';
+                            document.getElementById('obs6').innerHTML = '<hr> &#x2713; §1º Lotes da ZI entre a Av.Itaipava e Rod.A.Heil podem usar índices da ZRP2 ou ZI. §2º Áreas do Rio do Meio, ZRP2, podem usar ZRP2 ou ZI.';
                         }
-
                         if (proprLote.nzonaslista.includes('ZI')) {
-                            document.getElementById('obs7').innerHTML = '<hr> &#x2713; Os usos pré-existentes, tais como residências, comércios e serviços podem conviver com a ZI, sendo também permitida novas construções residenciais, independentemente de estarem ou não inseridas em projetos que englobem a atividade industrial ou correlata, desde que a área construtiva de cada edificação não seja superior a 250m²';
+                            document.getElementById('obs7').innerHTML = '<hr> &#x2713; Usos pré-existentes residenciais/comerciais podem conviver com a ZI, permitidas novas construções até 250m².';
                         }
-
                         if (proprLote.nzonaslista.includes('ZBS3') || proprLote.nzonaslista.includes('ZBS4')) {
-                            document.getElementById('obs2').innerHTML = '<hr> &#x2713; Nas ZBS3 e ZBS4, os asteriscos associados às maiores alturas máximas referem-se a empreendimentos em terrenos maiores de 3000 m²';
+                            document.getElementById('obs2').innerHTML = '<hr> &#x2713; Em ZBS3 e ZBS4, asteriscos de altura máxima referem-se a terrenos >3000m².';
                         }
-
                         if (proprLote.nzonaslista.includes('ZBS5') || proprLote.nzonaslista.includes('ZBS6') || proprLote.nzonaslista.includes('ZBP')) {
-                            document.getElementById('obs3').innerHTML = '<hr> &#x2713; Nas ZBS3 e ZBS4, os asteriscos associados às maiores alturas máximas referem-se a empreendimentos em terrenos maiores de 3000 m²';
+                            document.getElementById('obs3').innerHTML = '<hr> &#x2713; Em ZBS5, ZBS6 e ZBP, maiores alturas podem envolver transferência de índice.';
                         }
-
                         if (proprLote.nzonaslista.includes('ZBS5') || proprLote.nzonaslista.includes('ZMC3')) {
-                            document.getElementById('obs4').innerHTML = '<hr> &#x2713; Art.73 §3º O zoneamento ZMC 3 localizado entre a Av.Luci Canziani e o Morro Cortado, com exceção da faixa de 200 metros à leste da Rod.Osvaldo Reis, depende da homologação da cessão das áreas necessárias à criação do Parque da Lagoa do Cassino, caso contrário deverá ser considerada como ZBP';
+                            document.getElementById('obs4').innerHTML = '<hr> &#x2713; Art.73 §3º A ZMC3 entre Av.Luci Canziani e Morro Cortado depende de cessão de área p/Parque da Lagoa Cassino; se não, ZBP.';
                         }
-
                         if (proprLote.sobrezon !== "") {
                             document.getElementById('sobrezoneamento').innerHTML = `<hr> &#x2713; Lote sob o Sobrezoneamento ${proprLote.sobrezon}`;
                         }
-
                         if (proprLote.sobrezon == "Centro Histórico") {
-                            document.getElementById('sobrezHist').innerHTML = `§ 8º No Sobrezoneamento do Centro Histórico a taxa de ocupação do embasamento pode chegar a 100% (cem por cento), sendo que nos casos em que for preservada a fachada da edificação histórica, a taxa de ocupação da torre poderá chegar a 75% (setenta e cinco por cento) e o coeficiente de aproveitamento acrescido 0.5, desde que, seja no mesmo lote. ${proprLote.sobrezon}`;
+                            document.getElementById('sobrezHist').innerHTML = "§ 8º No Centro Histórico a taxa de ocupação do embasamento pode chegar a 100%. Se preservar fachada histórica, pode chegar a 75% de torre + CA acrescido 0.5.";
                         }
-
                         if (proprLote.edhist == "-1" || proprLote.sobrezon === "Centro Histórico") {
-                            document.getElementById('patrimonioHistorico').innerHTML = "<hr> &#x2713; Entorno Patrimônio Histórico, solicitar parecer Conselho Municip.Patrimônio Itajaí no<strong> email:cmpatrimonioitajai@gmail.com</strong>";
+                            document.getElementById('patrimonioHistorico').innerHTML = "<hr> &#x2713; Entorno de Patrimônio Histórico, solicitar parecer do CMPAT (<strong>cmpatrimonioitajai@gmail.com</strong>)";
                         }
-
                         if (proprLote.interven == "-1") {
-                            document.getElementById('intervViaria').innerHTML = `<hr> &#x2713; Solicitar parecer Diretoria de Mobilidade Urbana, Secr.Municipal de Desenv.Urbano e Habitação no <strong> email:smu@itajai.sc.gov.br</strong>`;
+                            document.getElementById('intervViaria').innerHTML = "<hr> &#x2713; Solicitar parecer da Diretoria de Mobilidade, Secr. Desenv. Urbano e Hab. (<strong>smu@itajai.sc.gov.br</strong>)";
                         }
-
-                        //if (proprLote.lnpreamar == "-1") {
-                        //    document.getElementById('lnpreamar').innerHTML = `<hr> &#x2713; <strong>LOTE EM TERRENO DE MARINHA</strong>, exigência de autorização/inscrição de ocupação junto à SPU e parecer prévio do IBAMA`;
-                        //}
-
+                        // if (proprLote.lnpreamar == "-1") {
+                        //   document.getElementById('lnpreamar').innerHTML = "<hr> &#x2713; LOTE EM TERRENO DE MARINHA, necessário autorização da SPU e parecer IBAMA.";
+                        // }
                         if (proprLote.esgoto == "-1") {
-                            document.getElementById('esgoto').innerHTML = `<hr> &#x2713; Lote apresenta potencial para ligação à rede de coleta de esgoto. Para mais informações, consulte: <a href="https://semasaitajai.com.br/?modo=publicacao&tipo=noticia&codigo=2449" target="_blank">SEMASA</a> e <a href="https://arcgis.itajai.sc.gov.br/portal/apps/webappviewer/index.html?id=b61494c7c5274f4bb7d45af523709c3f" target="_blank">MAPA REDE ESGOTO</a>`;
+                            document.getElementById('esgoto').innerHTML = `<hr> &#x2713; Lote com potencial para ligação na rede de esgoto. Consulte <a href="https://semasaitajai.com.br/?modo=publicacao&tipo=noticia&codigo=2449" target="_blank">SEMASA</a> e <a href="https://arcgis.itajai.sc.gov.br/portal/apps/webappviewer/index.html?id=b61494c7c5274f4bb7d45af523709c3f" target="_blank">MAPA REDE ESGOTO</a>.`;
                         } else {
-                            document.getElementById('esgoto').innerHTML = `<hr> Lote não está habilitado para ligação a rede de coleta de esgoto. Para mais informações, consulte: <a href="https://semasaitajai.com.br/?modo=publicacao&tipo=noticia&codigo=2449" target="_blank">SEMASA</a> e <a href="https://arcgis.itajai.sc.gov.br/portal/apps/webappviewer/index.html?id=b61494c7c5274f4bb7d45af523709c3f" target="_blank">MAPA REDE ESGOTO</a>`;
+                            document.getElementById('esgoto').innerHTML = `<hr> Lote não habilitado para rede de esgoto. Consulte <a href="https://semasaitajai.com.br/?modo=publicacao&tipo=noticia&codigo=2449" target="_blank">SEMASA</a> e <a href="https://arcgis.itajai.sc.gov.br/portal/apps/webappviewer/index.html?id=b61494c7c5274f4bb7d45af523709c3f" target="_blank">MAPA REDE ESGOTO</a>.`;
                         }
                     }
-
                     else if (proprLote['conflito'] == 'caucionado') {
-                        document.getElementById('tabelaZonas').innerHTML = '<br><strong>LOTE CAUCIONADO, <BR>SECRETARIA MUNICIPAL DE DESENVOLVIMENTO URBANO E HABITAÇÃO</strong>';
+                        document.getElementById('tabelaZonas').innerHTML = '<br><strong>LOTE CAUCIONADO,<br>PROCURAR A SECRETARIA MUNICIPAL DE DESENVOLVIMENTO URBANO E HABITAÇÃO</strong>';
                         document.getElementById('mapa').innerHTML = '';
                     }
                     else if (proprLote['conflito'] == 's') {
-                        document.getElementById('tabelaZonas').innerHTML = '<br><strong>CONFLITO CONFRONTANTES, <BR>PROCURAR A SECRETARIA MUNICIPAL DE DESENVOLVIMENTO URBANO E HABITAÇÃO</strong>';
+                        document.getElementById('tabelaZonas').innerHTML = '<br><strong>CONFLITO CONFRONTANTES,<br>PROCURAR A SECRETARIA MUNICIPAL DE DESENVOLVIMENTO URBANO E HABITAÇÃO</strong>';
                         document.getElementById('mapa').innerHTML = '';
                     }
                     else {
                         document.getElementById('tabelaZonas').innerHTML = '<br><strong>' + proprLote['conflito'] + '</strong>';
                         document.getElementById('mapa').innerHTML = '';
-                    };
+                    }
                 });
         };
 
-        //Hash
+        // Verifica se há hash na URL
         if (window.location.hash.length > 1) {
             hashendereco(window.location.hash.split('#')[1]);
         } else {
-            alert('http://plantacadastral.itajai.sc.gov.br/')
-        };
+            alert('http://plantacadastral.itajai.sc.gov.br/');
+        }
     </script>
 </body>
 
