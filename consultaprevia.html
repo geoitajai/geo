@@ -75,7 +75,7 @@
         }
 
         .linha2 {
-            height: 23cm;
+            height: 23.2cm;
         }
 
         .linha3 {
@@ -85,7 +85,7 @@
         }
 
         .linha4 {
-            height: calc(277mm - 27.3cm);
+            height: calc(279mm - 27.3cm);
         }
 
         .cabecalho-esquerda {
@@ -183,11 +183,14 @@
             Em caso de utilização da permeabilidade induzida deverá ser considerado um acréscimo de 20% sobre a taxa
             indicada na tabela.
             <hr>
-            O requerente deverá informar a existência de mobiliário urbano, valas, ribeirões, rio, nascentes,
-            dutoviários
-            (gasodutos, oleoduto...) e/ou redes de alta tensão. Passíveis de licenciamento ou autorização ambiental
-            (resoluções CONSEMA/CONDEMA): - Edificação acima de 09 unidades e/ou acima de 2000m²; - Ribeirões, rios e
-            nascentes consultar Instituto Itajaí Sustentável.
+            A concepção, localização, instalação, ampliação ou operação das atividades constantes nas listagens do Anexo
+            VI da Resolução CONSEMA n.º 250/2024 e do Anexo Único da Resolução CONSEMA n.º 251/2024, que atinjam os
+            critérios mínimos de porte estabelecidos, necessitam do licenciamento ambiental junto ao INIS. O corte de
+            vegetação nativa deve ser previamente autorizado pelo INIS.
+            Exemplos de atividades passíveis de licenciamento: Galpões logísticos com área útil maior que 10.000,00 m2,
+            condomínios comerciais com área edificada maior que 2.000,00 m2 e edifícios residenciais com mais do que 9
+            unidades habitacionais. Em caso de dúvidas, entrar em contato através do
+            email:<strong>licenciamentoambiental@itajai.sc.gov.br</strong>
             <hr>
             Lotes com mais de uma testada para via pública: caixa da via e passeio específico para cada
             via. Caso os dados da largura da via ou passeios estejam incompletos ou discrepantes com a situação do
@@ -199,6 +202,8 @@
             <hr>
             Ao norte da Av. Adolfo Konder, Heitor Liberato e Rua Silva, a Altura Máxima é de 55m, devido ao cone de
             aproximação do aeroporto, salvo casos com autorização do COMAER.
+            <hr>
+            <div id="ambiental"></div>
             <hr>
             <strong><u>PAUTA VIÁRIA:</u></strong>
             <div id="pauta">pauta</div>
@@ -1142,6 +1147,11 @@
                         })();
 
                         // Observações específicas
+                        if (proprLote.ambiental.length == 0) {
+                            document.getElementById('ambiental').innerHTML = 'Com base nos dados geoespaciais do Levantamento Aerofotogramétrico do Estado de Santa Catarina (SDS, 2013), realizado na escala 1:10.000, não incide neste lote a restrição ambiental de Área de Preservação Permanente (APP), conforme definição estabelecida pela Lei Federal n.º 12.651/2012. O órgão ambiental do município de Itajaí (INIS), portanto, não apresenta objeção à ligação de energia elétrica neste local.';
+                        } else {
+                            document.getElementById('ambiental').innerHTML = 'Com base nos dados geoespaciais do Levantamento Aerofotogramétrico do Estado de Santa Catarina (SDS, 2013), realizado na escala 1:10.000, incide neste lote a restrição ambiental de Área de Preservação Permanente (APP), conforme definição estabelecida pela Lei Federal n.º 12.651/2012. <strong>O requerente deverá solicitar ao INIS o Parecer Técnico para Ligação de Água e Energia Elétrica através do sistema Aprova Digital.</strong>';
+                        }
                         if (proprLote.nzonaslista.includes('ZCA3')) {
                             document.getElementById('obs1').innerHTML = '<hr> &#x2713; Somente poderão utilizar os parâmetros urbanísticos de ZCA3 os empreendimentos com caixa de via >= 9m; caso contrário, prevalecem ZCA2.';
                         }
