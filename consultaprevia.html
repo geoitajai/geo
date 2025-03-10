@@ -1123,26 +1123,47 @@
 
                         // Monta a pauta viária
                         (function () {
-                            let conteudo = '';
-                            let viaAdicionada = false;
+                            let itens = [];
+                            let chaves = new Set();
+
                             for (let i = 1; i <= 6; i++) {
                                 let nome = proprLote[`t${i}nome`];
                                 let largura = proprLote[`t${i}largura`];
                                 let passeiod = proprLote[`t${i}passeiod`];
                                 let passeioe = proprLote[`t${i}passeioe`];
-                                if (!nome || !largura || !passeiod || !passeioe) continue;
-                                viaAdicionada = true;
-                                conteudo += `<strong>${nome}</strong>-Cx.da via:${largura}-Passeios:${passeiod}/${passeioe}`;
-                                if (i < 6 && proprLote[`t${i + 1}nome`]) {
-                                    conteudo += ', ';
+
+                                if (!nome) continue;
+
+                                let chave = `${nome}|${largura}|${passeiod}|${passeioe}`;
+                                if (chaves.has(chave)) continue;
+                                chaves.add(chave);
+
+                                let item = '';
+                                if (largura == null || largura === 0 || largura === "0" ||
+                                    passeiod == null || passeiod === 0 || passeiod === "0" ||
+                                    passeioe == null || passeioe === 0 || passeioe === "0") {
+                                    item = `<strong>${nome}</strong>-Cx.da via: Consultar pauta junto a SEDUH`;
+                                } else {
+                                    item = `<strong>${nome}</strong>-Cx.da via:${largura}-Passeios:${passeiod}/${passeioe}`;
                                 }
-                                if (i % 2 === 0) {
-                                    conteudo += '<br>';
-                                }
+                                itens.push(item);
                             }
-                            if (!viaAdicionada) {
+
+                            let conteudo = '';
+                            if (itens.length === 0) {
                                 conteudo = "&#x2713; Verificar confrontantes com a Secretaria de Urbanismo";
+                            } else {
+                                for (let i = 0; i < itens.length; i++) {
+                                    conteudo += itens[i];
+                                    if (i < itens.length - 1) {
+                                        conteudo += ', ';
+                                        if ((i + 1) % 2 === 0) {
+                                            conteudo += '<br>';
+                                        }
+                                    }
+                                }
                             }
+
                             document.getElementById('pauta').innerHTML = conteudo;
                         })();
 
