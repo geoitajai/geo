@@ -1200,16 +1200,16 @@
                         if (proprLote.sobrezon == "Centro Histórico") {
                             document.getElementById('sobrezHist').innerHTML = "§ 8º No Centro Histórico a taxa de ocupação do embasamento pode chegar a 100%. Se preservar fachada histórica, pode chegar a 75% de torre + CA acrescido 0.5.";
                         }
-                        if (proprLote.edhist == "-1" || proprLote.sobrezon === "Centro Histórico") {
+                        if (proprLote.edhist == "1" || proprLote.sobrezon === "Centro Histórico") {
                             document.getElementById('patrimonioHistorico').innerHTML = "<hr> &#x2713; Entorno de Patrimônio Histórico, solicitar parecer do CMPAT (<strong>cmpatrimonioitajai@gmail.com</strong>)";
                         }
-                        if (proprLote.interven == "-1") {
+                        if (proprLote.interven == "1") {
                             document.getElementById('intervViaria').innerHTML = "<hr> &#x2713; Solicitar parecer da Diretoria de Mobilidade, Secr. Desenv. Urbano e Hab. (<strong>smu@itajai.sc.gov.br</strong>)";
                         }
                         // if (proprLote.lnpreamar == "-1") {
                         //   document.getElementById('lnpreamar').innerHTML = "<hr> &#x2713; LOTE EM TERRENO DE MARINHA, necessário autorização da SPU e parecer IBAMA.";
                         // }
-                        if (proprLote.esgoto == "-1") {
+                        if (proprLote.esgoto == "1") {
                             document.getElementById('esgoto').innerHTML = `<hr> &#x2713; Lote com potencial para ligação na rede de esgoto. Consulte <a href="https://semasaitajai.com.br/?modo=publicacao&tipo=noticia&codigo=2449" target="_blank">SEMASA</a> e <a href="https://arcgis.itajai.sc.gov.br/portal/apps/webappviewer/index.html?id=b61494c7c5274f4bb7d45af523709c3f" target="_blank">MAPA REDE ESGOTO</a>.`;
                         } else {
                             document.getElementById('esgoto').innerHTML = `<hr> Lote não habilitado para rede de esgoto. Consulte <a href="https://semasaitajai.com.br/?modo=publicacao&tipo=noticia&codigo=2449" target="_blank">SEMASA</a> e <a href="https://arcgis.itajai.sc.gov.br/portal/apps/webappviewer/index.html?id=b61494c7c5274f4bb7d45af523709c3f" target="_blank">MAPA REDE ESGOTO</a>.`;
