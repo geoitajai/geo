@@ -1125,7 +1125,6 @@
                         (function () {
                             let itens = [];
                             let chaves = new Set();
-                            let temRodovia = false;
 
                             for (let i = 1; i <= 6; i++) {
                                 let nome = proprLote[`t${i}nome`];
@@ -1135,18 +1134,15 @@
 
                                 if (!nome) continue;
 
-                                // Condição para rodovia
-                                if (nome.startsWith("Rod.")) {
-                                    temRodovia = true;
-                                    break;
-                                }
-
                                 let chave = `${nome}|${largura}|${passeiod}|${passeioe}`;
                                 if (chaves.has(chave)) continue;
                                 chaves.add(chave);
 
                                 let item = '';
-                                if (largura == null || largura === 0 || largura === "0" ||
+                                // Caso rodovia ou marginal: mensagem especial no lugar do item
+                                if (nome.startsWith("Rod.") || nome.includes("Marginal")) {
+                                    item = "&#x2713; Rodovia verificar confrontantes Secretaria de Estado da Infraestrutura e Mobilidade ou Arteris Litoral Sul";
+                                } else if (largura == null || largura === 0 || largura === "0" ||
                                     passeiod == null || passeiod === 0 || passeiod === "0" ||
                                     passeioe == null || passeioe === 0 || passeioe === "0") {
                                     item = `<strong>${nome}</strong>-Cx.da via: Consultar pauta junto a SEDUH`;
@@ -1157,9 +1153,7 @@
                             }
 
                             let conteudo = '';
-                            if (temRodovia) {
-                                conteudo = "&#x2713; Rodovia verificar confrontantes Secretaria de Estado da Infraestrutura e Mobilidade ou Arteris Litoral Sul";
-                            } else if (itens.length === 0) {
+                            if (itens.length === 0) {
                                 conteudo = "&#x2713; Verificar confrontantes com a Secretaria de Urbanismo";
                             } else {
                                 for (let i = 0; i < itens.length; i++) {
