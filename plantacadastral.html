@@ -379,6 +379,19 @@
                 <p>Legenda:</p>
                 <img src="images/cicloviaria.svg" style="width:140px;">
             </div>
+            <h3 class='titulobarra'>Regularização fundiária</h3>
+            <div>
+                <center>
+                    <p>
+                        <font size="2">
+                            <strong>
+                                Secretaria Municipal de Desenvolvimento Urbano e Habitação
+                            </strong>
+                        </font>
+                    </p>
+                    <p><small>Contato : (47) 32460452</small></p>
+                </center>
+            </div>
             <h3 class='titulobarra'>Parcelamento do solo</h3>
             <div>
                 <center>
@@ -1101,6 +1114,8 @@
         let cicloviario = L.featureGroup();
         let detpropostas_chk = false;
         let detpropostas = L.featureGroup();
+        let reurb_chk = false;
+        let reurb = L.featureGroup();
         let plantaZoneamento_chk = false;
         let plantaZoneamento = L.featureGroup();
         let parcelamentodosolo_chk = false;
@@ -1353,6 +1368,35 @@
             mapa.addLayer(detpropostas);
         };
 
+        // Propostas Reurb.
+        const camada_reurb = () => {
+            reurb_chk = true;
+            const camada = L.esri.featureLayer({
+                url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/areas_reurb_view/FeatureServer/0',
+                fields: ['nome', 'objectid', 'tipo'],
+                precision: 6,
+                pane: 'nivel_marcadores',
+                style: function (feature) {
+                    return {
+                        color: 'black',
+                        weight: 2,
+                        fillColor: 'magenta',
+                        fillOpacity: 0.5
+                    };
+                },
+                onEachFeature: function (feature, layer) {
+                    const props = feature.properties;
+                    let nome = props.nome || 'N/A';
+                    if (nome.includes('/')) {
+                        nome = nome.split('/')[0].trim();
+                    }
+                    const conteudo = `<strong>Nome:</strong> ${nome}`;
+                    layer.bindPopup(conteudo);
+                }
+            }).addTo(reurb);
+            mapa.addLayer(reurb);
+        };
+
         // Cicloviário
         const camada_cicloviaria = () => {
             cicloviario_chk = true;
@@ -1585,6 +1629,9 @@
             if (plantaZoneamento_chk && mapa.hasLayer(plantaZoneamento)) {
                 mapa.removeLayer(plantaZoneamento);
             }
+            if (reurb_chk && mapa.hasLayer(reurb)) {
+                mapa.removeLayer(reurb);
+            }
             if (parcelamentodosolo_chk && mapa.hasLayer(parcelamentodosolo)) {
                 mapa.removeLayer(parcelamentodosolo);
             }
@@ -1627,6 +1674,16 @@
                     camada_cicloviaria();
                 } else {
                     mapa.addLayer(cicloviario);
+                }
+            }
+            else if (
+                ui.newHeader["0"].textContent === 'Regularização fundiária'
+            ) {
+                limparcamadas();
+                if (reurb_chk == false) {
+                    camada_reurb();
+                } else {
+                    mapa.addLayer(reurb);
                 }
             }
             else if (
