@@ -1387,9 +1387,6 @@
                 onEachFeature: function (feature, layer) {
                     const props = feature.properties;
                     let nome = props.nome || 'N/A';
-                    if (nome.includes('/')) {
-                        nome = nome.split('/')[0].trim();
-                    }
                     const conteudo = `<strong>Nome:</strong> ${nome}`;
                     layer.bindPopup(conteudo);
                 }
