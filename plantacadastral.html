@@ -1387,7 +1387,7 @@
                 onEachFeature: function (feature, layer) {
                     const props = feature.properties;
                     let nome = props.nome || 'N/A';
-                    const conteudo = `<strong>Nome:</strong> ${nome}`;
+                    const conteudo = `${nome}`;
                     layer.bindPopup(conteudo);
                 }
             }).addTo(reurb);
