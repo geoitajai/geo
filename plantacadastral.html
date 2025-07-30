@@ -1323,6 +1323,23 @@
                 }
             });
 
+            //Área influência aerodromo
+            let aiaerodromo = L.esri.featureLayer({
+                url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/zon_influencia_aerodromo/FeatureServer/0',
+                precision: 6,
+                style: (feature) => {
+                    return {
+                        dashArray: "30 10",
+                        fill: false,
+                        interactive: false,
+                        color: '#1a1a1a',
+                        weight: 1,
+                        opacity: 0.50
+                    };
+                }
+            });
+
+            aiaerodromo.addTo(plantaZoneamento);
             ainaeroporto.addTo(plantaZoneamento);
             viasestruturantes.addTo(plantaZoneamento);
 
