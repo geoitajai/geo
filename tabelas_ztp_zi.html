@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <title>Tabela ZTP e ZI</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    @page { size: A4; margin: 1cm; }
+    body { font-family: Arial, sans-serif; margin: 1cm auto; width: 200mm; height: auto; box-sizing: border-box; font-size: 9px; }
+    #tabelaZonas { display: block; width: 200mm; overflow: hidden; font-size: 9px; }
+    #tabelaZonas table { border-collapse: collapse; width: 100%; table-layout: fixed; }
+    #tabelaZonas th, #tabelaZonas td { border: 1px solid black; border-top: none; text-align: left; white-space: nowrap; overflow: hidden; padding: 2px 3px; }
+    #tabelaZonas th:first-child, #tabelaZonas td:first-child { width: 32mm; border-left: none; text-align: center; }
+    #tabelaZonas tr:last-child td, #tabelaZonas tr:last-child th { border-bottom: none; }
+    #tabelaZonas th:last-child, #tabelaZonas td:last-child { border-right: none; }
+    #tabelaZonas tr:nth-child(even) { background-color: #f2f2f2; }
+    .titulo { font-size: 12px; font-weight: bold; margin-bottom: 6px; }
+    .sub { margin-bottom: 6px; }
+  </style>
+</head>
+<body>
+  <div class="titulo">Parâmetros Urbanísticos LEI COMPLEMENTAR Nº 449, DE 11 DE MARÇO DE 2024</div>
+  <div class="sub">----</div>
+  <div id="tabelaZonas"></div>
+
+  <script>
+    const zonas = {
+      "ZI": {
+        "denom": "Zona Industrial",
+        "altura_max": "32 m uso comercial - 7,40 + ático para uso habitacional",
+        "altura_emb": "-",
+        "ca_total": "3",
+        "ca_basico": "1",
+        "outorga_on": "2",
+        "fator_contr": "0,1",
+        "transf_ind": "-",
+        "to_base": "80 %",
+        "to_torre": "-",
+        "permeab": "15 %",
+        "recuo_f_torre": "-",
+        "recuo_l_f_torre": "-",
+        "recuo_emb": "Recuos frontais: 4 m para casos com<br>fachada ativa e 5 metros para os<br>demais casos.<br>Recuos laterias e fundos: Zero quando<br>não voltado para via pública.<br>Nas residencias unifamiliares: 4 m frontais e<br>1,5 m para laterais e fundos quando<br>existirem aberturas.<br>Quando sem aberturas, o recuo pode ser zero",
+        "lote_min": "200m²",
+        "test_min": "10m",
+        "prof_min": "20m",
+        "usos_permitidos": "H1, CO, CS1, CS2, CS3,<br>CS(entre 750-1000m2), I1, I2, I3, I4, CSA, CSMV",
+        "usos_permissiveis": "H2, CSE",
+        "usos_proibidos": "-"
+      },
+      "ZTP": {
+        "denom": "Zona de Transição Paisagística",
+        "altura_max": "7,40 m + ático",
+        "altura_emb": "-",
+        "ca_total": "2",
+        "ca_basico": "2",
+        "outorga_on": "-",
+        "fator_contr": "-",
+        "transf_ind": "-",
+        "to_base": "80 %",
+        "to_torre": "-",
+        "permeab": "10 %",
+        "recuo_f_torre": "-",
+        "recuo_l_f_torre": "-",
+        "recuo_emb": "Recuos frontais: 4 m para casos com<br>fachada ativa e 5 metros para os<br>demais casos.<br>Recuos laterias e fundos: Zero quando<br>não voltado para via pública.<br>Nas residencias unifamiliares: 4 m frontais e<br>1,5 m para laterais e fundos quando<br>existirem aberturas.<br>Quando sem aberturas, o recuo pode ser zero",
+        "lote_min": "300m²",
+        "test_min": "12m",
+        "prof_min": "25m",
+        "usos_permitidos": "H1, H2, CO, CS1, CS2,<br>CS(entre 750-1000m2), I1, I2",
+        "usos_permissiveis": "I3, CSA, CSMV, CSE, CS3",
+        "usos_proibidos": "I4"
+      }
+    };
+
+    const descricoes = {
+      denom: "<strong>Denominação</strong>",
+      areaZona: "área(estimada)",
+      usos_permitidos: '<div title="-H1: Hab.Unifamiliar, -H2: Hab.Multifamiliar, -CO: Comunitário, -CS: Comércio e Serviço, -CS1: até 200m², -CS2: até 750m², -CS3: >1000m², -I: Industrial, -CSA: Agropecuário, -CSMV: Extrativista, -CSE: Uso Específico"><strong>Usos Permitidos</strong></div>',
+      usos_permissiveis: '<div title="Mesma legenda acima"><strong>Usos Permissíveis</strong></div>',
+      usos_proibidos: '<div title="Mesma legenda acima"><strong>Usos Proibidos</strong></div>',
+      altura_max: "<strong>Altura Máxima</strong><br>Ao norte da Av. Adolfo Konder,<br>Heitor Liberato e Rua Silva,<br>máx. 55m salvo COMAER.",
+      altura_emb: '<div title="Art.125 do plano diretor"><strong>Alt.Máx.Emb.</strong></div>',
+      ca_basico: "<strong>Coef. de Aproveitamento Básico</strong>",
+      ca_total: "<strong>Coef. c/ Outorga</strong>",
+      fator_contr: "<strong>Fator de Contribuição</strong>",
+      transf_ind: "<strong>Transferência de Índice</strong>",
+      to_base: "<strong>Taxa de Ocupação da Base</strong>",
+      to_torre: "<strong>Taxa de Ocupação da Torre</strong>",
+      permeab: "<strong>Taxa de Permeabilidade</strong>",
+      recuo_emb: "<strong>Recuo do Embasamento</strong>",
+      recuo_f_torre: "<strong>Recuo Frontal Torre</strong>",
+      recuo_l_f_torre: "<strong>Recuo Lateral e<br>Fundos Torre</strong>",
+      lote_min: "<strong>Lote Mínimo</strong>",
+      test_min: "<strong>Testada Mínima</strong>",
+      prof_min: "<strong>Profundidade Mínima</strong>"
+    };
+
+    function montarTabela(zonas) {
+      const chavesZonas = Object.keys(zonas); // ["ZI","ZTP"]
+      let tabela = "<table><thead><tr><th>Nome Zona</th>";
+      chavesZonas.forEach(z => { tabela += `<th>${z}</th>`; });
+      tabela += "</tr></thead><tbody>";
+
+      Object.keys(descricoes).forEach(ch => {
+        tabela += "<tr>";
+        tabela += `<td>${descricoes[ch]}</td>`;
+        chavesZonas.forEach(z => {
+          const valor = zonas[z][ch] || "";
+          tabela += `<td>${valor}</td>`;
+        });
+        tabela += "</tr>";
+      });
+
+      tabela += "</tbody></table>";
+      return tabela;
+    }
+
+    document.getElementById("tabelaZonas").innerHTML = montarTabela(zonas);
+  </script>
+</body>
+</html>
