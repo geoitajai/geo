@@ -1174,9 +1174,9 @@
 
                         // Observações específicas
                         if (proprLote.ambiental.length == 0) {
-                            document.getElementById('ambiental').innerHTML = 'Com base nos dados geoespaciais do Levantamento Aerofotogramétrico do Estado de Santa Catarina (SDS, 2013), realizado na escala 1:10.000, não incide neste lote a restrição ambiental de Área de Preservação Permanente (APP), conforme definição estabelecida pela Lei Federal n.º 12.651/2012. O órgão ambiental do município de Itajaí (INIS), portanto, não apresenta objeção à ligação de energia elétrica neste local.';
+                            document.getElementById('ambiental').innerHTML = 'Com base nos dados geoespaciais do Levantamento Aerofotogramétrico do Estado de Santa Catarina (SDS, 2013), realizado na escala 1:10.000, não incide neste lote a restrição ambiental de Área de Preservação Permanente (APP), conforme definição estabelecida pela Lei Federal n.º 12.651/2012. Dessa forma, não há óbice à atuação das concessionárias públicas neste imóvel.';
                         } else {
-                            document.getElementById('ambiental').innerHTML = 'Com base nos dados geoespaciais do Levantamento Aerofotogramétrico do Estado de Santa Catarina (SDS, 2013), realizado na escala 1:10.000, incide neste lote a restrição ambiental de Área de Preservação Permanente (APP), conforme definição estabelecida pela Lei Federal n.º 12.651/2012. <strong>O requerente deverá solicitar ao INIS o Parecer Técnico para Ligação de Água e Energia Elétrica através do sistema Aprova Digital.</strong>';
+                            document.getElementById('ambiental').innerHTML = 'Com base nos dados geoespaciais do Levantamento Aerofotogramétrico do Estado de Santa Catarina (SDS, 2013), realizado na escala 1:10.000, <strong>incide neste lote a restrição ambiental de Área de Preservação Permanente (APP), conforme definição estabelecida pela Lei Federal n.º 12.651/2012.</strong>';
                         }
                         if (proprLote.nzonaslista.includes('ZCA3')) {
                             document.getElementById('obs1').innerHTML = '<hr> &#x2713; Somente poderão utilizar os parâmetros urbanísticos de ZCA3 os empreendimentos com caixa de via >= 9m; caso contrário, prevalecem ZCA2.';
