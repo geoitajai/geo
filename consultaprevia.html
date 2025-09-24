@@ -1174,9 +1174,9 @@
 
                         // Observações específicas
                         if (proprLote.ambiental.length == 0) {
-                            document.getElementById('ambiental').innerHTML = 'Com base nos dados geoespaciais do Levantamento Aerofotogramétrico do Estado de Santa Catarina (SDS, 2013), realizado na escala 1:10.000, não incide neste lote a restrição ambiental de Área de Preservação Permanente (APP), conforme definição estabelecida pela Lei Federal n.º 12.651/2012. Dessa forma, não há óbice à atuação das concessionárias públicas neste imóvel.';
+                            document.getElementById('ambiental').innerHTML = 'Com base nos dados geoespaciais do Levantamento Aerofotogramétrico do Estado de Santa Catarina (SDS, 2013), realizado na escala 1:10.000, NÃO incide neste lote a restrição ambiental de Área de Preservação Permanente (APP), conforme definição estabelecida pela Lei Federal n.º 12.651/2012';
                         } else {
-                            document.getElementById('ambiental').innerHTML = 'Com base nos dados geoespaciais do Levantamento Aerofotogramétrico do Estado de Santa Catarina (SDS, 2013), realizado na escala 1:10.000, <strong>incide neste lote a restrição ambiental de Área de Preservação Permanente (APP), conforme definição estabelecida pela Lei Federal n.º 12.651/2012.</strong>';
+                            document.getElementById('ambiental').innerHTML = 'Em atenção a determinação contida em Ação Civil Pública ajuizada pelo Ministério Público Federal e confirmada por Apelação Cívil na qual determinou que a Celesc se abstivesse de promover a instalação de energia elétrica nas Áreas de Preservação Permanente e, com base nos dados geoespaciais do Levantamento Aerofotogramétrico do Estado de Santa Catarina (SDS, 2013), realizado na escala 1:10.000, informa-se que <strong>INCIDE, neste lote, a restrição ambiental de Área de Preservação Permanente (APP), conforme definição estabelecida pela Lei Federal n.º 12.651/2012.</strong>';
                         }
                         if (proprLote.nzonaslista.includes('ZCA3')) {
                             document.getElementById('obs1').innerHTML = '<hr> &#x2713; Somente poderão utilizar os parâmetros urbanísticos de ZCA3 os empreendimentos com caixa de via >= 9m; caso contrário, prevalecem ZCA2.';
