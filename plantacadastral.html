@@ -1170,7 +1170,8 @@
                 "ZTU4": "#735042",
                 "ZTU4(ambiental)": "#644539",
                 "ZVP": "#4aeef1",
-                "ZBN1": "#c8d0e0"
+                "ZBN1": "#c8d0e0",
+                "art.78": "#ffccff"
             };
 
             function estilo(feature) {
@@ -1192,52 +1193,72 @@
                             style: estilo,
                             onEachFeature: (feature, layer) => {
                                 const props = feature.properties;
-                                layer.bindPopup(
-                                    `<style>
-                                    .leaflet-popup-content {
-                                        padding: 1px !important; /* Reduz o padding do conteúdo do popup */
-                                        max-height: 300px; /* Altura máxima do conteúdo do popup */
-                                        overflow-y: auto; /* Adiciona barra de rolagem vertical se necessário */
-                                    }
-                                    .leaflet-popup-content table tr th:first-child {
-                                        font-size: 14px; /* Ajuste conforme necessário */
-                                    }
-                                    .popup-table {
-                                        font-size: 9px; /* Tamanho do texto */
-                                    }
-                                    .popup-table table {
-                                        width: 100%; /* Ajusta a largura da tabela para preencher o popup */
-                                        border-collapse: collapse; /* Remove espaços entre as bordas */
-                                    }
-                                    .popup-table th, .popup-table td {
-                                        border: 1px solid black; /* Linhas da tabela */
-                                        padding: 1px; /* Reduz o padding dentro das células */
-                                    }
-                                    </style>
-                                    <div class="popup-table">
-                                    <table>
-                                        <tr><th><strong>${props.descr} : ${props.nome}</strong></th></tr>
-                                        <tr><td><strong>Usos permitidos:</strong> ${props.usos_permitidos}</td></tr>
-                                        <tr><td><strong>Usos permissíveis:</strong> ${props.usos_permissiveis}</td></tr>
-                                        <tr><td><strong>Usos proibidos:</strong> ${props.usos_proibidos}</td></tr>
-                                        <tr><td><strong>Alt.máx:</strong> ${props.altura_max}</td></tr>
-                                        <tr><td><strong>Alt.embasamento:</strong> ${props.altura_emb}</td></tr>
-                                        <tr><td><strong>Coef.aproveitamento:</strong> ${props.ca_basico}</td></tr>
-                                        <tr><td><strong>Coef.aprov.com outorga onerosa:</strong> ${props.ca_total}</td></tr>
-                                        <tr><td><strong>Fator contribuição:</strong> ${props.fator_contr}</td></tr>
-                                        <tr><td><strong>Transf.de índice:</strong> ${props.transf_ind}</td></tr>
-                                        <tr><td><strong>Taxa ocupação embasamento:</strong> ${props.to_base}</td></tr>
-                                        <tr><td><strong>Taxa ocupação torre:</strong> ${props.to_torre}</td></tr>
-                                        <tr><td><strong>Taxa permeabilidade:</strong> ${props.permeab}</td></tr>
-                                        <tr><td><strong>Recuo frontal embasamento:</strong> ${props.recuo_emb}</td></tr>
-                                        <tr><td><strong>Recuo frontal torre:</strong> ${props.recuo_f_torre}</td></tr>
-                                        <tr><td><strong>Recuo lateral/fundos torre:</strong> ${props.recuo_l_f_torre}</td></tr>
-                                        <tr><td><strong>Lote mínimo(m²):</strong> ${props.lote_min}</td></tr>
-                                        <tr><td><strong>Testada mínima(m):</strong> ${props.test_min}</td></tr>
-                                        <tr><td><strong>Profundidame mínima(m):</strong> ${props.prof_min}</td></tr>
-                                    </table>
-                                    </div>`
-                                );
+
+                                // Função auxiliar para gerar o HTML do popup de uma zona
+                                function gerarPopup(propsZona) {
+                                    return `
+                                        <table>
+                                            <tr><th><strong> Zona: ${propsZona.nome}</strong></th></tr>
+                                            <tr><td><strong>Usos permitidos:</strong> ${propsZona.usos_permitidos}</td></tr>
+                                            <tr><td><strong>Usos permissíveis:</strong> ${propsZona.usos_permissiveis}</td></tr>
+                                            <tr><td><strong>Usos proibidos:</strong> ${propsZona.usos_proibidos}</td></tr>
+                                            <tr><td><strong>Alt.máx:</strong> ${propsZona.altura_max}</td></tr>
+                                            <tr><td><strong>Alt.embasamento:</strong> ${propsZona.altura_emb}</td></tr>
+                                            <tr><td><strong>Coef.aproveitamento:</strong> ${propsZona.ca_basico}</td></tr>
+                                            <tr><td><strong>Coef.aprov.com outorga onerosa:</strong> ${propsZona.ca_total}</td></tr>
+                                            <tr><td><strong>Fator contribuição:</strong> ${propsZona.fator_contr}</td></tr>
+                                            <tr><td><strong>Transf.de índice:</strong> ${propsZona.transf_ind}</td></tr>
+                                            <tr><td><strong>Taxa ocupação embasamento:</strong> ${propsZona.to_base}</td></tr>
+                                            <tr><td><strong>Taxa ocupação torre:</strong> ${propsZona.to_torre}</td></tr>
+                                            <tr><td><strong>Taxa permeabilidade:</strong> ${propsZona.permeab}</td></tr>
+                                            <tr><td><strong>Recuo frontal embasamento:</strong> ${propsZona.recuo_emb}</td></tr>
+                                            <tr><td><strong>Recuo frontal torre:</strong> ${propsZona.recuo_f_torre}</td></tr>
+                                            <tr><td><strong>Recuo lateral/fundos torre:</strong> ${propsZona.recuo_l_f_torre}</td></tr>
+                                            <tr><td><strong>Lote mínimo(m²):</strong> ${propsZona.lote_min}</td></tr>
+                                            <tr><td><strong>Testada mínima(m):</strong> ${propsZona.test_min}</td></tr>
+                                            <tr><td><strong>Profundidade mínima(m):</strong> ${propsZona.prof_min}</td></tr>
+                                        </table>`;
+                                }
+
+                                // Caso especial para descr === 'art.78'
+                                if (props.descr === 'art.78') {
+                                    // Busca as zonas ZI e ZTP no mesmo GeoJSON
+                                    const zonaZI = data.features.find(f => f.properties.descr === 'ZI');
+                                    const zonaZTP = data.features.find(f => f.properties.descr === 'ZTP');
+
+                                    let conteudo = `
+                                        <style>
+                                            .leaflet-popup-content {
+                                                padding: 1px !important;
+                                                max-height: 300px; /* mantém mesmo limite dos demais */
+                                                overflow-y: auto;  /* ativa barra de rolagem vertical */
+                                            }
+                                            .popup-table { font-size: 9px; }
+                                            .popup-table table { width: 100%; border-collapse: collapse; }
+                                            .popup-table th, .popup-table td { border: 1px solid black; padding: 1px; }
+                                            .popup-header { font-weight: bold; text-align: center; margin-bottom: 4px; }
+                                        </style>
+                                        <div class="popup-table">
+                                            <div class="popup-header" style="font-weight:bold; text-align:center; margin-bottom:6px; font-size:13px;">§ 6º, art. 78, LC 449/2024 - Zona de Transição Paisagística (ZTP) e/ou Industriais (ZI)</div>`;
+
+                                    if (zonaZI) conteudo += gerarPopup(zonaZI.properties);
+                                    if (zonaZTP) conteudo += `<br>${gerarPopup(zonaZTP.properties)}`;
+                                    conteudo += '</div>';
+
+                                    layer.bindPopup(conteudo);
+                                } else {
+                                    // Caso padrão: popup normal
+                                    layer.bindPopup(`
+                                        <style>
+                                        .leaflet-popup-content { padding:1px !important; max-height:300px; overflow-y:auto; }
+                                        .popup-table { font-size:9px; }
+                                        .popup-table table { width:100%; border-collapse:collapse; }
+                                        .popup-table th, .popup-table td { border:1px solid black; padding:1px; }
+                                        </style>
+                                        <div class="popup-table">${gerarPopup(props)}</div>
+                                    `);
+                                }
+
                             },
                             pane: 'nivel_marcadores'
                         }).addTo(plantaZoneamento);
