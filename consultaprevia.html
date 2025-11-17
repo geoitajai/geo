@@ -1173,6 +1173,7 @@
                         })();
 
                         // Observações específicas
+                        console.log(proprLote.edhist)
                         if (proprLote.ambiental.length == 0) {
                             document.getElementById('ambiental').innerHTML = 'Com base nos dados geoespaciais do Levantamento Aerofotogramétrico do Estado de Santa Catarina (SDS, 2013), realizado na escala 1:10.000, NÃO incide neste lote a restrição ambiental de Área de Preservação Permanente (APP), conforme definição estabelecida pela Lei Federal n.º 12.651/2012';
                         } else {
@@ -1208,7 +1209,13 @@
                         if (proprLote.sobrezon == "Centro Histórico") {
                             document.getElementById('sobrezHist').innerHTML = "§ 8º No Centro Histórico a taxa de ocupação do embasamento pode chegar a 100%. Se preservar fachada histórica, pode chegar a 75% de torre + CA acrescido 0.5.";
                         }
-                        if (proprLote.edhist == "1" || proprLote.sobrezon === "Centro Histórico") {
+                        if (
+                            proprLote.edhist === "1" ||
+                            proprLote.edhist === 1 ||
+                            proprLote.edhist === "-1" ||
+                            proprLote.edhist === -1 ||
+                            proprLote.sobrezon === "Centro Histórico"
+                        ) {
                             document.getElementById('patrimonioHistorico').innerHTML = "<hr> &#x2713; Entorno de Patrimônio Histórico, solicitar parecer do CMPAT (<strong>cmpatrimonioitajai@gmail.com</strong>)";
                         }
                         if (proprLote.interven == "1") {
