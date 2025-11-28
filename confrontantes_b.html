@@ -12,101 +12,38 @@
 
   <style>
     @page { size: A4 portrait; margin: 10mm; }
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: Arial, sans-serif;
-      font-size: 12px;
-      color: black;
-    }
+    body { margin: 0; padding: 0; font-family: Arial, sans-serif; font-size: 12px; color: black; }
 
     .pagina {
-      width: 210mm;
-      height: 297mm;
-      box-sizing: border-box;
-      border: 1px solid black;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      page-break-after: always;
+      width: 210mm; height: 297mm; box-sizing: border-box; border: 1px solid black;
+      display: flex; flex-direction: column; justify-content: space-between; page-break-after: always;
     }
 
-    .cabecalho {
-      border-bottom: 1px solid black;
-      padding: 5px 8px;
-    }
-    .cabecalho-superior {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      font-size: 11px;
-    }
+    .cabecalho { border-bottom: 1px solid black; padding: 5px 8px; }
+    .cabecalho-superior { display: flex; align-items: center; justify-content: space-between; font-size: 11px; }
     .cabecalho-superior img { height: 35px; }
-    .titulo {
-      text-align: center;
-      font-weight: bold;
-      border-bottom: 1px solid black;
-      padding: 4px;
-    }
-    .texto {
-      padding: 4px 8px;
-      border-bottom: 1px solid black;
-      font-size: 11px;
-    }
-    .rodape {
-      border-top: 1px solid black;
-      text-align: center;
-      font-size: 11px;
-      font-weight: bold;
-      padding: 3px;
-    }
+    .titulo { text-align: center; font-weight: bold; border-bottom: 1px solid black; padding: 4px; }
+    .texto { padding: 4px 8px; border-bottom: 1px solid black; font-size: 11px; }
+    .rodape { border-top: 1px solid black; text-align: center; font-size: 11px; font-weight: bold; padding: 3px; }
 
-    .areaQuadro {
-      flex: 1;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 5px;
-      box-sizing: border-box;
-    }
-
-    .quadro {
-      display: flex;
-      border: 1px solid #ccc;
-    }
-    .mapa {
-      width: 160mm;
-      height: 250mm;
-      border-right: 1px solid #ccc;
-    }
-    .painel {
-      width: 50mm;
-      height: 250mm;
-      padding: 5px;
-      overflow-y: auto;
-      box-sizing: border-box;
-    }
+    .areaQuadro { flex: 1; display: flex; align-items: center; justify-content: center; padding: 5px; box-sizing: border-box; }
+    .quadro { display: flex; border: 1px solid #ccc; }
+    .mapa { width: 160mm; height: 250mm; border-right: 1px solid #ccc; }
+    .painel { width: 50mm; height: 250mm; padding: 5px; overflow-y: auto; box-sizing: border-box; }
 
     .tituloPainel { display: flex; align-items: center; gap: 6px; margin: 6px 0; }
-    .caixaLegenda { width: 14px; height: 14px; border: 2px solid; }
+    .caixaLegenda { width: 14px; height: 14px; border: 2px solid; display:inline-block; vertical-align:middle; margin-right:6px; }
     .caixaLote { background-color: darkgray; border-color: black; }
     .caixaConfrontantes { background-color: rgba(0,0,139,0.1); border-color: darkblue; }
+
     .loteTooltip {
-      background: transparent!important;
-      border: none!important;
-      box-shadow: none!important;
-      font-size: 16px;
-      font-weight: bold;
-      color: black;
+      background: transparent!important; border: none!important; box-shadow: none!important;
+      font-size: 16px; font-weight: bold; color: black;
     }
-    .registro {
-      border-bottom: 1px solid #ccc;
-      margin-bottom: 6px;
-      padding-bottom: 4px;
-      font-size: 12px;
-      line-height: 1.3em;
-    }
+
+    .registro { border-bottom: 1px solid #ccc; margin-bottom: 6px; padding-bottom: 4px; font-size: 12px; line-height: 1.3em; }
     .registro strong { display: block; margin-bottom: 2px; }
+    .legenda-mapa { position: absolute; left:8px; bottom:8px; background:#fff; padding:6px; border:1px solid #ccc; font-size:11px; }
   </style>
 </head>
 
@@ -118,21 +55,18 @@
     const urlImoveis = "https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/imoveis_plantacadastral/FeatureServer/0/";
     const MAX_VIZINHOS_POR_QUADRO = 6;
 
-    // === Parâmetro ajustável: área mínima de sobreposição (m²) ===
-    const AREA_MINIMA_SOBREPOSICAO = 2;  // ajustar conforme sensibilidade desejada
-
-    // === LER INSCRLIG DO HASH ===
+    // ler inscrição do hash
     const inscrlig = window.location.hash.length > 1 ? window.location.hash.substring(1) : null;
     if (!inscrlig) {
       alert("Adicione o número da inscrição ao final do endereço, ex: consulta.html#i005473010090");
       throw new Error("Inscrição não informada.");
     }
 
-    // === CONSULTA PRINCIPAL ===
+    // consulta lote
     L.esri.query({ url: urlMalha })
       .where(`inscrlig='${inscrlig}'`)
       .run((err, fc) => {
-        if (err || fc.features.length === 0) {
+        if (err || !fc.features || fc.features.length === 0) {
           alert("Inscrição não encontrada na base cadastral.");
           return;
         }
@@ -141,71 +75,84 @@
         const idLote = lote.properties.objectid;
         const buffer = turf.buffer(lote, 0.5, { units: "meters" });
 
+        // busca vizinhos que intersectem o buffer — aceita qualquer interseção
         L.esri.query({ url: urlMalha })
           .intersects(buffer)
           .run((err2, vizinhos) => {
-            if (err2) return;
+            if (err2) {
+              console.error("Erro consulta vizinhos:", err2);
+              return;
+            }
 
-            // === Filtrar vizinhos com área de interseção mínima ===
-            const vizinhosValidos = vizinhos.features.filter(f => {
+            const vizinhosValidos = (vizinhos.features || []).filter(f => {
               if (f.properties.objectid === idLote) return false;
               try {
-                const inter = turf.intersect(buffer, f);
-                if (inter) {
-                  const area = turf.area(inter);
-                  return area > AREA_MINIMA_SOBREPOSICAO;
-                }
-              } catch {}
-              return false;
+                return !!turf.intersect(buffer, f); // qualquer interseção
+              } catch (e) {
+                console.warn("intersect falhou para objectid", f.properties.objectid, e);
+                return false;
+              }
             });
 
             const inscrSelecionado = lote.properties.inscrlig;
             const inscrVizinhos = vizinhosValidos.map(f => `'${f.properties.inscrlig}'`).join(",");
             const inscrTodos = `'${inscrSelecionado}'` + (inscrVizinhos ? `,${inscrVizinhos}` : "");
 
+            // consulta informações dos contribuintes
             L.esri.query({ url: urlImoveis })
               .where(`inscrlig IN (${inscrTodos})`)
               .run((err3, fcImoveis) => {
-                if (err3 || fcImoveis.features.length === 0) return;
+                if (err3 || !fcImoveis.features || fcImoveis.features.length === 0) {
+                  // mesmo sem info de contribuinte, prosseguir com visualização dos polígonos
+                  montarRelatorio(lote, vizinhosValidos, {});
+                  return;
+                }
 
                 const dicContrib = {};
                 const agrupados = {};
-
-                // agrupar por inscrição
                 fcImoveis.features.forEach(f => {
                   const insc = f.properties.inscrlig;
                   if (!agrupados[insc]) agrupados[insc] = [];
                   agrupados[insc].push(f.properties);
                 });
-
-                // escolher titular "SIM" se existir
                 Object.keys(agrupados).forEach(insc => {
                   const registros = agrupados[insc];
-                  const titularSim = registros.find(r => r.titular === "SIM");
+                  const titularSim = registros.find(r => r.titular && r.titular.toString().trim().toUpperCase() === "SIM");
                   const selecionado = titularSim || registros[0];
                   dicContrib[insc] = selecionado?.nome_contribuinte || "-";
                 });
 
-                const listaSequencial = ordenarVizinhosPorAngulo(lote, vizinhosValidos, 1);
-                const grupos = [];
-                for (let i = 0; i < listaSequencial.length; i += MAX_VIZINHOS_POR_QUADRO)
-                  grupos.push(listaSequencial.slice(i, i + MAX_VIZINHOS_POR_QUADRO));
-
-                let contadorGlobal = 1;
-                grupos.forEach((grupo, i) => {
-                  criarPagina(lote, grupo, dicContrib, i + 1, contadorGlobal, false);
-                  contadorGlobal += grupo.length;
-                });
-
-                // === Cria página extra somente se houver mais de 6 vizinhos ===
-                if (grupos.length > 1) {
-                  criarPagina(lote, vizinhosValidos, dicContrib, grupos.length + 1, null, true);
-                }
+                montarRelatorio(lote, vizinhosValidos, dicContrib);
               });
           });
       });
 
-    // === Ordenação angular ===
+    function montarRelatorio(lote, vizinhosValidos, dicContrib) {
+      // ordenar por ângulo
+      const listaSequencial = ordenarVizinhosPorAngulo(lote, vizinhosValidos, 1);
+
+      // agrupar em quadros com MAX_VIZINHOS_POR_QUADRO
+      const grupos = [];
+      for (let i = 0; i < listaSequencial.length; i += MAX_VIZINHOS_POR_QUADRO)
+        grupos.push(listaSequencial.slice(i, i + MAX_VIZINHOS_POR_QUADRO));
+
+      let contadorGlobal = 1;
+      grupos.forEach((grupo, i) => {
+        criarPagina(lote, grupo, dicContrib, i + 1, contadorGlobal, false);
+        contadorGlobal += grupo.length;
+      });
+
+      // criar página final somente se houver mais de uma página (i.e., múltiplos quadros)
+      if (grupos.length > 1) {
+        criarPagina(lote, vizinhosValidos, dicContrib, grupos.length + 1, null, true);
+      }
+
+      // se não houve grupos (sem vizinhos), criar uma página apenas com o lote
+      if (grupos.length === 0) {
+        criarPagina(lote, [], dicContrib, 1, 1, false);
+      }
+    }
+
     function ordenarVizinhosPorAngulo(lote, vizinhos, passoGraus) {
       const centro = turf.centroid(lote);
       const coordCentro = centro.geometry.coordinates;
@@ -226,7 +173,7 @@
                 ids.add(idv);
               }
             }
-          } catch {}
+          } catch (e) {}
         }
       }
       const final = [];
@@ -241,7 +188,6 @@
       return final;
     }
 
-    // === Criação de páginas ===
     function criarPagina(lote, vizinhosGrupo, dicContrib, indiceQuadro, contadorInicial, paginaFinal) {
       const container = document.getElementById("container");
       const pagina = document.createElement("div");
@@ -249,7 +195,7 @@
       pagina.innerHTML = `
         <div class="cabecalho">
           <div class="cabecalho-superior">
-            <div><img src="images/brasao_muicipio.png" alt="Logo Itajaí"></div>
+            <div><img src="images/brasao_municipio.png" alt="Logo Itajaí" onerror="this.style.display='none'"></div>
             <div>
               <b>PREFEITURA MUNICIPAL DE ITAJAÍ - SC</b><br>
               Secretaria Municipal da Fazenda<br>
@@ -262,7 +208,7 @@
         <div class="texto">
           Consulta gerada nos termos da Ação Conjunta SEDUH – SEFAZ, nº xx/2025.<br>
           Considera os dados da base cadastral georreferenciada na data de sua emissão, disponível em:<br>
-          <a href="https://plantacadastral.itajai.sc.gov.br/" target="_blank">https://plantacadastral.itajai.sc.gov.br/</a><br>
+          <a href="https://plantacadastral.itajai.sc.gov.br/" target="_blank" rel="noopener noreferrer">https://plantacadastral.itajai.sc.gov.br/</a><br>
           Os dados coletados têm finalidade tributária.<br>
           O presente documento e suas informações não constituem prova ou reconhecimento de direito de propriedade.
         </div>
@@ -302,10 +248,10 @@
       quadroDiv.appendChild(mapaDiv);
       quadroDiv.appendChild(painelDiv);
       area.appendChild(quadroDiv);
+
       criarMapa(lote, vizinhosGrupo, dicContrib, indiceQuadro, contadorInicial, paginaFinal);
     }
 
-    // === Criação do mapa ===
     function criarMapa(lote, vizinhosGrupo, dicContrib, indiceQuadro, contadorInicial, paginaFinal) {
       const mapa = L.map("mapa_" + indiceQuadro, {
         attributionControl: false,
@@ -318,6 +264,7 @@
         touchZoom: false
       }).setView([-26.9046, -48.6874], 16);
 
+      // camada base vetorial ESRI (mantive ID conforme seu exemplo)
       L.esri.Vector.vectorTileLayer("7a110ef9198540068341e6908c6bf298", {
         portalUrl: "https://arcgis.itajai.sc.gov.br/portal",
         attribution: "Prefeitura de Itajaí"
@@ -332,17 +279,18 @@
 
       let contador = contadorInicial || 1;
       let listaHTML = "";
+
       const vizLayer = L.geoJSON(vizinhosGrupo, {
         style: { color: "darkblue", weight: 2, fillOpacity: 0.1 },
         onEachFeature: (f, l) => {
           if (!paginaFinal) {
-            const num = contador; // sem zeros à esquerda
+            const num = contador;
             l.bindTooltip(num.toString(), { permanent: true, direction: "center", className: "loteTooltip" });
-            const p = f.properties;
+            const p = f.properties || {};
             listaHTML += `
               <div class="registro">
                 <strong>#${num} - ${dicContrib[p.inscrlig] || "-"}</strong>
-                <strong>Inscrição:</strong> ${p.inscricao || "-"}<br>
+                <strong>Inscrição:</strong> ${p.inscricao || p.inscrlig || "-"}<br>
                 <strong>Endereço:</strong> ${p.nomevia || "-"}, nº ${p.numero || "-"}
               </div>`;
             contador++;
@@ -351,20 +299,35 @@
       }).addTo(mapa);
 
       if (!paginaFinal) {
-        document.getElementById(`listaVizinhos_${indiceQuadro}`).innerHTML = listaHTML;
+        const listaEl = document.getElementById(`listaVizinhos_${indiceQuadro}`);
+        if (listaEl) listaEl.innerHTML = listaHTML;
       }
-      document.getElementById(`loteSel_${indiceQuadro}`).innerHTML = `
-        <div class="registro">
-          <strong>${dicContrib[lote.properties.inscrlig] || "-"}</strong>
-          <strong>Inscrição:</strong> ${lote.properties.inscricao || "-"}<br>
-          <strong>Endereço:</strong> ${lote.properties.nomevia || "-"}, nº ${lote.properties.numero || "-"}
-        </div>`;
 
-      const group = paginaFinal
-        ? L.featureGroup([loteLayer, vizLayer])
-        : L.featureGroup([vizLayer]);
-      mapa.fitBounds(group.getBounds(), { padding: [30, 30], maxZoom: 19 });
+      const loteSelEl = document.getElementById(`loteSel_${indiceQuadro}`);
+      if (loteSelEl) {
+        const p = lote.properties || {};
+        loteSelEl.innerHTML = `
+          <div class="registro">
+            <strong>${dicContrib[p.inscrlig] || "-"}</strong>
+            <strong>Inscrição:</strong> ${p.inscricao || p.inscrlig || "-"}<br>
+            <strong>Endereço:</strong> ${p.nomevia || "-"}, nº ${p.numero || "-"}
+          </div>`;
+      }
 
+      const group = paginaFinal ? L.featureGroup([loteLayer, vizLayer]) : L.featureGroup([vizLayer]);
+      try {
+        if (group.getBounds && group.getBounds().isValid()) {
+          mapa.fitBounds(group.getBounds(), { padding: [30, 30], maxZoom: 19 });
+        } else {
+          // fallback para lote
+          const b = L.geoJSON(lote).getBounds();
+          if (b.isValid()) mapa.fitBounds(b, { padding: [30,30], maxZoom: 19 });
+        }
+      } catch (e) {
+        console.warn("Erro ao ajustar bounds:", e);
+      }
+
+      // norte fixo
       const norte = L.control({ position: 'topright' });
       norte.onAdd = () => {
         const div = L.DomUtil.create('div', 'info2 legend');
@@ -372,6 +335,9 @@
         return div;
       };
       norte.addTo(mapa);
+
+      // garantir redraw
+      setTimeout(() => { try { mapa.invalidateSize(); } catch (e){} }, 200);
     }
   </script>
 </body>
