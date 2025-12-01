@@ -37,13 +37,21 @@
     .caixaConfrontantes { background-color: rgba(0,0,139,0.1); border-color: darkblue; }
 
     .loteTooltip {
-      background: transparent!important; border: none!important; box-shadow: none!important;
-      font-size: 16px; font-weight: bold; color: black;
+      background: rgba(255,255,255,0.75) !important;
+      border: 1px solid rgba(0,0,0,0.15) !important;
+      box-shadow: none !important;
+      font-size: 16px;
+      font-weight: bold;
+      color: black;
+      padding: 2px 4px;
+      border-radius: 2px;
     }
 
-    .registro { border-bottom: 1px solid #ccc; margin-bottom: 6px; padding-bottom: 4px; font-size: 12px; line-height: 1.3em; }
+    .registro { border-bottom: 1px solid #ccc; margin-bottom: 6px; padding-bottom: 4px; font-size: 10px; line-height: 1.3em; }
     .registro strong { display: block; margin-bottom: 2px; }
     .legenda-mapa { position: absolute; left:8px; bottom:8px; background:#fff; padding:6px; border:1px solid #ccc; font-size:11px; }
+
+    .invisible-marker { width:0; height:0; }
   </style>
 </head>
 
@@ -55,14 +63,12 @@
     const urlImoveis = "https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/imoveis_plantacadastral/FeatureServer/0/";
     const MAX_VIZINHOS_POR_QUADRO = 6;
 
-    // ler inscrição do hash
     const inscrlig = window.location.hash.length > 1 ? window.location.hash.substring(1) : null;
     if (!inscrlig) {
       alert("Adicione o número da inscrição ao final do endereço, ex: consulta.html#i005473010090");
       throw new Error("Inscrição não informada.");
     }
 
-    // consulta lote
     L.esri.query({ url: urlMalha })
       .where(`inscrlig='${inscrlig}'`)
       .run((err, fc) => {
@@ -73,38 +79,80 @@
 
         const lote = fc.features[0];
         const idLote = lote.properties.objectid;
-        const buffer = turf.buffer(lote, 0.5, { units: "meters" });
 
-        // busca vizinhos que intersectem o buffer — aceita qualquer interseção
+        const bufferSmall = turf.buffer(lote, 0.5, { units: "meters" });
+
         L.esri.query({ url: urlMalha })
-          .intersects(buffer)
-          .run((err2, vizinhos) => {
+          .intersects(bufferSmall)
+          .run((err2, viz) => {
             if (err2) {
               console.error("Erro consulta vizinhos:", err2);
               return;
             }
 
-            const vizinhosValidos = (vizinhos.features || []).filter(f => {
+            const vizinhosAdjacentes = (viz.features || []).filter(f => {
               if (f.properties.objectid === idLote) return false;
-              try {
-                return !!turf.intersect(buffer, f); // qualquer interseção
-              } catch (e) {
-                console.warn("intersect falhou para objectid", f.properties.objectid, e);
-                return false;
-              }
+              try { return !!turf.intersect(bufferSmall, f); } catch (e) { return false; }
             });
 
+            if (!vizinhosAdjacentes || vizinhosAdjacentes.length === 0) {
+              alert("Nenhum confrontante direto encontrado (buffer 0.5 m). A planta de confrontantes não será gerada.");
+              return;
+            }
+
+            const bufferLarge = turf.buffer(lote, 10, { units: "meters" });
+
+            function clipNeighborsByBuffer(bufferGeom, vizinhosArray) {
+              const clips = [];
+              for (const v of vizinhosArray) {
+                try {
+                  const inter = turf.intersect(bufferGeom, v);
+                  if (!inter) continue;
+
+                  let best = inter;
+                  const geomType = inter.geometry && inter.geometry.type;
+
+                  if (geomType === "MultiPolygon") {
+                    let maxArea = -1;
+                    let bestPoly = null;
+                    inter.geometry.coordinates.forEach(coords => {
+                      const poly = {
+                        type: "Feature",
+                        properties: { ...v.properties },
+                        geometry: { type: "Polygon", coordinates: coords }
+                      };
+                      const a = turf.area(poly);
+                      if (a > maxArea) { maxArea = a; bestPoly = poly; }
+                    });
+                    if (bestPoly) best = bestPoly;
+                  }
+
+                  if (best.properties == null) best.properties = {};
+                  best.properties = { ...v.properties };
+
+                  clips.push(best);
+                } catch (e) {
+                  console.warn("clip falhou objectid", v.properties?.objectid, e);
+                }
+              }
+              return clips;
+            }
+
+            const clipes = clipNeighborsByBuffer(bufferLarge, vizinhosAdjacentes);
+            if (!clipes || clipes.length === 0) {
+              alert("Nenhum trecho de interseção resultante do buffer de 10 m. A planta de confrontantes não será gerada.");
+              return;
+            }
+
             const inscrSelecionado = lote.properties.inscrlig;
-            const inscrVizinhos = vizinhosValidos.map(f => `'${f.properties.inscrlig}'`).join(",");
+            const inscrVizinhos = vizinhosAdjacentes.map(f => `'${f.properties.inscrlig}'`).join(",");
             const inscrTodos = `'${inscrSelecionado}'` + (inscrVizinhos ? `,${inscrVizinhos}` : "");
 
-            // consulta informações dos contribuintes
             L.esri.query({ url: urlImoveis })
               .where(`inscrlig IN (${inscrTodos})`)
               .run((err3, fcImoveis) => {
                 if (err3 || !fcImoveis.features || fcImoveis.features.length === 0) {
-                  // mesmo sem info de contribuinte, prosseguir com visualização dos polígonos
-                  montarRelatorio(lote, vizinhosValidos, {});
+                  montarRelatorio(lote, vizinhosAdjacentes, {}, clipes);
                   return;
                 }
 
@@ -122,39 +170,13 @@
                   dicContrib[insc] = selecionado?.nome_contribuinte || "-";
                 });
 
-                montarRelatorio(lote, vizinhosValidos, dicContrib);
+                montarRelatorio(lote, vizinhosAdjacentes, dicContrib, clipes);
               });
           });
       });
 
-    function montarRelatorio(lote, vizinhosValidos, dicContrib) {
-      // ordenar por ângulo
-      const listaSequencial = ordenarVizinhosPorAngulo(lote, vizinhosValidos, 1);
-
-      // agrupar em quadros com MAX_VIZINHOS_POR_QUADRO
-      const grupos = [];
-      for (let i = 0; i < listaSequencial.length; i += MAX_VIZINHOS_POR_QUADRO)
-        grupos.push(listaSequencial.slice(i, i + MAX_VIZINHOS_POR_QUADRO));
-
-      let contadorGlobal = 1;
-      grupos.forEach((grupo, i) => {
-        criarPagina(lote, grupo, dicContrib, i + 1, contadorGlobal, false);
-        contadorGlobal += grupo.length;
-      });
-
-      // criar página final somente se houver mais de uma página (i.e., múltiplos quadros)
-      if (grupos.length > 1) {
-        criarPagina(lote, vizinhosValidos, dicContrib, grupos.length + 1, null, true);
-      }
-
-      // se não houve grupos (sem vizinhos), criar uma página apenas com o lote
-      if (grupos.length === 0) {
-        criarPagina(lote, [], dicContrib, 1, 1, false);
-      }
-    }
-
-    function ordenarVizinhosPorAngulo(lote, vizinhos, passoGraus) {
-      const centro = turf.centroid(lote);
+    function ordenarVizinhosPorAngulo(loteFeat, vizinhosArray, passoGraus) {
+      const centro = turf.centroid(loteFeat);
       const coordCentro = centro.geometry.coordinates;
       const lista = [];
       const ids = new Set();
@@ -163,10 +185,10 @@
       for (let ang = 0; ang < 360; ang += passoGraus) {
         const destino = turf.destination(centro, alcance, ang, { units: "meters" });
         const linha = turf.lineString([coordCentro, destino.geometry.coordinates]);
-        for (const v of vizinhos) {
+        for (const v of vizinhosArray) {
           try {
             const inter = turf.lineIntersect(linha, v);
-            if (inter.features.length > 0) {
+            if (inter.features && inter.features.length > 0) {
               const idv = v.properties.objectid;
               if (!ids.has(idv)) {
                 lista.push(v);
@@ -188,14 +210,63 @@
       return final;
     }
 
-    function criarPagina(lote, vizinhosGrupo, dicContrib, indiceQuadro, contadorInicial, paginaFinal) {
+    function getLabelPoint(feature) {
+      try {
+        if (!feature || !feature.geometry) throw new Error("feature inválida");
+        const pt = turf.pointOnFeature(feature);
+        return pt && pt.geometry && pt.geometry.coordinates ? pt.geometry.coordinates : null;
+      } catch (e) {
+        try { return turf.centroid(feature).geometry.coordinates; } catch (e2) { return null; }
+      }
+    }
+
+    function montarRelatorio(lote, vizinhosValidos, dicContrib, clipes) {
+      const listaSequencial = ordenarVizinhosPorAngulo(lote, vizinhosValidos, 1);
+
+      const mapaClipById = {};
+      (clipes || []).forEach(c => {
+        const id = c.properties?.objectid ?? c.properties?.inscrlig;
+        if (id != null) mapaClipById[id] = c;
+      });
+
+      const clipesSequenciais = listaSequencial.map(v => mapaClipById[v.properties.objectid] || null);
+
+      const gruposV = [];
+      const gruposC = [];
+      for (let i = 0; i < listaSequencial.length; i += MAX_VIZINHOS_POR_QUADRO) {
+        gruposV.push(listaSequencial.slice(i, i + MAX_VIZINHOS_POR_QUADRO));
+        gruposC.push(clipesSequenciais.slice(i, i + MAX_VIZINHOS_POR_QUADRO));
+      }
+
+      if (!gruposV || gruposV.length === 0) {
+        criarPagina(lote, [], dicContrib, 1, 1, false, [], true);
+        return;
+      }
+
+      const singlePageMode = gruposV.length === 1;
+      let contadorGlobal = 1;
+      for (let i = 0; i < gruposV.length; i++) {
+        const isSingle = singlePageMode; // true se somente uma prancha
+        criarPagina(lote, gruposV[i], dicContrib, i + 1, contadorGlobal, false, gruposC[i], isSingle);
+        contadorGlobal += gruposV[i].length;
+      }
+
+      const totalConfrontantes = listaSequencial.length;
+      if (totalConfrontantes > MAX_VIZINHOS_POR_QUADRO) {
+        // página final visão geral (não singlePage)
+        criarPagina(lote, vizinhosValidos, dicContrib, gruposV.length + 1, null, true, clipes, false);
+      }
+    }
+
+    // assinatura adicionada singlePage (boolean)
+    function criarPagina(lote, vizinhosGrupo, dicContrib, indiceQuadro, contadorInicial, paginaFinal, clipesDoGrupo, singlePage) {
       const container = document.getElementById("container");
       const pagina = document.createElement("div");
       pagina.className = "pagina";
       pagina.innerHTML = `
         <div class="cabecalho">
           <div class="cabecalho-superior">
-            <div><img src="images/brasao_municipio.png" alt="Logo Itajaí" onerror="this.style.display='none'"></div>
+            <div><img src="https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/images/brasao_muicipio.png" alt="Logo Itajaí" "></div>
             <div>
               <b>PREFEITURA MUNICIPAL DE ITAJAÍ - SC</b><br>
               Secretaria Municipal da Fazenda<br>
@@ -206,7 +277,7 @@
         </div>
         <div class="titulo">CONSULTA DE INDICAÇÕES FISCAIS DE CONFRONTANTES</div>
         <div class="texto">
-          Consulta gerada nos termos da Ação Conjunta SEDUH – SEFAZ, nº xx/2025.<br>
+          Consulta gerada nos termos da Ação Conjunta SEDUH - SEFAZ, nº xx/2025.<br>
           Considera os dados da base cadastral georreferenciada na data de sua emissão, disponível em:<br>
           <a href="https://plantacadastral.itajai.sc.gov.br/" target="_blank" rel="noopener noreferrer">https://plantacadastral.itajai.sc.gov.br/</a><br>
           Os dados coletados têm finalidade tributária.<br>
@@ -249,10 +320,11 @@
       quadroDiv.appendChild(painelDiv);
       area.appendChild(quadroDiv);
 
-      criarMapa(lote, vizinhosGrupo, dicContrib, indiceQuadro, contadorInicial, paginaFinal);
+      criarMapa(lote, vizinhosGrupo, dicContrib, indiceQuadro, contadorInicial, paginaFinal, clipesDoGrupo, !!singlePage);
     }
 
-    function criarMapa(lote, vizinhosGrupo, dicContrib, indiceQuadro, contadorInicial, paginaFinal) {
+    // criarMapa agora recebe singlePage (boolean)
+    function criarMapa(lote, vizinhosGrupo, dicContrib, indiceQuadro, contadorInicial, paginaFinal, clipesDoGrupo, singlePage) {
       const mapa = L.map("mapa_" + indiceQuadro, {
         attributionControl: false,
         zoomControl: false,
@@ -264,7 +336,6 @@
         touchZoom: false
       }).setView([-26.9046, -48.6874], 16);
 
-      // camada base vetorial ESRI (mantive ID conforme seu exemplo)
       L.esri.Vector.vectorTileLayer("7a110ef9198540068341e6908c6bf298", {
         portalUrl: "https://arcgis.itajai.sc.gov.br/portal",
         attribution: "Prefeitura de Itajaí"
@@ -278,29 +349,33 @@
       }).addTo(mapa);
 
       let contador = contadorInicial || 1;
-      let listaHTML = "";
 
       const vizLayer = L.geoJSON(vizinhosGrupo, {
         style: { color: "darkblue", weight: 2, fillOpacity: 0.1 },
         onEachFeature: (f, l) => {
-          if (!paginaFinal) {
-            const num = contador;
-            l.bindTooltip(num.toString(), { permanent: true, direction: "center", className: "loteTooltip" });
-            const p = f.properties || {};
-            listaHTML += `
-              <div class="registro">
-                <strong>#${num} - ${dicContrib[p.inscrlig] || "-"}</strong>
-                <strong>Inscrição:</strong> ${p.inscricao || p.inscrlig || "-"}<br>
-                <strong>Endereço:</strong> ${p.nomevia || "-"}, nº ${p.numero || "-"}
-              </div>`;
-            contador++;
-          }
+          // sem criar lista aqui; lista lateral será construída abaixo com numeração sincronizada
         }
       }).addTo(mapa);
 
+      // construir lista lateral com números sincronizados (num - nome)
       if (!paginaFinal) {
         const listaEl = document.getElementById(`listaVizinhos_${indiceQuadro}`);
-        if (listaEl) listaEl.innerHTML = listaHTML;
+        if (listaEl) {
+          let listaHTML = "";
+          for (let i = 0; i < vizinhosGrupo.length; i++) {
+            const f = vizinhosGrupo[i];
+            const p = f.properties || {};
+            const num = (contador || 1) + i;
+            const nome = dicContrib[p.inscrlig] || "-";
+            listaHTML += `
+              <div class="registro">
+                <strong>${num} - ${nome}</strong>
+                <strong>Inscrição:</strong> ${p.inscricao || p.inscrlig || "-"}<br>
+                <strong>Endereço:</strong> ${p.nomevia || "-"}, nº ${p.numero || "-"}
+              </div>`;
+          }
+          listaEl.innerHTML = listaHTML;
+        }
       }
 
       const loteSelEl = document.getElementById(`loteSel_${indiceQuadro}`);
@@ -314,20 +389,66 @@
           </div>`;
       }
 
-      const group = paginaFinal ? L.featureGroup([loteLayer, vizLayer]) : L.featureGroup([vizLayer]);
+      // criar marcadores invisíveis e tooltips permanentes (pointOnFeature)
+      const marcadorGroup = L.featureGroup();
+      if (!paginaFinal && Array.isArray(clipesDoGrupo)) {
+        clipesDoGrupo.forEach((clip, idx) => {
+          if (!clip) return;
+          try {
+            const coords = getLabelPoint(clip);
+            if (!coords) return;
+            const latlng = [coords[1], coords[0]];
+            const num = (contador || 1) + idx;
+            const marker = L.marker(latlng, {
+              interactive: false,
+              opacity: 0,
+              icon: L.divIcon({ className: 'invisible-marker', html: '' })
+            }).addTo(mapa);
+            marker.bindTooltip(String(num), { permanent: true, direction: "center", className: "loteTooltip" }).openTooltip();
+            marcadorGroup.addLayer(marker);
+          } catch (e) {
+            console.warn("erro ao criar tooltip para clip", e);
+          }
+        });
+      }
+
+      // enquadramento:
+      // - se paginaFinal === false:
+      //    - se singlePage === true: enquadrar com clipes DO GRUPO + lote selecionado
+      //    - se singlePage === false: enquadrar apenas com clipesDoGrupo (multi-prancha)
+      // - se paginaFinal === true: enquadrar com polígonos inteiros (comportamento visão geral)
       try {
-        if (group.getBounds && group.getBounds().isValid()) {
-          mapa.fitBounds(group.getBounds(), { padding: [30, 30], maxZoom: 19 });
+        if (!paginaFinal) {
+          if (singlePage && marcadorGroup.getLayers().length > 0) {
+            // combinar lote + marcadores invisíveis
+            const combined = L.featureGroup([loteLayer, marcadorGroup]);
+            if (combined.getBounds && combined.getBounds().isValid()) {
+              mapa.fitBounds(combined.getBounds(), { padding: [30, 30], maxZoom: 19 });
+            } else if (marcadorGroup.getBounds && marcadorGroup.getBounds().isValid()) {
+              mapa.fitBounds(marcadorGroup.getBounds(), { padding: [30, 30], maxZoom: 19 });
+            } else if (loteLayer.getBounds && loteLayer.getBounds().isValid()) {
+              mapa.fitBounds(loteLayer.getBounds(), { padding: [30,30], maxZoom: 19 });
+            }
+          } else {
+            // multi-prancha (usar apenas clipes/marcadores)
+            if (marcadorGroup.getBounds && marcadorGroup.getBounds().isValid()) {
+              mapa.fitBounds(marcadorGroup.getBounds(), { padding: [30, 30], maxZoom: 19 });
+            } else {
+              const fallback = L.featureGroup([vizLayer]);
+              if (fallback.getBounds && fallback.getBounds().isValid()) mapa.fitBounds(fallback.getBounds(), { padding: [30,30], maxZoom: 19 });
+            }
+          }
         } else {
-          // fallback para lote
-          const b = L.geoJSON(lote).getBounds();
-          if (b.isValid()) mapa.fitBounds(b, { padding: [30,30], maxZoom: 19 });
+          // paginaFinal: usar polígonos inteiros (lote + vizinhos)
+          const groupFull = L.featureGroup([loteLayer, vizLayer]);
+          if (groupFull.getBounds && groupFull.getBounds().isValid()) {
+            mapa.fitBounds(groupFull.getBounds(), { padding: [30, 30], maxZoom: 19 });
+          }
         }
       } catch (e) {
         console.warn("Erro ao ajustar bounds:", e);
       }
 
-      // norte fixo
       const norte = L.control({ position: 'topright' });
       norte.onAdd = () => {
         const div = L.DomUtil.create('div', 'info2 legend');
@@ -336,7 +457,6 @@
       };
       norte.addTo(mapa);
 
-      // garantir redraw
       setTimeout(() => { try { mapa.invalidateSize(); } catch (e){} }, 200);
     }
   </script>
