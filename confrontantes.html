@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <title>Consulta de Indicações Fiscais de Confrontantes</title>
@@ -11,34 +12,124 @@
   <script src="https://unpkg.com/@turf/turf@6/turf.min.js"></script>
 
   <style>
-    @page { size: A4 portrait; margin: 10mm; }
-    body { margin: 0; padding: 0; font-family: Arial, sans-serif; font-size: 12px; color: black; }
-
-    .pagina {
-      width: 210mm; height: 297mm; box-sizing: border-box; border: 1px solid black;
-      display: flex; flex-direction: column; justify-content: space-between; page-break-after: always;
+    @page {
+      size: A4 portrait;
+      margin: 10mm;
     }
 
-    .cabecalho { border-bottom: 1px solid black; padding: 5px 8px; }
-    .cabecalho-superior { display: flex; align-items: center; justify-content: space-between; font-size: 11px; }
-    .cabecalho-superior img { height: 35px; }
-    .titulo { text-align: center; font-weight: bold; border-bottom: 1px solid black; padding: 4px; }
-    .texto { padding: 4px 8px; border-bottom: 1px solid black; font-size: 11px; }
-    .rodape { border-top: 1px solid black; text-align: center; font-size: 11px; font-weight: bold; padding: 3px; }
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      font-size: 12px;
+      color: black;
+    }
 
-    .areaQuadro { flex: 1; display: flex; align-items: center; justify-content: center; padding: 5px; box-sizing: border-box; }
-    .quadro { display: flex; border: 1px solid #ccc; }
-    .mapa { width: 160mm; height: 250mm; border-right: 1px solid #ccc; }
-    .painel { width: 50mm; height: 250mm; padding: 5px; overflow-y: auto; box-sizing: border-box; }
+    .pagina {
+      width: 210mm;
+      height: 297mm;
+      box-sizing: border-box;
+      border: 1px solid black;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      page-break-after: always;
+    }
 
-    .tituloPainel { display: flex; align-items: center; gap: 6px; margin: 6px 0; }
-    .caixaLegenda { width: 14px; height: 14px; border: 2px solid; display:inline-block; vertical-align:middle; margin-right:6px; }
-    .caixaLote { background-color: darkgray; border-color: black; }
-    .caixaConfrontantes { background-color: rgba(0,0,139,0.1); border-color: darkblue; }
+    .cabecalho {
+      border-bottom: 1px solid black;
+      padding: 5px 8px;
+    }
+
+    .cabecalho-superior {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 11px;
+    }
+
+    .cabecalho-superior img {
+      height: 35px;
+    }
+
+    .titulo {
+      text-align: center;
+      font-weight: bold;
+      border-bottom: 1px solid black;
+      padding: 4px;
+    }
+
+    .texto {
+      padding: 4px 8px;
+      border-bottom: 1px solid black;
+      font-size: 11px;
+    }
+
+    .rodape {
+      border-top: 1px solid black;
+      text-align: center;
+      font-size: 11px;
+      font-weight: bold;
+      padding: 3px;
+    }
+
+    .areaQuadro {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 5px;
+      box-sizing: border-box;
+    }
+
+    .quadro {
+      display: flex;
+      border: 1px solid #ccc;
+    }
+
+    .mapa {
+      width: 160mm;
+      height: 250mm;
+      border-right: 1px solid #ccc;
+    }
+
+    .painel {
+      width: 50mm;
+      height: 250mm;
+      padding: 5px;
+      overflow-y: auto;
+      box-sizing: border-box;
+    }
+
+    .tituloPainel {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      margin: 6px 0;
+    }
+
+    .caixaLegenda {
+      width: 14px;
+      height: 14px;
+      border: 2px solid;
+      display: inline-block;
+      vertical-align: middle;
+      margin-right: 6px;
+    }
+
+    .caixaLote {
+      background-color: darkgray;
+      border-color: black;
+    }
+
+    .caixaConfrontantes {
+      background-color: rgba(0, 0, 139, 0.1);
+      border-color: darkblue;
+    }
 
     .loteTooltip {
-      background: rgba(255,255,255,0.75) !important;
-      border: 1px solid rgba(0,0,0,0.15) !important;
+      background: rgba(255, 255, 255, 0.75) !important;
+      border: 1px solid rgba(0, 0, 0, 0.15) !important;
       box-shadow: none !important;
       font-size: 16px;
       font-weight: bold;
@@ -47,11 +138,33 @@
       border-radius: 2px;
     }
 
-    .registro { border-bottom: 1px solid #ccc; margin-bottom: 6px; padding-bottom: 4px; font-size: 10px; line-height: 1.3em; }
-    .registro strong { display: block; margin-bottom: 2px; }
-    .legenda-mapa { position: absolute; left:8px; bottom:8px; background:#fff; padding:6px; border:1px solid #ccc; font-size:11px; }
+    .registro {
+      border-bottom: 1px solid #ccc;
+      margin-bottom: 6px;
+      padding-bottom: 4px;
+      font-size: 10px;
+      line-height: 1.3em;
+    }
 
-    .invisible-marker { width:0; height:0; }
+    .registro strong {
+      display: block;
+      margin-bottom: 2px;
+    }
+
+    .legenda-mapa {
+      position: absolute;
+      left: 8px;
+      bottom: 8px;
+      background: #fff;
+      padding: 6px;
+      border: 1px solid #ccc;
+      font-size: 11px;
+    }
+
+    .invisible-marker {
+      width: 0;
+      height: 0;
+    }
   </style>
 </head>
 
@@ -167,7 +280,10 @@
                   const registros = agrupados[insc];
                   const titularSim = registros.find(r => r.titular && r.titular.toString().trim().toUpperCase() === "SIM");
                   const selecionado = titularSim || registros[0];
-                  dicContrib[insc] = selecionado?.nome_contribuinte || "-";
+                  dicContrib[insc] = {
+                    nome: selecionado?.nome_contribuinte || "-",
+                    codigo: selecionado?.aut_codigo_imovel || "-"
+                  };
                 });
 
                 montarRelatorio(lote, vizinhosAdjacentes, dicContrib, clipes);
@@ -195,7 +311,7 @@
                 ids.add(idv);
               }
             }
-          } catch (e) {}
+          } catch (e) { }
         }
       }
       const final = [];
@@ -366,11 +482,14 @@
             const f = vizinhosGrupo[i];
             const p = f.properties || {};
             const num = (contador || 1) + i;
-            const nome = dicContrib[p.inscrlig] || "-";
+            const dados = dicContrib[p.inscrlig] || {};
+            const nome = dados.nome || "-";
+            const codigo = dados.codigo || "-";
             listaHTML += `
-              <div class="registro">
+                <div class="registro">
                 <strong>${num} - ${nome}</strong>
-                <strong>Inscrição:</strong> ${p.inscricao || p.inscrlig || "-"}<br>
+                <strong>Cód. imóvel: ${codigo}</strong>
+                <strong>Inscrição: ${p.inscricao || p.inscrlig || "-"}</strong>
                 <strong>Endereço:</strong> ${p.nomevia || "-"}, nº ${p.numero || "-"}
               </div>`;
           }
@@ -383,8 +502,9 @@
         const p = lote.properties || {};
         loteSelEl.innerHTML = `
           <div class="registro">
-            <strong>${dicContrib[p.inscrlig] || "-"}</strong>
-            <strong>Inscrição:</strong> ${p.inscricao || p.inscrlig || "-"}<br>
+            <strong>${(dicContrib[p.inscrlig]?.nome) || "-"}</strong>
+            <strong>Cód. imóvel: ${(dicContrib[p.inscrlig]?.codigo) || "-"}</strong>
+            <strong>Inscrição:${p.inscricao || p.inscrlig || "-"}</strong>
             <strong>Endereço:</strong> ${p.nomevia || "-"}, nº ${p.numero || "-"}
           </div>`;
       }
@@ -427,7 +547,7 @@
             } else if (marcadorGroup.getBounds && marcadorGroup.getBounds().isValid()) {
               mapa.fitBounds(marcadorGroup.getBounds(), { padding: [30, 30], maxZoom: 19 });
             } else if (loteLayer.getBounds && loteLayer.getBounds().isValid()) {
-              mapa.fitBounds(loteLayer.getBounds(), { padding: [30,30], maxZoom: 19 });
+              mapa.fitBounds(loteLayer.getBounds(), { padding: [30, 30], maxZoom: 19 });
             }
           } else {
             // multi-prancha (usar apenas clipes/marcadores)
@@ -435,7 +555,7 @@
               mapa.fitBounds(marcadorGroup.getBounds(), { padding: [30, 30], maxZoom: 19 });
             } else {
               const fallback = L.featureGroup([vizLayer]);
-              if (fallback.getBounds && fallback.getBounds().isValid()) mapa.fitBounds(fallback.getBounds(), { padding: [30,30], maxZoom: 19 });
+              if (fallback.getBounds && fallback.getBounds().isValid()) mapa.fitBounds(fallback.getBounds(), { padding: [30, 30], maxZoom: 19 });
             }
           }
         } else {
@@ -457,8 +577,9 @@
       };
       norte.addTo(mapa);
 
-      setTimeout(() => { try { mapa.invalidateSize(); } catch (e){} }, 200);
+      setTimeout(() => { try { mapa.invalidateSize(); } catch (e) { } }, 200);
     }
   </script>
 </body>
+
 </html>
