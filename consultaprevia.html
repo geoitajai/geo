@@ -5,16 +5,18 @@
     <meta charset="UTF-8">
     <title>Consulta Prévia - Secretaria de Desenvolvimento Urbano e Habitação - Itajaí-SC</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Favicons -->
     <link rel="icon" type="image/png" href="images/favicon-96x96.png" sizes="96x96">
     <link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16">
     <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32">
-    <!-- Leaflet -->
+
     <script src="lib/leaflet/leaflet.js"></script>
     <link href="lib/leaflet/leaflet.css" rel="stylesheet">
-    <!-- Esri Leaflet -->
+
     <script src="lib/leaflet/esri-leaflet.js"></script>
     <script src="lib/leaflet/esri-leaflet-vector.js"></script>
+
+    <script src="https://unpkg.com/@turf/turf@6/turf.min.js"></script>
+
     <style>
         @page {
             size: A4;
@@ -212,7 +214,6 @@
             <div id="patrimonioHistorico"></div>
             <div id="intervViaria"></div>
             <div id="aerodromo"></div>
-            <!-- <div id="lnpreamar"></div> -->
             <div id="obs1"></div>
             <div id="obs2"></div>
             <div id="obs3"></div>
@@ -221,6 +222,7 @@
             <div id="obs6"></div>
             <div id="obs7"></div>
             <div id="esgoto"></div>
+            <div id="obsconflito"></div>
         </div>
 
         <div class="espaco-direita">
@@ -1004,7 +1006,7 @@
                     let proprLote = fcol.features[0].properties;
                     console.log(proprLote)
 
-                    if (proprLote['conflito'] == 'n') {
+                    if (proprLote['conflito'] == 'n' || proprLote['conflito'] == 's') {
                         let zonasArray = proprLote.nzonaslista.split(", ").map(z => z.trim());
 
                         let zonasLote = Object.keys(tabelaZon)
@@ -1017,8 +1019,16 @@
                         (function () {
                             Object.keys(zonasLote).forEach(zona => {
                                 let zonaMin = zona.toLowerCase();
+
+                                // Verifica se a propriedade da zona existe
                                 if (proprLote[zonaMin] !== undefined) {
-                                    zonasLote[zona]['areaZona'] = `${proprLote[zonaMin]}m²`;
+
+                                    // Se houver conflito, exibe '---', caso contrário, exibe a área
+                                    if (proprLote['conflito'] == 's') {
+                                        zonasLote[zona]['areaZona'] = '---';
+                                    } else {
+                                        zonasLote[zona]['areaZona'] = `${proprLote[zonaMin]}m²`;
+                                    }
                                 }
                             });
                         })();
@@ -1109,8 +1119,12 @@
 
                         criarTabelaZonas(zonasLote);
 
-                        // Adiciona polígono do lote
-                        L.geoJson(fcol.features[0], {
+                        // --- CÓDIGO ATUALIZADO: Adiciona polígono do lote principal e verifica sobreposições ---
+
+                        // 1. Adiciona o polígono principal
+                        let geomPrincipal = fcol.features[0];
+
+                        let layerPrincipal = L.geoJson(geomPrincipal, {
                             style: {
                                 weight: 5,
                                 color: '#666',
@@ -1119,9 +1133,62 @@
                             }
                         }).addTo(plantaCadastralDestaque);
 
+                        // 2. Ajusta o zoom focado APENAS no lote principal
                         let zoomIdealMenosUm = mapa.getBoundsZoom(plantaCadastralDestaque.getBounds()) - 1;
                         let maxZoomAplicado = Math.min(zoomIdealMenosUm, 19);
                         mapa.flyToBounds(plantaCadastralDestaque.getBounds(), { maxZoom: maxZoomAplicado });
+
+                        // 3. Verifica e desenha sobreposições > 30m² usando Turf.js
+                        let idPrincipal = geomPrincipal.properties.inscricao;
+
+                        // Cria uma NOVA query na camada de imóveis (malha)
+                        // IMPORTANTE: Solicitamos explicitamente as feições que INTERSECTAM a geometria do lote principal
+                        L.esri.query({
+                            url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/malhacrs3857/FeatureServer/0/'
+                        })
+                            .intersects(geomPrincipal) // Aqui acontece a mágica no servidor Esri
+                            .run((erro, vizinhos) => {
+                                if (erro) {
+                                    console.error("Erro na consulta espacial:", erro);
+                                    return;
+                                }
+
+                                if (vizinhos && vizinhos.features) {
+                                    vizinhos.features.forEach(vizinho => {
+                                        // Ignora o próprio lote
+                                        if (vizinho.properties.inscricao === idPrincipal) return;
+
+                                        try {
+                                            // Calcula a interseção exata usando Turf.js (refinamento client-side)
+                                            let interseccao = turf.intersect(geomPrincipal, vizinho);
+
+                                            if (interseccao) {
+                                                // Calcula a área da interseção em metros quadrados
+                                                let areaSobreposta = turf.area(interseccao);
+
+                                                // Se for maior que 30m², desenha no mapa
+                                                if (areaSobreposta > 30) {
+                                                    console.log("Sobreposição detectada:", areaSobreposta, "m² com", vizinho.properties.inscricao);
+                                                    L.geoJson(vizinho, {
+                                                        style: {
+                                                            color: 'red',       // Cor de alerta
+                                                            weight: 3,          // Espessura
+                                                            dashArray: '10, 5', // Linha tracejada
+                                                            fill: false,        // Vazado (sem preenchimento)
+                                                            opacity: 1
+                                                        },
+                                                        interactive: false
+                                                    }).addTo(mapa);
+                                                }
+                                            }
+                                        } catch (e) {
+                                            console.log("Erro ao calcular geometria turf:", e);
+                                        }
+                                    });
+                                }
+                            });
+
+                        // --- FIM DO CÓDIGO ATUALIZADO ---
 
                         // Monta a pauta viária
                         (function () {
@@ -1209,6 +1276,9 @@
                         if (proprLote.sobrezon == "Centro Histórico") {
                             document.getElementById('sobrezHist').innerHTML = "§ 8º No Centro Histórico a taxa de ocupação do embasamento pode chegar a 100%. Se preservar fachada histórica, pode chegar a 75% de torre + CA acrescido 0.5.";
                         }
+                        if (proprLote.conflito == "s") {
+                            document.getElementById('obsconflito').innerHTML = `<hr> &#x2713; <strong style="text-decoration: underline; text-transform: uppercase; font-size: 1.2em;">Planta cadastral com inconsistências de confrontantes e ou delimitações.</strong> As áreas representadas podem apresentar interferências decorrentes de sobreposição de matrículas ou de outros processos que incidem sobre seus limites.`;
+                        }
                         if (
                             proprLote.edhist === "1" ||
                             proprLote.edhist === 1 ||
@@ -1225,7 +1295,7 @@
                                 "</a>, item 07 - Parecer Técnico Dir.de Mob.para CONSULTAS PRÉVIAS.";
                         }
                         // if (proprLote.lnpreamar == "-1") {
-                        //   document.getElementById('lnpreamar').innerHTML = "<hr> &#x2713; LOTE EM TERRENO DE MARINHA, necessário autorização da SPU e parecer IBAMA.";
+                        //    document.getElementById('lnpreamar').innerHTML = "<hr> &#x2713; LOTE EM TERRENO DE MARINHA, necessário autorização da SPU e parecer IBAMA.";
                         // }
                         if (proprLote.esgoto == "1") {
                             document.getElementById('esgoto').innerHTML = `<hr> &#x2713; Lote com potencial para ligação na rede de esgoto. Consulte <a href="https://semasaitajai.com.br/?modo=publicacao&tipo=noticia&codigo=2449" target="_blank">SEMASA</a> e <a href="https://arcgis.itajai.sc.gov.br/portal/apps/webappviewer/index.html?id=b61494c7c5274f4bb7d45af523709c3f" target="_blank">MAPA REDE ESGOTO</a>.`;
@@ -1237,10 +1307,10 @@
                         document.getElementById('tabelaZonas').innerHTML = '<br><strong>LOTE CAUCIONADO,<br>PROCURAR A SECRETARIA MUNICIPAL DE DESENVOLVIMENTO URBANO E HABITAÇÃO</strong>';
                         document.getElementById('mapa').innerHTML = '';
                     }
-                    else if (proprLote['conflito'] == 's') {
+                    /* else if (proprLote['conflito'] == 's') {
                         document.getElementById('tabelaZonas').innerHTML = '<br><strong>CONFLITO CONFRONTANTES,<br>PROCURAR A SECRETARIA MUNICIPAL DE DESENVOLVIMENTO URBANO E HABITAÇÃO</strong>';
                         document.getElementById('mapa').innerHTML = '';
-                    }
+                    } */
                     else {
                         document.getElementById('tabelaZonas').innerHTML = '<br><strong>' + proprLote['conflito'] + '</strong>';
                         document.getElementById('mapa').innerHTML = '';
