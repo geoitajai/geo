@@ -1003,8 +1003,7 @@
             classzoneamento
                 .where(inscricaowhereimovel)
                 .run((error, fcol) => {
-                    let proprLote = fcol.features[0].properties;
-                    console.log(proprLote)
+                    let proprLote = fcol.features[0].properties;                    
 
                     if (proprLote['conflito'] == 'n' || proprLote['conflito'] == 's') {
                         let zonasArray = proprLote.nzonaslista.split(", ").map(z => z.trim());
@@ -1139,54 +1138,57 @@
                         mapa.flyToBounds(plantaCadastralDestaque.getBounds(), { maxZoom: maxZoomAplicado });
 
                         // 3. Verifica e desenha sobreposições > 30m² usando Turf.js
-                        let idPrincipal = geomPrincipal.properties.inscricao;
+                        if (proprLote['conflito'] == 's') {
 
-                        // Cria uma NOVA query na camada de imóveis (malha)
-                        // IMPORTANTE: Solicitamos explicitamente as feições que INTERSECTAM a geometria do lote principal
-                        L.esri.query({
-                            url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/malhacrs3857/FeatureServer/0/'
-                        })
-                            .intersects(geomPrincipal) // Aqui acontece a mágica no servidor Esri
-                            .run((erro, vizinhos) => {
-                                if (erro) {
-                                    console.error("Erro na consulta espacial:", erro);
-                                    return;
-                                }
+                            let idPrincipal = geomPrincipal.properties.inscricao;
 
-                                if (vizinhos && vizinhos.features) {
-                                    vizinhos.features.forEach(vizinho => {
-                                        // Ignora o próprio lote
-                                        if (vizinho.properties.inscricao === idPrincipal) return;
+                            // Cria uma NOVA query na camada de imóveis (malha)
+                            // IMPORTANTE: Solicitamos explicitamente as feições que INTERSECTAM a geometria do lote principal
+                            L.esri.query({
+                                url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/malhacrs3857/FeatureServer/0/'
+                            })
+                                .intersects(geomPrincipal) // Aqui acontece a mágica no servidor Esri
+                                .run((erro, vizinhos) => {
+                                    if (erro) {
+                                        console.error("Erro na consulta espacial:", erro);
+                                        return;
+                                    }
 
-                                        try {
-                                            // Calcula a interseção exata usando Turf.js (refinamento client-side)
-                                            let interseccao = turf.intersect(geomPrincipal, vizinho);
+                                    if (vizinhos && vizinhos.features) {
+                                        vizinhos.features.forEach(vizinho => {
+                                            // Ignora o próprio lote
+                                            if (vizinho.properties.inscricao === idPrincipal) return;
 
-                                            if (interseccao) {
-                                                // Calcula a área da interseção em metros quadrados
-                                                let areaSobreposta = turf.area(interseccao);
+                                            try {
+                                                // Calcula a interseção exata usando Turf.js (refinamento client-side)
+                                                let interseccao = turf.intersect(geomPrincipal, vizinho);
 
-                                                // Se for maior que 30m², desenha no mapa
-                                                if (areaSobreposta > 30) {
-                                                    console.log("Sobreposição detectada:", areaSobreposta, "m² com", vizinho.properties.inscricao);
-                                                    L.geoJson(vizinho, {
-                                                        style: {
-                                                            color: 'red',       // Cor de alerta
-                                                            weight: 3,          // Espessura
-                                                            dashArray: '10, 5', // Linha tracejada
-                                                            fill: false,        // Vazado (sem preenchimento)
-                                                            opacity: 1
-                                                        },
-                                                        interactive: false
-                                                    }).addTo(mapa);
+                                                if (interseccao) {
+                                                    // Calcula a área da interseção em metros quadrados
+                                                    let areaSobreposta = turf.area(interseccao);
+
+                                                    // Se for maior que 30m², desenha no mapa
+                                                    if (areaSobreposta > 30) {
+                                                        //console.log("Sobreposição detectada:", areaSobreposta, "m² com", vizinho.properties.inscricao);
+                                                        L.geoJson(vizinho, {
+                                                            style: {
+                                                                color: 'red',       // Cor de alerta
+                                                                weight: 3,          // Espessura
+                                                                dashArray: '10, 5', // Linha tracejada
+                                                                fill: false,        // Vazado (sem preenchimento)
+                                                                opacity: 1
+                                                            },
+                                                            interactive: false
+                                                        }).addTo(mapa);
+                                                    }
                                                 }
+                                            } catch (e) {
+                                                console.log("Erro ao calcular geometria turf:", e);
                                             }
-                                        } catch (e) {
-                                            console.log("Erro ao calcular geometria turf:", e);
-                                        }
-                                    });
-                                }
-                            });
+                                        });
+                                    }
+                                });
+                        }
 
                         // --- FIM DO CÓDIGO ATUALIZADO ---
 
@@ -1239,8 +1241,7 @@
                             document.getElementById('pauta').innerHTML = conteudo;
                         })();
 
-                        // Observações específicas
-                        console.log(proprLote.edhist)
+                        // Observações específicas                        
                         if (proprLote.ambiental.length == 0) {
                             document.getElementById('ambiental').innerHTML = 'Com base nos dados geoespaciais do Levantamento Aerofotogramétrico do Estado de Santa Catarina (SDS, 2013), realizado na escala 1:10.000, NÃO incide neste lote a restrição ambiental de Área de Preservação Permanente (APP), conforme definição estabelecida pela Lei Federal n.º 12.651/2012';
                         } else {
@@ -1288,14 +1289,14 @@
                         ) {
                             document.getElementById('patrimonioHistorico').innerHTML = "<hr> &#x2713; Entorno de Patrimônio Histórico, solicitar parecer do CMPAT (<strong>cmpatrimonioitajai@gmail.com</strong>)";
                         }
-                        if (proprLote.interven == "1") {
+                        if (proprLote.interven == "1" || proprLote.interven == "-1") {
                             document.getElementById('intervViaria').innerHTML = "<hr> &#x2713; Solicitar parecer da Diretoria de Mobilidade, Secr. Desenv. Urbano e Hab. Acesse " +
                                 "<a href='https://itajai.aprova.com.br' target='_blank'>" +
                                 "<strong>APROVA DIGITAL</strong>" +
                                 "</a>, item 07 - Parecer Técnico Dir.de Mob.para CONSULTAS PRÉVIAS.";
                         }
                         // if (proprLote.lnpreamar == "-1") {
-                        //    document.getElementById('lnpreamar').innerHTML = "<hr> &#x2713; LOTE EM TERRENO DE MARINHA, necessário autorização da SPU e parecer IBAMA.";
+                        //     document.getElementById('lnpreamar').innerHTML = "<hr> &#x2713; LOTE EM TERRENO DE MARINHA, necessário autorização da SPU e parecer IBAMA.";
                         // }
                         if (proprLote.esgoto == "1") {
                             document.getElementById('esgoto').innerHTML = `<hr> &#x2713; Lote com potencial para ligação na rede de esgoto. Consulte <a href="https://semasaitajai.com.br/?modo=publicacao&tipo=noticia&codigo=2449" target="_blank">SEMASA</a> e <a href="https://arcgis.itajai.sc.gov.br/portal/apps/webappviewer/index.html?id=b61494c7c5274f4bb7d45af523709c3f" target="_blank">MAPA REDE ESGOTO</a>.`;
