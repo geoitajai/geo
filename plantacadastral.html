@@ -684,10 +684,25 @@
                 },
                 headerSort: false
             }, {
-                title: 'Razão social',
+                title: 'Razão social (clique p/mais info.)',
                 field: 'nrazaoso',
                 width: 200,
-                headerSort: false
+                headerSort: false,
+                cursor: 'pointer', // Adiciona o cursor de "mãozinha" para indicar clique
+                cellClick: (e, cell) => {
+                    // 1. Pega todos os dados da linha onde ocorreu o clique
+                    let dadosDaLinha = cell.getRow().getData();
+
+                    // 2. Extrai o aut_codigo_imovel (que no seu objtabela chama-se 'ncodimov')
+                    let aut_codigo_imovel = dadosDaLinha.ncodimov;
+
+                    // 3. Monta a URL usando a variável global inscrlig_base + 'c' + codigo da linha
+                    // Nota: Certifique-se que inscrlig_base foi definido anteriormente na busca do lote
+                    let espelhocadastro = `https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/consulta_imovel.html#${inscrlig_base}c${aut_codigo_imovel}`;
+
+                    // 4. Abre em nova aba
+                    window.open(espelhocadastro, '_blank');
+                }
             }, {
                 title: 'matrícula',
                 field: 'nmatricu',
@@ -839,7 +854,7 @@
                     } else if (fcol.features.length == 0) {
                         //links gerais lote
                         document.getElementById("consultaprev").innerHTML = '&nbsp';
-                        document.getElementById("alvara").innerHTML = '&nbsp';
+                        //document.getElementById("alvara").innerHTML = '&nbsp';
                         document.getElementById("plsitua").innerHTML = '&nbsp';
                     };
                 });
@@ -1271,7 +1286,7 @@
             function carregarGeoJsonSemInteracao(url, camada) {
                 fetch(url)
                     .then(response => response.json())
-                    .then(data => {                        
+                    .then(data => {
                         L.geoJson(data, {
                             filter: function (feature) {
                                 return feature.properties.tipo !== "obs"

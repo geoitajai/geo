@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informações Cadastro do Imóvel</title>    
+
+    <script src="lib/leaflet/leaflet.js"></script>
+    <link href="lib/leaflet/leaflet.css" rel="stylesheet">
+    
+    <script src="lib/leaflet/esri-leaflet.js"></script>
+    <script src="lib/leaflet/esri-leaflet-vector.js"></script>
+
+    <script src="lib/measurepath/leaflet-measure-path.js"></script>
+    <link rel="stylesheet" href="lib/measurepath/leaflet-measure-path.css" />
+    
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        @page { size: A4; margin: 10mm; }
+        
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 9pt;
+            line-height: 1.3;
+            color: #000;
+        }
+        
+        .container {
+            width: 190mm;
+            min-height: 277mm;
+            margin: 0 auto;
+            padding: 5mm;
+            position: relative;
+        }
+        
+        /* --- Estilos do Relatório --- */
+        .header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 8mm; padding-bottom: 3mm; border-bottom: 1px solid #000; }
+        .logo-box { width: 60mm; height: 20mm; display: flex; align-items: center; justify-content: center; font-size: 8pt; color: #666; }
+        .header-info { flex: 1; padding-left: 5mm; font-size: 8pt; }
+        .header-info div { margin-bottom: 1mm; }
+        .data-field { text-align: right; font-size: 8pt; }
+        h1 { text-align: center; font-size: 12pt; margin: 5mm 0; font-weight: bold; }
+        .full-width-sections { margin-bottom: 4mm; }
+        .content-wrapper { display: flex; gap: 5mm; }
+        .left-column { flex: 1; }
+        .right-column { width: 85mm; } 
+        .section { margin-bottom: 4mm; padding-bottom: 2mm; border-bottom: 1px solid #000; }
+        .section-title { font-weight: bold; font-size: 10pt; margin-bottom: 2mm; }
+        .field-row { margin-bottom: 1.5mm; display: flex; flex-wrap: wrap; }
+        .field-label { font-weight: normal; }
+        .field-value { font-weight: normal; }
+        .two-columns { display: flex; gap: 3mm; } .two-columns > div { flex: 1; }
+        .three-columns { display: flex; gap: 3mm; } .three-columns > div { flex: 1; }
+        
+        /* --- Estilos do Mapa --- */
+        #mapa {
+            width: 100%;
+            height: 130mm;            
+            background-color: #f0f0f0;
+        }
+
+        /* Indicador de Norte */
+        .info2.legend {
+            background: rgba(255, 255, 255, 0.8);
+            padding: 5px;
+            border-radius: 5px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.2);
+            line-height: 1.1em;
+            text-align: center;
+        }
+
+        .footer-note { margin-top: 4mm; font-size: 7pt; line-height: 1.4; }
+        
+        @media print {
+            body { margin: 0; padding: 0; }
+            .container { margin: 0; padding: 0; }
+            .section { page-break-inside: avoid; }
+            /* Ocultar controles do Leaflet na impressão */
+            .leaflet-control-container .leaflet-top.leaflet-left { display: none; }
+            .leaflet-control-container .leaflet-bottom.leaflet-right { display: none; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo-box">
+                <img src="images/logo_urb.png" alt="Logo" style="max-width: 100%; max-height: 100%;" onerror="this.parentElement.innerHTML='(images/logo_urb.png)'">
+            </div>
+            <div class="header-info">
+                <div>Rua Alberto Werner, 100, Vila Operária - 88304-053 - Itajaí/SC</div>
+                <div>Fone: (47) 341-6000</div>
+                <div>www.itajai.sc.gov.br/</div>
+            </div>
+            <div class="data-field">
+                Data: <span id="data-atual"></span>
+            </div>
+        </div>
+        
+        <h1>Informações Cadastro do Imóvel</h1>
+        
+        <div class="full-width-sections">
+            <div class="section">
+                <div class="two-columns">
+                    <div>
+                        <div class="field-row">
+                            <span class="field-label">Inscrição Imobiliária: </span>
+                            <span class="field-value" id="aut_inscricao"></span>
+                        </div>
+                        <div class="field-row">
+                            <span class="field-label">Matrícula: </span>
+                            <span class="field-value" id="aut_numero_matricula"></span>
+                        </div>
+                        <div class="field-row">
+                            <span class="field-label">Proprietário: </span>
+                            <span class="field-value" id="nome_contribuinte"></span>
+                            <span class="field-value"> - </span>
+                            <span class="field-value" id="tipo"></span>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="field-row">
+                            <span class="field-label">Número do Cadastro: </span>
+                            <span class="field-value" id="aut_codigo_imovel"></span>
+                        </div>
+                        <div class="field-row">
+                            <span class="field-label">Cartório: </span>
+                            <span class="field-value" id="aut_cartorio"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="section">
+                <div class="section-title">Identificação</div>
+                <div class="three-columns">
+                    <div class="field-row">
+                        <span class="field-label">Valor Venal Territorial: </span>
+                        <span class="field-value" id="vlr_venal_territorial"></span>
+                    </div>
+                    <div class="field-row">
+                        <span class="field-label">Valor Venal Predial: </span>
+                        <span class="field-value" id="vlr_venal_predial"></span>
+                    </div>
+                    <div class="field-row">
+                        <span class="field-label">Valor Venal Total: </span>
+                        <span class="field-value" id="vlr_venal_total"></span>
+                    </div>
+                </div>
+                <div class="two-columns">
+                    <div class="field-row">
+                        <span class="field-label">Alíquota: </span>
+                        <span class="field-value" id="aliquota"></span>
+                    </div>
+                    <div class="field-row">
+                        <span class="field-label">Imóvel Rural: </span>
+                        <span class="field-value" id="lote_ifg_imovel_rural"></span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="section">
+                <div class="section-title">Endereço do Imóvel</div>
+                <div class="two-columns">
+                    <div class="field-row">
+                        <span class="field-label">Logradouro: </span>
+                        <span class="field-value" id="logradouro"></span>
+                        <span class="field-value">, </span>
+                        <span class="field-value" id="aut_end_numero"></span>
+                    </div>
+                    <div class="field-row">
+                        <span class="field-label">CEP: </span>
+                        <span class="field-value" id="aut_end_cep"></span>
+                    </div>
+                </div>
+                <div class="two-columns">
+                    <div class="field-row">
+                        <span class="field-label">Bairro: </span>
+                        <span class="field-value" id="aut_end_bairro"></span>
+                    </div>
+                    <div class="field-row">
+                        <span class="field-label">Complemento: </span>
+                        <span class="field-value" id="aut_end_complemento"></span>
+                    </div>
+                </div>
+                <div class="field-row">
+                    <span class="field-label">Cidade: Itajaí UF: SC</span>
+                </div>
+                <div class="three-columns">
+                    <div class="field-row">
+                        <span class="field-label">Medida Frente: </span>
+                        <span class="field-value" id="lote_medida_frente"></span>
+                    </div>
+                    <div class="field-row">
+                        <span class="field-label">Fração Ideal: </span>
+                        <span class="field-value" id="aut_fracao_informada"></span>
+                    </div>
+                    <div></div>
+                </div>
+                <div class="three-columns">
+                    <div class="field-row">
+                        <span class="field-label">Medida Fundo: </span>
+                        <span class="field-value" id="lote_medida_fundos"></span>
+                    </div>
+<!--                     <div class="field-row">
+                        <span class="field-label">Área do Terreno: </span>
+                        <span class="field-value" id="lote_area_terreno"></span>
+                    </div> -->
+                    <div class="field-row">
+                        <span class="field-label">Patrimônio: </span>
+                        <span class="field-value" id="lote_ifg_patrimonio"></span>
+                    </div>
+                </div>
+                <div class="two-columns">
+                    <div class="field-row">
+                        <span class="field-label">Área do Terreno Tributável: </span>
+                        <span class="field-value" id="aut_area_tributavel_terreno"></span>
+                    </div>
+                    <div class="field-row">
+                        <span class="field-label">Área Preservação (%): </span>
+                        <span class="field-value" id="lote_ifg_area_preservacao"></span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="section">
+                <div class="section-title">Edificação</div>
+                <div class="three-columns">
+                    <div class="field-row">
+                        <span class="field-label">Tipo de Uso: </span>
+                        <span class="field-value" id="ava_tipo_uso"></span>
+                    </div>
+                    <div class="field-row">
+                        <span class="field-label">Nº Pavimentos: </span>
+                        <span class="field-value" id="aut_pav_numero_total"></span>
+                    </div>
+                    <div class="field-row">
+                        <span class="field-label">Espécie: </span>
+                        <span class="field-value" id="ava_especie"></span>
+                    </div>
+                </div>
+                <div class="three-columns">
+                    <div class="field-row">
+                        <span class="field-label">Tipo Imóvel (Tipologia): </span>
+                        <span class="field-value" id="ava_tipologia"></span>
+                    </div>
+                    <div class="field-row">
+                        <span class="field-label">Situação: </span>
+                        <span class="field-value" id="ava_disposicao_lote"></span>
+                    </div>
+                    <div class="field-row">
+                        <span class="field-label">Conservação: </span>
+                        <span class="field-value" id="ava_conservacao"></span>
+                    </div>
+                </div>
+                <div class="field-row">
+                    <span class="field-label">Acabamentos: </span>
+                    <span class="field-value" id="ava_acabamento"></span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="content-wrapper">
+            <div class="left-column">
+                <div class="section">
+                    <div class="section-title">Características do Terreno</div>
+                    <div class="field-row">
+                        <span class="field-label">Passeio: </span>
+                        <span class="field-value" id="lote_ifg_passeio"></span>
+                    </div>
+                    <div class="field-row">
+                        <span class="field-label">Topografia: </span>
+                        <span class="field-value" id="lote_ifg_topografia"></span>
+                    </div>
+                    <div class="field-row">
+                        <span class="field-label">Situação no Lote: </span>
+                        <span class="field-value" id="lote_ifg_situacao_lote"></span>
+                    </div>
+                    <div class="field-row">
+                        <span class="field-label">Benfeitoria: </span>
+                        <span class="field-value" id="lote_ifg_benfeitoria"></span>
+                    </div>
+                </div>
+                
+                <div class="section">
+                    <div class="section-title">Serviços / Infraestrutura</div>
+                    <div class="field-row">
+                        <span class="field-label">Pavimentação: </span>
+                        <span class="field-value" id="pavimento"></span>
+                    </div>
+                    <div class="field-row">
+                        <span class="field-label">Água/Luz/Drenagem: </span>
+                        <span class="field-value" id="agua_luz_drenagem"></span>
+                    </div>
+                    <div class="field-row">
+                        <span class="field-label">Coleta de Lixo: </span>
+                        <span class="field-value" id="coleta_lixo"></span>
+                    </div>
+                    <div class="field-row">
+                        <span class="field-label">Limpeza Pública: </span>
+                        <span class="field-value" id="limpeza_publica"></span>
+                    </div>
+                    <div class="field-row">
+                        <span class="field-label">Iluminação Pública: </span>
+                        <span class="field-value" id="iluminacao_publica"></span>
+                    </div>
+                </div>
+                
+                <div class="section">
+                    <div class="section-title">Dados Gerais</div>
+                    <div class="field-row">
+                        <span class="field-label">Localização Geográfica: Lat.</span>
+                        <span class="field-value" id="lat"></span>
+                        <span class="field-label">, Long.</span>
+                        <span class="field-value" id="long"></span>
+                    </div>
+                    <div class="field-row">
+                        <span class="field-label">Lot.: </span>
+                        <span class="field-value" id="loteamento_nome"></span>
+                    </div>
+                    <div class="field-row">
+                        <span class="field-label">Lot.Descr.: </span>
+                        <span class="field-value" id="lotdescr"></span>
+                    </div>
+                    <div class="field-row">
+                        <span class="field-label">Zoneamento: </span>
+                        <span class="field-value" id="nzonaslista"></span>
+                    </div>
+                    <div class="field-row">
+                        <span class="field-label">Num.Inscr.Incra: </span>
+                        <span class="field-value" id="lote_ifg_numero_incra"></span>
+                    </div>
+                    <div class="field-row">
+                        <span class="field-label">Cota Inundação: </span>
+                        <span class="field-value" id="cota_inundacao"></span>
+                    </div>
+                    <div class="field-row">
+                        <span class="field-label">Nº Proj.Habite-se: </span>
+                        <span class="field-value" id="aut_numero_projeto"></span>
+                    </div>
+                    <div class="field-row">
+                        <span class="field-label">Data Habite-se: </span>
+                        <span class="field-value" id="aut_data_habitese"></span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="right-column">
+                <div id="mapa"></div>
+            </div>
+        </div>
+        
+        <div class="footer-note">
+            Dados cadastrais para simples conferência dos dados de cada imóvel, sujeita a alterações sem aviso prévio.<br>
+            NÃO CONSTITUI DIREITO DE PROPRIEDADE
+        </div>
+    </div>
+    
+    <script>
+        // URLs base
+        const portalUrl = "https://arcgis.itajai.sc.gov.br/portal";
+        const serverUrl = "https://arcgis.itajai.sc.gov.br/server";
+        
+        // Camada de Atributos (Dados Alfanuméricos do Formulário)
+        const loteAtributosUrl = serverUrl + "/rest/services/Hosted/lotes_unidades_espelho/FeatureServer/0";
+        
+        // Camada de Geometria (Malha Cadastral)
+        const malhaCadastralUrl = serverUrl + "/rest/services/malha_cadastral_raster/FeatureServer/0/";
+        
+        let mapa = null;
+        let plantaCadastralDestaque = null;
+
+        function inicializarMapa() {
+            if (mapa) return;
+
+            // Configuração do Mapa
+            mapa = new L.Map('mapa', {
+                zoom: 14,
+                minZoom: 10,
+                maxZoom: 20,
+                maxBounds: [[-27.3000, -49.2300], [-26.3285, -48.3200]],
+                center: new L.latLng([-26.9046, -48.6874]),
+                preferCanvas: true,
+                attributionControl: false,
+                scrollWheelZoom: false,
+                dragging: true
+            });
+
+            // Configuração de Panes (Camadas)
+            mapa.createPane('basemap_vect');
+            mapa.getPane('basemap_vect').style.zIndex = 100;
+            mapa.createPane('basemap_overlay');
+            mapa.getPane('basemap_overlay').style.zIndex = 402;
+
+            // Barra de escala
+            L.control.scale({ position: "topright", imperial: false }).addTo(mapa);
+
+            // Seta Norte
+            let nortemapa = L.control({ position: 'topright' });
+            nortemapa.onAdd = function (map) {
+                let div = L.DomUtil.create('div', 'info2 legend');
+                div.innerHTML += '<center><sub><font size="4">▲</font></sub><br/><sup><font size="2">N</font></sup></center>';
+                return div;
+            };
+            nortemapa.addTo(mapa);
+
+            // Definição das Camadas (BaseMaps)
+            let tilesmu = L.featureGroup().addTo(mapa);
+            L.esri.Vector.vectorTileLayer("7a110ef9198540068341e6908c6bf298", {
+                portalUrl: portalUrl,
+                attribution: 'Prefeitura de Itajaí'
+            }).addTo(tilesmu);
+
+            // Raster da Malha
+            L.esri.dynamicMapLayer({
+                url: malhaCadastralUrl,
+                maxZoom: 20,
+                opacity: 0.50,
+                format: 'png8'
+            }).addTo(mapa);
+
+            // Outras Camadas
+            let ortoimg2020 = new L.TileLayer('https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/tiles/tiles_ortoimg_2020/{z}/{x}/{y}.png', { maxZoom: 20, attribution: 'Engemap 2020' });
+            let restituicao2020 = new L.TileLayer('https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/tiles/tiles_rest_2020/{z}/{x}/{y}.png', { maxZoom: 20, attribution: 'Engemap 2020' });
+            let ortoimg2007 = new L.TileLayer('https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/tiles/tiles_ortoimg_2007/{z}/{x}/{y}.png', { maxZoom: 20, attribution: 'Aeroimagem 2007' });
+            let restituicao1984 = new L.TileLayer('https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/tiles/tiles_rest_1984/{z}/{x}/{y}.png', { maxZoom: 20, attribution: 'Município de Itajaí' });
+            let tileesri = new L.TileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', { maxZoom: 20, opacity: 0.6, attribution: 'Esri' });
+            let googletiles = new L.TileLayer('http://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}', { opacity: 0.6, maxZoom: 20, subdomains: ['mt0', 'mt1', 'mt2', 'mt3'], attribution: 'Google' });
+
+            // Controle de Camadas
+            let baseMaps = {
+                "SIE.Itajaí": tilesmu,
+                "Imagem.2020": ortoimg2020,
+                "Rest.2020": restituicao2020,
+                "Imagem.2007": ortoimg2007,
+                "Rest.1984": restituicao1984,
+                "ESRI©": tileesri,
+                "Google©": googletiles
+            };
+
+            L.control.layers(baseMaps, null, { collapsed: true, position: 'bottomright' }).addTo(mapa);
+
+            // Grupo para o lote destacado
+            plantaCadastralDestaque = L.featureGroup({ pane: 'basemap_overlay' }).addTo(mapa);
+        }
+        
+        // Função Data
+        function formatarDataAtual() {
+            const hoje = new Date();
+            const dia = String(hoje.getDate()).padStart(2, '0');
+            const mes = String(hoje.getMonth() + 1).padStart(2, '0');
+            const ano = hoje.getFullYear();
+            document.getElementById('data-atual').textContent = `${dia}/${mes}/${ano}`;
+        }
+
+        // Função auxiliar para formatar dinheiro (BRL)
+        function formatarMoeda(valor) {
+            // Se for nulo, indefinido, traço ou string vazia, retorna traço
+            if (valor === null || valor === undefined || valor === '-' || valor === '') {
+                return '-';
+            }
+
+            // Converte para número (caso venha como string "1000.50")
+            const numero = parseFloat(valor);
+
+            // Se não for um número válido, retorna traço
+            if (isNaN(numero)) {
+                return '-';
+            }
+
+            // Formata usando a API nativa do navegador para BRL
+            return new Intl.NumberFormat('pt-BR', {
+                style: 'currency',
+                currency: 'BRL'
+            }).format(numero);
+        }
+        
+        // Função Preencher Formulario
+        function popularCampos(atributos) {
+            const campos = [
+                'aut_inscricao', 'aut_codigo_imovel', 'aut_numero_matricula', 'aut_cartorio',
+                'nome_contribuinte', 'tipo', 'vlr_venal_territorial', 'vlr_venal_predial',
+                'vlr_venal_total', 'aliquota', 'lote_ifg_imovel_rural', 'logradouro',
+                'aut_end_numero', 'aut_end_cep', 'aut_end_bairro', 'aut_end_complemento',
+                'lote_medida_frente', 'aut_fracao_informada', 'lote_medida_fundos',
+                /* 'lote_area_terreno',  */'lote_ifg_patrimonio', 'aut_area_tributavel_terreno',
+                'lote_ifg_area_preservacao', 'ava_tipo_uso', 'aut_pav_numero_total',
+                'ava_especie', 'ava_tipologia', 'ava_disposicao_lote', 'ava_conservacao',
+                'ava_acabamento', 'lote_ifg_passeio', 'lote_ifg_topografia',
+                'lote_ifg_situacao_lote', 'lote_ifg_benfeitoria', 'pavimento',
+                'agua_luz_drenagem', 'coleta_lixo', 'limpeza_publica', 'iluminacao_publica',
+                'lat', 'long', 'loteamento_nome', 'lotdescr', 'nzonaslista',
+                'lote_ifg_numero_incra', 'cota_inundacao', 'aut_numero_projeto',
+                'aut_data_habitese'
+            ];            
+            
+            // Campos que precisam de formatação monetária (R$)
+            const camposMonetarios = ['vlr_venal_territorial', 'vlr_venal_predial', 'vlr_venal_total'];
+
+            campos.forEach(campo => {
+                const elemento = document.getElementById(campo);
+                console.log(atributos)
+                if (elemento) {
+                    if (camposMonetarios.includes(campo)) {
+                        elemento.textContent = formatarMoeda(atributos[campo]);
+                    } 
+                    else if (atributos[campo] !== undefined && atributos[campo] !== null) {
+                        elemento.textContent = atributos[campo];
+                    }
+                }
+            });
+        }
+        
+        async function buscarImovel(inscricaoGeo, codigoImovel) {
+            try {
+                inicializarMapa();
+                
+                // 1. Buscar Dados Textuais (Formulário)
+                // Usando o código do imóvel (segunda parte do hash) na coluna aut_codigo_imovel                
+                const atributosUrl = `${loteAtributosUrl}/query?where=aut_codigo_imovel='${codigoImovel}'&outFields=*&f=json`;
+                const atributosResponse = await fetch(atributosUrl);
+                const atributosData = await atributosResponse.json();
+                
+                if (atributosData.features && atributosData.features.length > 0) {
+                    const atributos = atributosData.features[0].attributes;
+                    popularCampos(atributos);
+                    
+                    // 2. Buscar Geometria (Malha Cadastral)
+                    // Usando a inscrição geográfica (primeira parte do hash) na coluna inscrlig
+                    let cadastroQuery = L.esri.query({ url: malhaCadastralUrl });
+                    
+                    cadastroQuery.where(`inscrlig ='${inscricaoGeo}'`)
+                        .limit(1)
+                        .run(function (error, cadastrolote) {
+                            if (error) {
+                                console.error("Erro na geometria:", error);
+                                return;
+                            }
+
+                            if (plantaCadastralDestaque) {
+                                plantaCadastralDestaque.clearLayers();
+                            }
+
+                            // Processar coordenadas (lógica para suportar multipolygons complexos)
+                            if(cadastrolote.features && cadastrolote.features.length > 0) {
+                                let coordenadas = [];
+                                
+                                cadastrolote.features[0].geometry.coordinates.forEach((mpoly, index) => {
+                                    coordenadas.push([]);
+                                    mpoly.forEach((coords) => {
+                                        if (Array.isArray(coords[0])) {
+                                            coords.forEach((coordmpoly) => {
+                                                coordenadas[index].push(new L.LatLng(coordmpoly[1], coordmpoly[0]));
+                                            });
+                                        } else {
+                                            coordenadas[index].push(new L.LatLng(coords[1], coords[0]));
+                                        }
+                                    });
+                                });
+
+                                // Desenhar polígono e ativar medidas
+                                coordenadas.forEach((poly) => {
+                                    L.polygon(poly, {
+                                        weight: 4,
+                                        color: 'blue',
+                                        dashArray: '',
+                                        fillOpacity: 0.1,
+                                        interactive: false
+                                    }).addTo(plantaCadastralDestaque).showMeasurements(); // Exibe as cotas automaticamente
+                                });
+
+                                // Zoom para o lote
+                                mapa.flyToBounds(plantaCadastralDestaque.getBounds(), { maxZoom: 19, duration: 1.5 });
+                            } else {
+                                alert("Geometria não encontrada para esta inscrição.");
+                            }
+                        });
+                        
+                } else {
+                    alert('Código do imóvel não encontrado nos dados cadastrais.');
+                }
+            } catch (error) {
+                console.error('Erro ao buscar dados:', error);
+                alert('Erro ao buscar dados do imóvel.');
+            }
+        }
+        
+        // Inicialização
+        formatarDataAtual();
+        
+        // Tratamento do Hash (Separador "c")
+        if (window.location.hash.length > 1) {
+            const hashRaw = window.location.hash.substring(1); // Remove o #
+            const partes = hashRaw.split('c'); // Divide pelo separador "c"
+
+            if (partes.length === 2) {
+                const inscricaoGeo = partes[0];
+                const codigoImovel = partes[1];
+                buscarImovel(inscricaoGeo, codigoImovel);
+            } else {
+                alert('Formato de URL inválido. Use: #inscricaocinscricao\nExemplo: #i212005020859c14409');
+            }
+        } else {
+            alert('Informe os dados no hash da URL.\nExemplo: #i212005020859c14409');
+        }
+    </script>
+</body>
+</html>
