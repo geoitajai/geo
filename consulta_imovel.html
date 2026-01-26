@@ -1,31 +1,39 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Informações Cadastro do Imóvel</title>    
+    <title>Informações Cadastro do Imóvel</title>
 
     <script src="lib/leaflet/leaflet.js"></script>
     <link href="lib/leaflet/leaflet.css" rel="stylesheet">
-    
+
     <script src="lib/leaflet/esri-leaflet.js"></script>
     <script src="lib/leaflet/esri-leaflet-vector.js"></script>
 
     <script src="lib/measurepath/leaflet-measure-path.js"></script>
     <link rel="stylesheet" href="lib/measurepath/leaflet-measure-path.css" />
-    
+
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        
-        @page { size: A4; margin: 10mm; }
-        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        @page {
+            size: A4;
+            margin: 10mm;
+        }
+
         body {
             font-family: Arial, sans-serif;
             font-size: 9pt;
             line-height: 1.3;
             color: #000;
         }
-        
+
         .container {
             width: 190mm;
             min-height: 277mm;
@@ -33,30 +41,114 @@
             padding: 5mm;
             position: relative;
         }
-        
+
         /* --- Estilos do Relatório --- */
-        .header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 8mm; padding-bottom: 3mm; border-bottom: 1px solid #000; }
-        .logo-box { width: 60mm; height: 20mm; display: flex; align-items: center; justify-content: center; font-size: 8pt; color: #666; }
-        .header-info { flex: 1; padding-left: 5mm; font-size: 8pt; }
-        .header-info div { margin-bottom: 1mm; }
-        .data-field { text-align: right; font-size: 8pt; }
-        h1 { text-align: center; font-size: 12pt; margin: 5mm 0; font-weight: bold; }
-        .full-width-sections { margin-bottom: 4mm; }
-        .content-wrapper { display: flex; gap: 5mm; }
-        .left-column { flex: 1; }
-        .right-column { width: 85mm; } 
-        .section { margin-bottom: 4mm; padding-bottom: 2mm; border-bottom: 1px solid #000; }
-        .section-title { font-weight: bold; font-size: 10pt; margin-bottom: 2mm; }
-        .field-row { margin-bottom: 1.5mm; display: flex; flex-wrap: wrap; }
-        .field-label { font-weight: normal; }
-        .field-value { font-weight: normal; }
-        .two-columns { display: flex; gap: 3mm; } .two-columns > div { flex: 1; }
-        .three-columns { display: flex; gap: 3mm; } .three-columns > div { flex: 1; }
-        
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 8mm;
+            padding-bottom: 3mm;
+            border-bottom: 1px solid #000;
+        }
+
+        .logo-box {
+            width: 60mm;
+            height: 20mm;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 8pt;
+            color: #666;
+        }
+
+        .header-info {
+            flex: 1;
+            padding-left: 5mm;
+            font-size: 8pt;
+        }
+
+        .header-info div {
+            padding-top: 2mm;            
+        }
+
+        .data-field {
+            text-align: right;
+            font-size: 8pt;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 12pt;
+            margin: 5mm 0;
+            font-weight: bold;
+        }
+
+        .full-width-sections {
+            margin-bottom: 4mm;
+        }
+
+        .content-wrapper {
+            display: flex;
+            gap: 5mm;
+        }
+
+        .left-column {
+            flex: 1;
+        }
+
+        .right-column {
+            width: 85mm;
+        }
+
+        .section {
+            margin-bottom: 4mm;
+            padding-bottom: 2mm;
+            border-bottom: 1px solid #000;
+        }
+
+        .section-title {
+            font-weight: bold;
+            font-size: 10pt;
+            margin-bottom: 2mm;
+        }
+
+        .field-row {
+            margin-bottom: 1.5mm;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .field-label {
+            font-weight: normal;
+        }
+
+        .field-value {
+            font-weight: normal;
+        }
+
+        .two-columns {
+            display: flex;
+            gap: 3mm;
+        }
+
+        .two-columns>div {
+            flex: 1;
+        }
+
+        .three-columns {
+            display: flex;
+            gap: 3mm;
+        }
+
+        .three-columns>div {
+            flex: 1;
+        }
+
         /* --- Estilos do Mapa --- */
         #mapa {
             width: 100%;
-            height: 130mm;            
+            height: 130mm;
             background-color: #f0f0f0;
         }
 
@@ -65,28 +157,50 @@
             background: rgba(255, 255, 255, 0.8);
             padding: 5px;
             border-radius: 5px;
-            box-shadow: 0 0 15px rgba(0,0,0,0.2);
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
             line-height: 1.1em;
             text-align: center;
         }
 
-        .footer-note { margin-top: 4mm; font-size: 7pt; line-height: 1.4; }
-        
+        .footer-note {
+            margin-top: 4mm;
+            font-size: 7pt;
+            line-height: 1.4;
+        }
+
         @media print {
-            body { margin: 0; padding: 0; }
-            .container { margin: 0; padding: 0; }
-            .section { page-break-inside: avoid; }
+            body {
+                margin: 0;
+                padding: 0;
+            }
+
+            .container {
+                margin: 0;
+                padding: 0;
+            }
+
+            .section {
+                page-break-inside: avoid;
+            }
+
             /* Ocultar controles do Leaflet na impressão */
-            .leaflet-control-container .leaflet-top.leaflet-left { display: none; }
-            .leaflet-control-container .leaflet-bottom.leaflet-right { display: none; }
+            .leaflet-control-container .leaflet-top.leaflet-left {
+                display: none;
+            }
+
+            .leaflet-control-container .leaflet-bottom.leaflet-right {
+                display: none;
+            }
         }
     </style>
 </head>
+
 <body>
     <div class="container">
         <div class="header">
             <div class="logo-box">
-                <img src="images/logo_urb.png" alt="Logo" style="max-width: 100%; max-height: 100%;" onerror="this.parentElement.innerHTML='(images/logo_urb.png)'">
+                <img src="images/brasao_muicipio.png" alt="Logo" style="max-width: 100%; max-height: 100%;"
+                    onerror="this.parentElement.innerHTML='(images/logo_urb.png)'">
             </div>
             <div class="header-info">
                 <div>Rua Alberto Werner, 100, Vila Operária - 88304-053 - Itajaí/SC</div>
@@ -97,9 +211,9 @@
                 Data: <span id="data-atual"></span>
             </div>
         </div>
-        
+
         <h1>Informações Cadastro do Imóvel</h1>
-        
+
         <div class="full-width-sections">
             <div class="section">
                 <div class="two-columns">
@@ -131,7 +245,7 @@
                     </div>
                 </div>
             </div>
-            
+
             <div class="section">
                 <div class="section-title">Identificação</div>
                 <div class="three-columns">
@@ -159,7 +273,7 @@
                     </div>
                 </div>
             </div>
-            
+
             <div class="section">
                 <div class="section-title">Endereço do Imóvel</div>
                 <div class="two-columns">
@@ -203,7 +317,7 @@
                         <span class="field-label">Medida Fundo: </span>
                         <span class="field-value" id="lote_medida_fundos"></span>
                     </div>
-<!--                     <div class="field-row">
+                    <!--                     <div class="field-row">
                         <span class="field-label">Área do Terreno: </span>
                         <span class="field-value" id="lote_area_terreno"></span>
                     </div> -->
@@ -223,7 +337,7 @@
                     </div>
                 </div>
             </div>
-            
+
             <div class="section">
                 <div class="section-title">Edificação</div>
                 <div class="three-columns">
@@ -260,7 +374,7 @@
                 </div>
             </div>
         </div>
-        
+
         <div class="content-wrapper">
             <div class="left-column">
                 <div class="section">
@@ -282,7 +396,7 @@
                         <span class="field-value" id="lote_ifg_benfeitoria"></span>
                     </div>
                 </div>
-                
+
                 <div class="section">
                     <div class="section-title">Serviços / Infraestrutura</div>
                     <div class="field-row">
@@ -306,14 +420,14 @@
                         <span class="field-value" id="iluminacao_publica"></span>
                     </div>
                 </div>
-                
+
                 <div class="section">
                     <div class="section-title">Dados Gerais</div>
                     <div class="field-row">
                         <span class="field-label">Localização Geográfica: Lat.</span>
                         <span class="field-value" id="lat"></span>
                         <span class="field-label">, Long.</span>
-                        <span class="field-value" id="long"></span>
+                        <span class="field-value" id="long_"></span>
                     </div>
                     <div class="field-row">
                         <span class="field-label">Lot.: </span>
@@ -345,29 +459,30 @@
                     </div>
                 </div>
             </div>
-            
+
             <div class="right-column">
                 <div id="mapa"></div>
             </div>
         </div>
-        
+
         <div class="footer-note">
-            Dados cadastrais para simples conferência dos dados de cada imóvel, sujeita a alterações sem aviso prévio.<br>
+            Dados cadastrais para simples conferência dos dados de cada imóvel, sujeita a alterações sem aviso
+            prévio.<br>
             NÃO CONSTITUI DIREITO DE PROPRIEDADE
         </div>
     </div>
-    
+
     <script>
         // URLs base
         const portalUrl = "https://arcgis.itajai.sc.gov.br/portal";
         const serverUrl = "https://arcgis.itajai.sc.gov.br/server";
-        
+
         // Camada de Atributos (Dados Alfanuméricos do Formulário)
         const loteAtributosUrl = serverUrl + "/rest/services/Hosted/lotes_unidades_espelho/FeatureServer/0";
-        
+
         // Camada de Geometria (Malha Cadastral)
         const malhaCadastralUrl = serverUrl + "/rest/services/malha_cadastral_raster/FeatureServer/0/";
-        
+
         let mapa = null;
         let plantaCadastralDestaque = null;
 
@@ -426,17 +541,24 @@
             let ortoimg2007 = new L.TileLayer('https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/tiles/tiles_ortoimg_2007/{z}/{x}/{y}.png', { maxZoom: 20, attribution: 'Aeroimagem 2007' });
             let restituicao1984 = new L.TileLayer('https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/tiles/tiles_rest_1984/{z}/{x}/{y}.png', { maxZoom: 20, attribution: 'Município de Itajaí' });
             let tileesri = new L.TileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', { maxZoom: 20, opacity: 0.6, attribution: 'Esri' });
-            let googletiles = new L.TileLayer('http://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}', { opacity: 0.6, maxZoom: 20, subdomains: ['mt0', 'mt1', 'mt2', 'mt3'], attribution: 'Google' });
+            // Mapa ortoimagem 2024
+            let ortoimg2024 = new L.TileLayer(
+                'https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/tiles/tiles_ortoimg_2024/{z}/{x}/{y}.jpg', {
+                minZoom: 10,
+                maxZoom: 20,
+                opacity: 0.9,
+                attribution: 'Engemap geoinformação 2024, Prefeitura de Itajaí'
+            });
 
             // Controle de Camadas
             let baseMaps = {
                 "SIE.Itajaí": tilesmu,
+                "Imagem.2024": ortoimg2024,
                 "Imagem.2020": ortoimg2020,
                 "Rest.2020": restituicao2020,
                 "Imagem.2007": ortoimg2007,
                 "Rest.1984": restituicao1984,
-                "ESRI©": tileesri,
-                "Google©": googletiles
+                "ESRI©": tileesri                
             };
 
             L.control.layers(baseMaps, null, { collapsed: true, position: 'bottomright' }).addTo(mapa);
@@ -444,7 +566,7 @@
             // Grupo para o lote destacado
             plantaCadastralDestaque = L.featureGroup({ pane: 'basemap_overlay' }).addTo(mapa);
         }
-        
+
         // Função Data
         function formatarDataAtual() {
             const hoje = new Date();
@@ -475,7 +597,7 @@
                 currency: 'BRL'
             }).format(numero);
         }
-        
+
         // Função Preencher Formulario
         function popularCampos(atributos) {
             const campos = [
@@ -490,46 +612,45 @@
                 'ava_acabamento', 'lote_ifg_passeio', 'lote_ifg_topografia',
                 'lote_ifg_situacao_lote', 'lote_ifg_benfeitoria', 'pavimento',
                 'agua_luz_drenagem', 'coleta_lixo', 'limpeza_publica', 'iluminacao_publica',
-                'lat', 'long', 'loteamento_nome', 'lotdescr', 'nzonaslista',
+                'lat', 'long_', 'loteamento_nome', 'lotdescr', 'nzonaslista',
                 'lote_ifg_numero_incra', 'cota_inundacao', 'aut_numero_projeto',
                 'aut_data_habitese'
-            ];            
-            
+            ];
+
             // Campos que precisam de formatação monetária (R$)
             const camposMonetarios = ['vlr_venal_territorial', 'vlr_venal_predial', 'vlr_venal_total'];
 
             campos.forEach(campo => {
                 const elemento = document.getElementById(campo);
-                console.log(atributos)
                 if (elemento) {
                     if (camposMonetarios.includes(campo)) {
                         elemento.textContent = formatarMoeda(atributos[campo]);
-                    } 
+                    }
                     else if (atributos[campo] !== undefined && atributos[campo] !== null) {
                         elemento.textContent = atributos[campo];
                     }
                 }
             });
         }
-        
+
         async function buscarImovel(inscricaoGeo, codigoImovel) {
             try {
                 inicializarMapa();
-                
+
                 // 1. Buscar Dados Textuais (Formulário)
                 // Usando o código do imóvel (segunda parte do hash) na coluna aut_codigo_imovel                
                 const atributosUrl = `${loteAtributosUrl}/query?where=aut_codigo_imovel='${codigoImovel}'&outFields=*&f=json`;
                 const atributosResponse = await fetch(atributosUrl);
                 const atributosData = await atributosResponse.json();
-                
+
                 if (atributosData.features && atributosData.features.length > 0) {
                     const atributos = atributosData.features[0].attributes;
                     popularCampos(atributos);
-                    
+
                     // 2. Buscar Geometria (Malha Cadastral)
                     // Usando a inscrição geográfica (primeira parte do hash) na coluna inscrlig
                     let cadastroQuery = L.esri.query({ url: malhaCadastralUrl });
-                    
+
                     cadastroQuery.where(`inscrlig ='${inscricaoGeo}'`)
                         .limit(1)
                         .run(function (error, cadastrolote) {
@@ -543,9 +664,9 @@
                             }
 
                             // Processar coordenadas (lógica para suportar multipolygons complexos)
-                            if(cadastrolote.features && cadastrolote.features.length > 0) {
+                            if (cadastrolote.features && cadastrolote.features.length > 0) {
                                 let coordenadas = [];
-                                
+
                                 cadastrolote.features[0].geometry.coordinates.forEach((mpoly, index) => {
                                     coordenadas.push([]);
                                     mpoly.forEach((coords) => {
@@ -576,7 +697,7 @@
                                 alert("Geometria não encontrada para esta inscrição.");
                             }
                         });
-                        
+
                 } else {
                     alert('Código do imóvel não encontrado nos dados cadastrais.');
                 }
@@ -585,10 +706,10 @@
                 alert('Erro ao buscar dados do imóvel.');
             }
         }
-        
+
         // Inicialização
         formatarDataAtual();
-        
+
         // Tratamento do Hash (Separador "c")
         if (window.location.hash.length > 1) {
             const hashRaw = window.location.hash.substring(1); // Remove o #
@@ -606,4 +727,5 @@
         }
     </script>
 </body>
+
 </html>
