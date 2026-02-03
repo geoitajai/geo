@@ -798,23 +798,30 @@
                         document.getElementById("consultaprev").innerHTML = `<a href="${consultapreviap}" target="_blank">CONSULTA PRÉVIA</a> |&nbsp`
                         document.getElementById("plsitua").innerHTML = `<a href="${plantasitua}" target="_blank">PLANTA SITUAÇÃO</a>`
                         let objtabela = [];
+                        let codigosProcessados = new Set();
+
                         fcol.features.forEach(el => {
-                            objtabela.push({
-                                'ninscrao': el.properties.lote_inscricao,
-                                'ncodimov': el.properties.aut_codigo_imovel,
-                                'nrazaoso': el.properties.nome_contribuinte,
-                                'nmatricu': el.properties.aut_numero_matricula,
-                                'nlogrado': el.properties.aut_end_logradouro,
-                                'nnumimov': el.properties.aut_end_numero,
-                                'ncomplem': el.properties.aut_end_complemento,
-                                'nnomebai': el.properties.aut_end_bairro,
-                                'nareater': el.properties.aut_area_tributavel_terreno,
-                                'ncodcont': el.properties.aut_ano_construcao,
-                                'nfracaoi': el.properties.aut_fracao_informada,
-                                'nomeloteamento': '-',
-                                'descrloteamento': '-',
-                                'panchaloteamento': '-'
-                            });
+                            const codigo = el.properties.aut_codigo_imovel;
+
+                            if (!codigosProcessados.has(codigo)) {
+                                codigosProcessados.add(codigo);
+                                objtabela.push({
+                                    'ninscrao': el.properties.lote_inscricao,
+                                    'ncodimov': codigo,
+                                    'nrazaoso': el.properties.nome_contribuinte,
+                                    'nmatricu': el.properties.aut_numero_matricula,
+                                    'nlogrado': el.properties.aut_end_logradouro,
+                                    'nnumimov': el.properties.aut_end_numero,
+                                    'ncomplem': el.properties.aut_end_complemento,
+                                    'nnomebai': el.properties.aut_end_bairro,
+                                    'nareater': el.properties.aut_area_tributavel_terreno,
+                                    'ncodcont': el.properties.aut_ano_construcao,
+                                    'nfracaoi': el.properties.aut_fracao_informada,
+                                    'nomeloteamento': '-',
+                                    'descrloteamento': '-',
+                                    'panchaloteamento': '-'
+                                });
+                            }
                         });
 
                         // Verificar se existem informações do loteamento para atualizar os registros
