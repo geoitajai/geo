@@ -328,7 +328,7 @@
                             </font>
                     </p>
                     <p>
-                        <a href="https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/arquivos.html"
+                        <a href="https://arcgis.itajai.sc.gov.br/portal/apps/experiencebuilder/experience/?id=9d34d28bd57c40c8b549a20301d16256&draft=true"
                             target="_blank">
                             <font size="2" color="black">
                                 DOWNLOADS
@@ -639,10 +639,10 @@
 
         // Dados, imóveis
         let cadastroimoveispts = L.esri.query({
-            url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/imoveis_plantacadastral/FeatureServer/0/'
+            url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/lotes_unidades_espelho/FeatureServer/0/'
         });
         let cadastroimoveisptscodimov = L.esri.query({
-            url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/imoveis_plantacadastral/FeatureServer/0/'
+            url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/lotes_unidades_espelho/FeatureServer/0/'
         });
 
         // loteamentos
@@ -704,6 +704,11 @@
                     window.open(espelhocadastro, '_blank');
                 }
             }, {
+                title: 'Tipo Contrib.',
+                field: 'tipo',
+                width: 85,
+                headerSort: false
+            }, {
                 title: 'matrícula',
                 field: 'nmatricu',
                 width: 100,
@@ -727,21 +732,6 @@
                 title: 'Bairro',
                 field: 'nnomebai',
                 width: 100,
-                headerSort: false
-            }, {
-                title: 'Área trib.',
-                field: 'nareater',
-                width: 65,
-                headerSort: false
-            }, {
-                title: 'Ano constr.',
-                field: 'ncodcont',
-                width: 80,
-                headerSort: false
-            }, {
-                title: 'Frac.ideal inf.',
-                field: 'nfracaoi',
-                width: 90,
                 headerSort: false
             }, {
                 title: 'Loteamento origem',
@@ -797,34 +787,38 @@
                         //links gerais lote
                         document.getElementById("consultaprev").innerHTML = `<a href="${consultapreviap}" target="_blank">CONSULTA PRÉVIA</a> |&nbsp`
                         document.getElementById("plsitua").innerHTML = `<a href="${plantasitua}" target="_blank">PLANTA SITUAÇÃO</a>`
-                        let objtabela = [];
-                        let codigosProcessados = new Set();
+                        let agrupados = new Map();
 
                         fcol.features.forEach(el => {
-                            const codigo = el.properties.aut_codigo_imovel;
+                            const props = el.properties;
 
-                            if (!codigosProcessados.has(codigo)) {
-                                codigosProcessados.add(codigo);
-                                objtabela.push({
-                                    'ninscrao': el.properties.lote_inscricao,
-                                    'ncodimov': codigo,
-                                    'nrazaoso': el.properties.nome_contribuinte,
-                                    'nmatricu': el.properties.aut_numero_matricula,
-                                    'nlogrado': el.properties.aut_end_logradouro,
-                                    'nnumimov': el.properties.aut_end_numero,
-                                    'ncomplem': el.properties.aut_end_complemento,
-                                    'nnomebai': el.properties.aut_end_bairro,
-                                    'nareater': el.properties.aut_area_tributavel_terreno,
-                                    'ncodcont': el.properties.aut_ano_construcao,
-                                    'nfracaoi': el.properties.aut_fracao_informada,
+                            const chaveImovel = `${props.aut_codigo_imovel}|${props.aut_inscricao}|${props.codigo_contribuinte}`;
+
+                            if (!agrupados.has(chaveImovel)) {
+                                agrupados.set(chaveImovel, {
+                                    'ninscrao': props.aut_inscricao,
+                                    'ncodimov': props.aut_codigo_imovel,
+                                    'nrazaoso': props.nome_contribuinte,
+                                    'tipo': props.tipo,
+                                    'nmatricu': props.aut_numero_matricula,
+                                    'nlogrado': props.aut_end_logradouro,
+                                    'nnumimov': props.aut_end_numero,
+                                    'ncomplem': props.aut_end_complemento,
+                                    'nnomebai': props.aut_end_bairro,                                    
                                     'nomeloteamento': '-',
                                     'descrloteamento': '-',
                                     'panchaloteamento': '-'
                                 });
+                            } else {
+                                let itemExistente = agrupados.get(chaveImovel);
+                                if (itemExistente.tipo !== props.tipo) {
+                                    itemExistente.tipo = "Resp./Prop.";
+                                }
                             }
                         });
-
-                        // Verificar se existem informações do loteamento para atualizar os registros
+                        
+                        let objtabela = Array.from(agrupados.values());
+                        
                         if (e.features[0].properties.lotcod != null) {
                             codigo_loteamento = e.features[0].properties.lotcod;
                             let loteamentocodigo = `codigo='${codigo_loteamento}'`;
@@ -833,15 +827,13 @@
                                 .returnGeometry(false)
                                 .run((error, fcol) => {
                                     if (fcol != null) {
-                                        fcol.features.forEach(el => {
-                                            // Definindo valores "-" caso sejam null ou undefined
+                                        fcol.features.forEach(el => {                                            
                                             let nome = fcol.features[0].properties.nome ?? '-';
                                             let descr = e.features[0].properties.lotdescr ?? '-';
                                             let panchaloteamento = '-';
                                             if (fcol.features[0].properties.googleid) {
                                                 panchaloteamento = `https://drive.google.com/file/d/${fcol.features[0].properties.googleid}/view`;
-                                            };
-                                            // Atualizando os registros de objtabela
+                                            };                                            
                                             objtabela.forEach((registro) => {
                                                 registro.nomeloteamento = nome;
                                                 registro.descrloteamento = descr;
@@ -853,13 +845,11 @@
                                     }
 
                                 });
-                        } else {
-                            // Se não houver informações de loteamento, ainda assim enviamos os dados para a tabela
+                        } else {                            
                             table.setData(objtabela);
                         }
                         table.setData(objtabela);
-                    } else if (fcol.features.length == 0) {
-                        //links gerais lote
+                    } else if (fcol.features.length == 0) {                        
                         document.getElementById("consultaprev").innerHTML = '&nbsp';
                         //document.getElementById("alvara").innerHTML = '&nbsp';
                         document.getElementById("plsitua").innerHTML = '&nbsp';
