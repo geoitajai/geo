@@ -25,8 +25,6 @@
     <!-- control coordinates -->
     <script src="lib/controlcoordinates/Control.Coordinates.js"></script>
     <link href="lib/controlcoordinates/Control.Coordinates.css" rel="stylesheet">
-    <!-- geoprocessamento com turf -->
-    <script src="https://unpkg.com/@turf/turf@6/turf.min.js"></script>
     <!-- tabulator -->
     <script src="lib/tabulator/tabulator.min.js"></script>
     <link href="lib/tabulator/tabulator_simple.min.css" rel="stylesheet">
@@ -1457,43 +1455,35 @@
             mapa.addLayer(reurb);
         };
 
-        // Cicloviário
         const camada_cicloviaria = () => {
             cicloviario_chk = true;
 
-            // Função para definir o estilo da camada com base nas propriedades
             function estiloCicloviario(feature) {
                 const { plan, tipo } = feature.properties;
 
                 if (plan === "existentes") {
                     switch (tipo) {
                         case "ciclovia":
-                            return { color: "darkgreen", weight: 3, dashArray: null };
+                            return { color: "darkgreen", weight: 3 };
                         case "ciclofaixa":
-                            return { color: "darkred", weight: 3, dashArray: null };
+                            return { color: "darkred", weight: 3 };
                         case "compartilhada":
-                            return { color: "darkblue", weight: 3, dashArray: null };
+                            return { color: "darkblue", weight: 3 };
                     }
                 }
-                // Estilo padrão para outros casos
                 return { color: "orange", weight: 3, dashArray: "15, 15", opacity: 0.8 };
             }
 
             const camadaCicloviario = L.esri.featureLayer({
                 url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/cicloviario_view/FeatureServer/0/',
-                fields: ['tipo', 'objectid', 'plan'],
+                fields: ['tipo', 'objectid', 'plan', 'SHAPE__Length'],
                 precision: 6,
                 style: estiloCicloviario,
                 pane: 'nivel_marcadores'
-            }).addTo(cicloviario).on('click', function (e) {
-                let props = e.layer.feature.properties;
-                let popupContent = `<strong>Tipo de Intervenção:</strong> ${props.tipoint}<br><strong>ID:</strong> ${props.objectid}`;
-                e.layer.bindPopup(popupContent).openPopup();
-            });
+            }).addTo(cicloviario);
 
             mapa.addLayer(cicloviario);
 
-            // Calcular valores usando Turf.js
             camadaCicloviario.query().where("1=1").run((error, featureCollection) => {
                 if (error) {
                     console.error("Erro ao obter dados:", error);
@@ -1506,21 +1496,23 @@
                 featureCollection.features.forEach(feature => {
                     const props = feature.properties;
 
-                    // Calcular comprimento em quilômetros usando Turf
-                    const comprimento = turf.length(feature, { units: 'kilometers' });
+                    // SHAPE__Length em metros -> converter para km
+                    const comprimentoKm = props.SHAPE__Length / 1000;
 
                     if (props.plan === "existentes") {
-                        totalExistente += comprimento;
+                        totalExistente += comprimentoKm;
                     } else {
-                        totalPlanejada += comprimento;
+                        totalPlanejada += comprimentoKm;
                     }
                 });
 
                 document.getElementById("valoresciclo").innerHTML = `
             <p style="font-size: 0.8em;">- Existente: ${Math.round(totalExistente)} km</p>
-            <p style="font-size: 0.8em;">- Planejada: ${Math.round(totalPlanejada)} km</p>`;
+            <p style="font-size: 0.8em;">- Planejada: ${Math.round(totalPlanejada)} km</p>
+        `;
             });
         };
+
 
         // parcelamento do solo
         let parcelamentodestaque = L.featureGroup().addTo(mapa);
@@ -1879,7 +1871,6 @@
             console.log('Acessando da internet pública');
             // Configurações para internet
         }
-        detectarIntranet();
 
     </script>
 </body>
