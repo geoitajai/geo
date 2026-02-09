@@ -25,6 +25,8 @@
     <!-- control coordinates -->
     <script src="lib/controlcoordinates/Control.Coordinates.js"></script>
     <link href="lib/controlcoordinates/Control.Coordinates.css" rel="stylesheet">
+    <!-- geoprocessamento com turf -->
+    <script src="https://unpkg.com/@turf/turf@6/turf.min.js"></script>
     <!-- tabulator -->
     <script src="lib/tabulator/tabulator.min.js"></script>
     <link href="lib/tabulator/tabulator_simple.min.css" rel="stylesheet">
@@ -804,7 +806,7 @@
                                     'nlogrado': props.aut_end_logradouro,
                                     'nnumimov': props.aut_end_numero,
                                     'ncomplem': props.aut_end_complemento,
-                                    'nnomebai': props.aut_end_bairro,                                    
+                                    'nnomebai': props.aut_end_bairro,
                                     'nomeloteamento': '-',
                                     'descrloteamento': '-',
                                     'panchaloteamento': '-'
@@ -816,9 +818,9 @@
                                 }
                             }
                         });
-                        
+
                         let objtabela = Array.from(agrupados.values());
-                        
+
                         if (e.features[0].properties.lotcod != null) {
                             codigo_loteamento = e.features[0].properties.lotcod;
                             let loteamentocodigo = `codigo='${codigo_loteamento}'`;
@@ -827,13 +829,13 @@
                                 .returnGeometry(false)
                                 .run((error, fcol) => {
                                     if (fcol != null) {
-                                        fcol.features.forEach(el => {                                            
+                                        fcol.features.forEach(el => {
                                             let nome = fcol.features[0].properties.nome ?? '-';
                                             let descr = e.features[0].properties.lotdescr ?? '-';
                                             let panchaloteamento = '-';
                                             if (fcol.features[0].properties.googleid) {
                                                 panchaloteamento = `https://drive.google.com/file/d/${fcol.features[0].properties.googleid}/view`;
-                                            };                                            
+                                            };
                                             objtabela.forEach((registro) => {
                                                 registro.nomeloteamento = nome;
                                                 registro.descrloteamento = descr;
@@ -845,11 +847,11 @@
                                     }
 
                                 });
-                        } else {                            
+                        } else {
                             table.setData(objtabela);
                         }
                         table.setData(objtabela);
-                    } else if (fcol.features.length == 0) {                        
+                    } else if (fcol.features.length == 0) {
                         document.getElementById("consultaprev").innerHTML = '&nbsp';
                         //document.getElementById("alvara").innerHTML = '&nbsp';
                         document.getElementById("plsitua").innerHTML = '&nbsp';
@@ -1477,7 +1479,7 @@
                 return { color: "orange", weight: 3, dashArray: "15, 15", opacity: 0.8 };
             }
 
-            L.esri.featureLayer({
+            const camadaCicloviario = L.esri.featureLayer({
                 url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/cicloviario_view/FeatureServer/0/',
                 fields: ['tipo', 'objectid', 'plan'],
                 precision: 6,
@@ -1491,40 +1493,33 @@
 
             mapa.addLayer(cicloviario);
 
-            // Valores
-            const camadaValores = L.esri.featureLayer({
-                url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/cicloviario_valores/FeatureServer/0/',
-                fields: ['etapa', 'objectid', 'comprimento']
-            });
-
-            camadaValores.query().where("1=1").run((error, featureCollection) => {
+            // Calcular valores usando Turf.js
+            camadaCicloviario.query().where("1=1").run((error, featureCollection) => {
                 if (error) {
                     console.error("Erro ao obter dados:", error);
                     return;
                 }
 
-                // Inicializando variáveis
                 let totalExistente = 0;
                 let totalPlanejada = 0;
 
-                // Percorrendo os registros para separar valores
                 featureCollection.features.forEach(feature => {
                     const props = feature.properties;
-                    const comprimento = parseFloat(props.comprimento);
 
-                    if (props.etapa === "existentes") {
+                    // Calcular comprimento em quilômetros usando Turf
+                    const comprimento = turf.length(feature, { units: 'kilometers' });
+
+                    if (props.plan === "existentes") {
                         totalExistente += comprimento;
                     } else {
                         totalPlanejada += comprimento;
                     }
                 });
 
-                // Atualizando o conteúdo do div com id "valoresciclo"
                 document.getElementById("valoresciclo").innerHTML = `
             <p style="font-size: 0.8em;">- Existente: ${Math.round(totalExistente)} km</p>
             <p style="font-size: 0.8em;">- Planejada: ${Math.round(totalPlanejada)} km</p>`;
             });
-
         };
 
         // parcelamento do solo
