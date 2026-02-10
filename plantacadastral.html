@@ -426,6 +426,7 @@
                 <div id="consultaprev">clique sobre um lote para mais informações</div>
                 <!-- <div id="alvara"></div> -->
                 <div id="plsitua"></div>
+                <div id="plconfront"></div>
             </div>
             <div id="tabelatabulator"></div>
         </div>
@@ -784,9 +785,11 @@
                         inscrlig_base = fcol.features[0].properties.inscrlig;
                         consultapreviap = `https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/consultaprevia.html#${inscrlig_base}`;
                         plantasitua = `https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/plantalocalizacao.html#${inscrlig_base}`;
+                        plantaconfront = `https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/confrontantes.html#${inscrlig_base}`;
                         //links gerais lote
                         document.getElementById("consultaprev").innerHTML = `<a href="${consultapreviap}" target="_blank">CONSULTA PRÉVIA</a> |&nbsp`
-                        document.getElementById("plsitua").innerHTML = `<a href="${plantasitua}" target="_blank">PLANTA SITUAÇÃO</a>`
+                        document.getElementById("plsitua").innerHTML = `<a href="${plantasitua}" target="_blank">PLANTA SITUAÇÃO</a> |&nbsp`
+                        document.getElementById("plconfront").innerHTML = `<a href="${plantaconfront}" target="_blank">PLANTA CONFRONTANTES</a>`
                         let agrupados = new Map();
 
                         fcol.features.forEach(el => {
@@ -853,6 +856,7 @@
                         document.getElementById("consultaprev").innerHTML = '&nbsp';
                         //document.getElementById("alvara").innerHTML = '&nbsp';
                         document.getElementById("plsitua").innerHTML = '&nbsp';
+                        document.getElementById("plconfront").innerHTML = '&nbsp';
                     };
                 });
             //lote no mapa

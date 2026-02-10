@@ -151,16 +151,6 @@
       margin-bottom: 2px;
     }
 
-    .legenda-mapa {
-      position: absolute;
-      left: 8px;
-      bottom: 8px;
-      background: #fff;
-      padding: 6px;
-      border: 1px solid #ccc;
-      font-size: 11px;
-    }
-
     .invisible-marker {
       width: 0;
       height: 0;
@@ -173,7 +163,7 @@
 
   <script>
     const urlMalha = "https://arcgis.itajai.sc.gov.br/server/rest/services/malha_cadastral_raster/FeatureServer/0";
-    const urlImoveis = "https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/imoveis_plantacadastral/FeatureServer/0/";
+    const urlImoveis = "https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/lotes_unidades_espelho/FeatureServer/0/";
     const MAX_VIZINHOS_POR_QUADRO = 6;
 
     const inscrlig = window.location.hash.length > 1 ? window.location.hash.substring(1) : null;
@@ -192,7 +182,6 @@
 
         const lote = fc.features[0];
         const idLote = lote.properties.objectid;
-
         const bufferSmall = turf.buffer(lote, 0.5, { units: "meters" });
 
         L.esri.query({ url: urlMalha })
@@ -209,7 +198,7 @@
             });
 
             if (!vizinhosAdjacentes || vizinhosAdjacentes.length === 0) {
-              alert("Nenhum confrontante direto encontrado (buffer 0.5 m). A planta de confrontantes não será gerada.");
+              alert("Nenhum confrontante direto encontrado (buffer 0.5 m).");
               return;
             }
 
@@ -221,10 +210,8 @@
                 try {
                   const inter = turf.intersect(bufferGeom, v);
                   if (!inter) continue;
-
                   let best = inter;
                   const geomType = inter.geometry && inter.geometry.type;
-
                   if (geomType === "MultiPolygon") {
                     let maxArea = -1;
                     let bestPoly = null;
@@ -239,52 +226,63 @@
                     });
                     if (bestPoly) best = bestPoly;
                   }
-
-                  if (best.properties == null) best.properties = {};
                   best.properties = { ...v.properties };
-
                   clips.push(best);
-                } catch (e) {
-                  console.warn("clip falhou objectid", v.properties?.objectid, e);
-                }
+                } catch (e) { }
               }
               return clips;
             }
 
             const clipes = clipNeighborsByBuffer(bufferLarge, vizinhosAdjacentes);
-            if (!clipes || clipes.length === 0) {
-              alert("Nenhum trecho de interseção resultante do buffer de 10 m. A planta de confrontantes não será gerada.");
-              return;
-            }
-
             const inscrSelecionado = lote.properties.inscrlig;
             const inscrVizinhos = vizinhosAdjacentes.map(f => `'${f.properties.inscrlig}'`).join(",");
             const inscrTodos = `'${inscrSelecionado}'` + (inscrVizinhos ? `,${inscrVizinhos}` : "");
 
             L.esri.query({ url: urlImoveis })
               .where(`inscrlig IN (${inscrTodos})`)
-              .run((err3, fcImoveis) => {
-                if (err3 || !fcImoveis.features || fcImoveis.features.length === 0) {
-                  montarRelatorio(lote, vizinhosAdjacentes, {}, clipes);
-                  return;
-                }
-
+              .run((err3, fcImoveis) => {                
                 const dicContrib = {};
                 const agrupados = {};
-                fcImoveis.features.forEach(f => {
-                  const insc = f.properties.inscrlig;
-                  if (!agrupados[insc]) agrupados[insc] = [];
-                  agrupados[insc].push(f.properties);
-                });
-                Object.keys(agrupados).forEach(insc => {
-                  const registros = agrupados[insc];
-                  const titularSim = registros.find(r => r.titular && r.titular.toString().trim().toUpperCase() === "SIM");
-                  const selecionado = titularSim || registros[0];
-                  dicContrib[insc] = {
-                    nome: selecionado?.nome_contribuinte || "-",
-                    codigo: selecionado?.aut_codigo_imovel || "-"
-                  };
-                });
+                
+                if (fcImoveis && fcImoveis.features) {
+                  fcImoveis.features.forEach(f => {
+                    const insc = f.properties.inscrlig;
+                    if (!agrupados[insc]) agrupados[insc] = [];
+                    agrupados[insc].push(f.properties);
+                  });
+
+                  Object.keys(agrupados).forEach(insc => {
+                    const registros = agrupados[insc];
+                    const titularSim = registros.find(r => r.titular && r.titular.toString().trim().toUpperCase() === "SIM");
+                    const selecionado = titularSim || registros[0];
+                    
+                    let matriculaFinal = selecionado?.aut_numero_matricula || "-";
+                    let cartorioFinal = "--";
+                    
+                    const cartVal = String(selecionado?.aut_cartorio || "");
+                    
+                    // Lógica para Cartório e Matrícula
+                    if (matriculaFinal === "-") {
+                      matriculaFinal = "--";
+                      cartorioFinal = "--";
+                    } else {
+                      if (cartVal.includes("254695")) {
+                        cartorioFinal = "1-ofício";
+                      } else if (cartVal.includes("262138")) {
+                        cartorioFinal = "2-ofício";
+                      } else {
+                        cartorioFinal = "--";
+                      }
+                    }
+
+                    dicContrib[insc] = {
+                      nome: selecionado?.nome_contribuinte || "-",
+                      codigo: selecionado?.aut_codigo_imovel || "-",
+                      matricula: matriculaFinal,
+                      cartorio: cartorioFinal
+                    };
+                  });
+                }
 
                 montarRelatorio(lote, vizinhosAdjacentes, dicContrib, clipes);
               });
@@ -297,7 +295,6 @@
       const lista = [];
       const ids = new Set();
       const alcance = 2000;
-
       for (let ang = 0; ang < 360; ang += passoGraus) {
         const destino = turf.destination(centro, alcance, ang, { units: "meters" });
         const linha = turf.lineString([coordCentro, destino.geometry.coordinates]);
@@ -314,39 +311,27 @@
           } catch (e) { }
         }
       }
-      const final = [];
-      const vistos = new Set();
-      for (const v of lista) {
-        const id = v.properties.objectid;
-        if (!vistos.has(id)) {
-          final.push(v);
-          vistos.add(id);
-        }
-      }
-      return final;
+      return lista;
     }
 
     function getLabelPoint(feature) {
       try {
-        if (!feature || !feature.geometry) throw new Error("feature inválida");
         const pt = turf.pointOnFeature(feature);
-        return pt && pt.geometry && pt.geometry.coordinates ? pt.geometry.coordinates : null;
+        return pt.geometry.coordinates;
       } catch (e) {
-        try { return turf.centroid(feature).geometry.coordinates; } catch (e2) { return null; }
+        return turf.centroid(feature).geometry.coordinates;
       }
     }
 
     function montarRelatorio(lote, vizinhosValidos, dicContrib, clipes) {
       const listaSequencial = ordenarVizinhosPorAngulo(lote, vizinhosValidos, 1);
-
       const mapaClipById = {};
       (clipes || []).forEach(c => {
-        const id = c.properties?.objectid ?? c.properties?.inscrlig;
+        const id = c.properties?.objectid;
         if (id != null) mapaClipById[id] = c;
       });
 
       const clipesSequenciais = listaSequencial.map(v => mapaClipById[v.properties.objectid] || null);
-
       const gruposV = [];
       const gruposC = [];
       for (let i = 0; i < listaSequencial.length; i += MAX_VIZINHOS_POR_QUADRO) {
@@ -354,7 +339,7 @@
         gruposC.push(clipesSequenciais.slice(i, i + MAX_VIZINHOS_POR_QUADRO));
       }
 
-      if (!gruposV || gruposV.length === 0) {
+      if (gruposV.length === 0) {
         criarPagina(lote, [], dicContrib, 1, 1, false, [], true);
         return;
       }
@@ -362,19 +347,15 @@
       const singlePageMode = gruposV.length === 1;
       let contadorGlobal = 1;
       for (let i = 0; i < gruposV.length; i++) {
-        const isSingle = singlePageMode; // true se somente uma prancha
-        criarPagina(lote, gruposV[i], dicContrib, i + 1, contadorGlobal, false, gruposC[i], isSingle);
+        criarPagina(lote, gruposV[i], dicContrib, i + 1, contadorGlobal, false, gruposC[i], singlePageMode);
         contadorGlobal += gruposV[i].length;
       }
 
-      const totalConfrontantes = listaSequencial.length;
-      if (totalConfrontantes > MAX_VIZINHOS_POR_QUADRO) {
-        // página final visão geral (não singlePage)
+      if (listaSequencial.length > MAX_VIZINHOS_POR_QUADRO) {
         criarPagina(lote, vizinhosValidos, dicContrib, gruposV.length + 1, null, true, clipes, false);
       }
     }
 
-    // assinatura adicionada singlePage (boolean)
     function criarPagina(lote, vizinhosGrupo, dicContrib, indiceQuadro, contadorInicial, paginaFinal, clipesDoGrupo, singlePage) {
       const container = document.getElementById("container");
       const pagina = document.createElement("div");
@@ -382,7 +363,7 @@
       pagina.innerHTML = `
         <div class="cabecalho">
           <div class="cabecalho-superior">
-            <div><img src="https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/images/brasao_muicipio.png" alt="Logo Itajaí" "></div>
+            <div><img src="https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/images/brasao_muicipio.png" alt="Logo Itajaí"></div>
             <div>
               <b>PREFEITURA MUNICIPAL DE ITAJAÍ - SC</b><br>
               Secretaria Municipal da Fazenda<br>
@@ -393,11 +374,10 @@
         </div>
         <div class="titulo">CONSULTA DE INDICAÇÕES FISCAIS DE CONFRONTANTES</div>
         <div class="texto">
-          Consulta gerada nos termos da Ação Conjunta SEDUH - SEFAZ, nº xx/2025.<br>
-          Considera os dados da base cadastral georreferenciada na data de sua emissão, disponível em:<br>
-          <a href="https://plantacadastral.itajai.sc.gov.br/" target="_blank" rel="noopener noreferrer">https://plantacadastral.itajai.sc.gov.br/</a><br>
+          Consulta gerada nos termos da Ação Conjunta SEDUH - SEFAZ.<br>
+          Considera os dados da base cadastral georreferenciada na data de sua emissão.<br>
           Os dados coletados têm finalidade tributária.<br>
-          O presente documento e suas informações não constituem prova ou reconhecimento de direito de propriedade.
+          O presente documento e suas informações não constituem prova de direito de propriedade.
         </div>
         <div class="rodape">CROQUI DE LOCALIZAÇÃO E CONFRONTANTES</div>
         <div class="areaQuadro" id="areaQuadro_${indiceQuadro}"></div>
@@ -407,49 +387,28 @@
       const area = pagina.querySelector(`#areaQuadro_${indiceQuadro}`);
       const quadroDiv = document.createElement("div");
       quadroDiv.className = "quadro";
-
       const mapaDiv = document.createElement("div");
       mapaDiv.id = "mapa_" + indiceQuadro;
       mapaDiv.className = "mapa";
-
       const painelDiv = document.createElement("div");
       painelDiv.className = "painel";
 
       if (paginaFinal) {
-        painelDiv.innerHTML = `
-          <div class="tituloPainel"><div class="caixaLegenda caixaLote"></div>
-          <h3 style="margin:0">Lote Selecionado</h3></div>
-          <div id="loteSel_${indiceQuadro}"></div>
-        `;
+        painelDiv.innerHTML = `<div class="tituloPainel"><div class="caixaLegenda caixaLote"></div><h3 style="margin:0">Lote Selecionado</h3></div><div id="loteSel_${indiceQuadro}"></div>`;
       } else {
-        painelDiv.innerHTML = `
-          <div class="tituloPainel"><div class="caixaLegenda caixaLote"></div>
-          <h3 style="margin:0">Lote Selecionado</h3></div>
-          <div id="loteSel_${indiceQuadro}"></div>
-          <div class="tituloPainel"><div class="caixaLegenda caixaConfrontantes"></div>
-          <h3 style="margin:0">Confrontantes</h3></div>
-          <div id="listaVizinhos_${indiceQuadro}"></div>
-        `;
+        painelDiv.innerHTML = `<div class="tituloPainel"><div class="caixaLegenda caixaLote"></div><h3 style="margin:0">Lote Selecionado</h3></div><div id="loteSel_${indiceQuadro}"></div><div class="tituloPainel"><div class="caixaLegenda caixaConfrontantes"></div><h3 style="margin:0">Confrontantes</h3></div><div id="listaVizinhos_${indiceQuadro}"></div>`;
       }
 
       quadroDiv.appendChild(mapaDiv);
       quadroDiv.appendChild(painelDiv);
       area.appendChild(quadroDiv);
-
-      criarMapa(lote, vizinhosGrupo, dicContrib, indiceQuadro, contadorInicial, paginaFinal, clipesDoGrupo, !!singlePage);
+      criarMapa(lote, vizinhosGrupo, dicContrib, indiceQuadro, contadorInicial, paginaFinal, clipesDoGrupo, singlePage);
     }
 
-    // criarMapa agora recebe singlePage (boolean)
     function criarMapa(lote, vizinhosGrupo, dicContrib, indiceQuadro, contadorInicial, paginaFinal, clipesDoGrupo, singlePage) {
       const mapa = L.map("mapa_" + indiceQuadro, {
-        attributionControl: false,
-        zoomControl: false,
-        dragging: false,
-        scrollWheelZoom: false,
-        doubleClickZoom: false,
-        boxZoom: false,
-        keyboard: false,
-        touchZoom: false
+        attributionControl: false, zoomControl: false, dragging: false, scrollWheelZoom: false,
+        doubleClickZoom: false, boxZoom: false, keyboard: false, touchZoom: false
       }).setView([-26.9046, -48.6874], 16);
 
       L.esri.Vector.vectorTileLayer("7a110ef9198540068341e6908c6bf298", {
@@ -459,40 +418,29 @@
 
       const loteLayer = L.geoJSON(lote, {
         style: { color: "black", weight: 4, fillColor: "darkgray", fillOpacity: 0.5 },
-        onEachFeature: (f, l) => {
-          l.bindTooltip("LOTE", { permanent: true, direction: "center", className: "loteTooltip" });
-        }
+        onEachFeature: (f, l) => { l.bindTooltip("LOTE", { permanent: true, direction: "center", className: "loteTooltip" }); }
       }).addTo(mapa);
-
-      let contador = contadorInicial || 1;
 
       const vizLayer = L.geoJSON(vizinhosGrupo, {
-        style: { color: "darkblue", weight: 2, fillOpacity: 0.1 },
-        onEachFeature: (f, l) => {
-          // sem criar lista aqui; lista lateral será construída abaixo com numeração sincronizada
-        }
+        style: { color: "darkblue", weight: 2, fillOpacity: 0.1 }
       }).addTo(mapa);
 
-      // construir lista lateral com números sincronizados (num - nome)
       if (!paginaFinal) {
         const listaEl = document.getElementById(`listaVizinhos_${indiceQuadro}`);
         if (listaEl) {
-          let listaHTML = "";
-          for (let i = 0; i < vizinhosGrupo.length; i++) {
-            const f = vizinhosGrupo[i];
+          let listaHTML = "";                  
+          vizinhosGrupo.forEach((f, i) => {
             const p = f.properties || {};
-            const num = (contador || 1) + i;
             const dados = dicContrib[p.inscrlig] || {};
-            const nome = dados.nome || "-";
-            const codigo = dados.codigo || "-";
             listaHTML += `
-                <div class="registro">
-                <strong>${num} - ${nome}</strong>
-                <strong>Cód. imóvel: ${codigo}</strong>
+              <div class="registro">
+                <strong>${contadorInicial + i} - ${dados.nome || "-"}</strong>
+                <strong>Cód. imóvel: ${dados.codigo || "-"}</strong>
                 <strong>Inscrição: ${p.inscricao || p.inscrlig || "-"}</strong>
+                <strong>Matr.: ${dados.matricula || "--"}, ${dados.cartorio || "--"}</strong>
                 <strong>Endereço:</strong> ${p.nomevia || "-"}, nº ${p.numero || "-"}
               </div>`;
-          }
+          });
           listaEl.innerHTML = listaHTML;
         }
       }
@@ -500,74 +448,34 @@
       const loteSelEl = document.getElementById(`loteSel_${indiceQuadro}`);
       if (loteSelEl) {
         const p = lote.properties || {};
+        const dados = dicContrib[p.inscrlig] || {};
         loteSelEl.innerHTML = `
           <div class="registro">
-            <strong>${(dicContrib[p.inscrlig]?.nome) || "-"}</strong>
-            <strong>Cód. imóvel: ${(dicContrib[p.inscrlig]?.codigo) || "-"}</strong>
-            <strong>Inscrição:${p.inscricao || p.inscrlig || "-"}</strong>
+            <strong>${dados.nome || "-"}</strong>
+            <strong>Cód. imóvel: ${dados.codigo || "-"}</strong>
+            <strong>Inscrição: ${p.inscricao || p.inscrlig || "-"}</strong>
+            <strong>Matr.: ${dados.matricula || "--"}, ${dados.cartorio || "--"}</strong>
             <strong>Endereço:</strong> ${p.nomevia || "-"}, nº ${p.numero || "-"}
           </div>`;
       }
 
-      // criar marcadores invisíveis e tooltips permanentes (pointOnFeature)
       const marcadorGroup = L.featureGroup();
       if (!paginaFinal && Array.isArray(clipesDoGrupo)) {
         clipesDoGrupo.forEach((clip, idx) => {
           if (!clip) return;
           try {
             const coords = getLabelPoint(clip);
-            if (!coords) return;
-            const latlng = [coords[1], coords[0]];
-            const num = (contador || 1) + idx;
-            const marker = L.marker(latlng, {
-              interactive: false,
-              opacity: 0,
-              icon: L.divIcon({ className: 'invisible-marker', html: '' })
-            }).addTo(mapa);
-            marker.bindTooltip(String(num), { permanent: true, direction: "center", className: "loteTooltip" }).openTooltip();
+            const marker = L.marker([coords[1], coords[0]], { opacity: 0, icon: L.divIcon({ className: 'invisible-marker' }) }).addTo(mapa);
+            marker.bindTooltip(String(contadorInicial + idx), { permanent: true, direction: "center", className: "loteTooltip" }).openTooltip();
             marcadorGroup.addLayer(marker);
-          } catch (e) {
-            console.warn("erro ao criar tooltip para clip", e);
-          }
+          } catch (e) { }
         });
       }
 
-      // enquadramento:
-      // - se paginaFinal === false:
-      //    - se singlePage === true: enquadrar com clipes DO GRUPO + lote selecionado
-      //    - se singlePage === false: enquadrar apenas com clipesDoGrupo (multi-prancha)
-      // - se paginaFinal === true: enquadrar com polígonos inteiros (comportamento visão geral)
       try {
-        if (!paginaFinal) {
-          if (singlePage && marcadorGroup.getLayers().length > 0) {
-            // combinar lote + marcadores invisíveis
-            const combined = L.featureGroup([loteLayer, marcadorGroup]);
-            if (combined.getBounds && combined.getBounds().isValid()) {
-              mapa.fitBounds(combined.getBounds(), { padding: [30, 30], maxZoom: 19 });
-            } else if (marcadorGroup.getBounds && marcadorGroup.getBounds().isValid()) {
-              mapa.fitBounds(marcadorGroup.getBounds(), { padding: [30, 30], maxZoom: 19 });
-            } else if (loteLayer.getBounds && loteLayer.getBounds().isValid()) {
-              mapa.fitBounds(loteLayer.getBounds(), { padding: [30, 30], maxZoom: 19 });
-            }
-          } else {
-            // multi-prancha (usar apenas clipes/marcadores)
-            if (marcadorGroup.getBounds && marcadorGroup.getBounds().isValid()) {
-              mapa.fitBounds(marcadorGroup.getBounds(), { padding: [30, 30], maxZoom: 19 });
-            } else {
-              const fallback = L.featureGroup([vizLayer]);
-              if (fallback.getBounds && fallback.getBounds().isValid()) mapa.fitBounds(fallback.getBounds(), { padding: [30, 30], maxZoom: 19 });
-            }
-          }
-        } else {
-          // paginaFinal: usar polígonos inteiros (lote + vizinhos)
-          const groupFull = L.featureGroup([loteLayer, vizLayer]);
-          if (groupFull.getBounds && groupFull.getBounds().isValid()) {
-            mapa.fitBounds(groupFull.getBounds(), { padding: [30, 30], maxZoom: 19 });
-          }
-        }
-      } catch (e) {
-        console.warn("Erro ao ajustar bounds:", e);
-      }
+        const boundsLayer = paginaFinal ? L.featureGroup([loteLayer, vizLayer]) : (singlePage ? L.featureGroup([loteLayer, marcadorGroup]) : marcadorGroup);
+        if (boundsLayer.getBounds().isValid()) mapa.fitBounds(boundsLayer.getBounds(), { padding: [30, 30], maxZoom: 19 });
+      } catch (e) { }
 
       const norte = L.control({ position: 'topright' });
       norte.onAdd = () => {
@@ -576,7 +484,6 @@
         return div;
       };
       norte.addTo(mapa);
-
       setTimeout(() => { try { mapa.invalidateSize(); } catch (e) { } }, 200);
     }
   </script>

@@ -69,7 +69,7 @@
         }
 
         .header-info div {
-            padding-top: 2mm;            
+            padding-top: 2mm;
         }
 
         .data-field {
@@ -539,6 +539,7 @@
             let ortoimg2020 = new L.TileLayer('https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/tiles/tiles_ortoimg_2020/{z}/{x}/{y}.png', { maxZoom: 20, attribution: 'Engemap 2020' });
             let restituicao2020 = new L.TileLayer('https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/tiles/tiles_rest_2020/{z}/{x}/{y}.png', { maxZoom: 20, attribution: 'Engemap 2020' });
             let ortoimg2007 = new L.TileLayer('https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/tiles/tiles_ortoimg_2007/{z}/{x}/{y}.png', { maxZoom: 20, attribution: 'Aeroimagem 2007' });
+            let ortoimg2013 = new L.TileLayer('https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/tiles/tiles_ortoimg_2013/{z}/{x}/{y}.jpg', { maxZoom: 20, attribution: 'Aero 2013' });
             let restituicao1984 = new L.TileLayer('https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/tiles/tiles_rest_1984/{z}/{x}/{y}.png', { maxZoom: 20, attribution: 'Município de Itajaí' });
             let tileesri = new L.TileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', { maxZoom: 20, opacity: 0.6, attribution: 'Esri' });
             // Mapa ortoimagem 2024
@@ -556,9 +557,10 @@
                 "Imagem.2024": ortoimg2024,
                 "Imagem.2020": ortoimg2020,
                 "Rest.2020": restituicao2020,
+                "Imagem.2013": ortoimg2013,
                 "Imagem.2007": ortoimg2007,
                 "Rest.1984": restituicao1984,
-                "ESRI©": tileesri                
+                "ESRI©": tileesri
             };
 
             L.control.layers(baseMaps, null, { collapsed: true, position: 'bottomright' }).addTo(mapa);
