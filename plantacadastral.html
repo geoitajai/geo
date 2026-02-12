@@ -1848,34 +1848,6 @@
         // Executar a função ao carregar a página para definir o estado inicial da barra lateral
         ajustarVisibilidadeBarra();
 
-        //teste intranet
-        function detectarIntranet() {
-            const hostname = window.location.hostname;
-
-            // Verificar se é a rede específica 10.10.1.xxx
-            const isRedeInterna = hostname.startsWith('10.10.1.');
-
-            // Também verificar localhost para desenvolvimento
-            const isLocalhost = hostname === 'localhost' || hostname === '127.0.0.1';
-
-            return {
-                isIntranet: isRedeInterna || isLocalhost,
-                hostname: hostname,
-                rede: isRedeInterna ? '10.10.1.x' : 'externa'
-            };
-        }
-
-        // Usar
-        const ambiente = detectarIntranet();
-
-        if (ambiente.isIntranet) {
-            console.log('Acessando da intranet (rede 10.10.1.x)');
-            // Configurações para intranet
-        } else {
-            console.log('Acessando da internet pública');
-            // Configurações para internet
-        }
-
     </script>
 </body>
 
