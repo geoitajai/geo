@@ -42,7 +42,8 @@
             --claro: #e9e9e9;
         }
 
-        html, body {
+        html,
+        body {
             height: 100%;
             margin: 0;
             padding: 0;
@@ -306,11 +307,8 @@
 
         <div class="search-box" id='util'>
             <form>
-                <input id="pesquisaRapida"
-                    placeholder="pesquisa: endereço,nº - código - inscr.imobiliária"
-                    type="text"
-                    spellcheck="false"
-                    style="border: none; width: 320px; background-color: white;">
+                <input id="pesquisaRapida" placeholder="pesquisa: endereço,nº - código - inscr.imobiliária" type="text"
+                    spellcheck="false" style="border: none; width: 320px; background-color: white;">
             </form>
         </div>
     </div>
@@ -328,7 +326,8 @@
                         </a>
                     </p>
                     <p>
-                        <a href="https://arcgis.itajai.sc.gov.br/portal/apps/experiencebuilder/experience/?id=9d34d28bd57c40c8b549a20301d16256&draft=true" target="_blank">
+                        <a href="https://arcgis.itajai.sc.gov.br/portal/apps/experiencebuilder/experience/?id=9d34d28bd57c40c8b549a20301d16256&draft=true"
+                            target="_blank">
                             <font size="2" color="black">DOWNLOADS</font>
                         </a>
                     </p>
@@ -666,14 +665,14 @@
                     window.open(espelhocadastro, '_blank');
                 }
             },
-            { title: 'Tipo Contrib.', field: 'tipo',         width: 85,  headerSort: false },
-            { title: 'matrícula',     field: 'nmatricu',     width: 100, headerSort: false },
-            { title: 'Logradouro',    field: 'nlogrado',     width: 150, headerSort: false },
-            { title: 'nº',            field: 'nnumimov',     width: 40,  headerSort: false },
-            { title: 'Compl.',        field: 'ncomplem',     width: 90,  headerSort: false },
-            { title: 'Bairro',        field: 'nnomebai',     width: 100, headerSort: false },
+            { title: 'Tipo Contrib.', field: 'tipo', width: 85, headerSort: false },
+            { title: 'matrícula', field: 'nmatricu', width: 100, headerSort: false },
+            { title: 'Logradouro', field: 'nlogrado', width: 150, headerSort: false },
+            { title: 'nº', field: 'nnumimov', width: 40, headerSort: false },
+            { title: 'Compl.', field: 'ncomplem', width: 90, headerSort: false },
+            { title: 'Bairro', field: 'nnomebai', width: 100, headerSort: false },
             { title: 'Loteamento origem', field: 'nomeloteamento', width: 130, headerSort: false },
-            { title: 'Descr.',        field: 'descrloteamento', width: 100, headerSort: false },
+            { title: 'Descr.', field: 'descrloteamento', width: 100, headerSort: false },
             {
                 title: '.pdf', field: 'panchaloteamento', width: 60, headerSort: false,
                 formatter: (cell) => {
@@ -716,30 +715,33 @@
 
                         // URLs dos links do rodapé
                         let consultapreviap = `https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/consultaprevia.html#${inscrlig_base}`;
-                        let plantasitua     = `https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/plantalocalizacao.html#${inscrlig_base}`;
-                        let plantaconfront  = `https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/confrontantes.html#${inscrlig_base}`;
+                        let plantasitua = `https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/plantalocalizacao.html#${inscrlig_base}`;
+                        let plantaconfront = `https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/confrontantes.html#${inscrlig_base}`;
 
                         document.getElementById("consultaprev").innerHTML = `<a href="${consultapreviap}" target="_blank">CONSULTA PRÉVIA</a> |&nbsp;`;
-                        document.getElementById("plsitua").innerHTML      = `<a href="${plantasitua}"     target="_blank">PLANTA SITUAÇÃO</a> |&nbsp;`;
-                        document.getElementById("plconfront").innerHTML   = `<a href="${plantaconfront}"  target="_blank">PLANTA CONFRONTANTES</a>`;
+                        document.getElementById("plsitua").innerHTML = `<a href="${plantasitua}"     target="_blank">PLANTA SITUAÇÃO</a> |&nbsp;`;
+                        document.getElementById("plconfront").innerHTML = `<a href="${plantaconfront}"  target="_blank">PLANTA CONFRONTANTES</a>`;
 
                         // Agrupa unidades por imóvel (evita duplicatas de tipo Resp./Prop.)
                         let agrupados = new Map();
                         fcol.features.forEach(el => {
                             const p = el.properties;
+
+                            //console.log("Dados da unidade/responsável lido do ArcGIS:", p);
+
                             const chave = `${p.aut_codigo_imovel}|${p.aut_inscricao}|${p.codigo_contribuinte}`;
                             if (!agrupados.has(chave)) {
                                 agrupados.set(chave, {
                                     ninscrao: p.aut_inscricao,
                                     ncodimov: p.aut_codigo_imovel,
                                     nrazaoso: p.nome_contribuinte,
-                                    tipo:     p.tipo,
+                                    tipo: p.tipo,
                                     nmatricu: p.aut_numero_matricula,
                                     nlogrado: p.aut_end_logradouro,
                                     nnumimov: p.aut_end_numero,
                                     ncomplem: p.aut_end_complemento,
                                     nnomebai: p.aut_end_bairro,
-                                    nomeloteamento:  '-',
+                                    nomeloteamento: '-',
                                     descrloteamento: '-',
                                     panchaloteamento: '-'
                                 });
@@ -759,15 +761,15 @@
                                 .returnGeometry(false)
                                 .run((error, flot) => {
                                     if (flot && flot.features.length > 0) {
-                                        let nome  = flot.features[0].properties.nome ?? '-';
+                                        let nome = flot.features[0].properties.nome ?? '-';
                                         let descr = e.features[0].properties.lotdescr ?? '-';
                                         let panchaloteamento = '-';
                                         if (flot.features[0].properties.googleid) {
                                             panchaloteamento = `https://drive.google.com/file/d/${flot.features[0].properties.googleid}/view`;
                                         }
                                         objtabela.forEach(reg => {
-                                            reg.nomeloteamento   = nome;
-                                            reg.descrloteamento  = descr;
+                                            reg.nomeloteamento = nome;
+                                            reg.descrloteamento = descr;
                                             reg.panchaloteamento = panchaloteamento;
                                         });
                                     }
@@ -782,8 +784,8 @@
                     } else {
                         // Lote sem dados cadastrais: limpa rodapé
                         document.getElementById("consultaprev").innerHTML = '&nbsp;';
-                        document.getElementById("plsitua").innerHTML      = '&nbsp;';
-                        document.getElementById("plconfront").innerHTML   = '&nbsp;';
+                        document.getElementById("plsitua").innerHTML = '&nbsp;';
+                        document.getElementById("plconfront").innerHTML = '&nbsp;';
                     }
                 });
 
@@ -892,9 +894,9 @@
 
         // Tabela de substituição de acentos para busca normalizada
         let accentMap = {
-            'á':'a','à':'a','ã':'a','â':'a','ç':'c',
-            'é':'e','è':'e','í':'i','ì':'i','ó':'o',
-            'ò':'o','õ':'o','ô':'o','ú':'u','ù':'u'
+            'á': 'a', 'à': 'a', 'ã': 'a', 'â': 'a', 'ç': 'c',
+            'é': 'e', 'è': 'e', 'í': 'i', 'ì': 'i', 'ó': 'o',
+            'ò': 'o', 'õ': 'o', 'ô': 'o', 'ú': 'u', 'ù': 'u'
         };
 
         let normalize = (term) => {
@@ -968,7 +970,7 @@
                             event.preventDefault();
                             if ($("#pesquisaRapida").val().length === 15) {
                                 let v = $("#pesquisaRapida").val();
-                                let inscrlig = `i${v.substr(0,3)}${v.substr(4,3)}${v.substr(8,2)}${v.substr(11,4)}`;
+                                let inscrlig = `i${v.substr(0, 3)}${v.substr(4, 3)}${v.substr(8, 2)}${v.substr(11, 4)}`;
                                 malhacadastralpesquisa.query()
                                     .where(`inscrlig = '${inscrlig}'`)
                                     .run((error, fcolinscr) => {
@@ -1031,17 +1033,17 @@
         // ---------------------------------------------------------------------------
         // Grupos de camadas temáticas (inicializados vazios, carregados sob demanda)
         // ---------------------------------------------------------------------------
-        let cicloviario_chk      = false;
-        let cicloviario          = L.featureGroup();
-        let detpropostas_chk     = false;
-        let detpropostas         = L.featureGroup();
-        let reurb_chk            = false;
-        let reurb                = L.featureGroup();
+        let cicloviario_chk = false;
+        let cicloviario = L.featureGroup();
+        let detpropostas_chk = false;
+        let detpropostas = L.featureGroup();
+        let reurb_chk = false;
+        let reurb = L.featureGroup();
         let plantaZoneamento_chk = false;
-        let plantaZoneamento     = L.featureGroup();
+        let plantaZoneamento = L.featureGroup();
         let parcelamentodosolo_chk = false;
-        let parcelamentodosolo   = L.featureGroup();
-        let viasestruturantes    = L.featureGroup();
+        let parcelamentodosolo = L.featureGroup();
+        let viasestruturantes = L.featureGroup();
 
         // ---------------------------------------------------------------------------
         // Camada: Zoneamento
@@ -1051,17 +1053,17 @@
             plantaZoneamento_chk = true;
 
             const coresZon = {
-                "ZBN2":"#84add2","ZBP":"#d6b462","ZBR":"#6ed3ba","ZBS1":"#e1bfe3",
-                "ZBS2":"#dd89e3","ZBS3":"#ca56d5","ZBS4":"#834274","ZBS5":"#f5ac81",
-                "ZBS6":"#f58e53","ZCA1":"#9dc6e7","ZCA2":"#6f95b6","ZCA3":"#5e758a",
-                "ZDR":"#dedede","ZDR(ambiental)":"#cccccc","ZMC1":"#634360",
-                "ZMC2":"#ae4142","ZMC3":"#f54346","ZMR":"#f58743","ZP":"#2bcbdd",
-                "ZPA":"#96be90","ZPA(parque)":"#708e6b","ZPL":"#a5f544","ZI":"#69809f",
-                "ZI(ambiental)":"#5c708b","ZRP1":"#f5f27e","ZRP1(ambiental)":"#e6e276",
-                "ZRP2":"#d1ca98","ZRP2(ambiental)":"#c1ba8c","ZTP":"#436eda",
-                "ZTU1":"#f1ddcc","ZTU2":"#c9af97","ZTU3":"#998664","ZTU4":"#735042",
-                "ZTU4(ambiental)":"#644539","ZVP":"#4aeef1","ZBN1":"#c8d0e0",
-                "art.78":"#ffccff"
+                "ZBN2": "#84add2", "ZBP": "#d6b462", "ZBR": "#6ed3ba", "ZBS1": "#e1bfe3",
+                "ZBS2": "#dd89e3", "ZBS3": "#ca56d5", "ZBS4": "#834274", "ZBS5": "#f5ac81",
+                "ZBS6": "#f58e53", "ZCA1": "#9dc6e7", "ZCA2": "#6f95b6", "ZCA3": "#5e758a",
+                "ZDR": "#dedede", "ZDR(ambiental)": "#cccccc", "ZMC1": "#634360",
+                "ZMC2": "#ae4142", "ZMC3": "#f54346", "ZMR": "#f58743", "ZP": "#2bcbdd",
+                "ZPA": "#96be90", "ZPA(parque)": "#708e6b", "ZPL": "#a5f544", "ZI": "#69809f",
+                "ZI(ambiental)": "#5c708b", "ZRP1": "#f5f27e", "ZRP1(ambiental)": "#e6e276",
+                "ZRP2": "#d1ca98", "ZRP2(ambiental)": "#c1ba8c", "ZTP": "#436eda",
+                "ZTU1": "#f1ddcc", "ZTU2": "#c9af97", "ZTU3": "#998664", "ZTU4": "#735042",
+                "ZTU4(ambiental)": "#644539", "ZVP": "#4aeef1", "ZBN1": "#c8d0e0",
+                "art.78": "#ffccff"
             };
 
             const estilo = (feature) => ({
@@ -1116,14 +1118,14 @@
 
                                 if (p.descr === 'art.78') {
                                     // Zona de influência aeroportuária: exibe parâmetros de ZI e ZTP
-                                    const zonaZI  = data.features.find(f => f.properties.descr === 'ZI');
+                                    const zonaZI = data.features.find(f => f.properties.descr === 'ZI');
                                     const zonaZTP = data.features.find(f => f.properties.descr === 'ZTP');
                                     conteudo = `${popupStyle}
                                         <div class="popup-table">
                                             <div style="font-weight:bold;text-align:center;margin-bottom:6px;font-size:13px;">
                                                 Zona de Influência Aeroportuária
                                             </div>
-                                            ${zonaZI  ? gerarPopup(zonaZI.properties)  : ''}
+                                            ${zonaZI ? gerarPopup(zonaZI.properties) : ''}
                                             ${zonaZTP ? '<br>' + gerarPopup(zonaZTP.properties) : ''}
                                         </div>`;
                                 } else {
@@ -1162,10 +1164,10 @@
                 style: (feature) => {
                     let color;
                     switch (feature.properties.categoria) {
-                        case 'global': color = 'red';   break;
-                        case '5000':   color = 'blue';  break;
-                        case '2500':   color = 'green'; break;
-                        default:       color = '#00264d';
+                        case 'global': color = 'red'; break;
+                        case '5000': color = 'blue'; break;
+                        case '2500': color = 'green'; break;
+                        default: color = '#00264d';
                     }
                     return { color, interactive: false, fillColor: '#99ccff', opacity: 0.4, weight: 3 };
                 }
@@ -1216,9 +1218,9 @@
                 style: (feature) => {
                     let cormz = feature.properties.tipoint;
                     let colinha =
-                        cormz === 'Nova Ligação'          ? "#ff0000" :
-                        cormz === 'Alargamento'           ? "#ff9900" :
-                        cormz === 'Reurbanização'         ? "#66ffff" : "#fff";
+                        cormz === 'Nova Ligação' ? "#ff0000" :
+                            cormz === 'Alargamento' ? "#ff9900" :
+                                cormz === 'Reurbanização' ? "#66ffff" : "#fff";
                     let tipolinha = cormz === 'Nova Ligação (Variante)' ? "10 10" : null;
                     return { color: colinha, weight: 4, dashArray: tipolinha, opacity: 0.65, interactive: false };
                 }
@@ -1259,9 +1261,9 @@
                 const { plan, tipo } = feature.properties;
                 if (plan === "existentes") {
                     switch (tipo) {
-                        case "ciclovia":       return { color: "darkgreen", weight: 3 };
-                        case "ciclofaixa":     return { color: "darkred",   weight: 3 };
-                        case "compartilhada":  return { color: "darkblue",  weight: 3 };
+                        case "ciclovia": return { color: "darkgreen", weight: 3 };
+                        case "ciclofaixa": return { color: "darkred", weight: 3 };
+                        case "compartilhada": return { color: "darkblue", weight: 3 };
                     }
                 }
                 return { color: "orange", weight: 3, dashArray: "15, 15", opacity: 0.8 };
@@ -1295,7 +1297,7 @@
         // Camada: Parcelamento do solo
         // ---------------------------------------------------------------------------
         let parcelamentodestaque = L.featureGroup().addTo(mapa);
-        let tabelaparcelamento   = [];
+        let tabelaparcelamento = [];
 
         let colunasparcelamento = [
             {
@@ -1316,10 +1318,10 @@
                         });
                 }
             },
-            { title: 'Descrição', field: 'descr',      width: 100 },
-            { title: 'Lei',       field: 'lei',         width: 80  },
-            { title: 'Setor',     field: 'setor',       width: 65  },
-            { title: 'Carimbo',   field: 'carimboapr',  width: 90  },
+            { title: 'Descrição', field: 'descr', width: 100 },
+            { title: 'Lei', field: 'lei', width: 80 },
+            { title: 'Setor', field: 'setor', width: 65 },
+            { title: 'Carimbo', field: 'carimboapr', width: 90 },
             {
                 title: 'prancha(s)', width: 130,
                 formatter: 'link',
@@ -1366,21 +1368,21 @@
                 linhas.features.forEach(el => {
                     let linkprancha, rotulolink;
                     if (!el.properties.googleid) {
-                        linkprancha  = '';
-                        rotulolink   = 'prancha pendente';
+                        linkprancha = '';
+                        rotulolink = 'prancha pendente';
                     } else {
-                        linkprancha  = `https://drive.google.com/file/d/${el.properties.googleid}/view`;
-                        rotulolink   = 'clique para visualizar';
+                        linkprancha = `https://drive.google.com/file/d/${el.properties.googleid}/view`;
+                        rotulolink = 'clique para visualizar';
                     }
                     tabelaparcelamento.push({
-                        nome:        el.properties.nome,
-                        descr:       el.properties.descr,
-                        lei:         el.properties.lei,
-                        setor:       el.properties.setor,
-                        carimboapr:  el.properties.carimboapr,
+                        nome: el.properties.nome,
+                        descr: el.properties.descr,
+                        lei: el.properties.lei,
+                        setor: el.properties.setor,
+                        carimboapr: el.properties.carimboapr,
                         linkprancha,
                         rotulolink,
-                        id:          el.properties.codigo
+                        id: el.properties.codigo
                     });
                 });
                 table.setData(tabelaparcelamento);
@@ -1391,11 +1393,11 @@
         // Controle de camadas: limpa camadas ativas antes de exibir nova seção
         // ---------------------------------------------------------------------------
         let limparcamadas = () => {
-            if (detpropostas_chk     && mapa.hasLayer(detpropostas))     mapa.removeLayer(detpropostas);
+            if (detpropostas_chk && mapa.hasLayer(detpropostas)) mapa.removeLayer(detpropostas);
             if (plantaZoneamento_chk && mapa.hasLayer(plantaZoneamento)) mapa.removeLayer(plantaZoneamento);
-            if (reurb_chk            && mapa.hasLayer(reurb))            mapa.removeLayer(reurb);
+            if (reurb_chk && mapa.hasLayer(reurb)) mapa.removeLayer(reurb);
             if (parcelamentodosolo_chk && mapa.hasLayer(parcelamentodosolo)) mapa.removeLayer(parcelamentodosolo);
-            if (cicloviario_chk      && mapa.hasLayer(cicloviario))      mapa.removeLayer(cicloviario);
+            if (cicloviario_chk && mapa.hasLayer(cicloviario)) mapa.removeLayer(cicloviario);
             loteresultado = true;
             table.setColumns(colunaspadrao);
             table.setData();
@@ -1470,7 +1472,7 @@
             // Inscrição imobiliária
             else if (dados[2] && dados[2] !== '0') {
                 let v = dados[2];
-                let inscrlig = `i${v.substr(0,3)}${v.substr(4,3)}${v.substr(8,2)}${v.substr(11,4)}`;
+                let inscrlig = `i${v.substr(0, 3)}${v.substr(4, 3)}${v.substr(8, 2)}${v.substr(11, 4)}`;
                 malhacadastralpesquisa.query()
                     .where(`inscrlig = '${inscrlig}'`)
                     .run((error, inscricaohash) => {
@@ -1519,4 +1521,5 @@
         ajustarVisibilidadeBarra();
     </script>
 </body>
+
 </html>

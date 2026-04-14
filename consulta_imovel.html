@@ -226,12 +226,6 @@
                             <span class="field-label">Matrícula: </span>
                             <span class="field-value" id="aut_numero_matricula"></span>
                         </div>
-                        <div class="field-row">
-                            <span class="field-label">Proprietário: </span>
-                            <span class="field-value" id="nome_contribuinte"></span>
-                            <span class="field-value"> - </span>
-                            <span class="field-value" id="tipo"></span>
-                        </div>
                     </div>
                     <div>
                         <div class="field-row">
@@ -243,6 +237,11 @@
                             <span class="field-value" id="aut_cartorio"></span>
                         </div>
                     </div>
+                </div>
+                <div class="field-row">
+                    <span class="field-label">Proprietário: </span>
+                    <span class="field-value" id="nome_contribuinte"></span>
+                    <span class="field-value" id="tipo"></span>
                 </div>
             </div>
 
@@ -288,7 +287,6 @@
                         <span class="field-value" id="aut_end_bairro"></span>
                     </div>
                 </div>
-
                 <div class="three-columns">
                     <div class="field-row">
                         <span class="field-label">Complemento: </span>
@@ -302,7 +300,6 @@
                         <span class="field-label">Cidade: Itajaí UF: SC</span>
                     </div>
                 </div>
-
                 <div class="three-columns">
                     <div class="field-row">
                         <span class="field-label">Medida Frente: </span>
@@ -314,7 +311,6 @@
                     </div>
                     <div></div>
                 </div>
-
                 <div class="two-columns">
                     <div class="field-row">
                         <span class="field-label">Área do Terreno: </span>
@@ -368,7 +364,6 @@
             <div class="left-column">
                 <div class="section">
                     <div class="section-title">Características do Terreno</div>
-
                     <div class="two-columns">
                         <div class="field-row">
                             <span class="field-label">Passeio: </span>
@@ -379,7 +374,6 @@
                             <span class="field-value" id="lote_ifg_topografia"></span>
                         </div>
                     </div>
-
                     <div class="two-columns">
                         <div class="field-row">
                             <span class="field-label">Situação no Lote: </span>
@@ -473,6 +467,7 @@
             prévio.<br>
             NÃO CONSTITUI DIREITO DE PROPRIEDADE
         </div>
+
     </div>
 
     <script>
@@ -634,8 +629,10 @@
         }
 
         // Função Preencher Formulario
-        function popularCampos(atributos) {
-            // console.log("Dados recebidos do imóvel:", atributos);
+        function popularCampos(atributos) {            
+            if (atributos.aut_cartorio) {
+                atributos.aut_cartorio = atributos.aut_cartorio.replace(/OFICIO D[OE] REGISTRO DE IMOVEIS/i, 'RI');
+            }
             const campos = [
                 'aut_inscricao', 'aut_codigo_imovel', 'aut_numero_matricula', 'aut_cartorio',
                 'nome_contribuinte', 'tipo', 'vlr_venal_territorial', 'vlr_venal_predial',
@@ -663,6 +660,8 @@
                 if (elemento) {
                     const valor = atributos[campo];
                     const valorValido = valor !== undefined && valor !== null && valor !== 0 && valor !== "0";
+
+                    //console.log(`ID Elemento HTML: ${campo} | Chave ArcGIS: ${campo} | Valor Bruto:`, valor);
 
                     // 1. Formatação Monetária (R$)
                     if (camposMonetarios.includes(campo)) {
@@ -723,6 +722,27 @@
 
                 if (atributosData.features && atributosData.features.length > 0) {
                     const atributos = atributosData.features[0].attributes;
+
+                    // Avalia se existem múltiplos vínculos com tipos distintos para o mesmo código
+                    const porNome = new Map();
+                    atributosData.features.forEach(f => {
+                        const nome = f.attributes.nome_contribuinte;
+                        const tipo = f.attributes.tipo;
+                        if (!porNome.has(nome)) {
+                            porNome.set(nome, new Set());
+                        }
+                        porNome.get(nome).add(tipo);
+                    });
+
+                    const partes = [];
+                    porNome.forEach((tipos, nome) => {
+                        const tipoFinal = tipos.size > 1 ? "Resp./Prop." : [...tipos][0];
+                        partes.push(`${nome} (${tipoFinal})`);
+                    });
+
+                    atributos.nome_contribuinte = partes.join(" / ");
+                    atributos.tipo = "";
+
                     popularCampos(atributos);
 
                     // 2. Buscar Geometria (Malha Cadastral)
