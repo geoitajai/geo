@@ -85,7 +85,6 @@
             background-color: var(--base);
             color: #fff;
             padding: 5px;
-            cursor: pointer;
             z-index: 1;
         }
 
@@ -240,7 +239,6 @@
 
         .ui-accordion .ui-accordion-header {
             display: block;
-            cursor: pointer;
             position: relative;
             margin: 2px 0 0 0;
             padding: .5em .5em .5em .7em;
@@ -657,7 +655,7 @@
             },
             {
                 title: 'Razão social (clique p/mais info.)', field: 'nrazaoso', width: 200,
-                headerSort: false, cursor: 'pointer',
+                headerSort: false,
                 cellClick: (e, cell) => {
                     let dadosDaLinha = cell.getRow().getData();
                     let aut_codigo_imovel = dadosDaLinha.ncodimov;
@@ -805,7 +803,7 @@
         let pesquisaQvias = L.featureGroup().addTo(mapa);
 
         let viasgeom = L.esri.featureLayer({
-            url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/sistema_viario/FeatureServer/0/',
+            url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/itj_sistema_viario/FeatureServer/0',
             fields: ['nome', 'codsecao', 'cod', 'objectid'],
             minZoom: 17,
             precision: 6,
@@ -835,7 +833,7 @@
         // Popup de via (clique direto no segmento)
         // ---------------------------------------------------------------------------
         let viaspop = L.esri.query({
-            url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/sistema_viario/FeatureServer/0/'
+            url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/itj_sistema_viario/FeatureServer/0'
         });
 
         function pCestiloDestaqVia(e) {
@@ -907,24 +905,59 @@
             return ret;
         };
 
-        let viaspesquisa = L.esri.query({
-            url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/sistema_viario/FeatureServer/0/'
-        });
-
         // Inicialização do autocomplete após carregamento do DOM
         $(document).ready(function () {
             let itensPesquisa = [];
             let itensPesquisaCompletos = {};
             let itensarquivo = [];
 
-            viaspesquisa
-                .fields(['nome'])
-                .returnGeometry(false)
-                .distinct()
-                .run((error, psqvias) => {
-                    let itenspesquisa = psqvias.features
-                        .map(f => f.properties.nome)
-                        .sort();
+            // Cache de nomes de vias no localStorage, válido por 7 dias
+            const CACHE_KEY = 'itj_vias_nomes';
+            const CACHE_TIMESTAMP_KEY = 'itj_vias_nomes_timestamp';
+            const CACHE_TTL_MS = 7 * 24 * 60 * 60 * 1000; // 7 dias
+
+            function carregarNomesDeVias() {
+                const timestamp = localStorage.getItem(CACHE_TIMESTAMP_KEY);
+                const agora = Date.now();
+
+                if (timestamp && (agora - parseInt(timestamp, 10)) < CACHE_TTL_MS) {
+                    const cached = localStorage.getItem(CACHE_KEY);
+                    if (cached) {
+                        try {
+                            return Promise.resolve(JSON.parse(cached));
+                        } catch (e) {
+                            // Cache corrompido, prossegue para fetch
+                        }
+                    }
+                }
+
+                const url = 'https://arcgis.itajai.sc.gov.br/server/rest/services/Hosted/itj_sistema_viario/FeatureServer/0/query'
+                    + '?where=1%3D1'
+                    + '&outFields=nome'
+                    + '&returnGeometry=false'
+                    + '&returnDistinctValues=true'
+                    + '&f=json';
+
+                return fetch(url)
+                    .then(r => r.json())
+                    .then(data => {
+                        const nomes = data.features
+                            .map(f => f.attributes.nome)
+                            .filter(n => n != null)
+                            .sort();
+                        try {
+                            localStorage.setItem(CACHE_KEY, JSON.stringify(nomes));
+                            localStorage.setItem(CACHE_TIMESTAMP_KEY, agora.toString());
+                        } catch (e) {
+                            // localStorage cheio ou indisponível, segue sem cache
+                        }
+                        return nomes;
+                    });
+            }
+
+            carregarNomesDeVias()
+                .then(itenspesquisaInicial => {
+                    let itenspesquisa = itenspesquisaInicial;
                     itensarquivo = itenspesquisa;
 
                     let pesquisaval;
@@ -965,7 +998,6 @@
                             }
                         }
                     }).keypress((event) => {
-                        // Enter: busca por inscrição imobiliária ou código de imóvel
                         if (event.keyCode === 13) {
                             event.preventDefault();
                             if ($("#pesquisaRapida").val().length === 15) {
@@ -1004,7 +1036,6 @@
                             }
                         }
 
-                        // Vírgula: expande autocomplete para número da via
                         if (event.keyCode === 44 && !$('#pesquisaRapida').val().includes(',')) {
                             event.preventDefault();
                             malhacadastralpesquisa.query()
@@ -1025,9 +1056,8 @@
                             $('#pesquisaRapida').autocomplete('search', `${pesquisaval},`);
                         }
                     });
-                });
-
-            $("#pesquisaRapida").click(() => { $(this).select(); });
+                })
+                .catch(err => console.error('Erro ao carregar lista de vias:', err));
         });
 
         // ---------------------------------------------------------------------------
