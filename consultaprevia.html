@@ -158,10 +158,62 @@
             line-height: 20px !important;
             font-size: 17px !important;
         }
+
+        /* Overlay de carregamento */
+        #overlay-carregando {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: white;
+            z-index: 99999;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            color: #333;
+        }
+
+        #overlay-carregando .spinner {
+            border: 4px solid #ddd;
+            border-top: 4px solid #737373;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: girar 1s linear infinite;
+            margin-bottom: 15px;
+        }
+
+        #overlay-carregando .status {
+            margin-top: 8px;
+            font-size: 12px;
+            color: #666;
+        }
+
+        @keyframes girar {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        @media print {
+            #overlay-carregando {
+                display: none !important;
+            }
+        }
     </style>
 </head>
 
 <body>
+    <div id="overlay-carregando">
+        <div class="spinner"></div>
+        <div id="status-carregamento">Carregando dados do lote...</div>
+        <div class="status" id="status-detalhe">Aguarde, por favor.</div>
+    </div>
+
     <button class="botao-imprimir" onclick="window.print();">Imprimir/Salvar</button>
 
     <div class="linha linha1">
@@ -204,6 +256,10 @@
             <hr>
             Ao norte da Av. Adolfo Konder, Heitor Liberato e Rua Silva, a Altura Máxima é de 55m, devido ao cone de
             aproximação do aeroporto, salvo casos com autorização do COMAER.
+            <hr>
+            Para empreendimentos multifamiliares com mais de 9 unidades e comércios com área construída superior a 2.000
+            m², deverá ser apresentada viabilidade de lançamento de drenagem pluvial, emitida pela secretaria municipal
+            de obras.
             <hr>
             <div id="ambiental"></div>
             <hr>
@@ -250,10 +306,74 @@
     </div>
 
     <script>
+        // ============================================================
+        // CONTROLE DE CARREGAMENTO
+        // ============================================================
+        const estadoCarregamento = {
+            cadastro: false,
+            zoneamento: false,
+            sobreposicoes: true // permanece true salvo se houver conflito
+        };
+
+        function atualizarStatus(texto) {
+            const el = document.getElementById('status-detalhe');
+            if (el) el.textContent = texto;
+        }
+
+        function verificarCarregamentoCompleto() {
+            const tudoPronto = Object.values(estadoCarregamento).every(v => v === true);
+            if (tudoPronto) {
+                const overlay = document.getElementById('overlay-carregando');
+                if (overlay) overlay.style.display = 'none';
+            } else {
+                const pendentes = Object.entries(estadoCarregamento)
+                    .filter(([_, v]) => v === false)
+                    .map(([k]) => k)
+                    .join(', ');
+                atualizarStatus('Aguardando: ' + pendentes);
+            }
+        }
+
+        // Bloqueio de impressão prematura via Ctrl+P / Cmd+P
+        window.addEventListener('keydown', function (e) {
+            if ((e.ctrlKey || e.metaKey) && (e.key === 'p' || e.key === 'P')) {
+                const tudoPronto = Object.values(estadoCarregamento).every(v => v === true);
+                if (!tudoPronto) {
+                    e.preventDefault();
+                    alert('Aguarde o carregamento completo dos dados antes de imprimir.');
+                }
+            }
+        });
+
+        // Bloqueio via beforeprint (defesa adicional, alguns navegadores respeitam)
+        window.addEventListener('beforeprint', function (e) {
+            const tudoPronto = Object.values(estadoCarregamento).every(v => v === true);
+            if (!tudoPronto) {
+                alert('Aguarde o carregamento completo dos dados antes de imprimir.');
+            }
+        });
+
+        // Timeout de segurança: libera o overlay com mensagem de erro caso algo trave
+        setTimeout(function () {
+            const overlay = document.getElementById('overlay-carregando');
+            if (overlay && overlay.style.display !== 'none') {
+                document.getElementById('status-carregamento').textContent =
+                    'Carregamento incompleto.';
+                atualizarStatus('Recarregue a página ou verifique a conexão. Pendente: ' +
+                    Object.entries(estadoCarregamento)
+                        .filter(([_, v]) => v === false)
+                        .map(([k]) => k)
+                        .join(', '));
+            }
+        }, 30000);
+
+        // ============================================================
+        // CÓDIGO ORIGINAL
+        // ============================================================
+
         // Data atual
         const hoje = new Date();
 
-        // Formata a data como "dia/mês/ano"
         const dataFormatada = hoje.getDate().toString().padStart(2, '0') + '/' +
             (hoje.getMonth() + 1).toString().padStart(2, '0') + '/' +
             hoje.getFullYear();
@@ -274,10 +394,8 @@
             dragging: false
         });
 
-        // Barra de escala
         L.control.scale({ position: "topright", imperial: false }).addTo(mapa);
 
-        // Indicação de norte
         let nortemapa = L.control({ position: 'topright' });
         nortemapa.onAdd = function () {
             let div = L.DomUtil.create('div', 'info2 legend');
@@ -286,19 +404,16 @@
         };
         nortemapa.addTo(mapa);
 
-        // Panes
         mapa.createPane('basePane');
         mapa.createPane('zonePane');
         mapa.getPane('basePane').style.zIndex = 200;
         mapa.getPane('zonePane').style.zIndex = 400;
 
-        // Mapa base (SMU)
         let basemap = L.esri.Vector.vectorTileLayer("7a110ef9198540068341e6908c6bf298", {
             portalUrl: "https://arcgis.itajai.sc.gov.br/portal",
             pane: 'basePane'
         }).addTo(mapa);
 
-        // Layer de zoneamento
         let zon2024 = new L.TileLayer(
             'https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/tiles/tiles_zoneamento_2024/{z}/{x}/{y}.jpg',
             {
@@ -994,68 +1109,79 @@
                 .where(inscricaowhereimovel)
                 .returnGeometry(false)
                 .run((error, fcol) => {
-                    document.getElementById('inscrImob').textContent = `Inscrição: ${fcol.features[0].properties.inscricao}`;
-                    document.getElementById('endereco').textContent = `${fcol.features[0].properties.nomevia}, ${fcol.features[0].properties.numero}`;
-                    document.getElementById('dataEmissao').textContent = `Data: ${dataFormatada}`;
+                    try {
+                        if (!error && fcol && fcol.features && fcol.features[0]) {
+                            document.getElementById('inscrImob').textContent = `Inscrição: ${fcol.features[0].properties.inscricao}`;
+                            document.getElementById('endereco').textContent = `${fcol.features[0].properties.nomevia}, ${fcol.features[0].properties.numero}`;
+                            document.getElementById('dataEmissao').textContent = `Data: ${dataFormatada}`;
+                        }
+                    } catch (e) {
+                        console.error('Erro no cadastro:', e);
+                    } finally {
+                        estadoCarregamento.cadastro = true;
+                        verificarCarregamentoCompleto();
+                    }
                 });
 
             // Consulta dados de zoneamento e desenha no mapa
             classzoneamento
                 .where(inscricaowhereimovel)
                 .run((error, fcol) => {
-                    let proprLote = fcol.features[0].properties;                    
+                    try {
+                        let proprLote = fcol.features[0].properties;
 
-                    if (proprLote['conflito'] == 'n' || proprLote['conflito'] == 's') {
-                        let zonasArray = proprLote.nzonaslista.split(", ").map(z => z.trim());
+                        // Se houver conflito, marca pendência da terceira chamada
+                        if (proprLote['conflito'] == 's') {
+                            estadoCarregamento.sobreposicoes = false;
+                        }
 
-                        let zonasLote = Object.keys(tabelaZon)
-                            .filter(chave => zonasArray.includes(chave))
-                            .reduce((obj, chave) => {
-                                obj[chave] = tabelaZon[chave];
-                                return obj;
-                            }, {});
+                        if (proprLote['conflito'] == 'n' || proprLote['conflito'] == 's') {
+                            let zonasArray = proprLote.nzonaslista.split(", ").map(z => z.trim());
 
-                        (function () {
-                            Object.keys(zonasLote).forEach(zona => {
-                                let zonaMin = zona.toLowerCase();
+                            let zonasLote = Object.keys(tabelaZon)
+                                .filter(chave => zonasArray.includes(chave))
+                                .reduce((obj, chave) => {
+                                    obj[chave] = tabelaZon[chave];
+                                    return obj;
+                                }, {});
 
-                                // Verifica se a propriedade da zona existe
-                                if (proprLote[zonaMin] !== undefined) {
-
-                                    // Se houver conflito, exibe '---', caso contrário, exibe a área
-                                    if (proprLote['conflito'] == 's') {
-                                        zonasLote[zona]['areaZona'] = '---';
-                                    } else {
-                                        zonasLote[zona]['areaZona'] = `${proprLote[zonaMin]}m²`;
+                            (function () {
+                                Object.keys(zonasLote).forEach(zona => {
+                                    let zonaMin = zona.toLowerCase();
+                                    if (proprLote[zonaMin] !== undefined) {
+                                        if (proprLote['conflito'] == 's') {
+                                            zonasLote[zona]['areaZona'] = '---';
+                                        } else {
+                                            zonasLote[zona]['areaZona'] = `${proprLote[zonaMin]}m²`;
+                                        }
                                     }
-                                }
-                            });
-                        })();
+                                });
+                            })();
 
-                        function criarTabelaZonas(zonas) {
-                            const descricoes = {
-                                areaZona: "área(estimada)",
-                                usos_permitidos: '<div title="-H1: Hab.Unifamiliar, -H2: Hab.Multifamiliar, -CO: Comunitário, -CS: Comércio e Serviço, -CS1: até 200m², -CS2: até 750m², -CS3: >1000m², -I: Industrial, -CSA: Agropecuário, -CSMV: Extrativista, -CSE: Uso Específico"><strong>Usos Permitidos</strong></div>',
-                                usos_permissiveis: '<div title="Mesma legenda acima"><strong>Usos Permissíveis</strong></div>',
-                                usos_proibidos: '<div title="Mesma legenda acima"><strong>Usos Proibidos</strong></div>',
-                                altura_max: "<strong>Altura Máxima</strong><br>Ao norte da Av. Adolfo Konder,<br>Heitor Liberato e Rua Silva,<br>máx. 55m salvo COMAER.",
-                                altura_emb: '<div title="Art.125 do plano diretor"><strong>Alt.Máx.Emb.</strong></div>',
-                                ca_basico: "<strong>Coef. de Aprovet. Básico</strong>",
-                                ca_total: "<strong>Coef. c/ Outorga</strong>",
-                                fator_contr: "<strong>Fator de Contribuição</strong>",
-                                transf_ind: "<strong>Transferência de Índice</strong>",
-                                to_base: "<strong>Taxa de Ocup. da Base</strong>",
-                                to_torre: "<strong>Taxa de Ocup. da Torre</strong>",
-                                permeab: "<strong>Taxa de Permeabilidade</strong>",
-                                recuo_emb: "<strong>Recuo do Embasamento</strong>",
-                                recuo_f_torre: "<strong>Recuo Frontal Torre</strong>",
-                                recuo_l_f_torre: "<strong>Recuo Lateral e<br>Fundos Torre</strong>",
-                                lote_min: "<strong>Lote Mínimo</strong>",
-                                test_min: "<strong>Testada Mínima</strong>",
-                                prof_min: "<strong>Profundidade Mínima</strong>"
-                            };
+                            function criarTabelaZonas(zonas) {
+                                const descricoes = {
+                                    areaZona: "área(estimada)",
+                                    usos_permitidos: '<div title="-H1: Hab.Unifamiliar, -H2: Hab.Multifamiliar, -CO: Comunitário, -CS: Comércio e Serviço, -CS1: até 200m², -CS2: até 750m², -CS3: >1000m², -I: Industrial, -CSA: Agropecuário, -CSMV: Extrativista, -CSE: Uso Específico"><strong>Usos Permitidos</strong></div>',
+                                    usos_permissiveis: '<div title="Mesma legenda acima"><strong>Usos Permissíveis</strong></div>',
+                                    usos_proibidos: '<div title="Mesma legenda acima"><strong>Usos Proibidos</strong></div>',
+                                    altura_max: "<strong>Altura Máxima</strong><br>Ao norte da Av. Adolfo Konder,<br>Heitor Liberato e Rua Silva,<br>máx. 55m salvo COMAER.",
+                                    altura_emb: '<div title="Art.125 do plano diretor"><strong>Alt.Máx.Emb.</strong></div>',
+                                    ca_basico: "<strong>Coef. de Aprovet. Básico</strong>",
+                                    ca_total: "<strong>Coef. c/ Outorga</strong>",
+                                    fator_contr: "<strong>Fator de Contribuição</strong>",
+                                    transf_ind: "<strong>Transferência de Índice</strong>",
+                                    to_base: "<strong>Taxa de Ocup. da Base</strong>",
+                                    to_torre: "<strong>Taxa de Ocup. da Torre</strong>",
+                                    permeab: "<strong>Taxa de Permeabilidade</strong>",
+                                    recuo_emb: "<strong>Recuo do Embasamento</strong>",
+                                    recuo_f_torre: "<strong>Recuo Frontal Torre</strong>",
+                                    recuo_l_f_torre: "<strong>Recuo Lateral e<br>Fundos Torre</strong>",
+                                    lote_min: "<strong>Lote Mínimo</strong>",
+                                    test_min: "<strong>Testada Mínima</strong>",
+                                    prof_min: "<strong>Profundidade Mínima</strong>"
+                                };
 
-                            let css = `<style>
+                                let css = `<style>
                 #tabelaZonas {
                   display: block;
                   width: 200mm;
@@ -1098,224 +1224,212 @@
                 }
               </style>`;
 
-                            let tabela = "<table><thead><tr><th>Nome Zona</th>";
-                            Object.keys(zonas).forEach(z => { tabela += `<th>${z}</th>`; });
-                            tabela += "</tr></thead><tbody>";
+                                let tabela = "<table><thead><tr><th>Nome Zona</th>";
+                                Object.keys(zonas).forEach(z => { tabela += `<th>${z}</th>`; });
+                                tabela += "</tr></thead><tbody>";
 
-                            Object.keys(descricoes).forEach(ch => {
-                                tabela += `<tr>`;
-                                tabela += `<td>${descricoes[ch]}</td>`;
-                                Object.keys(zonas).forEach(z => {
-                                    let valor = zonas[z][ch] || '';
-                                    tabela += `<td>${valor}</td>`;
+                                Object.keys(descricoes).forEach(ch => {
+                                    tabela += `<tr>`;
+                                    tabela += `<td>${descricoes[ch]}</td>`;
+                                    Object.keys(zonas).forEach(z => {
+                                        let valor = zonas[z][ch] || '';
+                                        tabela += `<td>${valor}</td>`;
+                                    });
+                                    tabela += `</tr>`;
                                 });
-                                tabela += `</tr>`;
-                            });
 
-                            tabela += "</tbody></table>";
-                            document.getElementById('tabelaZonas').innerHTML = css + tabela;
-                        }
-
-                        criarTabelaZonas(zonasLote);
-
-                        // --- CÓDIGO ATUALIZADO: Adiciona polígono do lote principal e verifica sobreposições ---
-
-                        // 1. Adiciona o polígono principal
-                        let geomPrincipal = fcol.features[0];
-
-                        let layerPrincipal = L.geoJson(geomPrincipal, {
-                            style: {
-                                weight: 5,
-                                color: '#666',
-                                fillOpacity: 0.7,
-                                interactive: false
+                                tabela += "</tbody></table>";
+                                document.getElementById('tabelaZonas').innerHTML = css + tabela;
                             }
-                        }).addTo(plantaCadastralDestaque);
 
-                        // 2. Ajusta o zoom focado APENAS no lote principal
-                        let zoomIdealMenosUm = mapa.getBoundsZoom(plantaCadastralDestaque.getBounds()) - 1;
-                        let maxZoomAplicado = Math.min(zoomIdealMenosUm, 19);
-                        mapa.flyToBounds(plantaCadastralDestaque.getBounds(), { maxZoom: maxZoomAplicado });
+                            criarTabelaZonas(zonasLote);
 
-                        // 3. Verifica e desenha sobreposições > 30m² usando Turf.js
-                        if (proprLote['conflito'] == 's') {
+                            // 1. Adiciona o polígono principal
+                            let geomPrincipal = fcol.features[0];
 
-                            let idPrincipal = geomPrincipal.properties.inscricao;
-
-                            // Cria uma NOVA query na camada de imóveis (malha)
-                            // IMPORTANTE: Solicitamos explicitamente as feições que INTERSECTAM a geometria do lote principal
-                            L.esri.query({
-                                url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/malhacrs3857/FeatureServer/0/'
-                            })
-                                .intersects(geomPrincipal) // Aqui acontece a mágica no servidor Esri
-                                .run((erro, vizinhos) => {
-                                    if (erro) {
-                                        console.error("Erro na consulta espacial:", erro);
-                                        return;
-                                    }
-
-                                    if (vizinhos && vizinhos.features) {
-                                        vizinhos.features.forEach(vizinho => {
-                                            // Ignora o próprio lote
-                                            if (vizinho.properties.inscricao === idPrincipal) return;
-
-                                            try {
-                                                // Calcula a interseção exata usando Turf.js (refinamento client-side)
-                                                let interseccao = turf.intersect(geomPrincipal, vizinho);
-
-                                                if (interseccao) {
-                                                    // Calcula a área da interseção em metros quadrados
-                                                    let areaSobreposta = turf.area(interseccao);
-
-                                                    // Se for maior que 30m², desenha no mapa
-                                                    if (areaSobreposta > 30) {
-                                                        //console.log("Sobreposição detectada:", areaSobreposta, "m² com", vizinho.properties.inscricao);
-                                                        L.geoJson(vizinho, {
-                                                            style: {
-                                                                color: 'red',       // Cor de alerta
-                                                                weight: 3,          // Espessura
-                                                                dashArray: '10, 5', // Linha tracejada
-                                                                fill: false,        // Vazado (sem preenchimento)
-                                                                opacity: 1
-                                                            },
-                                                            interactive: false
-                                                        }).addTo(mapa);
-                                                    }
-                                                }
-                                            } catch (e) {
-                                                console.log("Erro ao calcular geometria turf:", e);
-                                            }
-                                        });
-                                    }
-                                });
-                        }
-
-                        // --- FIM DO CÓDIGO ATUALIZADO ---
-
-                        // Monta a pauta viária
-                        (function () {
-                            let itens = [];
-                            let chaves = new Set();
-
-                            for (let i = 1; i <= 6; i++) {
-                                let nome = proprLote[`t${i}nome`];
-                                let largura = proprLote[`t${i}largura`];
-                                let passeiod = proprLote[`t${i}passeiod`];
-                                let passeioe = proprLote[`t${i}passeioe`];
-
-                                if (!nome) continue;
-
-                                let chave = `${nome}|${largura}|${passeiod}|${passeioe}`;
-                                if (chaves.has(chave)) continue;
-                                chaves.add(chave);
-
-                                let item = '';
-                                // Caso rodovia ou marginal: mensagem especial no lugar do item
-                                if (nome.startsWith("Rod.") || nome.includes("Marginal")) {
-                                    item = "&#x2713; Rodovia verificar confrontantes Secretaria de Estado da Infraestrutura e Mobilidade ou Arteris Litoral Sul";
-                                } else if (largura == null || largura === 0 || largura === "0" ||
-                                    passeiod == null || passeiod === 0 || passeiod === "0" ||
-                                    passeioe == null || passeioe === 0 || passeioe === "0") {
-                                    item = `<strong>${nome}</strong>-Cx.da via: Consultar pauta junto a SEDUH`;
-                                } else {
-                                    item = `<strong>${nome}</strong>-Cx.da via:${largura}-Passeios:${passeiod}/${passeioe}`;
+                            let layerPrincipal = L.geoJson(geomPrincipal, {
+                                style: {
+                                    weight: 5,
+                                    color: '#666',
+                                    fillOpacity: 0.7,
+                                    interactive: false
                                 }
-                                itens.push(item);
+                            }).addTo(plantaCadastralDestaque);
+
+                            // 2. Ajusta o zoom focado APENAS no lote principal
+                            let zoomIdealMenosUm = mapa.getBoundsZoom(plantaCadastralDestaque.getBounds()) - 1;
+                            let maxZoomAplicado = Math.min(zoomIdealMenosUm, 19);
+                            mapa.flyToBounds(plantaCadastralDestaque.getBounds(), { maxZoom: maxZoomAplicado });
+
+                            // 3. Verifica sobreposições > 30m²
+                            if (proprLote['conflito'] == 's') {
+                                let idPrincipal = geomPrincipal.properties.inscricao;
+
+                                L.esri.query({
+                                    url: 'https://arcgis.itajai.sc.gov.br/server/rest/services/malhacrs3857/FeatureServer/0/'
+                                })
+                                    .intersects(geomPrincipal)
+                                    .run((erro, vizinhos) => {
+                                        try {
+                                            if (erro) {
+                                                console.error("Erro na consulta espacial:", erro);
+                                                return;
+                                            }
+
+                                            if (vizinhos && vizinhos.features) {
+                                                vizinhos.features.forEach(vizinho => {
+                                                    if (vizinho.properties.inscricao === idPrincipal) return;
+
+                                                    try {
+                                                        let interseccao = turf.intersect(geomPrincipal, vizinho);
+                                                        if (interseccao) {
+                                                            let areaSobreposta = turf.area(interseccao);
+                                                            if (areaSobreposta > 30) {
+                                                                L.geoJson(vizinho, {
+                                                                    style: {
+                                                                        color: 'red',
+                                                                        weight: 3,
+                                                                        dashArray: '10, 5',
+                                                                        fill: false,
+                                                                        opacity: 1
+                                                                    },
+                                                                    interactive: false
+                                                                }).addTo(mapa);
+                                                            }
+                                                        }
+                                                    } catch (e) {
+                                                        console.log("Erro ao calcular geometria turf:", e);
+                                                    }
+                                                });
+                                            }
+                                        } finally {
+                                            estadoCarregamento.sobreposicoes = true;
+                                            verificarCarregamentoCompleto();
+                                        }
+                                    });
                             }
 
-                            let conteudo = '';
-                            if (itens.length === 0) {
-                                conteudo = "&#x2713; Verificar confrontantes com a Secretaria de Urbanismo";
-                            } else {
-                                for (let i = 0; i < itens.length; i++) {
-                                    conteudo += itens[i];
-                                    if (i < itens.length - 1) {
-                                        conteudo += ', ';
-                                        if ((i + 1) % 2 === 0) {
-                                            conteudo += '<br>';
+                            // Monta a pauta viária
+                            (function () {
+                                let itens = [];
+                                let chaves = new Set();
+
+                                for (let i = 1; i <= 6; i++) {
+                                    let nome = proprLote[`t${i}nome`];
+                                    let largura = proprLote[`t${i}largura`];
+                                    let passeiod = proprLote[`t${i}passeiod`];
+                                    let passeioe = proprLote[`t${i}passeioe`];
+
+                                    if (!nome) continue;
+
+                                    let chave = `${nome}|${largura}|${passeiod}|${passeioe}`;
+                                    if (chaves.has(chave)) continue;
+                                    chaves.add(chave);
+
+                                    let item = '';
+                                    if (nome.startsWith("Rod.") || nome.includes("Marginal")) {
+                                        item = "&#x2713; Rodovia verificar confrontantes Secretaria de Estado da Infraestrutura e Mobilidade ou Arteris Litoral Sul";
+                                    } else if (largura == null || largura === 0 || largura === "0" ||
+                                        passeiod == null || passeiod === 0 || passeiod === "0" ||
+                                        passeioe == null || passeioe === 0 || passeioe === "0") {
+                                        item = `<strong>${nome}</strong>-Cx.da via: Consultar pauta junto a SEDUH`;
+                                    } else {
+                                        item = `<strong>${nome}</strong>-Cx.da via:${largura}-Passeios:${passeiod}/${passeioe}`;
+                                    }
+                                    itens.push(item);
+                                }
+
+                                let conteudo = '';
+                                if (itens.length === 0) {
+                                    conteudo = "&#x2713; Verificar confrontantes com a Secretaria de Urbanismo";
+                                } else {
+                                    for (let i = 0; i < itens.length; i++) {
+                                        conteudo += itens[i];
+                                        if (i < itens.length - 1) {
+                                            conteudo += ', ';
+                                            if ((i + 1) % 2 === 0) {
+                                                conteudo += '<br>';
+                                            }
                                         }
                                     }
                                 }
+
+                                document.getElementById('pauta').innerHTML = conteudo;
+                            })();
+
+                            // Observações específicas
+                            if (proprLote.ambiental.length == 0) {
+                                document.getElementById('ambiental').innerHTML = 'Com base nos dados geoespaciais do Levantamento Aerofotogramétrico do Estado de Santa Catarina (SDS, 2013), realizado na escala 1:10.000, NÃO incide neste lote a restrição ambiental de Área de Preservação Permanente (APP), conforme definição estabelecida pela Lei Federal n.º 12.651/2012';
+                            } else {
+                                document.getElementById('ambiental').innerHTML = 'Em atenção a determinação contida em Ação Civil Pública ajuizada pelo Ministério Público Federal e confirmada por Apelação Cívil na qual determinou que a Celesc se abstivesse de promover a instalação de energia elétrica nas Áreas de Preservação Permanente e, com base nos dados geoespaciais do Levantamento Aerofotogramétrico do Estado de Santa Catarina (SDS, 2013), realizado na escala 1:10.000, informa-se que <strong>INCIDE, neste lote, a restrição ambiental de Área de Preservação Permanente (APP), conforme definição estabelecida pela Lei Federal n.º 12.651/2012.</strong>';
                             }
-
-                            document.getElementById('pauta').innerHTML = conteudo;
-                        })();
-
-                        // Observações específicas                        
-                        if (proprLote.ambiental.length == 0) {
-                            document.getElementById('ambiental').innerHTML = 'Com base nos dados geoespaciais do Levantamento Aerofotogramétrico do Estado de Santa Catarina (SDS, 2013), realizado na escala 1:10.000, NÃO incide neste lote a restrição ambiental de Área de Preservação Permanente (APP), conforme definição estabelecida pela Lei Federal n.º 12.651/2012';
-                        } else {
-                            document.getElementById('ambiental').innerHTML = 'Em atenção a determinação contida em Ação Civil Pública ajuizada pelo Ministério Público Federal e confirmada por Apelação Cívil na qual determinou que a Celesc se abstivesse de promover a instalação de energia elétrica nas Áreas de Preservação Permanente e, com base nos dados geoespaciais do Levantamento Aerofotogramétrico do Estado de Santa Catarina (SDS, 2013), realizado na escala 1:10.000, informa-se que <strong>INCIDE, neste lote, a restrição ambiental de Área de Preservação Permanente (APP), conforme definição estabelecida pela Lei Federal n.º 12.651/2012.</strong>';
+                            if (proprLote.nzonaslista.includes('ZCA3')) {
+                                document.getElementById('obs1').innerHTML = '<hr> &#x2713; Somente poderão utilizar os parâmetros urbanísticos de ZCA3 os empreendimentos com caixa de via >= 9m; caso contrário, prevalecem ZCA2.';
+                            }
+                            if (proprLote.nzonaslista.includes('ZCA1')) {
+                                document.getElementById('obs5').innerHTML = '<hr> &#x2713; §1º Na Rua Samuel Heusi Jr, alturas >7,40m exigem recuo de 2m da calçada. §2º Nos lotes adjacentes à Igreja Santa Terezinha, altura máx. de 7,40m e aprovação no CMPAT.';
+                            }
+                            if (proprLote.nzonaslista.includes('ZRP2')) {
+                                document.getElementById('obs6').innerHTML = '<hr> &#x2713; §1º Lotes da ZI entre a Av.Itaipava e Rod.A.Heil podem usar índices da ZRP2 ou ZI. §2º Áreas do Rio do Meio, ZRP2, podem usar ZRP2 ou ZI.';
+                            }
+                            if (proprLote.nzonaslista.includes('ZI')) {
+                                document.getElementById('obs7').innerHTML = '<hr> &#x2713; Usos pré-existentes residenciais podem conviver com a ZI, permitidas novas construções até 250m².';
+                            }
+                            if (proprLote.nzonaslista.includes('ZBS3') || proprLote.nzonaslista.includes('ZBS4')) {
+                                document.getElementById('obs2').innerHTML = '<hr> &#x2713; Em ZBS3 e ZBS4, asteriscos de altura máxima referem-se a terrenos >3000m².';
+                            }
+                            if (proprLote.nzonaslista.includes('ZBS5') || proprLote.nzonaslista.includes('ZBS6') || proprLote.nzonaslista.includes('ZBP')) {
+                                document.getElementById('obs3').innerHTML = '<hr> &#x2713; Em ZBS5, ZBS6 e ZBP, maiores alturas podem envolver transferência de índice.';
+                            }
+                            if (proprLote.nzonaslista.includes('ZBS5') || proprLote.nzonaslista.includes('ZMC3')) {
+                                document.getElementById('obs4').innerHTML = '<hr> &#x2713; Art.73 §3º A ZMC3 entre Av.Luci Canziani e Morro Cortado depende de cessão de área p/Parque da Lagoa Cassino; se não, ZBP.';
+                            }
+                            if (proprLote.sobrezon !== "") {
+                                document.getElementById('sobrezoneamento').innerHTML = `<hr> &#x2713; Lote sob o Sobrezoneamento ${proprLote.sobrezon}`;
+                            }
+                            if (proprLote.aerodromo == "s") {
+                                document.getElementById('aerodromo').innerHTML = `<hr> &#x2713;<span style="font-size:smaller; font-weight:bold; color:red">§ 6º, art. 78, LC 449/2024 Independente da demarcação do zoneamento da região do Aeródromo Itajaí Campo Comandantes, deverá ser considerada Zona de Transição Paisagística (ZTP) e/ou Industriais (ZI), definida por um raio de 3,5 Km, medido a partir do eixo da pista de pouso e decolagem do Aeródromo, respeitadas as zonas de proteção, conforme legislação específica e Plano Básico de Zona de Proteção do Espaço Aéreo.(para consulta aos parâmetros da ZTP - Zona de Transição Paisagística consultar tabela zoneamento: <a href="https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/tabelas_ztp_zi.html" target="_blank" style="color:red; text-decoration:underline; font-size:larger;">CLIQUE PARA ABRIR TABELA ZONAS ZI E ZTP</a> Anexo 2 da LC 449/2024)${proprLote.sobrezon}</span>`;
+                            }
+                            if (proprLote.sobrezon == "Centro Histórico") {
+                                document.getElementById('sobrezHist').innerHTML = "§ 8º No Centro Histórico a taxa de ocupação do embasamento pode chegar a 100%. Se preservar fachada histórica, pode chegar a 75% de torre + CA acrescido 0.5.";
+                            }
+                            if (proprLote.conflito == "s") {
+                                document.getElementById('obsconflito').innerHTML = `<hr> &#x2713; <strong style="text-decoration: underline; text-transform: uppercase; font-size: 1.2em;">Planta cadastral com inconsistências de confrontantes e ou delimitações.</strong> As áreas representadas podem apresentar interferências decorrentes de sobreposição de matrículas ou de outros processos que incidem sobre seus limites.`;
+                            }
+                            if (
+                                proprLote.edhist === "1" ||
+                                proprLote.edhist === 1 ||
+                                proprLote.edhist === "-1" ||
+                                proprLote.edhist === -1 ||
+                                proprLote.sobrezon === "Centro Histórico"
+                            ) {
+                                document.getElementById('patrimonioHistorico').innerHTML = "<hr> &#x2713; Entorno de Patrimônio Histórico, solicitar parecer do CMPAT (<strong>cmpatrimonioitajai@gmail.com</strong>)";
+                            }
+                            if (proprLote.interven == "1" || proprLote.interven == "-1") {
+                                document.getElementById('intervViaria').innerHTML = "<hr> &#x2713; Solicitar parecer da Diretoria de Mobilidade, Secr. Desenv. Urbano e Hab. Acesse " +
+                                    "<a href='https://itajai.aprova.com.br' target='_blank'>" +
+                                    "<strong>APROVA DIGITAL</strong>" +
+                                    "</a>, item 07 - Parecer Técnico Dir.de Mob.para CONSULTAS PRÉVIAS.";
+                            }
+                            if (proprLote.esgoto == "1" || proprLote.esgoto == "-1") {
+                                document.getElementById('esgoto').innerHTML = `<hr> &#x2713; Lote com potencial para ligação na rede de esgoto. Consulte <a href="https://semasaitajai.com.br/?modo=publicacao&tipo=noticia&codigo=2449" target="_blank">SEMASA</a> e <a href="https://arcgis.itajai.sc.gov.br/portal/apps/webappviewer/index.html?id=b61494c7c5274f4bb7d45af523709c3f" target="_blank">MAPA REDE ESGOTO</a>.`;
+                            } else {
+                                document.getElementById('esgoto').innerHTML = `<hr> Lote não habilitado para rede de esgoto. Consulte <a href="https://semasaitajai.com.br/?modo=publicacao&tipo=noticia&codigo=2449" target="_blank">SEMASA</a> e <a href="https://arcgis.itajai.sc.gov.br/portal/apps/webappviewer/index.html?id=b61494c7c5274f4bb7d45af523709c3f" target="_blank">MAPA REDE ESGOTO</a>.`;
+                            }
                         }
-                        if (proprLote.nzonaslista.includes('ZCA3')) {
-                            document.getElementById('obs1').innerHTML = '<hr> &#x2713; Somente poderão utilizar os parâmetros urbanísticos de ZCA3 os empreendimentos com caixa de via >= 9m; caso contrário, prevalecem ZCA2.';
+                        else if (proprLote['conflito'] == 'caucionado') {
+                            document.getElementById('tabelaZonas').innerHTML = '<br><strong>LOTE CAUCIONADO,<br>PROCURAR A SECRETARIA MUNICIPAL DE DESENVOLVIMENTO URBANO E HABITAÇÃO</strong>';
+                            document.getElementById('mapa').innerHTML = '';
                         }
-                        if (proprLote.nzonaslista.includes('ZCA1')) {
-                            document.getElementById('obs5').innerHTML = '<hr> &#x2713; §1º Na Rua Samuel Heusi Jr, alturas >7,40m exigem recuo de 2m da calçada. §2º Nos lotes adjacentes à Igreja Santa Terezinha, altura máx. de 7,40m e aprovação no CMPAT.';
+                        else {
+                            document.getElementById('tabelaZonas').innerHTML = '<br><strong>' + proprLote['conflito'] + '</strong>';
+                            document.getElementById('mapa').innerHTML = '';
                         }
-                        if (proprLote.nzonaslista.includes('ZRP2')) {
-                            document.getElementById('obs6').innerHTML = '<hr> &#x2713; §1º Lotes da ZI entre a Av.Itaipava e Rod.A.Heil podem usar índices da ZRP2 ou ZI. §2º Áreas do Rio do Meio, ZRP2, podem usar ZRP2 ou ZI.';
-                        }
-                        if (proprLote.nzonaslista.includes('ZI')) {
-                            document.getElementById('obs7').innerHTML = '<hr> &#x2713; Usos pré-existentes residenciais podem conviver com a ZI, permitidas novas construções até 250m².';
-                        }
-                        if (proprLote.nzonaslista.includes('ZBS3') || proprLote.nzonaslista.includes('ZBS4')) {
-                            document.getElementById('obs2').innerHTML = '<hr> &#x2713; Em ZBS3 e ZBS4, asteriscos de altura máxima referem-se a terrenos >3000m².';
-                        }
-                        if (proprLote.nzonaslista.includes('ZBS5') || proprLote.nzonaslista.includes('ZBS6') || proprLote.nzonaslista.includes('ZBP')) {
-                            document.getElementById('obs3').innerHTML = '<hr> &#x2713; Em ZBS5, ZBS6 e ZBP, maiores alturas podem envolver transferência de índice.';
-                        }
-                        if (proprLote.nzonaslista.includes('ZBS5') || proprLote.nzonaslista.includes('ZMC3')) {
-                            document.getElementById('obs4').innerHTML = '<hr> &#x2713; Art.73 §3º A ZMC3 entre Av.Luci Canziani e Morro Cortado depende de cessão de área p/Parque da Lagoa Cassino; se não, ZBP.';
-                        }
-                        if (proprLote.sobrezon !== "") {
-                            document.getElementById('sobrezoneamento').innerHTML = `<hr> &#x2713; Lote sob o Sobrezoneamento ${proprLote.sobrezon}`;
-                        }
-                        if (proprLote.aerodromo == "s") {
-                            document.getElementById('aerodromo').innerHTML = `<hr> &#x2713;<span style="font-size:smaller; font-weight:bold; color:red">§ 6º, art. 78, LC 449/2024 Independente da demarcação do zoneamento da região do Aeródromo Itajaí Campo Comandantes, deverá ser considerada Zona de Transição Paisagística (ZTP) e/ou Industriais (ZI), definida por um raio de 3,5 Km, medido a partir do eixo da pista de pouso e decolagem do Aeródromo, respeitadas as zonas de proteção, conforme legislação específica e Plano Básico de Zona de Proteção do Espaço Aéreo.(para consulta aos parâmetros da ZTP - Zona de Transição Paisagística consultar tabela zoneamento: <a href="https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/tabelas_ztp_zi.html" target="_blank" style="color:red; text-decoration:underline; font-size:larger;">CLIQUE PARA ABRIR TABELA ZONAS ZI E ZTP</a> Anexo 2 da LC 449/2024)${proprLote.sobrezon}</span>`;
-                        }
-                        if (proprLote.sobrezon == "Centro Histórico") {
-                            document.getElementById('sobrezHist').innerHTML = "§ 8º No Centro Histórico a taxa de ocupação do embasamento pode chegar a 100%. Se preservar fachada histórica, pode chegar a 75% de torre + CA acrescido 0.5.";
-                        }
-                        if (proprLote.conflito == "s") {
-                            document.getElementById('obsconflito').innerHTML = `<hr> &#x2713; <strong style="text-decoration: underline; text-transform: uppercase; font-size: 1.2em;">Planta cadastral com inconsistências de confrontantes e ou delimitações.</strong> As áreas representadas podem apresentar interferências decorrentes de sobreposição de matrículas ou de outros processos que incidem sobre seus limites.`;
-                        }
-                        if (
-                            proprLote.edhist === "1" ||
-                            proprLote.edhist === 1 ||
-                            proprLote.edhist === "-1" ||
-                            proprLote.edhist === -1 ||
-                            proprLote.sobrezon === "Centro Histórico"
-                        ) {
-                            document.getElementById('patrimonioHistorico').innerHTML = "<hr> &#x2713; Entorno de Patrimônio Histórico, solicitar parecer do CMPAT (<strong>cmpatrimonioitajai@gmail.com</strong>)";
-                        }
-                        if (proprLote.interven == "1" || proprLote.interven == "-1") {
-                            document.getElementById('intervViaria').innerHTML = "<hr> &#x2713; Solicitar parecer da Diretoria de Mobilidade, Secr. Desenv. Urbano e Hab. Acesse " +
-                                "<a href='https://itajai.aprova.com.br' target='_blank'>" +
-                                "<strong>APROVA DIGITAL</strong>" +
-                                "</a>, item 07 - Parecer Técnico Dir.de Mob.para CONSULTAS PRÉVIAS.";
-                        }
-                        // if (proprLote.lnpreamar == "-1") {
-                        //     document.getElementById('lnpreamar').innerHTML = "<hr> &#x2713; LOTE EM TERRENO DE MARINHA, necessário autorização da SPU e parecer IBAMA.";
-                        // }
-                        console.log(proprLote.esgoto) 
-                        if (proprLote.esgoto == "1" || proprLote.esgoto == "-1") {
-                            document.getElementById('esgoto').innerHTML = `<hr> &#x2713; Lote com potencial para ligação na rede de esgoto. Consulte <a href="https://semasaitajai.com.br/?modo=publicacao&tipo=noticia&codigo=2449" target="_blank">SEMASA</a> e <a href="https://arcgis.itajai.sc.gov.br/portal/apps/webappviewer/index.html?id=b61494c7c5274f4bb7d45af523709c3f" target="_blank">MAPA REDE ESGOTO</a>.`;
-                        } else {
-                            document.getElementById('esgoto').innerHTML = `<hr> Lote não habilitado para rede de esgoto. Consulte <a href="https://semasaitajai.com.br/?modo=publicacao&tipo=noticia&codigo=2449" target="_blank">SEMASA</a> e <a href="https://arcgis.itajai.sc.gov.br/portal/apps/webappviewer/index.html?id=b61494c7c5274f4bb7d45af523709c3f" target="_blank">MAPA REDE ESGOTO</a>.`;
-                        }
-                    }
-                    else if (proprLote['conflito'] == 'caucionado') {
-                        document.getElementById('tabelaZonas').innerHTML = '<br><strong>LOTE CAUCIONADO,<br>PROCURAR A SECRETARIA MUNICIPAL DE DESENVOLVIMENTO URBANO E HABITAÇÃO</strong>';
-                        document.getElementById('mapa').innerHTML = '';
-                    }
-                    /* else if (proprLote['conflito'] == 's') {
-                        document.getElementById('tabelaZonas').innerHTML = '<br><strong>CONFLITO CONFRONTANTES,<br>PROCURAR A SECRETARIA MUNICIPAL DE DESENVOLVIMENTO URBANO E HABITAÇÃO</strong>';
-                        document.getElementById('mapa').innerHTML = '';
-                    } */
-                    else {
-                        document.getElementById('tabelaZonas').innerHTML = '<br><strong>' + proprLote['conflito'] + '</strong>';
-                        document.getElementById('mapa').innerHTML = '';
+                    } catch (e) {
+                        console.error('Erro no zoneamento:', e);
+                    } finally {
+                        estadoCarregamento.zoneamento = true;
+                        verificarCarregamentoCompleto();
                     }
                 });
         };
@@ -1324,6 +1438,10 @@
         if (window.location.hash.length > 1) {
             hashendereco(window.location.hash.split('#')[1]);
         } else {
+            // Sem hash, libera o overlay para não travar o usuário
+            estadoCarregamento.cadastro = true;
+            estadoCarregamento.zoneamento = true;
+            verificarCarregamentoCompleto();
             alert('http://plantacadastral.itajai.sc.gov.br/');
         }
     </script>
