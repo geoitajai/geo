@@ -462,10 +462,9 @@
             </div>
         </div>
 
-        <div class="footer-note">
-            Dados cadastrais para simples conferência dos dados de cada imóvel, sujeita a alterações sem aviso
-            prévio.<br>
-            NÃO CONSTITUI DIREITO DE PROPRIEDADE
+        <div style="text-align: center;">
+            Dados cadastrais para simples conferência dos dados de cada imóvel, sujeita a alterações sem aviso prévio.<br>
+            <strong>NÃO CONSTITUI DIREITO DE PROPRIEDADE - Vale como Certidão</strong>
         </div>
 
     </div>
@@ -629,7 +628,7 @@
         }
 
         // Função Preencher Formulario
-        function popularCampos(atributos) {            
+        function popularCampos(atributos) {
             if (atributos.aut_cartorio) {
                 atributos.aut_cartorio = atributos.aut_cartorio.replace(/OFICIO D[OE] REGISTRO DE IMOVEIS/i, 'RI');
             }
