@@ -5,6 +5,8 @@
   <meta charset="UTF-8">
   <title>Consulta de Indicações Fiscais de Confrontantes</title>
 
+  <script src="lib/qrcode/qrcode.min.js"></script>
+
   <script src="lib/leaflet/leaflet.js"></script>
   <link href="lib/leaflet/leaflet.css" rel="stylesheet">
   <script src="lib/leaflet/esri-leaflet.js"></script>
@@ -36,6 +38,33 @@
       page-break-after: always;
     }
 
+    /* Bloco superior: duas colunas lado a lado.
+       Esquerda concentra cabeçalho, título e texto com suas bordas.
+       Direita é reservada ao QR, sem bordas. */
+    .topo {
+      display: flex;
+      align-items: stretch;
+      border-bottom: 1px solid black;
+    }
+
+    .topo-esquerda {
+      flex: 1;
+      min-width: 0;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .topo-direita {
+      width: 38mm;
+      flex-shrink: 0;
+      border-left: 1px solid black;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 3mm;
+      box-sizing: border-box;
+    }
+
     .cabecalho {
       border-bottom: 1px solid black;
       padding: 5px 8px;
@@ -61,7 +90,6 @@
 
     .texto {
       padding: 4px 8px;
-      border-bottom: 1px solid black;
       font-size: 11px;
     }
 
@@ -71,6 +99,20 @@
       font-size: 11px;
       font-weight: bold;
       padding: 3px;
+    }
+
+    .qrcode-box {
+      width: 27mm;
+      height: 27mm;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .qrcode-box img,
+    .qrcode-box canvas {
+      width: 100% !important;
+      height: 100% !important;
     }
 
     .areaQuadro {
@@ -261,7 +303,6 @@
 
                     const cartVal = String(selecionado?.aut_cartorio || "");
 
-                    // Lógica para Cartório e Matrícula
                     if (matriculaFinal === "-") {
                       matriculaFinal = "--";
                       cartorioFinal = "--";
@@ -361,28 +402,45 @@
       const pagina = document.createElement("div");
       pagina.className = "pagina";
       pagina.innerHTML = `
-        <div class="cabecalho">
-          <div class="cabecalho-superior">
-            <div><img src="https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/images/brasao_muicipio.png" alt="Logo Itajaí"></div>
-            <div>
-              <b>PREFEITURA MUNICIPAL DE ITAJAÍ - SC</b><br>
-              Secretaria Municipal da Fazenda<br>
-              Departamento de Cadastro Técnico
+        <div class="topo">
+          <div class="topo-esquerda">
+            <div class="cabecalho">
+              <div class="cabecalho-superior">
+                <div><img src="https://arcgis.itajai.sc.gov.br/geoitajai/plantacadastral/images/brasao_muicipio.png" alt="Logo Itajaí"></div>
+                <div>
+                  <b>PREFEITURA MUNICIPAL DE ITAJAÍ - SC</b><br>
+                  Secretaria Municipal da Fazenda<br>
+                  Departamento de Cadastro Técnico
+                </div>
+                <div><b>Data:</b> ${new Date().toLocaleDateString("pt-BR")}</div>
+              </div>
             </div>
-            <div><b>Data:</b> ${new Date().toLocaleDateString("pt-BR")}</div>
+            <div class="titulo">CERTIDÃO DE CONFRONTANTES</div>
+            <div class="texto">
+              Consulta gerada nos termos da Ação Conjunta SEDUH - SEFAZ.<br>
+              Considera os dados da base cadastral georreferenciada na data de sua emissão.<br>
+              Os dados coletados têm finalidade tributária.<br>
+              O presente documento e suas informações não constituem prova de direito de propriedade.
+            </div>
           </div>
-        </div>
-        <div class="titulo">CERTIDÃO DE CONFRONTANTES</div>
-        <div class="texto">
-          Consulta gerada nos termos da Ação Conjunta SEDUH - SEFAZ.<br>
-          Considera os dados da base cadastral georreferenciada na data de sua emissão.<br>
-          Os dados coletados têm finalidade tributária.<br>
-          O presente documento e suas informações não constituem prova de direito de propriedade.
+          <div class="topo-direita">
+            <div id="qrcode_${indiceQuadro}" class="qrcode-box"></div>
+          </div>
         </div>
         <div class="rodape">CROQUI DE LOCALIZAÇÃO E CONFRONTANTES</div>
         <div class="areaQuadro" id="areaQuadro_${indiceQuadro}"></div>
       `;
       container.appendChild(pagina);
+
+      const qrEl = pagina.querySelector(`#qrcode_${indiceQuadro}`);
+      if (qrEl && typeof QRCode !== "undefined") {
+        new QRCode(qrEl, {
+          text: window.location.href,
+          width: 256,
+          height: 256,
+          correctLevel: QRCode.CorrectLevel.M
+        });
+      }
 
       const area = pagina.querySelector(`#areaQuadro_${indiceQuadro}`);
       const quadroDiv = document.createElement("div");

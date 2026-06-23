@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Informações Cadastro do Imóvel</title>
 
+    <script src="lib/qrcode/qrcode.min.js"></script>
+
     <script src="lib/leaflet/leaflet.js"></script>
     <link href="lib/leaflet/leaflet.css" rel="stylesheet">
 
@@ -148,7 +150,7 @@
         /* --- Estilos do Mapa --- */
         #mapa {
             width: 100%;
-            height: 120mm;
+            height: 100mm;
             background-color: #f0f0f0;
         }
 
@@ -206,9 +208,10 @@
                 <div>Rua Alberto Werner, 100, Vila Operária - 88304-053 - Itajaí/SC</div>
                 <div>Fone: (47) 341-6000</div>
                 <div>www.itajai.sc.gov.br/</div>
+                <div>Data: <span id="data-atual"></span></div>
             </div>
-            <div class="data-field">
-                Data: <span id="data-atual"></span>
+            <div class="data-field">                
+                <div id="qrcode" style="margin-top: 2mm; display: flex; justify-content: flex-end;"></div>
             </div>
         </div>
 
@@ -463,7 +466,8 @@
         </div>
 
         <div style="text-align: center;">
-            Dados cadastrais para simples conferência dos dados de cada imóvel, sujeita a alterações sem aviso prévio.<br>
+            Dados cadastrais para simples conferência dos dados de cada imóvel, sujeita a alterações sem aviso
+            prévio.<br>
             <strong>NÃO CONSTITUI DIREITO DE PROPRIEDADE - Vale como Certidão</strong>
         </div>
 
@@ -804,8 +808,20 @@
             }
         }
 
+        function gerarQRCode() {
+            const container = document.getElementById('qrcode');
+            if (!container) return;
+            new QRCode(container, {
+                text: window.location.href,
+                width: 80,
+                height: 80,
+                correctLevel: QRCode.CorrectLevel.M
+            });
+        }
+
         // Inicialização
         formatarDataAtual();
+        gerarQRCode();
 
         // Tratamento do Hash (Separador "c")
         if (window.location.hash.length > 1) {

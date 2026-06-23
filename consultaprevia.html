@@ -17,6 +17,8 @@
 
     <script src="https://unpkg.com/@turf/turf@6/turf.min.js"></script>
 
+    <script src="lib/qrcode/qrcode.min.js"></script>
+
     <style>
         @page {
             size: A4;
@@ -128,28 +130,41 @@
             border-left: 1px solid black;
         }
 
-        .espaco-direita::before {
-            content: "";
-            position: absolute;
-            left: 0;
-            bottom: 0.9cm;
-            width: 100%;
-            border-top: 1px solid black;
-        }
-
         .espaco-direita-superior {
-            height: 19cm;
+            height: 13cm;
         }
 
         .espaco-direita-inferior {
-            margin-left: 0.1cm;
-            height: 0.8cm;
+            height: auto;
+            flex: 1;
+            border-top: 1px solid black;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 0.2cm 0.1cm;
+            box-sizing: border-box;
         }
 
         #mapa {
             margin: 0.05cm;
-            height: 11cm;
+            height: 7cm;
             width: 4.8cm;
+        }
+
+        .qrcode-box {
+            width: 2.5cm;
+            height: 2.5cm;
+            margin-bottom: 0.1cm;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .qrcode-box img,
+        .qrcode-box canvas {
+            width: 100% !important;
+            height: 100% !important;
         }
 
         .leaflet-control-zoom a {
@@ -286,10 +301,12 @@
                 <div id="mapa"></div>
             </div>
             <div class="espaco-direita-inferior">
+                <div id="qrcode" class="qrcode-box"></div>
                 <center><strong>Atividades permissíveis deverão ser submetidas à análise da Secr. Municipal de Desenv.
                         Urbano e Habitação</strong></center>
             </div>
         </div>
+
     </div>
 
     <div class="linha linha4">
@@ -426,6 +443,18 @@
         zon2024.setZIndex(2000);
 
         let plantaCadastralDestaque = L.featureGroup().addTo(mapa);
+
+        (function gerarQRCode() {
+            const el = document.getElementById('qrcode');
+            if (el && typeof QRCode !== "undefined") {
+                new QRCode(el, {
+                    text: window.location.href,
+                    width: 256,
+                    height: 256,
+                    correctLevel: QRCode.CorrectLevel.M
+                });
+            }
+        })();
 
         // Tabela de parâmetros
         const tabelaZon = {
